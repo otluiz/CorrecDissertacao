@@ -1,0 +1,355 @@
+%[1]
+@article{Quadros2005,
+author = {Quadros, Claudia Irene De},
+journal = {Intercom},
+pages = {65--69},
+title = {{Dez Anos Depois do}},
+volume = {1995},
+year = {2005}
+}
+
+
+%[2]
+@article{BNDES2013,
+author = {BNDES},
+journal = {Perpectivas do Investimento 2014-2017},
+pages = {2},
+title = {{Perspectivas do investimento, n. 2, out. 2013}},
+year = {2013}
+}
+
+
+%[3]
+@article{Tomael2001,
+author = {Toma\'{e}l, Mi and Catarino, Me},
+issn = {1809-4783},
+journal = {Informa\c{c}\~{a}o \& \ldots},
+pages = {1--14},
+title = {{Avalia\c{c}\~{a}o de fontes de informa\c{c}\~{a}o na Internet: crit\'{e}rios de qualidade}},
+url = {http://periodicos.ufpb.br/ojs/index.php/ies/article/viewFile/293/216},
+year = {2001}
+}
+
+%[4]
+@article{Twitter2015,
+author = {J. Dorsey, E. Williams, B. Stone, and N. Glass},
+url = {https://pt.wikipedia.org/wiki/Twitter},
+title = {{Twitter}},
+month = {July},
+year = {2015}
+}
+
+%[5}
+@misc{Aranha2006,
+author = {Aranha, Christian and Passos, Emmanuel},
+title = {{A Tecnologia de Mineração de Textos}},
+booktitle = {RESI-Revista Eletrônica de Sistemas de Informação},
+doi = {10.5329/171},
+issn = {1677-3071},
+keywords = {Data minig,Intelligent information sysems, Mineração de dados,Mineração de textos,Sistemas de Informaçao Inteligentes,Text mining},
+number = {2},
+pages = {1--8},
+volume = {2},
+year = {2006}
+}
+
+%[6]
+@article{Crisp2000,
+author = {R. Wirth}, 
+title  = {CRISP-DM 1.0 – Step-by-step data mining guide},
+year = {2000}
+}
+
+%[7]
+@article{DecisionTree,
+author= {A. Srivastava, V. Katiyar and N. Singh},
+title = {Review of Decision Tree Algorithm: Big Data Analytics},
+journal={International Journal of Informative \& Futuristic Research},
+number = {10},
+pages = {3644--3654},
+volume = {2},
+year = {2015}
+}
+
+%[8]
+@article{DataMining,
+author= {J. Han, and M. Kamber},
+title = {Data Mining: Concepts and Techniques},
+publisher = {Elsevier, San Francisco},
+volume = {2 edition},
+year = {2006}
+}
+
+
+%[9]
+@article{DecisaoCredito,
+author = {West, D.},
+title  = {Neural network credit scoring models -- Computers and Operations Research},
+pages  = {1131 -- 1152},
+year   = {2000}
+}
+
+
+%[10]
+@article{RegrecaoLog,
+author    = { J. M, Hilbe},
+title     = {Logistic Regression Models},
+publisher = {{Chapman and Hall -- CRC Press}},
+year      = {2009}
+}
+
+%[11]
+@article{Amin2015a,
+author = {Amin, Adnan and Faisal, Rahim and Imtiaz, Ali and Changez, Khan and Anwar, Sajid},
+title = {{A Comparison of Two Oversampling Techniques (SMOTE vs MTDF) for Handling Class Imbalance Problem: A Case Study of Customer Churn Prediction}},
+doi = {10.1007/978-3-319-16486-1},
+isbn = {978-3-319-16485-4},
+keywords = {big data,stock prediction,text mining},
+pages = {215--225},
+url = {http://link.springer.com/10.1007/978-3-319-16486-1},
+volume = {353},
+year = {2015}
+}
+
+
+
+%[12]
+@article{TecnicaMineracao,
+author= {Goldschmidt, R; Passos, E; Bezerra, E. },
+title = {Data Mining: Conceitos, técnicas, algoritmos, orientações e aplicações}, 
+publisher = {Ed. Elsevier, São Paulo},
+volume = {2ª edição},
+year = {2015}
+}
+
+%[13]
+@article{ROC,
+author= {J. P. Egan},
+title = {Signal detection theory and ROC analysis},
+publisher= {New York, USA: Academic Press},
+year = {1975}
+}
+
+%[14]
+@article{MD_AM,
+url = {http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}
+}
+
+%[15]
+@article{Discriminativo,
+urlttp= {http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}
+}
+
+%[16]
+@article{DectionSignal,
+author= {D. Green and J. A. Swets}
+title = {Signal Detection Theory and Psychophysics}
+publisher= {Los Altos, USA: Peninsula Publishing},
+year = {1989}
+}
+
+%[17]
+@article{AvalClass,
+author= {R. C. Prati, G. E. A. P. A. Batista e M. C. Monard},
+title = {Curva ROC para avaliacao de classificadores}
+year  = {2014}
+}
+
+
+%[18]
+@article{SRobotics,
+author ={H. Ahmed, and J. Glasgow},
+title={Swarm intelligence: concepts, models and applications},
+journal={School of Computing, Queen's University},
+year={2012},
+publisher={Citeseer}
+}
+
+
+
+%[19]
+@article{bigdataMedicina,
+  author={S. E. Dilsizian, L. Eliot},
+  title={Artificial Intelligence in Medicine and Cardiac Imaging: Harnessing Big Data and Advanced Computing to Provide Personalized Mecial Diagnosis and Treatment},
+  pages={1}
+}
+
+
+%[20]
+@article{bigdataQualquerUm,
+  author={ H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi},
+  title={Exploring the inherent technical challenges in realizing the potential of Big Data},
+  journal={Comunication of the ACM},
+  volume={57},
+  number={7},
+  pages={86--96},
+  month={July},
+  year={2014}}
+
+  
+%[21]
+@article{Dean2008,
+author = {Dean, Jeffrey and Ghemawat, Sanjay},
+title = {{MapReduce : Simplified Data Processing on Large Clusters}},
+archivePrefix = {arXiv},
+arxivId = {10.1.1.163.5292},
+eprint = {10.1.1.163.5292},
+institution = {Google, Inc.},
+issn = {00010782},
+journal = {Communications of the ACM},
+number = {1},
+pages = {1--13},
+pmid = {11687618},
+publisher = {ACM},
+series = {SIGMOD '07},
+url = {http://portal.acm.org/citation.cfm?id=1327492},
+volume = {51},
+year = {2008}
+}
+
+%[22]
+@article{Swarm_Medeiros,
+author={H. T. Medeiros, L. F. W. Góes, M. B. Carvalho},
+title={Computação Bioinspirada aplicada à Robótica}
+
+}  
+ 
+
+%[23]
+@article{chambers2014computer,
+  author={W. D. Chambers},
+  title={Computer simulation of dental professionals as a moral community},
+  journal={Medicine, Health Care and Philosophy},
+  volume={17},
+  number={3},
+  pages={467--476},
+  year={2014},
+  publisher={Springer}
+}
+
+
+
+%[24]ACO
+@article{Blum2005,
+author = {Blum, Christian},
+title = {{Ant colony optimization: Introduction and recent trends}},
+booktitle = {Physics of Life Reviews},
+doi = {10.1016/j.plrev.2005.10.001},
+issn = {15710645},
+keywords = {Ant colony optimization,Discrete optimization,Hybridization},
+number = {4},
+pages = {353--373},
+volume = {2},
+year = {2005}
+}
+
+%[25]
+@article{Baig2012,
+author = {Baig, Abdul Rauf and Shahzad, Waseem},
+title = {{A correlation-based ant miner for classification rule discovery}},
+doi = {10.1007/s00521-010-0490-5},
+issn = {09410643},
+journal = {Neural Computing and Applications},
+keywords = {Ant colony optimization (ACO),Classification rules,Data mining,Swarm intelligence},
+number = {2},
+pages = {219--235},
+volume = {21},
+year = {2012}
+}
+
+
+%[26]ACO
+@article{Dorigo2005,
+author = {Dorigo, Marco and Blum, Christian},
+doi = {10.1016/j.tcs.2005.05.020},
+isbn = {0304-3975},
+issn = {03043975},
+journal = {Theoretical Computer Science},
+keywords = {Ant colony optimization,Approximate algorithms,Combinatorial optimization,Convergence,Metaheuristics,Model-based search,Stochastic gradient descent},
+number = {2-3},
+pages = {243--278},
+title = {{Ant colony optimization theory: A survey}},
+volume = {344},
+year = {2005}
+}
+
+
+%[27] Filesystem
+@book{Filesystem,
+author = {Filho, João Heriberto Mota},
+booktitle = {Descobrindo o Linux: entenda o sistema operacional GNU/Linux},
+isbn = {978-85-7522-278-2},
+pages = {153--162},
+year = {2012}
+}
+
+%[28] botnets
+@article{Barford2007,
+author = {Barford, Paul and Yegneswaran, Vinod},
+doi = {10.1007/978-0-387-44599-1},
+isbn = {978-0-387-32720-4},
+issn = {03601315},
+journal = {Malware Detection},
+pages = {171--191},
+title = {{An inside look at Botnets}},
+url = {http://www.springerlink.com/index/10.1007/978-0-387-44599-1},
+volume = {27},
+year = {2007}
+}
+
+%[29]
+@article{MachineLearning,
+author= {Ian H. Witten and Eibe Frank},
+title = {Data Mining: Practical Machine Learning Tools and Techniques},
+journal={Elsevier, San Francisco},
+volume ={2 edition},
+year = {2005}
+}
+
+%[30] mortor de busca
+@article{motorBusca,
+author = {Inc. Google}
+}
+
+
+%[31]
+@article{Learning2007,
+author = {J. R. Quinlan}
+title = {{Induction of Decision Trees}},
+doi = {10.1023/A:1022643204877},
+isbn = {0885-6125},
+issn = {0885-6125, 1573-0565},
+journal = {Expert Systems},
+pages = {81--106},
+pmid = {17050186},
+publisher = {Learning, Machine and Learning, Machine and Publishers},
+year = {2007}
+}
+
+
+%[32]
+@article{Learning1979,
+author = {J. R. Quinlan},
+title = {{Discovering rules by induction from large collections of examples}},
+journal = {Expert systems in the micro electronic age. Edinburgh University Press},
+publisher = {In D. Michie},
+year = {1979}
+}
+
+
+%[33]
+@book{TeoriaInf,
+ author = {J. Han and M. Kamber},
+ title = {Data mining: concepts and techniques},
+ Publishers = {Morgan Kaufmann Publishers, Massachusetts},
+ volume = {2nd edition},
+ year = {2006}
+}
+
+@article{Bitoun2012,
+author = {Bitoun, Jan and Miranda, L\'{\i}via and {de Almeida Souza}, Maria \^{A}ngela and {Souza de Britto Lyra}, Maria Rejane},
+pages = {25},
+title = {{Regi\~{a}o Metropolitana do Recife no Contexto de Pernambuco no Censo 2010}},
+url = {http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf},
+year = {2012}
+}

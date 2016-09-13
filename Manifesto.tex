@@ -1,0 +1,93 @@
+\documentclass[12pt,a4paper]{report}
+
+%###############################################################%
+%                     INCLUSÃO DOS PACOTES                      %
+%###############################################################%
+
+\input{Configuracao/Configuracao.tex}
+\begin{document}
+
+%###############################################################%
+%                     INCLUSÃO DOS ARQUIVOS                     %
+%###############################################################%
+
+
+%###############################################################%
+%              INCLUSÃO DOS ELEMENTOS PRÉ-TEXTUAIS              %
+%###############################################################%
+
+  \include{Pre-textual/capa}
+  \include{Pre-textual/FolhaRosto}
+  
+  %Agradecimento
+  
+  \input{Pre-textual/Epigrafe.tex}
+  
+  %\chapter*{Agradecimentos}
+  %\input{Pre-textual/Agradecimentos.tex}
+  
+  %Resumo
+  \chapter*{Resumo}
+  \input{Pre-textual/resumo.tex}
+  %Abstract
+  %\chapter*{Abstract}
+  %\input{Pre-textual/abstract.tex}
+
+  %Abreviatura
+  \chapter*{Lista de Abreviações e Siglas}
+  \input{Pre-textual/Abreviacao.tex}
+  %\printnomenclature
+
+  %%%%%
+%###############################################################%
+%       LISTAS DE FIGURAS, TABELAS E SUMÁRIO DO TRABALHO        %
+%###############################################################%
+
+  \listoffigures
+  \listoftables
+  \tableofcontents
+
+  
+%%##############################################################%
+%          INCLUSÃO DOS CAPÍTULOS (ELEMENTOS  TEXTUAIS)         %
+%###############################################################%
+  \chapter*{O Projeto}
+  \input{Textual/Epigrafe_2.tex}
+  
+  \include{Textual/1_introducao}
+ % \include{Textual/2_estado_arte}
+  \include{Textual/3_metodologia}
+  \include{Textual/4_conclusao}
+  \appendix
+
+  %\\input{Textual/Anexo.tex}
+  %\\input{Textual/Anexo2.tex}
+
+%###############################################################%
+%              INCLUSÃO DOS ELEMENTOS P�S-TEXTUAIS              %
+%###############################################################%
+
+%###############################################################%
+%                          APÊNDICES                            %
+%###############################################################%
+
+%###############################################################%
+%                     REFERÊNCIAS UTILIZADAS                    %
+%###############################################################%
+
+    \addcontentsline{toc}{chapter}{\bibname}
+
+    
+    %#######################################################%
+    %            ESCOLHA O MODELO DE REFERÊNCIA             %
+    %#######################################################%
+
+	% Formato da bibliografia
+	%\bibliographystyle{apalike}
+	% Arquivo .bib
+	%\bibliography{mestre}
+	\bibliographystyle{Bibliografia/abnt-num} % ABNT em ordem num�rica de aparecimento no texto
+	\bibliography{Bibliografia/Bibliografia.bib}
+
+
+\end{document} 

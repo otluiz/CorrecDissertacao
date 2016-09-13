@@ -1,0 +1,132 @@
+[1]
+@article{BNDES2013,
+author = {BNDES},
+file = {:home/otluiz/Downloads/boletim\_perspectivas\_out.2013\_final.pdf:pdf},
+journal = {Perpectivas do Investimento 2014-2017},
+pages = {2},
+title = {{Perspectivas do investimento, n. 2, out. 2013}},
+year = {2013}
+}
+
+[2]
+@article{Tomael2001,
+abstract = {The evaluation of resources available on the Internet is an important task for those  who  use  it  for  research  purposes  and  is  of  great relevance for emphasising the uneven quality of the information found. In order to analyse the  presentation  and  contents  of  sources  of  information  available  on  the Internet, this study lists the criteria of quality which can be applied and which allow us to evaluate and, consequently, approve or reject what was found. As a result of technological evolution the Internet is under constant change and the criteria presented here are subject to this movement of change.},
+author = {Toma\'{e}l, Mi and Catarino, Me},
+file = {:media/otluiz/MYLINUXLIVE/Pessoal/Mestrado/Projeto-Qualifica\c{c}\~{a}o/FontesdeInforma\c{c}\~{a}o\_Internet.pdf:pdf},
+issn = {1809-4783},
+journal = {Informa\c{c}\~{a}o \& \ldots},
+pages = {1--14},
+title = {{Avalia\c{c}\~{a}o de fontes de informa\c{c}\~{a}o na Internet: crit\'{e}rios de qualidade}},
+url = {http://periodicos.ufpb.br/ojs/index.php/ies/article/viewFile/293/216},
+year = {2001}
+}
+
+[3]
+@article{SRobotics,
+  title={Swarm intelligence: concepts, models and applications},
+  author={H. Ahmed, and J. Glasgow},
+  journal={School of Computing, Queen's University},
+  year={2012},
+  publisher={Citeseer}
+}
+
+
+
+[4]
+@article{bigdataMedicina,
+  title={Artificial Intelligence in Medicine and Cardiac Imaging: Harnessing Big Data and Advanced Computing to Provide Personalized Mecial Diagnosis and Treatment},
+  author={S. E. Dilsizian, L. Eliot},
+  pages={1}
+}
+
+
+[5]
+@article{bigdataQualquerUm,
+  title={Exploring the inherent technical challenges in realizing the potential of Big Data},
+  author={ H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi},
+  journal={Comunication of the ACM},
+  volume={57},
+  number={7},
+  pages={86--96},
+  month={July},
+  year={2014}}
+
+
+[6]
+@article{Swarm_Medeiros,
+  title={Computação Bioinspirada aplicada à Robótica},
+  author={H. T. Medeiros, L. F. W. Góes, M. B. Carvalho}
+}  
+ 
+
+[7]
+@article{chambers2014computer,
+  title={Computer simulation of dental professionals as a moral community},
+  author={W. D. Chambers},
+  journal={Medicine, Health Care and Philosophy},
+  volume={17},
+  number={3},
+  pages={467--476},
+  year={2014},
+  publisher={Springer}
+}
+
+
+[8]PSO
+@inproceedings{Kennedy1995,
+author = {Kennedy, J and Eberhart, R},
+booktitle = {Neural Networks, 1995. Proceedings., IEEE International Conference on},
+doi = {10.1109/ICNN.1995.488968},
+isbn = {VO - 4},
+issn = {19353812},
+pages = {1942--1948 vol.4},
+pmid = {20371407},
+title = {{Particle swarm optimization}},
+volume = {4},
+year = {1995}
+}
+
+[9]ACO
+@misc{Blum2005,
+abstract = {Ant colony optimization is a technique for optimization that was introduced in the early 1990's. The inspiring source of ant colony optimization is the foraging behavior of real ant colonies. This behavior is exploited in artificial ant colonies for the search of approximate solutions to discrete optimization problems, to continuous optimization problems, and to important problems in telecommunications, such as routing and load balancing. First, we deal with the biological inspiration of ant colony optimization algorithms. We show how this biological inspiration can be transfered into an algorithm for discrete optimization. Then, we outline ant colony optimization in more general terms in the context of discrete optimization, and present some of the nowadays best-performing ant colony optimization variants. After summarizing some important theoretical results, we demonstrate how ant colony optimization can be applied to continuous optimization problems. Finally, we provide examples of an interesting recent research direction: The hybridization with more classical techniques from artificial intelligence and operations research. © 2005 Elsevier B.V. All rights reserved.},
+author = {Blum, Christian},
+booktitle = {Physics of Life Reviews},
+doi = {10.1016/j.plrev.2005.10.001},
+issn = {15710645},
+keywords = {Ant colony optimization,Discrete optimization,Hybridization},
+number = {4},
+pages = {353--373},
+title = {{Ant colony optimization: Introduction and recent trends}},
+volume = {2},
+year = {2005}
+}
+
+[10]ACO
+@article{Dorigo2005,
+abstract = {Research on a new metaheuristic for optimization is often initially focused on proof-of-concept applications. It is only after experimental work has shown the practical interest of the method that researchers try to deepen their understanding of the method's functioning not only through more and more sophisticated experiments but also by means of an effort to build a theory. Tackling questions such as "how and why the method works'' is important, because finding an answer may help in improving its applicability. Ant colony optimization, which was introduced in the early 1990s as a novel technique for solving hard combinatorial optimization problems, finds itself currently at this point of its life cycle. With this article we provide a survey on theoretical results on ant colony optimization. First, we review some convergence results. Then we discuss relations between ant colony optimization algorithms and other approximate methods for optimization. Finally, we focus on some research efforts directed at gaining a deeper understanding of the behavior of ant colony optimization algorithms. Throughout the paper we identify some open questions with a certain interest of being solved in the near future. © 2005 Elsevier B.V. All rights reserved.},
+author = {Dorigo, Marco and Blum, Christian},
+doi = {10.1016/j.tcs.2005.05.020},
+isbn = {0304-3975},
+issn = {03043975},
+journal = {Theoretical Computer Science},
+keywords = {Ant colony optimization,Approximate algorithms,Combinatorial optimization,Convergence,Metaheuristics,Model-based search,Stochastic gradient descent},
+number = {2-3},
+pages = {243--278},
+title = {{Ant colony optimization theory: A survey}},
+volume = {344},
+year = {2005}
+}
+
+[11]FSS
+@inproceedings{Filho2008,
+author = {Filho, Carmelo J A Bastos and Neto, Fernando B De Lima and Lins, Anthony J C C and Nascimento, Ant\^{o}nio I S and Lima, Mar\'{\i}lia P.},
+booktitle = {Conference Proceedings - IEEE International Conference on Systems, Man and Cybernetics},
+doi = {10.1109/ICSMC.2008.4811695},
+isbn = {978-1-4244-2383-5},
+issn = {1062922X},
+keywords = {Fish school,Search algorithms,Social behaviour,Swarm intelligence},
+pages = {2646--2651},
+title = {{A novel search algorithm based on fish school behavior}},
+year = {2008}
+}
+

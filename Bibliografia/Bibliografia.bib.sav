@@ -1,0 +1,497 @@
+@MASTERSTHESIS{Tese_Chaves,
+  author = {Chaves, D.},
+  title = {Algoritmos Rápidos de IRWA para Redes Totalmente Ópticas},
+  school = {Programa de Pós-graduação em Engenharia Elétrica, Universidade Federal
+	de Pernambuco},
+  year = {2008},
+  month = {Fevereiro}
+}
+
+@MASTERSTHESIS{Tese_Eric,
+  author = {E. A. J. Arantes},
+  title = {Contribuições ao Algoritmo de Roteamento para Redes Ópticas baseado na Figura de Ruído e nas Penalidades Físicas},
+  school = {Programa de Pós-graduação em Engenharia Elétrica, Universidade Federal 	de Pernambuco},
+  year = {2006},
+  month = {Março}
+}
+
+
+@ARTICLE{shenai_2005,
+  author = {R. Shenai and B. Wen and K. M. Sivalingam},
+  title = {Routing wavelength and time-slot-assignment Algorithms for wavelength-routed optical WDM/TDM networks},
+  journal = {Journal of Lightwave Technology},
+  year = {2005},
+  month = {Setembro},
+  volume = {23},
+  pages = {2598-2609},
+  number = {9}
+}
+
+
+@ARTICLE{bhide_2001,
+  author = {N. M. Bhide and T. Fabry-Asztalos and K. M. Sivalingam},
+  title = {Routing mechanisms employing adaptive weight functions for shortest path routing in multi-wavelength optical WDM networks},
+  journal = {Journal of Photonic Network Communications},
+  year = {2001},
+  month = {Julho},
+  volume = {3},
+  pages = {227-236}
+}
+
+
+@MASTERSTHESIS{Tese_paulo,
+  author = {P. R. Lins J.},
+  title = {Roteamento Adaptativo com Agregação de Tráfego em Redes Ópticas Dinâmicas},
+  school = {Programa de Pós-graduação em Engenharia Elétrica, Universidade Federal de Campina Grande},
+  year = {2008},
+  month = {Junho}
+}
+
+
+@ARTICLE{YUAN,
+  author = {X. Yuan and J. Zhou},
+  title = {A study of dynamic routing and wavelength assignment with imprecise network state information},
+  journal = {International Conference on Parallel Processing Workshop},
+  year = {2002},
+  pages = {207-213}
+}
+
+
+@ARTICLE{pavon,
+  author = {P. Pavon-Marino and S. Azodolmolky and ER. Aparicio-Pardo, B. Garcia-Manrubia and Y. Pointurier and M. Angelou and J. Sole-Pareta, J. Garcia-Haro, I. Tomkos},
+  title = {Offline Impairments aware RWA algorithms for cross-layer planning of optical networks},
+  journal = {Journal of Lightware Technology},
+  year = {2009},
+  pages = {1763-1775},
+  volume={27}
+}
+
+@ARTICLE{morea,
+  author = {A. Morea and F. Leplingard and T. Zami and N. Brogard and C. Simonneau and B. lavigne and L. Lorcy and D. Bayart},
+  title = {New Transmission systens enabling transparent network perspectives},
+  journal = {Comptes Rendus Physique},
+  year = {2008},
+  pages = {985-1001},
+  volume={9}
+}
+
+@ARTICLE{Man,
+  author = {K. Man and K. Tang and S. Kwong},
+  title = {Genetic algorithms: Concepts and applications},
+  journal = {IEEE Transctions on Industrial Electronics},
+  year = {1996},
+  pages = {519-534},
+  volume={43}
+}
+
+
+@MASTERSTHESIS{Tese_Bicudo,
+  author = {Bicudo, Marco D.},
+  title = {Sobrevivência em Redes Ópticas},
+  school = {Programa de Pós-graduação em Engenharia Elétrica, Universidade Federal do Rio de Janeiro},
+  year = {2005},
+  month = {Dezembro}
+}
+
+@ARTICLE{Mukherjee_2000,
+  author = {B. Mukherjee},
+  title = {Optical Communication Networks: Progress and Challenges},
+  journal = {Journal of Selected Areas in Communications},
+  year = {2000},
+  volume = {18},
+  pages = {1810-1824},
+  number = {10}
+}
+
+@BOOK{Ramaswami,
+  title = {Optical Networks: A Practical Perspective},
+  publisher = {\mbox{Morgan} \mbox{Kaufmann}},
+  year = {2009},
+  author = {R. Ramaswami and K. N. Sivarajan},
+  address = {San Diego},
+  edition = {3}
+}
+
+@BOOK{engelbrecht,
+  title = {Fundamentals of Computational Swarm Intelligence},
+  publisher = {\mbox{Morgan} \mbox{Kaufmann}},
+  year = {2009},
+  author = {A. P. Engelbrecht},
+  address = {San Diego},
+  edition = {3}
+}
+
+@BOOK{singh,
+  title = {Semiconductor Optoeletronics - Physics and Technology},
+  publisher = {\mbox{McGraw-Hill}},
+  year = {1995},
+  author = {J. Singh},
+  edition = {1}
+}
+
+@BOOK{azadeh,
+  title = {Fiber Optics Engineering},
+  publisher = {\mbox{Springer}},
+  year = {2009},
+  author = {M. Azadeh},
+  address = {Berlin}
+}
+
+@BOOK{hewitt,
+  title = {Conceptual Physics},
+  publisher = {\mbox{Addison Wesley}},
+  year = {2006},
+  author = {P. G. Hewitt},
+  edition = {9}
+}
+
+@BOOK{Mukherjee_1997,
+  title = {Optical Communication Networks},
+  publisher = {\mbox{Mcgraw-Hill}},
+  year = {1997},
+  author = {B. Mukherjee},
+  address = {New York}
+}
+
+@ARTICLE{Tomkos_2007,
+  author = {I. Tomkos and S. Sygletos and G. Markidis and A. Tzanakaki},
+  title = {Impairment Constraint Based Routing in Mesh Optical Networks},
+  journal = {Proceedings of Conference on Optical Fiber Communication and the National Fiber Optic Engineers Conference},
+  year = {2007},
+  pages = {1-3}
+}
+
+@ARTICLE{Mahony_2006,
+  author = {M. J. O'Mahony and C. Politi and D. Klonidis and R. Nejabati, and D. Simeonidou},
+  title = {Future Optical Networks},
+  journal = {IEEE/OSA Journal of Lightwave Technology},
+  year = {2006},
+  volume = {24},
+  pages = {4684-4696}
+}
+
+@BOOK{Gurusamy,
+  title = {WDM Optical Networks: Concepts, Design, and Algorithms},
+  publisher = {\mbox{Prentice Hall}},
+  year = {2002},
+  author = {M. Gurusamy and C. S. R. Murthy},
+  address = {San Diego},
+  edition = {1}
+}
+
+@ARTICLE{Zang_2000,
+  author = {Zang, H. and Jue, J. P. and Mukherjee, B.},
+  title = {A review of routing and wavelength assignment approaches for wavelength-routed
+	optical WDM networks},
+  journal = {Optical Networks Magazine},
+  year = {2000},
+  volume = {1},
+  pages = {47-60},
+  number = {1},
+  month = {Janeiro}
+}
+
+@ARTICLE{baney_2000,
+  author = {D. M. Baney and P. Gallion and R. S. Tucker},
+  title = {Theory and measurement techniques for the noise figure of optical amplifiers},
+  journal = {Optical Fiber Technology},
+  year = {2000},
+  volume = {6},
+  pages = {122-154}
+}
+
+@ARTICLE{chaves_2010,
+  author = {D. A. R. Chaves and D. O. Aguiar and C. J. A. Bastos-Filho and J. F. Martins-Filho},
+  title = {Fast and adaptive impairment aware routing and wavelength assignment algorithm optimized by offline simulations},
+  journal = {Optical Switching and Networking},
+  year = {2010},
+  volume = {7},
+  pages = {127-138},
+  number = {3}
+}
+
+@BOOK{kurose2006,
+  title = {Redes de Computadores e a Internet - Uma Abordagem Top-Down},
+  publisher = {Pearson Addison Wesley},
+  year = {2006},
+  author = {Kurose, James F. and Ross, Keith W.},
+  address = {São Paulo},
+  edition = {3}
+}
+
+@BOOK{rappaport96,
+  title = {Wireless Comunnications},
+  publisher = {Prentice Hall},
+  year = {1996},
+  author = {Rappaport, T. S.},
+  edition = {1}
+}
+
+@ARTICLE{pereira_2009,
+  author = {H. A. Pereira and D. A. R. Chaves and C. J. A. Bastos-Filho and J. F. Martins-Filho},
+  title = {OSNR model to consider physical layer impairments in transparent optical networks},
+  journal = {Photonic Network Communication},
+  year = {2009},
+  volume = {18},
+  pages = {137-149}
+}
+
+@ARTICLE{ChavesOSN_2010,
+  author = {D. A. R. Chaves and D. O. Aguiar and C. J. A. Bastos-Filho and J. F. Martins-Filho},
+  title = {Fast and adaptive impairment aware routing and wavelength assignment algorithm optimized by offline simulations},
+  journal = {Optical Switching and Networking},
+  year = {2010},
+  volume = {7},
+  pages = {127-138},
+  number = {3}
+}
+
+@ARTICLE{Yen_1971,
+  author = {J. Yen},
+  title = {Finding the k shortest loopless paths in a network},
+  journal = {Management Science},
+  year = {1971},
+  volume = {17},
+  pages = {712-716},
+  number = {11}
+}
+
+@ARTICLE{PSO_1995,
+  author = {J. Kennedy and R. Eberhart},
+  title = {Particle swarm optimization},
+  journal = {Proceedings of the 1995 IEEE Internacional Conference on Neural Networks},
+  year = {1995},
+  volume = {4},
+  pages = {1942-1948}
+}
+
+@ARTICLE{PSO_2002,
+  author = {M. Clerc and J. Kennedy},
+  title = {The particle swarm - explosion, stability, and convergence in a multidimensional complex space},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  year = {2002},
+  volume = {6},
+  pages = {58-73},
+  number = {1}
+}
+
+@ARTICLE{PSO_2007,
+  author = {D. Bratton and J. Kennedy},
+  title = {Defining a standard for particule swarm optimization},
+  journal = {Proceedings IEEE Swarm Intelligence Symposium},
+  year = {2007},
+  pages = {120--127},
+  volume = {1}
+}
+
+@ARTICLE{Santana,
+  author = {R. A. Santana and C. J. A. Bastos-Filho and D. R. C. Silva and J. F. Martins-Filho and D. A. R. Chaves},
+  title = {Hopfield neural networks for routing in all-optical networks},
+  journal = {on 12th International Conference Transparent Optical Networks (ICTON)},
+  year = {2010},
+  pages = {1-4}
+}
+
+@article{Yen:1972:FLS:321707.321712,
+ author = {Yen, Jin Y.},
+ title = {Finding the Lengths of All Shortest paths in N -Node Nonnegative-Distance Complete Networks Using $12N^3$ Additions and $N^3$ Comparisons},
+ journal = {Journal of Association Computing Machinery},
+ volume = {19},
+ issue = {3},
+ month = {July},
+ year = {1972},
+ issn = {0004-5411},
+ pages = {423-424},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/321707.321712},
+ doi = {http://doi.acm.org/10.1145/321707.321712},
+ acmid = {321712},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@BOOK{Mukherjee2005,
+  title = {Survivable Optical WDM Networks},
+  publisher = {Springer},
+  year = {2005},
+  author = {C. Ou and B. Mukherjee},
+  edition = {1}
+}
+
+@ARTICLE{shen2007,
+  author = {G. Shen and R. S. Tucker},
+  title = {Translucent optical networks: the way forward},
+  journal = {IEEE Communications Magazine},
+  year = {2007},
+  volume = {45},
+  pages = {48-54},
+  month = {February},
+  number = {2}
+}
+
+@ARTICLE{xavier2011,
+  author = {A. V. S. Xavier and R. C. L. Silva and C. J. A. Bastos-Filho and J. F. Martins-Filho and D. A. R. Chaves},
+  title = {An Adaptive-Alternative Routing Algorithm fo All-Optical Networks},
+  journal = {2011 SBMO/IEEE MTT-S Internacional Microwave and Optoelectronics Conference - IMOC},
+  year = {2011},
+  pages = {719-723}
+}
+
+
+@BOOK{Mukherjee2005,
+  title = {Survivable Optical WDM Networks},
+  publisher = {Springer},
+  year = {2005},
+  author = {C. Ou and B. Mukherjee},
+  edition = {1}
+}
+
+@ARTICLE{Wu2004,
+  author = {M. Wu and W. I. Way},
+  title = {Fiber Nonlinearity Limitations in Ultra-Dense WDM Systems},
+  journal = {Journal of Lightwave Technology},
+  year = {2004},
+  volume = {22},
+  pages = {1483-1497},
+  number = {6}
+}
+
+
+
+
+%Procurar o nome da conferencia aqui
+
+@ARTICLE{Pollack_1961,
+  author = {M. Pollack},
+  title = {The \textit{k}th Best Route Through a Network},
+  journal = {Opns. Res.},
+  year = {1961},
+  volume = {9},
+  pages = {578},
+  number = {4}
+}
+%aqui tbm revisar
+
+@ARTICLE{Sakarovitch_1966,
+  author = {M. Sakarovitch},
+  title = {The \textit{k} Shortest Routes and the \textit{k} chains in a Graph},
+  journal = {Opns. Res. Center},
+  year = {1966},
+  school = {University of California},
+  adress = {Berkeley}
+}
+
+
+@ARTICLE{chaves_SIMTON,
+  author = {D. A. R. Chaves and H. A. Pereira and C. J. A. Bastos-Filho and J. F. Martins-Filho},
+  title = {SIMTON: A Simulator for Transparent Optical Networks},
+  journal = {Journal of Communication and Information Systems},
+  year = {2010},
+  volume = {25},
+  number = {1}
+}
+
+@BOOK{becker1999,
+  title = {Erbium-Doped Fiber Amplifiers},
+  publisher = {Academic Press},
+  year = {1999},
+  author = {Becker, P.},
+  address = {Boston},
+  isbn = {0120845903},
+  owner = {robson},
+  timestamp = {2010.08.25}
+}
+
+@BOOK{Lehmann,
+  title = {Nonparametrics: Statistical methods based on Ranks},
+  publisher = {Springer},
+  year = {2006},
+  author = {E. L. Lehmann}
+}
+
+@BOOK{Triola,
+  title = {Elementary Statistics},
+  publisher = {Pearson},
+  year = {2002},
+  author = {M. F. Triola and W. M. Goodman and R. Law and G. Labute},
+  edition = {3}
+}
+
+@ARTICLE{chaves_PSR,
+  author = {D. A. R. Chaves and D. O. Douglas and C. J. A. Bastos-Filho and J. F. Martins-Filho},
+  title = {A methodology to design the link cost functions for impairment aware routing algorithms in optical networks},
+  journal = {Photonic Network Communications},
+  year = {2011},
+  volume = {22},
+  pages ={133-150},
+  number = {1}
+}
+
+% Até Aqui /////////////////////////
+
+
+
+@BOOK{becker1999,
+  title = {Erbium-Doped Fiber Amplifiers},
+  publisher = {Academic Press},
+  year = {1999},
+  author = {Becker, P.},
+  address = {Boston},
+  isbn = {0120845903},
+  owner = {robson},
+  timestamp = {2010.08.25}
+}
+
+@BOOK{1557464,
+  title = {Computational Intelligence: An Introduction},
+  publisher = {Wiley Publishing},
+  year = {2007},
+  author = {Engelbrecht, A. P.},
+  isbn = {0470035617},
+  owner = {robson},
+  timestamp = {2010.08.25}
+}
+
+@ARTICLE{1506835,
+  author = {Bo Wen and Shenai, R. and Sivalingam, K.},
+  title = {Routing, wavelength and time-slot-assignment algorithms for wavelength-routed
+	optical WDM/TDM networks},
+  journal = {Lightwave Technology, Journal of},
+  year = {2005},
+  volume = {23},
+  pages = { 2598-2609},
+  number = {9},
+  month = {Sept.},
+  doi = {10.1109/JLT.2005.854039},
+  issn = {0733-8724},
+  keywords = { channel allocation, optical fibre networks, optical wavelength conversion,
+	telecommunication network routing, time division multiplexing, wavelength
+	division multiplexing RWTA algorithms, TDM networks, WDM networks,
+	channel utilization, connection-assignment problem, fixed-length
+	frame, fixed-length time slots, least loaded time-slot algorithm,
+	least loaded wavelength selection, least resistance weight function,
+	link cost function, multifiber networks, optical networks, optical
+	wavelength-division-multiplexing, routing, shortest path routing
+	algorithm, time-division-multiplexing, time-slot assignment, time-slot-assignment
+	algorithms, wavelength assignment algorithms, wavelength bandwidth,
+	wavelength channel, wavelength conversion, wavelength-routed networks,
+	wavelength-utilization information},
+  owner = {robson},
+  timestamp = {2010.08.25}
+}
+
+@ARTICLE{Zulkifli:07,
+  author = {Zulkifli, N. and Almeida, R. C. and Guild, K. M.},
+  title = {Efficient resource allocation of heterogeneous services in transparent
+	optical networks},
+  journal = {J. Opt. Netw.},
+  year = {2007},
+  volume = {6},
+  pages = {1349--1359},
+  number = {12},
+  keywords = {Fiber optics communications; Networks},
+  owner = {robson},
+  publisher = {OSA},
+  timestamp = {2010.08.25},
+  url = {http://jon.osa.org/abstract.cfm?URI=JON-6-12-1349}
+}

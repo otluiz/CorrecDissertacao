@@ -1,0 +1,9 @@
+%% escrevendo uma epígrafe
+
+    \vspace*{\fill}
+	\begin{flushright}
+		\textit{``E se o mundo não corresponde em todos os aspectos a nossos desejos,\\
+			  é culpa da ciência ou dos que querem impor seus desejos ao mundo?\\
+				      (Carl Sagan)
+			}
+	\end{flushright}

@@ -1,0 +1,71 @@
+\chapter{Introdução, Motivação e Objetivo}\label{intro}
+
+\section{Histórico}\label{intro:historico}
+As informações produzidas pelos seres humanos nos últimos 2 anos representam cerca de 90\% de tudo que todas as civilizações produziram desde o ínicio da humanidade (carecece de referência).
+A quantidade de dados é tão grande que até faltam os números para quantificá-la, falam-se em petabytes, exabyes, zettabytes e yotabytes, este 
+último, para se ter uma ideia, para armazená-lo, seriam necessários 75 milhões de DataCenters que juntos ocupariam uma área do tamanho do estado
+de São Paulo. Para não parecer redundante, os dados produzidos pela humanidade dobram a cada 2 anos.
+
+\section{Motivação}\label{intro:motivacao}
+
+A proposição de um algoritmo dessa natureza permite estabelecer uma estreita relação entre o mundo real da busca e o mundo virtual, 
+o que não é comumente observado em outros tipos de algoritmos de busca. Por exemplo, um avião, quando vai fazer uma busca, leva em 
+consideração custos reais para se levar e trazer essa aeronave, tais como quantidade de combustível gasto, estrutura do objeto que está 
+realizando a busca, enfim os riscos que precisam ser considerados, quando são envolvidas pessoas, animais, veículos empregados nessa busca: 
+aeronaves, barcos, carros; quando submetidos às mais diversas condições ambientais como cansaço, fadiga. 
+
+Outro aspecto que merece destaque e que inspiram o algoritmo a ser proposto é que essas técnicas de busca já existem e são amplamente 
+aplicadas de maneira eficiente no mundo real por mergulhadores (International PADI, Inc. ano: 1995-2004), bombeiros 
+(CBMERJ. Doutrina do Curso de Salvamento em Montanha – 1° Grupamento de Socorro Florestal e Meio Ambiente  1986 a 2012). 
+Em pesquisas preliminares na literatura, identificamos que as questões ora apontadas não são contempladas pela maioria dos algoritmos 
+propostos nos estudos até agora.
+
+
+\section{Contexto}\label{intro:contexto}
+
+Grande e crescentes espaços de busca representam um desafio para algoritmos especializados. 
+Esta proposta de pesquisa tem por objetivo conceber e testar um algoritmo de Inteligência Computacional inspirado nas técnicas utilizadas
+para busca e resgate de mergulhadores e naufrágios, busca e resgate terrestre de pessoas e qualquer outro tipo busca numa área vasta e 
+não confinada.
+
+\section{Objetivo}\label{intro:objetivo}
+
+Considerando a classe de algoritmos que vêm sendo estudada, bem como o amplo espaço de investigação que ainda existe, propomos um novo algoritmo, 
+que chamaremos de Algoritmo dos mergulhadores.
+O algoritmo proposto considera como fundamental o padrão de movimentação das partículas, as quais chamaremos de mergulhadores, 
+uma vez que esta inspiração advém dos livros de técnicas de busca e resgate de mergulhadores e naufrágios PADI (2004). 
+Através de movimentos refinados e padronizados há anos pelas mais diversas corporações de busca e resgate de todo o mundo, esses movimentos 
+refletem o que há de mais otimizado numa busca em ambiente real. 
+
+- O enxame é variável dinamicamente; par se adaptar à dificuldade e à diversidade da busca; podendo aumentar ou diminuir o tamanho do enxame, 
+conforme o grau de estagnação deste. O decrescimento do enxame poderia ser da seguinte forma; caso o mergulhador não consiga exito por um determinado 
+tempo de busca, ele fica sem oxigênio e poderá morrer.
+
+- Numa abordagem por reforço, cada vez que o mergulhador melhorar sua posição no espaço de busca poderá ?ganhar? mais oxigênio (reabastecimento).
+
+- Uma mosca ou uma muriçoca ao procurar alimento, fazem um rápido sobrevoo incial para depois, ao localizar a fonte de alimento, descreve um movimento em "U" tal como do mergulhador.
+- O movimento em ?U? parece ser norma em todo tipo de busca local. A mosca quando pousa no alimento faz esse movimento, um cego ao caminhar na rua 
+também faz esse movimento para desviar dos obstáculos. Ao apagar o quadro o professor faz um movimento em "U".
+
+- Ao se movimentar um enxame de aeronaves (VANTs ou robos mergulhadores) devem voar em formação, tal como os ganços em ?V? para aproveitar o vácuo 
+que se forma pelo elemento que vai logo a frente.
+
+- Variando a equação do PSO {S(x) = So(x) + v(t) para a equação da espiral de Fibonacci, logarítmica ou Reimann, mudando também a equação da velocidade, 
+tudo isso para adaptar ao movimentos conforme o estado da busca.
+
+- O vetor aceleração na equação da velocidade poderá acrescentar ganhos ao algoritmo.
+
+- O vôo de um enxame de VANTs deverá sempre considerar multiplos objetivos, tal como maximizar a autonomia / minimizando o consumo de combustível; 
+ou seja um problema de múltiplo objetivo.
+
+- Os memes poderiam ser uma forma de comunicação entre os elementos do enxame. Uma outra forma poderia ser gerar um outro enxame, caso a busca se degrade em performance, enxame este com características adquiridas do enxame anterior. Memes, valores éticos ou morais que podem ser aprendido facilmente e transmitindo como unidade autônoma. 
+O estudo dos modelos evolutivos da transferência de informação é conhecido com memética.
+
+-  Os mergulhadores devem movimentar-se em grupo de três(?) porque entre eles deverá haver uma distância de segurança mas que um não ?perca? de vista o outro. 
+Entre eles a visão é mais completa por é visto por mais olhos.
+
+- O crescimento em espiral, da espiral de Fibonacci, no movimento dos mergulhadores, parece crescer muito rapidamente porque a largura entre os ?braços? da espiral 
+alarga-se muito com apenas alguns movimentos.
+
+- Parece perder-se a visão, entre os mergulhadores, área de busca radial (lateral), quando a espiral alarga-se muito rapidamente. Uma opção para não perder-se 
+essa visão e consequentemente a viabilidade desse movimento seriam de 2 formas: 1 - aumentar o número de mergulhadores (3 para mais) na mesma proporção que crescem os braços da espiral; 2 ? mudar a espiral para uma que cresca uniformente, tal como a espiral de Arquimedes.

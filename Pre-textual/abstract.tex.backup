@@ -1,0 +1,12 @@
+\vspace*{12pt}
+% Abstract
+
+% Selecionar a linguagem acerta os padrões de hifenação diferentes entre inglês e português.
+%\selectlanguage{english}
+
+\noindent{This project we propose 
+}
+
+\par
+\vspace{1em}
+\noindent\textbf{Keywords: Big Data, Data Mining, Map, Reduce, Logistic, Routing}

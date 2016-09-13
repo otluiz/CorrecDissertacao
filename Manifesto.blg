@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Manifesto.aux
+A level-1 auxiliary file: Pre-textual/capa.aux
+A level-1 auxiliary file: Pre-textual/FolhaRosto.aux
+A level-1 auxiliary file: Textual/1_introducao.aux
+A level-1 auxiliary file: Textual/3_metodologia.aux
+A level-1 auxiliary file: Textual/4_conclusao.aux
+The style file: Bibliografia/abnt-num.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abntex2-options.bib
+Database file #2: Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 153 of file Bibliografia/Bibliografia.bib.bib
+ : 
+ : title = {Signal Detection Theory and Psychophysics}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 162 of file Bibliografia/Bibliografia.bib.bib
+ : 
+ : year  = {2014}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 325 of file Bibliografia/Bibliografia.bib.bib
+ : 
+ : title = {{Induction of Decision Trees}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 6 entries,
+            6480 wiz_defined-function locations,
+            1193 strings with 10323 characters,
+and the built_in function-call counts, 3891 in all, are:
+= -- 388
+> -- 83
+< -- 6
++ -- 77
+- -- 26
+* -- 228
+:= -- 591
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 45
+chr.to.int$ -- 9
+cite$ -- 5
+duplicate$ -- 185
+empty$ -- 278
+format.name$ -- 135
+if$ -- 903
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 95
+newline$ -- 35
+num.names$ -- 20
+pop$ -- 149
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 251
+stack$ -- 1
+substring$ -- 158
+swap$ -- 72
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 32
+width$ -- 0
+write$ -- 70
+(There were 3 error messages)

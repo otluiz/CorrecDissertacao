@@ -1,0 +1,41 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.42.2.1 }
+
+\bibitem{Quadros2005}
+\abntrefinfo{Quadros}{QUADROS}{2005}
+{QUADROS, C. I.~D. {Dez Anos Depois do}.
+\emph{Intercom}, v.~1995, p. 65--69, 2005.}
+
+\bibitem{bigdataMedicina}
+\abntrefinfo{Dilsizian}{DILSIZIAN}{}
+{DILSIZIAN, L.~E. S.~E. Artificial intelligence in medicine and cardiac
+  imaging: Harnessing big data and advanced computing to provide personalized
+  mecial diagnosis and treatment.
+p.~1.}
+
+\bibitem{BNDES2013}
+\abntrefinfo{BNDES}{BNDES}{2013}
+{BNDES. {Perspectivas do investimento, n. 2, out. 2013}.
+\emph{Perpectivas do Investimento 2014-2017}, p.~2, 2013.}
+
+\bibitem{Bitoun2012}
+\abntrefinfo{Bitoun et al.}{BITOUN et al.}{2012}
+{BITOUN, J. et al. {Regi\~{a}o Metropolitana do Recife no Contexto de
+  Pernambuco no Censo 2010}.
+p.~25, 2012.
+Dispon{\'\i}vel em:
+  \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
+
+\bibitem{FrotaVeiculosIBGE}
+\abntrefinfo{IBGE}{IBGE}{2014}
+{IBGE, I.~B. de~Geografia~e E. Regi\~{a}o metropolitana do recife no contexto
+  de pernambuco no censo 2010.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco%7Crecife%7Cinfogr%E1ficos:-frota-municipal-de-ve%EDculos%27&lang=_ES}.}
+
+\end{thebibliography}

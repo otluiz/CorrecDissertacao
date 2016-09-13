@@ -1,0 +1,60 @@
+\chapter{Metodologia}\label{meto}
+
+
+\section{Metodologia Proposta}\label{intro:metodologia}
+
+ Para representação da malha logística serão utilizadas bases vetoriais, por exemplo, o Google Maps.
+ Para o desenvolvimento do modelo preditivo serão utilizadas bases de dados históricas, por exemplo: da Polícia Rodoviária Federal (PRF), do
+ Centro de Previsões de Tempo e Estudos Climáticos (CPTES - INPE) e possivelmente do Instituto Brasileiro de Geografia e Estatística (IBGE).
+ Para simulação interativa da estrutura preditiva com a dinâmica serão geradas planilhas. Essas planilhas serão retro-alimentadas com dados 
+ gerados dinamicamente por redes sociais, por exemplo pelo Twitter. Essa técnica fará um arco cibernético mantendo o sistema preditivo atualizado.
+ 
+ Propomos uma metodologia que contemple 3 etapas, cada etapa dividida em fases atinentes.
+ 
+ A figura a seguir representa as etapas descritas anteriormente:
+ 
+\begin{figure}[ht]
+\centering
+\caption{Etapas da metodologia}
+\includegraphics[width=90mm, height=60mm]{Figuras/BigData/Etapas.png}
+\end{figure}
+
+ \pagebreak
+ 
+ A etapa 1 contempla as fases da coleta das bases vetoriais, das bases de dados históricas e representação da malha viária que descrevem o modelo.
+ 
+ A etapa 2 consiste nas fases de Identificação dos fatores sócio ambientais na bases históricas, a modelagem do sistema preditivo e aplicação das técnicas de IA como Regressão Logística e Árvores de decisão,  testes iniciais e depuração do modelo proposto.
+ 
+ A etapa 3 conterá um arco cibernético construído com os dados de redes sociais, como por exemplo a API do Twitter, este ``per si'' fará com que o modelo preditivo seja retroalimentado, 
+ mantendo-se, ao longo do tempo atualizado. Modelos preditivos com o passar do tempo tendem a desfasar-se. Uma proposta algorítmica para substituir a API das redes sociais 
+ poderá ser desenvolvida e testada numa fase complementar, o algorítmo Ant-Miner poderá vir a ser um candidato.
+ 
+ A etapa 4 e final se iniciará com a escrita dos artigos pertinentes à pesquisa em lide e se concretizará com a escrita da dissertação (parte inferior do cronograma).
+ A seguir o cronograma enfatiza as etapas e suas fases:
+ 
+ 
+ 
+\section{Cronograma}\label{intro:cronograma}
+
+
+\begin{table}[htbp]
+ \scriptsize
+      \centering  \caption{Cronograma -- 12 meses}
+	\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c}
+	\hline
+	\textbf{Etapas/2016} & \textbf{Fev} & \textbf{Mar} & \textbf{Abr} & \textbf{Mai}& \textbf{Jun} & \textbf{Jul} & \textbf{Ago} & \textbf{Set} & \textbf{Out} & \textbf{Nov} & \textbf{Dez} & \textbf{Jan/17} \\
+	  \hline
+	  Rev. da literatura. & x & x & x & x & x & x & x & --- & --- & --- & --- & --- \\ \hline
+	  Etapa -- 1 & x & x & x & --- & --- & --- & --- & --- & --- & --- & --- & --- \\ \hline
+	  Etapa -- 2 & --- & --- & --- & x & x & x & --- & --- & --- & --- & --- & --- \\ \hline
+	  Etapa -- 3 & --- & --- & --- & --- & --- & --- & x & x & x & --- & --- & --- \\ \hline
+	  Escrita de artigos & --- & --- & --- & --- & --- & --- & x & x & x & x & x & --- \\ \hline
+	  Escrita da dissertação & x & x & x & x & x & x & x & x & x & x & x & --- \\ \hline
+	  Defesa & --- & --- & --- & --- & --- & --- & --- & --- & --- & --- & --- & x \\ \hline
+	\end{tabular}
+\end{table}
+
+
+ 
+
+

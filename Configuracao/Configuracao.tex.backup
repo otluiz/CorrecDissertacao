@@ -1,0 +1,133 @@
+%%% Pacotes utilizados %%%
+
+%% Codificação e formatação básica do LaTeX
+% Suporte para português (hifenação e caracteres especiais)
+%\usepackage[english,brazilian]{babel}
+
+\usepackage[english,brazil]{babel}
+%###### USE UM DOS TRÊS: ######%
+%*****************************
+% CodificaÃ§Ã£o do arquivo
+%\usepackage[cp1252]{inputenc}
+
+%\usepackage[latin1]{inputenc}
+
+\usepackage[utf8]{inputenc}
+%*****************************
+% Mapear caracteres especiais no PDF
+\usepackage{cmap}
+
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[dvips]{graphicx}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{geometry}
+
+%desenhando imagens
+%\usepackage[all]{xy}
+
+\usepackage{indentfirst}
+\usepackage{type 1cm}
+\usepackage{lettrine}
+\usepackage{colordvi}
+\usepackage{colortbl}
+\usepackage{multirow}
+
+\usepackage{pstricks}
+\usepackage{pstricks-add}
+\usepackage{array}
+
+\usepackage{yfonts}
+\usepackage{epsf}
+\usepackage{wrapfig}
+\usepackage{xtab}
+\usepackage{eucal}
+\usepackage{mathrsfs}
+
+% Essencial para colocar funções e outros símbolos matemáticos
+\usepackage{amsmath,amssymb,amsfonts,textcomp}
+\usepackage{footmisc}
+\usepackage{ifthen}
+\usepackage{float}
+
+%Extra
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+% escrevendo algoritmos
+\usepackage[portuguese,ruled,linesnumbered]{algorithm2e}
+
+%Extra
+%\usepackage{calligra}                           % Fonte caligr\'{a}fica
+%\usepackage{suetterl}                           % Fonte caligr\'{a}fica
+\usepackage[utopia]{quotchap}                   % Formata\c{c}\~{a}o para cap\'{\i}tulos
+\usepackage{IEEEtrantools_mod}
+\usepackage{lscape}
+
+%% Lista de AbreviaÃ§Ãµes
+% Cria lista de abreviaÃ§Ãµes
+\usepackage[notintoc,portuguese]{nomencl}
+\makenomenclature
+
+
+%% Links dinÃ¢micos
+% Suporte para hipertexto, links para referÃªncias e figuras
+%\usepackage{hyperref}
+%\usepackage[hyphenbreaks]{breakurl}
+%\usepackage{abntex2cite}
+
+% ConfiguraÃ§Ãµes dos links e metatags do PDF a ser gerado
+%\usepackage[dvips]{hyperref}
+
+%% ReferÃªncias bibliogrÃ¡ficas e afins
+% Formatar as citações no texto e a lista de referências
+%\usepackage{natbib}
+
+% Adicionar bibliografia, í­ndice e conteúdo na Tabela de conteúdo
+% Não inclui lista de tabelas e figuras no í­ndice
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+
+
+% Conta o número de páginas
+\usepackage{lastpage}
+\usepackage{setspace}
+
+\pagestyle{plain}
+
+
+%######### citações modelo abnt 2 ############
+\usepackage[num]{abntex2cite}
+
+%% citações para bibtex
+%\usepackage[backend=bibtex]{biblatex}
+%\usepackage{cite}
+
+%\usepackage[sort&compress,square]{natbib}
+%\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{color}
+\usepackage{amssymb}
+
+%###### Margens ######%
+
+\geometry{a4paper,left=3cm,right=2cm,top=3cm,bottom=2cm}
+
+% Comando para capitularização
+\usepackage{lettrine}
+
+% Comando para hepígrafe
+\usepackage{epigraph}
+
+
+%% Comandos customizados
+
+% EspÃ©cie e abreviaÃ§Ã£o
+\newcommand{\subde}{\emph{Clypeaster subdepressus}}
+\newcommand{\subsus}{\emph{C.~subdepressus}}
+
+% TÃ­tulo do projeto
+\newcommand{\titulo}{ALGORÍTMO DE RECUPERAÇÃO DA INFORMAÇÃO PARA GRANDES ESPAÇOS DE BUSCA INSPIRADOS EM TÉCNICAS DE BUSCA POR CARDUME DE PEIXES}
+
+\newcommand{\nomedoaluno}{Othon Luiz Teixeira de Oliveira}
+
+\newcommand{\dataQualif}{\vspace{18pt}{Recife, Fevereiro de 2016.}}
+

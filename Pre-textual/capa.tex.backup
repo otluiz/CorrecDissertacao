@@ -1,0 +1,45 @@
+\begin{titlepage}
+% Se quiser uma figura de fundo na capa ative o pacote wallpaper
+% e descomente a linha abaixo.
+% \ThisCenterWallPaper{0.8}{nomedafigura}
+
+%\begin{center}   \end{center}
+
+
+%==(CABEÇALHO)========================================================
+\begin{figure}[h]
+%\left
+\subfigure{\includegraphics[width=15mm, height=15mm]{Figuras/Capa/upelogo.eps}}
+\center
+\subfigure{\includegraphics[width=15mm, height=15mm]{Figuras/Capa/logoPoli.jpg}}
+\qquad %\right
+\subfigure{\includegraphics[width=15mm, height=15mm]{Figuras/Capa/upelogo.eps}}
+\end{figure}
+
+\begin{center}
+%==(CABEÇALHO)========================================================
+
+{\Large Programa de Pós-Graduação em Engenharia de Sistemas} \\ \vspace{1ex}
+%=====================================================================
+
+\vspace{1.0in}
+
+{\Large \textbf{PROJETO DE DISSERTAÇÃO}}
+
+\vspace{0.1in}
+
+\includegraphics[height=70mm]{Figuras/Capa/logo_ppges.jpg}
+
+\vspace{1.3in}
+
+
+%{\large Dissertação de Mestrado}
+
+
+\vspace{1.6in}
+
+
+\vspace{18pt}{Recife, Pernambuco\\ Agosto de 2015.}
+
+\end{center}
+\end{titlepage} 

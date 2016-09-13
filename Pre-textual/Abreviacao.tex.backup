@@ -1,0 +1,64 @@
+\vspace*{12pt}
+% Abstract
+
+% Selecionar a linguagem acerta os padrões de hifenação diferentes entre inglês e português.
+%\selectlanguage{english}
+\noindent
+
+%\par
+%\vspace{1em}
+\begin{picture}(120,20)
+\put(1,0) {\shortstack{DM\\BG\\PSO\\ACO\\FSS}}
+\put(50,0){ Data Mining\\Big Data\\Particle Swarm Optimization\\Ant Colony Optimization\\Fish School Search}}
+%BG  &  Big Data\\
+%PSO &  \textit{Particle Swarm Optimization}\\
+%ACO &  \textit{Ant Colony Optimization}\\
+%PSO &  \textit{Fish School Search}\\
+\end{picture}
+
+
+
+
+
+
+
+%OEO \hspace{2cm} Optical-Eletronic-Optical
+%(QoT, {\sl Quality of Transmission}) ok
+%(RWA, {\sl Routing and Wavelength Assignment}) ok
+%(WA, Wavelength Assignment ) ok
+%(RD, {\sl Random Wavelength Assignment}) ok
+%{\sl First Fit} (FF) ok
+%(LU, {\sl Least Used}) ok
+%(MU, {\sl Most Used}) ok
+%{\sl Shortest Path} (SP) ok
+%{\sl Distributed Relative Capacity Loss} ou DRCL ok
+%{\sl Minimum Hop} (MinHops) ok
+%{\sl Least Resistance Weight} (LRW) ok
+%IA-RWA ({\sl Impairment Aware Routing and Wavelength Assignment}) ok
+%OSNR ({\sl Optical Signal Noise Ratio}) ok
+%LED ({\sl Light Emitting Diode})ok
+%LASER (Light Amplification by Stimulated Emission of Radiation
+%EDFA, {\sl Erbium Dopped Fiber amplifier}ok
+%(RFA, {\sl Raman Fiber Amplifiers})ok
+%(OXC, {\sl Optical Crossconnect}) ok
+%(PMD, {\sl Polarization Mode Dispersion})ok
+%(SSE, {\sl Source Spontaneous Emission})ok
+%(ASE, {\sl Amplified Spontaneous Emission}) ok
+%(XPM, {\sl Cross phase modulation}) ok
+%(SPM, {\sl Self phase modulation}) ok
+%(FWM, {\sl Four Wave Mixing}) ok
+%(F, {\sl Noise Factor}) ok
+%(NF - Noise Figure) ok
+%(QoS, {\sl Quality of Service}) ok
+%(BER, {\sl Bit Error Rate}) ok
+
+%(QoS, {\sl Quality of Service})
+%(R, \textit{Routing} ok
+%
+%(WA, \textit{Wavelength Assignment})
+%UPE (Universidade de Pernambuco)
+%UFPE (Universidade Federal de Pernambuco)
+%(ASE, \textit{Amplified Spontaneous Emission})\\
+%(PMD, \textit{Polarization Mode Dispersion})\\
+
+%(BP, \textit{Blocking Probability}) ok

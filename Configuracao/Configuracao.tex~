@@ -1,0 +1,110 @@
+%%% Pacotes utilizados %%%
+
+%% Codificação e formatação básica do LaTeX
+% Suporte para português (hifenação e caracteres especiais)
+%\usepackage[english,brazilian]{babel}
+
+\usepackage[english,brazil]{babel}
+%###### USE UM DOS TRÃS: ######%
+%*****************************
+% CodificaÃ§Ã£o do arquivo
+%\usepackage[cp1252]{inputenc}
+
+%\usepackage[latin1]{inputenc}
+
+\usepackage[utf8]{inputenc}
+%*****************************
+% Mapear caracteres especiais no PDF
+\usepackage{cmap}
+
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[dvips]{graphicx}
+\usepackage{graphicx}
+\usepackage{geometry}
+
+\usepackage{indentfirst}
+\usepackage{type 1cm}
+\usepackage{lettrine}
+\usepackage{colordvi}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{pstricks}
+\usepackage{pstricks-add}
+\usepackage{array}
+
+\usepackage{yfonts}
+\usepackage{epsf}
+\usepackage{wrapfig}
+\usepackage{xtab}
+\usepackage{eucal}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{footmisc}
+\usepackage{ifthen}
+\usepackage{float}
+
+%Extra
+\usepackage{algorithmic}
+\usepackage{algorithm}
+
+%Extra
+%\usepackage{calligra}                           % Fonte caligr\'{a}fica
+%\usepackage{suetterl}                           % Fonte caligr\'{a}fica
+\usepackage[utopia]{quotchap}                   % Formata\c{c}\~{a}o para cap\'{\i}tulos
+\usepackage{IEEEtrantools_mod}
+\usepackage{lscape}
+
+%% Lista de AbreviaÃ§Ãµes
+% Cria lista de abreviaÃ§Ãµes
+\usepackage[notintoc,portuguese]{nomencl}
+\makenomenclature
+
+
+%% Links dinÃ¢micos
+% Suporte para hipertexto, links para referÃªncias e figuras
+%\usepackage{hyperref}
+
+% ConfiguraÃ§Ãµes dos links e metatags do PDF a ser gerado
+\usepackage[dvips]{hyperref}
+
+%% ReferÃªncias bibliogrÃ¡ficas e afins
+% Formatar as citaÃ§Ãµes no texto e a lista de referÃªncias
+\usepackage{natbib}
+
+% Adicionar bibliografia, Ã­ndice e conteÃºdo na Tabela de conteÃºdo
+% NÃ£o inclui lista de tabelas e figuras no Ã­ndice
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+
+
+% Conta o nÃºmero de pÃ¡ginas
+\usepackage{lastpage}
+\usepackage{setspace}
+
+\pagestyle{plain}
+
+
+\usepackage{cite}
+%\usepackage[sort&compress,square]{natbib}
+%\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{color}
+\usepackage{amssymb}
+
+
+%###### Margens ######%
+
+\geometry{a4paper,left=3cm,right=2cm,top=3cm,bottom=2cm}
+
+%% Comandos customizados
+
+% EspÃ©cie e abreviaÃ§Ã£o
+\newcommand{\subde}{\emph{Clypeaster subdepressus}}
+\newcommand{\subsus}{\emph{C.~subdepressus}}
+
+% TÃ­tulo do projeto
+\newcommand{\titulo}{ALGORÃTMO DE RECUPERAÃÃO DA INFORMAÃÃO PARA GRANDES ESPAÃOS DE BUSCA INSPIRADOS EM TÃCNICAS DE BUSCA E RESGATE}
+
+%\newcommand{\nomedoaluno}{Othon Luiz Teixeira de Oliveira}
+
+

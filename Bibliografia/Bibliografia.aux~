@@ -1,0 +1,16 @@
+\relax 
+\catcode `"\active 
+\citation{abnt-url-package=url}
+\@input{Pre-textual/capa.aux}
+\select@language{brazil}
+\@writefile{toc}{\select@language{brazil}}
+\@writefile{lof}{\select@language{brazil}}
+\@writefile{lot}{\select@language{brazil}}
+\@input{Pre-textual/FolhaRosto.aux}
+\@input{Textual/1_introducao.aux}
+\@input{Textual/2_arte.aux}
+\@input{Textual/2_metodologia}
+\bibstyle{Bibliografia/abnt-alf}
+\newlabel{LastPage}{{}{14}}
+\xdef\lastpage@lastpage{14}
+\gdef\lastpage@lastpageHy{}

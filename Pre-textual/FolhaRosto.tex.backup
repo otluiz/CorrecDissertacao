@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CAPA DO PROJETO DE DISSERTAÇÃO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{center}
+
+\includegraphics[height=20mm]{Figuras/Capa/brasao_upe.eps}\\
+
+
+%==(CABEÇALHO)========================================================
+{\textbf{Universidade de Pernambuco (UPE)}}% \\ \vspace{1ex}
+
+{\textbf{Escola Politécnica de Pernambuco (POLI)}}%\\ \vspace{1ex}
+
+{\textbf{Instituto de Ciências Biológicas (ICB)}} \\ \vspace{2ex}
+
+\vspace{1ex}
+%=====================================================================
+
+\vspace{1.3in}
+
+%===(TÍTULO DA DISSERTAÇÃO)================================
+{\Large SISTEMA DE SUGESTÃO DE ROTEAMENTO RODOVIÁRIO DE CARGAS CONSIDERANDO HISTERESE E FATORES SÓCIO-AMBIENTAIS } \\ 
+%=====================================================================
+
+\vspace{0.3in}
+
+%===================================================================
+
+\vspace{1.2ex}
+
+\begin{center}
+%===(NOME DO ALUNO E DO ORIENTADOR)===================================
+
+\vspace{1ex} {\textbf{Mestrando:} Eng. Othon Luiz Teixeira de Oliveira \\
+	      \textbf{Orientador:} Prof. Dr. Fernando Buarque de Lima Neto }
+
+\end{center}
+
+%\vspace{0.1in}
+
+%===(IDENTIFICADOR DO DOCUMENTO)===================================
+\begin{flushright}
+\vspace{0.5in}
+\parbox{3.15in}
+ {\textbf{Projeto de qualificação} apresentado ao Programa de Pós-Graduação em Engenharia de Sistemas\\
+ Área de concentração: \textbf{Cibernética.} }
+\end{flushright}
+
+
+%=====================================================================
+
+%===(IDENTIFICAÇÃO DA BANCA DE QUALIFICAÇÃO E DATA(MÊS/ANO))========
+\vspace{0.5in}
+
+\begin{flushleft}
+
+\vspace{1ex} \textbf{Banca de qualificação:} \\
+
+\vspace{1ex} Prof. Dr. Carmelo J. A. Bastos Filho...........Engenharia de Sistemas/POLI/UPE \\
+\vspace{1ex} Prof. Dr. \hspace{6cm}                        Engenharia de Sistemas/POLI/UPE
+
+\end{flushleft}
+
+
+\vspace{0.2in}
+\dataQualif
+%==================================================================
+
+\end{center}
+
