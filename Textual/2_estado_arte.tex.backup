@@ -88,7 +88,7 @@ O mapeamento sistemático foi definido em etapas da seguinte forma:
   
     \begin{table}[htbp]
       \scriptsize
-      \centering
+      \center
       \caption{Datas do Survey}
 	\begin{tabular}{l|c|c|c|c}
 	\hline
@@ -230,7 +230,7 @@ O fluxo seguido pela informação, desde o local onde é produzida até o moment
 \centering
 \caption{Big Data e Arquitetura Hadoop}
 \includegraphics[width=90mm, height=70mm]{Figuras/BigData/BigDataComponents.jpg}\\
-\small Fonte: Wikibon -- 2015
+\tiny Fonte: Wikibon -- 2015
 \end{figure}
 
 A camada mais baixa da imagem, onde se lê \textit{Processing \& Original Data} é a origem do \textit{Big Data}, onde estão os dados ``frios''. 
@@ -240,8 +240,6 @@ o volume dos dados. Em Hive (Datawarehouse - DW) é possível armazenar os dados
 Mais adiante aprofundaremos a discussão sobre Mineração de dados.
 
 \pagebreak
-
-
 
 
 \section{Data Mining}
@@ -307,7 +305,7 @@ O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e ex
 \begin{figure}[!ht]
 \centering
 \caption{O padrão CRISP-DM}
-\includegraphics[width=80mm, height=55mm]{Figuras/BigData/CrispDM.png}
+\includegraphics[width=80mm, height=60mm]{Figuras/BigData/CrispDM.png}
 \end{figure}
 
 O \textbf{Entendimento do negócio} é uma fase crucial da mineração, um especialista (ou muitos) deve ser consultado. O analista de dados consegue fazer re-uso de conhecimento lendo periódicos e artigos, 
@@ -324,12 +322,13 @@ Um modelo de regressão logística para problemas binários, redes neurais para 
 Na fase da \textbf{Avaliação de desempenho} um ou muitos modelos devem ter sido construídos e testados, apresentando alta qualidade da perspectiva da ánalise dos dados.
 Criar um modelo geralmente não é o fim do processo, contudo é um modelo de entendimento do negócio. 
 Até que se obtenha as respostas satisfatórias, o modelo deverá ser refeito várias vezes até sua \textbf{Implantação}. 
-A próxima figura descreve o domínio das técnicas aplicadas à mineração de dados:\footnote{Fonte: Neurotech -- 2012}
+A próxima figura descreve o domínio das técnicas aplicadas à mineração de dados:
 
 \begin{figure}[!ht]
 \centering
 \caption{Domínio das técnicas aplicadas a mineração de dados}
-\includegraphics[width=65mm, height=25mm]{Figuras/BigData/RelacaoCrispKddDm.png}
+\includegraphics[width=65mm, height=28mm]{Figuras/BigData/RelacaoCrispKddDm.png}\\
+\tiny Fonte: Neurotech -- 2012
 \end{figure}
 
 
@@ -427,6 +426,7 @@ A equação da evaporação do feromônio pode ser:
 p(i,j)= \frac{[\tau (i,j)]^{\alpha }.[\eta (i,j)]^{\beta}}{\sum [\tau (i,j)]^{\alpha }.[\eta (i,j)]^{\beta}}
 \end{equation}
 
+\vspace{0.3cm}
 
 \subsection{Data Mining - Swarm Intelligence}\label{arte:palavraChave:Swarm}
 
@@ -440,6 +440,8 @@ atualizado na trilha pela formiga, proporcional à qualidade da regra. Quando to
 colocadas numa lista de regras descobertas. A amostra de treinamento corretamente classificada pela regra é removidas do conjunto de treinamento. 
 Esse processo é continuado até que o número de amostras não cobertas pela regra seja pequeno e o usuário estabeleça um limiar. 
 O resultado é uma lista de regras ordenadas que será usada para classificar um conjunto de testes. A seguir apresentamos o algoritmo de classificação AntMiner:
+
+\vspace{0.3cm}
 
 \begin{algorithm}[H]
  \SetAlgoLined

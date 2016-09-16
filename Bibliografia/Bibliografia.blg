@@ -1,32 +1,37 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Bibliografia.aux
-I couldn't open auxiliary file Pre-textual/capa.aux
+I couldn't open auxiliary file Manifesto.aux
 ---line 4 of file Bibliografia.aux
+ : \@input{Manifesto.aux
+ :                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Pre-textual/capa.aux
+---line 5 of file Bibliografia.aux
  : \@input{Pre-textual/capa.aux
  :                             }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file Pre-textual/FolhaRosto.aux
----line 9 of file Bibliografia.aux
+---line 10 of file Bibliografia.aux
  : \@input{Pre-textual/FolhaRosto.aux
  :                                   }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file Textual/1_introducao.aux
----line 10 of file Bibliografia.aux
+---line 11 of file Bibliografia.aux
  : \@input{Textual/1_introducao.aux
  :                                 }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file Textual/2_arte.aux
----line 11 of file Bibliografia.aux
+---line 12 of file Bibliografia.aux
  : \@input{Textual/2_arte.aux
  :                           }
 I'm skipping whatever remains of this command
-Textual/2_metodologia has a wrong extension---line 12 of file Bibliografia.aux
+Textual/2_metodologia has a wrong extension---line 13 of file Bibliografia.aux
  : \@input{Textual/2_metodologia
  :                              }
 I'm skipping whatever remains of this command
 I couldn't open style file Bibliografia/abnt-alf.bst
----line 13 of file Bibliografia.aux
+---line 14 of file Bibliografia.aux
  : \bibstyle{Bibliografia/abnt-alf
  :                                }
 I'm skipping whatever remains of this command
@@ -34,7 +39,7 @@ I found no \bibdata command---while reading file Bibliografia.aux
 I found no style file---while reading file Bibliografia.aux
 You've used 1 entry,
             0 wiz_defined-function locations,
-            89 strings with 627 characters,
+            90 strings with 640 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
@@ -73,4 +78,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 8 error messages)
+(There were 9 error messages)

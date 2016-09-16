@@ -1,9 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Manifesto.aux
-A level-1 auxiliary file: Pre-textual/capa.aux
+A level-1 auxiliary file: Pre-textual/Capa.aux
 A level-1 auxiliary file: Pre-textual/FolhaRosto.aux
 A level-1 auxiliary file: Textual/1_introducao.aux
+A level-1 auxiliary file: Textual/2_estado_arte.aux
 A level-1 auxiliary file: Textual/3_metodologia.aux
 A level-1 auxiliary file: Textual/4_conclusao.aux
 The style file: Bibliografia/abnt-num.bst
@@ -17,70 +18,161 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib.bib
-I was expecting a `,' or a `}'---line 153 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 143 of file Bibliografia/Bibliografia.bib.bib
+ : 
+ : url = {http://www.anaesthetist.com/mnm/stats/roc/Findex.htm},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 150 of file Bibliografia/Bibliografia.bib.bib
+ : 
+ : url= {http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 157 of file Bibliografia/Bibliografia.bib.bib
  : 
  : title = {Signal Detection Theory and Psychophysics}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 162 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 166 of file Bibliografia/Bibliografia.bib.bib
  : 
  : year  = {2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 325 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 329 of file Bibliografia/Bibliografia.bib.bib
  : 
  : title = {{Induction of Decision Trees}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "H. Ahmed, and J. Glasgow" has a comma at the end for entry SRobotics
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "H. Ahmed, and J. Glasgow" has a comma at the end for entry SRobotics
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "H. Ahmed, and J. Glasgow" has a comma at the end for entry SRobotics
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "H. Ahmed, and J. Glasgow" has a comma at the end for entry SRobotics
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "H. Ahmed, and J. Glasgow" has a comma at the end for entry SRobotics
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in DadosGoverno
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Warning--campo title vazio em Filesystem
+Warning--campo title vazio em MD_AM
+Warning--campo title vazio em Discriminativo
+Name 1 in "H. Ahmed, and J. Glasgow" has a comma at the end for entry SRobotics
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Warning--campo title vazio em motorBusca
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Warning--campo title vazio em Learning2007
+`title' is a missing field, not a string, for entry DadosGoverno
+while executing---line 2150 of file Bibliografia/abnt-num.bst
+Warning--campo title vazio em DadosGoverno
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 6 entries,
+You've used 32 entries,
             6480 wiz_defined-function locations,
-            1193 strings with 10323 characters,
-and the built_in function-call counts, 3891 in all, are:
-= -- 388
-> -- 83
-< -- 6
-+ -- 77
-- -- 26
-* -- 228
-:= -- 591
-add.period$ -- 17
-call.type$ -- 6
-change.case$ -- 45
-chr.to.int$ -- 9
-cite$ -- 5
-duplicate$ -- 185
-empty$ -- 278
-format.name$ -- 135
-if$ -- 903
+            1358 strings with 13743 characters,
+and the built_in function-call counts, 20716 in all, are:
+= -- 1568
+> -- 584
+< -- 45
++ -- 260
+- -- 180
+* -- 1375
+:= -- 2797
+add.period$ -- 97
+call.type$ -- 32
+change.case$ -- 271
+chr.to.int$ -- 68
+cite$ -- 38
+duplicate$ -- 1149
+empty$ -- 1592
+format.name$ -- 922
+if$ -- 4842
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 95
-newline$ -- 35
-num.names$ -- 20
-pop$ -- 149
+missing$ -- 538
+newline$ -- 169
+num.names$ -- 120
+pop$ -- 773
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 111
 quote$ -- 0
-skip$ -- 251
+skip$ -- 1194
 stack$ -- 1
-substring$ -- 158
-swap$ -- 72
-text.length$ -- 5
+substring$ -- 873
+swap$ -- 487
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 32
+type$ -- 1
+warning$ -- 7
+while$ -- 183
 width$ -- 0
-write$ -- 70
-(There were 3 error messages)
+write$ -- 405
+(There were 42 error messages)

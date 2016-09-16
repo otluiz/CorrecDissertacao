@@ -94,12 +94,13 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 New York, USA: Academic Press, 1975.}
 
 \bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{}
-{ANAESTHETIST, T.}
+\abntrefinfo{nada}{NADA}{a}
+{Dispon{\'\i}vel em:
+  \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
 
 \bibitem{Discriminativo}
-\abntrefinfo{Souza}{SOUZA}{}
-{SOUZA, C.~R.}
+\abntrefinfo{nada}{NADA}{b}
+{}
 
 \bibitem{SRobotics}
 \abntrefinfo{Ahmed e Glasgow}{AHMED; GLASGOW}{2012}
@@ -181,10 +182,5 @@ p. 1131 -- 1152, 2000.}
 \abntrefinfo{M}{M}{2009}
 {M, H. J. Logistic regression models.
 {Chapman and Hall -- CRC Press}, 2009.}
-
-\bibitem{DadosGoverno}
-\abntrefinfo{nada}{NADA}{2016}
-{2016.
-Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
 \end{thebibliography}
