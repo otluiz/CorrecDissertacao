@@ -134,45 +134,45 @@ Warning--campo title vazio em DadosGoverno
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 32 entries,
+You've used 33 entries,
             6480 wiz_defined-function locations,
-            1358 strings with 13743 characters,
-and the built_in function-call counts, 20716 in all, are:
-= -- 1568
-> -- 584
-< -- 45
-+ -- 260
-- -- 180
-* -- 1375
-:= -- 2797
-add.period$ -- 97
-call.type$ -- 32
-change.case$ -- 271
-chr.to.int$ -- 68
-cite$ -- 38
-duplicate$ -- 1149
-empty$ -- 1592
-format.name$ -- 922
-if$ -- 4842
+            1366 strings with 14156 characters,
+and the built_in function-call counts, 21664 in all, are:
+= -- 1640
+> -- 626
+< -- 49
++ -- 276
+- -- 192
+* -- 1456
+:= -- 2915
+add.period$ -- 101
+call.type$ -- 33
+change.case$ -- 286
+chr.to.int$ -- 72
+cite$ -- 39
+duplicate$ -- 1195
+empty$ -- 1648
+format.name$ -- 983
+if$ -- 5064
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 538
-newline$ -- 169
-num.names$ -- 120
-pop$ -- 773
+missing$ -- 557
+newline$ -- 175
+num.names$ -- 124
+pop$ -- 801
 preamble$ -- 1
-purify$ -- 111
+purify$ -- 116
 quote$ -- 0
-skip$ -- 1194
+skip$ -- 1235
 stack$ -- 1
-substring$ -- 873
-swap$ -- 487
-text.length$ -- 33
+substring$ -- 911
+swap$ -- 512
+text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 7
-while$ -- 183
+while$ -- 191
 width$ -- 0
-write$ -- 405
+write$ -- 421
 (There were 42 error messages)

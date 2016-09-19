@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  14 SEP 2016 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  19 SEP 2016 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,7 +1624,7 @@ Package pdftex.def Info: Figuras/BigData/arvore.png used on input line 515.
 (./Textual/3_metodologia.tex
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
@@ -1632,28 +1632,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 
 
-] [29] <Figuras/BigData/Etapas.png, id=157, 1306.8825pt x 390.45876pt>
+] [29] [30] <Figuras/BigData/Etapas.png, id=161, 1306.8825pt x 390.45876pt>
 File: Figuras/BigData/Etapas.png Graphic file (type png)
 
 <use Figuras/BigData/Etapas.png>
-Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 80.
+Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 93.
 (pdftex.def)             Requested size: 426.78575pt x 170.71803pt.
- [30 <./Figuras/BigData/Etapas.png>]) [31]
+ [31 <./Figuras/BigData/Etapas.png>]) [32]
 \openout2 = `Textual/4_conclusao.aux'.
 
 
 (./Textual/4_conclusao.tex
 Cap\'{\i }tulo 4.
-) [32
+) [33
 
 
 
-] (./Manifesto.bbl [33
+] (./Manifesto.bbl [34
 
 
 ]) 
 AED: lastpage setting LastPage
-[34] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
+[35] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
 (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_conclusao.aux))
 
@@ -1666,10 +1666,10 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17162 strings out of 494790
- 282770 string characters out of 6174858
- 424937 words of memory out of 5000000
- 19941 multiletter control sequences out of 15000+600000
+ 17167 strings out of 494790
+ 282852 string characters out of 6174858
+ 425004 words of memory out of 5000000
+ 19946 multiletter control sequences out of 15000+600000
  34806 words of font info for 67 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  46i,24n,53p,624b,3676s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1701,10 +1701,10 @@ public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /cm-super/sfti1200.pfb>
-Output written on Manifesto.pdf (35 pages, 1694833 bytes).
+Output written on Manifesto.pdf (36 pages, 1697075 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
+ 260 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

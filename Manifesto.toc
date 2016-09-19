@@ -19,11 +19,12 @@
 \contentsline {subsection}{\numberline {2.4.1}\IeC {\'A}rvore de Decis\IeC {\~a}o}{26}
 \contentsline {section}{\numberline {2.5}Regress\IeC {\~a}o Log\IeC {\'\i }stica}{27}
 \contentsline {chapter}{\numberline {3} Metodologia}{28}
-\contentsline {section}{\numberline {3.1} Metodologia utilizada}{28}
-\contentsline {section}{\numberline {3.2} Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{29}
-\contentsline {section}{\numberline {3.3}Cronograma}{31}
-\contentsline {chapter}{\numberline {4}Resumo da Proposta, Discuss\IeC {\~a}o}{32}
-\contentsline {section}{\numberline {4.1}Resumo da Proposta}{32}
-\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{32}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{33}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{33}
+\contentsline {section}{\numberline {3.1} Metodologia utilizada para coleta dos dados}{28}
+\contentsline {section}{\numberline {3.2} Proposi\IeC {\c c}\IeC {\~a}o do modelo preditivo}{28}
+\contentsline {section}{\numberline {3.3} Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{30}
+\contentsline {section}{\numberline {3.4}Cronograma}{32}
+\contentsline {chapter}{\numberline {4}Resumo da Proposta, Discuss\IeC {\~a}o}{33}
+\contentsline {section}{\numberline {4.1}Resumo da Proposta}{33}
+\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{33}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}

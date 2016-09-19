@@ -1,22 +1,36 @@
 \chapter{ Metodologia}\label{meto}
 
 
-\section{ Metodologia utilizada}\label{intro:metodologia}
+\section{ Metodologia utilizada para coleta dos dados}\label{intro:metodologia}
 
-O objetivo deste projeto é propor um Modelo preditivo de Suporte à Decisão que dê apoio a um gestor quando decidir enviar uma frota de 
-caminhões por determinada rodovia que apresente retenções crescentes de logística de cargas.\\
+A metodologia utilizada é um modelo preditivo de Suporte a Decisão que forneça informação suficiente a um gestor para decidir quando e por onde 
+enviar uma frota de caminhões por determinada rodovia que apresente retenções crescentes de logística de cargas. As soluções disponíveis que 
+existem tais como; Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores 
+dos aplicativos ou por informações provindas de GPS, contudo não analisam dados históricos dessas rodovias nem fazem predições futuras sobre o 
+comportamento delas. \\
 
-A maioria dos dados governamentais tais como PRF, INPE, IBGE são iniciativas governamentais para fomentar a participação popular, também é 
-conhecido como \textit{Open data} \cite{DadosGoverno}
+As informações para suprir nosso modelo preditivo estão disponíveis na Internet, em sua maioria são Dados Governamentais Abertos, tais como os dados
+da PRF, INPE e IBGE. Isto são iniciativas governamentais para fomentar a participação popular, dentro outros motivos, essas informações são também 
+conhecidas como \textit{open data} \cite{DadosGoverno}, contudo os dados referentes à PRF e ao BPRv, para esta pesquisa, foram cedidos pelos respectivos 
+órgãos governamentais (ver anexos) já em formato CSV para serem utilizados exclusivamente nesta pesquisa. Isso possibilitou ganho qualitativo nos dados, o que 
+evitou passar pelos transtornos como descreve (fulano de tal) aquando coletou diretamente da Internet. 
+As bases de dados do INPE e do base de dados do IBGE foram coletados diretamente da Internet.
 
-Para isso montarmos o modelo preditivo utilizamos bases de dados históricas da PRF (de acidentes e de paralisações ex: protestos), bases de dados
-do Batalhão de Polícia de Rodoviária estadual -- BPRv, bases de dados do INPE e base de dados do IBGE. Todas essas bases de dados são integradas
-gerando um único e complexo modelo preditivo que é acoplado a estrutura dinâmica.
 
-A estrutura dinâmica é composta por duas API's, uma disponibilizada pelo Google Maps que está atualmente na versão V3 e outra uma API do Twitter,
-que proporciona uma ``leitura'' atualizada em forma de mapa no momento em que o sistema ``roda''. 
-A API do Twitter também tem a possibilidade de atualizar o modelo preditivo, fazendo um Arco cibernético, retroalimentando todo o sistema. 
-Isso permite que o primeiro módulo (preditivo) seja atualizado de tempos em tempos.
+
+
+\section{ Proposição do modelo preditivo}
+
+O modelo preditivo foi construído utilizando bases de dados históricas da PRF (de acidentes e de paralisações ex: protestos) entre Janeiro de 2007 a 
+Dezembro 2015. As bases de dados do Batalhão de Polícia de Rodoviária estadual -- BPRv vieram entre 2010 à 2016, cortes em ambas as bases foram 
+feitos para adequar as datas. Essas bases de dados são integradas gerando um único e complexo modelo preditivo que é acoplado a estrutura dinâmica.
+
+A estrutura dinâmica é composta por duas API's, uma disponibilizada pela Google, através do Google Maps que está atualmente na versão V3 e 
+outra uma API do Twitter. A API do Google Maps proporciona uma ``leitura'' atualizada em forma de mapa no momento em que a estrutura dinâmica ``roda''. 
+
+A API do Twitter também tem a possibilidade de atualizar o modelo preditivo, contudo o objetivo desta é faz um Arco cibernético, 
+retroalimentando todo o sistema com novas informações, pensamos que isso permite que o primeiro módulo (preditivo) seja atualizado de 
+tempos em tempos, quando for .
 
 A API Google Maps portanto é o ``front-end'' do Sistema e uma futura aplicação que poderá ser desenvolvida para ser executada em um aparelho 
 celular, ``Smartphones'', com boa capacidade para executar aplicativos mais complexos.
