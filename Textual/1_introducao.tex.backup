@@ -11,20 +11,17 @@ nossa civilização aprendeu a guardar informação.
 Para armazená-los, seriam necessários milhões de computadores; se fosse possível dispô-los num único \textit{DataCenter}, esses ocupariam 
 uma área do tamanho do estado de São Paulo.
 
-Os dados produzidos pelo ser humano atualmente dobram a cada 5 anos; esses dados são desde artigos publicados, novas técnicas para os mais diversos problemas da vida humana 
-e outros, ficando impossível serem armazenados pelo cérebro humano \cite{bigdataMedicina}.
+Os dados produzidos pelo ser humano atualmente dobram a cada 5 anos; astrônomos atualizam suas descobertas numa base de dados disponíveis para outros utilizarem; as ciências biológicas agora têm tradição 
+em depositar seus avanços científicos em repositórios públicos \cite{bigdataMedicina}; redes sociais estão focadas na Web: Facebook, LinkedIn, Tweeter e outras 
+sobrevivem coletando informações, vendendo espaço publicitário e repassando-as às empresas de telemarketing, empresas de comércio eletrônico como 
+Amazon.com, Submarino.com.br, Americanas.com, MagazineLuíza.com.br, utilizam essas informações para vender mais e melhor. 
+Por outro lado, artigos científicos dos mais variados assuntos e das mais variadas áreas alimentam todos os dias, com milhões de 
+informações, os \textit{Data Centers}.
 
-Com a chegada da Internet das Coisas (IoC), acrônimo de \textit{Internet of Things} (IoT), a previsão é de que o número de informações dobre a cada 2 anos.
-
-A Internet da Coisas pode ser entendida como ``coisas conectadas às coisas'', que pode ser, o refrigerador comunicar-se com os alimentos ali depositados, que contenham uma 
-etiqueta identificadora por rádiofrequência (Radio Frequency IDentification -- RFID), podendo ter autonomia para enviar a um supermercado um rol de compras futuras. 
-
-Isso irá fazer com que os dados trafegados pela Internet tenham um crescimento exponencial. A essas informações circulantes dá-se o nome de \textit{Big Data}. 
-Um \textit{Big data} é um conceito, na verdade são as coleções de tudo o que é disponibilizado na Internet, desde os dados dos \textit{Data Centers} aos dados gerados pela Internet das Coisas.
-Essa enormidade de dados poderia ver a ser um problema de difícil solução se não houvessem abordagens computacionais com habilidade de 
-extrair semântica bem como possibilidade de oferecer suporte a agentes decisores.
-
-Uma instância do problema a ser tratado nessa pesquisa será a integração de bases heterogêneas de dados em um aplicação de suporte à decisão de logística de cargas rodoviárias.
+Uma instância do problema descrito anteriomente será tratado nesta pesquisa, para isso a integração de bases de dados heterogêneas disponíveis em computadores de órgãos públicos 
+que contenham informações de qualidade para gerar um modelo preditivo de roteamento de cargas, considerando os dados históricos de cada rodovia tais como trechos onde há mais 
+retenções que causam constrangimento nas vias, tais como acidentes, protestos, intempéries ambienteais
+informações de redes sociais associadas ao problema em lide, , em um aplicação de suporte à decisão de logística de cargas rodoviárias.
 
 %\pagebreak
 
@@ -43,7 +40,7 @@ foi contabilizada, em 2014, com 635.686 veículos \cite{FrotaVeiculosIBGE}.
 
 O que acontece na região metropolitana do Recife, é frequentemente visto no entorno das principais cidades brasileiras.
 Por outro lado, câmeras de monitoramento de trânsito, redes sociais, aplicativos de celular e outros dispositivos, fornecem informações diárias sobre o que acontece nessas 
-rodovias e no entorno delas, atualizando e alimentando bases de dados históricas, em repositórios espalhados pelos centros de monitoramento de trânsito.
+rodovias e no entorno delas, atualizando e alimentando bases de dados históricas, em repositórios espalhados pelos centros de monitoramento de trânsito, isso é o \textit{Big data}.
 
 A proposição de uma solução para resolver esse problemática requer várias etapas, para além da proposição de algumas técnicas de mineração dos dados.
 Propomos, nesse projeto, uma solução peculiar, ao enviar essa frota de caminhões por diversas rotas, escolhidas por critérios cientificamente estudados.
@@ -64,8 +61,8 @@ dados históricos das rodovias até a situção cotidiana.
  \item Representar a problemática da logística de cargas em uma plataforma adaptável:
  
       \begin{enumerate}
-       \item Desenvolver uma plataforma adaptável que utilize dados de redes sociais (Twitter); analisar o contexto das rodovias 
-       através da mineração de dados em textos que verifica palavras chaves como: protestos, acidentes e outras.
+       \item Desenvolver uma plataforma adaptável que utilize dados de redes sociais (Twitter); analisar o contexto das rodovias por essas 
+       redes através da mineração de dados em textos e integrar ao resto do sistema através que verifica palavras chaves como: protestos, acidentes e outras.
       \end{enumerate}
 
  \item Desenvolver um modelo preditivo dos fenômenos que envolvem as rodovias:
@@ -73,7 +70,7 @@ dados históricos das rodovias até a situção cotidiana.
       \begin{enumerate}
        \item Para o desenvolvimento do modelo preditivo pretende-se utilizar bases de dados históricas.
        \item O modelo preditivo integra várias bases de dados, tais como: Polícia Rodoviária Federal -- PRF, Batalhão de Polícia de Transito -- BPRv e dados históricos 
-       do Intitudo de Pesquisas Espaciais -- INPE.
+       do Instituto de Pesquisas Espaciais -- INPE ou dos dados de precipitações pluviométricas do ``European Centre for Medium-Range Weather -- ECMWF.
        \item Algumas dessas informações também estão disponíveis em base de dados abertas, como sugere o Portal da Transparência, nos servidores da PRF além de outras informações para complementar o sistema estão 
        disponíveis na Internet sendo atualizadas pela PRF através de uma API aberta, esta pode ser configurável para se ligar ao nosso sistema.
       \end{enumerate}
