@@ -19,12 +19,16 @@
 \contentsline {subsection}{\numberline {2.4.1}\IeC {\'A}rvore de Decis\IeC {\~a}o}{26}
 \contentsline {section}{\numberline {2.5}Regress\IeC {\~a}o Log\IeC {\'\i }stica}{27}
 \contentsline {chapter}{\numberline {3} Metodologia}{28}
-\contentsline {section}{\numberline {3.1} Metodologia utilizada para coleta dos dados}{28}
-\contentsline {section}{\numberline {3.2} Proposi\IeC {\c c}\IeC {\~a}o do modelo preditivo}{28}
-\contentsline {section}{\numberline {3.3} Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{30}
-\contentsline {section}{\numberline {3.4}Cronograma}{32}
-\contentsline {chapter}{\numberline {4}Resumo da Proposta, Discuss\IeC {\~a}o}{33}
-\contentsline {section}{\numberline {4.1}Resumo da Proposta}{33}
-\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{33}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}
+\contentsline {section}{\numberline {3.1} Plano geral da metodologia}{28}
+\contentsline {section}{\numberline {3.2} Proposi\IeC {\c c}\IeC {\~a}o do modelo preditivo}{29}
+\contentsline {section}{\numberline {3.3} Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{29}
+\contentsline {subsection}{\numberline {3.3.1} Metodologia utilizada para coleta dos dados}{30}
+\contentsline {subsection}{\numberline {3.3.2} As vari\IeC {\'a}veis do modelo preditivo}{31}
+\contentsline {section}{\numberline {3.4} Extra\IeC {\c c}\IeC {\~a}o do conhecimento}{32}
+\contentsline {section}{\numberline {3.5} Acoplamento com a estrutura din\IeC {\^a}mica}{33}
+\contentsline {section}{\numberline {3.6}Cronograma}{35}
+\contentsline {chapter}{\numberline {4}Resumo da Proposta, Discuss\IeC {\~a}o}{36}
+\contentsline {section}{\numberline {4.1}Resumo da Proposta}{36}
+\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{36}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{38}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{38}

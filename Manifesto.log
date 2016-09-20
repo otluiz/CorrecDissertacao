@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  19 SEP 2016 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  20 SEP 2016 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,7 +1624,18 @@ Package pdftex.def Info: Figuras/BigData/arvore.png used on input line 515.
 (./Textual/3_metodologia.tex
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--11
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
+
+ []
+
+<Figuras/BigData/Etapas.png, id=151, 1306.8825pt x 390.45876pt>
+File: Figuras/BigData/Etapas.png Graphic file (type png)
+
+<use Figuras/BigData/Etapas.png>
+Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 16.
+(pdftex.def)             Requested size: 455.24211pt x 199.16707pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
@@ -1632,33 +1643,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
 
 
-] [29] [30] <Figuras/BigData/Etapas.png, id=161, 1306.8825pt x 390.45876pt>
-File: Figuras/BigData/Etapas.png Graphic file (type png)
+] [29 <./Figuras/BigData/Etapas.png>] [30] [31]
+<Figuras/Cronograma/BasesHistoricas.png, id=167, 1518.473pt x 680.141pt>
+File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
-<use Figuras/BigData/Etapas.png>
-Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 93.
-(pdftex.def)             Requested size: 426.78575pt x 170.71803pt.
- [31 <./Figuras/BigData/Etapas.png>]) [32]
+<use Figuras/Cronograma/BasesHistoricas.png>
+Package pdftex.def Info: Figuras/Cronograma/BasesHistoricas.png used on input l
+ine 169.
+(pdftex.def)             Requested size: 469.4706pt x 284.52606pt.
+
+Overfull \hbox (14.22649pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
+
+[32 <./Figuras/Cronograma/BasesHistoricas.png>]
+<Figuras/Cronograma/GoogleMaps.png, id=172, 748.7975pt x 778.91pt>
+File: Figuras/Cronograma/GoogleMaps.png Graphic file (type png)
+
+<use Figuras/Cronograma/GoogleMaps.png>
+Package pdftex.def Info: Figuras/Cronograma/GoogleMaps.png used on input line 1
+92.
+(pdftex.def)             Requested size: 426.79616pt x 369.87914pt.
+ [33 <./Figuras/Cronograma/GoogleMaps.png (PNG copy)>] [34]) [35]
 \openout2 = `Textual/4_conclusao.aux'.
 
-
-(./Textual/4_conclusao.tex
+ (./Textual/4_conclusao.tex
 Cap\'{\i }tulo 4.
-) [33
+[36
 
 
 
-] (./Manifesto.bbl [34
+]) [37] (./Manifesto.bbl [38
 
 
-]) 
+] [39]) 
 AED: lastpage setting LastPage
-[35] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
+[40] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
 (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_conclusao.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.42938pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -1666,11 +1694,11 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17167 strings out of 494790
- 282852 string characters out of 6174858
- 425004 words of memory out of 5000000
- 19946 multiletter control sequences out of 15000+600000
- 34806 words of font info for 67 fonts, out of 8000000 for 9000
+ 17194 strings out of 494790
+ 283468 string characters out of 6174858
+ 424006 words of memory out of 5000000
+ 19963 multiletter control sequences out of 15000+600000
+ 37544 words of font info for 76 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  46i,24n,53p,624b,3676s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm
@@ -1696,15 +1724,17 @@ nts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/cm-super/sfti1200.pfb>
-Output written on Manifesto.pdf (36 pages, 1697075 bytes).
+1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
+m-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfti1440.pfb>
+Output written on Manifesto.pdf (41 pages, 2122895 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 289 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
