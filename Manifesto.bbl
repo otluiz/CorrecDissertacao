@@ -38,30 +38,23 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
-\bibitem{bigdataQualquerUm}
-\abntrefinfo{Jagadish J.~Gehrke e Shahabi}{JAGADISH J.~GEHRKE; SHAHABI}{2014}
-{JAGADISH J.~GEHRKE, A. L. Y. P. J. M. P. R.~R. H.~V.; SHAHABI, C. Exploring
-  the inherent technical challenges in realizing the potential of big data.
-\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+\bibitem{Crisp2000}
+\abntrefinfo{Wirth}{WIRTH}{2000}
+{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
+2000.}
 
-\bibitem{Twitter2015}
-\abntrefinfo{Dorsey E.~Williams e Glass}{DORSEY E.~WILLIAMS; GLASS}{2015}
-{DORSEY E.~WILLIAMS, B.~S. J.; GLASS, N. {Twitter}.
-July 2015.
-Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
+\bibitem{ROC}
+\abntrefinfo{Egan}{EGAN}{1975}
+{EGAN, J.~P. Signal detection theory and roc analysis.
+New York, USA: Academic Press, 1975.}
 
-\bibitem{Filesystem}
-\abntrefinfo{Filho}{FILHO}{2012}
-{FILHO, J. H.~M. [S.l.: s.n.], 2012. 153--162~p.
-ISBN 978-85-7522-278-2.}
+\bibitem{MD_AM}
+\abntrefinfo{Anaesthetist}{ANAESTHETIST}{}
+{ANAESTHETIST, T.}
 
-\bibitem{Dean2008}
-\abntrefinfo{Dean e Ghemawat}{DEAN; GHEMAWAT}{2008}
-{DEAN, J.; GHEMAWAT, S. {MapReduce : Simplified Data Processing on Large
-  Clusters}.
-\emph{Communications of the ACM}, ACM, v.~51, n.~1, p. 1--13, 2008.
-ISSN 00010782.
-Dispon{\'\i}vel em: \url{http://portal.acm.org/citation.cfm?id=1327492}.}
+\bibitem{Discriminativo}
+\abntrefinfo{Souza}{SOUZA}{}
+{SOUZA, C.~R.}
 
 \bibitem{Aranha2006}
 \abntrefinfo{Aranha e Passos}{ARANHA; PASSOS}{2006}
@@ -82,67 +75,6 @@ Dispon{\'\i}vel em: \url{http://portal.acm.org/citation.cfm?id=1327492}.}
   Prediction}.
 v.~353, p. 215--225, 2015.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
-
-\bibitem{Crisp2000}
-\abntrefinfo{Wirth}{WIRTH}{2000}
-{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
-2000.}
-
-\bibitem{ROC}
-\abntrefinfo{Egan}{EGAN}{1975}
-{EGAN, J.~P. Signal detection theory and roc analysis.
-New York, USA: Academic Press, 1975.}
-
-\bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{}
-{ANAESTHETIST, T.}
-
-\bibitem{Discriminativo}
-\abntrefinfo{Souza}{SOUZA}{}
-{SOUZA, C.~R.}
-
-\bibitem{SRobotics}
-\abntrefinfo{Ahmed e Glasgow}{AHMED; GLASGOW}{2012}
-{AHMED, H.; GLASGOW, J. Swarm intelligence: concepts, models and applications.
-\emph{School of Computing, Queen's University}, Citeseer, 2012.}
-
-\bibitem{chambers2014computer}
-\abntrefinfo{Chambers}{CHAMBERS}{2014}
-{CHAMBERS, W.~D. Computer simulation of dental professionals as a moral
-  community.
-\emph{Medicine, Health Care and Philosophy}, Springer, v.~17, n.~3, p.
-  467--476, 2014.}
-
-\bibitem{Blum2005}
-\abntrefinfo{Blum}{BLUM}{2005}
-{BLUM, C. {Ant colony optimization: Introduction and recent trends}.
-v.~2, n.~4, p. 353--373, 2005.
-ISSN 15710645.}
-
-\bibitem{Dorigo2005}
-\abntrefinfo{Dorigo e Blum}{DORIGO; BLUM}{2005}
-{DORIGO, M.; BLUM, C. {Ant colony optimization theory: A survey}.
-\emph{Theoretical Computer Science}, v.~344, n.~2-3, p. 243--278, 2005.
-ISSN 03043975.}
-
-\bibitem{Baig2012}
-\abntrefinfo{Baig e Shahzad}{BAIG; SHAHZAD}{2012}
-{BAIG, A.~R.; SHAHZAD, W. {A correlation-based ant miner for classification
-  rule discovery}.
-\emph{Neural Computing and Applications}, v.~21, n.~2, p. 219--235, 2012.
-ISSN 09410643.}
-
-\bibitem{Barford2007}
-\abntrefinfo{Barford e Yegneswaran}{BARFORD; YEGNESWARAN}{2007}
-{BARFORD, P.; YEGNESWARAN, V. {An inside look at Botnets}.
-\emph{Malware Detection}, v.~27, p. 171--191, 2007.
-ISSN 03601315.
-Dispon{\'\i}vel em:
-  \url{http://www.springerlink.com/index/10.1007/978-0-387-44599-1}.}
-
-\bibitem{motorBusca}
-\abntrefinfo{Google}{GOOGLE}{}
-{GOOGLE, I.}
 
 \bibitem{DataMining}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
@@ -181,6 +113,18 @@ p. 1131 -- 1152, 2000.}
 \abntrefinfo{M}{M}{2009}
 {M, H. J. Logistic regression models.
 {Chapman and Hall -- CRC Press}, 2009.}
+
+\bibitem{Twitter2015}
+\abntrefinfo{Dorsey E.~Williams e Glass}{DORSEY E.~WILLIAMS; GLASS}{2015}
+{DORSEY E.~WILLIAMS, B.~S. J.; GLASS, N. {Twitter}.
+July 2015.
+Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
+
+\bibitem{bigdataQualquerUm}
+\abntrefinfo{Jagadish J.~Gehrke e Shahabi}{JAGADISH J.~GEHRKE; SHAHABI}{2014}
+{JAGADISH J.~GEHRKE, A. L. Y. P. J. M. P. R.~R. H.~V.; SHAHABI, C. Exploring
+  the inherent technical challenges in realizing the potential of big data.
+\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
 \bibitem{DadosGoverno}
 \abntrefinfo{nada}{NADA}{2016}

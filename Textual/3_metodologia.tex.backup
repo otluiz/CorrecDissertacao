@@ -1,6 +1,6 @@
 \chapter{ Metodologia}\label{meto}
 
-A metodologia utilizada é um modelo preditivo de Suporte a Decisão que forneça informação suficiente a um gestor para decidir quando e por onde 
+A metodologia utilizada no modelo preditivo é o CRISP -- DM. de Suporte a Decisão que forneça informação suficiente a um gestor para decidir quando e por onde 
 enviar uma frota de caminhões por determinada rodovia que apresente retenções crescentes de logística de cargas. As soluções disponíveis que 
 existem tais como; Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores 
 dos aplicativos ou por informações provindas de GPS, contudo não analisam dados históricos dessas rodovias nem fazem predições futuras sobre o 
@@ -8,7 +8,8 @@ comportamento delas. \\
 
 \section{ Plano geral da metodologia}
 
-Propomos um plano que contemple 3 etapas, cada uma dividida em fases atinentes. A figura a seguir ilustra essa metodologia descrita graficamente, onde as três etapas são representadas por retângulos.
+A metodologia contempla um plano em três etapas, cada uma dividida em fases atinentes. 
+A figura a seguir ilustra essa metodologia descrita graficamente, onde as três etapas são representadas por retângulos.
  
 \begin{figure}[ht]
 \centering
@@ -16,12 +17,12 @@ Propomos um plano que contemple 3 etapas, cada uma dividida em fases atinentes. 
 \includegraphics[width=160mm, height=70mm]{Figuras/BigData/Etapas.png}
 \end{figure}
 
- A etapa 1 contempla as fases da coleta das bases vetoriais, das bases de dados históricas e proposição de um modelo de representação único.
+ A etapa 1 contempla a fases da coleta das bases de dados históricas e proposição de um modelo de representação único.
  
  O retângulo central é a etapa 2, que consiste nas fases de Identificação dos fatores sócio ambientais na bases históricas, a modelagem do sistema preditivo e aplicação das técnicas de IA. Propomos inicialmente a Regressão Logística e Árvores de decisão, testes iniciais e depuração do modelo.
  
- A última etapa da nossa proposta metodológica é a etapa 3, esta conterá um arco cibernético construído com os dados de redes sociais, como por exemplo a API do Twitter, este ``per si'' fará com que o modelo preditivo seja retro-alimentado, 
- mantendo-o, ao longo do tempo atualizado na perspectiva do usuário gestor. Isso pois, modelos preditivos com o passar do tempo tendem a desfasar-se. 
+ A última etapa da nossa metodolia contempla a coleta das bases vetoriais, esta contém um arco cibernético construído com os dados de redes sociais, como por exemplo a API do Twitter, este ``per si'' 
+ permite uma contraposição ao modelo preditivo na perspectiva do usuário gestor. Isso pois, modelos preditivos com o passar do tempo tendem a desfasar-se. 
  Uma proposta algorítmica para substituir a API das redes sociais 
  poderá ser desenvolvida e testada numa fase complementar, o algorítmo Ant-Miner poderá vir a ser um candidato de adaptação.\\
  
@@ -29,7 +30,7 @@ Propomos um plano que contemple 3 etapas, cada uma dividida em fases atinentes. 
  terceira etapa.
 
 
-\section{ Proposição do modelo preditivo}
+\section{ Modelo preditivo}
 
 O modelo preditivo foi construído utilizando bases de dados históricas da PRF (de acidentes e de paralisações ex: protestos) entre Janeiro de 2007 a 
 Dezembro 2015. As bases de dados do Batalhão de Polícia de Rodoviária estadual -- BPRv vieram entre Janeiro/2010 a Julho/2016, cortes em ambas as bases foram 
@@ -49,68 +50,6 @@ bases se estreita.
 Nesta pesquisa, bases heterogêneas foram integralizadas num única grande base, onde as variáveis independentes foram
 em sua maioria preservadas e/ou construídas novas, nas bases onde não haviam correspondência, respeitando a lógica do negócio.\\
 A tabela a seguir descreve as variáveis originais na base de dados de acidentes da PRF 
-
-
-\subsection{ Metodologia utilizada para coleta dos dados}\label{intro:metodologia}
-
-
-As informações para suprir nosso modelo preditivo estão disponíveis na Internet, em sua maioria são Dados Governamentais Abertos, tais como os dados
-da PRF, INPE e IBGE. Isto são iniciativas governamentais para fomentar a participação popular, dentro outros motivos, essas informações são também 
-conhecidas como \textit{open data} \cite{DadosGoverno}, contudo os dados referentes à PRF e ao BPRv, para esta pesquisa, foram cedidos pelos respectivos 
-órgãos governamentais (ver anexos) já em formato CSV para serem utilizados exclusivamente nesta pesquisa. Isso possibilitou ganho qualitativo nos dados evitando 
-passar pelos transtornos como descreve Costa (2015) quando coletou os dados diretamente da Internet.\cite{Costa2015} 
-As bases de dados do INPE e do base de dados do IBGE apresentaram boa qualidade o que justificou serem serem coletados diretamente da Internet.
-
-
-\begin{table}[htbp!]
- \centering
-  \caption{Variáveis originais da base de acidentes} 
-  \begin{tabular}{r|l} \hline
-   Ano & Ano da ocorrência do acidente\\
-   Mês & Mês de ocorrência do acidente\\
-   Num & Número do mês do acidente ex: 1 = Janeiro \\
-   KM & Numeração do quilômetro \\
-   BR & Numeração da Br\\
-   Latitude & Latitude da ocorrência \\
-   Longitude & Longitude da ocorrência \\
-   Condição Pista & Condição da pista: seca, molhado, ... \\
-   Restrição de Visibilidade & Restrição de visibilidade: inexistente, neblina, .., outros \\
-   Tipo Acidente & Tipo de Acidente: atropelamento, colisão lateral,..\\
-   Cauda Acidente & A possível causa do acidente: Falta de atenção, ... \\
-   Sentido Via & Sentido da via: crescente, decrescente \\
-   Traçado Via & Tipo de traçado da via: reta, curva, cruzamento, ... \\
-   Município  & Localidade onde ocorreu \\
-   Tipo veículo & Tipo de veículo envolvido no acidente \\
-   Data Inversa & Data do acidente no formato dd/mm/aa \\
-   Horário & Hora que ocorreu o acidente no formato hh/mm/ss \\
-   Qtd Feridos Graves & Quantidade de feridos graves envolvidos \\
-   Qtd Feridos Leves & Quantidade de feridos leves envolvidos\\
-   Qtd Ilesos & Quantidade de ilesos envolvidos\\
-   Qtd Mortos & Quantidade de mortos envolvidos \\
-   Qtd Pessoas & Quantidade de pessoas envolvidos \\
-   Qtd Veículos & Quantidade de veículos envolvidos\\
-   Qtd Acidentes Graves & Quantidade de acidentes graves \\
-   Qtd Ocorrências & Quantidade de ocorrências \\
-  \end{tabular}
-\end{table}
-
-\pagebreak
-
-Na tabela seguinte; as variáveis originais da base de dados da PRF com interdições das vias 
-(somente interdições que paralisaram as BRs, não contém acidentes, exemplo: passeatas, protestos) 
-
-\begin{table}[htbp]
- \centering
-  \caption{Variáveis originais da base de interdições}
-  
-  \begin{tabular}{r|l} \hline
-   Comunicação & Código do agente que comunicou o incidente \\
-   Data Hora & Data hora no formato dd/mm/aa mm:ss \\
-   BR & Numeração da Br do incidente\\
-   KM & Numeração do quilômetro do incidente\\
-   Trecho  & Local onde ocorreu o incidente \\
-  \end{tabular}
-\end{table}
 
 
 
@@ -142,18 +81,13 @@ A variável dependente foi designada como \textbf{gargalo} e as variáveis indep
 
 
 
-\begin{figure}[ht]
-  \centering
-    \caption{Etapas 1 -- Coleta e união das bases históricas de acidentes e interdições}
-    \includegraphics[width=165mm, height=100mm]{Figuras/Cronograma/BasesHistoricas.png}
-\end{figure}
-
  
-A base de dados da PRF, relativas a interdições das vias, por motivos diversos, não haviam variáveis tais como; visibilidade, condições da via, gravidade paralisação e outras.
+À base de dados da PRF, relativas a interdições das vias, por motivos diversos, não haviam variáveis tais como; visibilidade, condições da via, gravidade paralisação e outras.
 Foram incorporadas à essa base essas novas variáveis, para populá-las, adotou-se a lógica; presumivelmente protestos são realizados com boa visibilidade, em condições de via razoáveis e a gravidade da paralisação foi considerada leve.
 
-As técnicas como Redes Neurais Artificias (MLP), Árvores de decisão (CART), Regressão logística (MLR) nos forneçam uma
-visão generalizada dos fatores preponderantes quando os dados estão tratados.
+As técnicas como Redes Neurais Artificias (MLP) [\large{CITAR}], Árvores de decisão (CART) [\large{CITAR}], Regressão logística (MLR) 
+[\large{CITAR}] fornecem visão generalizada dos fatores preponderantes, levantando padrões ocultos nos dados. Esta fase é conhecida como 
+Aprendizagem de Máquina (acrônimo de Machine Learning)
 
 \begin{itemize}
  \item[a] Redes Neurais Artificias do tipo \textit{ Multi Layer Perceptron}  -- (MLP) têm capacidade de receber várias entradas ao mesmo tempo e distribuí-las de maneira organizada, além 
@@ -166,6 +100,17 @@ visão generalizada dos fatores preponderantes quando os dados estão tratados.
 	  tradicional não permite aprofundamento desse tipo no espaço de busca.
 \end{itemize}
 
+
+
+\begin{figure}[ht]
+  \centering
+    \caption{Etapas 1 -- Coleta e união das bases históricas de acidentes e interdições}
+    \includegraphics[width=165mm, height=100mm]{Figuras/Cronograma/BasesHistoricas.png}
+\end{figure}
+
+\section{ Extração do conhecimento}
+
+\pagebreak
 
 \section{ Acoplamento com a estrutura dinâmica}
 
@@ -187,31 +132,9 @@ celular, ``Smartphones'', com capacidade para executar aplicativos mais complexo
 \end{figure}
  
 
-Concluída as três etapas e com as informações geradas pelo modelo serão escritos artigos científicos  pertinentes à pesquisa em lide e a escrita da dissertação.
  
  
  
-\pagebreak 
- 
-\section{Cronograma}\label{intro:cronograma}
-
-
-\begin{table}[htbp]
- \scriptsize
-      \centering  \caption{Cronograma -- 12 meses}
-	\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c}
-	\hline
-	\textbf{Etapas/2016} & \textbf{Fev} & \textbf{Mar} & \textbf{Abr} & \textbf{Mai}& \textbf{Jun} & \textbf{Jul} & \textbf{Ago} & \textbf{Set} & \textbf{Out} & \textbf{Nov} & \textbf{Dez} & \textbf{Jan/17} \\
-	  \hline
-	  Rev. da literatura. & x & x & x & x & x & x & x & --- & --- & --- & --- & --- \\ \hline
-	  Etapa -- 1 & x & x & x & --- & --- & --- & --- & --- & --- & --- & --- & --- \\ \hline
-	  Etapa -- 2 & --- & --- & --- & x & x & x & --- & --- & --- & --- & --- & --- \\ \hline
-	  Etapa -- 3 & --- & --- & --- & --- & --- & --- & x & x & x & --- & --- & --- \\ \hline
-	  Escrita de artigos & --- & --- & --- & --- & --- & --- & --- & --- & x & x & x & --- \\ \hline
-	  Escrita da dissertação & --- & --- & --- & --- & --- & --- & --- & --- & x & x & x & --- \\ \hline
-	  Defesa & --- & --- & --- & --- & --- & --- & --- & --- & --- & --- & --- & x \\ \hline
-	\end{tabular}
-\end{table}
 
 
  

@@ -1,13 +1,12 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Datas do Survey}}{16}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Volume de dados no mundo}}{16}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Matriz de Confus\IeC {\~a}o}}{23}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Matriz modelo de Confus\IeC {\~a}o}}{23}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Matriz de Confus\IeC {\~a}o}}{16}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Matriz modelo de Confus\IeC {\~a}o}}{16}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Volume de dados no mundo}}{20}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Vari\IeC {\'a}veis originais da base de acidentes}}{30}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Vari\IeC {\'a}veis originais da base de interdi\IeC {\c c}\IeC {\~o}es}}{31}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Vari\IeC {\'a}veis do modelo preditivo}}{31}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Cronograma -- 12 meses}}{35}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Vari\IeC {\'a}veis do modelo preditivo}}{25}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Vari\IeC {\'a}veis originais da base de acidentes}}{31}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Vari\IeC {\'a}veis originais da base de interdi\IeC {\c c}\IeC {\~o}es}}{32}

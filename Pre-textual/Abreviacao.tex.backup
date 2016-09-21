@@ -6,18 +6,22 @@
 \noindent
 
 %\par
-%\vspace{1em}
-\begin{picture}(120,20)
-\put(1,0) {\shortstack{DM\\BG\\PSO\\ACO\\FSS}}
-\put(50,0){ Data Mining\\Big Data\\Particle Swarm Optimization\\Ant Colony Optimization\\Fish School Search}}
-%BG  &  Big Data\\
-%PSO &  \textit{Particle Swarm Optimization}\\
-%ACO &  \textit{Ant Colony Optimization}\\
-%PSO &  \textit{Fish School Search}\\
-\end{picture}
+\vspace{1em}
 
-
-
+\begin{tabular}{r  l}
+ API & \textit{Application Programing Insteface}\\
+ BG & \textit{Big Data}\\
+ DM & \textit{Data Mining}\\
+ 
+ %TB & \textit{TeraByte}\\
+ %PB & \textit{PetaByte}\\
+ %EB & \textit{ExaByte}\\
+ %ZB & \textit{ZettaByte}\\
+ %YB & \textit{YottaByte}\\
+ 
+ PRF & \textit{Polícia Rodoviária Federal}\\
+ BPRv & \textit{ Batalhão de Polícia Rodoviária (estadual)} 
+\end{tabular}
 
 
 

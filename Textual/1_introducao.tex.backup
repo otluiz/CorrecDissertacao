@@ -19,9 +19,10 @@ Por outro lado, artigos científicos dos mais variados assuntos e das mais varia
 informações, os \textit{Data Centers}.
 
 Uma instância do problema descrito anteriomente será tratado nesta pesquisa, para isso a integração de bases de dados heterogêneas disponíveis em computadores de órgãos públicos 
-que contenham informações de qualidade para gerar um modelo preditivo de roteamento de cargas, considerando os dados históricos de cada rodovia tais como trechos onde há mais 
-retenções que causam constrangimento nas vias, tais como acidentes, protestos, intempéries ambienteais
-informações de redes sociais associadas ao problema em lide, , em um aplicação de suporte à decisão de logística de cargas rodoviárias.
+que contenham informações de qualidade para gerar um modelo preditivo de roteamento logístico de cargas rodoviárias, considerando dados históricos de cada rodovia, com os trechos onde há mais 
+retenções que causam constrangimento nessas vias em determinados períodos do dia, que se repetem em meses e ao longo dos ano, tais como acidentes, protestos, intempéries ambienteais.
+Associadas ao problema em lide as redes socias são um arcabouço de informações, os utilizadores dessas redes fornecem uma grande quantidade de dados que podem ser filtrados para 
+dentro de uma aplicação, atraves de técnicas adequadas.
 
 %\pagebreak
 
@@ -30,8 +31,7 @@ informações de redes sociais associadas ao problema em lide, , em um aplicaç�
 As rodovias federais que atravessam a Região Metropolitana do Recife (RMR) estão constantemente congestionadas, não apenas pela 
 quantidade de veículos, mas por serem alvo de paralisações das mais diversas matizes, como protestos de trabalhadores, acidentes, 
 buracos, intempéries naturais e outros tipos de paralisações. 
-Em situações extremas poderiam paralisar até a produção das fábricas no seu entorno, por exemplo a Fiat - FCA \cite{BNDES2013}. 
-Esta será responsável por aproximadamente 1 000 caminhões cegonheiros nessas rodovias, quando do seu pico de produção (200 000 veículos/ano).
+Em situações extremas poderiam paralisar até a produção das fábricas no seu entorno \cite{BNDES2013}. 
 
 A RMR é a 5ª região mais populosa do Brasil, concentra 3.690.485 habitantes (dados de 2012) \cite{Bitoun2012} em 14 municípios, além da RMR 
 será considerada para a pesquisa a Zona da Mata Norte (ZMN) com 577.191 habitantes e a Zona da Mata Sul (ZMS) com 733.447 habitantes. 

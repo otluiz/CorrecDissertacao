@@ -9,11 +9,11 @@
 %==(CABEÇALHO)========================================================
 \begin{figure}[h]
 %\left
-\subfigure{\includegraphics[width=15mm, height=15mm]{Figuras/Capa/upelogo.eps}}
-\center
-\subfigure{\includegraphics[width=15mm, height=15mm]{Figuras/Capa/logoPoli.jpg}}
-\qquad %\right
-\subfigure{\includegraphics[width=15mm, height=15mm]{Figuras/Capa/upelogo.eps}}
+\subfigure{\includegraphics[width=18mm, height=15mm]{Figuras/Capa/upelogo.eps}}
+\qquad \quad \quad \quad \quad \quad \quad
+\subfigure{\includegraphics[width=19mm, height=17mm]{Figuras/Capa/logoPoli.jpg}}
+\qquad \quad \quad \quad \quad \quad \quad
+\subfigure{\includegraphics[width=45mm, height=15mm]{Figuras/Capa/icblogo.png}}
 \end{figure}
 
 \begin{center}
@@ -28,7 +28,7 @@
 
 \vspace{0.1in}
 
-\includegraphics[height=70mm]{Figuras/Capa/logo_ppges.jpg}
+\includegraphics[height=70mm]{Figuras/Capa/logo_ppges3.png}
 
 \vspace{1.3in}
 
@@ -38,8 +38,8 @@
 
 \vspace{1.6in}
 
+\dataQualif %\vspace{18pt}{Recife, Pernambuco\\ Fevereiro de 2016.}
 
-\vspace{18pt}{Recife, Pernambuco\\ Agosto de 2015.}
 
 \end{center}
 \end{titlepage} 

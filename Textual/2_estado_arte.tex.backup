@@ -1,129 +1,23 @@
-\chapter{Estado da Arte}\label{arte}
+\chapter{ Estado da Arte}\label{arte}
 
-%IntroduÃ§Ã£o, MotivaÃ§Ã£o e Objetivo
+
 \section{Introdução}\label{arte:intro}
 
-Astrônomos atualizam suas descobertas numa base de dados disponíveis para outros utilizarem; as ciências biológicas agora têm tradição 
-em depositar seus avanços científicos em repositórios públicos; redes sociais estão focadas na Web: Facebook, LinkedIn, Tweeter e outras 
-sobrevivem coletando informações, vendendo espaço publicitário e repassando-as às empresas de telemarketing, empresas de comércio eletrônico como 
-Amazon.com, Submarino.com.br, Americanas.com, MagazineLuíza.com.br, utilizam essas informações para vender mais e melhor. 
-Por outro lado, artigos científicos dos mais variados assuntos e das mais variadas áreas alimentam todos os dias, com milhões de 
-informações, os \textit{Data Centers}. Esse é o paradigma do \textit{Big Data}.
+Nesse estudo, foram realizadas três frentes de pesquisa para a revisão da literatura: 
+  \begin{itemize}
+    \item A primeira frente relacionada a modelos preditivos de mineração de dados relacionados à pesquisa em lide;
+    \item A segunda frente relacionada às tecnologias mineração em textos em redes socias;
+    \item Finalmente a última frente de pesquisa relacionadas às tecnologias de mapeamento rodoviário integrados aos sistemas de APIs 
+  \end{itemize}
 
-Nesse estudo, para fazer frente ao paradigma acima aludido e extrair informações com eficácia, 
-foi proposto o desenvolvimento de um mapeamento sistemático.
-
-\section*{ Mapeamento sistemático}
-
-Foi desenvolvido a priori um mapeamento sistemático das mais diversas tecnologias empregadas no ``Big Data'' e seus paradigmas para extrair informações e conhecimentos, 
-analisando as técnicas de Inteligência Artificial mais empregadas nesse campo científico de exploração.
-A posteriori; propor uma solução à logística de cargas aplicada à realidade brasileira, antecipando os problemas que possam surgir no traçado de rotas determinísticas. 
-
-O mapeamento sistemático foi definido em etapas da seguinte forma:
-
-\begin{enumerate}
- \item[A.] Coleta dos dados;
- \item[B.] Seleção dos artigos; 
- \item[C.] Escolha dos Filtros;
- \item[D.] Leitura dos artigos.
-\end{enumerate}
-
-
-\subsection{Detalhamento das etapas}
-
-\begin{enumerate}
- \item[A.] Coleta dos dados\\
-    Para coletar os dados foram escolhidas seis palavras-chave com relevância para o tema, a saber:
-    \begin{itemize}
-      \item “Data Mining and Swarm Intelligence”
-      \item “Data Mining Big Data”
-      \item “Data Mining Swarm Robotics”
-      \item “Hadoop Map Reduce in Big Data”    
-      \item "Machine Learning"
-      \item “Map Reduce Big Data”
-    \end{itemize}
-
-
-    A partir das palavras-chave foram criadas planilhas, sendo cada aba representada por uma palavra-chave. 
-    Incluiu-se no mínimo 30 artigos para cada aba da planilha, totalizando 316 artigos.
-    Pretendeu-se, com essa técnica, construir rapidamente gráficos das mais diferentes matizes, tais como:
-    \begin{itemize}
-      \item Base pesquisada;
-      \item Data da publicação;
-      \item Parecer (Aceito ou rejeitado);
-      \item Título do artigo;
-      \item País de origem.
-    \end{itemize}
-
-    A ferramenta utilizada para obter os dados referentes às palavras-chave (referência bibliográfica) foi o programa Mendeley, especializado 
-    em extrair dados de arquivos como artigos, dissertações e teses.
-    A figura 2.1 a seguir mostra como a Planilha-Survey se apresenta:
-  
-    \begin{figure}[!ht]
-      \centering %\centering % para centralizarmos a figura
-      \caption{Planilha Survey}
-      \includegraphics[width=110mm, height=40mm]{Figuras/BigData/PlanilhaSrvey.jpg}
-    \end{figure}
-  
- \item[B.] Seleção dos artigos\\
-    A seleção dos artigos foi primeiramente escolhida pelas mais recentes publicações dos últimos 5 anos, expecificamente entre 2010 e 2015. 
-    O segundo critério de seleção foi pelo órgão publicizador, considerando os mais conhecidos, tais como IEEE, Elsevier, Springer, bem como os jornais a eles pertencentes. 
-    Outras fontes foram tabém consideradas, como universidades e seminários mais conhecidos na área.
-    Outro critério considerado foi a seleção de no mínimo de 30 (trinta artigos) por palavra-chave.
-    Dessa forma, procuramos aproximar os dados coletados da distribuição normal padrão, que por razões evidentes está amplamente
-    tabelada e é suprida por quase todos os softwares para construtores de gráficos.\\
-
-\pagebreak
-    
- \item[C.] Critérios de Inclusão/Exclusão \\
-    O critério de inclusão e exclusão foi baseado na leitura dos ``abstracts'' dos artigos. 
-    Devido ao fato de algumas palavras-chave estarem muito em evidência, as mesmas são citadas em diversos artigos sem referência para tema,
-    não sendo relevante para a pesquisa. Dessa forma foi criada uma pasta chamada ``Rejeitados'' para onde foram movidos esses artigos.
-    Outro critério de exclusão foi data anterior a 2010, com exceção dos artigos clássicos da área.\\
-
- \item[D.] Leitura dos artigos \\
-    A leitura dos artigos iniciou-se após a etapa de Inclusão/Exclusão.
-    Até o momemto foram lidos 72 artigos de um total de aproximadamente 240 artigos.
-    Segue uma tabela com as datas do plano de execução.
-    
-    \begin{table}[htbp]
-      \scriptsize
-      \centering
-      \caption{Datas do Survey}
-	\begin{tabular}{l|c|c|c}
-	\hline
-	\textbf{Data/2015} & \textbf{(A) Coleta} & (B) \textbf{Seleção} & \textbf{(C) Filtros} \\
-	\hline
-	Abril a Junho & x & --- & --- \\ \hline
-	Junho e Julho & -- & x & x \\ \hline
-	Agosto & -- & -- & x \\ \hline
-	\end{tabular}
-    \end{table}
-  
- \end{enumerate}
+\section{ Revisão da literatura}
 
 
 
-\section*{ Big data}
+
+\section{ Redes sociais}
 
 "Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
-
-O \textit{Big Data} pode ser definido como um paradigma dos 3 V’s, descrito como: 
-
-%Tabela 4
-\begin{table}[htbp]
- \begin{itemize}
-   \item Volume de dados;
-   \item Velocidade para acessar esses dados;
-   \item Variedade de informações;
- \end{itemize}
-\end{table}
-
-  
-Dentre as mais diversas técnicas encontradas para acessar dados no \textit{Big Data} destacamos o Map Reduce, da ``framework'' Hadoop, por ser de livre uso (freeware) e 
-por ser tolerante a falhas, sendo de fácil implementação e de baixo custo para a maioria das pequenas empresas e pesquisadores.
-A tecnologia congênere, desenvolvida pelo Google, (``Google File System'') merece ser destacada. 
-Não é tarefa trivial inferir e desenvolver novas ferramentas para o \textit{Big Data}, dada a dimensionalidade do problema, conforme destacado na tabela a seguir:
 
 
 %tabela 5
@@ -143,15 +37,9 @@ Não é tarefa trivial inferir e desenvolver novas ferramentas para o \textit{Bi
 \end{tabular}
 \end{table}
 
-\pagebreak
 
-Com a chegada da Internet das Coisas, conhecida como ``A terceira onda da Internet'', os dados irão aumentar exponencialmente. Por exemplo, 
-os produtos nas gôndolas do supermercado, com um novo tipo de etiqueta se conectam a uma leitora de radio frequência a alguns metros de distância, 
-contabilizando o total do estoque em segundos; o consumidor leva seus produtos escolhidos ao caixa desse supermercado, pagando a conta sem precisar retirar qualquer 
-produto do carrinho. Ao introduzir esses produtos na geladeira, será possível saber quando expirará a data de validade de determinados produtos, sem 
-precisar abri-lo, e quando acabarem esses produtos, a própria geladeira informará ao supermercado a falta deles, reservando o próximo rol de compras. 
-Assim poderá se dar essa onda de coisas conectadas, que fará com que os dados sofram emplosão combinatória de informações, multiplicando exponencialmente as dimensões do 
-\textit{Big Data}.
+
+\pagebreak
 
 As redes sociais são um arcabouço de informações sobre todo tipo de assunto vivenciado no cotidiano das pessoas, inclusive situações que dizem respeito ao nosso ambiente de pesquisa.
 O cenário abaixo, encontrado numa rede social, exemplifica a sequência de informações retiradas do Twitter, um microblog onde os usuários escrevem num pequeno espaço (cerca de 140 caracteres), 
@@ -198,50 +86,6 @@ características, conhecido como HaDoop FileSystem (HDFS).
 O Hadoop é uma implementação em código aberto da técnica Map-Reduce.
 
 
-\subsection{Map Reduce - Big Data}\label{arte:palavraChave:MapReduceBigData}
-
-
-O Map-Reduce é uma técnica conhecida desde a linguagem Lisp, impĺementado sob uma arquitetura HDFS (ou GFS) que permite mapear os \textit{clusters} e reduzir a quantidade de
- informação conforme um par de informações <chave:valor>.
-A imagem a seguir exemplifica essa técnica:
-
-\begin{figure}[ht]
-\centering
-\caption{Técnica Map-Reduce}
-\includegraphics[width=80mm, height=60mm]{Figuras/BigData/MapReduce.jpg}
-\end{figure}
-
-Map-Reduce; modelo de computação paralela para ser utilizado na Internet foi proposto pelo Google \cite{Dean2008}.
-
-
-\subsection{Hadoop - Map-Reduce - Big Data}\label{arte:palavraChave:HadoopMapReduce}
-
-O Hadoop é uma arquitetura de milhares de computadores interligados paralelamente e espalhados pela Intenet formando \textit{cluster}.
-Esse \textit{cluster} tem a característica de grande escalabilidade, em torno de 3 000 computadores, dependendo da construção e tolerância a falhas. 
-Quando um computador do \textit{cluster} fica inoperante ou ``cai'', os dados são salvos em outro computador. 
-
-A estrutura de diretórios do Hadoop foi especialmente construída para lidar com as características descritas anteriormente, devido ao baixo custo de implementação e 
-por ser uma tecnologia aberta (\textit{Open Source}), tendo sido desenvolvida por programadores do mundo todo. A versão Hadoop da empresa Google é o Google Filesystem (GFS).
-
-Os \textit{clusters} de computadores, aplicando a técnica de programação Map-Reduce estão preparados para extrair dados do \textit{Big Data}, contudo até que esses dados 
-estejam prontos para mineração eles devem seguir um fluxo de operações para transformá-los em dados relevantes (quentes).
-O fluxo seguido pela informação, desde o local onde é produzida até o momento em que possa ser utilizada está dividido em etapas na imagem a seguir:
-
-\begin{figure}[!ht]
-\centering
-\caption{Big Data e Arquitetura Hadoop}
-\includegraphics[width=90mm, height=70mm]{Figuras/BigData/BigDataComponents.jpg}\\
-\tiny Fonte: Wikibon -- 2015
-\end{figure}
-
-A camada mais baixa da imagem, onde se lê \textit{Processing \& Original Data} é a origem do \textit{Big Data}, onde estão os dados ``frios''. 
-Entre as camadas \textit{Location-aware File Systems} e \textit{Management \& Security} a informação é mapeada no Hadoop e em seguida a técnica Map-Reduce é empregda, reduzindo
-o volume dos dados. Em Hive (Datawarehouse - DW) é possível armazenar os dados, esses dados são considerados ``quentes''. Em \textit{Modeling} ocorre o que se chama de 
-\textit{Extract, Transform and Load} (ETL) ou Extração, Transformação e Carga, que é onde se inicia a mineração de dados.
-Mais adiante aprofundaremos a discussão sobre Mineração de dados.
-
-\pagebreak
-
 
 \section{Data Mining}
 
@@ -284,7 +128,7 @@ Utilizar técnicas de mineração de dados, além de extrair dados, extrai conhe
 quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de extração de conhecimento chama-se \textit{Knowledge Discovery Databases} (KDD).
 
 
-\subsection{Data Mining - Big Data}\label{arte:palavraChave:DataMiningBigData}
+\subsection{Data Mining - Text Data Mining}\label{arte:palavraChave:DataMiningBigData}
 
 Minerar dados no \textit{Big data} não é uma tarefa atômica, devendo ser divida em várias etapas, com processos específicos em cada uma delas, como descrito anteriormente. 
 Extrair conhecimento dos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. 
@@ -386,91 +230,6 @@ Então, a taxa de verdadeiros positivos será $P(Y|X)$ e a probabilidade de fals
 (ou $\bar{Y}$) representa negação. \\
 A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr = P(Y|X)) com a taxa dos falsos positivos (fpr = P(Y,$\bar{X}$)).
 
-\pagebreak
-
-\section{Enxame de partículas}\label{arte:enxames}
-
-Em 1989, G. Beni e J. Wang cunharam a expressão \textit{Swarm Intelligence}, no seu
-trabalho em Robotic Swarm \cite{SRobotics}. O estudo do reino animal aprofundou-se na análise 
-comportamental e possibilitou o melhor entendimento de como cooperam indivíduos dentro de um grupo, e
-quais os mecanismos usados para controlar o enxame, bem como, condicionar o indivíduo, tais como a estigmergia \footnote{Estigmergia é a capacidade de insetos sociais trabalharem 
-organizados sem a necessidade de planejamento nem controle central}.
-Por enxame, pode se entender manada, alcateia, bando, colônia, entre outras designações conforme o animal ou inseto e, a partir daqui, qualquer referência a um grupo de 
-agentes passa a ser feita por enxame, por exemplo, um enxame de pássaros. Os cinco princípios da inteligência de enxame, segundo Chambers \cite{chambers2014computer}, são:
-
-\begin{itemize}
-  \item{Proximidade: os agentes têm que ser capazes de interagir;}
-  \item{Qualidade: os agentes devem ser capazes de avaliar seus comportamentos;}
-  \item{Diversidade: permite ao sistema reagir a situações inesperadas;} 
-  \item{Estabilidade: nem todas as variações ambientais devem afetar o comportamento de um agente;}
-  \item{Adaptabilidade: capacidade de se adequar às variações ambientais.}
-\end{itemize}
-
-
-\vspace{0.3cm}
-%\subsection{Ant Colony Optimization - (ACO)}
-%\vspace{0.1cm}
-
-A optimização por colônia de formigas ou \textit{Ant Colony Optimization} - (ACO) é uma técnica de otimização por enxames que foi
-introduzida desde os anos 90's \cite{Blum2005} baseado no comportamento forrageiro de colônias de formigas.
-O comportamento forrageiro em diversas espécies \cite{Dorigo2005} é objeto de estudo das ciências biológicas, pois os animais predadores 
-procuram otimizar seu ganho de proteína ao comer sua presa, minimizando o gasto de energia, ou minimizando o esforço para
-caçar, capturar e comer a presa. Esse comportamento é explorado pelo ACO para buscar soluções aproximadas para um
-problema de otimização discreto, para problemas de otimização contínuos e para problemas de roteamento em telecomunicações.
-
-No caminho da busca por alimentos, as formigas deixam no ambiente uma marca chamada feromônio.
-Esse feromônio evapora com o passar do tempo, sendo assim, à medida que mais formigas sigam determinado caminho, mais intenso o feromônio se fará presente. 
-
-A equação da evaporação do feromônio pode ser:
-
-\begin{equation}
-p(i,j)= \frac{[\tau (i,j)]^{\alpha }.[\eta (i,j)]^{\beta}}{\sum [\tau (i,j)]^{\alpha }.[\eta (i,j)]^{\beta}}
-\end{equation}
-
-\vspace{0.3cm}
-
-\subsection{Data Mining - Swarm Intelligence}\label{arte:palavraChave:Swarm}
-
-Recentemente algorítimos de classificação baseados em ``Ant Colony Optimization'' têm sido experimentados em mineração de dados\cite{Baig2012}, o AntMiner é um deles.
-
-O algorítimo AntMiner utiliza as formigas para gerar regras de classificação. Inicia com regra vazia e incrementalmente adiciona regras, uma de cada vez. 
-A adição de cada termo é probabilística e baseada em dois fatores: a qualidade heurística do termo e a quantidade de feromônio depositado anteriormente pelas formigas. 
-Após a parte antecedente da regra ser construída, a parte consequente da regra é assinalada por maior votação da amostra de treinamento coberta pela regra. 
-A regra é construída com podas aos termos irrelevantes, para melhorar a acurácia do algorítimo. A qualidade da regra construída é determinada e o valor do feromônio é 
-atualizado na trilha pela formiga, proporcional à qualidade da regra. Quando todas as formigas construírem as suas regras, as melhores regras serão selecionadas, 
-colocadas numa lista de regras descobertas. A amostra de treinamento corretamente classificada pela regra é removidas do conjunto de treinamento. 
-Esse processo é continuado até que o número de amostras não cobertas pela regra seja pequeno e o usuário estabeleça um limiar. 
-O resultado é uma lista de regras ordenadas que será usada para classificar um conjunto de testes. A seguir apresentamos o algoritmo de classificação AntMiner:
-
-\vspace{0.3cm}
-
-\begin{algorithm}[H]
- \SetAlgoLined
- \Entrada{$conjTreino = \{todosCasosTreinamento\};$}  
- \Saida{$DescobrirListaRegras = [];$}
- \Inicio{
-         \Enqto{$conjTreino > MaxNaoDescoberto$}{
-                  {$ t = 1$ /* índice de formmigas */ \\}  
-                  {$ j = 1$ /*índice de convergência */ \\}  
-                  /*inicializa todas as trilhas com algum feromônio*/\\
-                       \Repita{$t>= No_ants$ ou $j >= NoRegrasConverg$}{
-                                    $Ant_t$ /*inicializa com regras em branco e incrementalmente constrói um classificados de regras $R_t$ por adição de termos um a um para as regras correntes; */\\
-                                    Podar regras $R_t;$
-                                    Atualizar o feromônio de todas as trilhas incrementando o feromônio na trilha de cada $Ant_t$ (proporcional à qualidade do $R_t$) e decrementa o feromônio em outras trilhas (simulando a evaporação de feromônio)
-                                    \Se{$R_t == R_t-1$ /* atualiza a convergência de testes */ \\} {
-                                        $j = j+1;$\\
-                                    \Senao{$j = 1;$}
-                                    }
-                                    $t = t+1;$
-                       }
-                       Escolher melhor regra $R_bost$ entre todas as regras $R_t$ construída pelas formigas;
-                       Adicione regras $R_{bost}$ para $DescobrirListaRegras;$
-                       $conjTreino$ = $conjTreino$ - \{casos correntes cobertos por $R_{bost}$\};
-         }
-   }
-   \label{alg1}
-   \caption{\textsc{Ant-Miner}}
-\end{algorithm}
 
 
 \pagebreak
