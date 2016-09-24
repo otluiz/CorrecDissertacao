@@ -1,4 +1,4 @@
-\chapter{ Estado da Arte}\label{arte}
+\chapter{Estado da Arte}\label{arte}
 
 
 \section{Introdução}\label{arte:intro}
@@ -10,142 +10,14 @@ Nesse estudo, foram realizadas três frentes de pesquisa para a revisão da lite
     \item Finalmente a última frente de pesquisa relacionadas às tecnologias de mapeamento rodoviário integrados aos sistemas de APIs 
   \end{itemize}
 
-\section{ Revisão da literatura}
 
+  
+\section{CRISP-DM}
 
-
-
-\section{ Redes sociais}
-
-"Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
-
-
-%tabela 5
-\begin{table}[!ht]
-\centering
-\caption{Volume de dados no mundo}
-\vspace{1mm}
-\begin{tabular}{l|c|c|c}
-\hline
-\textbf{Ano} & \textbf{Qtd} & \textbf{Unidade} & \textbf{Múltiplo}\\
-\hline
-2000 & 800 & terabytes – TB & $10^{12}$\\
-2006 & 160 & petabytes – PB & $10^{15}$\\
-2009 & 500 & exabytes – EB & $10^{18}$ \\
-2012 & 2,7 & zettabytes – ZB & $10^{21}$\\
-2020 & 35 & yottabytes – YB & $10^{24}$\\
-\end{tabular}
-\end{table}
-
-
-
-\pagebreak
-
-As redes sociais são um arcabouço de informações sobre todo tipo de assunto vivenciado no cotidiano das pessoas, inclusive situações que dizem respeito ao nosso ambiente de pesquisa.
-O cenário abaixo, encontrado numa rede social, exemplifica a sequência de informações retiradas do Twitter, um microblog onde os usuários escrevem num pequeno espaço (cerca de 140 caracteres), 
-os mais diversos assuntos, e os usuários conectam por uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. 
-A ideia inicial do Twitter, segundo seus fundadores, era que essa rede se comportasse como um ``SMS da Internet'' \cite{Twitter2015}. 
-As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las.
-
-%\pagebreak
-
-A seguir pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal de Santa Catarina:
-
-\begin{figure}[ht]
-\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF.png}}
-\quad \quad \quad \quad
-\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}
-\end{figure}
-
-A Polícia Rodoviária Federal de Santa Catarina, disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
-num espaço temporal variado, por exemplo: entre Itajaí e Balneário Camboriú o transito está intenso. Isso sugere que a frota de caminhões deva ter uma
-rota alternativa caso a situação persista por muito tempo. No primeiro twitte da segunda coluna, é informado em Via Expressa (BR 282) que o trânsito está lento com 
-velocidade de 20km/h (praticamente congestionado). Essa informação sugere que deve ser pensada uma rota alternativa, caso o congestionamento persista por muito tempo.
-
-Outra rede social conhecida pelos condutores de veículos é o Waze. O Waze é um aplicativo de navegação para o trânsito, funciona em aparelhos celulares e tablets. 
-Os utilizadores desse aplicativo são conhecidos como wazers e compartilham informações sobre o trânsito, em tempo real. Toda via, as informações somente estão disponíveis 
-no momento em que são postadas pelos utilizadores, por um período de tempo pequeno. Caso não haja usuários trafegando pelas vias ou caso os mesmos não tenham disponibilidade 
-em postar informações, não há o que se compartilhar.
-Outro problema levantado com o waze é que, caso não haja conexão à Internet não há como acessar os dados dos 'wazers', para navegação.
-
-Além dos dados que chegam ao \textit{Big Data} através das redes sociais, as grandes cidades têm disponíveis câmeras de monitoramento do trânsito nos semáforos ou próximas a eles; 
-algumas com cobertura por canais de televisão bem como câmaras de segurança próximos às rodovias, coletando informações em tempo real. 
-Os dados desses dispositivos são gravados, sendo conhecidos como \textit{stream} de dados. 
-Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br dentre outros.
-
-Os dados disponibilizados pelos diversos meios de comunicação não estão em formato que possam ser utilizados imediatamente, precisando antes serem processados. 
-Tais dados não processados são conhecidos como ``dados frios''. O processo de tratar as informações, retirando-lhes o ``lixo'' e transformando dados ``frios'' em dados 
-``quentes'', é um processo que tem um custo temporal elevado, devido ao volume dos dados.
-
-%\pagebreak
-
-Para trabalhar com os dados do \textit{Big Data} a empresa Google (Google Inc.) criou uma arquitetura para computadores trabalharem remotamente em conjunto, formando um 
-\textit{cluster}. Essa arquitetura reestrutura o sistema de arquivos, o \textit{filesystem} \footnote{\textit{Filesystem} referem-se à forma como os dados são armazenados, 
-organizados e acessados, pelo sistema operacional, em cada partição no disco (ou no disco rígido inteiro)} \cite{Filesystem} e os diretórios dos computadores com certas 
-características, conhecido como HaDoop FileSystem (HDFS). 
-O Hadoop é uma implementação em código aberto da técnica Map-Reduce.
-
-
-
-\section{Data Mining}
-
-Técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade (sem \textit{missing data}), para poder extrair informações relevantes.
-Um dos maiores problemas na extração de informações é que os dados não estão estruturados, ou não estão no grão adequado, ou ainda faltam dados (``missing data'' -- dados ausentes). 
-Para contornar o problema de dados ausentes existem várias técnicas, como preenchimento dos dados através de técnicas de inteligência artificial.
-
-O caminho da extração dos dados até sua mineração e, por fim, extração de conhecimento é longa.
-Na figura a seguir temos um exemplo desse caminho:
-
-\begin{figure}[!ht]
-\centering
-\caption{Minerando dados no Big Data}
-\includegraphics[width=140mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
-\end{figure}
-
-
-O Big data está representado na figura onde se lê ``Data'' e está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
-O balão onde se lê ``Selection'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
-Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais como, redes sociais, câmaras de trânsito, informações de satélites meteorológicos e outras fontes.
-
-Armazenar qualquer quantidade de dados nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
-com a tecnologia Hadoop, utilizando as técnicas de ``Map'' e ``Reduce'' para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). Algumas técnicas de 
-IA podem ser aplicadas nessa etapa como, ``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''. 
-
-No balão ``Preprocessing'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
-Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
-Esses dados normalmente são coletados por técnicas de Mineração de Textos, também conhecidas como Mineração de Dados em Textos, técnicas de IA como ``Machine Learning'' 
-têm sido muito utlizadas. Em ``Transformation'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive. 
-
-O processo de Mineração dos dados começa no balão ``Data Mining'', onde são aplicadas as técnicas de IA conhecidas como classificadores, para extração de padrões, tais como: 
-``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística) e ``Deep Learning''.
-Algumas técnicas de mineração de dados são fortemente influenciadas pelas informações na entrada (input), como as Árvores de decisão \cite{DecisionTree}. 
-As Redes Neurais, dependendo da quantidade de variáveis de entrada, paderão ter milhares de neurônios na camada intermediária, o que inviabilizaria essa metaheurística 
-\footnote{Metaheurística são heurísticas aplicadas em problemas onde os custos computacionais não são tratáveis em tempo polionomial, devido às explosões combinatórias geradas
-pelo grande número de tentativas. Metaheurísticas bioinspiradas metaforizam o comportamento de animais sociais, tais como formigas, pássaros, peixes e outros}.
-
-Todas essas etapas descritas na figura são recorrentes, como indicam as setas pontilhadas que retornam aos passos anteriores.
-Utilizar técnicas de mineração de dados, além de extrair dados, extrai conhecimento, com isso pode-se predizer os resultados futuros na saída do modelo, 
-quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de extração de conhecimento chama-se \textit{Knowledge Discovery Databases} (KDD).
-
-
-\subsection{Data Mining - Text Data Mining}\label{arte:palavraChave:DataMiningBigData}
-
-Minerar dados no \textit{Big data} não é uma tarefa atômica, devendo ser divida em várias etapas, com processos específicos em cada uma delas, como descrito anteriormente. 
-Extrair conhecimento dos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. 
-A Mineração em textos é inspirada em técnicas de ``Machine Learning'' \cite{Aranha2006}. 
-Contudo analisar textos é basicamente entender o significado do texto, baseado em regras de associação lógica.
-O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
-
-\begin{figure}[htpb]
-\centering
-\caption{Mapa mental da Mineração em textos}
-\includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
-\end{figure}
-
-
-O processo de mineração ``CRoss Indrustry Standard Process for Data Mining'' (CRISP-DM) \cite{Crisp2000} descreve como os especialistas em mineração de dados aplicam as técnicas em lide.
+O processo de mineração de dados conhecido como ``CRoss Indrustry Standard Process for Data Mining'' (CRISP-DM) \cite{Crisp2000} descreve como os especialistas em mineração de dados aplicam as técnicas em lide.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
-O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o modelo de predição, como exemplificado na figura a seguir:
+O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o modelo de predição.
+A figura a seguir exemplifica o processo:
 
 \begin{figure}[!ht]
 \centering
@@ -177,13 +49,13 @@ A próxima figura descreve o domínio das técnicas aplicadas à mineração de 
 \end{figure}
 
 
-Quando são desenvolvidos sistemas de predição e ánalise de diagnóstico, há que se avaliar o desempenho e a qualidade dos resultados encontrados.
+Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
 Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
 foi criado e desenvolvido na década de 50 do século passado, para avaliar a qualidade da transmissão de sinais em um canal com ruído.
 Recentemente a curva ROC tem sido adotada em Mineração de dados e Aprendizagem de Máquina \cite{MD_AM}, em sistemas de suporte à decisão na medicina, para analisar a qualidade da detecção 
 de um determinado teste bioquímico, na psicologia para detecção de estímulos \cite{Discriminativo} em pacientes, e na radiologia para classificação de imagens.
 
-Essas métricas são amplamente utilizadas na classificação binária de resultados contínuos. Para isso ser construido, a Matriz de Contingência classifica as probabilidades como:
+Essas métricas são amplamente utilizadas na classificação binária de resultados contínuos. Para isso ser construído utiliza-se a Matriz de Contingência que classifica as probabilidades como:
 verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo, respectivamente \textit{True Positive -- TP, False Positive -- FP, False Negative -- FN e True Negative -- TN },
 também conhecida como matriz de confusão, descrita na tabela a seguir:
 
@@ -203,6 +75,7 @@ também conhecida como matriz de confusão, descrita na tabela a seguir:
 \end{tabular}
 \end{table}
 
+A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabelas são equivalentes.
 
 %tabela 6
 \begin{table}[ht]
@@ -220,7 +93,8 @@ também conhecida como matriz de confusão, descrita na tabela a seguir:
 \end{tabular}
 \end{table}
 
-A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabelas são equivalentes. De acordo com as probabilidades condicionais temos:
+
+De acordo com as probabilidades condicionais temos:
 
 \begin{equation}
  P(X,Y) = P(X|Y).P(Y) = P(Y|X).P(X)
@@ -232,33 +106,59 @@ A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr 
 
 
 
-\pagebreak
 
-\subsection{Data Mining - Swarm Robotics}\label{arte:palavraChave:Robotics}
+\section{Data Mining}
 
-O rápido crescimento da Internet tem trazido a reboque o contínuo crescimento da insegurança nos computadores e sistemas atuais \cite{Barford2007}.
-Ataques utilizando computadores através de robôs, conhecidos como Botnet, é um problema constante para quem lida com segurança da informação. 
-No entanto os Botnets podem ter uma vida mais digna, como coletar informações no Big data. O Google se especializou nisso quando utiliza seus ``Spiders''. 
-Esses robôs navegam pela Internet ``devorando'' páginas e indexando-as para que as buscas do motor de buscas do Google seja mais eficiente. 
-Na figura a seguir podemos ver um exemplo desses robôs: \footnote{Chaffey 2006, pag. 378} \cite{motorBusca}
+Técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade (sem \textit{missing data}), para poder extrair informações relevantes.
+Um dos maiores problemas na extração de informações é que os dados não estão estruturados, ou não estão no grão adequado, ou ainda faltam dados (``missing data'' -- dados ausentes). 
+Para contornar o problema de dados ausentes existem várias técnicas, como preenchimento dos dados através de técnicas de inteligência artificial.
+
+O caminho da extração dos dados até sua mineração e, por fim, extração de conhecimento é longa.
+Na figura a seguir temos um exemplo desse caminho:
 
 \begin{figure}[!ht]
 \centering
-\caption{Minerando textos no Big Data com robôs}
-\includegraphics[width=60mm, height=60mm]{Figuras/BigData/Motordebusca.png}
+\caption{Minerando dados no Big Data}
+\includegraphics[width=130mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
 \end{figure}
 
-A utilização desses robôs é uma alternativa eficiente para coletar informações no Big data uma vez que essa é sua especialidade. 
-Como o Big data tem uma forte componente de inconsistência, coletar informações das páginas visitas pelos robôs ou mesmo coletar a página inteira, pode ser 
-extremamente eficiente nos quesitos ``volume'' e ``velocidade'' descrito na seção 2.3.2 (Hadoop -- Map Reduce -- Big Data). 
 
+A origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Data'' este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
+O balão onde se lê ``Selection'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
+Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais como, redes sociais, câmaras de trânsito, informações de satélites meteorológicos e outras fontes.
+
+Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
+com tecnologia apropriada, utilizando-se técnicas de ``Map'' e ``Reduce'' ou mineração de dados em textos para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). 
+Algumas técnicas de IA podem ser aplicadas nessa etapa como, [``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''. ]
+
+No balão ``Preprocessing'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
+Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
+Esses dados normalmente são coletados por técnicas de Mineração de Textos, também conhecidas como Mineração de Dados em Textos, técnicas de IA como ``Machine Learning'' 
+têm sido muito utlizadas. Em ``Transformation'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive. 
+
+O processo de Mineração dos dados começa no balão ``Data Mining'', onde são aplicadas as técnicas de IA conhecidas como classificadores, para extração de padrões, tais como: 
+``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística) e ``Deep Learning''.
+Algumas técnicas de mineração de dados são fortemente influenciadas pelas informações na entrada (input), como as Árvores de decisão \cite{DecisionTree}. 
+As Redes Neurais, dependendo da quantidade de variáveis de entrada, paderão ter milhares de neurônios na camada intermediária, o que inviabilizaria essa metaheurística 
+\footnote{Metaheurística são heurísticas aplicadas em problemas onde os custos computacionais não são tratáveis em tempo polionomial, devido às explosões combinatórias geradas
+pelo grande número de tentativas. Metaheurísticas bioinspiradas metaforizam o comportamento de animais sociais, tais como formigas, pássaros, peixes e outros}.
+
+Todas essas etapas descritas na figura são recorrentes, como indicam as setas pontilhadas que retornam aos passos anteriores.
+Utilizar técnicas de mineração de dados, além de extrair dados, extrai conhecimento, com isso pode-se predizer os resultados futuros na saída do modelo, 
+quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de extração de conhecimento chama-se \textit{Knowledge Discovery Databases} (KDD).
+
+
+\pagebreak
 
 \section{Machine Learning}\label{arte:palavraChave:Machine}
 
-O desafio dos 3 V's (Velocidade, Variedade e Volume) pode ser um fator determinístico na escolha da ferramenta mais adequada para analisar dados do \textit{Big Data} 
-e extrair informação. As árvores de decisão são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. A fase de extração dos dados do 
-\textit{Big Data} é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} isso pode representar o desafio maior para implementar esta técnica. 
-%na figura a seguir exemplificamos essa tarefa:
+O desafio dos 3 V's (Velocidade, Variedade e Volume) pode ser um fator determinístico na escolha da ferramenta mais adequada para analisar dados e extrair informação. 
+As árvores de decisão são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. A fase de extração dos dados do 
+é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} isso pode representar o desafio maior para implementar esta técnica. 
+
+\subsection{Redes Neurais}
+
+
 
 
 \subsection{Árvore de Decisão}
@@ -288,7 +188,7 @@ As árvores de decisão têm uma característica peculiar, a saída do modelo de
 Essa qualidade é utilizada para interpretar os resultados.
 
 
-\section{Regressão Logística}
+\subsection{Regressão Logística}
 
 Os modelos de regressão (linear e logística) são técnicas para analisar o relacionamento entre variáveis. No entanto, a regressão linear é utilizada para problemas de natureza
 contínua, sendo que a regressão logística é semelhante, contudo, a variável dependente não é contínua, é discreta ou categórica \cite{DecisaoCredito}.
@@ -311,3 +211,83 @@ e $x_1, x_2,..., x_p$ são as variáveis a serem exploradas.
 A aplicação da regressão logística foi utilizada, pela primeira vez, com sucesso na oferta de crédito nos anos seguintes ao fim da 2ª guerra mundial, para tomar decisão 
 de oferecer crédito a terceiros \cite{RegrecaoLog}.
 A regressão logística é comumente aplicada para problemas de classificação binária (ou booleano).
+
+
+\pagebreak
+
+
+\section{Redes sociais}
+
+As redes sociais são um arcabouço de informações sobre todo tipo de assunto vivenciado no cotidiano das pessoas, inclusive situações que dizem respeito ao nosso ambiente de pesquisa.
+O cenário abaixo, encontrado numa rede social, exemplifica a sequência de informações retiradas do Twitter, um microblog onde os usuários escrevem num pequeno espaço (cerca de 140 caracteres), 
+os mais diversos assuntos, e os usuários conectam por uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. 
+A ideia inicial do Twitter, segundo seus fundadores, era que essa rede se comportasse como um ``SMS da Internet'' \cite{Twitter2015}. 
+As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las.
+
+"Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
+
+%tabela 5
+\begin{table}[!ht]
+\centering
+\caption{Volume de dados no mundo}
+\vspace{1mm}
+\begin{tabular}{l|c|c|c}
+\hline
+\textbf{Ano} & \textbf{Qtd} & \textbf{Unidade} & \textbf{Múltiplo}\\
+\hline
+2000 & 800 & terabytes – TB & $10^{12}$\\
+2006 & 160 & petabytes – PB & $10^{15}$\\
+2009 & 500 & exabytes – EB & $10^{18}$ \\
+2012 & 2,7 & zettabytes – ZB & $10^{21}$\\
+2020 & 35 & yottabytes – YB & $10^{24}$\\
+\end{tabular}
+\end{table}
+
+
+
+\pagebreak
+
+A seguir pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal de Santa Catarina:
+
+\begin{figure}[ht]
+\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF.png}}
+\quad \quad \quad \quad
+\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}
+\end{figure}
+
+A Polícia Rodoviária Federal de Santa Catarina, disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
+num espaço temporal variado, por exemplo: entre Itajaí e Balneário Camboriú o transito está intenso. Isso sugere que a frota de caminhões deva ter uma
+rota alternativa caso a situação persista por muito tempo. No primeiro twitte da segunda coluna, é informado em Via Expressa (BR 282) que o trânsito está lento com 
+velocidade de 20km/h (praticamente congestionado). Essa informação sugere que deve ser pensada uma rota alternativa, caso o congestionamento persista por muito tempo.
+
+Outra rede social conhecida pelos condutores de veículos é o Waze. O Waze é um aplicativo de navegação para o trânsito, funciona em aparelhos celulares e tablets. 
+Os utilizadores desse aplicativo são conhecidos como wazers e compartilham informações sobre o trânsito, em tempo real. Toda via, as informações somente estão disponíveis 
+no momento em que são postadas pelos utilizadores, por um período de tempo pequeno. Caso não haja usuários trafegando pelas vias ou caso os mesmos não tenham disponibilidade 
+em postar informações, não há o que se compartilhar.
+Outro problema levantado com o waze é que, caso não haja conexão à Internet não há como acessar os dados dos 'wazers', para navegação.
+
+Além dos dados que chegam ao \textit{Big Data} através das redes sociais, as grandes cidades têm disponíveis câmeras de monitoramento do trânsito nos semáforos ou próximas a eles; 
+algumas com cobertura por canais de televisão bem como câmaras de segurança próximos às rodovias, coletando informações em tempo real. 
+Os dados desses dispositivos são gravados, sendo conhecidos como \textit{stream} de dados. 
+Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br dentre outros.
+
+Os dados disponibilizados pelos diversos meios de comunicação não estão em formato que possam ser utilizados imediatamente, precisando antes serem processados. 
+Tais dados não processados são conhecidos como ``dados frios''. O processo de tratar as informações, retirando-lhes o ``lixo'' e transformando dados ``frios'' em dados 
+``quentes'', é um processo que tem um custo temporal elevado, devido ao volume dos dados.
+
+
+
+\pagebreak
+\subsection{ Data Mining - Text Data Mining}\label{arte:palavraChave:DataMiningBigData}
+
+Minerar dados em texto nas redes sociais não é uma tarefa atômica, devendo ser divida em várias etapas, com processos específicos em cada uma delas, como descrito anteriormente. 
+Extrair conhecimento dos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. 
+A Mineração em textos é inspirada em técnicas de ``Machine Learning'' \cite{Aranha2006}. 
+Contudo analisar textos é basicamente entender o significado do texto, baseado em regras de associação lógica.
+O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
+
+\begin{figure}[htpb]
+\centering
+\caption{Mapa mental da Mineração em textos}
+\includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
+\end{figure}

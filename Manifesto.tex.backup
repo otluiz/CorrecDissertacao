@@ -57,8 +57,7 @@
   \include{Textual/1_introducao}
   \include{Textual/2_estado_arte}
   \include{Textual/3_metodologia}
-  \include{Textual/4_simulacao}
-  \include{Textual/5_conclusao}
+  \include{Textual/4_conclusao}
   \appendix
 
 

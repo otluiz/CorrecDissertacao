@@ -1,0 +1,32 @@
+\chapter{Simulação}\label{simula}
+
+\section{ As variáveis do modelo preditivo}
+
+Algumas técnicas de IA são altamente sensíveis a dados ausentes os ``missing data'' à dados com pouca consistência e outros tipos de dados 
+comuns em bases mantidas sem um bom critério de inserção dos dados. 
+A variável dependente foi designada como \textbf{gargalo} e as variáveis independentes (ou explicativas) são:
+
+
+\begin{table}[htbp]
+ \centering
+  \caption{Variáveis do modelo preditivo}
+  
+  \begin{tabular}{r|l} \hline
+   KM & Numeração do quilômetro \\
+   BR & Numeração da Br\\
+   condPista & Condição da pista: seca, molhado, ... \\
+   restVisibili & Restrição de visibilidade: inexistente, neblina, .., outros \\
+   tipoAcident & Tipo de Acidente: atropelamento, colisão, paralisação,...\\
+   tipoDano  & Tipo de Dano: leve, médio, grave \\
+   Municipio  & Localidade onde ocorreu \\
+   Ano & Ano que ocorreu o acidente \\
+   Mês & Mês que ocorreu o acidente \\
+   Dia & Dia que ocorreu o acidente \\
+   Hora & Hora que ocorreu o acidente \\
+  \end{tabular}
+\end{table}
+
+ 
+À base de dados da PRF, relativas a interdições das vias, por motivos diversos, não haviam variáveis tais como; visibilidade, condições da via, gravidade paralisação e outras.
+Foram incorporadas à essa base essas novas variáveis, para populá-las, adotou-se a lógica; presumivelmente protestos são realizados com boa visibilidade, em condições de via razoáveis e a gravidade da paralisação foi considerada leve.
+

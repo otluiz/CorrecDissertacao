@@ -1,0 +1,47 @@
+\chapter{Simulação}\label{simula}
+
+\section{ As variáveis do modelo preditivo}
+
+Algumas técnicas de IA são altamente sensíveis a dados ausentes os ``missing data'' à dados com pouca consistência e outros tipos de dados 
+comuns em bases mantidas sem um bom critério de inserção dos dados. 
+A variável dependente foi designada como \textbf{gargalo} e as variáveis independentes (ou explicativas) são:
+
+
+\begin{table}[htbp]
+ \centering
+  \caption{Variáveis do modelo preditivo}
+  
+  \begin{tabular}{r|l} \hline
+   KM & Numeração do quilômetro \\
+   BR & Numeração da Br\\
+   condPista & Condição da pista: seca, molhado, ... \\
+   restVisibili & Restrição de visibilidade: inexistente, neblina, .., outros \\
+   tipoAcident & Tipo de Acidente: atropelamento, colisão, paralisação,...\\
+   tipoDano  & Tipo de Dano: leve, médio, grave \\
+   Municipio  & Localidade onde ocorreu \\
+   Ano & Ano que ocorreu o acidente \\
+   Mês & Mês que ocorreu o acidente \\
+   Dia & Dia que ocorreu o acidente \\
+   Hora & Hora que ocorreu o acidente \\
+  \end{tabular}
+\end{table}
+
+
+ 
+À base de dados da PRF, relativas a interdições das vias, por motivos diversos, não haviam variáveis tais como; visibilidade, condições da via, gravidade paralisação e outras.
+Foram incorporadas à essa base essas novas variáveis, para populá-las, adotou-se a lógica; presumivelmente protestos são realizados com boa visibilidade, em condições de via razoáveis e a gravidade da paralisação foi considerada leve.
+
+As técnicas como Redes Neurais Artificias (MLP) [\large{CITAR}], Árvores de decisão (CART) [\large{CITAR}], Regressão logística (MLR) 
+[\large{CITAR}] fornecem visão generalizada dos fatores preponderantes, levantando padrões ocultos nos dados. Esta fase é conhecida como 
+Aprendizagem de Máquina (acrônimo de Machine Learning)
+
+\begin{itemize}
+ \item[a] Redes Neurais Artificias do tipo \textit{ Multi Layer Perceptron}  -- (MLP) têm capacidade de receber várias entradas ao mesmo tempo e distribuí-las de maneira organizada, além 
+	  são simples de implementar e trazem resultados satisfatórios em grandes bases de dados.
+ 
+ \item[b] Árvores de decisão para classificar acidentes do tipo \textit{ Classification and Regression Tree}  -- (CART) foi empregue por Pakgohar et al no artigo 
+	  \textit{The role of human factor in incident and severity of road crashes based on the CART and LR regression a data mining approach}  com nível de acurácia próximo aos 80\%
+
+ \item[c] Regressão logística tipo \textit{Multinomial Logistic Regression} -- (MLR) fornece a possibilidade de aprofundamento em vários níveis de busca sendo a mais apropriada, já que Regressão logística 
+	  tradicional não permite aprofundamento desse tipo no espaço de busca.
+\end{itemize}

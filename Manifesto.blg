@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Manifesto.aux
 A level-1 auxiliary file: Pre-textual/Capa.aux
@@ -6,7 +6,8 @@ A level-1 auxiliary file: Pre-textual/FolhaRosto.aux
 A level-1 auxiliary file: Textual/1_introducao.aux
 A level-1 auxiliary file: Textual/2_estado_arte.aux
 A level-1 auxiliary file: Textual/3_metodologia.aux
-A level-1 auxiliary file: Textual/4_conclusao.aux
+A level-1 auxiliary file: Textual/4_simulacao.aux
+A level-1 auxiliary file: Textual/5_conclusao.aux
 A level-1 auxiliary file: Textual/Anexo1.aux
 The style file: Bibliografia/abnt-num.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -123,7 +124,7 @@ Warning--campo title vazio em DadosGoverno
 +---------------------------------------------------------+
 You've used 24 entries,
             6480 wiz_defined-function locations,
-            1296 strings with 12846 characters,
+            1297 strings with 12869 characters,
 and the built_in function-call counts, 15119 in all, are:
 = -- 1145
 > -- 442

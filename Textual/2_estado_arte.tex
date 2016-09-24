@@ -1,21 +1,23 @@
 \chapter{Estado da Arte}\label{arte}
 
 
-\section{ Introdução}\label{arte:intro}
+\section{Introdução}\label{arte:intro}
 
-Nesse estudo, foram realizadas três frentes de pesquisa para a revisão da literatura: 
+Nesse estudo, foram realizadas pesquisas pesquisas contemplando três campos a saber: 
   \begin{itemize}
     \item A primeira frente relacionada a modelos preditivos de mineração de dados relacionados à pesquisa em lide;
-    \item A segunda frente relacionada às tecnologias mineração em textos em redes socias;
+    \item A segunda frente relacionada às tecnologias mineração em textos em redes sociais;
     \item Finalmente a última frente de pesquisa relacionadas às tecnologias de mapeamento rodoviário integrados aos sistemas de APIs 
   \end{itemize}
 
 
+  
 \section{CRISP-DM}
 
-O processo de mineração ``CRoss Indrustry Standard Process for Data Mining'' (CRISP-DM) \cite{Crisp2000} descreve como os especialistas em mineração de dados aplicam as técnicas em lide.
+O processo de mineração de dados conhecido como ``CRoss Indrustry Standard Process for Data Mining'' (CRISP-DM) \cite{Crisp2000} descreve como os especialistas em mineração de dados aplicam as técnicas em lide.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
-O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o modelo de predição, como exemplificado na figura a seguir:
+O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o modelo de predição.
+A figura a seguir exemplifica o processo:
 
 \begin{figure}[!ht]
 \centering
@@ -47,13 +49,13 @@ A próxima figura descreve o domínio das técnicas aplicadas à mineração de 
 \end{figure}
 
 
-Quando são desenvolvidos sistemas de predição e ánalise de diagnóstico, há que se avaliar o desempenho e a qualidade dos resultados encontrados.
+Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
 Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
 foi criado e desenvolvido na década de 50 do século passado, para avaliar a qualidade da transmissão de sinais em um canal com ruído.
 Recentemente a curva ROC tem sido adotada em Mineração de dados e Aprendizagem de Máquina \cite{MD_AM}, em sistemas de suporte à decisão na medicina, para analisar a qualidade da detecção 
 de um determinado teste bioquímico, na psicologia para detecção de estímulos \cite{Discriminativo} em pacientes, e na radiologia para classificação de imagens.
 
-Essas métricas são amplamente utilizadas na classificação binária de resultados contínuos. Para isso ser construido, a Matriz de Contingência classifica as probabilidades como:
+Essas métricas são amplamente utilizadas na classificação binária de resultados contínuos. Para isso ser construído utiliza-se a Matriz de Contingência que classifica as probabilidades como:
 verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo, respectivamente \textit{True Positive -- TP, False Positive -- FP, False Negative -- FN e True Negative -- TN },
 também conhecida como matriz de confusão, descrita na tabela a seguir:
 
@@ -73,6 +75,7 @@ também conhecida como matriz de confusão, descrita na tabela a seguir:
 \end{tabular}
 \end{table}
 
+A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabelas são equivalentes.
 
 %tabela 6
 \begin{table}[ht]
@@ -90,7 +93,8 @@ também conhecida como matriz de confusão, descrita na tabela a seguir:
 \end{tabular}
 \end{table}
 
-A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabelas são equivalentes. De acordo com as probabilidades condicionais temos:
+
+De acordo com as probabilidades condicionais temos:
 
 \begin{equation}
  P(X,Y) = P(X|Y).P(Y) = P(Y|X).P(X)
@@ -103,7 +107,7 @@ A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr 
 
 
 
-\section{ Data Mining}
+\section{Data Mining}
 
 Técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade (sem \textit{missing data}), para poder extrair informações relevantes.
 Um dos maiores problemas na extração de informações é que os dados não estão estruturados, ou não estão no grão adequado, ou ainda faltam dados (``missing data'' -- dados ausentes). 
@@ -115,17 +119,17 @@ Na figura a seguir temos um exemplo desse caminho:
 \begin{figure}[!ht]
 \centering
 \caption{Minerando dados no Big Data}
-\includegraphics[width=140mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
+\includegraphics[width=130mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
 \end{figure}
 
 
-O Big data está representado na figura onde se lê ``Data'' e está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
+A origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Data'' este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
 O balão onde se lê ``Selection'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
 Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais como, redes sociais, câmaras de trânsito, informações de satélites meteorológicos e outras fontes.
 
-Armazenar qualquer quantidade de dados nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
-com a tecnologia Hadoop, utilizando as técnicas de ``Map'' e ``Reduce'' para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). Algumas técnicas de 
-IA podem ser aplicadas nessa etapa como, ``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''. 
+Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
+com tecnologia apropriada, utilizando-se técnicas de ``Map'' e ``Reduce'' ou mineração de dados em textos para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). 
+Algumas técnicas de IA podem ser aplicadas nessa etapa como, [``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''. ]
 
 No balão ``Preprocessing'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
 Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
@@ -146,14 +150,18 @@ quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de 
 
 \pagebreak
 
-\section{ Machine Learning}\label{arte:palavraChave:Machine}
+\section{Machine Learning}\label{arte:palavraChave:Machine}
 
 O desafio dos 3 V's (Velocidade, Variedade e Volume) pode ser um fator determinístico na escolha da ferramenta mais adequada para analisar dados e extrair informação. 
 As árvores de decisão são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. A fase de extração dos dados do 
 é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} isso pode representar o desafio maior para implementar esta técnica. 
 
+\subsection{Redes Neurais}
 
-\subsection{ Árvore de Decisão}
+
+
+
+\subsection{Árvore de Decisão}
 
 Han e Kamber \cite{DataMining} definem indução por árvore de decisão como a aprendizagem de árvore de decisão a partir de classes rotuladas nas tuplas de treinamento. 
 A estrutura da árvore de decisão é semelhante a um fluxograma, onde cada nó interno (não-folha) indica um teste de atributo, cada ramo representa o resultado de um teste e 
@@ -180,7 +188,7 @@ As árvores de decisão têm uma característica peculiar, a saída do modelo de
 Essa qualidade é utilizada para interpretar os resultados.
 
 
-\subsection{ Regressão Logística}
+\subsection{Regressão Logística}
 
 Os modelos de regressão (linear e logística) são técnicas para analisar o relacionamento entre variáveis. No entanto, a regressão linear é utilizada para problemas de natureza
 contínua, sendo que a regressão logística é semelhante, contudo, a variável dependente não é contínua, é discreta ou categórica \cite{DecisaoCredito}.
@@ -206,7 +214,6 @@ A regressão logística é comumente aplicada para problemas de classificação 
 
 
 \pagebreak
-\subsection{ Redes Neurais}
 
 
 \section{Redes sociais}

@@ -1,28 +1,29 @@
-\chapter{Problema, Motivação e Objetivos}\label{intro}
+\chapter{Introdução}\label{intro}
 
-\section{ Problema}\label{intro:problem}
+\section{Justificativa do problema}\label{intro:problem}
 
 A partir do início do século XXI o mundo digital, especialmente a Internet, conheceu sua primeira grande crise \cite{Quadros2005}.
-As empresas ligadas a esse mundo, conhecidas como PontoCom, para sobreviverem, adaptaram-se à Internet abrindo suas estruturas, desde então houve um \textit{boom} nesse 
-segmento.
-As informações geradas e disponibilizadas à Internet, nos mais recentes anos, representam 90\% de tudo o que já foi criado nos anos anteriores pela humanidade ou desde que 
-nossa civilização aprendeu a guardar informação.
+As empresas ligadas a esse mundo, conhecidas como PontoCom, para sobreviverem, adaptaram-se à Internet abrindo suas estruturas.
+Desde então houve um \textit{boom} de informações disponíveis nesse segmento sócio-econômico.
+As informações geradas e disponibilizadas à Internet, nos mais recentes anos, representam 90\% de tudo o que já foi criado nos anos 
+anteriores pela humanidade, ou desde que nossa civilização aprendeu a guardar informação.
 
-Para armazená-los, seriam necessários milhões de computadores; se fosse possível dispô-los num único \textit{DataCenter}, esses ocupariam 
-uma área do tamanho do estado de São Paulo.
+Para armazená-los, seriam necessários milhões de computadores. 
+Caso fosse possível dispô-los num único \textit{DataCenter}, esses ocupariam uma área do tamanho do estado de São Paulo.
 
 Os dados produzidos pelo ser humano atualmente dobram a cada 5 anos; astrônomos atualizam suas descobertas numa base de dados disponíveis para outros utilizarem; as ciências biológicas agora têm tradição 
 em depositar seus avanços científicos em repositórios públicos \cite{bigdataMedicina}; redes sociais estão focadas na Web: Facebook, LinkedIn, Tweeter e outras 
-sobrevivem coletando informações, vendendo espaço publicitário e repassando-as às empresas de telemarketing, empresas de comércio eletrônico como 
+sobrevivem coletando informações, vendendo espaço publicitário e repassando-as às empresas de telemarketing; empresas de comércio eletrônico como 
 Amazon.com, Submarino.com.br, Americanas.com, MagazineLuíza.com.br, utilizam essas informações para vender mais e melhor. 
 Por outro lado, artigos científicos dos mais variados assuntos e das mais variadas áreas alimentam todos os dias, com milhões de 
 informações, os \textit{Data Centers}.
 
-Uma instância do problema descrito anteriomente será tratado nesta pesquisa, para isso a integração de bases de dados heterogêneas disponíveis em computadores de órgãos públicos 
+Uma instância do problema descrito anteriormente será tratado nesta pesquisa. 
+Para isso será necessária a integração de bases de dados heterogêneas disponíveis em computadores de órgãos públicos 
 que contenham informações de qualidade para gerar um modelo preditivo de roteamento logístico de cargas rodoviárias, considerando dados históricos de cada rodovia, com os trechos onde há mais 
 retenções que causam constrangimento nessas vias em determinados períodos do dia, que se repetem em meses e ao longo dos ano, tais como acidentes, protestos, intempéries ambienteais.
-Associadas ao problema em lide as redes socias são um arcabouço de informações, os utilizadores dessas redes fornecem uma grande quantidade de dados que podem ser filtrados para 
-dentro de uma aplicação, atraves de técnicas adequadas.
+Associadas ao problema em lide, as redes sociais são um arcabouço de informações, os utilizadores dessas redes fornecem uma grande quantidade de dados que podem ser filtrados para 
+dentro de uma aplicação, através de técnicas adequadas.
 
 %\pagebreak
 
@@ -33,47 +34,40 @@ quantidade de veículos, mas por serem alvo de paralisações das mais diversas 
 buracos, intempéries naturais e outros tipos de paralisações. 
 Em situações extremas poderiam paralisar até a produção das fábricas no seu entorno \cite{BNDES2013}. 
 
-A RMR é a 5ª região mais populosa do Brasil, concentra 3.690.485 habitantes (dados de 2012) \cite{Bitoun2012} em 14 municípios, além da RMR 
-será considerada para a pesquisa a Zona da Mata Norte (ZMN) com 577.191 habitantes e a Zona da Mata Sul (ZMS) com 733.447 habitantes. 
+A RMR é a 5ª região mais populosa do Brasil, concentra 3.690.485 habitantes (dados de 2012) \cite{Bitoun2012} em 14 municípios, além da 
+Zona da Mata Norte (ZMN) com 577.191 habitantes e a Zona da Mata Sul (ZMS) com 733.447 habitantes. 
 Nessas regiões (RMR, ZMN e ZMS) a frota (automóveis particulares, ônibus, caminhões, motocicletas, tratores e outros veículos) 
 foi contabilizada, em 2014, com 635.686 veículos \cite{FrotaVeiculosIBGE}.
 
-O que acontece na região metropolitana do Recife, é frequentemente visto no entorno das principais cidades brasileiras.
+O que acontece na região metropolitana do Recife e no seu entorno é frequentemente visto nas grandes cidades brasileiras.
 Por outro lado, câmeras de monitoramento de trânsito, redes sociais, aplicativos de celular e outros dispositivos, fornecem informações diárias sobre o que acontece nessas 
-rodovias e no entorno delas, atualizando e alimentando bases de dados históricas, em repositórios espalhados pelos centros de monitoramento de trânsito, isso é o \textit{Big data}.
+rodovias e no entorno delas, atualizando e alimentando bases de dados históricas, em repositórios espalhados pelos centros de 
+monitoramento de trânsito, isso é conhecido como \textit{Big data}.
 
-A proposição de uma solução para resolver esse problemática requer várias etapas, para além da proposição de algumas técnicas de mineração dos dados.
-Propomos, nesse projeto, uma solução peculiar, ao enviar essa frota de caminhões por diversas rotas, escolhidas por critérios cientificamente estudados.
-Isso poderá ser de suma importância para solucionar a problemática do transporte de cargas, que poderá advir com a plena produção da FCA, e que não se aplica apenas 
-à região metropolitana do Recife, mas a toda e qualquer fábrica do país. Permitirá fornecer toda informação que se faz necessária para acompanhar os
-caminhões na transposição dos obstáculos que possam surgir ao transitar por Pernambuco, conduzindo-os até seu destino de maneira segura e no menor tempo possível.
+Fora do perímetro urbano as rodovias atravessam outras localidades com problemáticas diversas tais como pavimento ruim ou mesmo sem pavimentação, 
+traçados inapropriados e outras intempéries têm causado frequentemente acidentes.
+A Polícia Rodoviária Federal ou outros órgãos de controle público atendem e registram esses acontecimentos em boletins diários.
+
+A proposição de uma solução para absorver parte dessas informações requer várias etapas, para além da proposição de algumas técnicas de mineração dos dados.
+Propomos, nesse mestrado, uma solução peculiar, ao enviar essa frota de caminhões por diversas rotas, escolhidas por critérios cientificamente estudados.
+Isso poderá ser de suma importância para solucionar a problemática do transporte de carga na região metropolitana 
+do Recife. Permitirá fornecer toda informação que se faz necessária para acompanhar veículos de carga, como por exemplo caminhões, 
+na transposição dos obstáculos que possam surgir ao transitar por Pernambuco, conduzindo-os até seu destino de maneira segura e no menor tempo possível.
 
 
 \section{ Objetivo Geral}\label{intro:objetivo}
 
-Esse projeto de pesquisa tem como objetivo desenvolver um Modelo de sistema de Suporte à Decisão para a problemática das retenções crescentes 
-de logística de cargas rodoviárias. Para isto propomos uma solução multidisciplinar através da integração de diversas tecnologias disponíveis desde a análise dos 
-dados históricos das rodovias até a situção cotidiana.
+Esse estudo tem como objetivo principal desenvolver um modelo preditivo de suporte a decisão para a problemática das retenções crescentes de transporte de cargas rodoviárias 
+nas BRs pernambucanas, contudo este estudo poderá ser portado para outras regiões brasileiras. 
+Para isto propomos uma solução multidisciplinar através da integração de diversas tecnologias disponíveis desde a análise dos dados históricos das 
+rodovias a utilização informações de redes sociais e dados governamentais.
 
 \subsection{ Objetivos Específicos}\label{intro:especificos}
 
 \begin{itemize}
- \item Representar a problemática da logística de cargas em uma plataforma adaptável:
- 
-      \begin{enumerate}
-       \item Desenvolver uma plataforma adaptável que utilize dados de redes sociais (Twitter); analisar o contexto das rodovias por essas 
-       redes através da mineração de dados em textos e integrar ao resto do sistema através que verifica palavras chaves como: protestos, acidentes e outras.
-      \end{enumerate}
+ \item Representar a problemática da logística de cargas em uma plataforma adaptável;
 
- \item Desenvolver um modelo preditivo dos fenômenos que envolvem as rodovias:
-
-      \begin{enumerate}
-       \item Para o desenvolvimento do modelo preditivo pretende-se utilizar bases de dados históricas.
-       \item O modelo preditivo integra várias bases de dados, tais como: Polícia Rodoviária Federal -- PRF, Batalhão de Polícia de Transito -- BPRv e dados históricos 
-       do Instituto de Pesquisas Espaciais -- INPE ou dos dados de precipitações pluviométricas do ``European Centre for Medium-Range Weather -- ECMWF.
-       \item Algumas dessas informações também estão disponíveis em base de dados abertas, como sugere o Portal da Transparência, nos servidores da PRF além de outras informações para complementar o sistema estão 
-       disponíveis na Internet sendo atualizadas pela PRF através de uma API aberta, esta pode ser configurável para se ligar ao nosso sistema.
-      \end{enumerate}
+ \item Desenvolver um modelo preditivo dos fenômenos que envolvem as rodovias;
 
  \item Propor uma simulação interativa da estrutura com a dinâmica:
       
