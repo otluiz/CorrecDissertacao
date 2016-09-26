@@ -1,22 +1,33 @@
-\chapter{Estado da Arte}\label{arte}
+\chapter{Revisão da Literatura}\label{arte}
 
 
 \section{Introdução}\label{arte:intro}
 
-Nesse estudo, foram realizadas três frentes de pesquisa para a revisão da literatura: 
+Nesse estudo, foi realizada uma revisão teórica e de pesquisas contemplando três campos, a saber: 
   \begin{itemize}
-    \item A primeira frente relacionada a modelos preditivos de mineração de dados relacionados à pesquisa em lide;
-    \item A segunda frente relacionada às tecnologias mineração em textos em redes socias;
-    \item Finalmente a última frente de pesquisa relacionadas às tecnologias de mapeamento rodoviário integrados aos sistemas de APIs 
+    \item O primeiro relacionado aos modelos preditivos de mineração de dados relacionados à pesquisa em lide;
+    \item O segundo relacionado às tecnologias mineração em textos em redes sociais;
+    \item Finalmente o última campo de pesquisa relacionadas às tecnologias de mapeamento rodoviário integrados aos sistemas de APIs 
   \end{itemize}
 
 
   
 \section{CRISP-DM}
 
-O processo de mineração de dados conhecido como ``CRoss Indrustry Standard Process for Data Mining'' (CRISP-DM) \cite{Crisp2000} descreve como os especialistas em mineração de dados aplicam as técnicas em lide.
+O ``CRoss Indrustry Standard Process for Data Mining'' -- (CRISP-DM) \cite{Crisp2000} é um processo de mineração de dados que descreve como especialistas 
+em mineração de dados aplicam as técnicas de mineração para obter os melhores resultados.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
 O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o modelo de predição.
+Foi concebido em 1996, desenvolvido e refinado através workshops entre 1997 a 1999 \cite{Crisp2000}, 
+foi uma iniciativa de três entidades empresariais europeias, consideradas 
+``veteranas'' no crescente mercado de mineração de dados, dentre elas 
+ pela Daimler-Crysler que estava a frente da maioria das organizações empresariais e comerciais na aplicação de mineração 
+de dados em seus negócios, a SPSS que provê serviços baseados em mineração de dados desde 1990 tendo lançado o primeiro workbench de mineração 
+de dados comerciais o Clementine®, e a NCR com seu Teradata® uma Datawarehouse que estabelecia equipes de consultores através de especialistas em mineração 
+de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para o modelo de processo CRISP-DM a fim de melhorar as técnicas de mineração de dados.
+
+
+
 A figura a seguir exemplifica o processo:
 
 \begin{figure}[!ht]

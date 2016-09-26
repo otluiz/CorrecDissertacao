@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  23 SEP 2016 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  25 SEP 2016 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1518,7 +1518,7 @@ Cap\'{\i }tulo 2.
 File: Figuras/BigData/CrispDM.png Graphic file (type png)
 
 <use Figuras/BigData/CrispDM.png>
-Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 25.
+Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 34.
 (pdftex.def)             Requested size: 227.61826pt x 170.71281pt.
  [14
 
@@ -1530,7 +1530,7 @@ File: Figuras/BigData/RelacaoCrispKddDm.png Graphic file (type png)
 
 <use Figuras/BigData/RelacaoCrispKddDm.png>
 Package pdftex.def Info: Figuras/BigData/RelacaoCrispKddDm.png used on input li
-ne 47.
+ne 56.
 (pdftex.def)             Requested size: 184.9385pt x 79.66586pt.
  [15 <./Figuras/BigData/CrispDM.png> <./Figuras/BigData/RelacaoCrispKddDm.png>]
 
@@ -1539,40 +1539,40 @@ File: Figuras/BigData/FayyadSemFundo.png Graphic file (type png)
 
 <use Figuras/BigData/FayyadSemFundo.png>
 Package pdftex.def Info: Figuras/BigData/FayyadSemFundo.png used on input line 
-122.
+131.
 (pdftex.def)             Requested size: 369.89052pt x 256.09328pt.
- [16] [17 <./Figuras/BigData/FayyadSemFundo.png>] <Figuras/BigData/arvore.png, 
-id=101, 384.6872pt x 219.82124pt>
+ [16] [17 <./Figuras/BigData/FayyadSemFundo.png>] [18] <Figuras/BigData/arvore.
+png, id=105, 384.6872pt x 219.82124pt>
 File: Figuras/BigData/arvore.png Graphic file (type png)
 
 <use Figuras/BigData/arvore.png>
-Package pdftex.def Info: Figuras/BigData/arvore.png used on input line 174.
+Package pdftex.def Info: Figuras/BigData/arvore.png used on input line 183.
 (pdftex.def)             Requested size: 170.7186pt x 113.80792pt.
- [18 <./Figuras/BigData/arvore.png>] [19]
-[20] <Figuras/BigData/twittePRF.png, id=117, 581.17125pt x 485.815pt>
+ [19 <./Figuras/BigData/arvore.png>] [20]
+[21] <Figuras/BigData/twittePRF.png, id=120, 581.17125pt x 485.815pt>
 File: Figuras/BigData/twittePRF.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 253.
+Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 262.
 (pdftex.def)             Requested size: 170.71686pt x 136.5684pt.
 
-<Figuras/BigData/twittePRF2.png, id=118, 578.16pt x 497.86pt>
+<Figuras/BigData/twittePRF2.png, id=121, 578.16pt x 497.86pt>
 File: Figuras/BigData/twittePRF2.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF2.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 255.
+Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 264.
 
 (pdftex.def)             Requested size: 170.71451pt x 136.57387pt.
- [21 <./Figuras/BigData/twittePRF.png (PNG copy)> <./Figuras/BigData/twittePRF2
+ [22 <./Figuras/BigData/twittePRF.png (PNG copy)> <./Figuras/BigData/twittePRF2
 .png (PNG copy)>]
-<Figuras/BigData/Analise_Textos.png, id=122, 1301.86375pt x 1032.85875pt>
+<Figuras/BigData/Analise_Textos.png, id=125, 1301.86375pt x 1032.85875pt>
 File: Figuras/BigData/Analise_Textos.png Graphic file (type png)
 
 <use Figuras/BigData/Analise_Textos.png>
 Package pdftex.def Info: Figuras/BigData/Analise_Textos.png used on input line 
-292.
+301.
 (pdftex.def)             Requested size: 341.43645pt x 170.71378pt.
-) [22 <./Figuras/BigData/Analise_Textos.png>]
+) [23 <./Figuras/BigData/Analise_Textos.png>]
 \openout2 = `Textual/3_metodologia.aux'.
 
  (./Textual/3_metodologia.tex
@@ -1582,30 +1582,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-<Figuras/BigData/Etapas.png, id=127, 1306.8825pt x 390.45876pt>
+[24
+
+
+
+] <Figuras/BigData/Etapas.png, id=134, 1306.8825pt x 390.45876pt>
 File: Figuras/BigData/Etapas.png Graphic file (type png)
 
 <use Figuras/BigData/Etapas.png>
-Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 20.
+Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 22.
 (pdftex.def)             Requested size: 455.24211pt x 199.16707pt.
- [23
-
-
-
-] [24 <./Figuras/BigData/Etapas.png>]
-[25] <Figuras/Cronograma/GoogleMaps.png, id=140, 748.7975pt x 778.91pt>
+ [25 <./Figuras/BigData/Etapas.png>] [26]
+[27] <Figuras/Cronograma/GoogleMaps.png, id=146, 748.7975pt x 778.91pt>
 File: Figuras/Cronograma/GoogleMaps.png Graphic file (type png)
 
 <use Figuras/Cronograma/GoogleMaps.png>
 Package pdftex.def Info: Figuras/Cronograma/GoogleMaps.png used on input line 1
-18.
+20.
 (pdftex.def)             Requested size: 426.79616pt x 369.87914pt.
-) [26 <./Figuras/Cronograma/GoogleMaps.png (PNG copy)>]
+) [28 <./Figuras/Cronograma/GoogleMaps.png (PNG copy)>]
 \openout2 = `Textual/4_simulacao.aux'.
 
  (./Textual/4_simulacao.tex
 Cap\'{\i }tulo 4.
-) [27
+) [29
 
 
 
@@ -1614,21 +1614,21 @@ Cap\'{\i }tulo 4.
 
  (./Textual/5_conclusao.tex
 Cap\'{\i }tulo 5.
-[28
-
-
-
-]) [29]
-\openout2 = `Textual/Anexo1.aux'.
-
- (./Textual/Anexo1.tex
-Ap\^endice A.
 [30
 
 
 
-] [31]
-<Figuras/Cronograma/BasesHistoricas.png, id=160, 1518.473pt x 680.141pt>
+]) [31]
+\openout2 = `Textual/Anexo1.aux'.
+
+ (./Textual/Anexo1.tex
+Ap\^endice A.
+[32
+
+
+
+] [33]
+<Figuras/Cronograma/BasesHistoricas.png, id=166, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
@@ -1640,13 +1640,13 @@ Overfull \hbox (14.22649pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-) [32 <./Figuras/Cronograma/BasesHistoricas.png>] (./Manifesto.bbl [33
+) [34 <./Figuras/Cronograma/BasesHistoricas.png>] (./Manifesto.bbl [35
 
 
 ])
 
 AED: lastpage setting LastPage
-[34] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
+[36] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
 (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_simulacao.aux)
 (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux))
@@ -1660,13 +1660,13 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17130 strings out of 494790
- 282026 string characters out of 6174858
+ 17131 strings out of 494790
+ 282043 string characters out of 6174858
  423698 words of memory out of 5000000
- 19893 multiletter control sequences out of 15000+600000
+ 19894 multiletter control sequences out of 15000+600000
  36082 words of font info for 74 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
- 46i,12n,53p,624b,3463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,53p,624b,3464s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-s
 uper-ts1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</
@@ -1694,10 +1694,10 @@ e1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 ublic/cm-super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/cm-super/sfti1440.pfb>
-Output written on Manifesto.pdf (35 pages, 1550883 bytes).
+Output written on Manifesto.pdf (37 pages, 1552357 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 260 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

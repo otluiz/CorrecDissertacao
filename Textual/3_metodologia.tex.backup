@@ -10,7 +10,7 @@ comportamento delas. \\
 
 A metodologia da pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes.
 As duas primeiras etapas da nossa metodologia completam o ciclo do processo CRISP-DM.
-A terceira etapa será nosso ``front-end'' onde serão plotados no mapa os resultados procurados.
+A terceira etapa é o ``front-end'', onde são plotados no mapa os pontos críticos da rotas
 
 A figura a seguir ilustra essa metodologia descrita graficamente, onde as três etapas são representadas por retângulos.
  
@@ -20,7 +20,7 @@ A figura a seguir ilustra essa metodologia descrita graficamente, onde as três 
 \includegraphics[width=160mm, height=70mm]{Figuras/BigData/Etapas.png}
 \end{figure}
 
-A etapa 1 contempla a fases da coleta das bases de dados históricas, preparação dos dados e construção das variáveis do modelo preditivo.
+A \textbf{etapa 1} contempla a fases da coleta das bases de dados históricas, preparação dos dados e construção das variáveis do modelo preditivo.
 \begin{enumerate}
  \item O modelo preditivo integra várias bases de dados, tais como: Polícia Rodoviária Federal -- PRF, Batalhão de Polícia de Transito -- BPRv e dados históricos 
        do Instituto de Pesquisas Espaciais -- INPE ou dos dados de precipitações pluviométricas do ``European Centre for Medium-Range Weather -- ECMWF.
@@ -30,14 +30,14 @@ A etapa 1 contempla a fases da coleta das bases de dados históricas, preparaç�
 \end{enumerate}
 
  
-O segunda etapa 2 consiste na Mineração dos dados, tendo como ''inputs`` a etapa anterior; aplicar as técnicas de IA nas variáveis do sistema preditivo.
+O segunda \textbf{etapa 2} consiste na Mineração dos dados, tendo como ''inputs`` a etapa anterior; aplicar as técnicas de IA nas variáveis do sistema preditivo.
 %Propomos inicialmente a Regressão Logística e Árvores de decisão, testes iniciais e depuração do modelo. transformar os dados provenientes do modelo preditivo em coordenadas geográficas, isto é:
 Os ''outputs`` dessa etapa consiste em transformar os dados provenientes mineração em coordenadas geográficas, isto é: em latitude e longitude.  
  
-A terceira e última etapa da nossa metodologia contempla:
+A \textbf{terceira} e última etapa da metodologia contempla:
  \begin{enumerate}
-  \item A malha viária representada na Internet em mapas de bases vetoriais;
-  \item Um ambiente de simulação interativa que utiliza uma plataforma baseada na API do Google Maps V3.
+  \item A malha viária representada em mapas de bases vetoriais;
+  \item Um ambiente de simulação interativa que utiliza uma plataforma baseada na API do Google Maps.
   \item Um módulo dinâmico onde são capturados ``feeds'' de redes sociais, por exemplo pelo Twitter. 
 	Essa técnica faz um arco cibernético mantendo o sistema atualizado.
 \end{enumerate}
@@ -50,12 +50,6 @@ Esta etapa permite uma contraposição ao modelo preditivo na perspectiva do usu
 Isso pois, modelos preditivos com o passar do tempo tendem a desfasar-se, contudo este módulo permite visualização
 instantânea do ambiente das rodovias. 
  
-\begin{enumerate}
- \item Desenvolver uma plataforma adaptável que utilize dados de redes sociais (Twitter); analisar o contexto das rodovias por essas 
-       redes através da mineração de dados em textos e integrar ao resto do sistema através que verifica palavras chaves como: protestos, acidentes e outras.
-\end{enumerate}
-
-
 
 
 \section{Modelo preditivo}
@@ -111,6 +105,10 @@ outra uma API do Twitter. A API do Google Maps proporciona uma ``leitura'' atual
 
 A API do Twitter também tem a possibilidade de atualizar o modelo preditivo, contudo o objetivo desta é faz um Arco cibernético, 
 retroalimentando todo o sistema com novas informações, pensamos que isso permite um visualização instantânea do ambiente como um todo.
+
+Os ``feeds'' das redes sociais como o Twitter permitem analisar o contexto das rodovias com defasagem temporal 
+pequena, os utilizadores dessas redes sociais inclusive a PRF atualizam as redes sociais com dados sempre que há uma ocorrência por essas 
+A monitoração dessas redes sociais se faz por Mineração em textos, são verificas palavras chaves como: protestos, acidentes e outras.
 
 
 
