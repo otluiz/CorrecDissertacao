@@ -6,8 +6,9 @@
 Nesse estudo, foi realizada uma revisão teórica e de pesquisas contemplando três campos, a saber: 
   \begin{itemize}
     \item O primeiro relacionado aos modelos preditivos de mineração de dados relacionados à pesquisa em lide;
-    \item O segundo relacionado às tecnologias mineração em textos em redes sociais;
-    \item Finalmente o última campo de pesquisa relacionadas às tecnologias de mapeamento rodoviário integrados aos sistemas de APIs 
+    \item O segundo relacionado às tecnologias mineração em textos de redes sociais;
+    \item Finalmente o último campo de pesquisa relacionado às tecnologias de mapeamento através de sistemas de posicionamento global 
+    aplicados o sistema rodoviário.
   \end{itemize}
 
 
@@ -17,27 +18,54 @@ Nesse estudo, foi realizada uma revisão teórica e de pesquisas contemplando tr
 O ``CRoss Indrustry Standard Process for Data Mining'' -- (CRISP-DM) \cite{Crisp2000} é um processo de mineração de dados que descreve como especialistas 
 em mineração de dados aplicam as técnicas de mineração para obter os melhores resultados.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
-O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o modelo de predição.
-Foi concebido em 1996, desenvolvido e refinado através workshops entre 1997 a 1999 \cite{Crisp2000}, 
-foi uma iniciativa de três entidades empresariais europeias, consideradas 
-``veteranas'' no crescente mercado de mineração de dados, dentre elas 
- pela Daimler-Crysler que estava a frente da maioria das organizações empresariais e comerciais na aplicação de mineração 
-de dados em seus negócios, a SPSS que provê serviços baseados em mineração de dados desde 1990 tendo lançado o primeiro workbench de mineração 
-de dados comerciais o Clementine®, e a NCR com seu Teradata® uma Datawarehouse que estabelecia equipes de consultores através de especialistas em mineração 
-de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para o modelo de processo CRISP-DM a fim de melhorar as técnicas de mineração de dados.
+O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o processo.
+
+O CRISP-DM foi concebido, desenvolvido e refinado através workshops entre 1996 à 1999 \cite{Crisp2000}, por três entidades empresariais europeias, consideradas 
+``veteranas'' no crescente mercado de mineração de dados, 
+a Daimler-Crysler que está a frente da maioria das organizações empresariais e comerciais na aplicação de mineração de dados em seus 
+negócios, a SPSS que provê serviços baseados em mineração de dados desde 1990 tendo lançado o primeiro workbench de mineração 
+de dados comerciais o Clementine®, e a NCR com seu Teradata® uma Datawarehouse que estabelecia equipes de consultores especialistas em mineração 
+de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para o modelo de processo CRISP-DM.
+
+\subsection{Contexto de aplicação do CRISP -- DM}
+
+O contexto da aplicação do CRISP-DM \cite{Crisp2000} é guiado desde o nível mais genérico até o nível mais especializado, normalmente é explicado em quatro dimensões:
+
+\begin{itemize}
+ \item O domínio da aplicação -- a área específica que o projeto de mineração de dados acontece;
+ \item O tipo de problema -- descreve as classes específicas do objetivo do projeto de mineração de dados;
+ \item Os aspectos técnicos -- cobre as questões específicas como os desafios usualmente encontrados durante o processo de mineração de dados; 
+ \item As ferramentas e técnicas -- dimensão específica que cada ferramenta/técnica de mineração de dados é aplicada durante o projeto.
+\end{itemize}
+
+A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicação do CRISP-DM.
+
+% {|> %\columncolor[gray]{.7}} |c|} }  \hline
+\begin{tabular}[b]{|l|c|} \hline
+  \multicolumn{4}{|c|}{ Mineração de dados -- contexto}\\ \hline
+  \rowcolor[gray]{.7}
+   Dimensão & Domínio da aplicação & Tipo de Problema & Aspecto técnico & Ferramentas e Técnicas \\ \hline
+    -- 	    & Modelo de resposta   & Descrição e sumarização & Dados faltantes & Clementine \\ \hline
+    -- 	    & Predição agitada     & Segmentação             & \textit{Outlies}& MineSet \\ \hline
+    
+\end{tabular}
+
 
 
 
 A figura a seguir exemplifica o processo:
 
+\pagebreak
+
 \begin{figure}[!ht]
 \centering
 \caption{O padrão CRISP-DM}
-\includegraphics[width=80mm, height=60mm]{Figuras/BigData/CrispDM.png}
+\includegraphics[width=130mm, height=70mm]{Figuras/BigData/CrispDM.png}
 \end{figure}
 
-O \textbf{Entendimento do negócio} é uma fase crucial da mineração, um especialista (ou muitos) deve ser consultado. O analista de dados consegue fazer re-uso de conhecimento lendo periódicos e artigos, 
-mas a experiência de um profissional da área é condição ``sine qua non'' nessa fase.
+O \textbf{Entendimento do negócio} é uma fase crucial da mineração, um especialista (ou muitos) no negócio deve ser consultado. 
+O analista de dados consegue fazer re-uso de conhecimento lendo periódicos e artigos, mas a experiência de um profissional da área 
+é condição ``sine qua non'' nessa fase.
 Após a primeira fase, o analista de dados à fase do \textbf{Entendimento dos dados}. Nessa fase o analista ``olha'' para os dados com a acurácia de um especialista, 
 procurando identificar qualidade nos dados. Dados ausentes são comuns em bases de dados não estruturadas, os ``missing data'' são sempre um problema a ser considerado, 
 pois seu tratamento pode consumir muito tempo do analista de dados. 
@@ -59,6 +87,7 @@ A próxima figura descreve o domínio das técnicas aplicadas à mineração de 
 \tiny Fonte: Neurotech -- 2012
 \end{figure}
 
+\subsection{Medindo o desempenho e a qualidade}
 
 Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
 Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},

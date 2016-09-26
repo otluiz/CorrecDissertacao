@@ -21,27 +21,32 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib.bib
-I was expecting a `,' or a `}'---line 143 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 68 of file Bibliografia/Bibliografia.bib.bib
+ : 
+ : year = {2000}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 144 of file Bibliografia/Bibliografia.bib.bib
  : 
  : url = {http://www.anaesthetist.com/mnm/stats/roc/Findex.htm},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 150 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 151 of file Bibliografia/Bibliografia.bib.bib
  : 
  : url= {http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 157 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 158 of file Bibliografia/Bibliografia.bib.bib
  : 
  : title = {Signal Detection Theory and Psychophysics}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 166 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 167 of file Bibliografia/Bibliografia.bib.bib
  : 
  : year  = {2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 329 of file Bibliografia/Bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 330 of file Bibliografia/Bibliografia.bib.bib
  : 
  : title = {{Induction of Decision Trees}},
 (Error may have been on previous line)
@@ -124,43 +129,43 @@ Warning--campo title vazio em DadosGoverno
 +---------------------------------------------------------+
 You've used 24 entries,
             6714 wiz_defined-function locations,
-            1337 strings with 13041 characters,
-and the built_in function-call counts, 23060 in all, are:
-= -- 2387
+            1338 strings with 13046 characters,
+and the built_in function-call counts, 23141 in all, are:
+= -- 2397
 > -- 443
-< -- 448
+< -- 449
 + -- 629
 - -- 136
-* -- 1412
-:= -- 2920
+* -- 1414
+:= -- 2925
 add.period$ -- 69
 call.type$ -- 24
 change.case$ -- 205
 chr.to.int$ -- 48
 cite$ -- 28
-duplicate$ -- 2065
-empty$ -- 1154
+duplicate$ -- 2073
+empty$ -- 1159
 format.name$ -- 698
-if$ -- 4776
+if$ -- 4799
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 400
+missing$ -- 401
 newline$ -- 123
 num.names$ -- 88
-pop$ -- 605
+pop$ -- 607
 preamble$ -- 1
 purify$ -- 84
 quote$ -- 0
-skip$ -- 2129
+skip$ -- 2135
 stack$ -- 1
-substring$ -- 994
-swap$ -- 736
-text.length$ -- 26
+substring$ -- 1001
+swap$ -- 744
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 5
-while$ -- 135
+while$ -- 137
 width$ -- 0
 write$ -- 290
-(There were 36 error messages)
+(There were 37 error messages)

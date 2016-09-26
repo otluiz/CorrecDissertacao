@@ -39,6 +39,13 @@ month = {July},
 year = {2015}
 }
 
+@article{FrotaVeiculosIBGE,
+author = {Instituto Brasileiro de Geografia e Estatística - IBGE},
+title = {Regi\~{a}o Metropolitana do Recife no Contexto de Pernambuco no Censo 2010},
+url = {http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES},
+year = {2014}
+}
+
 %[5}
 @misc{Aranha2006,
 author = {Aranha, Christian and Passos, Emmanuel},
@@ -132,12 +139,16 @@ year = {1975}
 
 %[14]
 @article{MD_AM,
-url = {http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}
+author = {The Anaesthetist}
+url = {http://www.anaesthetist.com/mnm/stats/roc/Findex.htm},
+year = {Acessado em: 20.jan.2015}
 }
 
 %[15]
 @article{Discriminativo,
-urlttp= {http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}
+author = {Souza, C. R.}
+url= {http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc},
+year = {Acessado em: 20.jan.2015}
 }
 
 %[16]
@@ -352,4 +363,22 @@ pages = {25},
 title = {{Regi\~{a}o Metropolitana do Recife no Contexto de Pernambuco no Censo 2010}},
 url = {http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf},
 year = {2012}
+}
+
+@article{DadosGoverno,
+url= {http://dados.gov.br/dados-abertos/},
+acessado = {13.set.2016},
+year = {2016}
+}
+
+@article{Costa2015,
+author = {Costa, Jefferson De Jesus and Bernardini, Fl{\'{a}}via Cristina and Filho, Jos{\'{e}} Viterbo},
+isbn = {2237-826X},
+journal = {AtoZ: novas pr{\'{a}}ticas em informa{\c{c}}{\~{a}}o e conhecimento},
+number = {2014},
+pages = {1--26},
+title = {{A minera{\c{c}}{\~{a}}o de dados e a qualidade de conhecimentos extra{\'{i}}dos dos boletins de ocorr{\^{e}}ncia das rodovias federais brasileiras}},
+url = {http://ojs.c3sl.ufpr.br/ojs/index.php/atoz/rt/printerFriendly/41346/25356},
+volume = {2},
+year = {2015}
 }
