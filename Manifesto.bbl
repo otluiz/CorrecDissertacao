@@ -3,7 +3,12 @@
 \begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.5 }
+\abntbstabout{1.42.2.1 }
+
+\bibitem{Crisp2000}
+\abntrefinfo{Wirth}{WIRTH}{}
+{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
+p. 7--10.}
 
 \bibitem{Quadros2005}
 \abntrefinfo{Quadros}{QUADROS}{2005}
@@ -20,7 +25,7 @@ p.~1.}
 \bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
 {BNDES. {Perspectivas do investimento, n. 2, out. 2013}.
-\emph{Perpectivas do Investimento 2014-2017}, p.~2, 2013.}
+\emph{Perspectivas do Investimento 2014-2017}, p.~2, 2013.}
 
 \bibitem{Bitoun2012}
 \abntrefinfo{Bitoun et al.}{BITOUN et al.}{2012}
@@ -28,7 +33,7 @@ p.~1.}
   Pernambuco no Censo 2010}.
 p.~25, 2012.
 Dispon{\'\i}vel em:
-  \url{http://www.observatoriodasmetropoles.net/download/Texto\\_BOLETIM\\_RECIFE\\_FINAL.pdf}.}
+  \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
 
 \bibitem{FrotaVeiculosIBGE}
 \abntrefinfo{IBGE}{IBGE}{2014}
@@ -36,12 +41,7 @@ Dispon{\'\i}vel em:
   de pernambuco no censo 2010.
 2014.
 Dispon{\'\i}vel em:
-  \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=\_ES}.}
-
-\bibitem{Crisp2000}
-\abntrefinfo{Wirth}{WIRTH}{}
-{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
-p. 7--10.}
+  \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
 \bibitem{ROC}
 \abntrefinfo{Egan}{EGAN}{1975}
@@ -59,7 +59,7 @@ New York, USA: Academic Press, 1975.}
 \bibitem{Aranha2006}
 \abntrefinfo{Aranha e Passos}{ARANHA; PASSOS}{2006}
 {ARANHA, C.; PASSOS, E. \emph{{A Tecnologia de Mineração de Textos}}. 2006.
-  1--8~p.}
+1--8~p.}
 
 \bibitem{DecisionTree}
 \abntrefinfo{Srivastava e Singh}{SRIVASTAVA; SINGH}{2015}
@@ -101,7 +101,7 @@ Elsevier, San Francisco, v. 2 edition, 2006.}
 \bibitem{TeoriaInf}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
 {HAN, J.; KAMBER, M. \emph{Data mining: concepts and techniques}. [S.l.: s.n.],
-  2006. v. 2nd edition.}
+  2006.}
 
 \bibitem{DecisaoCredito}
 \abntrefinfo{West}{WEST}{2000}

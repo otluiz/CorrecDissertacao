@@ -5,36 +5,38 @@
 
 Nesse estudo, foi realizada uma revisão teórica e de pesquisas contemplando três campos, a saber: 
   \begin{itemize}
-    \item O primeiro relacionado aos modelos preditivos de mineração de dados relacionados à pesquisa em lide;
+    \item O primeiro diz respeito aos modelos preditivos de mineração de dados relacionados à pesquisa em lide;
     \item O segundo relacionado às tecnologias mineração em textos de redes sociais;
     \item Finalmente o último campo de pesquisa relacionado às tecnologias de mapeamento através de sistemas de posicionamento global 
-    aplicados o sistema rodoviário.
+    aplicados ao sistema rodoviário.
   \end{itemize}
 
 
   
 \section{CRISP-DM}
 
-O ``CRoss Indrustry Standard Process for Data Mining'' -- (CRISP-DM) \cite{Crisp2000} é um processo de mineração de dados que descreve como especialistas 
-em mineração de dados aplicam as técnicas de mineração para obter os melhores resultados.
+O ``CRoss Indrustry Standard Process for Data Mining'' -- CRISP-DM \cite{Crisp2000} é um processo de mineração de dados que descreve como especialistas 
+nesse campo aplicam as técnicas de mineração para obter os melhores resultados.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
 O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o processo.
 
-O CRISP-DM foi concebido, desenvolvido e refinado através workshops entre 1996 à 1999 \cite{Crisp2000}, por três entidades empresariais europeias, consideradas 
-``veteranas'' no crescente mercado de mineração de dados, 
-a Daimler-Crysler que está a frente da maioria das organizações empresariais e comerciais na aplicação de mineração de dados em seus 
-negócios, a SPSS que provê serviços baseados em mineração de dados desde 1990 tendo lançado o primeiro workbench de mineração 
-de dados comerciais o Clementine®, e a NCR com seu Teradata® uma Datawarehouse que estabelecia equipes de consultores especialistas em mineração 
+O CRISP-DM foi concebido, desenvolvido e refinado através de ``workshops'' entre 1996 e 1999 \cite{Crisp2000}, por três entidades empresariais europeias que 
+formavam um consórcio, tendo com parceiros a Daimler-Chrysler AG (Alemanha), que estava, à época, à frente da maioria das organizações empresariais e comerciais 
+na aplicação de mineração de dados em seus negócios; 
+a SPSS Inc.(EUA), que provê serviços baseados em mineração de dados desde 1990, tendo lançado o primeiro workbench de mineração 
+de dados comerciais o Clementine®; 
+e a NCR Systems Engineering Copenhagen (EUA e Dinamarca), com o Teradata®, uma Datawarehouse que estabelecia equipes de consultores especialistas em mineração 
 de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para o modelo de processo CRISP-DM.
 
 \subsection{Contexto de aplicação do CRISP -- DM}
 
-O contexto da aplicação do CRISP-DM \cite{Crisp2000} é guiado desde o nível mais genérico até o nível mais especializado, normalmente é explicado em quatro dimensões:
+O contexto da aplicação do CRISP-DM \cite{Crisp2000} é guiado desde o nível mais genérico até o nível mais 
+especializado, sendo normalmente explicado em quatro dimensões:
 
 \begin{itemize}
  \item O domínio da aplicação -- a área específica que o projeto de mineração de dados acontece;
  \item O tipo de problema -- descreve as classes específicas do objetivo do projeto de mineração de dados;
- \item Os aspectos técnicos -- cobre as questões específicas como os desafios usualmente encontrados durante o processo de mineração de dados; 
+ \item Os aspectos técnicos -- cobrem as questões específicas como os desafios usualmente encontrados durante o processo de mineração de dados; 
  \item As ferramentas e técnicas -- dimensão específica que cada ferramenta/técnica de mineração de dados é aplicada durante o projeto.
 \end{itemize}
 
@@ -47,7 +49,7 @@ A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicaç�
 
 \begin{table}[!ht]
 \centering
-\caption{Mineração de dados -- contexto}
+\caption{Mineração de dados -- contexto \cite{Crisp2000}}
 \label{my-label}
 \begin{tabular}{lllll}
 \textbf{Dimensão} & \textbf{Domínio da aplicação} & \textbf{Tipo de Problema} & \textbf{Aspecto técnico} & \textbf{Ferramentas e Técnicas} \\ \hline
@@ -61,34 +63,7 @@ A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicaç�
 \end{table}
 
 
-
-A figura a seguir exemplifica o processo:
-
-\pagebreak
-
-\begin{figure}[!ht]
-\centering
-\caption{O padrão CRISP-DM}
-\includegraphics[width=130mm, height=70mm]{Figuras/BigData/CrispDM.png}
-\end{figure}
-
-O \textbf{Entendimento do negócio} é uma fase crucial da mineração, um especialista (ou muitos) no negócio deve ser consultado. 
-O analista de dados consegue fazer re-uso de conhecimento lendo periódicos e artigos, mas a experiência de um profissional da área 
-é condição ``sine qua non'' nessa fase.
-Após a primeira fase, o analista de dados à fase do \textbf{Entendimento dos dados}. Nessa fase o analista ``olha'' para os dados com a acurácia de um especialista, 
-procurando identificar qualidade nos dados. Dados ausentes são comuns em bases de dados não estruturadas, os ``missing data'' são sempre um problema a ser considerado, 
-pois seu tratamento pode consumir muito tempo do analista de dados. 
-A fase da \textbf{Preparação dos dados}, cobre a construção final do conjunto de dados. Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
-
-Na fase de \textbf{Modelagem de I.A.} a tecnologia deve ser escolhida com critério baseado em experiência do analista de dados. 
-Em sistemas de suporte à decisão, uma tecnologia inadequada pode levar a decisões imprecisas. É comum retornar às fases anteriores para adequar a técnica aos dados. 
-Um modelo de regressão logística para problemas binários, redes neurais para problemas de classificação e assim por diante.
-
-Na fase da \textbf{Avaliação de desempenho} um ou muitos modelos devem ter sido construídos e testados, apresentando alta qualidade da perspectiva da ánalise dos dados.
-Criar um modelo geralmente não é o fim do processo, contudo é um modelo de entendimento do negócio. 
-Até que se obtenha as respostas satisfatórias, o modelo deverá ser refeito várias vezes até sua \textbf{Implantação}. 
 A próxima figura descreve o domínio das técnicas aplicadas à mineração de dados:
-
 \begin{figure}[!ht]
 \centering
 \caption{Domínio das técnicas aplicadas a mineração de dados}
@@ -96,7 +71,46 @@ A próxima figura descreve o domínio das técnicas aplicadas à mineração de 
 \tiny Fonte: Neurotech -- 2012
 \end{figure}
 
-\subsection{Medindo o desempenho e a qualidade}
+
+\subsection{Ciclo de vida do CRISP--DM}
+
+Um projeto de mineração de dados, na perspectiva do CRISP--DM, tem um ciclo de vida compreendido em seis fases:
+
+A primeira, chamada \textbf{Entendimento do negócio}, é uma fase crucial da mineração, em que um especialista (ou muitos) deve ser consultado. 
+O analista de dados consegue fazer re-uso de conhecimento lendo periódicos e artigos, mas a experiência de um profissional da área 
+é condição ``sine qua non'' nessa fase.
+
+Em seguida, o analista de dados passa à fase dois, \textbf{Entendimento dos dados}. Nessa fase o analista ``olha'' para os dados com a acurácia de um especialista, 
+procurando identificar qualidade nos dados. Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
+um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados. 
+
+A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção final do conjunto de dados. 
+Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
+
+Na quarta fase, \textbf{Modelagem de I.A.}, a tecnologia deve ser escolhida de forma criteriosa, baseada na experiência do analista de dados. 
+Em sistemas de suporte à decisão, uma tecnologia inadequada pode levar a decisões imprecisas. É comum retornar às fases anteriores para adequar a técnica aos dados. 
+Um modelo de regressão logística para problemas binários, redes neurais para problemas de classificação, e assim por diante.
+
+Na fase cinco, \textbf{Avaliação de desempenho}, um ou muitos modelos devem ter sido construídos e testados, 
+de forma que seja possível atingir uma alta qualidade do ponto de vista da análise dos dados, ou seja, que o 
+modelo proposto esteja de adequado aos objetivos do negócio. Para tal é preciso que antes do desenvolvimento final 
+do modelo, os passos executados até então sejam avaliados e revistos.
+
+A sexta e última fase, caracteriza-se pela conclusão do modelo. No entanto a criação do modelo não é o fim do processo.
+O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
+É importante ressaltar que este ciclo poderá ser retomado até que o modelo esteja adequado às necessidades e especifidades do cliente.
+
+A figura a seguir ilustra as fases do ciclo:
+
+\begin{figure}[!ht]
+\centering
+\caption{O padrão CRISP-DM \cite{Crisp2000}}
+\includegraphics[width=130mm, height=70mm]{Figuras/BigData/CrispDM.png}
+\end{figure}
+
+
+
+\subsection{Desempenho e a qualidade}
 
 Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
 Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
@@ -156,7 +170,7 @@ A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr 
 
 
 
-\section{Data Mining}
+\section{Mineração de dados}
 
 Técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade (sem \textit{missing data}), para poder extrair informações relevantes.
 Um dos maiores problemas na extração de informações é que os dados não estão estruturados, ou não estão no grão adequado, ou ainda faltam dados (``missing data'' -- dados ausentes). 
@@ -167,8 +181,8 @@ Na figura a seguir temos um exemplo desse caminho:
 
 \begin{figure}[!ht]
 \centering
-\caption{Minerando dados no Big Data}
-\includegraphics[width=130mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
+\caption{Fases da mineração de dados até extração do conhecimento}
+\includegraphics[width=150mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
 \end{figure}
 
 

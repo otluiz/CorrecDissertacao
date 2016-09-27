@@ -9,7 +9,7 @@ A level-1 auxiliary file: Textual/3_metodologia.aux
 A level-1 auxiliary file: Textual/4_simulacao.aux
 A level-1 auxiliary file: Textual/5_conclusao.aux
 A level-1 auxiliary file: Textual/Anexo1.aux
-The style file: abntex2-num.bst
+The style file: Bibliografia/abnt-num.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -18,7 +18,6 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib.bib
 I was expecting a `,' or a `}'---line 68 of file Bibliografia/Bibliografia.bib.bib
@@ -51,57 +50,58 @@ I was expecting a `,' or a `}'---line 330 of file Bibliografia/Bibliografia.bib.
  : title = {{Induction of Decision Trees}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2091 of file abntex2-num.bst
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in DadosGoverno
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -109,63 +109,63 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em Learning2007
 Name 1 in "J. Dorsey, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 `title' is a missing field, not a string, for entry DadosGoverno
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em DadosGoverno
 +---------------------------------------------------------+
-| Estilo bibliogrÃ¡fico abntex2-num.bst versÃ£o v-1.9.5           |
-| Em caso de dÃºvidas ou problemas com este estilo procure |
-| http://www.abntex.net.br/                               |
+| Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
 You've used 24 entries,
-            6714 wiz_defined-function locations,
-            1338 strings with 13046 characters,
-and the built_in function-call counts, 23141 in all, are:
-= -- 2397
-> -- 443
-< -- 449
-+ -- 629
+            6480 wiz_defined-function locations,
+            1298 strings with 12875 characters,
+and the built_in function-call counts, 15200 in all, are:
+= -- 1155
+> -- 442
+< -- 27
++ -- 210
 - -- 136
-* -- 1414
-:= -- 2925
-add.period$ -- 69
+* -- 997
+:= -- 2079
+add.period$ -- 68
 call.type$ -- 24
 change.case$ -- 205
-chr.to.int$ -- 48
+chr.to.int$ -- 45
 cite$ -- 28
-duplicate$ -- 2073
-empty$ -- 1159
+duplicate$ -- 825
+empty$ -- 1157
 format.name$ -- 698
-if$ -- 4799
+if$ -- 3546
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 401
-newline$ -- 123
+missing$ -- 400
+newline$ -- 124
 num.names$ -- 88
-pop$ -- 607
+pop$ -- 603
 preamble$ -- 1
 purify$ -- 84
 quote$ -- 0
-skip$ -- 2135
+skip$ -- 896
 stack$ -- 1
-substring$ -- 1001
-swap$ -- 744
-text.length$ -- 27
+substring$ -- 590
+swap$ -- 325
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 5
-while$ -- 137
+while$ -- 131
 width$ -- 0
-write$ -- 290
+write$ -- 289
 (There were 37 error messages)
