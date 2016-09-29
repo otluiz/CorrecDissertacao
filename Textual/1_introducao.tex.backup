@@ -34,8 +34,8 @@ quantidade de veículos, mas por serem alvo de paralisações das mais diversas 
 buracos, intempéries naturais e outros tipos de paralisações. 
 Em situações extremas poderiam paralisar até a produção das fábricas no seu entorno \cite{BNDES2013}. 
 
-A RMR é a 5ª região mais populosa do Brasil, concentra 3.690.485 habitantes (dados de 2012) \cite{Bitoun2012} em 14 municípios, além da 
-Zona da Mata Norte (ZMN) com 577.191 habitantes e a Zona da Mata Sul (ZMS) com 733.447 habitantes. 
+A RMR é a 5ª região mais populosa do Brasil, concentra 3.690.485 habitantes (dados de 2012) em 14 municípios, além da 
+Zona da Mata Norte (ZMN) com 577.191 habitantes e a Zona da Mata Sul (ZMS) com 733.447 habitantes \cite{Bitoun2012}. 
 Nessas regiões (RMR, ZMN e ZMS) a frota (automóveis particulares, ônibus, caminhões, motocicletas, tratores e outros veículos) 
 foi contabilizada, em 2014, com 635.686 veículos \cite{FrotaVeiculosIBGE}.
 
@@ -54,6 +54,7 @@ Isso poderá ser de suma importância para solucionar a problemática do transpo
 do Recife. Permitirá fornecer toda informação que se faz necessária para acompanhar veículos de carga, como por exemplo caminhões, 
 na transposição dos obstáculos que possam surgir ao transitar por Pernambuco, conduzindo-os até seu destino de maneira segura e no menor tempo possível.
 
+\pagebreak
 
 \section{ Objetivo Geral}\label{intro:objetivo}
 
@@ -66,26 +67,17 @@ rodovias a utilização informações de redes sociais e dados governamentais.
 
 \begin{itemize}
  \item Representar a problemática da logística de cargas em uma plataforma adaptável;
-
  \item Desenvolver um modelo preditivo dos fenômenos que envolvem as rodovias;
-
- \item Propor uma simulação interativa da estrutura com a dinâmica:
-      
-      \begin{enumerate}
-       \item A malha viária está representada na Internet em mapas de bases vetoriais que pretendemos integrar ao nosso sistema de informações e também vamos incorporar 
-       as informações que a Polícia Rodoviária Federal(PRF) dispõe, que controla as rodovias BRs. 
-       \item A simulação interativa utiliza uma plataforma baseada na API do Google Maps.
-       \item Para simulação interativa da estrutura preditiva com a dinâmica real serão capturados ``feeds'' de redes sociais, por exemplo pelo Twitter. Essa técnica 
-       fará um arco cibernético mantendo o sistema preditivo atualizado.
-      \end{enumerate}
-
+ \item Desenvolver um ambiente de simulações interativa da estrutura com a dinâmica.
 \end{itemize}
 
 
 \section{ Resultados Esperados}\label{resultado}
 
-Ao final dessa pesquisa pretende-se obter um Modelo de Sistema de Suporte à Decisão adaptável, que contribua como uma ferramenta para  
-complementar à tomada de decisão para a gestão do transporte de cargas rodoviárias. A região inicialmente escolhida será a RMR.
+Ao final dessa pesquisa pretende-se obter um Modelo de Sistema de Suporte à Decisão adaptável, 
+que contribua como uma ferramenta para  
+complementar à tomada de decisão para a gestão do transporte de cargas rodoviárias. 
+A região inicialmente escolhida será a RMR.
 
 
 

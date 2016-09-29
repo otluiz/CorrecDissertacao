@@ -1,4 +1,4 @@
-\relax 
+x1\relax 
 \catcode `"\active 
 \citation{abnt-url-package=url}
 \@input{Pre-textual/capa.aux}
@@ -9,7 +9,10 @@
 \@input{Pre-textual/FolhaRosto.aux}
 \@input{Textual/1_introducao.aux}
 \@input{Textual/2_arte.aux}
-\@input{Textual/2_metodologia}
+\@input{Textual/3_metodologia.aux}
+\@input{Textual/4_simulacai.aux}
+\@input{Textual/5_conclusao.aux}
+\@input{Textual/Anexo.aux}
 \bibstyle{Bibliografia/abnt-alf}
 \newlabel{LastPage}{{}{14}}
 \xdef\lastpage@lastpage{14}

@@ -6,9 +6,9 @@
 \abntbstabout{1.42.2.1 }
 
 \bibitem{Crisp2000}
-\abntrefinfo{Wirth}{WIRTH}{2000}
+\abntrefinfo{Wirth}{WIRTH}{}
 {WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
-p. 7--10, 2000.}
+p. 7--10.}
 
 \bibitem{Quadros2005}
 \abntrefinfo{Quadros}{QUADROS}{2005}
@@ -24,13 +24,13 @@ p.~1.}
 
 \bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
-{BNDES. Perspectivas do investimento, n. 2, out. 2013.
+{BNDES. {Perspectivas do investimento, n. 2, out. 2013}.
 \emph{Perspectivas do Investimento 2014-2017}, p.~2, 2013.}
 
 \bibitem{Bitoun2012}
 \abntrefinfo{Bitoun et al.}{BITOUN et al.}{2012}
-{BITOUN, J. et al. Regi\~{a}o metropolitana do recife no contexto de pernambuco
-  no censo 2010.
+{BITOUN, J. et al. {Regi\~{a}o Metropolitana do Recife no Contexto de
+  Pernambuco no Censo 2010}.
 p.~25, 2012.
 Dispon{\'\i}vel em:
   \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
@@ -43,29 +43,22 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
-\bibitem{possas1998data}
-\abntrefinfo{POSSAS et al.}{POSSAS et al.}{1998}
-{POSSAS, B. et al. Data mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de
-  dados.
-\emph{Universidade Federal de Minas Gerais}, 1998.}
+\bibitem{ROC}
+\abntrefinfo{Egan}{EGAN}{1975}
+{EGAN, J.~P. Signal detection theory and roc analysis.
+New York, USA: Academic Press, 1975.}
 
-\bibitem{FayyadUeoutros}
-\abntrefinfo{{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}}{{P., Fayyad,
-  U., Piatetsky-Shapiro, G {\&} Smyth}}{1996}
-{{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}. {From data mining to
-  knowledge discovery in databases}.
-\emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
-  1996.}
+\bibitem{MD_AM}
+\abntrefinfo{Anaesthetist}{ANAESTHETIST}{}
+{ANAESTHETIST, T.}
 
-\bibitem{DataMining2}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
-Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
+\bibitem{Discriminativo}
+\abntrefinfo{Souza}{SOUZA}{}
+{SOUZA, C.~R.}
 
 \bibitem{Aranha2006}
-\abntrefinfo{Aranha Christian e~Passos}{ARANHA CHRISTIAN E~PASSOS}{2006}
-{ARANHA CHRISTIAN E~PASSOS, E. \emph{A Tecnologia de Mineração de Textos}.
-  2006.
+\abntrefinfo{Aranha e Passos}{ARANHA; PASSOS}{2006}
+{ARANHA, C.; PASSOS, E. \emph{{A Tecnologia de Mineração de Textos}}. 2006.
 1--8~p.}
 
 \bibitem{DecisionTree}
@@ -77,9 +70,9 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 
 \bibitem{Amin2015a}
 \abntrefinfo{Amin et al.}{AMIN et al.}{2015}
-{AMIN, A. et al. A comparison of two oversampling techniques (smote vs mtdf)
-  for handling class imbalance problem: A case study of customer churn
-  prediction.
+{AMIN, A. et al. {A Comparison of Two Oversampling Techniques (SMOTE vs MTDF)
+  for Handling Class Imbalance Problem: A Case Study of Customer Churn
+  Prediction}.
 v.~353, p. 215--225, 2015.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
@@ -95,16 +88,13 @@ Elsevier, San Francisco, v. 2 edition, 2006.}
 \emph{Elsevier, San Francisco}, v. 2 edition, 2005.}
 
 \bibitem{Learning2007}
-\abntrefinfo{Quinlan}{QUINLAN}{2007}
-{QUINLAN, J.~R. Induction of decision trees.
-\emph{Expert Systems}, Learning, Machine and Learning, Machine and Publishers,
-  p. 81--106, 2007.
-ISSN 0885-6125, 1573-0565.}
+\abntrefinfo{Quinlan}{QUINLAN}{}
+{QUINLAN, J.~R.}
 
 \bibitem{Learning1979}
 \abntrefinfo{Quinlan}{QUINLAN}{1979}
-{QUINLAN, J.~R. Discovering rules by induction from large collections of
-  examples.
+{QUINLAN, J.~R. {Discovering rules by induction from large collections of
+  examples}.
 \emph{Expert systems in the micro electronic age. Edinburgh University Press},
   In D. Michie, 1979.}
 
@@ -122,37 +112,11 @@ p. 1131 -- 1152, 2000.}
 \bibitem{RegrecaoLog}
 \abntrefinfo{M}{M}{2009}
 {M, H. J. Logistic regression models.
-Chapman and Hall -- CRC Press, 2009.}
-
-\bibitem{ROC}
-\abntrefinfo{Egan}{EGAN}{1975}
-{EGAN, J.~P. Signal detection theory and roc analysis.
-New York, USA: Academic Press, 1975.}
-
-\bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20.jan.2015}
-{ANAESTHETIST, T.
-Acessado em: 20.jan.2015.
-Dispon{\'\i}vel em:
-  \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
-
-\bibitem{Discriminativo}
-\abntrefinfo{Souza}{SOUZA}{Acessado em: 20.jan.2015}
-{SOUZA, C.~R.
-Acessado em: 20.jan.2015.
-Dispon{\'\i}vel em:
-  \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
-
-\bibitem{Bradley1997}
-\abntrefinfo{Bradley}{BRADLEY}{1997}
-{BRADLEY, A.~P. {The use of the area under the ROC curve in the evaluation of
-  machine learning algorithms}.
-\emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
-ISSN 00313203.}
+{Chapman and Hall -- CRC Press}, 2009.}
 
 \bibitem{Twitter2015}
-\abntrefinfo{F E.~Williams e Glass}{F E.~WILLIAMS; GLASS}{2015}
-{F E.~WILLIAMS, B.~S. D.; GLASS, N. {Twitter}.
+\abntrefinfo{Dorsey E.~Williams e Glass}{DORSEY E.~WILLIAMS; GLASS}{2015}
+{DORSEY E.~WILLIAMS, B.~S. J.; GLASS, N. {Twitter}.
 July 2015.
 Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
 

@@ -57,15 +57,14 @@
   \include{Textual/1_introducao}
   \include{Textual/2_estado_arte}
   \include{Textual/3_metodologia}
-  \include{Textual/4_simulacao}
-  \include{Textual/5_conclusao}
-
+  \include{Textual/4_conclusao}
+  \appendix
 
 
 %###############################################################%
 %              INCLUSÃO DOS ELEMENTOS P�S-TEXTUAIS              %
 %###############################################################%
-  \appendix
+
   \include{Textual/Anexo1}
   %\\input{Textual/Anexo2.tex}
 
@@ -77,7 +76,7 @@
 %                     REFERÊNCIAS UTILIZADAS                    %
 %###############################################################%
 
-    %\addcontentsline{toc}{chapter}{\bibname}
+    \addcontentsline{toc}{chapter}{\bibname}
 
     
     %#######################################################%
@@ -89,8 +88,7 @@
 	% Arquivo .bib
 	%\bibliography{mestre}
 	\bibliographystyle{Bibliografia/abnt-num} % ABNT em ordem num�rica de aparecimento no texto
-	\bibliography{Bibliografia/Bibliografia}
-	%\addbibresource{Bibliografia/Bibliografia.bib}
+	\bibliography{Bibliografia/Bibliografia.bib}
 
 
 \end{document} 

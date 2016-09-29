@@ -15,8 +15,8 @@ Nesse estudo, foi realizada uma revisão teórica e de pesquisas contemplando tr
   
 \section{CRISP-DM}
 
-O ``CRoss Indrustry Standard Process for Data Mining'' -- CRISP-DM \cite{Crisp2000} é um processo de mineração de dados que descreve como especialistas 
-nesse campo aplicam as técnicas de mineração para obter os melhores resultados.
+O ``CRoss Indrustry Standard Process for Data Mining'' -- CRISP-DM é um processo de mineração de dados que descreve como especialistas 
+nesse campo aplicam as técnicas de mineração para obter os melhores resultados \cite{Crisp2000}.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
 O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o processo.
 
@@ -42,35 +42,49 @@ especializado, sendo normalmente explicado em quatro dimensões:
 
 A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicação do CRISP-DM.
 
-% {|> %\columncolor[gray]{.7}} |c|} }  \hline
-%\begin{tabular}[b]{|l|c|} \hline
-%  \multicolumn{4}{|c|}{ }\\ \hline
-%  \rowcolor[gray]{.7}
-
 \begin{table}[!ht]
+
+\caption{Mineração de dados -- contexto de aplicação \cite{Crisp2000}}
+\vspace{1mm}
 \centering
-\caption{Mineração de dados -- contexto \cite{Crisp2000}}
-\label{my-label}
-\begin{tabular}{lllll}
-\textbf{Dimensão} & \textbf{Domínio da aplicação} & \textbf{Tipo de Problema} & \textbf{Aspecto técnico} & \textbf{Ferramentas e Técnicas} \\ \hline
-\textbf{Exemplo}  & Modelo de resposta            & Descrição e sumarização   & Dados faltantes          & Clementine             \\ \hline
-      --- 	  & Predição agitada              & Segmentação               & \textit{Outlies}         & MineSet                \\ \hline
-      ---         & ---                           & Descrição do conceito     & ---                      & Árvore de decisão      \\ \hline
-      ---         & ---                           & Classificação             & ---                      & ---                    \\ \hline
-      ---         & ---                           & Predição                  & ---                      & ---                    \\ \hline
-      ---         & ---                           & Análise de dependências   & ---                      & ---                    \\ \hline
+\begin{tabular}{c|c|c|c|c}
+\textbf{Dimensão} & \textbf{Domínio da} & \textbf{Tipo de } & \textbf{Aspecto } & \textbf{Ferramentas } \\
+		  & \textbf{aplicação}  & \textbf{Problema} & \textbf{técnico}  & \textbf{e Técnicas}   \\ \hline
+\textbf{Exemplo}  & Modelo de           & Descrição e       & Dados             & Clementine  \\
+                  & resposta            & sumarização       & faltantes         &             \\ \hline
+      --- 	  & Predição            & Segmentação       & \textit{Outlies}  & MineSet     \\
+         	  & agitada             &                   &                   &             \\ \hline
+      ---         & ---                 & Descrição do      & ---               & Árvore de   \\
+                  &                     & conceito          &                   & decisão     \\ \hline
+      ---         & ---                 & Classificação     & ---               & ---         \\ \hline
+      ---         & ---                 & Predição          & ---               & ---         \\ \hline
+      ---         & ---                 & Análise de        & ---               & ---         \\
+                  &                     & dependências      &                   & \\            
+\\
 \end{tabular}
+\tiny Fonte: CRISP-DM -- 1.0
 \end{table}
 
 
-A próxima figura descreve o domínio das técnicas aplicadas à mineração de dados:
+A aplicação das técnicas de mineração de dados identifica padrões ocultos nos dados, inacessíveis pelas técnicas tradicionais,
+como por exemplo, consultas em banco de dados, técnicas estatísticas, dentre outras. Além disso, possibilita analisar um grande número de 
+variáveis simultaneamente, o que não acontece com o cérebro humano \cite{possas1998data}, bem como, com outras técnicas. 
+A análise desse processo permite extrair novos conhecimentos a partir dos dados, que é tratado na literatura como 
+KDD -- Knowledge Discovery Database \cite{FayyadUeoutros}. Fayyad destaca a natureza interdisciplinar do KDD que contempla a intersecção 
+de campos de pesquisa tais como Aprendizagem de Máquina (Machine Learning), Reconhecimento de Padrões, I.A., estatística, computação de alto 
+desempenho e outros, propõe que o objetivo principal é extrair um conhecimento de alto nível a partir de dados de baixo nível num contexto de 
+grandes bases de dados.
+O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na figura a seguir:
+
 \begin{figure}[!ht]
 \centering
 \caption{Domínio das técnicas aplicadas a mineração de dados}
-\includegraphics[width=65mm, height=28mm]{Figuras/BigData/RelacaoCrispKddDm.png}\\
+\vspace{1mm}
+\includegraphics[width=60mm, height=20mm]{Figuras/BigData/RelacaoCrispKddDm.png}\\
 \tiny Fonte: Neurotech -- 2012
 \end{figure}
 
+\pagebreak
 
 \subsection{Ciclo de vida do CRISP--DM}
 
@@ -105,85 +119,40 @@ A figura a seguir ilustra as fases do ciclo:
 \begin{figure}[!ht]
 \centering
 \caption{O padrão CRISP-DM \cite{Crisp2000}}
-\includegraphics[width=130mm, height=70mm]{Figuras/BigData/CrispDM.png}
+\vspace{1mm}
+\includegraphics[width=70mm, height=70mm]{Figuras/BigData/CrispDM.png}\\
+\tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
 
 
-\subsection{Desempenho e a qualidade}
 
-Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
-Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
-foi criado e desenvolvido na década de 50 do século passado, para avaliar a qualidade da transmissão de sinais em um canal com ruído.
-Recentemente a curva ROC tem sido adotada em Mineração de dados e Aprendizagem de Máquina \cite{MD_AM}, em sistemas de suporte à decisão na medicina, para analisar a qualidade da detecção 
-de um determinado teste bioquímico, na psicologia para detecção de estímulos \cite{Discriminativo} em pacientes, e na radiologia para classificação de imagens.
-
-Essas métricas são amplamente utilizadas na classificação binária de resultados contínuos. Para isso ser construído utiliza-se a Matriz de Contingência que classifica as probabilidades como:
-verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo, respectivamente \textit{True Positive -- TP, False Positive -- FP, False Negative -- FN e True Negative -- TN },
-também conhecida como matriz de confusão, descrita na tabela a seguir:
-
-%tabela 5
-\begin{table}[ht]
-\centering
-\caption{Matriz de Confusão}
-\vspace{1mm}
-\begin{tabular}{l|c|c}
-\hline
-\textbf{} & \textbf{Predito} & \textbf{}\\
-\hline
-\textbf{Real}  & TP   FN & Positive -- POS\\
-\textbf{Real}  & FP   TN & Negative -- NEG\\
-\hline
-   ---         & PP   PN &    ---         \\
-\end{tabular}
-\end{table}
-
-A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabelas são equivalentes.
-
-%tabela 6
-\begin{table}[ht]
-\centering
-\caption{Matriz modelo de Confusão}
-\vspace{1mm}
-\begin{tabular}{l|c|c}
-\hline
-\textbf{}           & \textbf{Y}     \textbf{$\bar{Y}$}   & \textbf{}\\
-\hline
-\textbf{X}          & P(X,Y)         P(X,$\bar{Y}$)       & Positive -- POS\\
-\textbf{$\bar{X}$}  & P($\bar{X}$,Y) P($\bar{X},\bar{Y}$) & Negative -- NEG\\
-\hline
-   ---              & P(Y)           P($\bar{Y}$)         &     ---        \\
-\end{tabular}
-\end{table}
-
-
-De acordo com as probabilidades condicionais temos:
-
-\begin{equation}
- P(X,Y) = P(X|Y).P(Y) = P(Y|X).P(X)
-\end{equation}
-
-Então, a taxa de verdadeiros positivos será $P(Y|X)$ e a probabilidade de falsos alarmes ou taxa de falsos positivos será $P(Y,\bar{Y})$, a barra sobrescrita em $\bar{X}$
-(ou $\bar{Y}$) representa negação. \\
-A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr = P(Y|X)) com a taxa dos falsos positivos (fpr = P(Y,$\bar{X}$)).
-
-
+\pagebreak
 
 
 \section{Mineração de dados}
 
-Técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade (sem \textit{missing data}), para poder extrair informações relevantes.
-Um dos maiores problemas na extração de informações é que os dados não estão estruturados, ou não estão no grão adequado, ou ainda faltam dados (``missing data'' -- dados ausentes). 
-Para contornar o problema de dados ausentes existem várias técnicas, como preenchimento dos dados através de técnicas de inteligência artificial.
+A mineração de dados é um passo do processo da extração de conhecimento (KDD), que se caracteriza pela descoberta de padrões e/ou comportamentos em grandes bases de dados, 
+também conhecido como repositórios de dados \cite{FayyadUeoutros}.
+Existem vários tipos de dados e informações nesses repositórios que podem ser minerados, contudo esses dados, inicialmente são selecionados e agrupados, a seguir passam por 
+uma fase de preprocessamento, que consiste em tratá-los de forma a prepará-los para a mineração. Essa fase é de 
+fundamental importância na estruturação dos dados, uma vez que em grandes volumes de dados, também conhecido ``Datawarehouse'', podem existir inconsistências, faltas (missing data) ou 
+duplicidade e erros de informações.
 
-O caminho da extração dos dados até sua mineração e, por fim, extração de conhecimento é longa.
-Na figura a seguir temos um exemplo desse caminho:
+Nesse sentido, as técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade sem \textit{missing data}, para poder extrair informações relevantes.
+Existem várias maneiras de se contornar os dados ausentes, como o preenchimento dos dados através de técnicas de inteligência artificial, da média dos valores, quando dados numéricos 
+ou com a moda, quando os dados forem categóricos. Para cada tipo de dados existem técnicas apropriadas para serem aplicadas sobre eles, algumas mais sensíveis às problemáticas elencadas anteriormente
+e outras mais robustas \cite{DataMining2}, que por sua vez estão associadas a classes de problemas que a mineração trata, a tabela 2.1 delineou o domínio.
+Isso será tratado na seção Aprendizagem de Máquina ou ``Machine Learning''.
+O caminho da extração dos dados até sua mineração e extração de conhecimento é longa.
+Na figura a seguir temos a ilustração desse caminho:
 
 \begin{figure}[!ht]
 \centering
 \caption{Fases da mineração de dados até extração do conhecimento}
-\includegraphics[width=150mm, height=90mm]{Figuras/BigData/FayyadSemFundo.png}
+\includegraphics[width=135mm, height=65mm]{Figuras/BigData/FayyadSemFundo.png}
 \end{figure}
+
 
 
 A origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Data'' este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
@@ -209,33 +178,75 @@ pelo grande número de tentativas. Metaheurísticas bioinspiradas metaforizam o 
 Todas essas etapas descritas na figura são recorrentes, como indicam as setas pontilhadas que retornam aos passos anteriores.
 Utilizar técnicas de mineração de dados, além de extrair dados, extrai conhecimento, com isso pode-se predizer os resultados futuros na saída do modelo, 
 quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de extração de conhecimento chama-se \textit{Knowledge Discovery Databases} (KDD).
-
+O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração
 
 \pagebreak
 
-\section{Machine Learning}\label{arte:palavraChave:Machine}
+\section{Aprendizagem de Máquina}\label{arte:palavraChave:Machine}
 
-O desafio dos 3 V's (Velocidade, Variedade e Volume) pode ser um fator determinístico na escolha da ferramenta mais adequada para analisar dados e extrair informação. 
-As árvores de decisão são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. A fase de extração dos dados do 
-é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} isso pode representar o desafio maior para implementar esta técnica. 
+Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dados de forma automatizada e interativa.
+As técnicas algorítmicas apresentadas nas seções subsequentes são parte da grande família de algorítimos que compõem 
+o aprendizado de máquina aplicado a mineração de dados.
 
-\subsection{Redes Neurais}
+As técnicas de mineração aplicadas na descoberta de conhecimento podem ser agrupadas de acordo com suas funcionalidades \cite{DataMining2}, 
+essas funcionalidades tem como característica principal a maneira como são descobertos os padrões no dados, elas podem estar 
+em uma das duas categorias: tarefas descritivas ou tarefas preditivas. As tarefas mineração descritivas preocupam-se nas características 
+dos dados no conjunto de dados, o ``data set''. As tarefas de mineração preditivas induzem regras nos dados correntes para produzirem 
+predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas.
 
+\subsection{Classificação e Regressão para análise preditivas}
 
+Classificação é um processo para encontrar um modelo que descreve e distingue classes de dados. 
+Esse modelo tem como base de análise um conjunto de treinamento (i.e. objetos de dados para os quais 
+serão encontrados rótulos que os classifiquem). 
+Esse modelo é usado para predizer quais rótulos de classes terão os objetos desconhecidos.
+O modelo pode ser representado por regras de classificação do tipo ``IF - THEN'', por árvores de decisão, redes neurais e outros. 
+Regras de classificação se distinguem de regras de indução da seguinte forma:
+\begin{itemize}
+ \item Uma regra de classificação poderia ser: $if$ L $them$ class = $C_{1}$ ou $if$ L $them$  $C_{1}$
+ \item Uma regra de indução seria: $ if$ L $them$ R que por sua vez produz novas regras 
+\end{itemize}
 
+As árvores de decisão são estruturas como fluxogramas, possuem nós e ramificações, 
+cada nó é um teste no valor do atributo como:\\
+\\
+  $age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$\\
+  $age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$\\
+  $age(X,``middle-aged")$  $\to classe (X,``B")$\\
+  $age(X,``senior")$       $ \to classe (X,``B")$\\
+
+\pagebreak
+  
+A seguir, a árvore de decisão que explicita se um cliente, de acordo com sua idade terá determinada classe:
+\begin{figure}[!ht]
+\centering
+\caption{Árvore de decisão}
+\includegraphics[width=60mm, height=55mm]{Figuras/BigData/arvorejovem.png}\\
+\tiny Fonte: Han, J. and Kamber, M. 
+\end{figure}  
+
+A figura a seguir representa uma rede neural com as mesmas características da árvore de decisão anterior:
+\begin{figure}[!ht]
+\centering
+\caption{Rede Neural}
+\includegraphics[width=85mm, height=55mm]{Figuras/BigData/redeneural.png}\\
+\tiny Fonte: Han, J. and Kamber, M. 
+\end{figure}  
+
+As árvores de decisão produzem regras de indução, são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. 
+A fase de extração dos dados do é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} 
+isso pode representar o desafio maior para implementar esta técnica. 
+
+Outro problema que pode ser encontrado em algoritmos de aprendizagem é o ``overfitting'' ((( falar de overfitting)))
+
+\pagebreak
 
 \subsection{Árvore de Decisão}
 
 Han e Kamber \cite{DataMining} definem indução por árvore de decisão como a aprendizagem de árvore de decisão a partir de classes rotuladas nas tuplas de treinamento. 
 A estrutura da árvore de decisão é semelhante a um fluxograma, onde cada nó interno (não-folha) indica um teste de atributo, cada ramo representa o resultado de um teste e 
 cada nó da folha possui um rótulo de classe. O nó de nível mais superior é chamado de nó-raiz.
-A seguir, a árvore de decisão que explicita se um cliente, de acodo com sua idade, irá efeturar ou não a compra de um computador:
 
-\begin{figure}[!ht]
-\centering
-\caption{Árvore de decisão}
-\includegraphics[width=60mm, height=40mm]{Figuras/BigData/arvore.png}
-\end{figure}
 
 Para Ian e Frank \cite{MachineLearning}, as árvores de decisão podem ser representadas por uma abordagem ``dividir para conquistar'' para resolução de problemas de 
 aprendizagem, a partir de um conjunto de instâncias independentes. Os nós em uma árvore de decisão ``testam'' um atributo específico, comparando seu valor com uma constante.
@@ -243,6 +254,9 @@ No entanto, algumas árvores podem comparar dois atributos com outros ou utiliza
 As árvores de decisão podem ser classificadas em dois tipos: árvores de regressão (regression trees), que são utilizadas para estimar atributos numéricos, e árvores de 
 classificação (classification trees), usadas para análise de variáveis categóricas.
 
+\pagebreak
+
+\subsubsection{Tipos de Árvores de decisão}
 O algorítimo \textit{C4.5} é considerado um exemplo clássico de método de indução de árvores de decisão. O \textit{C4.5} \cite{Learning2007} foi inspirado no algoritmo 
 \textit{ID3} \cite{Learning1979}, que produz árvores de decisão a partir de uma abordagem recursiva de particionamento de um conjunto de dados, utilizando conceitos e medidas 
 da Teoria da Informação \cite{TeoriaInf}.
@@ -251,9 +265,12 @@ As árvores de decisão têm uma característica peculiar, a saída do modelo de
 Essa qualidade é utilizada para interpretar os resultados.
 
 
-\subsection{Regressão Logística}
+\subsection{Regressão}
 
-Os modelos de regressão (linear e logística) são técnicas para analisar o relacionamento entre variáveis. No entanto, a regressão linear é utilizada para problemas de natureza
+\subsubsection{Tipos de regressão}
+
+\subsubsection{Logística}
+Regressão logística (linear, logística, ou outras) é uma técnica para analisar o relacionamento entre variáveis. No entanto, a regressão linear é utilizada para problemas de natureza
 contínua, sendo que a regressão logística é semelhante, contudo, a variável dependente não é contínua, é discreta ou categórica \cite{DecisaoCredito}.
 
 A regressão logística está definida como o logarítmo a seguir:
@@ -275,9 +292,80 @@ A aplicação da regressão logística foi utilizada, pela primeira vez, com suc
 de oferecer crédito a terceiros \cite{RegrecaoLog}.
 A regressão logística é comumente aplicada para problemas de classificação binária (ou booleano).
 
+\pagebreak
+
+\subsection{Redes Neurais}
+
+Uma rede neural artificial (RNA) é uma técnica que constrói um modelo matemático, baseado em funções, de um modelo
+neural biológico simplificado, contudo este modelo tem capacidade de aprendizado, generalização, associação e abstração.
+
+((( continuar )))
+
+\subsubsection{Tipos de Redes Neurais}
 
 \pagebreak
 
+
+\subsection{Medida de desempenho e qualidade}
+
+Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
+Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
+foi criado e desenvolvido na década de 50 do século passado, para avaliar a qualidade da transmissão de sinais em um canal com ruído.
+Recentemente a curva ROC tem sido adotada em Mineração de dados e Aprendizagem de Máquina \cite{MD_AM}, em sistemas de suporte à decisão na medicina, para analisar a qualidade da detecção 
+de um determinado teste bioquímico, na psicologia para detecção de estímulos \cite{Discriminativo} em pacientes, e na radiologia para classificação de imagens.
+
+Essas métricas são amplamente utilizadas na classificação binária de resultados contínuos. Para isso ser construído utiliza-se a Matriz de Contingência que classifica as probabilidades como:
+verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo, respectivamente \textit{True Positive -- TP, False Positive -- FP, False Negative -- FN e True Negative -- TN },
+também conhecida como matriz de confusão, descrita na tabela a seguir:
+
+%tabela 5
+\begin{table}[ht]
+\centering
+\caption{Matriz de Confusão}
+\vspace{1mm}
+\begin{tabular}{l|c|c}
+\hline
+\textbf{} & \textbf{Predito} & \textbf{}\\
+\hline
+\textbf{Real}  & TP   FN & Positive -- POS\\
+\textbf{Real}  & FP   TN & Negative -- NEG\\
+\hline
+   ---         & PP   PN &    ---         \\
+\end{tabular}
+\tiny Fonte: \cite{Bradley1997}
+\end{table}
+
+A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabelas são equivalentes.
+
+%tabela 6
+\begin{table}[ht]
+\centering
+\caption{Matriz modelo de Confusão}
+\vspace{1mm}
+\begin{tabular}{l|c|c}
+\hline
+\textbf{}           & \textbf{Y}     \textbf{$\bar{Y}$}   & \textbf{}\\
+\hline
+\textbf{X}          & P(X,Y)         P(X,$\bar{Y}$)       & Positive -- POS\\
+\textbf{$\bar{X}$}  & P($\bar{X}$,Y) P($\bar{X},\bar{Y}$) & Negative -- NEG\\
+\hline
+   ---              & P(Y)           P($\bar{Y}$)         &     ---        \\
+\end{tabular}
+\tiny Fonte: \cite{Bradley1997}
+\end{table}
+
+
+De acordo com as probabilidades condicionais temos:
+
+\begin{equation}
+ P(X,Y) = P(X|Y).P(Y) = P(Y|X).P(X)
+\end{equation}
+
+Então, a taxa de verdadeiros positivos será $P(Y|X)$ e a probabilidade de falsos alarmes ou taxa de falsos positivos será $P(Y,\bar{Y})$, a barra sobrescrita em $\bar{X}$
+(ou $\bar{Y}$) representa negação. \\
+A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr = P(Y|X)) com a taxa dos falsos positivos (fpr = P(Y,$\bar{X}$)).
+
+\pagebreak
 
 \section{Redes sociais}
 

@@ -5,11 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.42.2.1 }
 
-\bibitem{Crisp2000}
-\abntrefinfo{Wirth}{WIRTH}{2000}
-{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
-p. 7--10, 2000.}
-
 \bibitem{Quadros2005}
 \abntrefinfo{Quadros}{QUADROS}{2005}
 {QUADROS, C. I.~D. {Dez Anos Depois do}.
@@ -43,24 +38,29 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
-\bibitem{possas1998data}
-\abntrefinfo{POSSAS et al.}{POSSAS et al.}{1998}
-{POSSAS, B. et al. Data mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de
-  dados.
-\emph{Universidade Federal de Minas Gerais}, 1998.}
+\bibitem{Crisp2000}
+\abntrefinfo{Wirth}{WIRTH}{2000}
+{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
+p. 7--10, 2000.}
 
-\bibitem{FayyadUeoutros}
-\abntrefinfo{{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}}{{P., Fayyad,
-  U., Piatetsky-Shapiro, G {\&} Smyth}}{1996}
-{{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}. {From data mining to
-  knowledge discovery in databases}.
-\emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
-  1996.}
+\bibitem{ROC}
+\abntrefinfo{Egan}{EGAN}{1975}
+{EGAN, J.~P. Signal detection theory and roc analysis.
+New York, USA: Academic Press, 1975.}
 
-\bibitem{DataMining2}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
-Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
+\bibitem{MD_AM}
+\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20.jan.2015}
+{ANAESTHETIST, T.
+Acessado em: 20.jan.2015.
+Dispon{\'\i}vel em:
+  \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
+
+\bibitem{Discriminativo}
+\abntrefinfo{Souza}{SOUZA}{Acessado em: 20.jan.2015}
+{SOUZA, C.~R.
+Acessado em: 20.jan.2015.
+Dispon{\'\i}vel em:
+  \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
 
 \bibitem{Aranha2006}
 \abntrefinfo{Aranha Christian e~Passos}{ARANHA CHRISTIAN E~PASSOS}{2006}
@@ -124,35 +124,9 @@ p. 1131 -- 1152, 2000.}
 {M, H. J. Logistic regression models.
 Chapman and Hall -- CRC Press, 2009.}
 
-\bibitem{ROC}
-\abntrefinfo{Egan}{EGAN}{1975}
-{EGAN, J.~P. Signal detection theory and roc analysis.
-New York, USA: Academic Press, 1975.}
-
-\bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20.jan.2015}
-{ANAESTHETIST, T.
-Acessado em: 20.jan.2015.
-Dispon{\'\i}vel em:
-  \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
-
-\bibitem{Discriminativo}
-\abntrefinfo{Souza}{SOUZA}{Acessado em: 20.jan.2015}
-{SOUZA, C.~R.
-Acessado em: 20.jan.2015.
-Dispon{\'\i}vel em:
-  \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
-
-\bibitem{Bradley1997}
-\abntrefinfo{Bradley}{BRADLEY}{1997}
-{BRADLEY, A.~P. {The use of the area under the ROC curve in the evaluation of
-  machine learning algorithms}.
-\emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
-ISSN 00313203.}
-
 \bibitem{Twitter2015}
-\abntrefinfo{F E.~Williams e Glass}{F E.~WILLIAMS; GLASS}{2015}
-{F E.~WILLIAMS, B.~S. D.; GLASS, N. {Twitter}.
+\abntrefinfo{Dorsey E.~Williams e Glass}{DORSEY E.~WILLIAMS; GLASS}{2015}
+{DORSEY E.~WILLIAMS, B.~S. J.; GLASS, N. {Twitter}.
 July 2015.
 Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
 

@@ -12,7 +12,7 @@ year = {2005}
 %[2]
 @article{BNDES2013,
 author = {BNDES},
-journal = {Perpectivas do Investimento 2014-2017},
+journal = {Perspectivas do Investimento 2014-2017},
 pages = {2},
 title = {{Perspectivas do investimento, n. 2, out. 2013}},
 year = {2013}
@@ -39,6 +39,7 @@ month = {July},
 year = {2015}
 }
 
+%[5]
 @article{FrotaVeiculosIBGE,
 author = {Instituto Brasileiro de Geografia e Estatística - IBGE},
 title = {Regi\~{a}o Metropolitana do Recife no Contexto de Pernambuco no Censo 2010},
@@ -46,9 +47,9 @@ url = {http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pern
 year = {2014}
 }
 
-%[5}
+%[6}
 @misc{Aranha2006,
-author = {Aranha, Christian and Passos, Emmanuel},
+author = {Aranha, Christian e Passos, Emmanuel},
 title = {{A Tecnologia de Mineração de Textos}},
 booktitle = {RESI-Revista Eletrônica de Sistemas de Informação},
 doi = {10.5329/171},
@@ -60,14 +61,15 @@ volume = {2},
 year = {2006}
 }
 
-%[6]
+%[7]
 @article{Crisp2000,
 author = {R. Wirth}, 
 title  = {CRISP-DM 1.0 – Step-by-step data mining guide},
+pages = {7--10},
 year = {2000}
 }
 
-%[7]
+%[8]
 @article{DecisionTree,
 author= {A. Srivastava, V. Katiyar and N. Singh},
 title = {Review of Decision Tree Algorithm: Big Data Analytics},
@@ -78,7 +80,7 @@ volume = {2},
 year = {2015}
 }
 
-%[8]
+%[9]
 @article{DataMining,
 author= {J. Han, and M. Kamber},
 title = {Data Mining: Concepts and Techniques},
@@ -88,7 +90,7 @@ year = {2006}
 }
 
 
-%[9]
+%[10]
 @article{DecisaoCredito,
 author = {West, D.},
 title  = {Neural network credit scoring models -- Computers and Operations Research},
@@ -97,7 +99,7 @@ year   = {2000}
 }
 
 
-%[10]
+%[11]
 @article{RegrecaoLog,
 author    = { J. M, Hilbe},
 title     = {Logistic Regression Models},
@@ -137,24 +139,24 @@ publisher= {New York, USA: Academic Press},
 year = {1975}
 }
 
-%[14]
+%[14] será que funciona a referencia do ano??
 @article{MD_AM,
-author = {The Anaesthetist}
+author = {The Anaesthetist},
 url = {http://www.anaesthetist.com/mnm/stats/roc/Findex.htm},
 year = {Acessado em: 20.jan.2015}
 }
 
 %[15]
 @article{Discriminativo,
-author = {Souza, C. R.}
+author = {Souza, C. R.},
 url= {http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc},
 year = {Acessado em: 20.jan.2015}
 }
 
 %[16]
 @article{DectionSignal,
-author= {D. Green and J. A. Swets}
-title = {Signal Detection Theory and Psychophysics}
+author= {D. Green and J. A. Swets},
+title = {Signal Detection Theory and Psychophysics},
 publisher= {Los Altos, USA: Peninsula Publishing},
 year = {1989}
 }
@@ -162,7 +164,7 @@ year = {1989}
 %[17]
 @article{AvalClass,
 author= {R. C. Prati, G. E. A. P. A. Batista e M. C. Monard},
-title = {Curva ROC para avaliacao de classificadores}
+title = {Curva ROC para avaliacao de classificadores},
 year  = {2014}
 }
 
@@ -243,7 +245,7 @@ title={Computação Bioinspirada aplicada à Robótica}
 %[24]ACO
 @article{Blum2005,
 author = {Blum, Christian},
-title = {{Ant colony optimization: Introduction and recent trends}},
+title = {Ant colony optimization: Introduction and recent trends},
 booktitle = {Physics of Life Reviews},
 doi = {10.1016/j.plrev.2005.10.001},
 issn = {15710645},
@@ -257,7 +259,7 @@ year = {2005}
 %[25]
 @article{Baig2012,
 author = {Baig, Abdul Rauf and Shahzad, Waseem},
-title = {{A correlation-based ant miner for classification rule discovery}},
+title = {A correlation-based ant miner for classification rule discovery},
 doi = {10.1007/s00521-010-0490-5},
 issn = {09410643},
 journal = {Neural Computing and Applications},
@@ -302,7 +304,7 @@ isbn = {978-0-387-32720-4},
 issn = {03601315},
 journal = {Malware Detection},
 pages = {171--191},
-title = {{An inside look at Botnets}},
+title = {An inside look at Botnets},
 url = {http://www.springerlink.com/index/10.1007/978-0-387-44599-1},
 volume = {27},
 year = {2007}
@@ -319,14 +321,15 @@ year = {2005}
 
 %[30] mortor de busca
 @article{motorBusca,
-author = {Inc. Google}
+author = {Google, Inc},
+year = {2015}
 }
 
 
 %[31]
 @article{Learning2007,
-author = {J. R. Quinlan}
-title = {{Induction of Decision Trees}},
+author = {J. R. Quinlan},
+title = {Induction of Decision Trees},
 doi = {10.1023/A:1022643204877},
 isbn = {0885-6125},
 issn = {0885-6125, 1573-0565},
@@ -341,7 +344,7 @@ year = {2007}
 %[32]
 @article{Learning1979,
 author = {J. R. Quinlan},
-title = {{Discovering rules by induction from large collections of examples}},
+title = {Discovering rules by induction from large collections of examples},
 journal = {Expert systems in the micro electronic age. Edinburgh University Press},
 publisher = {In D. Michie},
 year = {1979}
@@ -360,7 +363,7 @@ year = {1979}
 @article{Bitoun2012,
 author = {Bitoun, Jan and Miranda, L\'{\i}via and {de Almeida Souza}, Maria \^{A}ngela and {Souza de Britto Lyra}, Maria Rejane},
 pages = {25},
-title = {{Regi\~{a}o Metropolitana do Recife no Contexto de Pernambuco no Censo 2010}},
+title = {Regi\~{a}o Metropolitana do Recife no Contexto de Pernambuco no Censo 2010},
 url = {http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf},
 year = {2012}
 }
