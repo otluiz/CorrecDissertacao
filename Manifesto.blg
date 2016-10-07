@@ -20,6 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
+Warning--I didn't find a database entry for "TeoriaInf"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
@@ -90,6 +91,7 @@ Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2150 of file Bibliografia/abnt-num.bst
+Warning--campo title vazio em Tatibana
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
 Name 1 in "Dorsey F, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
@@ -108,45 +110,45 @@ Warning--campo title vazio em DadosGoverno
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 28 entries,
+You've used 30 entries,
             6480 wiz_defined-function locations,
-            1333 strings with 13650 characters,
-and the built_in function-call counts, 18780 in all, are:
-= -- 1456
-> -- 515
-< -- 39
-+ -- 238
-- -- 158
-* -- 1272
-:= -- 2542
-add.period$ -- 88
-call.type$ -- 28
-change.case$ -- 241
-chr.to.int$ -- 58
-cite$ -- 31
-duplicate$ -- 1000
-empty$ -- 1449
-format.name$ -- 813
-if$ -- 4384
+            1348 strings with 13973 characters,
+and the built_in function-call counts, 19936 in all, are:
+= -- 1534
+> -- 539
+< -- 40
++ -- 246
+- -- 166
+* -- 1352
+:= -- 2706
+add.period$ -- 96
+call.type$ -- 30
+change.case$ -- 254
+chr.to.int$ -- 60
+cite$ -- 34
+duplicate$ -- 1062
+empty$ -- 1554
+format.name$ -- 853
+if$ -- 4647
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 469
-newline$ -- 151
-num.names$ -- 104
-pop$ -- 667
+missing$ -- 501
+newline$ -- 163
+num.names$ -- 112
+pop$ -- 713
 preamble$ -- 1
-purify$ -- 98
+purify$ -- 104
 quote$ -- 0
-skip$ -- 1056
+skip$ -- 1110
 stack$ -- 1
-substring$ -- 943
-swap$ -- 420
-text.length$ -- 29
+substring$ -- 1026
+swap$ -- 439
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
-warning$ -- 4
-while$ -- 167
+warning$ -- 5
+while$ -- 176
 width$ -- 0
-write$ -- 357
+write$ -- 381
 (There were 37 error messages)

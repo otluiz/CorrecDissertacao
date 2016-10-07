@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  28 SEP 2016 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  5 OCT 2016 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1263,7 +1263,56 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count182
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+34.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))))
 (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
 (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_simulacao.aux)
@@ -1294,52 +1343,6 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-34.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1551,74 +1554,149 @@ File: Figuras/BigData/RelacaoCrispKddDm.png Graphic file (type png)
 <use Figuras/BigData/RelacaoCrispKddDm.png>
 Package pdftex.def Info: Figuras/BigData/RelacaoCrispKddDm.png used on input li
 ne 83.
-(pdftex.def)             Requested size: 170.71718pt x 56.90341pt.
+(pdftex.def)             Requested size: 256.0714pt x 113.80682pt.
  [16]
 <Figuras/BigData/CrispDM.png, id=87, 718.685pt x 531.9875pt>
 File: Figuras/BigData/CrispDM.png Graphic file (type png)
 
 <use Figuras/BigData/CrispDM.png>
-Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 123.
+Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 100.
 (pdftex.def)             Requested size: 199.16878pt x 199.162pt.
- [17 <./Figuras/BigData/RelacaoCrispKddDm.png>] <Figuras/BigData/FayyadSemFundo
-.png, id=92, 798.985pt x 325.215pt>
+
+<Figuras/Cronograma/Entendimento.png, id=88, 714.67pt x 435.6275pt>
+File: Figuras/Cronograma/Entendimento.png Graphic file (type png)
+
+<use Figuras/Cronograma/Entendimento.png>
+Package pdftex.def Info: Figuras/Cronograma/Entendimento.png used on input line
+ 115.
+(pdftex.def)             Requested size: 256.07054pt x 199.168pt.
+ [17 <./Figuras/BigData/RelacaoCrispKddDm.png> <./Figuras/BigData/CrispDM.png>]
+
+<Figuras/Cronograma/EntendDados.png, id=94, 659.46375pt x 421.575pt>
+File: Figuras/Cronograma/EntendDados.png Graphic file (type png)
+
+<use Figuras/Cronograma/EntendDados.png>
+Package pdftex.def Info: Figuras/Cronograma/EntendDados.png used on input line 
+131.
+(pdftex.def)             Requested size: 256.08293pt x 199.1695pt.
+ [18 <./Figuras/Cronograma/Entendimento.png> <./Figuras/Cronograma/EntendDados.
+png>]
+<Figuras/Cronograma/PreparaDados.png, id=99, 659.46375pt x 505.89pt>
+File: Figuras/Cronograma/PreparaDados.png Graphic file (type png)
+
+<use Figuras/Cronograma/PreparaDados.png>
+Package pdftex.def Info: Figuras/Cronograma/PreparaDados.png used on input line
+ 146.
+(pdftex.def)             Requested size: 256.08293pt x 199.17207pt.
+
+<Figuras/Cronograma/Model_IA.png, id=100, 665.48625pt x 404.51125pt>
+File: Figuras/Cronograma/Model_IA.png Graphic file (type png)
+
+<use Figuras/Cronograma/Model_IA.png>
+Package pdftex.def Info: Figuras/Cronograma/Model_IA.png used on input line 160
+.
+(pdftex.def)             Requested size: 256.07591pt x 199.16895pt.
+
+<Figuras/Cronograma/Avaliacao.png, id=101, 665.48625pt x 314.17375pt>
+File: Figuras/Cronograma/Avaliacao.png Graphic file (type png)
+
+<use Figuras/Cronograma/Avaliacao.png>
+Package pdftex.def Info: Figuras/Cronograma/Avaliacao.png used on input line 17
+5.
+(pdftex.def)             Requested size: 256.07591pt x 199.16733pt.
+ [19 <./Figuras/Cronograma/PreparaDados.png> <./Figuras/Cronograma/Model_IA.png
+>]
+<Figuras/Cronograma/Inplantacao.png, id=105, 665.48625pt x 393.47pt>
+File: Figuras/Cronograma/Inplantacao.png Graphic file (type png)
+
+<use Figuras/Cronograma/Inplantacao.png>
+Package pdftex.def Info: Figuras/Cronograma/Inplantacao.png used on input line 
+189.
+(pdftex.def)             Requested size: 256.07591pt x 199.16606pt.
+ [20 <./Figuras/Cronograma/Avaliacao.png> <./Figuras/Cronograma/Inplantacao.png
+>]
+<Figuras/BigData/FayyadSemFundo.png, id=109, 798.985pt x 325.215pt>
 File: Figuras/BigData/FayyadSemFundo.png Graphic file (type png)
 
 <use Figuras/BigData/FayyadSemFundo.png>
 Package pdftex.def Info: Figuras/BigData/FayyadSemFundo.png used on input line 
-153.
+226.
 (pdftex.def)             Requested size: 384.11801pt x 184.94771pt.
- [18 <./Figuras/BigData/CrispDM.png>]
-[19 <./Figuras/BigData/FayyadSemFundo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 210--217
+ [21 <./Figuras/BigData/FayyadSemFundo.png>] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 286--290
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--217
-
- []
-
-[20] <Figuras/BigData/arvorejovem.png, id=112, 402.50375pt x 278.03876pt>
+<Figuras/BigData/arvorejovem.png, id=120, 402.50375pt x 278.03876pt>
 File: Figuras/BigData/arvorejovem.png Graphic file (type png)
 
 <use Figuras/BigData/arvorejovem.png>
-Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 224
+Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 297
 .
-(pdftex.def)             Requested size: 170.71481pt x 156.48975pt.
+(pdftex.def)             Requested size: 170.71481pt x 128.03937pt.
 
-<Figuras/BigData/redeneural.png, id=113, 448.67625pt x 255.95625pt>
+<Figuras/BigData/redeneural.png, id=121, 448.67625pt x 255.95625pt>
 File: Figuras/BigData/redeneural.png Graphic file (type png)
 
 <use Figuras/BigData/redeneural.png>
-Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 232.
+Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 305.
 
-(pdftex.def)             Requested size: 241.8434pt x 156.48848pt.
- [21 <./Figuras/BigData/arvorejovem.png> <./Figuras/BigData/redeneural.png (PNG
- copy)>] [22] [23] [24] [25] [26]
-<Figuras/BigData/twittePRF.png, id=138, 581.17125pt x 485.815pt>
+(pdftex.def)             Requested size: 241.8434pt x 128.03638pt.
+ [23 <./Figuras/BigData/arvorejovem.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+[24 <./Figuras/BigData/redeneural.png (PNG copy)>]
+
+LaTeX Warning: Citation `TeoriaInf' on page 25 undefined on input line 336.
+
+[25] [26] <Figuras/Neural/Rosenblatt.png, id=144, 509.905pt x 198.7425pt>
+File: Figuras/Neural/Rosenblatt.png Graphic file (type png)
+
+<use Figuras/Neural/Rosenblatt.png>
+Package pdftex.def Info: Figuras/Neural/Rosenblatt.png used on input line 399.
+(pdftex.def)             Requested size: 256.08781pt x 85.36055pt.
+
+<Figuras/Neural/Adaline.png, id=145, 458.71375pt x 312.16624pt>
+File: Figuras/Neural/Adaline.png Graphic file (type png)
+
+<use Figuras/Neural/Adaline.png>
+Package pdftex.def Info: Figuras/Neural/Adaline.png used on input line 412.
+(pdftex.def)             Requested size: 256.08702pt x 113.80873pt.
+ [27 <./Figuras/Neural/Rosenblatt.png>]
+<Figuras/Neural/Perceptron.png, id=150, 513.92pt x 229.85875pt>
+File: Figuras/Neural/Perceptron.png Graphic file (type png)
+
+<use Figuras/Neural/Perceptron.png>
+Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 446.
+(pdftex.def)             Requested size: 256.07324pt x 113.81374pt.
+ [28 <./Figuras/Neural/Adaline.png>]
+[29 <./Figuras/Neural/Perceptron.png>] [30] [31]
+<Figuras/BigData/twittePRF.png, id=166, 581.17125pt x 485.815pt>
 File: Figuras/BigData/twittePRF.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 404.
+Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 566.
 (pdftex.def)             Requested size: 170.71686pt x 136.5684pt.
 
-<Figuras/BigData/twittePRF2.png, id=139, 578.16pt x 497.86pt>
+<Figuras/BigData/twittePRF2.png, id=167, 578.16pt x 497.86pt>
 File: Figuras/BigData/twittePRF2.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF2.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 406.
+Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 568.
 
 (pdftex.def)             Requested size: 170.71451pt x 136.57387pt.
- [27 <./Figuras/BigData/twittePRF.png (PNG copy)> <./Figuras/BigData/twittePRF2
+ [32 <./Figuras/BigData/twittePRF.png (PNG copy)> <./Figuras/BigData/twittePRF2
 .png (PNG copy)>]
-<Figuras/BigData/Analise_Textos.png, id=143, 1301.86375pt x 1032.85875pt>
+<Figuras/BigData/Analise_Textos.png, id=171, 1301.86375pt x 1032.85875pt>
 File: Figuras/BigData/Analise_Textos.png Graphic file (type png)
 
 <use Figuras/BigData/Analise_Textos.png>
 Package pdftex.def Info: Figuras/BigData/Analise_Textos.png used on input line 
-443.
+605.
 (pdftex.def)             Requested size: 341.43645pt x 170.71378pt.
-) [28 <./Figuras/BigData/Analise_Textos.png>]
+) [33 <./Figuras/BigData/Analise_Textos.png>]
 \openout2 = `Textual/3_metodologia.aux'.
 
  (./Textual/3_metodologia.tex
@@ -1628,39 +1706,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-[29
+[34
 
 
 
-] <Figuras/BigData/Etapas.png, id=151, 1306.8825pt x 390.45876pt>
+] <Figuras/BigData/Etapas.png, id=179, 1306.8825pt x 390.45876pt>
 File: Figuras/BigData/Etapas.png Graphic file (type png)
 
 <use Figuras/BigData/Etapas.png>
 Package pdftex.def Info: Figuras/BigData/Etapas.png used on input line 22.
 (pdftex.def)             Requested size: 455.24211pt x 199.16707pt.
- [30 <./Figuras/BigData/Etapas.png>] [31]
-<Figuras/Cronograma/GoogleMaps.png, id=159, 748.7975pt x 778.91pt>
+ [35 <./Figuras/BigData/Etapas.png>] [36]
+<Figuras/Cronograma/GoogleMaps.png, id=187, 748.7975pt x 778.91pt>
 File: Figuras/Cronograma/GoogleMaps.png Graphic file (type png)
 
 <use Figuras/Cronograma/GoogleMaps.png>
 Package pdftex.def Info: Figuras/Cronograma/GoogleMaps.png used on input line 1
 20.
 (pdftex.def)             Requested size: 426.79616pt x 369.87914pt.
-) [32 <./Figuras/Cronograma/GoogleMaps.png (PNG copy)>]
+) [37 <./Figuras/Cronograma/GoogleMaps.png (PNG copy)>]
 \openout2 = `Textual/4_simulacao.aux'.
 
  (./Textual/4_simulacao.tex
 Cap\'{\i }tulo 4.
-) [33
+) [38
 
 
 
-] [34]
+] [39]
 \openout2 = `Textual/5_conclusao.aux'.
 
  (./Textual/5_conclusao.tex
 Cap\'{\i }tulo 5.
-) [35
+) [40
 
 
 
@@ -1669,12 +1747,12 @@ Cap\'{\i }tulo 5.
 
  (./Textual/Anexo1.tex
 Ap\^endice A.
-[36
+[41
 
 
 
-] [37]
-<Figuras/Cronograma/BasesHistoricas.png, id=179, 1518.473pt x 680.141pt>
+] [42]
+<Figuras/Cronograma/BasesHistoricas.png, id=207, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
@@ -1686,13 +1764,13 @@ Overfull \hbox (14.22649pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-) [38 <./Figuras/Cronograma/BasesHistoricas.png>] (./Manifesto.bbl [39
+) [43 <./Figuras/Cronograma/BasesHistoricas.png>] (./Manifesto.bbl [44
 
 
 ])
 
 AED: lastpage setting LastPage
-[40] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
+[45] (./Manifesto.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
 (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_simulacao.aux)
 (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux))
@@ -1700,19 +1778,22 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.42938pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17408 strings out of 494790
- 286296 string characters out of 6174858
- 526877 words of memory out of 5000000
- 20166 multiletter control sequences out of 15000+600000
+ 17471 strings out of 494790
+ 288128 string characters out of 6174858
+ 527176 words of memory out of 5000000
+ 20217 multiletter control sequences out of 15000+600000
  33344 words of font info for 65 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
- 46i,12n,53p,624b,3734s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,53p,739b,3744s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-s
 uper-ts1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</
@@ -1738,10 +1819,10 @@ ype1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /public/cm-super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/cm-super/sfti1200.pfb>
-Output written on Manifesto.pdf (41 pages, 1539960 bytes).
+Output written on Manifesto.pdf (46 pages, 1687420 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
+ 294 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

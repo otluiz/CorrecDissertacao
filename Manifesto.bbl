@@ -108,11 +108,6 @@ ISSN 0885-6125, 1573-0565.}
 \emph{Expert systems in the micro electronic age. Edinburgh University Press},
   In D. Michie, 1979.}
 
-\bibitem{TeoriaInf}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. \emph{Data mining: concepts and techniques}. [S.l.: s.n.],
-  2006.}
-
 \bibitem{DecisaoCredito}
 \abntrefinfo{West}{WEST}{2000}
 {WEST, D. Neural network credit scoring models -- computers and operations
@@ -123,6 +118,25 @@ p. 1131 -- 1152, 2000.}
 \abntrefinfo{M}{M}{2009}
 {M, H. J. Logistic regression models.
 Chapman and Hall -- CRC Press, 2009.}
+
+\bibitem{Heaton2008}
+\abntrefinfo{Heaton}{HEATON}{2008}
+{HEATON, J. \emph{{Introduction to Neural Networks for Java}}. [S.l.: s.n.],
+  2008. 440~p.
+ISBN 1604390085.}
+
+\bibitem{Castanheira}
+\abntrefinfo{Castanheira}{CASTANHEIRA}{}
+{CASTANHEIRA, L.~G. {Aplica{\c{c}}{\~{a}}o de T{\'{e}}cnicas de
+  Minera{\c{c}}{\~{a}}o de Dados em Problemas de Classifica{\c{c}}{\~{a}}o de
+  Padr{\~{o}}es}.
+n.~5531.}
+
+\bibitem{Tatibana}
+\abntrefinfo{Tatibana e Kaetsy}{TATIBANA; KAETSY}{Acessado em: 01.out.2016}
+{TATIBANA, C.~Y.; KAETSY, D.~Y.
+Acessado em: 01.out.2016.
+Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
 
 \bibitem{ROC}
 \abntrefinfo{Egan}{EGAN}{1975}

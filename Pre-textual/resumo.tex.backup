@@ -1,24 +1,15 @@
 \vspace*{12pt}
 
-\lettrine {O} transporte de cargas, que atravessa as regiões metropolitanas das grandes cidades brasileiras é realizado principalmente pelas rodovias federais. 
-Essas rodovias estão constantemente congestionadas e têm recebido aumento expressivo de novos veículos a cada ano. 
+\lettrine {O}transporte de cargas que atravessa as regiões metropolitanas das grandes cidades brasileiras é realizado principalmente pelas rodovias federais. 
+Essas rodovias frequentemente se encontram congestionadas em determinados dias e/ou horários.
+Além do mais, tem sido contabilizado um aumento expressivo de veículos que por elas trafegam, a cada ano. No entorno de tais rodovias, particularmente em perímetros urbanos, comunidades realizam bloqueios para protestar contra acidentes, atropelamentos ou ainda paralisações de cunho político, como greves, etc.  A proximidade das rodovias de trechos com morros, florestas, rios, contribuem para que questões ligadas às intempéries da natureza, como, por exemplo, deslizamentos, promovam bloqueio das estradas. Essas variáveis impõem constantes paralisações às rodovias, representando atrasos na entrega, custos adicionais às empresas e prejuízos de várias ordens. 
+Partindo dessa preocupação, esse estudo teve por objetivo propor um modelo preditivo de comportamento das rodovias federais que atravessam o estado de Pernambuco, de modo que seja possível antecipar eventos que poderão ocorrer em determinados trechos de rodovia, que causam constrangimentos, como retenção, redução de tráfego (gargalos) e paralisação.
 
-No entorno desses trechos urbanos têm crescido desordenadamente comunidades que demandam por políticas sociais que atendam às 
-suas necessidades. Para reivindicar dos entes públicos essas comunidades bloqueiam as rodovias, aumentando a pressão sobre os congestionamentos.
-Em alguns trechos o traçado das rodovias está próximo a morros e florestas ficando suscetíveis às intempéries climáticas.
-Essas variáveis impõem constantes paralisações às rodovias, representando atrasos nas entregas, custos adicionais às empresas e prejuízos à competitividade nacional. 
-
-Propor novas soluções, que venham minimizar esses constrangimentos é condição 'sine qua non', para mitigar o que vem sendo chamado de ``Custo Brasil''. 
-Um modelo preditivo de sugestão de roteamento de cargas que antecipe eventos futuros utilizando informações vindas de base de dados históricas da Polícia Rodoviária Federal, 
-das redes sociais e das condições socio-ambientais exibido em forma mapas eletrônicos como google-maps poderia contribuir na 
-tomada de decisão , por um gestor, quando escolher enviar uma frota de veículos de cargas por determinadas rodovias.
-Grande parte das informações estão disponíveis em forma de dados na Internet e nos servidores locais dessas instituições, 
-podendo ser processados numa plataforma auto-adaptável.
-
-Assim, esse mestrado tem por objetivo desenvolver um modelo preditivo de suporte a decisão para a problemática crescente da Logística de Cargas, antecipando prováveis eventos, 
-que possam interferir no fluxo normal das rodovias brasileiras, propondo assim uma alternativa ao traçado de rotas determinísticas e incorporando novas opções de rotas 
-inspiradas na predição de eventos futuros.
+Para a proposição desse modelo, foram coletadas informações, a partir de 2007, na base de dados da Polícia Rodoviária Federal de Pernambuco, Polícia Rodoviária Estadual, IBGE e DataSus, INPE, além das redes sociais, como Twitter, e informações do GoogleMaps. 
+Com base nas informações obtidas, foi realizada uma Mineração de Dados (Data Mining) (Fayyad et al, 1996) e (Han; Kamber, 2006), utilizando a metodologia CRISP-DM (Wirth, 2000) para encontrar padrões comportamentais nas rodovias e em seu entorno. As tecnologias empregadas para a Mineração foram: Redes Neurais (Heaton, 2008), Árvores de Decisão (Srivastava et al, 2015) e Regressão Logística (Hilbe, 2009). 
+Para dados atualizados foram coletadas informações do Twitter, e para exibir a localização, utilizamos o Google Maps.
+O modelo de predição proposto significa um avanço em termos de mobilidade e gestão do transporte de cargas, uma vez que possibilita antecipar eventos e comportamentos, favorecendo a escolha de rotas alternativas e ampliando o espaço temporal de escolha para determinadas rotas.
 
 \par
 \vspace{2em}
-\noindent\textbf{Palavras-chave: Mineração de dados, Bases de dados históricas, Redes sociais, Logística de transportes, Roteamento}
+\noindent\textbf{Palavras-chave: Modelo de Predição, Mineração de dados, CRISP-DM, Controle de tráfego rodoviário.}

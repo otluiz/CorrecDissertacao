@@ -2,15 +2,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Dom\IeC {\'\i }nio das t\IeC {\'e}cnicas aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}}{17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces O padr\IeC {\~a}o CRISP-DM \cite {Crisp2000}}}{18}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Fases da minera\IeC {\c c}\IeC {\~a}o de dados at\IeC {\'e} extra\IeC {\c c}\IeC {\~a}o do conhecimento}}{19}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{21}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Rede Neural}}{21}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{28}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces O padr\IeC {\~a}o CRISP-DM \cite {Crisp2000}}}{17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Entendimento do neg\IeC {\'o}cio}}{18}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Entendimento dos dados}}{18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos dados}}{19}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Modelagem IA}}{19}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Avalia\IeC {\c c}\IeC {\~a}o do modelo}}{20}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Implanta\IeC {\c c}\IeC {\~a}o do modelo}}{20}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Fases da minera\IeC {\c c}\IeC {\~a}o de dados at\IeC {\'e} extra\IeC {\c c}\IeC {\~a}o do conhecimento}}{21}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{23}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Rede Neural}}{24}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Percepton de Rosenblatt}}{27}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE (ADAptative LInear Network) e o MADALINE (Many ADALINE) Perceptron}}{28}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Perceptron de McCulloch e Pitts}}{29}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da gerais da metodologia}}{30}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Etapas da metodologia}}{32}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da gerais da metodologia}}{35}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Etapas da metodologia}}{37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{38}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{43}
