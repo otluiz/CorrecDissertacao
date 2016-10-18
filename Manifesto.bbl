@@ -50,9 +50,9 @@ Dispon{\'\i}vel em:
 \emph{Universidade Federal de Minas Gerais}, 1998.}
 
 \bibitem{FayyadUeoutros}
-\abntrefinfo{{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}}{{P., Fayyad,
-  U., Piatetsky-Shapiro, G {\&} Smyth}}{1996}
-{{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}. {From data mining to
+\abntrefinfo{{FAYYAD, P., PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.}}{{FAYYAD, P.,
+  PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.}}{1996}
+{{FAYYAD, P., PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.} {From data mining to
   knowledge discovery in databases}.
 \emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
   1996.}
@@ -115,8 +115,8 @@ ISSN 0885-6125, 1573-0565.}
 p. 1131 -- 1152, 2000.}
 
 \bibitem{RegrecaoLog}
-\abntrefinfo{M}{M}{2009}
-{M, H. J. Logistic regression models.
+\abntrefinfo{HILBE}{HILBE}{2009}
+{HILBE, J.~M. Logistic regression models.
 Chapman and Hall -- CRC Press, 2009.}
 
 \bibitem{Heaton2008}
@@ -171,9 +171,9 @@ July 2015.
 Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
 
 \bibitem{bigdataQualquerUm}
-\abntrefinfo{Jagadish J.~Gehrke e Shahabi}{JAGADISH J.~GEHRKE; SHAHABI}{2014}
-{JAGADISH J.~GEHRKE, A. L. Y. P. J. M. P. R.~R. H.~V.; SHAHABI, C. Exploring
-  the inherent technical challenges in realizing the potential of big data.
+\abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
+{JAGADISH H.~V., G. J.~L.~A. P. Y. P. J. M. R.~R.; SHAHABI, C. Exploring the
+  inherent technical challenges in realizing the potential of big data.
 \emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
 \bibitem{DadosGoverno}

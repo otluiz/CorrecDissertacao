@@ -421,7 +421,7 @@ year = {1997}
 }
 
 @article{FayyadUeoutros,
-author = {{P., Fayyad, U., Piatetsky-Shapiro, G {\&} Smyth}},
+author = {{Fayyad, P., Piatetsky-Shapir, U.,  {\&} Smyth, G.}},
 doi = {10.1609/aimag.v17i3.1230},
 journal = {Advances in Knowledge Discovery and Data Mining},
 number = {3},
@@ -451,8 +451,20 @@ number = {5531},
 title = {{Aplica{\c{c}}{\~{a}}o de T{\'{e}}cnicas de Minera{\c{c}}{\~{a}}o de Dados em Problemas de Classifica{\c{c}}{\~{a}}o de Padr{\~{o}}es}}
 }
 
-@article{Discriminativo,
+@article{Tatibana,
 author = {C. Y. Tatibana and D. Y. Kaetsy},
 url= {http://www.din.uem.br/ia/neurais/#neural},
 year = {Acessado em: 01.out.2016}
 }
+
+
+@book{NorvigRussel2004,
+author = {RUSSEL, Stuart and NOVING, Peter},
+isbn = {8535211772},
+title = {{Integência Artificial}},
+publisher={Elsevier, Rio de Janeiro},
+volume ={2 edition},
+pages = {716--721},
+year = {2004}
+}
+. Inteligência artificial, São Paulo, Campus, 2004. 

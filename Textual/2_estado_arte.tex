@@ -106,13 +106,13 @@ perspectiva do negócio'' (CHAPMAN; KERBER; WIRTH et al, 2000, p.{10}) é uma fa
 O analista de dados e o analista do negócio traçam os objetivos da mineração sob a perspectiva do cliente. Questionamentos incorretos 
 ou negligência nesta fase podem acarretar esforços excessivos no processo como um todo a experiência de um profissional da área 
 é condição ``sine qua non'' nessa fase. Portanto avaliar o negócio, avaliar a situação sob o ponto de vista dos riscos de não conclusão 
-do processo, determinar os objetivos e tração um plano para execução. Essas etapas são delineadas na figura a seguir.
+do processo, determinar os objetivos e traçar um plano para execução. Essas etapas são delineadas nas figuras que se seguem.
 
 \begin{figure}[!ht]
 \centering
 \caption{Entendimento do negócio}
 \vspace{1mm}
-\includegraphics[width=90mm, height=70mm]{Figuras/Cronograma/Entendimento.png}\\
+\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Entendimento.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -120,7 +120,7 @@ do processo, determinar os objetivos e tração um plano para execução. Essas 
 
 \vspace{0.5cm}
 
-Em seguida, o analista de dados passa à fase dois, \textbf{Entendimento dos dados}. Nessa fase o analista ``olha'' para os dados com a acurácia de um especialista, 
+Em seguida, o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Nessa fase o analista ``olha'' para os dados com a acurácia de um especialista, 
 procurando identificar qualidade nos dados. Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
 um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados. 
 
@@ -128,7 +128,7 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 \centering
 \caption{Entendimento dos dados}
 \vspace{1mm}
-\includegraphics[width=90mm, height=70mm]{Figuras/Cronograma/EntendDados.png}\\
+\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/EntendDados.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -143,7 +143,7 @@ Preparar os dados significa criar e selecionar atributos, criar tabelas ou plani
 \centering
 \caption{Preparação dos dados}
 \vspace{1mm}
-\includegraphics[width=90mm, height=70mm]{Figuras/Cronograma/PreparaDados.png}\\
+\includegraphics[width=120mm, height=90mm]{Figuras/Cronograma/PreparaDados.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -157,7 +157,7 @@ Um modelo de regressão logística para problemas binários, redes neurais para 
 \centering
 \caption{Modelagem IA}
 \vspace{1mm}
-\includegraphics[width=90mm, height=70mm]{Figuras/Cronograma/Model_IA.png}\\
+\includegraphics[width=120mm, height=79mm]{Figuras/Cronograma/Model_IA.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -172,11 +172,11 @@ do modelo, os passos executados até então sejam avaliados e revistos.
 \centering
 \caption{Avaliação do modelo}
 \vspace{1mm}
-\includegraphics[width=90mm, height=70mm]{Figuras/Cronograma/Avaliacao.png}\\
+\includegraphics[width=120mm, height=65mm]{Figuras/Cronograma/Avaliacao.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
-\pagebreak
+%\pagebreak
 
 A sexta e última fase, caracteriza-se pela conclusão do modelo. No entanto a criação do modelo não é o fim do processo.
 O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
@@ -186,7 +186,7 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 \centering
 \caption{Implantação do modelo}
 \vspace{1mm}
-\includegraphics[width=90mm, height=70mm]{Figuras/Cronograma/Inplantacao.png}\\
+\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Inplantacao.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -216,7 +216,7 @@ Nesse sentido, as técnicas de mineração de dados trabalham com dados estrutur
 Existem várias maneiras de se contornar os dados ausentes, como o preenchimento dos dados através de técnicas de inteligência artificial, da média dos valores; quando dados numéricos 
 ou com a moda; quando os dados forem categóricos. Para cada tipo de dados existem técnicas apropriadas para serem aplicadas sobre eles, algumas mais sensíveis às problemáticas elencadas anteriormente
 e outras mais robustas \cite{DataMining2}, que por sua vez estão associadas a classes de problemas que a mineração trata, a tabela 2.1 delineou o domínio.
-Isso será tratado na seção Aprendizagem de Máquina ou ``Machine Learning''.
+Isso será tratado na seção Aprendizagem de Máquina (Machine Learning).
 O caminho da extração dos dados até sua mineração e extração de conhecimento é longo.
 Na figura a seguir temos a ilustração desse caminho:
 
@@ -267,7 +267,7 @@ em uma das duas categorias: tarefas descritivas ou tarefas preditivas. As tarefa
 dos dados no conjunto de dados, o ``data set''. As tarefas de mineração preditivas induzem regras nos dados correntes para produzirem 
 predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas.
 
-\subsection{Classificação e Regressão para análise preditivas}
+\section{Classificação e Regressão para análise preditivas}
 
 Classificação é um processo para encontrar um modelo que descreve e distingue classes de dados. 
 Esse modelo tem como base de análise um conjunto de treinamento (i.e. objetos de dados para os quais 
@@ -316,7 +316,7 @@ Outro problema que pode ser encontrado em algoritmos de aprendizagem é o ``over
 
 \pagebreak
 
-\subsection{Árvore de Decisão}
+\section{Árvore de Decisão}
 
 Han e Kamber \cite{DataMining} definem indução por árvore de decisão como a aprendizagem de árvore de decisão a partir de classes rotuladas nas tuplas de treinamento. 
 A estrutura da árvore de decisão é semelhante a um fluxograma, onde cada nó interno (não-folha) indica um teste de atributo, cada ramo representa o resultado de um teste e 
@@ -330,7 +330,7 @@ As árvores de decisão podem ser classificadas em dois tipos: árvores de regre
 classificação (classification trees), usadas para análise de variáveis categóricas.
 
 
-\subsubsection{Tipos de Árvores de decisão}
+\subsection{Tipos de Árvores de decisão}
 O algorítimo \textit{C4.5} é considerado um exemplo clássico de método de indução de árvores de decisão. O \textit{C4.5} \cite{Learning2007} foi inspirado no algoritmo 
 \textit{ID3} \cite{Learning1979}, que produz árvores de decisão a partir de uma abordagem recursiva de particionamento de um conjunto de dados, utilizando conceitos e medidas 
 da Teoria da Informação \cite{TeoriaInf}.
@@ -339,15 +339,15 @@ As árvores de decisão têm uma característica peculiar, a saída do modelo de
 Essa qualidade é utilizada para interpretar os resultados.
 
 
-\subsection{Regressão}
+\section{Regressão}
 
-\subsubsection{Tipos de regressão aplicadas a mineração de dados}
+\subsection{Tipos de regressão aplicadas a mineração de dados}
 
 ((( incluir e explicar ao menos 3 tipos )))
 
-\subsubsection{Regressão Linear}
+\subsection{Regressão Linear}
 
-\subsubsection{Regressão Logística}
+\subsection{Regressão Logística}
 Regressão logística (linear, logística, ou outras) é uma técnica para analisar o relacionamento entre variáveis. No entanto, a regressão linear é utilizada para problemas de natureza
 contínua, sendo que a regressão logística é semelhante, contudo, a variável dependente não é contínua, é discreta ou categórica \cite{DecisaoCredito}.
 
@@ -372,9 +372,9 @@ A regressão logística é comumente aplicada para problemas de classificação 
 
 \pagebreak
 
-\subsection{Redes Neurais}
+\section{Redes Neurais}
 
-\subsubsection{Introdução}
+\subsection{Introdução}
 
 O cérebro humano possui cerca de 10 bilhões de neurônios, que são responsáveis pelo funcionamento do organismo. 
 Esses neurônios se conectam entre si, através de sinapses, formando uma Rede Neural capaz de armazenar e processar grande quantidade de informações.
@@ -382,9 +382,9 @@ Esses neurônios se conectam entre si, através de sinapses, formando uma Rede N
 De forma semelhante ao funcionamento das Redes Neurais naturais, foram desenvolvidas as Redes Neurais Artificiais, que recebem esse nome por se caracterizarem como um 
 sistema cujo funcionamento é semelhante à arquitetura das redes neurais humanas.
 
-Nesse contexto, em que se pretende criar modelos computacionais com funcionamento semelhante ao modelo de neurológico humano, surge a chamada neurocomputação. 
-No início da década de 40, precisamente em 1943, McCulloch e Pitts \cite{Heaton2008} propuseram o modelo simplificado de como funcionava o cérebro humano e 
-sugeriram a construção de uma máquina que fosse inspirada nesse funcionamento.
+Nesse contexto, em que se pretende criar modelos computacionais com funcionamento semelhante ao modelo neurológico humano, surge a chamada neurocomputação. 
+No início da década de 40, precisamente em 1943, McCulloch e Pitts \cite{Heaton2008} propuseram um modelo simplificado de funcionamento do cérebro humano e, 
+a partir dai sugeriram a construção de uma máquina que fosse inspirada nesse funcionamento.
 
 A partir da proposição de McCulloch e Pitts, vários trabalhos começaram a ser desenvolvidos, tomando o funcionamento do cérebro humano como modelo. 
 Em 1949 Hebb explicitou matematicamente as sinapses dos neurônios humanos. Dois anos depois, em 1951, o primeiro neurocomputador, 
@@ -407,7 +407,7 @@ que pode ser representado pela figura abaixo:
 
 \begin{figure}[!ht]
 \centering
-\caption{Rede ADALINE (ADAptative LInear Network) e o MADALINE (Many ADALINE) Perceptron}
+\caption{Rede ADALINE (ADAptative LINear Element) e o MADALINE (Many ADALINE) Perceptron}
 \vspace{1mm}
 \includegraphics[width=90mm, height=40mm]{Figuras/Neural/Adaline.png}\\
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
@@ -424,7 +424,7 @@ primeira conferência de redes neurais nos tempos modernos: a IEEE International
 a International Conference on Neural Networks Society (INNS). 
 Em 1989 foi fundado o INNS Journal, e em 1990 o Neural Computation e IEEE Transations on Neural Networks.
 
-\subsubsection{Definições e funcionamento de uma Rede Neural Artificial}
+\subsection{Definições e funcionamento de uma Rede Neural Artificial}
 
 São várias as definições que podem ser encontradas sobre o que vem a ser uma Rede Neural Artificial (RNA) \cite{Castanheira}, em função da complexidade de tal Rede. 
 Do ponto de vista computacional, uma RNA configura-se como uma técnica para solucionar problemas de Inteligência Artificial (IA) que estabelece um modelo matemático 
@@ -437,6 +437,31 @@ do meio exterior, os neurônios internos ou hidden (neurônios ocultos) e os neu
 Cabe destacar que, de acordo com esse modelo, os neurônios internos têm considerável importância nesse processo, uma vez que são responsáveis pela resolução de problemas linearmente inseparáveis. 
 O comportamento inteligente de uma Rede Neural Artificial vem das interações entre as unidades de processamento da rede.
 
+Os neurônios, nessas redes são conhecidos como Perceptrons. O arranjo em camadas desses perceptrons é chamado \textit{Multilayer Perceptron}.
+O \textit{multilayer perceptron} é responsável pela resolução de problemas mais complexos que não seriam passíveis de resolução pelo modelo 
+de neurônio básico. Para aprender os perceptrons tem que estar dispostos em camadas, um único perceptron pode realizar algumas operações do 
+tipo XOR, contudo seria incapaz de aprendê-la.
+
+A figura a seguir apresenta o arranjo dos perceptrons em camadas, conforme discutido anteriormente.
+\pagebreak
+
+\begin{figure}[!ht]
+\centering
+\caption{Um arranjo de Perceptrons em camadas}
+\vspace{1mm}
+\includegraphics[width=90mm, height=50mm]{Figuras/Neural/camdasIntermediarias.png}\\
+\tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
+\end{figure}
+
+São três as camadas usualmente identificadas em uma rede de perceptrons:
+\begin{itemize}
+ \item Camada de entrada: nessa camada apresenta-se os padrões à rede;
+ \item Camadas Intermediárias (ocultas): aqui é realizada a maior parte do processamento por conexões ponderadas. São consideradas como as camadas 
+ extratoras de características;
+ \item Camada de saída: responsável pela conclusão e apresentação do resultado.
+\end{itemize}
+
+O comportamento inteligente de uma Rede Neural Artificial vem das múltiplas interações existentes entre as unidades de processamento dessa rede. 
 As unidades de processamento são conectadas por canais de comunicação, associados a determinado peso, como mostra a figura a seguir, proposta por McCulloch e Pitts (1943)
 
 \begin{figure}[!ht]
@@ -449,9 +474,29 @@ As unidades de processamento são conectadas por canais de comunicação, associ
 
 Esses canais são os  \textit{inputs}, $ I_{1}, I_{2}, I_{3},...,I_{n}$, e cada um tem um peso associado, que serão calibrados de acordo 
 com a aproximação do resultado esperado pela rede neural, produzido na saída (fase de ``forward''). 
-Essa aproximação, conhecida como erro. Esse erro será propagado de volta à entrada, retroalimentando a rede neural (fase de ``backward''), 
-caso o modelo de rede de aproximação seja o ``backpropagation''. Dessa forma a rede neural se aproxima cada vez mais do resultado que foi previa; fase de treinamento.
-Uma vez que o erro torna-se infinitamente pequeno dizemos que a rede neural ``não aprende mais'' há uma degradação do sistema, o ``overfitting''.
+Essa aproximação é conhecida como erro ou erro padrão. Esse erro será propagado de volta à entrada, retroalimentando a rede neural (fase de ``backward''), 
+caso o modelo de rede de aproximação seja o ``backpropagation''. Dessa forma a rede neural se aproxima cada vez mais do resultado que foi previamente estimado; fase de treinamento.
+Uma vez que o erro tornar-se infinitamente pequeno dizemos que a rede neural ``não aprende mais'' há uma degradação do sistema, o ``overfitting''.
+
+
+Da figura acima podemos extrair duas coisas:
+\begin{itemize}
+ \item A função calculada \textit{y} é uma função \textbf{discriminativa} (classificação) com $y=0$ e $y=1$.
+    \begin{itemize}
+     \item $net = x_1w_1 + x_2w_2 + ... + x_iw_i + x_dw_d = \sum x_i.w_i = W.X = W^T X$
+     \item $onde\ w = \{+1, -1\}$
+     \item $saida = y = f(net)$
+     \item $f(net)= \left \{ \begin{matrix} 1, & se\ net \ge \mu \\ 0, & se\ net < \mu \end{matrix} \right. $
+    \end{itemize}
+\vspace{1mm}
+ \item Fronteira de Decisão:
+    \begin{itemize}
+     \item [--] Determina o ponto que separa os dados que vêm de -$\infty$ e +$\infty$
+     \item [--] Argumento de $f(net)$ é igual a zero: $\sum w_ix_i - \mu \Rightarrow w.x = 0$
+    \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
 
 O modelo McCulloch e Pitts (1943) leva em conta cinco hipóteses fundamentais, a saber:
 
@@ -466,9 +511,9 @@ O modelo McCulloch e Pitts (1943) leva em conta cinco hipóteses fundamentais, a
 Uma rede neural passa por um processo de treinamento, estabelecido a partir de casos reais, que a faz adquirir, a partir de então, a sistemática que é necessária para executar o processo desejado satisfatoriamente. Isso faz com que as RNA tenham uma característica diferente da computação programada, que exige um conjunto de regras pré-fixadas e algoritmos. 
 A Rede Neural, por sua vez, extrai regras básicas a partir de dados reais, ou seja, aprendem através de exemplos.
 
-\subsubsection{Tipos de Redes Neurais}
+\subsection{Aplicações e Tipos de Redes Neurais}
 
-\subsection{Medida de desempenho e qualidade aplicadas à mineração}
+\section{Medida de desempenho e qualidade aplicadas à mineração}
 
 Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
 Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
@@ -558,8 +603,6 @@ As informações são enviadas aos usuários, conhecidas como twittes, em tempo 
 
 
 
-\pagebreak
-
 A seguir pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal de Santa Catarina:
 
 \begin{figure}[ht]
@@ -591,7 +634,7 @@ Tais dados não processados são conhecidos como ``dados frios''. O processo de 
 
 
 \pagebreak
-\subsection{ Data Mining - Text Data Mining}\label{arte:palavraChave:DataMiningBigData}
+\subsection{Data Mining - Text Data Mining}\label{arte:palavraChave:DataMiningBigData}
 
 Minerar dados em texto nas redes sociais não é uma tarefa atômica, devendo ser divida em várias etapas, com processos específicos em cada uma delas, como descrito anteriormente. 
 Extrair conhecimento dos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. 
