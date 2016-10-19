@@ -27,20 +27,23 @@
 \contentsline {section}{\numberline {2.10}Redes sociais}{32}
 \contentsline {subsection}{\numberline {2.10.1}Data Mining - Text Data Mining}{34}
 \contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{35}
-\contentsline {section}{\numberline {3.1}Plano geral da metodologia}{36}
-\contentsline {section}{\numberline {3.2}Modelo preditivo}{38}
-\contentsline {subsection}{\numberline {3.2.1}Entendimento dos dados}{38}
-\contentsline {section}{\numberline {3.3}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{40}
-\contentsline {section}{\numberline {3.4}Extra\IeC {\c c}\IeC {\~a}o do conhecimento}{40}
-\contentsline {section}{\numberline {3.5}Acoplamento com a estrutura din\IeC {\^a}mica}{41}
-\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{42}
-\contentsline {section}{\numberline {4.1} As vari\IeC {\'a}veis do modelo preditivo}{42}
-\contentsline {section}{\numberline {4.2}Casos de teste}{43}
-\contentsline {subsection}{\numberline {4.2.1}Base da PRF(acidentes) X Base da PRF(interdi\IeC {\c c}\IeC {\~o}es)}{43}
-\contentsline {subsection}{\numberline {4.2.2}Base da PRF(interdi\IeC {\c c}\IeC {\~o}es) X Base do IBGE(DataSus)}{43}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{44}
-\contentsline {section}{\numberline {5.1}Discuss\IeC {\~a}o}{44}
-\contentsline {section}{\numberline {5.2}Trabalhos futuros}{44}
-\contentsline {chapter}{\numberline {A}Preprocessamento}{45}
-\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{45}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{48}
+\contentsline {section}{\numberline {3.1}Modelo Proposto}{36}
+\contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{36}
+\contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{37}
+\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{39}
+\contentsline {section}{\numberline {4.1}O modelo proposto}{39}
+\contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{41}
+\contentsline {subsection}{\numberline {4.2.1}Entendo e validando os dados de entrada -- input}{41}
+\contentsline {subsection}{\numberline {4.2.2}Base da PRF -- acidentes}{41}
+\contentsline {subsection}{\numberline {4.2.3}Base da PRF -- interdi\IeC {\c c}\IeC {\~o}es}{43}
+\contentsline {subsection}{\numberline {4.2.4}Base do IBGE}{43}
+\contentsline {subsection}{\numberline {4.2.5}DataSUS}{43}
+\contentsline {section}{\numberline {4.3} As vari\IeC {\'a}veis do modelo preditivo}{43}
+\contentsline {section}{\numberline {4.4}Acoplamento com a estrutura din\IeC {\^a}mica}{44}
+\contentsline {section}{\numberline {4.5}Casos de teste do modelo preditivo}{45}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{46}
+\contentsline {section}{\numberline {5.1}Discuss\IeC {\~a}o}{46}
+\contentsline {section}{\numberline {5.2}Trabalhos futuros}{46}
+\contentsline {chapter}{\numberline {A}Preprocessamento}{47}
+\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{47}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{50}

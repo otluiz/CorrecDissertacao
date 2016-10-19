@@ -23,7 +23,7 @@ Essas informações, por serem a posteriori às predições, podem aumentar o n�
 mais restrito servir de comprovação do modelo proposto.
 As informações de redes sociais, armazenadas em um banco de dados, poderão servir futuramente para novas predições.
 
-\section{Plano geral da metodologia}
+\section{Modelo Proposto}
 
 A metodologia utilizada nessa pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes.
 A primeira etapa da nossa metodologia completam o ciclo do processo CRISP-DM, onde está o modelo preditivo e 
@@ -56,14 +56,14 @@ A API do Twitter tem a finalidade de integrar o modelo dinâmica dos mapas vetor
 Esta ``interface'' é responsável por fornecer ``input'' à terceira etapa, servindo de ``busca local'' das informações mais recentes das 
 redes sociais, relativas à trechos das rodovias; os ``feeds'' do Twitter (ou twetts) fornecem dados que serão minerados e interpretados à posteriori.
 
-A figura a seguir ilustra essa metodologia descrita graficamente, onde as três etapas identificadas e são representadas por retângulos.
+A figura a seguir ilustra essa metodologia descrita graficamente, onde as três etapas.
 
 \pagebreak
 
 \begin{figure}[ht]
 \centering
-\caption{Etapas da metodologia geral}
-\includegraphics[width=170mm, height=85mm]{Figuras/Cronograma/metodologia.png}\\
+\caption{Etapas da modelo proposto}
+\includegraphics[width=170mm, height=85mm]{Figuras/Cronograma/metodologiaGeral.png}\\
 \tiny Fonte: autor
 \end{figure}
 
@@ -131,26 +131,37 @@ Na abcissa dos próximos gráficos estão os atributos mais relevantes das causa
 \end{center}
 \end{figure}
 
-A grande maioria dos acidentes ocorre com pista seca, sem restrição de visibilidade. A cor vermelha é referente a BR 101, a cor azul
-à BR 232. Estas são as mais significativas no número total de acidentes.
+A grande maioria dos acidentes ocorre com pista seca, sem restrição de visibilidade. 
+A cor vermelha é referente a BR 101, a cor azul à BR 232, seguido das outras menos significativas.
+
+\pagebreak
 
 \begin{figure}[ht]
 \begin{center}
 \caption{Tipo de Veículo X Num. Acidentes}
-\includegraphics[width=100mm, height=60mm]{Figuras/Preprocess/TipoVeiculoXNumAciden.png}\\
+\includegraphics[width=150mm, height=80mm]{Figuras/Preprocess/TipoVeiculoXNumAciden.png}\\
 \tiny Fonte: autor
 \end{center}
 \end{figure}
 
-nnononon
+O maior número de acidentes ocorre com Automóvel de passeio, provavelmente condutores comuns, não profissionalizados.
+O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das motonetas. 
+Esses dados são referentes ao período entre 2007 à 2015.
 
 \begin{figure}[ht]
 \begin{center}
 \caption{Traçado da via X Num. Acidentes}
-\includegraphics[width=100mm, height=60mm]{Figuras/Preprocess/TracadoViaNumAcident.png}\\
+\includegraphics[width=120mm, height=70mm]{Figuras/Preprocess/TracadoViaNumAcident.png}\\
 \tiny Fonte: autor
 \end{center}
 \end{figure}
+
+O tipo de traçado da via não influência nas estatísticos de acidenes, pois a grande maioria dos acidentes ocorre em linha reta.
+Esse comportamento do condutor nos faz crer o condutor é o responsável pelo maior número de ocorrências nas BRs.
+Isso direciona nossa pesquisa para analisar e antever o comportamento do condutor, as condições da rodovia e ambientais nessa base
+de dados não são fatores relevantes.
+
+\pagebreak
 
 \section{Reflexão sobre as tecnologias utilizadas no modelo preditivo}\label{result}
 
