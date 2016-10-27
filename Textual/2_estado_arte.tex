@@ -97,7 +97,7 @@ A figura a seguir ilustra as fases do ciclo:
 \centering
 \caption{O padrão CRISP-DM \cite{Crisp2000}}
 \vspace{1mm}
-\includegraphics[width=70mm, height=70mm]{Figuras/BigData/CrispDM.png}\\
+\includegraphics[width=100mm, height=75mm]{Figuras/BigData/CrispDM.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -302,7 +302,7 @@ A figura a seguir representa uma rede neural com as mesmas características da �
 \begin{figure}[!ht]
 \centering
 \caption{Rede Neural}
-\includegraphics[width=85mm, height=45mm]{Figuras/BigData/redeneural.png}\\
+\includegraphics[width=85mm, height=38mm]{Figuras/BigData/redeneural.png}\\
 \tiny Fonte: Han, J. and Kamber, M. 
 \end{figure}  
 
@@ -407,9 +407,9 @@ que pode ser representado pela figura abaixo:
 
 \begin{figure}[!ht]
 \centering
-\caption{Rede ADALINE (ADAptative LINear Element) e o MADALINE (Many ADALINE) Perceptron}
+\caption{Rede ADALINE (ADAptative LInear NEuron) e o MADALINE (Many ADALINE) Perceptron}
 \vspace{1mm}
-\includegraphics[width=90mm, height=40mm]{Figuras/Neural/Adaline.png}\\
+\includegraphics[width=85mm, height=40mm]{Figuras/Neural/Adaline.png}\\
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
 \end{figure}
 
@@ -510,8 +510,140 @@ O modelo McCulloch e Pitts (1943) leva em conta cinco hipóteses fundamentais, a
 
 Uma rede neural passa por um processo de treinamento, estabelecido a partir de casos reais, que a faz adquirir, a partir de então, a sistemática que é necessária para executar o processo desejado satisfatoriamente. Isso faz com que as RNA tenham uma característica diferente da computação programada, que exige um conjunto de regras pré-fixadas e algoritmos. 
 A Rede Neural, por sua vez, extrai regras básicas a partir de dados reais, ou seja, aprendem através de exemplos.
+Uma vez ``treinada'' os pesos estão calibrados para solucionar a classe de problemas para o qual foi desenhada. Essa rede neural portanto pode ser 
+considerado um aproximador de funções, uma vez dada uma série de ``inputs'' ela poderá produzir um ``output'' baseada nas funções de internas.
 
 \subsection{Aplicações e Tipos de Redes Neurais}
+
+São várias as aplicações das redes neurais. Elas podem ser utilizadas para reconhecimento e classificação de padrões;
+processamento de sinais e de imagens; identificação e controle de sistemas; predição, dentre outras funções. 
+No caso específico desse estudo, nosso interesse está centrado, fundamentalmente, na predição.
+
+Para o desenvolvimento de uma rede neural algumas importantes fases precisam ser consideradas. 
+Em primeiro lugar, é necessário um estudo detalhado do problema, para que possam ser feitas as escolhas adequadas à sua resolução. 
+Em seguida, passa-se à fase de desenvolvimento do modelo neural, a partir de neurônios biológicos, e das estruturas e conexões sinápticas. 
+A etapa seguinte implica na escolha de um algoritmo de aprendizado de regras, com ajuste de pesos ou forças de conexões intermodais, e de um conjunto de treinamento. 
+Passa-se, então, à fase de treinamento, propriamente dita, aos testes e, por fim, utilização da rede neural.
+
+Uma vez que existem distintas possibilidades de aplicação e desenvolvimento de uma RNA, existem, igualmente, diversas maneiras de 
+classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
+
+\begin{itemize}
+ \item [(a)] Quanto à sua arquitetura: estática, dinâmica ou fuzzy; de única camada/camadas simples ou de múltiplas camadas.
+	   Exemplos de RNA de uma (i) ou múltiplas (ii) camadas:
+	    \begin{enumerate}
+	      \item [(i)] São exemplos de redes Percepton e Adaline
+	      \begin{figure}[!ht]
+		\centering
+		\caption{Perceptron e Adaline}
+		\vspace{1mm}
+		  \includegraphics[width=85mm, height=50mm]{Figuras/Neural/pecepAdalin.png}\\
+		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
+	      \end{figure}
+	 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
+	      \item [(ii)] São exemplo dessas redes as de Perceptron multicamadas (PMC/MLP) e redes de base radial (RBF)
+	      \begin{figure}[!ht]
+		\centering
+		\caption{Perceptron Multicamadas}
+		\vspace{1mm}
+		  \includegraphics[width=110mm, height=70mm]{Figuras/Neural/MultiCamadas.png}\\
+		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
+	      \end{figure}
+
+	      Alguns autores ainda fazem referência às redes recorrentes ou realimentadas (iii), 
+	      como a rede de Hopfield e a Perceptron multicamadas \cite{Kriesel2007NeuralNetworks}. 
+	      Tais redes, segundo esses autores, são ideais para processamento dinâmico, como previsão de 
+	      séries temporais, controle de processos, etc.
+	      Referem também a existência das redes com estrutura reticulada (iv), como a rede de Kohone.
+	%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	      \item [(iii)] Exemplo de rede recorrente ou realimentada: ``backpropagation''
+	      \begin{figure}[!ht]
+		\centering
+		\caption{Perceptron com Realimentação}
+		\vspace{1mm}
+		  \includegraphics[width=100mm, height=65mm]{Figuras/Neural/Recorrentes.png}\\
+		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
+	      \end{figure}  
+	 
+	 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
+	      \item [(iv)] Exemplo de redes de estrutura reticulada
+	      \begin{figure}[!ht]
+		\centering
+		\caption{Rede Kohone}
+		\vspace{1mm}
+		  \includegraphics[width=100mm, height=65mm]{Figuras/Neural/Kohone.png}\\
+		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
+	      \end{figure}
+	
+	\end{enumerate}
+
+\pagebreak
+	
+  \item [(b)] Quanto às conexões, os tipos de RNA são: no sentido de ida; no sentido de ida e volta; 
+	      lateralmente conectadas; topologicamente ordenadas; híbridas.
+  
+  \item [(c)] Quanto à aplicação: reconhecimento de padrões e classificação; processamento de imagem e visão; 
+	      identificação de sistema e controle; processamento de sinais.
+\end{itemize}
+
+
+\subsection{Aprendizado em Redes Neurais}
+
+O aprendizado caracteriza-se pela capacidade que a RNA tem de resolver uma determinada classe de problemas para os quais foi destinado 
+seu desenvolvimento. 
+Nesse processo, é proposto um algoritmo de aprendizado, que se caracteriza como um conjunto de regras bem delineadas que permitirão a 
+resolução do problema. 
+
+O aprendizado das RNA resulta da fase de treinamento, através de um processo iterativo de ajuste dos pesos. 
+O conhecimento é armazenado nas sinapses, ou seja, nos pesos que são atribuídos às conexões que existem entre os neurônios da rede.
+
+\begin{itemize}
+ \item Por independência de quem aprende: o aprendizado pode ser por memorização, por contato, por exemplos, por analogias, por 
+	exploração, por descoberta, sobretudo por uma mistura entre os últimos três \cite{Barreto2002}.
+ \item Por retroação do mundo: quando há uma realimentação específica vinda do mundo exterior, podendo ser supervisionado ou 
+	não-supervisionado. 
+\end{itemize}
+
+O treinamento supervisionado tem sido o mais comumente utilizado em redes neurais \cite{Barreto2002}. 
+Em linhas gerais, como o nome indica, no treinamento supervisionado há um agente externo que indica explicitamente à rede um 
+comportamento bom ou ruim, com base no padrão de entrada. Os valores iniciais dos pesos são aleatórios, e o ajuste se dá a partir do 
+algoritmo de aprendizado, na próxima interação ou ciclo seguinte. São apresentados sinais de entrada e de saída à rede, e os ajustes 
+vão sendo feitos paulatinamente. O treinamento pode levar um período considerável de tempo, em função dos ajustes que vão sendo 
+realizados. O treinamento é concluído quando a rede neural atinge um determinado patamar de desempenho, tendo alcançado a precisão 
+estatística esperada. 
+Não havendo mais necessidade de treinamento, “congela-se” os pesos, para sua aplicação. 
+
+O aprendizado não supervisionado, por sua vez, não depende de um agente externo, pois funciona de forma autorregulatória, apresentando 
+mecanismos que analisam as regularidades ou tendências dos padrões de entrada, possuindo a capacidade de se adaptar automaticamente às 
+necessidades da rede. 
+
+O aprendizado de uma rede se dá em um determinado tempo e a partir de determinado padrão. 
+A velocidade de aprendizado depende de variáveis que precisam ser consideradas como, por exemplo, a complexidade da rede proposta, 
+a quantidade de camadas que ela possui, a arquitetura adotada, o algoritmo que foi utilizado, a precisão esperada. 
+É preciso que se esteja atento a todos esses elementos, uma vez que dependendo de como essas variáveis forem consideradas, 
+o treinamento pode se estender por um período bastante longo e, nem sempre apresentando um resultado satisfatório.
+
+Quanto aos algoritmos de aprendizagem, são muitos os que podem ser utilizados, mas boa parte deles são variações do princípio de Hebb, 
+que é a regra mais utilizada \cite{Barreto2002}. A descrição dessa regra foi apresentada pelo seu propositor, Donald Hebb, em 1949. 
+A ideia básica dessa regra é a de que quando um neurônio recebe um entrada a partir de outro neurônio, isso significa que ambos 
+estão ativos e que os pesos entre os neurônios precisam ser excitados.
+
+Uma segunda lei utilizada é a de Hopfield. Ela se inspira no princípio de Hebb, mas acrescenta a ideia de definição da magnitude da 
+excitação ou inibição. Uma terceira regra, que é a mais comumente utilizada hoje em dia, é a regra Delta de Widrow. 
+Essa regra propõe a alteração dos pesos sinápticos, minimizando o erro quadrático da rede, reduzindo a diferença entre o valor de saída 
+desejado e o atual valor de saída da unidade de processamento. 
+Assim, o erro da saída é transformado pela derivação da função de transferência e utilizado pra regular os pesos de entrada da camada 
+prévia da rede, realizando assim um processo de retropropagação dos erros. 
+Para a utilização desse tipo de regra deve-se observar que o conjunto dos dados de entrada esteja organizado de forma aleatória. 
+
+Há ainda a lei de aprendizado de Teuvo Kohonen, que foi inspirada em sistemas biológicos, em que há uma competição entre os elementos 
+para aprender, ou atualizar e ajustar os seus pesos. A unidade de processamento mais apta será aquela que possuir o melhor sinal de 
+saída e terá a capacidade de inibir os ajustes sinápticos de seus concorrentes e excitar seus vizinhos, de maneira que apenas essa 
+unidade e seus vizinhos poderão realizar o ajuste dos pesos.
+
+\subsection{Retropropagação e o Erro médio quadrático}
+
+
 
 \section{Medida de desempenho e qualidade aplicadas à mineração}
 
@@ -647,3 +779,20 @@ O mapa mental a seguir mostra um modelo de análise de texto feito por seres hum
 \caption{Mapa mental da Mineração em textos}
 \includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
 \end{figure}
+
+\pagebreak
+
+\section{Cibernética: aspectos introdutórios}
+
+Cibernética é um termo proveniente do grego que significa timoneiro, piloto, ou ``quem está no comando do navio''.
+Atribui-se à Norbert Wiener (1894 -- 1963), matemático e professor do \textit{Massachusetts Institute of Technology} (MIT) o termo Cibernética, quando publicou o livro 
+\textit{Cybernetics, or Control and Communication in the Animal and the Machine} (Wiener, 1948).
+``A Cibernética é a ciência da comunicação e do controle nos animais e a nas máquina, salientando que o \textit{ser vivo é uma máquina entre 
+cujas funções, uma é a de montar a própria máquina}. E isto porque \textit{os organismos só atuam graças à aquisição, ao uso, à conservação 
+e à transmissão da informação}''  \cite{Maltez1991}.
+
+Wiener propôs que informação é tão importante quanto a energia e a matéria \cite{Salles2007}. Essa informação poderia ser utilizada para controlar um sistema baseado em 
+comportamento; biológico ou mecânico. Esse comportamento, quando responde à informação por meio de realimentação, é chamado de teleológico ou controlado por meio de 
+realimentação, tendo em vistas a atingir um objetivo, um propósito.
+
+

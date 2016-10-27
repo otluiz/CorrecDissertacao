@@ -138,6 +138,21 @@ n.~5531.}
 Acessado em: 01.out.2016.
 Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
 
+\bibitem{AAP}
+\abntrefinfo{ZENG Q.}{ZENG Q.}{}
+{ZENG Q., H.~H. P. X.~W. S. C. G.~M. Rule extraction from an optimized neural
+  network for traffic crash frequency modeling.}
+
+\bibitem{Kriesel2007NeuralNetworks}
+\abntrefinfo{Kriesel}{KRIESEL}{2007}
+{KRIESEL, D. \emph{A Brief Introduction to Neural Networks}. [s.n.], 2007.
+  Dispon{\'\i}vel em: \url{available at http://www.dkriesel.com}.}
+
+\bibitem{Barreto2002}
+\abntrefinfo{Barreto}{BARRETO}{2002}
+{BARRETO, J.~M. {Jorge M. Barreto}.
+2002.}
+
 \bibitem{ROC}
 \abntrefinfo{Egan}{EGAN}{1975}
 {EGAN, J.~P. Signal detection theory and roc analysis.
@@ -172,9 +187,27 @@ Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
 
 \bibitem{bigdataQualquerUm}
 \abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
-{JAGADISH H.~V., G. J.~L.~A. P. Y. P. J. M. R.~R.; SHAHABI, C. Exploring the
+{JAGADISH H.~V., G. J.~L.~A. P. Y. P.~J. M. R.~R.; SHAHABI, C. Exploring the
   inherent technical challenges in realizing the potential of big data.
 \emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+
+\bibitem{Maltez1991}
+\abntrefinfo{Maltez}{MALTEZ}{1991}
+{MALTEZ. {Iener (1894-1963)}.
+\emph{ESPE}, p.~213, 1991.}
+
+\bibitem{Salles2007}
+\abntrefinfo{Salles}{SALLES}{2007}
+{SALLES, F.~R.
+\emph{{A relev{\^{a}}ncia da cibern{\'{e}}tica}}.
+Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
+  - USP, 2007.}
+
+\bibitem{NorvigRussel2004}
+\abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
+{RUSSEL, S.; NOVING, P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio
+  de Janeiro, 2004. 716--721~p.
+ISBN 8535211772.}
 
 \bibitem{DadosGoverno}
 \abntrefinfo{nada}{NADA}{2016}

@@ -13,20 +13,25 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{23}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Rede Neural}}{24}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Percepton de Rosenblatt}}{27}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE (ADAptative LINear Element) e o MADALINE (Many ADALINE) Perceptron}}{28}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE (ADAptative LInear NEuron) e o MADALINE (Many ADALINE) Perceptron}}{28}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Um arranjo de Perceptrons em camadas}}{29}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Perceptron de McCulloch e Pitts}}{29}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{34}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Perceptron e Adaline}}{31}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Perceptron Multicamadas}}{31}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Perceptron com Realimenta\IeC {\c c}\IeC {\~a}o}}{32}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Rede Kohone}}{32}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{37}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{41}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{40}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Condi\IeC {\c c}\IeC {\~a}o Pista X Num. Acidentes -- Restri\IeC {\c c}\IeC {\~a}o visibilidade X Num. Acidentes}}{41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Condi\IeC {\c c}\IeC {\~a}o da Pista: Seca}}}{41}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Restri\IeC {\c c}\IeC {\~a}o de visibilidade: Inexistente}}}{41}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{42}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{42}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Etapas da metodologia}}{44}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{44}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Condi\IeC {\c c}\IeC {\~a}o Pista X Num. Acidentes -- Restri\IeC {\c c}\IeC {\~a}o visibilidade X Num. Acidentes}}{46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Condi\IeC {\c c}\IeC {\~a}o da Pista: Seca}}}{46}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Restri\IeC {\c c}\IeC {\~a}o de visibilidade: Inexistente}}}{46}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{47}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Etapas da metodologia}}{49}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{49}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{54}

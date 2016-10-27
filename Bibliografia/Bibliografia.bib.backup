@@ -121,7 +121,7 @@ year   = {2000}
 
 %[11]
 @article{RegrecaoLog,
-author    = { J. M, Hilbe},
+author    = {HILBE, J. M.,},
 title     = {Logistic Regression Models},
 publisher = {Chapman and Hall -- CRC Press},
 year      = {2009}
@@ -210,7 +210,7 @@ publisher={Citeseer}
 
 %[20]
 @article{bigdataQualquerUm,
-  author={ H. V. Jagadish, J. Gehrke, A. Labrinidis, Y. Papakontantinou, J. M. Patel, R. Ramakrishnan and C. Shahabi},
+  author={Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi},
   title={Exploring the inherent technical challenges in realizing the potential of Big Data},
   journal={Comunication of the ACM},
   volume={57},
@@ -421,7 +421,7 @@ year = {1997}
 }
 
 @article{FayyadUeoutros,
-author = {{Fayyad, P., Piatetsky-Shapir, U.,  {\&} Smyth, G.}},
+author = {{FAYYAD, P., PIATETSKY-SHAPIRO, U.,  {\&} SMYTH, G.}},
 doi = {10.1609/aimag.v17i3.1230},
 journal = {Advances in Knowledge Discovery and Data Mining},
 number = {3},
@@ -433,7 +433,6 @@ year = {1996}
 
 
 @book{Heaton2008,
-abstract = {Introduction to Neural Networks for Java, Second Edition, introduces$\backslash$nthe Java programmer to the world of Neural Networks and Artificial$\backslash$nIntelligence. Neural network architectures, such as the feedforward,$\backslash$nHopfield, and self-organizing map architectures are discussed. Training$\backslash$ntechniques, such as backpropagation, genetic algorithms and simulated$\backslash$nannealing are also introduced. Practical examples are given for each$\backslash$nneural network. Examples include the traveling salesman problem,$\backslash$nhandwriting recognition, financial prediction, game strategy, mathematical$\backslash$nfunctions, and Internet bots. All Java source code is available online$\backslash$nfor easy downloading.},
 author = {Heaton, Jeff},
 isbn = {1604390085},
 mendeley-groups = {Minera{\c{c}}{\~{a}}oTextos},
@@ -459,7 +458,7 @@ year = {Acessado em: 01.out.2016}
 
 
 @book{NorvigRussel2004,
-author = {RUSSEL, Stuart and NOVING, Peter},
+author = {Stuart RUSSEL and Peter NOVING},
 isbn = {8535211772},
 title = {{Integência Artificial}},
 publisher={Elsevier, Rio de Janeiro},
@@ -467,4 +466,52 @@ volume ={2 edition},
 pages = {716--721},
 year = {2004}
 }
-. Inteligência artificial, São Paulo, Campus, 2004. 
+
+
+@article{Maltez1991,
+author = {Maltez},
+file = {:home/otluiz/Mestrado/Cibern{\'{e}}tica/wiener.pdf:pdf},
+journal = {ESPE},
+mendeley-groups = {MachineLearningBigDada,Cibern{\'{e}}tica},
+pages = {213},
+title = {{Iener (1894-1963)}},
+year = {1991}
+}
+
+
+@phdthesis{Salles2007,
+author = {Salles, Fernando Ricardo},
+file = {:home/otluiz/Mestrado/Cibern{\'{e}}tica/MES{\_}2007{\_}FernandoSalles.pdf:pdf},
+keywords = {Antropologia,Antropomorfismo,Cibern{\'{e}}tica,Ci{\^{e}}ncia.,Cultura,Filosofia,Realimenta{\c{c}}{\~{a}}o,Teleologia,Wiener},
+mendeley-groups = {MachineLearningBigDada,Cibern{\'{e}}tica},
+school = {Universidade de S{\~{a}}o Paulo - USP},
+title = {{A relev{\^{a}}ncia da cibern{\'{e}}tica}},
+type = {Disserta{\c{c}}{\~{a}}o de Mestrado},
+year = {2007}
+}
+
+
+
+@article{ Eaves,
+	  author = {Eaves, D.},
+	  title = {The Three Laws of Open Government Data},
+	  year = {Acessado em: 24.out.2016},
+	  url= {http://eaves.ca/2009/09/30/three-law-of-open-government-data/}
+}
+
+
+@article{ AAP,
+	  author = {ZENG, Q., HUANG, H., PEI, X., WONG, S. C., GAO, M.},
+	  title = {Rule extraction from an optimized neural network for traffic crash frequency modeling}
+	  journal= {Elsevier, Acident Analysis and Prevention - AAP},
+	  year = {2016},
+	  url = {www.elsevier.com/locate/aap}
+}
+
+
+@Book{ Kriesel2007NeuralNetworks, 
+       author = { David Kriesel }, 
+       title =  { A Brief Introduction to Neural Networks },
+       year =   { 2007 }, 
+       url =   { available at http://www.dkriesel.com } 
+     }
