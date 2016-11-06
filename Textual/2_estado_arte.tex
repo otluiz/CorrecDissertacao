@@ -283,12 +283,19 @@ Regras de classificação se distinguem de regras de indução da seguinte forma
 As árvores de decisão são estruturas como fluxogramas, possuem nós e ramificações, 
 cada nó é um teste no valor do atributo como:
 \singlespace
-  $age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$\\
-  $age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$\\
-  $age(X,``middle-aged")$  $\to classe (X,``B")$\\
-  $age(X,``senior")$       $ \to classe (X,``B")$\\
 
-%\pagebreak
+\begin{figure}[ht] \unitlength= 1mm \thicklines
+ \centering{
+    \begin{picture}(100,6)
+      \put(0,0){\framebox(115,6)} \put(3,2){$age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$}
+      \put(0,-7){\framebox(113,6)} \put(3,-5){$age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$}
+      \put(0,-14){\framebox(85,6)} \put(3,-12){$age(X,``middle-aged")$  $\to classe (X,``B")$}
+      \put(0,-21){\framebox(70,6)} \put(3,-19){$age(X,``senior")$  $ \to classe (X,``B")$}
+      \end{picture}
+   }
+\end{figure}
+
+\vspace{18mm}
   
 A seguir, a árvore de decisão que explicita se um cliente, de acordo com sua idade terá determinada classe:
 \begin{figure}[!ht]
@@ -795,4 +802,6 @@ Wiener propôs que informação é tão importante quanto a energia e a matéria
 comportamento; biológico ou mecânico. Esse comportamento, quando responde à informação por meio de realimentação, é chamado de teleológico ou controlado por meio de 
 realimentação, tendo em vistas a atingir um objetivo, um propósito.
 
+
+\section{Mineração de Dados Guiados pelo Domínio -- \textit{Domain-Driven for Data Mining}}
 

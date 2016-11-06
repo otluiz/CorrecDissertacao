@@ -283,9 +283,17 @@ Regras de classificação se distinguem de regras de indução da seguinte forma
 As árvores de decisão são estruturas como fluxogramas, possuem nós e ramificações, 
 cada nó é um teste no valor do atributo como:
 \singlespace
-  $age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$\\
-  $age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$\\
-  $age(X,``middle-aged")$  $\to classe (X,``B")$\\
+
+\begin{figure}[ht] \unitlength= 1mm \thicklines
+ \centering{
+    \begin{picture}(100,6)
+      \put(0,0){\framebox(115,6)} \put(3,2){$age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$}
+      \put(0,-7){\framebox(111,6)} \put(3,-5){$age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$}
+      \put(0,-14){\framebox(111,6)} \put(3,-12){$age(X,``middle-aged")$  $\to classe (X,``B")$}
+      \end{picture}
+   }
+\end{figure}
+
   $age(X,``senior")$       $ \to classe (X,``B")$\\
 
 %\pagebreak
@@ -302,7 +310,7 @@ A figura a seguir representa uma rede neural com as mesmas características da �
 \begin{figure}[!ht]
 \centering
 \caption{Rede Neural}
-\includegraphics[width=85mm, height=45mm]{Figuras/BigData/redeneural.png}\\
+\includegraphics[width=85mm, height=38mm]{Figuras/BigData/redeneural.png}\\
 \tiny Fonte: Han, J. and Kamber, M. 
 \end{figure}  
 
@@ -409,7 +417,7 @@ que pode ser representado pela figura abaixo:
 \centering
 \caption{Rede ADALINE (ADAptative LInear NEuron) e o MADALINE (Many ADALINE) Perceptron}
 \vspace{1mm}
-\includegraphics[width=90mm, height=40mm]{Figuras/Neural/Adaline.png}\\
+\includegraphics[width=85mm, height=40mm]{Figuras/Neural/Adaline.png}\\
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
 \end{figure}
 
@@ -537,7 +545,7 @@ classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
 		\centering
 		\caption{Perceptron e Adaline}
 		\vspace{1mm}
-		  \includegraphics[width=90mm, height=60mm]{Figuras/Neural/pecepAdalin.png}\\
+		  \includegraphics[width=85mm, height=50mm]{Figuras/Neural/pecepAdalin.png}\\
 		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
 	      \end{figure}
 	 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
@@ -546,7 +554,7 @@ classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
 		\centering
 		\caption{Perceptron Multicamadas}
 		\vspace{1mm}
-		  \includegraphics[width=130mm, height=75mm]{Figuras/Neural/MultiCamadas.png}\\
+		  \includegraphics[width=110mm, height=70mm]{Figuras/Neural/MultiCamadas.png}\\
 		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
 	      \end{figure}
 
@@ -561,7 +569,7 @@ classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
 		\centering
 		\caption{Perceptron com Realimentação}
 		\vspace{1mm}
-		  \includegraphics[width=130mm, height=75mm]{Figuras/Neural/Recorrentes.png}\\
+		  \includegraphics[width=100mm, height=65mm]{Figuras/Neural/Recorrentes.png}\\
 		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
 	      \end{figure}  
 	 
@@ -571,7 +579,7 @@ classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
 		\centering
 		\caption{Rede Kohone}
 		\vspace{1mm}
-		  \includegraphics[width=130mm, height=75mm]{Figuras/Neural/Kohone.png}\\
+		  \includegraphics[width=100mm, height=65mm]{Figuras/Neural/Kohone.png}\\
 		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
 	      \end{figure}
 	
@@ -599,12 +607,12 @@ O conhecimento é armazenado nas sinapses, ou seja, nos pesos que são atribuíd
 
 \begin{itemize}
  \item Por independência de quem aprende: o aprendizado pode ser por memorização, por contato, por exemplos, por analogias, por 
-	exploração, por descoberta, sobretudo por uma mistura entre os últimos três (FONTE: JORGE BARRETO).
+	exploração, por descoberta, sobretudo por uma mistura entre os últimos três \cite{Barreto2002}.
  \item Por retroação do mundo: quando há uma realimentação específica vinda do mundo exterior, podendo ser supervisionado ou 
 	não-supervisionado. 
 \end{itemize}
 
-O treinamento supervisionado tem sido o mais comumente utilizado em redes neurais (JORGE). 
+O treinamento supervisionado tem sido o mais comumente utilizado em redes neurais \cite{Barreto2002}. 
 Em linhas gerais, como o nome indica, no treinamento supervisionado há um agente externo que indica explicitamente à rede um 
 comportamento bom ou ruim, com base no padrão de entrada. Os valores iniciais dos pesos são aleatórios, e o ajuste se dá a partir do 
 algoritmo de aprendizado, na próxima interação ou ciclo seguinte. São apresentados sinais de entrada e de saída à rede, e os ajustes 
@@ -624,7 +632,7 @@ a quantidade de camadas que ela possui, a arquitetura adotada, o algoritmo que f
 o treinamento pode se estender por um período bastante longo e, nem sempre apresentando um resultado satisfatório.
 
 Quanto aos algoritmos de aprendizagem, são muitos os que podem ser utilizados, mas boa parte deles são variações do princípio de Hebb, 
-que é a regra mais utilizada (JORGE). A descrição dessa regra foi apresentada pelo seu propositor, Donald Hebb, em 1949. 
+que é a regra mais utilizada \cite{Barreto2002}. A descrição dessa regra foi apresentada pelo seu propositor, Donald Hebb, em 1949. 
 A ideia básica dessa regra é a de que quando um neurônio recebe um entrada a partir de outro neurônio, isso significa que ambos 
 estão ativos e que os pesos entre os neurônios precisam ser excitados.
 
@@ -780,6 +788,7 @@ O mapa mental a seguir mostra um modelo de análise de texto feito por seres hum
 \includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
 \end{figure}
 
+\pagebreak
 
 \section{Cibernética: aspectos introdutórios}
 
@@ -794,4 +803,6 @@ Wiener propôs que informação é tão importante quanto a energia e a matéria
 comportamento; biológico ou mecânico. Esse comportamento, quando responde à informação por meio de realimentação, é chamado de teleológico ou controlado por meio de 
 realimentação, tendo em vistas a atingir um objetivo, um propósito.
 
+
+\section{Mineração de Dados Guiados pelo Domínio -- \textit{Domain-Driven for Data Mining}}
 

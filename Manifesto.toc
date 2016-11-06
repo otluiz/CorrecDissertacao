@@ -29,6 +29,7 @@
 \contentsline {section}{\numberline {2.10}Redes sociais}{35}
 \contentsline {subsection}{\numberline {2.10.1}Data Mining - Text Data Mining}{37}
 \contentsline {section}{\numberline {2.11}Cibern\IeC {\'e}tica: aspectos introdut\IeC {\'o}rios}{38}
+\contentsline {section}{\numberline {2.12}Minera\IeC {\c c}\IeC {\~a}o de Dados Guiados pelo Dom\IeC {\'\i }nio -- \textit {Domain-Driven for Data Mining}}{38}
 \contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{39}
 \contentsline {section}{\numberline {3.1}Modelo Proposto}{40}
 \contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{41}
