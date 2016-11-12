@@ -13,19 +13,20 @@
 \contentsline {section}{\numberline {2.3}Minera\IeC {\c c}\IeC {\~a}o de dados}{21}
 \contentsline {section}{\numberline {2.4}Aprendizagem de M\IeC {\'a}quina}{23}
 \contentsline {section}{\numberline {2.5}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{23}
-\contentsline {section}{\numberline {2.6}\IeC {\'A}rvore de Decis\IeC {\~a}o}{25}
-\contentsline {subsection}{\numberline {2.6.1}Tipos de \IeC {\'A}rvores de decis\IeC {\~a}o}{25}
+\contentsline {section}{\numberline {2.6}\IeC {\'A}rvore de Decis\IeC {\~a}o}{24}
+\contentsline {subsection}{\numberline {2.6.1}Tipos de \IeC {\'A}rvores de decis\IeC {\~a}o}{24}
 \contentsline {section}{\numberline {2.7}Regress\IeC {\~a}o}{25}
 \contentsline {subsection}{\numberline {2.7.1}Tipos de regress\IeC {\~a}o aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}{25}
 \contentsline {subsection}{\numberline {2.7.2}Regress\IeC {\~a}o Linear}{25}
 \contentsline {subsection}{\numberline {2.7.3}Regress\IeC {\~a}o Log\IeC {\'\i }stica}{25}
-\contentsline {section}{\numberline {2.8}Redes Neurais}{27}
-\contentsline {subsection}{\numberline {2.8.1}Introdu\IeC {\c c}\IeC {\~a}o}{27}
-\contentsline {subsection}{\numberline {2.8.2}Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{28}
-\contentsline {subsection}{\numberline {2.8.3}Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{30}
-\contentsline {subsection}{\numberline {2.8.4}Aprendizado em Redes Neurais}{32}
-\contentsline {subsection}{\numberline {2.8.5}Retropropaga\IeC {\c c}\IeC {\~a}o e o Erro m\IeC {\'e}dio quadr\IeC {\'a}tico}{34}
-\contentsline {section}{\numberline {2.9}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{34}
+\contentsline {section}{\numberline {2.8}Redes Neurais}{26}
+\contentsline {subsection}{\numberline {2.8.1}Introdu\IeC {\c c}\IeC {\~a}o}{26}
+\contentsline {subsection}{\numberline {2.8.2}Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{27}
+\contentsline {subsection}{\numberline {2.8.3}Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{29}
+\contentsline {subsection}{\numberline {2.8.4}Aprendizado em Redes Neurais}{31}
+\contentsline {subsection}{\numberline {2.8.5}Retropropaga\IeC {\c c}\IeC {\~a}o e o Erro m\IeC {\'e}dio quadr\IeC {\'a}tico}{33}
+\contentsline {section}{\numberline {2.9}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {subsection}{\numberline {2.9.1}Coeficiente de Gini para dados socio-econ\IeC {\^o}micos}{34}
 \contentsline {section}{\numberline {2.10}Redes sociais}{35}
 \contentsline {subsection}{\numberline {2.10.1}Data Mining - Text Data Mining}{37}
 \contentsline {section}{\numberline {2.11}Cibern\IeC {\'e}tica: aspectos introdut\IeC {\'o}rios}{38}

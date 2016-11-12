@@ -83,6 +83,13 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 v.~353, p. 215--225, 2015.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
+\bibitem{Ben-David2014}
+\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
+{BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
+  Theory to Algorithms}}. [s.n.], 2014. 449~p.
+ISBN 9781107057135. Dispon{\'\i}vel em:
+  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
+
 \bibitem{DataMining}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
 {HAN, J.; KAMBER, M. Data mining: Concepts and techniques.

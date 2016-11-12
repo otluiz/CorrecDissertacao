@@ -253,11 +253,18 @@ Utilizar técnicas de mineração de dados, além de extrair dados, extrai conhe
 quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de extração de conhecimento chama-se \textit{Knowledge Discovery Databases} (KDD).
 O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 
+
+
 \pagebreak
+
 
 \section{Aprendizagem de Máquina}\label{arte:palavraChave:Machine}
 
+
 Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dados de forma automatizada e interativa.
+Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014} em seu livro ``Understandig Machine Learning: From Theory to Algorithms'' 
+o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
+
 As técnicas algorítmicas apresentadas nas seções subsequentes são parte da grande família de algorítimos que compõem 
 o aprendizado de máquina aplicado a mineração de dados.
 
@@ -266,6 +273,8 @@ essas funcionalidades tem como característica principal a maneira como são des
 em uma das duas categorias: tarefas descritivas ou tarefas preditivas. As tarefas mineração descritivas preocupam-se nas características 
 dos dados no conjunto de dados, o ``data set''. As tarefas de mineração preditivas induzem regras nos dados correntes para produzirem 
 predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas.
+
+
 
 \section{Classificação e Regressão para análise preditivas}
 
@@ -288,15 +297,14 @@ cada nó é um teste no valor do atributo como:
  \centering{
     \begin{picture}(100,6)
       \put(0,0){\framebox(115,6)} \put(3,2){$age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$}
-      \put(0,-7){\framebox(111,6)} \put(3,-5){$age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$}
-      \put(0,-14){\framebox(111,6)} \put(3,-12){$age(X,``middle-aged")$  $\to classe (X,``B")$}
+      \put(0,-7){\framebox(113,6)} \put(3,-5){$age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$}
+      \put(0,-14){\framebox(85,6)} \put(3,-12){$age(X,``middle-aged")$  $\to classe (X,``B")$}
+      \put(0,-21){\framebox(70,6)} \put(3,-19){$age(X,``senior")$  $ \to classe (X,``B")$}
       \end{picture}
    }
 \end{figure}
 
-  $age(X,``senior")$       $ \to classe (X,``B")$\\
-
-%\pagebreak
+\vspace{18mm}
   
 A seguir, a árvore de decisão que explicita se um cliente, de acordo com sua idade terá determinada classe:
 \begin{figure}[!ht]
@@ -713,6 +721,12 @@ Então, a taxa de verdadeiros positivos será $P(Y|X)$ e a probabilidade de fals
 A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr = P(Y|X)) com a taxa dos falsos positivos (fpr = P(Y,$\bar{X}$)).
 
 \pagebreak
+
+\subsection{Coeficiente de Gini para dados socio-econômicos}
+
+\pagebreak
+
+
 
 \section{Redes sociais}
 

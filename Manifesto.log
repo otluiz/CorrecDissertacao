@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  5 NOV 2016 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  11 NOV 2016 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1623,22 +1623,22 @@ Package pdftex.def Info: Figuras/BigData/FayyadSemFundo.png used on input line
 226.
 (pdftex.def)             Requested size: 384.11801pt x 184.94771pt.
  [21 <./Figuras/BigData/FayyadSemFundo.png>] [22]
-Overfull \hbox (327.20497pt too wide) detected at line 290
+Overfull \hbox (327.20497pt too wide) detected at line 299
 []
  []
 
 
-Overfull \hbox (321.51445pt too wide) detected at line 291
+Overfull \hbox (321.51445pt too wide) detected at line 300
 []
  []
 
 
-Overfull \hbox (241.84715pt too wide) detected at line 292
+Overfull \hbox (241.84715pt too wide) detected at line 301
 []
  []
 
 
-Overfull \hbox (199.16824pt too wide) detected at line 293
+Overfull \hbox (199.16824pt too wide) detected at line 302
 []
  []
 
@@ -1646,7 +1646,7 @@ Overfull \hbox (199.16824pt too wide) detected at line 293
 File: Figuras/BigData/arvorejovem.png Graphic file (type png)
 
 <use Figuras/BigData/arvorejovem.png>
-Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 304
+Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 313
 .
 (pdftex.def)             Requested size: 170.71481pt x 128.03937pt.
 
@@ -1654,94 +1654,95 @@ Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 304
 File: Figuras/BigData/redeneural.png Graphic file (type png)
 
 <use Figuras/BigData/redeneural.png>
-Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 312.
+Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 321.
 
 (pdftex.def)             Requested size: 241.8434pt x 108.11797pt.
- [23 <./Figuras/BigData/arvorejovem.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-[24 <./Figuras/BigData/redeneural.png (PNG copy)>]
+[23]
 
-LaTeX Warning: Citation `TeoriaInf' on page 25 undefined on input line 343.
+LaTeX Warning: Citation `TeoriaInf' on page 24 undefined on input line 352.
 
-[25] [26] <Figuras/Neural/Rosenblatt.png, id=144, 509.905pt x 198.7425pt>
+[24 <./Figuras/BigData/arvorejovem.png> <./Figuras/BigData/redeneural.png (PNG 
+copy)>] [25] <Figuras/Neural/Rosenblatt.png, id=141, 509.905pt x 198.7425pt>
 File: Figuras/Neural/Rosenblatt.png Graphic file (type png)
 
 <use Figuras/Neural/Rosenblatt.png>
-Package pdftex.def Info: Figuras/Neural/Rosenblatt.png used on input line 406.
+Package pdftex.def Info: Figuras/Neural/Rosenblatt.png used on input line 415.
 (pdftex.def)             Requested size: 256.08781pt x 85.36055pt.
 
-<Figuras/Neural/Adaline.png, id=145, 458.71375pt x 312.16624pt>
+<Figuras/Neural/Adaline.png, id=142, 458.71375pt x 312.16624pt>
 File: Figuras/Neural/Adaline.png Graphic file (type png)
 
 <use Figuras/Neural/Adaline.png>
-Package pdftex.def Info: Figuras/Neural/Adaline.png used on input line 419.
+Package pdftex.def Info: Figuras/Neural/Adaline.png used on input line 428.
 (pdftex.def)             Requested size: 241.85023pt x 113.80873pt.
- [27 <./Figuras/Neural/Rosenblatt.png>]
-[28 <./Figuras/Neural/Adaline.png>]
-<Figuras/Neural/camdasIntermediarias.png, id=154, 503.8825pt x 286.06876pt>
+ [26 <./Figuras/Neural/Rosenblatt.png>]
+[27 <./Figuras/Neural/Adaline.png>]
+<Figuras/Neural/camdasIntermediarias.png, id=151, 503.8825pt x 286.06876pt>
 File: Figuras/Neural/camdasIntermediarias.png Graphic file (type png)
 
 <use Figuras/Neural/camdasIntermediarias.png>
 Package pdftex.def Info: Figuras/Neural/camdasIntermediarias.png used on input 
-line 459.
+line 468.
 (pdftex.def)             Requested size: 256.0771pt x 142.26578pt.
 
-<Figuras/Neural/Perceptron.png, id=155, 513.92pt x 229.85875pt>
+<Figuras/Neural/Perceptron.png, id=152, 513.92pt x 229.85875pt>
 File: Figuras/Neural/Perceptron.png Graphic file (type png)
 
 <use Figuras/Neural/Perceptron.png>
-Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 478.
+Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 487.
 (pdftex.def)             Requested size: 256.07324pt x 113.81374pt.
- [29 <./Figuras/Neural/camdasIntermediarias.png> <./Figuras/Neural/Perceptron.p
-ng>] [30]
-<Figuras/Neural/pecepAdalin.png, id=165, 275.8305pt x 221.628pt>
+ [28 <./Figuras/Neural/camdasIntermediarias.png> <./Figuras/Neural/Perceptron.p
+ng>] [29]
+<Figuras/Neural/pecepAdalin.png, id=161, 275.8305pt x 221.628pt>
 File: Figuras/Neural/pecepAdalin.png Graphic file (type png)
 
 <use Figuras/Neural/pecepAdalin.png>
-Package pdftex.def Info: Figuras/Neural/pecepAdalin.png used on input line 547.
+Package pdftex.def Info: Figuras/Neural/pecepAdalin.png used on input line 556.
 
 (pdftex.def)             Requested size: 241.84773pt x 142.26414pt.
 
-<Figuras/Neural/MultiCamadas.png, id=166, 492.03825pt x 127.07475pt>
+<Figuras/Neural/MultiCamadas.png, id=162, 492.03825pt x 127.07475pt>
 File: Figuras/Neural/MultiCamadas.png Graphic file (type png)
 
 <use Figuras/Neural/MultiCamadas.png>
-Package pdftex.def Info: Figuras/Neural/MultiCamadas.png used on input line 556
+Package pdftex.def Info: Figuras/Neural/MultiCamadas.png used on input line 565
 .
 (pdftex.def)             Requested size: 312.98138pt x 199.18785pt.
 
-<Figuras/Neural/Recorrentes.png, id=167, 350.5095pt x 149.358pt>
+<Figuras/Neural/Recorrentes.png, id=163, 350.5095pt x 149.358pt>
 File: Figuras/Neural/Recorrentes.png Graphic file (type png)
 
 <use Figuras/Neural/Recorrentes.png>
-Package pdftex.def Info: Figuras/Neural/Recorrentes.png used on input line 571.
+Package pdftex.def Info: Figuras/Neural/Recorrentes.png used on input line 580.
 
 (pdftex.def)             Requested size: 284.53156pt x 184.95813pt.
 
-<Figuras/Neural/Kohone.png, id=168, 351.714pt x 180.07275pt>
+<Figuras/Neural/Kohone.png, id=164, 351.714pt x 180.07275pt>
 File: Figuras/Neural/Kohone.png Graphic file (type png)
 
 <use Figuras/Neural/Kohone.png>
-Package pdftex.def Info: Figuras/Neural/Kohone.png used on input line 581.
+Package pdftex.def Info: Figuras/Neural/Kohone.png used on input line 590.
 (pdftex.def)             Requested size: 284.54332pt x 184.9522pt.
- [31 <./Figuras/Neural/pecepAdalin.png (PNG copy)> <./Figuras/Neural/MultiCamad
-as.png (PNG copy)>] [32 <./Figuras/Neural/Recorrentes.png (PNG copy)> <./Figura
-s/Neural/Kohone.png (PNG copy)>] [33] [34]
-<Figuras/BigData/twittePRF.png, id=181, 581.17125pt x 485.815pt>
+ [30 <./Figuras/Neural/pecepAdalin.png (PNG copy)> <./Figuras/Neural/MultiCamad
+as.png (PNG copy)>] [31 <./Figuras/Neural/Recorrentes.png (PNG copy)> <./Figura
+s/Neural/Kohone.png (PNG copy)>] [32] [33]
+[34] <Figuras/BigData/twittePRF.png, id=181, 581.17125pt x 485.815pt>
 File: Figuras/BigData/twittePRF.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 748.
+Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 763.
 (pdftex.def)             Requested size: 170.71686pt x 136.5684pt.
 
 <Figuras/BigData/twittePRF2.png, id=182, 578.16pt x 497.86pt>
 File: Figuras/BigData/twittePRF2.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF2.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 750.
+Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 765.
 
 (pdftex.def)             Requested size: 170.71451pt x 136.57387pt.
  [35 <./Figuras/BigData/twittePRF.png (PNG copy)> <./Figuras/BigData/twittePRF2
@@ -1751,10 +1752,10 @@ File: Figuras/BigData/Analise_Textos.png Graphic file (type png)
 
 <use Figuras/BigData/Analise_Textos.png>
 Package pdftex.def Info: Figuras/BigData/Analise_Textos.png used on input line 
-787.
+802.
 (pdftex.def)             Requested size: 341.43645pt x 170.71378pt.
  [37 <./Figuras/BigData/Analise_Textos.png>]
-Overfull \hbox (36.94978pt too wide) in paragraph at lines 806--806
+Overfull \hbox (36.94978pt too wide) in paragraph at lines 821--821
 []\T1/cmr/bx/n/17.28 Mineração de Da-dos Gui-a-dos pelo Do-mí-nio -- \T1/cmr/bx
 /it/17.28 Domain-
  []
@@ -1917,10 +1918,10 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17565 strings out of 494790
- 290983 string characters out of 6174858
- 527381 words of memory out of 5000000
- 20293 multiletter control sequences out of 15000+600000
+ 17570 strings out of 494790
+ 291085 string characters out of 6174858
+ 527450 words of memory out of 5000000
+ 20298 multiletter control sequences out of 15000+600000
  34730 words of font info for 67 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  46i,12n,53p,739b,3837s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1952,7 +1953,7 @@ public/cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /cm-super/sfti1200.pfb>
-Output written on Manifesto.pdf (58 pages, 2210029 bytes).
+Output written on Manifesto.pdf (58 pages, 2210423 bytes).
 PDF statistics:
  358 PDF objects out of 1000 (max. 8388607)
  215 compressed objects within 3 object streams

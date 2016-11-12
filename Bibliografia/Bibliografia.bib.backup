@@ -414,8 +414,8 @@ year = {1997}
 }
 
 @article{possas1998data,
-  title={Data mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de dados},
   author={POSSAS, BAV and CARVALHO, MLB de and REZENDE, RSF and MEIRA JR, W},
+  title={Data mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de dados},
   journal={Universidade Federal de Minas Gerais},
   year={1998}
 }
@@ -457,14 +457,14 @@ year = {Acessado em: 01.out.2016}
 }
 
 
-@book{NorvigRussel2004,
-author = {Stuart RUSSEL and Peter NOVING},
-isbn = {8535211772},
-title = {{Integência Artificial}},
-publisher={Elsevier, Rio de Janeiro},
-volume ={2 edition},
-pages = {716--721},
-year = {2004}
+@book{	NorvigRussel2004,
+	author = {Stuart RUSSEL and Peter NOVING},
+	isbn = {8535211772},
+	title = {{Integência Artificial}},
+	publisher={Elsevier, Rio de Janeiro},
+	volume ={2 edition},
+	pages = {716--721},
+	year = {2004}
 }
 
 
@@ -480,14 +480,14 @@ year = {1991}
 
 
 @phdthesis{Salles2007,
-author = {Salles, Fernando Ricardo},
-file = {:home/otluiz/Mestrado/Cibern{\'{e}}tica/MES{\_}2007{\_}FernandoSalles.pdf:pdf},
-keywords = {Antropologia,Antropomorfismo,Cibern{\'{e}}tica,Ci{\^{e}}ncia.,Cultura,Filosofia,Realimenta{\c{c}}{\~{a}}o,Teleologia,Wiener},
-mendeley-groups = {MachineLearningBigDada,Cibern{\'{e}}tica},
-school = {Universidade de S{\~{a}}o Paulo - USP},
-title = {{A relev{\^{a}}ncia da cibern{\'{e}}tica}},
-type = {Disserta{\c{c}}{\~{a}}o de Mestrado},
-year = {2007}
+	  author = {Salles, Fernando Ricardo},
+	  file = {:home/otluiz/Mestrado/Cibern{\'{e}}tica/MES{\_}2007{\_}FernandoSalles.pdf:pdf},
+	  keywords = {Antropologia,Antropomorfismo,Cibern{\'{e}}tica,Ci{\^{e}}ncia.,Cultura,Filosofia,Realimenta{\c{c}}{\~{a}}o,Teleologia,Wiener},
+	  mendeley-groups = {MachineLearningBigDada,Cibern{\'{e}}tica},
+	  school = {Universidade de S{\~{a}}o Paulo - USP},
+	  title = {{A relev{\^{a}}ncia da cibern{\'{e}}tica}},
+	  year = {2007},
+	  type = {Disserta{\c{c}}{\~{a}}o de Mestrado}
 }
 
 
@@ -515,3 +515,41 @@ year = {2007}
        year =   { 2007 }, 
        url =   { available at http://www.dkriesel.com } 
      }
+     
+     
+@article{ Barreto2002,
+	  author = {Barreto, Jorge M},
+	  file = {:home/otluiz/Mestrado/ArtigosRedesNeurais/RedesNeurais c{\'{o}}pia.pdf:pdf},
+	  mendeley-groups = {RedesNeurais},
+	  title = {{Jorge M. Barreto}},
+	  year = {2002}
+}
+
+@article{Beshah2010,
+author = {Beshah, T and Hill, S},
+file = {:home/otluiz/Mestrado/ArtigosDM/j{\'{a}}-Lidos/AnaliseTr{\'{a}}ficoAcidentes{\_}Etiopia.pdf:pdf},
+isbn = {9781577354550},
+journal = {AAAI Spring Symposium - Technical Report},
+keywords = {Technical Report SS-10-01},
+mendeley-groups = {Regi{\~{a}}oMetropolitanaRecife/MineracaoPRF,ArtigosMinera{\c{c}}{\~{a}}o},
+number = {1997},
+pages = {14--19},
+title = {{Mining road traffic accident data to improve safety: Role of road-related factors on accident severity in Ethiopia}},
+url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77957956575{\&}partnerID=40{\&}md5=a06a85740a7d21166dadbb737ccfd110},
+volume = {SS-10-01},
+year = {2010}
+}
+
+
+@ARTICLE{5416718,
+author={L. Cao},
+journal={IEEE Transactions on Knowledge and Data Engineering},
+title={Domain-Driven Data Mining: Challenges and Prospects},
+volume={22},
+number={6},
+pages={755-769},
+keywords={data mining;decision making;problem solving;data-centered knowledge discovery;domain-driven data mining;pattern identification;problem-solving system;real-world complex problems;real-world smart decision making;ubiquitous intelligence;Data mining;actionable knowledge discovery and delivery.;domain-driven data mining (D^3M)},
+doi={10.1109/TKDE.2010.32},
+ISSN={1041-4347},
+month={June},
+year={2010},}
