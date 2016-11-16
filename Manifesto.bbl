@@ -90,6 +90,13 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 ISBN 9781107057135. Dispon{\'\i}vel em:
   \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
 
+\bibitem{Nilsson2005}
+\abntrefinfo{Nilsson}{NILSSON}{2005}
+{NILSSON, N.~J. {Introduction to Machine Learning}.
+\emph{Machine Learning}, v.~56, n.~2, p. 387--99, 2005.
+ISSN 10959572.
+Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
+
 \bibitem{DataMining}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
 {HAN, J.; KAMBER, M. Data mining: Concepts and techniques.

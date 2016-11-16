@@ -265,13 +265,44 @@ Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dad
 Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014} em seu livro ``Understandig Machine Learning: From Theory to Algorithms'' 
 o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
 
+Para Nilsson \cite{Nilsson2005} o aprendizado ocorre quando uma máquina modifica sua estrutura interna, programa ou dados 
+(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo quando uma 
+máquina de reconhecimento da fala \textbf{melhora} após ``ouvir'' várias amostras de fala humanas e que nós sentimos que pronta, neste caso
+podemos dizer que a máquina aprendeu. 
+
+Sistemas que executam tarefas de inteligência artificial tais como Reconhecimento de Padrões, Diagnóstico, Controle de Robôs, Predição e 
+outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
+
+\subsection{Onde e o que aprender}
+
+Historicamente os tipos de aprendizagem computacional estão relacionados em ``o que'' há para ser aprendido \cite{Nilsson2005}. 
+Primeiramente para escolher o que aprender definiremos ``onde'', sobre quais dados se aprender.
+Fornecemos um conjunto de treinamento para depois testar o conhecimento aprendido em um conjunto de teste.
+
+
+\subsection{Tipos de Aprendizagem}
+
+\color{blue} {Fulano classifica aprendizado supervisionado como .... }
+
+\color{red} {Beltrano classifica aprendizagem não supervisionada como ...}
+
+\color{black}
+
+Podemos aprender sobre uma determinada função \textit{f} definindo conjunto de treinamento $X = {x_{1}, x_{2}, ...x_{n}}$.
+
+
+
+
+
+
+
 As técnicas algorítmicas apresentadas nas seções subsequentes são parte da grande família de algorítimos que compõem 
 o aprendizado de máquina aplicado a mineração de dados.
 
-As técnicas de mineração aplicadas na descoberta de conhecimento podem ser agrupadas de acordo com suas funcionalidades \cite{DataMining2}, 
+A descoberta de conhecimento através da aplicação das técnicas de mineração de dados podem ser agrupadas de acordo com suas funcionalidades \cite{DataMining2}, 
 essas funcionalidades tem como característica principal a maneira como são descobertos os padrões no dados, elas podem estar 
 em uma das duas categorias: tarefas descritivas ou tarefas preditivas. As tarefas mineração descritivas preocupam-se nas características 
-dos dados no conjunto de dados, o ``data set''. As tarefas de mineração preditivas induzem regras nos dados correntes para produzirem 
+dos dados no conjunto de dados; o ``data set''. As tarefas de mineração preditivas induzem regras nos dados correntes para produzirem 
 predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas.
 
 
@@ -304,7 +335,7 @@ cada nó é um teste no valor do atributo como:
    }
 \end{figure}
 
-\vspace{18mm}
+\vspace{20mm}
   
 A seguir, a árvore de decisão que explicita se um cliente, de acordo com sua idade terá determinada classe:
 \begin{figure}[!ht]
@@ -326,9 +357,14 @@ As árvores de decisão produzem regras de indução, são algoritmos rápidos, 
 A fase de extração dos dados do é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} 
 isso pode representar o desafio maior para implementar esta técnica. 
 
-Outro problema que pode ser encontrado em algoritmos de aprendizagem é o ``overfitting''\\
+Outro problema que pode ser encontrado em algoritmos de aprendizagem é o ``overfitting'' ou superadaptação aos modelos.
+Segundo RUSSEL E NORVIG (2004)  \footnote{Foi observado que redes neurais muito grandes \textit{generalizam} bem, 
+\textit{desde que os pesos sejam mantidos pequenos}. Essa restrição mantém os valores de ativação na região 
+\textit{linear} da função sigmóide g(x) onde x é próximo de zero. Por sua vez isso faz com que a rede se comporte 
+como uma função linear, com um número muito menor de parâmetros.} o ``overfitting''
+ ocorre quando o número atributos é grande.
 
-((( falar de overfitting)))
+
 
 \pagebreak
 
@@ -653,7 +689,7 @@ prévia da rede, realizando assim um processo de retropropagação dos erros.
 Para a utilização desse tipo de regra deve-se observar que o conjunto dos dados de entrada esteja organizado de forma aleatória. 
 
 Há ainda a lei de aprendizado de Teuvo Kohonen, que foi inspirada em sistemas biológicos, em que há uma competição entre os elementos 
-para aprender, ou atualizar e ajustar os seus pesos. A unidade de processamento mais apta será aquela que possuir o melhor sinal de 
+para aprender, ou atualizar e ajustar seus pesos. A unidade de processamento mais apta será aquela que possuir o melhor sinal de 
 saída e terá a capacidade de inibir os ajustes sinápticos de seus concorrentes e excitar seus vizinhos, de maneira que apenas essa 
 unidade e seus vizinhos poderão realizar o ajuste dos pesos.
 

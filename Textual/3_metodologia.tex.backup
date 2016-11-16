@@ -70,7 +70,8 @@ A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 \section{Reflexão sobre as tecnologias utilizadas no modelo preditivo}\label{result}
 
 Não existe uma técnica de mineração que generalize os mais diversos ambientes preditivos, mas sim um ``pool'' 
-dessas técnicas onde uma complementa outra \cite{NorvigRussel2004}.
+dessas técnicas onde uma complementa outra como identificamos nos artigos de ZENG, HUANG, PEI \textit{et al} (2016), 
+POSSAS, BAV e CARVALHO (1998), e BESHAS e HILL (2010).
 
 As técnicas preditivas tradicionais que contemplam análise de grandes massas de dados como base homogêneas.
 
@@ -79,7 +80,7 @@ foram inicialmente concebidas, por que as variáveis em uma base de dados a prio
 neste caso essas variáveis ou são excluídas ou são transformadas a fim de ``guardarem'' um correlação com a outra base de dados. 
 
 Na fase de transformação de dados, da primeira etapa, onde são criadas novas variáveis, a proximidade entre as
-bases heterogêneas foi conseguido utilizando de regras de indução da lógica proposicional. ((( citar ))).
+bases heterogêneas foi conseguido utilizando de regras de indução da lógica proposicional \cite{NorvigRussel2004}.
 Nesta pesquisa, bases heterogêneas foram integralizadas num única grande conjunto de dados o ``data set''. As variáveis desse ``data set''
 são consideradas variáveis independentes, foram preservadas as com maior relevância ou as que continham a maior quantidade de conhecimento
 embutido.  construídas novas, nas bases onde não haviam correspondência, respeitando a lógica do negócio.\\
