@@ -34,12 +34,8 @@ ser identificados pelos algoritmos de mineração empregados no processo.
 A priori foram escolhidos algoritmos com algumas características especiais, tais como; robustez, tolerância à faltas (missing data),
 taxa de aprendizagem, e facilidade de interpretação dos dados processados. 
 No quesito robustez, tolerância à faltas e taxa de aprendizagem as redes neurais artificiais (RNA), com uma 
-topologia relativamente grande destacam-se pela capacidade de generalização, contudo como todos os modelos estatísticos pode ocorrer 
-superadaptação (overfitting), segundo RUSSEL E NORVIG (2004)  \footnote{Foi observado que redes neurais muito grandes \textit{generalizam} bem, 
-\textit{desde que os pesos sejam mantidos pequenos}. Essa restrição mantém os valores de ativação na região 
-\textit{linear} da função sigmóide g(x) onde x é próximo de zero. Por sua vez isso faz com que a rede se comporte 
-como uma função linear, com um número muito menor de parâmetros.} o ``overfitting''
- ocorre quando o número atributos é grande.
+topologia Perceptron multicamadas com retroalimentação ``backpropagation'', essas redes destacam-se pela capacidade de generalização e 
+especificidade em modelos de previsão. 
 
 A extrapolação do modelo preditivo ocorre quando este se integra à uma estrutura dinâmica a serem exibidas em mapas vetoriais, 
 dado um espaço temporal pré-determinado por um agente; o utilizador. 
@@ -123,9 +119,9 @@ Aprendizagem de Máquina (acrônimo de Machine Learning)
 
 \section{Arco cibernético com dados do Twitter}
 
-Os dados do Twitter, armazenados no banco de dados MySQL permite uma busca imediata por novas informações que poderão ser confrontadas com o 
+Os dados do Twitter, permite uma busca imediata por novas informações que poderão ser confrontadas com o 
 modelo preditivo aumentando o nível de confiança deste, com isso a informação construirá um Arco cibernético, que segundo Wiener (1948) a 
-informação permite e a realimentação desta aos sistemas, o controle mais eficaz, por exemplo: no trecho da Br 101, na altura do km 5, no 
+informação permite realimentação aos sistemas, com controle mais eficaz, por exemplo: no trecho da Br 101, na altura do km 5, no 
 Município de Goiana alguém publicou que a comunidade que mora no entorno dessa localidade fará um protesto daqui a dois dias devido ao 
 acidente ocorrido ou a PRF publicou que o km 80 da Br 232, na altura do Município de Gravatá será interditada amanhã, por 2h, para 
 remoção/explosão de rochas. 
@@ -148,3 +144,22 @@ Dessa forma compõe-se um novo arco cibernético, mais genérico à proposição
 \includegraphics[width=90mm, height=45mm]{Figuras/Metodologia/ArcoCibernetico.png}\\
 \tiny Fonte: autor
 \end{figure}
+
+
+
+<<<<<<<<< apanhados das leituras do Twitter >>>>>>>>>>>>>>>>>>>>>>>>>
+Artigo ``Library & Information Science Research''
+Usuários de redes sociais gastam uma quantidade de tempo crescente a cada ano. 
+Estes partilham informações, conhecimento e atividade de lazer (i.e. jogos).
+Neste paper descobriu que mais de 70\% dos adultos que estão on-line utilizam redes sociais
+
+
+
+Segundo o artigo ``Scalling Big Data Mining Infrastructure: The Twitter Experience'' O Twitter experimenta um crescimento exponencial.
+Esforços de tornar modelos mais robustos.
+``Data Analytics'' heterogeneidade de vários componentes
+Em cada dia por volta de  centenas de terabytes são inseridos no Hadoop data warehouse.
+Este paper foi fruto de um Sabbtical entre 2010 a 2012 sobre o Twitter.
+O maior trabalho foi preparar os dados e uma visão do domínio do ciclo de vida do tweets.
+Entender os dados como estão estruturados. Segundo foi observado o maior desfio foi construir uma plataforma de ``Data Analytics''.
+

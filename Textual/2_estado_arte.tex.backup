@@ -5,8 +5,8 @@
 
 Nesse estudo, foi realizada uma revisão teórica e de pesquisas contemplando três campos, a saber: 
   \begin{itemize}
-    \item O primeiro diz respeito aos modelos preditivos de mineração de dados relacionados à pesquisa em lide;
-    \item O segundo relacionado às tecnologias mineração em textos de redes sociais;
+    \item O primeiro sobre o processo de aplicação da Mineração de Dados;
+    \item O segundo relacionado às tecnologias mineração de dados relacionados à pesquisa em lide;
     \item Finalmente o último campo de pesquisa relacionado às tecnologias de mapeamento através de sistemas de posicionamento global 
     aplicados ao sistema rodoviário.
   \end{itemize}
@@ -276,7 +276,7 @@ outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilss
 \subsection{Onde e o que aprender}
 
 Historicamente os tipos de aprendizagem computacional estão relacionados em ``o que'' há para ser aprendido \cite{Nilsson2005}. 
-Primeiramente para escolher o que aprender definiremos ``onde'', sobre quais dados se aprender.
+Primeiramente para escolher o que aprender definiremos de ``onde'' ou sobre quais dados se aprender.
 Fornecemos um conjunto de treinamento para depois testar o conhecimento aprendido em um conjunto de teste.
 
 
@@ -288,7 +288,7 @@ Fornecemos um conjunto de treinamento para depois testar o conhecimento aprendid
 
 \color{black}
 
-Podemos aprender sobre uma determinada função \textit{f} definindo conjunto de treinamento $X = {x_{1}, x_{2}, ...x_{n}}$.
+Para ``aprender'' sobre uma determinada função \textit{f} definimos uma amostra em um conjunto de treinamento $X = {x_{1}, x_{2}, ...x_{n}}$.
 
 
 
