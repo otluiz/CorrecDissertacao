@@ -63,7 +63,7 @@ A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 \tiny Fonte: autor
 \end{figure}
 
-\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo}\label{result}
+\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo a priori}\label{result}
 
 Não existe uma técnica de mineração que generalize os mais diversos ambientes preditivos, mas sim um ``pool'' 
 dessas técnicas onde uma complementa outra como identificamos nos artigos de ZENG, HUANG, PEI \textit{et al} (2016), 
@@ -113,7 +113,53 @@ Aprendizagem de Máquina (acrônimo de Machine Learning)
 \end{itemize}
 
 
-\section{Extrapolação para georreferenciamento}
+
+\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo a posteriori}\label{resultPost}
+
+
+(Artigo ``Library \& Information Science Research'')
+Tecnologia
+Para encaminhar as pesquisas, os autores usaram uma abordagem indutiva. Os mais recentes 1200 tweets foram coletados da conta (Tweet de uma Universidade) de todos os membros da Association of American Universities (AAU). Os dados foram coletados e processados usando o Twitter API com o twitter4j (biblioteca Java) e adicionados a um código java desenvolvido pelo autor. ...Foi reduzido a uma amostra do percentual da academia….
+Os dados coletados foram preprocessados para preparar a analise. Retweets foram removidos das amostras. Em seguida tweets com pouco conteúdo foram removidos, tal como breves agradecimentos (e.g. “welcome”) breves comentários de algum tweet (e.g. “lol”) pequenos encorajamentos (e.g. “keep going”) e conversas pessoais foram removidas das amostras. Isto reduziu a amostra de 1200 para 752 tweets. Estes tweets foram em seguida categorizados em nove categorias…
+Dos 752 tweets analisados, 271 tinham ao menos um retweet e 131 receberam um “favorito”. Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres.
+Na média, as seis contas de Twitter das bibliotecas analisadas enviaram 1817 (SD=1126) tweets, seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de tweets normalmente distribuídas. Consequentemente métodos não paramétricos foram usados para examinar a relação entre um tweet  as características da conta.
+O teste Kruskal-Walls revelou uma diferença estatística significativa entre o conteúdo da categoria do tweet para o número de favoritos (X² = 15.11, df =8, p < 0,057).
+O teste Spearman mostrou uma correlação negativa entre o número de retweets e o número de menções a usuários. Isso sugere que tweets com conexões pessoais podem ter pouco valor de ‘uso geral’ e esses usuários podem estar relutantes em retweetar o conteúdo desses seguidores.
+O teste Spearman encontrou uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, e encontrou uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro).
+
+(Artigo “A Text Mining Analysis of Academic Libraries Tweets”)
+Análise de textos
+Em mídias sociais, analisar o conteúdo e minerar textos é frequentemente usado para analise texto de usuários geral e suporte para tomada de decisão (Abrahams, Fan, Wang, Zhang \& Jiao, 2015). Aplicar mineração de textos em bibliotecas e outras instituições inclui extrair informações, rastrear tópicos, sumarização, categorização, agrupamento, ligar conceitos, visualização de informação e perguntas de questionários (Fan, Wallace, Rich e Zhang, 2006). De acordo com Zhang e Gu (2011) as bibliotecas acadêmicas poderiam utilizar mineração de textos para beneficiar os aplicativos no objetivo de suporte a tomada de decisões.
+No recente artigo, Sandhu (2015) indicou a importância do aprendizado sobre mineração de dados e  ferramentas de Big Data para as bibliotecas acadêmicas para melhorar a eficiência da biblioteca e os serviços de informação. Similarmente Zhang e Gu (2011) alegaram que  minerar conhecimento sobre os clientes é importante para as bibliotecas acadêmicas. 
+A abordagem de mineração de textos para os dados das mídias sociais tem sido utilizados em muitos outros campos, como negócios (business) (Abraham et al., 2015), ciência da saúde (Sarker et al., 2015) ciência política (Stieglitz \& Dang-Xuan, 2013).
+O uso da abordagem de mineração de textos está lentamente começando a ser aplicada na literatura sobre biblioteca e Ciência da Informação…
+Papatheodorou, Kapidakis, Sfakakis e Vassiliou (2003) estudaram o uso das técnicas de mineração para analisar o uso das comunidades digitais.
+Zang e Gu escreveu um artigo sobre aplicação de “text mining” nos dados das vidas sociais.
+Shulman et al. (2015) analisou a rede de Twitter em duas bibliotecas acadêmicas os esforços para identificar a influência dos “players” e o recrutamento deles para fins de disseminar informações.
+
+
+Conjunto de Dados
+O conjunto de dados desta pesquisa foram coletados completamente da “timeline” de 10 bibliotecas acadêmicas (i.e. todos Twittes desde a adesão à plataforma) através de um serviço de arquivamento (twimemachine.com) em dezembro de 2014. 
+<<<<  Interessante essa ferramenta, instalei e pode ser usada para fazer mineração em textos  >>>>
+As bibliotecas escolhidas foram as 10 maiores ranqueadas pelo Shanghai Ranking. A seleção foi restringidas para universidades que “falavam inglês” e a uma biblioteca se a universidade tinha mais que uma (no artigo original é a tabela 1). Adicionalmente para o conteúdo do tweet, as seguintes informações foram recuperadas: 
+Data do tweet – “tweet date”,
+Número de vezes marcados como favorito – “number of times marked as a “favorite” by other users”, 
+Número de vezes retweetado “number of times “retweeted” e, 
+Data que se “juntou” (entrou) ao Twitter.
+
+
+Preprocessamento do conjunto de dados – “dataset preprocessing”
+O “dataset” recuperado foi “limpo” para reduzir os ruídos seguindo uma abordagem consistente com outros estudos de mineração (em textos) tal como Ralston, O’Neil, Wigmore e Harrison (2014) e Yoon, Elhadad e Bakken (2013). O passo-a-passo incluiu a aplicação de um número de filtros; por exemplo, foram removidas as “stopwords”; pontuação e númeração, todos os nomes de usuários seguido por um símbolo “@”, “hashtags” após o símbolo “#” e “hyperlinks” após o “http”. Também foi removido a abreviação do Twitter tal como “RT” (retweetes), e “MT” (tweet modificado), e palavras tal como “via”. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído.
+
+
+Analise do Conjunto de dados – “Dataset”
+Mineração em textos e técnicas de análise de conteúdo foram usadas para analisar os históricos de tweets da bibliotecas. A frequência dos tweets, retweets e distribuição dos tweets e retweets o tempo todo foi identificado e “plotado”. Então os tweets foram limpos, abertos e marcados com o PamTaT, uma ferramenta “text mining” desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios da Virgínia da(ligado à) Universidade Estadual de Virgínia.
+PamTaT é baseado interface do Microsof Excel para Python nltk – “natural language processing framework” (Bird, Loper & Klien, 2009).
+PamTaT permite que grande volumes de textos sejam analisado pelos usuários finais sem requer conhecimento de programação da linguagem Python. Em particular foi usado PamTaT para determinar a frequência de palavras simples (unigramas), de duas palavras (bigramas) e sequencias de três palavras (trigramas) que aparecem no texto fonte. 
+Isso permite-nos desenvolver uma matriz de frequência de termos-tweet mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada.
+Adicionalmente “correu-se” com o Harvard General Inquirer (Stone et al. 1966) para análise semântica e sentimental dos tweets.  “Harvard General Inquirer” é uma ferramenta de análise de textos de propósito geral, esta permite ao usuário final repostar com que frequentemente categoria de palavras diferentes usadas no texto fonte. 
+Aplicações reportadas no “General Inquirer” para diferentes textos fontes identificou (categoria) duas centenas de palavras incluindo, por exemplo: como positivo, negativo, relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas a academia, relacionadas a exagero (overstatement) ou subavaliação (understatement) e assim por diante.
+Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela  Harvard General Inquirer e proveu uma lista completa de palavras específicas que pertencem a cada categoria de palavras. No estudo desse artigo foi usou-se o  Harvard General Inquirer para determinar o número de palavras em cada categoria de palavras usadas em cada biblioteca.
 
 \pagebreak
 
@@ -147,19 +193,6 @@ Dessa forma compõe-se um novo arco cibernético, mais genérico à proposição
 
 
 
-<<<<<<<<< apanhados das leituras do Twitter >>>>>>>>>>>>>>>>>>>>>>>>>
-Artigo ``Library & Information Science Research''
-Usuários de redes sociais gastam uma quantidade de tempo crescente a cada ano. 
-Estes partilham informações, conhecimento e atividade de lazer (i.e. jogos).
-Neste paper descobriu que mais de 70\% dos adultos que estão on-line utilizam redes sociais
+\section{Extrapolação para georreferenciamento}
 
-
-
-Segundo o artigo ``Scalling Big Data Mining Infrastructure: The Twitter Experience'' O Twitter experimenta um crescimento exponencial.
-Esforços de tornar modelos mais robustos.
-``Data Analytics'' heterogeneidade de vários componentes
-Em cada dia por volta de  centenas de terabytes são inseridos no Hadoop data warehouse.
-Este paper foi fruto de um Sabbtical entre 2010 a 2012 sobre o Twitter.
-O maior trabalho foi preparar os dados e uma visão do domínio do ciclo de vida do tweets.
-Entender os dados como estão estruturados. Segundo foi observado o maior desfio foi construir uma plataforma de ``Data Analytics''.
-
+\pagebreak
