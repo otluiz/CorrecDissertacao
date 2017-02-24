@@ -1,6 +1,6 @@
 %[1]
 @article{Quadros2005,
-author = {Quadros, Claudia Irene De},
+author = {Quadros, Claudia Irene de},
 journal = {Intercom},
 pages = {65--69},
 title = {{Dez Anos Depois do}},
@@ -81,15 +81,7 @@ year = {2000}
 }
 
 %[8]
-@article{DecisionTree,
-author= {A. Srivastava, V. Katiyar and N. Singh},
-title = {Review of Decision Tree Algorithm: Big Data Analytics},
-journal={International Journal of Informative \& Futuristic Research},
-number = {10},
-pages = {3644--3654},
-volume = {2},
-year = {2015}
-}
+
 
 %[9]
 @article{DataMining,
@@ -447,7 +439,7 @@ year = {2008}
 author = {Castanheira, Luciana Gomes},
 mendeley-groups = {MachineLearningBigDada},
 number = {5531},
-title = {{Aplica{\c{c}}{\~{a}}o de T{\'{e}}cnicas de Minera{\c{c}}{\~{a}}o de Dados em Problemas de Classifica{\c{c}}{\~{a}}o de Padr{\~{o}}es}}
+title = {{Aplicação de técnicas de Mineração de Dados em Problemas de Classificação de Padrões}}
 }
 
 @article{Tatibana,
@@ -457,7 +449,7 @@ year = {Acessado em: 01.out.2016}
 }
 
 
-@book{	NorvigRussel2004,
+@book{NorvigRussel2004,
 	author = {Stuart RUSSEL and Peter NOVING},
 	isbn = {8535211772},
 	title = {{Integência Artificial}},
@@ -553,3 +545,46 @@ doi={10.1109/TKDE.2010.32},
 ISSN={1041-4347},
 month={June},
 year={2010},}
+
+
+@unpublished{Goodfellow-et-al-2016-Book,
+    title={Deep Learning},
+    author={Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+    note={Book in preparation for MIT Press},
+    url={http://www.deeplearningbook.org},
+    year={2016}
+}
+
+@book{Ben-David2014,
+author = {Ben-David, Shai and Shalev-Shwartz, Shai},
+booktitle = {Understanding Machine Learning: From Theory to Algorithms},
+doi = {10.1017/CBO9781107298019},
+file = {:home/otluiz/Mestrado/Aprendizagem de m{\'{a}}quina/understanding-machine-learning-theory-algorithms.pdf:pdf},
+isbn = {9781107057135},
+mendeley-groups = {MachineLearning},
+pages = {449},
+title = {{Understanding Machine Learning: From Theory to Algorithms}},
+url = {http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf},
+year = {2014}
+}
+
+@article{Nilsson2005,
+archivePrefix = {arXiv},
+arxivId = {0904.3664v1},
+author = {Nilsson, Nils J},
+doi = {10.1016/j.neuroimage.2010.11.004},
+eprint = {0904.3664v1},
+file = {:home/otluiz/Mestrado/Aprendizagem de m{\'{a}}quina/MLBOOK.pdf:pdf},
+isbn = {9780262012430},
+issn = {10959572},
+journal = {Machine Learning},
+mendeley-groups = {MachineLearning},
+number = {2},
+pages = {387--99},
+pmid = {21172442},
+title = {{Introduction to Machine Learning}},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/21172442},
+volume = {56},
+year = {2005}
+}
+

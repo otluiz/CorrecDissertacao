@@ -191,10 +191,12 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 \end{figure}
 
 
+\pagebreak
+
+\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
 
 
 \pagebreak
-
 
 \section{Mineração de dados}
 
@@ -791,7 +793,36 @@ As informações são enviadas aos usuários, conhecidas como twittes, em tempo 
 \end{tabular}
 \end{table}
 
+------------------
+Artigo ``Library \& Information Science Research''
 
+Introdução
+Usuários de redes sociais gastam uma quantidade de tempo crescente a cada ano. 
+Estes partilham informações, conhecimento e atividade de lazer (i.e. jogos).
+Neste paper descobriu-se que mais de 70\% dos adultos que estão on-line utilizam redes sociais, 20\% desses utilizam o Twitter, 46\% visitaram diariamente e desses 29\% o fizeram mais de uma vez ao dia (Duggan \& Smith, 2013).
+Another Pew num relatórios mostrou que o Twitter está ranqueado entre as três maiores plataformas de mídias sociais (após o Facebook e o Youtube). Nos EUA 8\% dos adultos entre 18 e 29 anos o Twitter está ranqueado a frente do Facebook e Youtube, com 45\% dos adultos de outras idades nos EUA. O principal item de consumo são: notícias (Mitchell \& Page, 2013). Num dia normal o Twitter possui mais de 230 milhões de usuários que produzem cerca de 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014)
+
+
+Revisão da Literatura
+Blogs são sistemas de compartilhamento de informações baseados na Web, com conteúdo postados  em ordem cronologicamente (Hering, Scheid, Bonus \& Wright, 2004).
+Twitter é um sistema de microblog que está restrito ao tamanho do conteúdo entrado (postado) em 140 caracteres. Adicionalmente o Twitter  provê a capacidade de usuários poderem seguir outros usuários, partilhar com eles conteúdos e conversação (Twitter, 2014).
+Relevantes literaturas examinam conteúdos de tweets de amostras de usuários do Twitter. Heneycutt e Hering (2009) identificaram 11 catagorias de conteúdo dos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (talvez auto-ajuda), informações para outros, informações para si próprio, meta comentários, uso de mídia, expressar opinião, outras experiências, auto experiência, e solicitação de informações. 
+Para Naaman, Boase e Lai (2010) a tipologia de conteúdo inclui-se em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora, (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
+André, Berstein e Luther (2012) adaptaram a tipologia de Naaman et al. para avaliar o relacionamento entre categorias de tweet e o valor para os usuários numa amostra geral de usuários do Twitter e tweets. A tipologia adaptada incluiu categorias de seguidos: perguntas para os seguidores, informações partilhadas, auto promoção, ideias aleatórias, opinião, eu agora (me now), conversação e manutenção de presença.
+Na Cientometria e Bibliometria contar citações são frequentemente usados para avaliar o impacto de uma publicação; escolar, centro de pesquisas ou instituições (i.e. Adkins \& Budd, 2006; Cronin \& Overfelt, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Posteriormente, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles, foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008;  Hinnant el al., 2012; Stivilia et al., 2011).
+Na Web o número de citações (i.e. links de URL) e a estrutura dos links são usadas pelas “engenhocas de pesquisas”(poderia ser traduzido como moteres de busca, ex: o google) para identificar a importância ou autoridade de websites (Brin \& Page, 1998), similarmente o número de seguidores, menções a usuários e retweets fora usados para avaliar a influência ou impacto dos usuários do Twitter e tweets. 
+No Twitter, a conexão entre os usuários da rede social são estabelecidas pelos seguidores e os seguidos pelos links . Indo além, a habilidade do seguidor para retweetar os usuários seguido serve de principal mecanismo de espalhar informações através dessas redes. 
+Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter analisando o número de retweets, menções e seguidores. Através disso, no geral eles encontraram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, baseados no grau do link (i.e. número de seguidores), o número de seguidores não está relacionado com o número de retweets ou número de menções. André et al. (2012) usou a abordagem “crowdsourcing” para identificar os tipos de tweets dos usuário do Twitter que gostam e não gostam. Eles encontraram que os usuários preferem perguntar aos seguidores, partilhar informações e auto promoção. Os usuários não tem preferido os tweets categorizados como: manutenção de presença, conversações e atualizações do “status” corrente do usuário.
+Suh, Hong e Chi (2010) encontraram uma correlação positiva entre a presente URL de um tweet e a probabilidade de um retweet. Adicionalmente eles encontraram relações positivas entre o número de usuários seguidos e seguido pela probabilidade de retweet, embora com tamanho de efeito muito pequeno.
+
+Artigo “A Text Mining Analysis of Academic Libraries Tweets”
+
+
+Introdução
+Aplicações de mídia sociais tem cada vez mais sido adotadas pelo marketing das bibliotecas com recursos e serviços (Collins \& Quan-Haase, 2014) para incrementar os relacionamentos entre seus  clientes. Ele permite “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72). Bibliotecas acadêmicas estão adotando as mídias sociais e essa prática tem mudado dramaticamente como elas interagiam com os usuários (Del Bosque, Leif e Skaf, 2012). Por exemplo o Twitter pode criar um relacionamento forte com os clientes (Cavanagh, 2015) isto é “usado” como alternativa para um canal de comunicação e bem utilidade social para formar uma conexão personalizado com os usuários (Boaten \& Quan, 2014).
+Nessa veia as bibliotecas academicas tem vindo proativamente responder às mudanças envolvendo tecnologia (Shulman, Yep e Tomé, 2015)….
+
+-------------------------------
 
 A seguir pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal de Santa Catarina:
 
@@ -854,5 +885,5 @@ comportamento; biológico ou mecânico. Esse comportamento, quando responde à i
 realimentação, tendo em vistas a atingir um objetivo, um propósito.
 
 
-\section{Mineração de Dados Guiados pelo Domínio -- \textit{Domain-Driven for Data Mining}}
+
 
