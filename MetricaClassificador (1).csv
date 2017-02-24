@@ -1,0 +1,47 @@
+Classificador:  Naive Bayes,"Corretamente (48,37%)",,"Incorretamente (51,63%)"
+,Acurácia,,
+Variável: Tipo acidente,TP,FP,AUC
+Atropelamento de pessoa,"0,988","0,003","0,93"
+Atropelamento de animal,"0,809","0,016","0,66"
+,,,
+Classificador:  Naive Bayes,"Corretamente (70,21)",,"Incorretamente (29,79%)"
+,Acurácia,,
+Variável: Gravidade,TP,FP,AUC
+S (acidente com morte),"0,994","0,989","0,75"
+N (acidente sem morte),"0,011","0,006","0,34"
+,,,
+Classificador:  Naive Bayes,"Corretamente (43,41%)",,"Incorretamente (56,59%)"
+,Acurácia,,
+Variável: Causa Acidente,TP,FP,AUC
+Falta de atenção,"0,765","0,436","0,713"
+Animais na pista,"0,742","0,038","0,938"
+,,,
+Classificador:  Naive Bayes,"Corretamente (43,41%)",,"Incorretamente (56,59%)"
+,Acurácia,,
+Variável: BR ajustada,TP,FP,AUC
+Falta de atenção,"0,765","0,436","0,713"
+Animais na pista,"0,742","0,038","0,938"
+,,,
+Classificador:  Árvore Decisão,"Corretamente (64,27%)",,"Incorretamente (35,73%)"
+,Acurácia,,
+Variável: Tipo acidente,TP,FP,AUC
+Atropelamento de pessoa,"0,925","0,0016","0,99"
+Atropelamento de animal,"0,946","0,002","0,99"
+,,,
+Classificador:  Árvore Decisão,"Corretamente (73,73%)",,"Incorretamente (26,27%)"
+,Acurácia,,
+Variável: Gravidade,TP,FP,AUC
+S (acidente com morte),"0,897","0,64","0,708"
+N (acidente sem morte),"0,36","0,103","0,708"
+,,,
+Classificador:  Árvore Decisão,"Corretamente (51,28%)",,"Incorretamente (48,72%)"
+,Acurácia,,
+Variável: Causa Acidente,TP,FP,AUC
+Falta de atenção,"0,888","0,504","0,73"
+Animais na pista,"0,684","0,4","0,935"
+,,,
+Classificador:  Árvore Decisão,"Corretamente (80,55%)",,"Incorretamente (19,45%)"
+,Acurácia,,
+Variável: BR ajustada,TP,FP,AUC
+BR 407,"0,951","0,007","0,995"
+BR 408,"0,158","0,01","0,985"

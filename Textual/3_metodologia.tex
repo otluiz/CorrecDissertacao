@@ -1,12 +1,9 @@
 \chapter{Contribuição}\label{meto}
 
 A contribuição dessa pesquisa é de cunho metodológico-prático.
-Do ponto de vista metodológico pela aplicação do processo CRISP-DM, usado para construir o modelo preditivo; do ponto de vista prático 
-pela proposição de um modelo que integre predição à API de mapas de posicionamento global, fornecendo informação suficiente a um gestor para decidir quando 
-e por onde enviar uma frota de caminhões por determinada rodovia que apresente retenções crescentes de logística de cargas. 
+Do ponto de vista metodológico pela aplicação do processo CRISP-DM, usado para construir o modelo preditivo e classificativo; do ponto de vista prático pela proposição de um modelo que integre predição à API de mapas de posicionamento global, fornecendo informação suficiente a um gestor para decidir quando e por onde enviar uma carga por determinada rodovia que apresente retenções crescentes de logística de cargas. 
 
-As soluções disponíveis que existem tais como; Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores 
-dos aplicativos ou por informações provindas de GPS, contudo não analisam dados históricos dessas rodovias nem fazem predições sobre o seu comportamento.
+As soluções disponíveis que existem tais como; Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores dos aplicativos ou por informações provindas de GPS, contudo não analisam dados históricos dessas rodovias nem fazem predições sobre o seu comportamento.
 
 Outra contribuição dessa pesquisa é a proposição de um arco cibernético construído com a API de redes sociais.
 Os ``feeds'' de notícias das redes sociais como o Twitter permitem analisar o contexto das rodovias com defasagem temporal muito pequena.
@@ -14,13 +11,10 @@ Os utilizadores dessas redes sociais contribuem com muita informação relevante
 daqui a uma semana, a PRF de Pernambuco é outro contribuidor permanente; com seu canal no Twitter: @PRF191PE fornece diariamente informação das rodovias 
 além de dados estatísticos. 
 
-A monitoração de redes sociais é feita por Mineração de dados em textos, em que são verificas palavras chaves tais como: protestos, acidentes, paralisação, no caso
-específico do nosso estudo.
+A monitoração de redes sociais é feita por Mineração de dados em textos ou "Text Mining", em que são verificas palavras chaves tais como: protestos, acidentes, paralisação, no caso específico do nosso estudo.
 
-Uma vez capturadas e tratadas, as informações desses ``feeds'' poderão ser  direcionadas a um banco de dados. 
-Para essa pesquisa foi escolhido o Sistema Gerenciador de Banco de Dados (SGBD) MySQL para tratar esses ``feeds'' do Twitter. 
-A opção pelo MySQL foi devido às características que consideramos essenciais, tais como: licença para livre utilização, boa capacidade para gerenciar grande quantidade de 
-dados e por seguir o padrão SQL-ANSI; portanto não foi necessário estudo mais aprofundado para operacionalizar; ``select'', ``insert'' e ``update''.
+Uma vez capturadas e tratadas, as informações desses ``feeds'' são analisados instantâneamente por algoritmos de I.A. A técnica utilizada é o  Processamento de Linguagem Natural (PLN). O algoritmo escolhido foi Naive Bayes por ser um classificador rápido e eficiente e por ter sido utilizado na primeira fase em que foi como comparativo à Árvore de Decisão de simples implementação  poderão ser  direcionadas a um banco de dados para o caso de novos estudos.
+
 
 
 \section{Modelo Proposto}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.25)  14 FEB 2017 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.25)  23 FEB 2017 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,11 +1089,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box36
 \@float@everytoks=\toks43
 \@floatcapt=\box37
-)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+) (./algorithm2e.sty
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count168
-\algocf@hangindent=\skip60
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -1102,41 +1100,40 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: relsize 2013/03/29 ver 4.1
 )
 ********************************************************
-Package `algorithm2e' Release 5.1 -- october 19 2015 --
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
 - algorithm2e-announce@lirmm.fr mailing list for announcement about releases
 - algorithm2e-discussion@lirmm.fr mailing list for discussion about package
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
-- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+- Author: Christophe Fiorio (cfiorio@um2.fr)
 ********************************************************
-\skiptotal=\skip61
-\skiplinenumber=\skip62
-\skiprule=\skip63
-\skiphlne=\skip64
-\skiptext=\skip65
-\skiplength=\skip66
-\algomargin=\skip67
-\skipalgocfslide=\skip68
+\skiptotal=\skip60
+\skiplinenumber=\skip61
+\skiprule=\skip62
+\skiphlne=\skip63
+\skiptext=\skip64
+\skiplength=\skip65
+\algomargin=\skip66
+\skipalgocfslide=\skip67
 \algowidth=\dimen289
 \inoutsize=\dimen290
 \inoutindent=\dimen291
 \interspacetitleruled=\dimen292
 \interspacealgoruled=\dimen293
 \interspacetitleboxruled=\dimen294
-\algocf@ruledwidth=\skip69
 \algocf@inoutbox=\box38
 \algocf@inputbox=\box39
-\AlCapSkip=\skip70
-\AlCapHSkip=\skip71
-\algoskipindent=\skip72
+\AlCapSkip=\skip68
+\AlCapHSkip=\skip69
+\algoskipindent=\skip70
 \algocf@nlbox=\box40
 \algocf@hangingbox=\box41
 \algocf@untilbox=\box42
-\algocf@skipuntil=\skip73
+\algocf@skipuntil=\skip71
 \algocf@capbox=\box43
-\algoheightruledefault=\skip74
-\algoheightrule=\skip75
-\algotitleheightruledefault=\skip76
-\algotitleheightrule=\skip77
+\algoheightruledefault=\skip72
+\algoheightrule=\skip73
+\algotitleheightruledefault=\skip74
+\algotitleheightrule=\skip75
 \c@algocfline=\count169
 \c@algocfproc=\count170
 \c@algocf=\count171
@@ -1155,8 +1152,8 @@ Package: IEEEtrantools_mod 2002/11/18 revision V1.1 by Michael Shell
 \@IEEEtrantmpcountA=\count172
 \@IEEEtrantmpcountB=\count173
 \@IEEEtrantmptoksA=\toks44
-\normalsizebaselineskip=\skip78
-\normaljot=\skip79
+\normalsizebaselineskip=\skip76
+\normaljot=\skip77
 \IEEEilabelindentA=\dimen297
 \IEEEilabelindentB=\dimen298
 \IEEEilabelindent=\dimen299
@@ -1165,7 +1162,7 @@ Package: IEEEtrantools_mod 2002/11/18 revision V1.1 by Michael Shell
 \labelindent=\dimen302
 \IEEEiednormlabelsep=\dimen303
 \IEEEiedmathlabelsep=\dimen304
-\IEEEiedtopsep=\skip80
+\IEEEiedtopsep=\skip78
 \c@IEEEsubequation=\count174
 \@IEEEeqnnumcols=\count175
 \@IEEEeqncolcnt=\count176
@@ -1176,7 +1173,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen305
 \nom@tempdim=\dimen306
-\nomitemsep=\skip81
+\nomitemsep=\skip79
 )
 \@nomenclaturefile=\write3
 \openout3 = `Manifesto.nlo'.
@@ -1205,33 +1202,33 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count178
 \calc@Adimen=\dimen307
 \calc@Bdimen=\dimen308
-\calc@Askip=\skip82
-\calc@Bskip=\skip83
+\calc@Askip=\skip80
+\calc@Bskip=\skip81
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count179
-\calc@Cskip=\skip84
+\calc@Cskip=\skip82
 )
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\minimumbiblabelwidth=\skip85
-\ABCIauxlen=\skip86
+\minimumbiblabelwidth=\skip83
+\ABCIauxlen=\skip84
 \c@ABCIaux=\count180
 \c@ABCImax=\count181
-\biblabelsep=\skip87
+\biblabelsep=\skip85
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
 \ABCItoken=\toks45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
-\beforeepigraphskip=\skip88
-\afterepigraphskip=\skip89
-\epigraphwidth=\skip90
-\epigraphrule=\skip91
+\beforeepigraphskip=\skip86
+\afterepigraphskip=\skip87
+\epigraphwidth=\skip88
+\epigraphrule=\skip89
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -1239,20 +1236,20 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip92
-\RaggedLeftLeftskip=\skip93
-\RaggedRightLeftskip=\skip94
-\CenteringRightskip=\skip95
-\RaggedLeftRightskip=\skip96
-\RaggedRightRightskip=\skip97
-\CenteringParfillskip=\skip98
-\RaggedLeftParfillskip=\skip99
-\RaggedRightParfillskip=\skip100
-\JustifyingParfillskip=\skip101
-\CenteringParindent=\skip102
-\RaggedLeftParindent=\skip103
-\RaggedRightParindent=\skip104
-\JustifyingParindent=\skip105
+\CenteringLeftskip=\skip90
+\RaggedLeftLeftskip=\skip91
+\RaggedRightLeftskip=\skip92
+\CenteringRightskip=\skip93
+\RaggedLeftRightskip=\skip94
+\RaggedRightRightskip=\skip95
+\CenteringParfillskip=\skip96
+\RaggedLeftParfillskip=\skip97
+\RaggedRightParfillskip=\skip98
+\JustifyingParfillskip=\skip99
+\CenteringParindent=\skip100
+\RaggedLeftParindent=\skip101
+\RaggedRightParindent=\skip102
+\JustifyingParindent=\skip103
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
@@ -1758,10 +1755,10 @@ File: Figuras/Metodologia/metodologiaGeral.png Graphic file (type png)
 
 <use Figuras/Metodologia/metodologiaGeral.png>
 Package pdftex.def Info: Figuras/Metodologia/metodologiaGeral.png used on input
- line 62.
+ line 56.
 (pdftex.def)             Requested size: 483.71223pt x 241.85333pt.
 
-Overfull \hbox (28.46812pt too wide) in paragraph at lines 62--62
+Overfull \hbox (28.46812pt too wide) in paragraph at lines 56--56
  [][] 
  []
 
@@ -1771,7 +1768,7 @@ File: Figuras/Metodologia/ArcoCibernetico.png Graphic file (type png)
 
 <use Figuras/Metodologia/ArcoCibernetico.png>
 Package pdftex.def Info: Figuras/Metodologia/ArcoCibernetico.png used on input 
-line 195.
+line 189.
 (pdftex.def)             Requested size: 256.08417pt x 128.0451pt.
 ) [49 <./Figuras/Metodologia/ArcoCibernetico.png>]
 \openout2 = `Textual/4_simulacao.aux'.
@@ -1897,10 +1894,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17586 strings out of 493029
- 289668 string characters out of 6136234
- 535564 words of memory out of 5000000
- 20528 multiletter control sequences out of 15000+600000
+ 17744 strings out of 493029
+ 289062 string characters out of 6136234
+ 541083 words of memory out of 5000000
+ 20687 multiletter control sequences out of 15000+600000
  34730 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,53p,969b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1927,7 +1924,7 @@ mf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.
 pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Manifesto.pdf (64 pages, 2263364 bytes).
+Output written on Manifesto.pdf (64 pages, 2263299 bytes).
 PDF statistics:
  378 PDF objects out of 1000 (max. 8388607)
  228 compressed objects within 3 object streams
