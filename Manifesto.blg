@@ -20,11 +20,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
-I was expecting a `,' or a `}'---line 506 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 497 of file Bibliografia/Bibliografia.bib
  :    
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "DecisionTree"
 Warning--I didn't find a database entry for "TeoriaInf"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -283,45 +284,45 @@ Warning--campo title vazio em DadosGoverno
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 38 entries,
+You've used 37 entries,
             6480 wiz_defined-function locations,
-            1401 strings with 15140 characters,
-and the built_in function-call counts, 24827 in all, are:
-= -- 1902
-> -- 664
-< -- 45
-+ -- 291
-- -- 206
-* -- 1666
-:= -- 3372
-add.period$ -- 127
-call.type$ -- 38
-change.case$ -- 314
-chr.to.int$ -- 71
-cite$ -- 42
-duplicate$ -- 1350
-empty$ -- 1971
-format.name$ -- 1055
-if$ -- 5811
+            1396 strings with 14938 characters,
+and the built_in function-call counts, 23936 in all, are:
+= -- 1831
+> -- 637
+< -- 41
++ -- 281
+- -- 198
+* -- 1600
+:= -- 3266
+add.period$ -- 124
+call.type$ -- 37
+change.case$ -- 303
+chr.to.int$ -- 67
+cite$ -- 41
+duplicate$ -- 1301
+empty$ -- 1909
+format.name$ -- 1014
+if$ -- 5600
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 642
-newline$ -- 204
-num.names$ -- 144
-pop$ -- 896
+missing$ -- 624
+newline$ -- 199
+num.names$ -- 140
+pop$ -- 872
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 126
 quote$ -- 0
-skip$ -- 1382
+skip$ -- 1334
 stack$ -- 1
-substring$ -- 1194
-swap$ -- 560
-text.length$ -- 34
+substring$ -- 1136
+swap$ -- 531
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 3
 warning$ -- 5
-while$ -- 219
+while$ -- 211
 width$ -- 0
-write$ -- 487
+write$ -- 472
 (There were 122 error messages)

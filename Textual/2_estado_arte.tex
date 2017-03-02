@@ -15,7 +15,7 @@ Nesse capítulo, foi realizada uma revisão teórica e de pesquisas contemplando
   
 \section{CRISP-DM}
 
-O ``CRoss Indrustry Standard Process for Data Mining'' -- CRISP-DM é um processo de mineração de dados que descreve como especialistas 
+O ``CRoss Indrustry Standard Process for Data Mining'' -- CRISP-DM é um processo para mineração de dados que descreve como especialistas 
 nesse campo aplicam as técnicas de mineração para obter os melhores resultados \cite{Crisp2000}.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
 O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o processo.
@@ -193,14 +193,14 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 
 \pagebreak
 
-\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
+%\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
 
 
 \pagebreak
 
 \section{Mineração de dados}
 
-No processo de extração do conhecimento (KDD), um dos importantes passos a sere considerado é a mineração de dados, que se caracteriza pela aplicação de algoritmos 
+No processo de extração do conhecimento (KDD), um dos importantes passos a ser considerado é a mineração de dados, que se caracteriza pela aplicação de algoritmos 
 específicos para descoberta de padrões e/ou comportamentos em grandes bases de dados, também conhecido como repositórios de dados \cite{FayyadUeoutros}.
 
 A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões (CASTANHEIRA, 2008). 
@@ -260,29 +260,7 @@ O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 \pagebreak
 
 
-\section{Aprendizagem de Máquina}\label{arte:palavraChave:Machine}
-
-
-Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dados de forma automatizada e interativa.
-Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014} em seu livro ``Understandig Machine Learning: From Theory to Algorithms'' 
-o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
-
-Para Nilsson \cite{Nilsson2005} o aprendizado ocorre quando uma máquina modifica sua estrutura interna, programa ou dados 
-(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo quando uma 
-máquina de reconhecimento da fala \textbf{melhora} após ``ouvir'' várias amostras de fala humanas e que nós sentimos que pronta, neste caso
-podemos dizer que a máquina aprendeu. 
-
-Sistemas que executam tarefas de inteligência artificial tais como Reconhecimento de Padrões, Diagnóstico, Controle de Robôs, Predição e 
-outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
-
-\subsection{Onde e o que aprender}
-
-Historicamente os tipos de aprendizagem computacional estão relacionados em ``o que'' há para ser aprendido \cite{Nilsson2005}. 
-Primeiramente para escolher o que aprender definiremos de ``onde'' ou sobre quais dados se aprender.
-Fornecemos um conjunto de treinamento para depois testar o conhecimento aprendido em um conjunto de teste.
-
-
-\subsection{Tipos de Aprendizagem}
+\section{Tipos de Aprendizagem}
 
 \color{blue} {Fulano classifica aprendizado supervisionado como .... }
 
@@ -307,6 +285,34 @@ em uma das duas categorias: tarefas descritivas ou tarefas preditivas. As tarefa
 dos dados no conjunto de dados; o ``data set''. As tarefas de mineração preditivas induzem regras nos dados correntes para produzirem 
 predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas.
 
+
+
+
+\subsection{Aprendizagem de Máquina}\label{arte:palavraChave:Machine}
+
+
+Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dados de forma automatizada e interativa.
+Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014} em seu livro ``Understandig Machine Learning: From Theory to Algorithms'' 
+o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
+
+Para Nilsson \cite{Nilsson2005} o aprendizado ocorre quando uma máquina modifica sua estrutura interna, programa ou dados 
+(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo quando uma 
+máquina de reconhecimento da fala \textbf{melhora} após ``ouvir'' várias amostras de fala humanas e que nós sentimos que pronta, neste caso
+podemos dizer que a máquina aprendeu. 
+
+Sistemas que executam tarefas de inteligência artificial tais como Reconhecimento de Padrões, Diagnóstico, Controle de Robôs, Predição e 
+outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
+
+
+\subsection{Aprendizagem Bayesina}
+
+
+
+\subsection{Onde e o que aprender}
+
+Historicamente os tipos de aprendizagem computacional estão relacionados em ``o que'' há para ser aprendido \cite{Nilsson2005}. 
+Primeiramente para escolher o que aprender definiremos de ``onde'' ou sobre quais dados se aprender.
+Fornecemos um conjunto de treinamento para depois testar o conhecimento aprendido em um conjunto de teste.
 
 
 \section{Classificação e Regressão para análise preditivas}
@@ -460,7 +466,7 @@ que pode ser representado pela figura abaixo:
 
 \begin{figure}[!ht]
 \centering
-\caption{Rede ADALINE (ADAptative LInear NEuron) e o MADALINE (Many ADALINE) Perceptron}
+\caption{Rede ADALINE e MADALINE}
 \vspace{1mm}
 \includegraphics[width=85mm, height=40mm]{Figuras/Neural/Adaline.png}\\
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016

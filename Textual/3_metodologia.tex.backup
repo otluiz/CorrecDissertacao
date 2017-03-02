@@ -1,12 +1,9 @@
 \chapter{Contribuição}\label{meto}
 
 A contribuição dessa pesquisa é de cunho metodológico-prático.
-Do ponto de vista metodológico pela aplicação do processo CRISP-DM, usado para construir o modelo preditivo; do ponto de vista prático 
-pela proposição de um modelo que integre predição à API de mapas de posicionamento global, fornecendo informação suficiente a um gestor para decidir quando 
-e por onde enviar uma frota de caminhões por determinada rodovia que apresente retenções crescentes de logística de cargas. 
+Do ponto de vista metodológico pela aplicação do processo CRISP-DM, usado para construir o modelo preditivo e classificativo; do ponto de vista prático pela proposição de um modelo que integre predição à API de mapas de posicionamento global, fornecendo informação suficiente a um gestor para decidir quando e por onde enviar uma carga por determinada rodovia que apresente retenções crescentes de logística de cargas. 
 
-As soluções disponíveis que existem tais como; Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores 
-dos aplicativos ou por informações provindas de GPS, contudo não analisam dados históricos dessas rodovias nem fazem predições sobre o seu comportamento.
+As soluções disponíveis que existem tais como; Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores dos aplicativos ou por informações provindas de GPS, contudo não analisam dados históricos dessas rodovias nem fazem predições sobre o seu comportamento.
 
 Outra contribuição dessa pesquisa é a proposição de um arco cibernético construído com a API de redes sociais.
 Os ``feeds'' de notícias das redes sociais como o Twitter permitem analisar o contexto das rodovias com defasagem temporal muito pequena.
@@ -14,28 +11,36 @@ Os utilizadores dessas redes sociais contribuem com muita informação relevante
 daqui a uma semana, a PRF de Pernambuco é outro contribuidor permanente; com seu canal no Twitter: @PRF191PE fornece diariamente informação das rodovias 
 além de dados estatísticos. 
 
-A monitoração de redes sociais é feita por Mineração de dados em textos, em que são verificas palavras chaves tais como: protestos, acidentes, paralisação, no caso
-específico do nosso estudo.
+A monitoração de redes sociais é feita por Mineração de dados em textos conhecida como "Text Mining" (TM).
+A TM a princípio foi executa somente no Twitter no canal PRF191PE. Agentes da PRF disseram que os protestos quando feitos dentro da lei
+devem ser informados à PRF, com dia e hora marcados antecipadamente.
+Para ter-se acesso aos twittes postados da PRF os usuários do canal, inclusive a própria PRF, postam comentários diretamente 
+por um navegador Twitter palavras chaves tais como: protestos, acidentes, paralisação.  a API do 
 
-Uma vez capturadas e tratadas, as informações desses ``feeds'' são direcionadas a um banco de dados. 
-Foi escolhido o Sistema Gerenciador de Banco de Dados (SGBD) MySQL para tratar esses ``feeds'' do Twitter. 
-A opção pelo MySQL foi devido às características que consideramos essenciais, tais como: licença para livre utilização, boa capacidade para gerenciar grande quantidade de 
-dados e por seguir o padrão SQL-ANSI; portanto não foi necessário estudo mais aprofundado para operacionalizar; ``select'', ``insert'' e ``update''.
+Uma vez capturadas e tratadas as informações desses ``feeds'' são analisados instantaneamente por algoritmos de I.A. 
+A técnica utilizada é o Processamento de Linguagem Natural (PLN). O algoritmo escolhido foi Naive Bayes por ser um classificador 
+rápido e eficiente e por ter sido utilizado na primeira fase em que foi como comparativo à Árvore de Decisão de simples implementação 
+poderão ser direcionadas a um banco de dados para o caso de novos estudos.
+
 
 
 \section{Modelo Proposto}
 
 A metodologia utilizada nessa pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes.
 A primeira etapa da nossa metodologia completa o ciclo todo do processo CRISP-DM, onde está o modelo preditivo e 
-a descoberta de conhecimento sobre o comportamento das rodovias estudadas. O descoberta de conhecimento sobre esses comportamento 
-nas rodovias tem a ver com o ``modus operandi'' dos utilizadores, sobre possíveis erros de traçados e outros que possam
+a descoberta de conhecimento sobre o comportamento das rodovias estudadas. A descoberta de conhecimento sobre esses comportamento 
+nas rodovias tem a ver com o ``modus operandi'' dos utilizadores. A priori especulou-se sobre possíveis erros de traçados e outros que possam
 ser identificados pelos algoritmos de mineração empregados no processo.
 
-A priori foram escolhidos algoritmos com algumas características especiais, tais como; robustez, tolerância à faltas (missing data),
+Os algoritmos escolhidos contemplaram algumas características especiais, tais como; robustez, tolerância à faltas (missing data),
 taxa de aprendizagem, e facilidade de interpretação dos dados processados. 
-No quesito robustez, tolerância à faltas e taxa de aprendizagem as redes neurais artificiais (RNA), com uma 
-topologia Perceptron multicamadas com retroalimentação ``backpropagation'', essas redes destacam-se pela capacidade de generalização e 
-especificidade em modelos de previsão. 
+
+No quesito tolerância à falas e facilidade de interpretação dos dados a Árvore de Decisão e o Naïve Bayes se destacaram por não necessitar
+de nenhum requisito extra para entender e interpretar os resultados.
+
+No quesito robustez, tolerância à faltas e taxa de aprendizagem relativamente alta, as redes neurais artificiais (RNA), com a 
+topologia Perceptron multicamadas com retroalimentação ``backpropagation'' se destacaram. 
+As redes neurais têm capacidade de generalização e especificidade em modelos de previsão. 
 
 A extrapolação do modelo preditivo ocorre quando este se integra à uma estrutura dinâmica a serem exibidas em mapas vetoriais, 
 dado um espaço temporal pré-determinado por um agente; o utilizador. 
@@ -63,13 +68,14 @@ A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 \tiny Fonte: autor
 \end{figure}
 
-\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo a priori}\label{result}
+\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo}\label{result}
 
+As técnicas preditivas tradicionais que contemplam análise de grandes massas de dados como base homogêneas.
 Não existe uma técnica de mineração que generalize os mais diversos ambientes preditivos, mas sim um ``pool'' 
 dessas técnicas onde uma complementa outra como identificamos nos artigos de ZENG, HUANG, PEI \textit{et al} (2016), 
 POSSAS, BAV e CARVALHO (1998), e BESHAS e HILL (2010).
 
-As técnicas preditivas tradicionais que contemplam análise de grandes massas de dados como base homogêneas.
+
 
 são possíveis quando adaptadas para uma forma comparável à que
 foram inicialmente concebidas, por que as variáveis em uma base de dados a priori guardam pouca relação as variáveis de outra base de dados.
@@ -148,18 +154,23 @@ Número de vezes retweetado “number of times “retweeted” e,
 Data que se “juntou” (entrou) ao Twitter.
 
 
-Preprocessamento do conjunto de dados – “dataset preprocessing”
-O “dataset” recuperado foi “limpo” para reduzir os ruídos seguindo uma abordagem consistente com outros estudos de mineração (em textos) tal como Ralston, O’Neil, Wigmore e Harrison (2014) e Yoon, Elhadad e Bakken (2013). O passo-a-passo incluiu a aplicação de um número de filtros; por exemplo, foram removidas as “stopwords”; pontuação e númeração, todos os nomes de usuários seguido por um símbolo “@”, “hashtags” após o símbolo “#” e “hyperlinks” após o “http”. Também foi removido a abreviação do Twitter tal como “RT” (retweetes), e “MT” (tweet modificado), e palavras tal como “via”. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído.
+Preprocessamento do conjunto de dados – ``dataset preprocessing''
+O ``dataset'' recuperado foi ``limpo'' para reduzir os ruídos seguindo uma abordagem consistente com outros estudos de mineração (em textos) tal como Ralston, O’Neil, Wigmore e Harrison (2014) e Yoon, Elhadad e Bakken (2013). O passo-a-passo incluiu a aplicação de um número de filtros; por exemplo, foram removidas as ``stopwords''; pontuação e numeração, 
+todos os nomes de usuários seguido por um símbolo ``@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. 
+Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado), e palavras tal como ``via''. 
+O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído.
 
 
-Analise do Conjunto de dados – “Dataset”
+Analise do Conjunto de dados – ``Dataset''
 Mineração em textos e técnicas de análise de conteúdo foram usadas para analisar os históricos de tweets da bibliotecas. A frequência dos tweets, retweets e distribuição dos tweets e retweets o tempo todo foi identificado e “plotado”. Então os tweets foram limpos, abertos e marcados com o PamTaT, uma ferramenta “text mining” desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios da Virgínia da(ligado à) Universidade Estadual de Virgínia.
-PamTaT é baseado interface do Microsof Excel para Python nltk – “natural language processing framework” (Bird, Loper & Klien, 2009).
+PamTaT é baseado interface do Microsof Excel para Python nltk – “natural language processing framework” (Bird, Loper \& Klien, 2009).
 PamTaT permite que grande volumes de textos sejam analisado pelos usuários finais sem requer conhecimento de programação da linguagem Python. Em particular foi usado PamTaT para determinar a frequência de palavras simples (unigramas), de duas palavras (bigramas) e sequencias de três palavras (trigramas) que aparecem no texto fonte. 
 Isso permite-nos desenvolver uma matriz de frequência de termos-tweet mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada.
 Adicionalmente “correu-se” com o Harvard General Inquirer (Stone et al. 1966) para análise semântica e sentimental dos tweets.  “Harvard General Inquirer” é uma ferramenta de análise de textos de propósito geral, esta permite ao usuário final repostar com que frequentemente categoria de palavras diferentes usadas no texto fonte. 
 Aplicações reportadas no “General Inquirer” para diferentes textos fontes identificou (categoria) duas centenas de palavras incluindo, por exemplo: como positivo, negativo, relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas a academia, relacionadas a exagero (overstatement) ou subavaliação (understatement) e assim por diante.
 Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela  Harvard General Inquirer e proveu uma lista completa de palavras específicas que pertencem a cada categoria de palavras. No estudo desse artigo foi usou-se o  Harvard General Inquirer para determinar o número de palavras em cada categoria de palavras usadas em cada biblioteca.
+
+-----------------
 
 \pagebreak
 

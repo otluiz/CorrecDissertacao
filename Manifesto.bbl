@@ -12,7 +12,7 @@ p. 7--10, 2000.}
 
 \bibitem{Quadros2005}
 \abntrefinfo{Quadros}{QUADROS}{2005}
-{QUADROS, C. I.~D. {Dez Anos Depois do}.
+{QUADROS, C. I.~d. {Dez Anos Depois do}.
 \emph{Intercom}, v.~1995, p. 65--69, 2005.}
 
 \bibitem{bigdataMedicina}
@@ -67,13 +67,6 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 {ARANHA CHRISTIAN E~PASSOS, E. \emph{A Tecnologia de Mineração de Textos}.
   2006.
 1--8~p.}
-
-\bibitem{DecisionTree}
-\abntrefinfo{Srivastava e Singh}{SRIVASTAVA; SINGH}{2015}
-{SRIVASTAVA, V.~K. A.; SINGH, N. Review of decision tree algorithm: Big data
-  analytics.
-\emph{International Journal of Informative \& Futuristic Research}, v.~2,
-  n.~10, p. 3644--3654, 2015.}
 
 \bibitem{Amin2015a}
 \abntrefinfo{Amin et al.}{AMIN et al.}{2015}
@@ -141,9 +134,8 @@ ISBN 1604390085.}
 
 \bibitem{Castanheira}
 \abntrefinfo{Castanheira}{CASTANHEIRA}{}
-{CASTANHEIRA, L.~G. {Aplica{\c{c}}{\~{a}}o de T{\'{e}}cnicas de
-  Minera{\c{c}}{\~{a}}o de Dados em Problemas de Classifica{\c{c}}{\~{a}}o de
-  Padr{\~{o}}es}.
+{CASTANHEIRA, L.~G. {Aplicação de técnicas de Mineração de Dados em
+  Problemas de Classificação de Padrões}.
 n.~5531.}
 
 \bibitem{Tatibana}

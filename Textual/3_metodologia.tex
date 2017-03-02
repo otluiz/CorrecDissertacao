@@ -11,9 +11,16 @@ Os utilizadores dessas redes sociais contribuem com muita informação relevante
 daqui a uma semana, a PRF de Pernambuco é outro contribuidor permanente; com seu canal no Twitter: @PRF191PE fornece diariamente informação das rodovias 
 além de dados estatísticos. 
 
-A monitoração de redes sociais é feita por Mineração de dados em textos ou "Text Mining", em que são verificas palavras chaves tais como: protestos, acidentes, paralisação, no caso específico do nosso estudo.
+A monitoração de redes sociais é feita por Mineração de dados em textos conhecida como "Text Mining" (TM).
+A TM a princípio foi executa somente no Twitter no canal PRF191PE. Agentes da PRF disseram que os protestos quando feitos dentro da lei
+devem ser informados à PRF, com dia e hora marcados antecipadamente.
+Para ter-se acesso aos twittes postados da PRF os usuários do canal, inclusive a própria PRF, postam comentários diretamente 
+por um navegador Twitter palavras chaves tais como: protestos, acidentes, paralisação.  a API do 
 
-Uma vez capturadas e tratadas, as informações desses ``feeds'' são analisados instantâneamente por algoritmos de I.A. A técnica utilizada é o  Processamento de Linguagem Natural (PLN). O algoritmo escolhido foi Naive Bayes por ser um classificador rápido e eficiente e por ter sido utilizado na primeira fase em que foi como comparativo à Árvore de Decisão de simples implementação  poderão ser  direcionadas a um banco de dados para o caso de novos estudos.
+Uma vez capturadas e tratadas as informações desses ``feeds'' são analisados instantaneamente por algoritmos de I.A. 
+A técnica utilizada é o Processamento de Linguagem Natural (PLN). O algoritmo escolhido foi Naive Bayes por ser um classificador 
+rápido e eficiente e por ter sido utilizado na primeira fase em que foi como comparativo à Árvore de Decisão de simples implementação 
+poderão ser direcionadas a um banco de dados para o caso de novos estudos.
 
 
 
@@ -21,19 +28,23 @@ Uma vez capturadas e tratadas, as informações desses ``feeds'' são analisados
 
 A metodologia utilizada nessa pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes.
 A primeira etapa da nossa metodologia completa o ciclo todo do processo CRISP-DM, onde está o modelo preditivo e 
-a descoberta de conhecimento sobre o comportamento das rodovias estudadas. O descoberta de conhecimento sobre esses comportamento 
-nas rodovias tem a ver com o ``modus operandi'' dos utilizadores, sobre possíveis erros de traçados e outros que possam
+a descoberta de conhecimento sobre o comportamento das rodovias estudadas. A descoberta de conhecimento sobre esses comportamento 
+nas rodovias tem a ver com o ``modus operandi'' dos utilizadores. A priori especulou-se sobre possíveis erros de traçados e outros que possam
 ser identificados pelos algoritmos de mineração empregados no processo.
 
-A priori foram escolhidos algoritmos com algumas características especiais, tais como; robustez, tolerância à faltas (missing data),
+Os algoritmos escolhidos contemplaram algumas características especiais, tais como; robustez, tolerância à faltas (missing data),
 taxa de aprendizagem, e facilidade de interpretação dos dados processados. 
-No quesito robustez, tolerância à faltas e taxa de aprendizagem as redes neurais artificiais (RNA), com uma 
-topologia Perceptron multicamadas com retroalimentação ``backpropagation'', essas redes destacam-se pela capacidade de generalização e 
-especificidade em modelos de previsão. 
+
+No quesito tolerância à falas e facilidade de interpretação dos dados a Árvore de Decisão e o Naïve Bayes se destacaram por não necessitar
+de nenhum requisito extra para entender e interpretar os resultados[referencia].
+
+No quesito robustez, tolerância à faltas e taxa de aprendizagem relativamente alta, as redes neurais artificiais (RNA), com a 
+topologia Perceptron multicamadas com retroalimentação ``backpropagation'' se destacaram. 
+As redes neurais têm capacidade de generalização e especificidade em modelos de previsão[referencia]. 
 
 A extrapolação do modelo preditivo ocorre quando este se integra à uma estrutura dinâmica a serem exibidas em mapas vetoriais, 
 dado um espaço temporal pré-determinado por um agente; o utilizador. 
-Através de APIs os mapas vetoriais permitem a geolocalização dos pontos classificados ou os pontos onde haverá grande número de 
+Através de API's os mapas vetoriais permitem a geolocalização dos pontos classificados ou os pontos onde haverá grande número de 
 retenções, conhecido no meio da logística de cargas como \textbf{gargalo}.
 A API do Google-Maps é o ``front end'', foi escolhida por permitir maior pela portabilidade e simplicidade para integração da estrutura
 dinâmica com a preditiva.
@@ -57,13 +68,14 @@ A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 \tiny Fonte: autor
 \end{figure}
 
-\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo a priori}\label{result}
+\section{Reflexão sobre as tecnologias utilizadas no modelo preditivo}\label{result}
 
+As técnicas preditivas tradicionais que contemplam análise de grandes massas de dados como base homogêneas.
 Não existe uma técnica de mineração que generalize os mais diversos ambientes preditivos, mas sim um ``pool'' 
 dessas técnicas onde uma complementa outra como identificamos nos artigos de ZENG, HUANG, PEI \textit{et al} (2016), 
 POSSAS, BAV e CARVALHO (1998), e BESHAS e HILL (2010).
 
-As técnicas preditivas tradicionais que contemplam análise de grandes massas de dados como base homogêneas.
+
 
 são possíveis quando adaptadas para uma forma comparável à que
 foram inicialmente concebidas, por que as variáveis em uma base de dados a priori guardam pouca relação as variáveis de outra base de dados.
