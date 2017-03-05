@@ -1,37 +1,37 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Dom\IeC {\'\i }nio das t\IeC {\'e}cnicas aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}}{18}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces O padr\IeC {\~a}o CRISP-DM \cite {Crisp2000}}}{18}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Entendimento do neg\IeC {\'o}cio}}{19}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Entendimento dos dados}}{19}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos dados}}{20}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Modelagem IA}}{20}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Avalia\IeC {\c c}\IeC {\~a}o do modelo}}{21}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Implanta\IeC {\c c}\IeC {\~a}o do modelo}}{21}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Fases da minera\IeC {\c c}\IeC {\~a}o de dados at\IeC {\'e} extra\IeC {\c c}\IeC {\~a}o do conhecimento}}{22}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{25}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Rede Neural}}{25}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Percepton de Rosenblatt}}{28}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE e MADALINE}}{29}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Um arranjo de Perceptrons em camadas}}{30}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Perceptron de McCulloch e Pitts}}{30}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Perceptron e Adaline}}{32}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Perceptron Multicamadas}}{32}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Perceptron com Realimenta\IeC {\c c}\IeC {\~a}o}}{33}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Rede Kohone}}{33}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{40}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Dom\IeC {\'\i }nio das t\IeC {\'e}cnicas aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}}{19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces O padr\IeC {\~a}o CRISP-DM \cite {Crisp2000}}}{19}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Entendimento do neg\IeC {\'o}cio}}{20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Entendimento dos dados}}{20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Prepara\IeC {\c c}\IeC {\~a}o dos dados}}{21}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Modelagem IA}}{21}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Avalia\IeC {\c c}\IeC {\~a}o do modelo}}{22}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Implanta\IeC {\c c}\IeC {\~a}o do modelo}}{22}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Fases da minera\IeC {\c c}\IeC {\~a}o de dados at\IeC {\'e} extra\IeC {\c c}\IeC {\~a}o do conhecimento}}{23}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{26}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Rede Neural}}{26}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Percepton de Rosenblatt}}{29}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE e MADALINE}}{30}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Um arranjo de Perceptrons em camadas}}{31}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Perceptron de McCulloch e Pitts}}{31}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Perceptron e Adaline}}{33}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Perceptron Multicamadas}}{33}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Perceptron com Realimenta\IeC {\c c}\IeC {\~a}o}}{34}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Rede Kohone}}{34}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{45}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{44}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{48}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{49}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{53}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{49}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Condi\IeC {\c c}\IeC {\~a}o Pista X Num. Acidentes -- Restri\IeC {\c c}\IeC {\~a}o visibilidade X Num. Acidentes}}{51}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Condi\IeC {\c c}\IeC {\~a}o da Pista: Seca}}}{51}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Restri\IeC {\c c}\IeC {\~a}o de visibilidade: Inexistente}}}{51}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{52}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{52}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Etapas da metodologia}}{54}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{54}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Condi\IeC {\c c}\IeC {\~a}o Pista X Num. Acidentes -- Restri\IeC {\c c}\IeC {\~a}o visibilidade X Num. Acidentes}}{56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Condi\IeC {\c c}\IeC {\~a}o da Pista: Seca}}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Restri\IeC {\c c}\IeC {\~a}o de visibilidade: Inexistente}}}{56}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{57}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{57}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Etapas da metodologia}}{59}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{59}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{64}

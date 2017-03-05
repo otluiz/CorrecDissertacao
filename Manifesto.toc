@@ -1,59 +1,60 @@
 \select@language {brazil}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{13}
-\contentsline {section}{\numberline {1.1}Justificativa do problema}{13}
-\contentsline {section}{\numberline {1.2} Motiva\IeC {\c c}\IeC {\~a}o}{14}
-\contentsline {section}{\numberline {1.3} Objetivo Geral}{15}
-\contentsline {subsection}{\numberline {1.3.1} Objetivos Espec\IeC {\'\i }ficos}{15}
-\contentsline {section}{\numberline {1.4} Resultados Esperados}{15}
-\contentsline {chapter}{\numberline {2}Revis\IeC {\~a}o da Literatura}{16}
-\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {section}{\numberline {2.2}CRISP-DM}{16}
-\contentsline {subsection}{\numberline {2.2.1}Contexto de aplica\IeC {\c c}\IeC {\~a}o do CRISP -- DM}{17}
-\contentsline {subsection}{\numberline {2.2.2}Ciclo de vida do CRISP--DM}{18}
-\contentsline {section}{\numberline {2.3}Minera\IeC {\c c}\IeC {\~a}o de dados}{22}
-\contentsline {section}{\numberline {2.4}Tipos de Aprendizagem}{24}
-\contentsline {subsection}{\numberline {2.4.1}Aprendizagem de M\IeC {\'a}quina}{24}
-\contentsline {subsection}{\numberline {2.4.2}Aprendizagem Bayesina}{24}
-\contentsline {subsection}{\numberline {2.4.3}Onde e o que aprender}{24}
-\contentsline {section}{\numberline {2.5}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{24}
-\contentsline {section}{\numberline {2.6}\IeC {\'A}rvore de Decis\IeC {\~a}o}{26}
-\contentsline {subsection}{\numberline {2.6.1}Tipos de \IeC {\'A}rvores de decis\IeC {\~a}o}{26}
-\contentsline {section}{\numberline {2.7}Regress\IeC {\~a}o}{26}
-\contentsline {subsection}{\numberline {2.7.1}Tipos de regress\IeC {\~a}o aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}{26}
-\contentsline {subsection}{\numberline {2.7.2}Regress\IeC {\~a}o Linear}{26}
-\contentsline {subsection}{\numberline {2.7.3}Regress\IeC {\~a}o Log\IeC {\'\i }stica}{26}
-\contentsline {section}{\numberline {2.8}Redes Neurais}{28}
-\contentsline {subsection}{\numberline {2.8.1}Introdu\IeC {\c c}\IeC {\~a}o}{28}
-\contentsline {subsection}{\numberline {2.8.2}Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{29}
-\contentsline {subsection}{\numberline {2.8.3}Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{31}
-\contentsline {subsection}{\numberline {2.8.4}Aprendizado em Redes Neurais}{33}
-\contentsline {subsection}{\numberline {2.8.5}Retropropaga\IeC {\c c}\IeC {\~a}o e o Erro m\IeC {\'e}dio quadr\IeC {\'a}tico}{35}
-\contentsline {section}{\numberline {2.9}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{35}
-\contentsline {subsection}{\numberline {2.9.1}Coeficiente de Gini para dados socio-econ\IeC {\^o}micos}{36}
-\contentsline {section}{\numberline {2.10}Redes sociais}{37}
-\contentsline {subsection}{\numberline {2.10.1}Data Mining - Text Data Mining}{40}
-\contentsline {section}{\numberline {2.11}Cibern\IeC {\'e}tica: aspectos introdut\IeC {\'o}rios}{41}
-\contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{42}
-\contentsline {section}{\numberline {3.1}Modelo Proposto}{43}
-\contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{44}
-\contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{45}
-\contentsline {section}{\numberline {3.4}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo a posteriori}{45}
-\contentsline {section}{\numberline {3.5}Arco cibern\IeC {\'e}tico com dados do Twitter}{48}
-\contentsline {section}{\numberline {3.6}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{48}
-\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{49}
-\contentsline {section}{\numberline {4.1}O modelo proposto}{49}
-\contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{51}
-\contentsline {subsection}{\numberline {4.2.1}Entendo e validando os dados de entrada -- input}{51}
-\contentsline {subsection}{\numberline {4.2.2}Base da PRF -- acidentes}{51}
-\contentsline {subsection}{\numberline {4.2.3}Base da PRF -- interdi\IeC {\c c}\IeC {\~o}es}{53}
-\contentsline {subsection}{\numberline {4.2.4}Base do IBGE}{53}
-\contentsline {subsection}{\numberline {4.2.5}DataSUS}{53}
-\contentsline {section}{\numberline {4.3} As vari\IeC {\'a}veis do modelo preditivo}{53}
-\contentsline {section}{\numberline {4.4}Acoplamento com a estrutura din\IeC {\^a}mica}{54}
-\contentsline {section}{\numberline {4.5}Casos de teste do modelo preditivo}{55}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{56}
-\contentsline {section}{\numberline {5.1}Discuss\IeC {\~a}o}{56}
-\contentsline {section}{\numberline {5.2}Trabalhos futuros}{56}
-\contentsline {chapter}{\numberline {A}Preprocessamento}{57}
-\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{57}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{60}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {section}{\numberline {1.1}Justificativa do problema}{14}
+\contentsline {section}{\numberline {1.2} Motiva\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {section}{\numberline {1.3} Objetivo Geral}{16}
+\contentsline {subsection}{\numberline {1.3.1} Objetivos Espec\IeC {\'\i }ficos}{16}
+\contentsline {section}{\numberline {1.4} Resultados Esperados}{16}
+\contentsline {chapter}{\numberline {2}Revis\IeC {\~a}o da Literatura}{17}
+\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{17}
+\contentsline {section}{\numberline {2.2}CRISP-DM}{17}
+\contentsline {subsection}{\numberline {2.2.1}Contexto de aplica\IeC {\c c}\IeC {\~a}o do CRISP -- DM}{18}
+\contentsline {subsection}{\numberline {2.2.2}Ciclo de vida do CRISP--DM}{19}
+\contentsline {section}{\numberline {2.3}Minera\IeC {\c c}\IeC {\~a}o de dados}{23}
+\contentsline {section}{\numberline {2.4}Tipos de Aprendizagem}{25}
+\contentsline {subsection}{\numberline {2.4.1}Aprendizagem de M\IeC {\'a}quina}{25}
+\contentsline {subsection}{\numberline {2.4.2}Aprendizagem Bayesiana}{25}
+\contentsline {subsection}{\numberline {2.4.3}Onde e o que aprender}{25}
+\contentsline {section}{\numberline {2.5}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{25}
+\contentsline {section}{\numberline {2.6}\IeC {\'A}rvore de Decis\IeC {\~a}o}{27}
+\contentsline {subsection}{\numberline {2.6.1}Tipos de \IeC {\'A}rvores de decis\IeC {\~a}o}{27}
+\contentsline {section}{\numberline {2.7}Regress\IeC {\~a}o}{27}
+\contentsline {subsection}{\numberline {2.7.1}Tipos de regress\IeC {\~a}o aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}{27}
+\contentsline {subsection}{\numberline {2.7.2}Regress\IeC {\~a}o Linear}{27}
+\contentsline {subsection}{\numberline {2.7.3}Regress\IeC {\~a}o Log\IeC {\'\i }stica}{27}
+\contentsline {section}{\numberline {2.8}Redes Neurais}{29}
+\contentsline {subsection}{\numberline {2.8.1}Introdu\IeC {\c c}\IeC {\~a}o}{29}
+\contentsline {subsection}{\numberline {2.8.2}Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{30}
+\contentsline {subsection}{\numberline {2.8.3}Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{32}
+\contentsline {subsection}{\numberline {2.8.4}Aprendizado em Redes Neurais}{34}
+\contentsline {subsection}{\numberline {2.8.5}Retropropaga\IeC {\c c}\IeC {\~a}o e o Erro m\IeC {\'e}dio quadr\IeC {\'a}tico}{36}
+\contentsline {section}{\numberline {2.9}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{36}
+\contentsline {subsection}{\numberline {2.9.1}Coeficiente de Gini para dados socio-econ\IeC {\^o}micos}{37}
+\contentsline {section}{\numberline {2.10}Redes sociais}{38}
+\contentsline {subsection}{\numberline {2.10.1}O Twitter}{38}
+\contentsline {subsection}{\numberline {2.10.2}Data Mining - Text Data Mining}{45}
+\contentsline {section}{\numberline {2.11}Cibern\IeC {\'e}tica: aspectos introdut\IeC {\'o}rios}{46}
+\contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{47}
+\contentsline {section}{\numberline {3.1}Modelo Proposto}{48}
+\contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{49}
+\contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{50}
+\contentsline {section}{\numberline {3.4}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo a posteriori}{50}
+\contentsline {section}{\numberline {3.5}Arco cibern\IeC {\'e}tico com dados do Twitter}{53}
+\contentsline {section}{\numberline {3.6}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{53}
+\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{54}
+\contentsline {section}{\numberline {4.1}O modelo proposto}{54}
+\contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{56}
+\contentsline {subsection}{\numberline {4.2.1}Entendo e validando os dados de entrada -- input}{56}
+\contentsline {subsection}{\numberline {4.2.2}Base da PRF -- acidentes}{56}
+\contentsline {subsection}{\numberline {4.2.3}Base da PRF -- interdi\IeC {\c c}\IeC {\~o}es}{58}
+\contentsline {subsection}{\numberline {4.2.4}Base do IBGE}{58}
+\contentsline {subsection}{\numberline {4.2.5}DataSUS}{58}
+\contentsline {section}{\numberline {4.3} As vari\IeC {\'a}veis do modelo preditivo}{58}
+\contentsline {section}{\numberline {4.4}Acoplamento com a estrutura din\IeC {\^a}mica}{59}
+\contentsline {section}{\numberline {4.5}Casos de teste do modelo preditivo}{60}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{61}
+\contentsline {section}{\numberline {5.1}Discuss\IeC {\~a}o}{61}
+\contentsline {section}{\numberline {5.2}Trabalhos futuros}{61}
+\contentsline {chapter}{\numberline {A}Preprocessamento}{62}
+\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{62}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{65}

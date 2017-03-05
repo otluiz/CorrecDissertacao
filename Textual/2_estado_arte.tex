@@ -273,9 +273,6 @@ Para ``aprender'' sobre uma determinada função \textit{f} definimos uma amostr
 
 
 
-
-
-
 As técnicas algorítmicas apresentadas nas seções subsequentes são parte da grande família de algorítimos que compõem 
 o aprendizado de máquina aplicado a mineração de dados.
 
@@ -304,7 +301,7 @@ Sistemas que executam tarefas de inteligência artificial tais como Reconhecimen
 outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
 
 
-\subsection{Aprendizagem Bayesina}
+\subsection{Aprendizagem Bayesiana}
 
 
 
@@ -773,11 +770,14 @@ A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr 
 
 \section{Redes sociais}
 
-As redes sociais são um arcabouço de informações sobre todo tipo de assunto vivenciado no cotidiano das pessoas, inclusive situações que dizem respeito ao nosso ambiente de pesquisa.
-O cenário abaixo, encontrado numa rede social, exemplifica a sequência de informações retiradas do Twitter, um microblog onde os usuários escrevem num pequeno espaço (cerca de 140 caracteres), 
-os mais diversos assuntos, e os usuários conectam por uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. 
-A ideia inicial do Twitter, segundo seus fundadores, era que essa rede se comportasse como um ``SMS da Internet'' \cite{Twitter2015}. 
-As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las.
+Introdução ao estudo das Redes Sociais
+
+As redes sociais têm assumido, nos dias atuais, um papel essencial na vida de seus usuários. Não apenas como espaço de descontração, mas, sobretudo, como lugar de troca de informações que permitam, dentre outras coisas, tomar conhecimento acerca dos acontecimentos, sejam eles locais ou globais, que influenciarão sua vida. De modo particular, nos grandes centros urbanos, as redes sociais têm servido de fonte de conhecimento acerca de segurança pública, mobilidade urbana e acontecimentos de toda sorte, que possam fazer com que, por exemplo, uma pessoa resolva seguir um ou outro caminho para chegar a um determinado lugar, quer seja ele próximo ou distante de onde se encontre.
+Além da troca de informações momentâneas, as redes sociais permitem uma atualização praticamente em tempo real, a partir da utilização de seus usuários e de instituições que também dela fazem uso (por exemplo, a Polícia Rodoviária Federal), de modo que possibilita que decisões sejam tomadas e reorientadas, em virtude da alimentação das informações nas redes.
+No que diz respeito às escolhas relacionadas ao trânsito, sejam essas escolhas relativas as áreas urbanas, bem como a centenas de quilômetros adiante, pelo interior de um estado, por exemplo, cada vez mais as pessoas não tomam decisões sem antes consultar aplicativos e redes sociais tais como o waze, twitter, facebook, ou até mesmo dispõem, em seus aparelhos celulares, de GPS, Google Maps e outras fontes que lhe orientem sobre melhores rotas, que levem com maior rapidez e segurança ao seu destino.
+Se pensarmos no transporte de cargas, como tanto já referimos nesse trabalho, a principal função das redes sociais não é de caráter lúdico, mas, sim, como uma ferramenta essencial para que não haja qualquer contratempo que possa causar prejuízo à empresa ou empresas envolvidas, afinal de contas, no que tange ao transporte de mercadorias, sempre há pelo menos duas empresa relacionadas: a de produção do bem e a de transporte do mesmo ao seu destino. 
+O que discutimos até agora é amplamente sabido por aqueles que analisam o uso das redes sociais na atualidade. O que pretendemos, então, é trazer uma contribuição de natureza científica a essa compreensão e à utilização de forma cada vez mais eficaz dessas ferramentas, a partir do uso da IA, da mineração de dados e dos métodos de extração e produção de conhecimentos (KDD).
+
 
 "Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
 
@@ -798,36 +798,90 @@ As informações são enviadas aos usuários, conhecidas como twittes, em tempo 
 \end{tabular}
 \end{table}
 
+
+
+\subsection{O Twitter}
 ------------------
-Artigo ``Library \& Information Science Research''
-
-Introdução
-Usuários de redes sociais gastam uma quantidade de tempo crescente a cada ano. 
-Estes partilham informações, conhecimento e atividade de lazer (i.e. jogos).
-Neste paper descobriu-se que mais de 70\% dos adultos que estão on-line utilizam redes sociais, 20\% desses utilizam o Twitter, 46\% visitaram diariamente e desses 29\% o fizeram mais de uma vez ao dia (Duggan \& Smith, 2013).
-Another Pew num relatórios mostrou que o Twitter está ranqueado entre as três maiores plataformas de mídias sociais (após o Facebook e o Youtube). Nos EUA 8\% dos adultos entre 18 e 29 anos o Twitter está ranqueado a frente do Facebook e Youtube, com 45\% dos adultos de outras idades nos EUA. O principal item de consumo são: notícias (Mitchell \& Page, 2013). Num dia normal o Twitter possui mais de 230 milhões de usuários que produzem cerca de 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014)
-
-
-Revisão da Literatura
-Blogs são sistemas de compartilhamento de informações baseados na Web, com conteúdo postados  em ordem cronologicamente (Hering, Scheid, Bonus \& Wright, 2004).
-Twitter é um sistema de microblog que está restrito ao tamanho do conteúdo entrado (postado) em 140 caracteres. Adicionalmente o Twitter  provê a capacidade de usuários poderem seguir outros usuários, partilhar com eles conteúdos e conversação (Twitter, 2014).
-Relevantes literaturas examinam conteúdos de tweets de amostras de usuários do Twitter. Heneycutt e Hering (2009) identificaram 11 catagorias de conteúdo dos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (talvez auto-ajuda), informações para outros, informações para si próprio, meta comentários, uso de mídia, expressar opinião, outras experiências, auto experiência, e solicitação de informações. 
-Para Naaman, Boase e Lai (2010) a tipologia de conteúdo inclui-se em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora, (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
-André, Berstein e Luther (2012) adaptaram a tipologia de Naaman et al. para avaliar o relacionamento entre categorias de tweet e o valor para os usuários numa amostra geral de usuários do Twitter e tweets. A tipologia adaptada incluiu categorias de seguidos: perguntas para os seguidores, informações partilhadas, auto promoção, ideias aleatórias, opinião, eu agora (me now), conversação e manutenção de presença.
-Na Cientometria e Bibliometria contar citações são frequentemente usados para avaliar o impacto de uma publicação; escolar, centro de pesquisas ou instituições (i.e. Adkins \& Budd, 2006; Cronin \& Overfelt, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Posteriormente, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles, foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008;  Hinnant el al., 2012; Stivilia et al., 2011).
-Na Web o número de citações (i.e. links de URL) e a estrutura dos links são usadas pelas “engenhocas de pesquisas”(poderia ser traduzido como moteres de busca, ex: o google) para identificar a importância ou autoridade de websites (Brin \& Page, 1998), similarmente o número de seguidores, menções a usuários e retweets fora usados para avaliar a influência ou impacto dos usuários do Twitter e tweets. 
-No Twitter, a conexão entre os usuários da rede social são estabelecidas pelos seguidores e os seguidos pelos links . Indo além, a habilidade do seguidor para retweetar os usuários seguido serve de principal mecanismo de espalhar informações através dessas redes. 
-Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter analisando o número de retweets, menções e seguidores. Através disso, no geral eles encontraram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, baseados no grau do link (i.e. número de seguidores), o número de seguidores não está relacionado com o número de retweets ou número de menções. André et al. (2012) usou a abordagem “crowdsourcing” para identificar os tipos de tweets dos usuário do Twitter que gostam e não gostam. Eles encontraram que os usuários preferem perguntar aos seguidores, partilhar informações e auto promoção. Os usuários não tem preferido os tweets categorizados como: manutenção de presença, conversações e atualizações do “status” corrente do usuário.
-Suh, Hong e Chi (2010) encontraram uma correlação positiva entre a presente URL de um tweet e a probabilidade de um retweet. Adicionalmente eles encontraram relações positivas entre o número de usuários seguidos e seguido pela probabilidade de retweet, embora com tamanho de efeito muito pequeno.
-
-Artigo “A Text Mining Analysis of Academic Libraries Tweets”
-
-
-Introdução
-Aplicações de mídia sociais tem cada vez mais sido adotadas pelo marketing das bibliotecas com recursos e serviços (Collins \& Quan-Haase, 2014) para incrementar os relacionamentos entre seus  clientes. Ele permite “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72). Bibliotecas acadêmicas estão adotando as mídias sociais e essa prática tem mudado dramaticamente como elas interagiam com os usuários (Del Bosque, Leif e Skaf, 2012). Por exemplo o Twitter pode criar um relacionamento forte com os clientes (Cavanagh, 2015) isto é “usado” como alternativa para um canal de comunicação e bem utilidade social para formar uma conexão personalizado com os usuários (Boaten \& Quan, 2014).
-Nessa veia as bibliotecas academicas tem vindo proativamente responder às mudanças envolvendo tecnologia (Shulman, Yep e Tomé, 2015)….
-
+A ideia inicial do Twitter, segundo seus fundadores, era que essa rede se comportasse como um ``SMS da Internet'' \cite{Twitter2015}. 
+As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las.
 -------------------------------
+Twitter, Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
+dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam a sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
+O Twitter se caracteriza como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON. Os dados são capturados nesse formato. (A FONTE É BIG SOCIAL DATA: PRINCÍPIOS SOBRE COLETA, TRATAMENTO E ANÁLISE DE DADOS SOCIAIS). A cada dia centenas de terabytes são inseridos no Hadoop data warehouse.
+A ideia inicial do Twitter, segundo seus fundadores, era de que essa rede se comportasse como um “SMS da Internet” (30). As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las. A conexão entre os usuários da rede social se deve à relação entre os seguidores e os seguidos. O comportamento do seguidor para retweetar os usuários seguido serve como principal mecanismo para espalhar informações nessas redes.
+
+Analisar o conteúdo e minerar textos é um procedimento frequentemente utilizado em pesquisas envolvendo redes sociais, para realização de análise de texto dos usuários em geral e como suporte para tomada de decisão (Abrahams, Fan, Wang, Zhang \& Jiao, 2015). É comum, ainda, aplicar mineração de textos em bibliotecas e outras instituições. Isso implica em rastrear tópicos, extrair informações, agrupar, categorizar (Fan, Wallace, Rich e Zhang, 2006). 
+Em recente artigo, Sandhu (2015) indicou a importância do aprendizado sobre mineração de dados e ferramentas de Big Data para as bibliotecas acadêmicas, de forma a melhorar a eficiência da biblioteca e os serviços de informação. Similarmente Zhang e Gu (2011) alegaram que minerar conhecimento sobre os clientes é importante para as bibliotecas acadêmicas.
+A abordagem da mineração de textos para os dados das mídias sociais tem sido utilizada em muitos campos, como negócios, ciência da saúde (Sarker et al., 2015) ciência política. O uso da abordagem de mineração de textos está a ser aplicada na literatura sobre biblioteca e Ciência da Informação. Zang e Gu (2011) analisaram a aplicação da mineração de textos nos dados das redes sociais.
+
+Estudos atuais têm mostrado o papel da análise sentimental e mineração de opinião nas redes sociais, em particular no Twitter, como forma de investigar padrões de comportamento Twitter as a Corpus for Sentiment Analysis and Opinion Mining Alexander, 2010 Sentiment Analysis on Twitter, Akshi Kumar and Teeja Mary Sebastian, 2012)
+
+
+—————— Artigo “Library \& Information Science Research” 
+Outro estudo (FONTE) aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia. (Duggan \& Smith, 2013). Um relatório publicado em 2014 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube (Another Pew). Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede (Mitchell \& Page, 2013). Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014) 
+Heneycutt e Hering (2009) identificaram 11 categorias de conteúdo propagados nos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (que traduzimos aqui como “auto-ajuda”), informações para outros, informações para si próprio, meta comentários, uso de mídia, opinião, outras experiências, auto experiência, e solicitação de informações. Naaman, Boase e Lai (2010), por sua vez, classificaram os conteúdos em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
+
+No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. Adkins \& Budd, 2006, Cronin \& Overflet, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles, foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o google) com o objetivo de identificar a relevância e acetiação de wrbsites (Brin \& Page, 1998), em decorrência do número de seguidores, da quantidade de menções feitas, de retweets, por exemplo.
+
+
+LENDO TODOS OS TWEETS PARA TRÁS OU MONITORAR OS CANAIS DO TWEETER, NO MÁXIMO 100 CANAIS. MAIS DO QUE ISSO A PESSOA É DESCONECTADA (ANÁLISE DE SENTIMENTO (SENTIMENTAL ANÁLISE). 
+COLOCA SE É POSITIVO OU NEGATIVO. (FONTE)
+
+SOBRE A “CARINHA” - É FÁCIL FAZER, MAS NÃO DÁ CONTA DO CONTRADITÓRIO OU SUBJETIVO. (FONTE)
+
+Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter, analisando o número de retweets, menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). Em outro estudo, André et al. (2012) utilizaram a abordagem “crowdsourcing” para identificar que tipo de tweets chamam atenção e são os preferidos dos seguidores, como também, os que são mais rejeitados. Eles encontraram uma preferência dos usuários em fazer perguntas aos seguidores, bem como em partilhar informações e autopromoção (que acreditamos que diz respeito a algo como falar de si próprio, de seus sentimentos, percepções e ideias). Os usuários, por outro lado, demonstram não ter preferência por tweets categorizados como: manutenção de presença, conversações e atualizações do “status” corrente do usuário. 
+
+
+Modalidades e ferramentas de análise do Twitter 
+
+Nesse tópico abordaremos, em maior detalhe, as escolhas metodológicas e ferramentas analíticas utilizadas em estudos que levam em conta dados do twitter, apresentando alguns dessas pesquisas.
+Do ponto de vista metodológico ……….
+
+Na pesquisa conduzida por Suh, Hong e Chi (2010), eles encontraram uma correlação positiva entre a existência de uma URL de um tweet e a probabilidade de que aconteça um retweet. 
+Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 tweets recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual NÃO ENTENDI ISSO, AMOR… É DO PERCENTUAL DE PROFESSORES??? da Academia. 
+Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os retweets foram retirados das amostras. Também foram removidos da amostra os tweets com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum tweet (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos tweets. Com isto, a amostra foi reduzida de 1200 para 752 tweets que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 tweets analisados, 271 apresentavam pelo menos um retweet, e 131 receberam um “favorito”.  Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres. REESCREVER
+
+Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) tweets, seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de tweets normalmente distribuídas. Consequentemente métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
+O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de retweets e o número de menções a usuários, sugerindo que tweets com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. 
+O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
+Em outro artigo que também se interessou por conteúdos de natureza mais acadêmica, conduzido por FULANO E CICRANO (ANO???), os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72 NÃO ESQUECER DE COLOCAR ESSA FONTE. ELA É DESSE ARTIGO QUE VOCÊ LEU?). Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes (Del Bosque, Leif e Skaf, 2012; Cavanagh, 2015), tendo sido utilizado frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários (Boaten \& Quan, 2014). 
+A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os tweets da biblioteca acadêmica. 
+
+
+Abraham et al., 2015 
+
+Stieglitz \& Dang-Xuan, 2013 
+
+O corpus de dados desta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos Twittes desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com) em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, e a seleção restringiu-se às universidades de língua inglesa e a apenas uma biblioteca, para o caso de a universidade ter mais que uma (no artigo original é a tabela 1). As informações relevantes dos tweets, utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; 
+data que se “juntou” ao Twitter. NÃO ENTENDI O QUE ISSO QUER DIZER
+Na etapa de preprocessamento -- ``dataset prepocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como Ralston, O'Neil, Wigmore e Harrison (2014) e Yoon, Elhadad e Bakken (2013). O processo contempla a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado),
+ e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
+Para análise do conjunto de dados, utilizou-se a mineração em textos e para analisar os históricos de tweets da bibliotecas escolheu-se a análise de conteúdo. A frequência dos tweets, retweets e distribuição dos tweets e retweets foi identificado e contabilizado. Em seguida, os tweets marcados com o PamTaT, uma ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Poderia colocar essa observação numa nota de 
+rodapé). O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natural language processing framework'' (Bird, Loper \& Klien, 2009) e permite a análise de grande volume de textos pelos usuários finais, não necessitando de conhecimento de programação da linguagem Python. O PamTaT para serve para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. Também foi utilizado o Harvard General Inquirer (Stone et al. 1966) para análise semântica e sentimental dos tweets. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificou duas centenas de palavras incluindo, por exemplo: como positivo, negativo, relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante.
+Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
+
+ Imagem tabela 1 do twitter
+ 
+Observa-se que foi incluído o número de tweets; a quantidade de usuários seguidos pela biblioteca; a quantidade de seguidores e o número de tweets favoritos da biblioteca. A Universidade Johns Hopkins, como se pode observer na tabela, tem o maior número de
+tweets, seguida pela biblioteca da Stanford University e biblioteca da Cambrige University, respectivamente. A biblioteca da Universidade da Califórnia San Diego tem a conta do Twitter mais antiga (maio de 2008), mas apresenta um pequeno número de tweets,
+comparativamente à biblioteca da Stanford University, que começou no Twitter com uma conta em abril de 2012, mas possui o segundo
+ maior número de tweets. A análise estatística da tabela segue comparando esses dados, e por ser visto no artigo aqui referendado.
+ A tabela 2, por sua vez, apresenta as menções, hashtags, e retweets das bibliotecas.
+
+A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando a frequência de unigramas (palavras únicas) observou-se (fig. 4), que a palavra mais frequente foi “open”, utilizada em uma variedade de contextos pelos tweets da biblioteca. Por exemplo: foi usada em um anúncio sobre a mudança do horário de funcionamento, bem como anúncio para abertura do espaço para os estudantes, exposições, abertura da casa (biblioteca), etc. O segundo termo mais frequente foi “research” (pesquisa), que foi usado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos tweets sobre os recursos da biblioteca. Tais termos foram incluidos em tweets realcionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”. 
+
+ Imagem tabela 2 do twitter
+ 
+ Imagem tabela 3 do twitter
+
+A fig-5, por sua vez, mostra a distribuição dos bigramas (sequência de duas palavras) no conjunto de tweets. Observa-se que o mais frequente bigrama foi “special collections”.
+O segundo mais popular bigrama é “open access”, que foi usado em diferentes contextos tal como política de acesso, publicidade, recursos, trenamentos e workshops, dicas e orientação, serviços, eventos e notícias. O resultado mostrou a enfase colocada na iniciativa de promover “open access” com as instituições acadêmicas. 
+O terceiro maior bigrama foi “reading room”, relative à atividade de suporte aos estudantes com as instituições acadêmicas. As salas são um dos mais importantes espaços da biblioteca, usadas para leitura e estudo. Os tweets são tipicamente relados para noticias da abertura e fechamento das salas de letura “reading rooms”. 
+A fig-6 mostra os mais importantes trigramas (sequência de três palavras), dos quais destacou-se o trigrama “save the date”. Essa expressão é utilizada para requerer especial atenção dos seguidores para os eventos importantes que estavam para acontecer. Este trigrama é seguido, como o Segundo que mais aparece, por “pleased to announce”, outra expressão usada para enfatizar a importância de eventos especiais. O terceiro mais usado foi “open access week” (seguido muito próximo por “open access policy”) que novamente destaca os esforços na iniciativa de espaço aberto (open access) 
+
+ Imagem tabela 4 do twitter
+ 
+
 
 A seguir pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal de Santa Catarina:
 
@@ -837,7 +891,7 @@ A seguir pode-se verificar uma sequência de twittes da Polícia Rodoviária Fed
 \subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}
 \end{figure}
 
-A Polícia Rodoviária Federal de Santa Catarina, disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
+A Polícia Rodoviária Federal, disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
 num espaço temporal variado, por exemplo: entre Itajaí e Balneário Camboriú o transito está intenso. Isso sugere que a frota de caminhões deva ter uma
 rota alternativa caso a situação persista por muito tempo. No primeiro twitte da segunda coluna, é informado em Via Expressa (BR 282) que o trânsito está lento com 
 velocidade de 20km/h (praticamente congestionado). Essa informação sugere que deve ser pensada uma rota alternativa, caso o congestionamento persista por muito tempo.
@@ -851,7 +905,7 @@ Outro problema levantado com o waze é que, caso não haja conexão à Internet 
 Além dos dados que chegam ao \textit{Big Data} através das redes sociais, as grandes cidades têm disponíveis câmeras de monitoramento do trânsito nos semáforos ou próximas a eles; 
 algumas com cobertura por canais de televisão bem como câmaras de segurança próximos às rodovias, coletando informações em tempo real. 
 Os dados desses dispositivos são gravados, sendo conhecidos como \textit{stream} de dados. 
-Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br dentre outros.
+Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br (acessado em 10/10/2016) dentre outros.
 
 Os dados disponibilizados pelos diversos meios de comunicação não estão em formato que possam ser utilizados imediatamente, precisando antes serem processados. 
 Tais dados não processados são conhecidos como ``dados frios''. O processo de tratar as informações, retirando-lhes o ``lixo'' e transformando dados ``frios'' em dados 
