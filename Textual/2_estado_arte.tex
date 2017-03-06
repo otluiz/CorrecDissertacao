@@ -52,8 +52,8 @@ A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicaç�
 		  & \textbf{aplicação}  & \textbf{Problema} & \textbf{técnico}  & \textbf{e Técnicas}   \\ \hline
 \textbf{Exemplo}  & Modelo de           & Descrição e       & Dados             & Clementine  \\
                   & resposta            & sumarização       & faltantes         &             \\ \hline
-      --- 	  & Predição            & Segmentação       & \textit{Outlies}  & MineSet     \\
-         	  & agitada             &                   &                   &             \\ \hline
+      --- 	      & Predição            & Segmentação       & \textit{Outlies}  & MineSet     \\
+         	      & agitada             &                   &                   &             \\ \hline
       ---         & ---                 & Descrição do      & ---               & Árvore de   \\
                   &                     & conceito          &                   & decisão     \\ \hline
       ---         & ---                 & Classificação     & ---               & ---         \\ \hline
@@ -62,6 +62,7 @@ A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicaç�
                   &                     & dependências      &                   & \\            
 \\
 \end{tabular}
+\\
 \tiny Fonte: CRISP-DM -- 1.0
 \end{table}
 
@@ -120,9 +121,9 @@ do processo, determinar os objetivos e traçar um plano para execução. Essas e
 
 \vspace{0.5cm}
 
-Em seguida, o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Nessa fase o analista ``olha'' para os dados com a acurácia de um especialista, 
-procurando identificar qualidade nos dados. Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
-um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados. 
+Em seguida, o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
+Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
+um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados, estima-se cerca de 80\% do tempo total. 
 
 \begin{figure}[!ht]
 \centering
@@ -132,12 +133,16 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
-\vspace{0.5cm}
+%\vspace{0.5cm}
+\pagebreak
+
 
 A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção final do conjunto de dados. 
 Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
+Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
+Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. A entropia condicional, formalizada na equação seguinte, é a entropia restante dos atributos de $Y$ no valor $y$ quando o atributo $X$ é dado como $X$ \cite{DecisionTree}:
+$ H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y}P(y|x)log_{2}P(y|x) $.
 
-\pagebreak
 
 \begin{figure}[!ht]
 \centering
@@ -147,7 +152,7 @@ Preparar os dados significa criar e selecionar atributos, criar tabelas ou plani
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
-\vspace{0.5cm}
+\vspace{0.9cm}
 
 Na quarta fase, \textbf{Modelagem de I.A.}, a tecnologia deve ser escolhida de forma criteriosa, baseada na experiência do analista de dados. 
 Em sistemas de suporte à decisão, uma tecnologia inadequada pode levar a decisões imprecisas. É comum retornar às fases anteriores para adequar a técnica aos dados. 
@@ -161,7 +166,8 @@ Um modelo de regressão logística para problemas binários, redes neurais para 
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
-\vspace{0.5cm}
+%\vspace{0.5cm}
+\pagebreak
 
 Na fase cinco, \textbf{Avaliação de desempenho}, um ou muitos modelos devem ter sido construídos e testados, 
 de forma que seja possível atingir uma alta qualidade do ponto de vista da análise dos dados, ou seja, que o 
@@ -176,7 +182,7 @@ do modelo, os passos executados até então sejam avaliados e revistos.
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
-%\pagebreak
+\pagebreak
 
 A sexta e última fase, caracteriza-se pela conclusão do modelo. No entanto a criação do modelo não é o fim do processo.
 O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
@@ -190,11 +196,7 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
-
-\pagebreak
-
 %\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
-
 
 \pagebreak
 
@@ -227,7 +229,6 @@ Na figura a seguir temos a ilustração desse caminho:
 \caption{Fases da mineração de dados até extração do conhecimento}
 \includegraphics[width=135mm, height=65mm]{Figuras/BigData/FayyadSemFundo.png}
 \end{figure}
-
 
 
 A origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Data'' este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
@@ -301,8 +302,29 @@ Sistemas que executam tarefas de inteligência artificial tais como Reconhecimen
 outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
 
 
+\subsection{Naïve Bayes}
+
+Naïve Bayes é uma classe de algoritmos baseado no teorema da probabilidade condicional de Bayes, serve para rotular classes de variáveis independentes. Em mineração de dados variáveis independentes explicam a variável dependente para fazer predição. Este classificador tem sido muito empregado para classificar documentos e detectar spam em mensagens \cite{bibid}. A probabilidade condicional pode ser explicada por um vetor $x = (x_{1}, x{2}, ..., x{n})$ que se representa \textit{n} características (variáveis independentes) que se atribui a estas instâncias de probabilidades $p(C_{k}|x_{i},...,x_[n])$ para cada \textit{K} possível ter vindo da classe $C_[k]$. Aplicando o teorema de Bayes da probabilidade condicional temos:
+
+\begin{equation}
+p(C_{k}|x) = \frac{p(_{k})p(x|C_{k})}{p(x)}
+\end{equation}
+
+Em outras palavras, a medida que se conhece os resultados das probabilidades pode-se predizer os novos resultados porque o conjunto de testes torna-se menor. A probabilidade condicional também pode ser entendida como:
+
+\begin{equation}
+p(posteriori) = \frac{p(priori) * verossimilhança}{evidência}
+\end{equation}
+
+
 \subsection{Aprendizagem Bayesiana}
 
+Baseado no teorema de Bayes, dado um conjunto de variáveis aleatórias $\omega = {x_{1}, x_{2},..,x_{n}}$ a variável aleatória \textit{H} (hipótese) denota o tipo de $\omega$, com valores possíveis para $h_{1}, h{2},...,h_{n}$. A medida que são inspecionadas as variáveis, são revelados os dados $D_{1}, D_{2},...,D_{n}$, onde $D_{i}$ é uma variável aleatória com valores possíveis para cada variável do conjunto $\omega$ de variáveis. Sendo D a representação dos dados do espaço de variáveis para uma predição sobre a parte deconhecida de \textit{X}, temos:
+
+\begin{equation}
+P(h_{i}|d) = \sum_{i}P(X|d,h_{i})P(h_{i}|d) = \sum_{i}P(X|h_{i})P(h_{i}|d)
+\end{equation}
+ onde cada hipótese $h_{i}$ determina uma distribuição de probabilidades sobre a variável \textit{X} \cite{NorvigRussel2004}.
 
 
 \subsection{Onde e o que aprender}
@@ -399,32 +421,13 @@ Essa qualidade é utilizada para interpretar os resultados.
 
 \subsection{Tipos de regressão aplicadas a mineração de dados}
 
-((( incluir e explicar ao menos 3 tipos )))
+\color{red} {incluir e explicar ao menos 2 tipos } 
 
 \subsection{Regressão Linear}
+\color{blue} {\large{falta fazer}}
 
-\subsection{Regressão Logística}
-Regressão logística (linear, logística, ou outras) é uma técnica para analisar o relacionamento entre variáveis. No entanto, a regressão linear é utilizada para problemas de natureza
-contínua, sendo que a regressão logística é semelhante, contudo, a variável dependente não é contínua, é discreta ou categórica \cite{DecisaoCredito}.
+\color{black}
 
-A regressão logística está definida como o logarítmo a seguir:
-
-\begin{equation}
- log{\frac{\pi(x)}{1-\pi(x)}} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + ... + \beta_p x_p
-\end{equation}
-
-onde $\pi(x)$ é definido como:
-
-\begin{equation}
- \pi(x) = \dfrac{1}{1 + e^{-{\beta_0 + \beta_1 x_1 + \beta_2 x_2 + ... + \beta_p x_p}}}
-\end{equation}
-
-e $x_1, x_2,..., x_p$ são as variáveis a serem exploradas.
-
-
-A aplicação da regressão logística foi utilizada, pela primeira vez, com sucesso na oferta de crédito nos anos seguintes ao fim da 2ª guerra mundial, para tomar decisão 
-de oferecer crédito a terceiros \cite{RegrecaoLog}.
-A regressão logística é comumente aplicada para problemas de classificação binária (ou booleano).
 
 \pagebreak
 
@@ -727,6 +730,7 @@ também conhecida como matriz de confusão, descrita na tabela a seguir:
 \hline
    ---         & PP   PN &    ---         \\
 \end{tabular}
+\\
 \tiny Fonte: \cite{Bradley1997}
 \end{table}
 
@@ -746,6 +750,7 @@ A matriz da Tabela 2.3 sintetiza a matriz da Tabela 2.4, portanto as duas tabela
 \hline
    ---              & P(Y)           P($\bar{Y}$)         &     ---        \\
 \end{tabular}
+\\
 \tiny Fonte: \cite{Bradley1997}
 \end{table}
 
@@ -762,9 +767,9 @@ A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr 
 
 \pagebreak
 
-\subsection{Coeficiente de Gini para dados socio-econômicos}
+%\subsection{Coeficiente de Gini para dados socio-econômicos}
 
-\pagebreak
+%\pagebreak
 
 
 

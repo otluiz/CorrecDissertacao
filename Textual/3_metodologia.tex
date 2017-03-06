@@ -11,51 +11,46 @@ Os utilizadores dessas redes sociais contribuem com muita informação relevante
 daqui a uma semana, a PRF de Pernambuco é outro contribuidor permanente; com seu canal no Twitter: @PRF191PE fornece diariamente informação das rodovias 
 além de dados estatísticos. 
 
-A monitoração de redes sociais é feita por Mineração de dados em textos conhecida como "Text Mining" (TM).
+A monitoração de redes sociais é feita por Mineração de dados em textos conhecida como ou Mineração em Textos ou "Text Mining" (TM).
 A TM a princípio foi executa somente no Twitter no canal PRF191PE. Agentes da PRF disseram que os protestos quando feitos dentro da lei
 devem ser informados à PRF, com dia e hora marcados antecipadamente.
 Para ter-se acesso aos twittes postados da PRF os usuários do canal, inclusive a própria PRF, postam comentários diretamente 
-por um navegador Twitter palavras chaves tais como: protestos, acidentes, paralisação.  a API do 
+na API do Twitter ou por um navegador. Para nossa pesquisa as palavras chaves tais como: protestos, acidentes, paralisação, são de suma importância.
 
-Uma vez capturadas e tratadas as informações desses ``feeds'' são analisados instantaneamente por algoritmos de I.A. 
-A técnica utilizada é o Processamento de Linguagem Natural (PLN). O algoritmo escolhido foi Naive Bayes por ser um classificador 
-rápido e eficiente e por ter sido utilizado na primeira fase em que foi como comparativo à Árvore de Decisão de simples implementação 
-poderão ser direcionadas a um banco de dados para o caso de novos estudos.
+Uma vez capturadas esses tweets são tratadas por Mineração em Textos e analisados instantaneamente por algoritmos de I.A. 
+A técnica utilizada para analise dos textos é o Processamento de Linguagem Natural (PLN). O algoritmo escolhido foi Naive Bayes por ser um classificador rápido e eficiente e por ter sido utilizado na primeira fase desta pesquisa, lá serviu como comparativo à Árvore de Decisão.
 
 
 
 \section{Modelo Proposto}
 
 A metodologia utilizada nessa pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes.
-A primeira etapa da nossa metodologia completa o ciclo todo do processo CRISP-DM, onde está o modelo preditivo e 
+A primeira etapa da nossa metodologia completa o ciclo todo do processo CRISP-DM, onde está o modelo classificativo, o preditivo e 
 a descoberta de conhecimento sobre o comportamento das rodovias estudadas. A descoberta de conhecimento sobre esses comportamento 
-nas rodovias tem a ver com o ``modus operandi'' dos utilizadores. A priori especulou-se sobre possíveis erros de traçados e outros que possam
+ tem a ver com o ``modus operandi'' dos utilizadores. A priori especulou-se sobre possíveis erros de traçados e outros que possam
 ser identificados pelos algoritmos de mineração empregados no processo.
 
 Os algoritmos escolhidos contemplaram algumas características especiais, tais como; robustez, tolerância à faltas (missing data),
 taxa de aprendizagem, e facilidade de interpretação dos dados processados. 
 
 No quesito tolerância à falas e facilidade de interpretação dos dados a Árvore de Decisão e o Naïve Bayes se destacaram por não necessitar
-de nenhum requisito extra para entender e interpretar os resultados[referencia].
+de nenhum requisito extra para entender e interpretar os resultados [referencia].
 
 No quesito robustez, tolerância à faltas e taxa de aprendizagem relativamente alta, as redes neurais artificiais (RNA), com a 
 topologia Perceptron multicamadas com retroalimentação ``backpropagation'' se destacaram. 
 As redes neurais têm capacidade de generalização e especificidade em modelos de previsão[referencia]. 
 
-A extrapolação do modelo preditivo ocorre quando este se integra à uma estrutura dinâmica a serem exibidas em mapas vetoriais, 
-dado um espaço temporal pré-determinado por um agente; o utilizador. 
+A extrapolação do modelo preditivo ocorre quando este se integra o modelo preditivo à uma estrutura dinâmica a serem exibidas em mapas vetoriais, dado um espaço temporal pré-determinado por um agente; o utilizador. 
+
 Através de API's os mapas vetoriais permitem a geolocalização dos pontos classificados ou os pontos onde haverá grande número de 
 retenções, conhecido no meio da logística de cargas como \textbf{gargalo}.
+
 A API do Google-Maps é o ``front end'', foi escolhida por permitir maior pela portabilidade e simplicidade para integração da estrutura
 dinâmica com a preditiva.
 
-Para a integração às redes sociais, foi escolhida a API do Twitter. Esta ``interface'' é simples de ser configurada e gera poucos dados; 
-o utilizador tem que ser eficaz ao publicar suas postagem em um espaço de 140 caracteres, isso facilita a forma como os dados são
-extraídos pela quantidade diminuta deles, bem como a quantidade conexões à Internet, contudo está rede social tem uma crescente quantidade
-de postagens no formato imagens, isso dificulta a mineração em textos.
-A API do Twitter tem a finalidade de integrar o modelo dinâmica dos mapas vetoriais às redes sociais. 
-Esta ``interface'' é responsável por fornecer ``input'' à terceira etapa, servindo de ``busca local'' das informações mais recentes das 
-redes sociais, relativas à trechos das rodovias; os ``feeds'' do Twitter (ou twetts) fornecem dados que serão minerados e interpretados à posteriori.
+Para a integração às redes sociais, foi escolhida a API do Twitter. Esta ``interface'' é simples de ser configurada. A quantidade de informações produzidas pelos utilizadores geram poucos dados, porém são eficazes; o utilizador tem que ser sucinto ao publicar suas postagem em um espaço de 140 caracteres, isso facilita a forma como os dados são extraídos pela quantidade diminuta, bem como a quantidade conexões à Internet, contudo esta rede social tem uma crescente quantidade de postagens no formato imagens, isso dificulta a mineração em textos.
+A API do Twitter tem a finalidade de complementar o modelo preditivo, contudo acrescenta um padrão dinâmico aos mapas vetoriais às redes sociais. 
+Esta ``interface'' é responsável por fornecer informações instantâneas à terceira etapa do modelo proposto, servindo de ``busca local'' das informações mais recentes das redes sociais, relativas à trechos das rodovias; os ``feeds'' da ``timeline'' do Twitter, os twetts fornecem dados que serão minerados e interpretados fornecendo informações instantâneas ao modelo proposto.
 
 A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 
@@ -76,11 +71,6 @@ dessas técnicas onde uma complementa outra como identificamos nos artigos de ZE
 POSSAS, BAV e CARVALHO (1998), e BESHAS e HILL (2010).
 
 
-
-são possíveis quando adaptadas para uma forma comparável à que
-foram inicialmente concebidas, por que as variáveis em uma base de dados a priori guardam pouca relação as variáveis de outra base de dados.
-neste caso essas variáveis ou são excluídas ou são transformadas a fim de ``guardarem'' um correlação com a outra base de dados. 
-
 Na fase de transformação de dados, da primeira etapa, onde são criadas novas variáveis, a proximidade entre as
 bases heterogêneas foi conseguido utilizando de regras de indução da lógica proposicional \cite{NorvigRussel2004}.
 Nesta pesquisa, bases heterogêneas foram integralizadas num única grande conjunto de dados o ``data set''. As variáveis desse ``data set''
@@ -94,16 +84,14 @@ A tabela a seguir descreve as variáveis originais na base de dados de acidentes
 
 O processo de descoberta do conhecimento iniciou-se com a coleta das bases de dados de acidentes da PRF. Optamos por coletar os dados dessa base diretamente na fonte,
 ou seja dos servidores da PRF. Esses dados nos foram cedidos após alguns procedimento burocráticos de praxe (ver anexos). Essa escolha foi motivada para tentar
-mitigar o problema da qualidade dos dados. No artigo ``Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias 
-federais para o processo de Mineração de Dados'' COSTA, BERNARDINI, LIMA et al (2012) destacam a não padronização e não aceitação dos dados pela 
-comunidade internacional. EAVES, D. (2009) sugere que os dados sejam disponibilizados na maneira como foram coletados.
+mitigar o problema da qualidade dos dados. No artigo ``Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias federais para o processo de Mineração de Dados'' COSTA, BERNARDINI, LIMA et al (2012) destacam a não padronização e não aceitação dos dados pela comunidade internacional. EAVES, D. (2009) sugere que os dados sejam disponibilizados na maneira como foram coletados.
 
-A PRF tem ao menos duas bases \footnote{Somente mencionamos bases de dados que foram interessantes à essa pesquisa.} de dados referentes às ocorrências 
-nas rodovias BRs. A base de acidentes rodoviários e a base de intervenções que ``guarda as ocorrências que paralisaram as rodovias, tais como:
-protestos ou paralisações dessa natureza, feitos pelas pessoas que vivem no entorno dessas rodovias.
+A PRF tem ao menos duas bases \footnote{Somente mencionamos bases de dados que interessaram à essa pesquisa.} de dados referentes às ocorrências nas rodovias BRs. A base de acidentes rodoviários e a base de intervenções que ``guarda as ocorrências que paralisaram as rodovias, tais como: protestos ou paralisações dessa natureza, feitos pelas pessoas que vivem no entorno dessas rodovias.
 
-As técnicas como Redes Neurais Artificias (MLP) \cite{DecisaoCredito}, Árvores de decisão (CART) \cite{DataMining}, Regressão logística (MLR) 
-\cite{RegrecaoLog} fornecem visão generalizada dos fatores preponderantes, levantando padrões ocultos nos dados. Esta fase é conhecida como 
+Para traçar um painel da diversidade das rodovias pernambucanas foi efetuado a priori uma classificação através do algoritmo Árvore de Decisão e comparado com o classificador Naïve Bayes. Mediu-se a acurácia dos classificadores comparando-se uma técnica algorítmica com a outra. A variável ``BRajustada'' mostrou ser a variável melhor para exprimir o nó rais da Árvore de Decisão porque classificou os dados com o menos número de falsos positivos e com o maior número de verdadeiros positivos, obtendo curvas ROC com índices acima de 0.90. O Naïve Bayes também obteve índices de acurácia próximos a este.
+
+As técnicas como Redes Neurais Artificias (MLP) \cite{DecisaoCredito}, Árvores de decisão (CART) \cite{DataMining},  
+ fornecem visão generalizada dos fatores preponderantes, levantando padrões ocultos nos dados. Esta fase é conhecida como 
 Aprendizagem de Máquina (acrônimo de Machine Learning)
 
 \begin{itemize}

@@ -10,26 +10,25 @@
 \contentsline {section}{\numberline {2.2}CRISP-DM}{17}
 \contentsline {subsection}{\numberline {2.2.1}Contexto de aplica\IeC {\c c}\IeC {\~a}o do CRISP -- DM}{18}
 \contentsline {subsection}{\numberline {2.2.2}Ciclo de vida do CRISP--DM}{19}
-\contentsline {section}{\numberline {2.3}Minera\IeC {\c c}\IeC {\~a}o de dados}{23}
-\contentsline {section}{\numberline {2.4}Tipos de Aprendizagem}{25}
-\contentsline {subsection}{\numberline {2.4.1}Aprendizagem de M\IeC {\'a}quina}{25}
-\contentsline {subsection}{\numberline {2.4.2}Aprendizagem Bayesiana}{25}
-\contentsline {subsection}{\numberline {2.4.3}Onde e o que aprender}{25}
-\contentsline {section}{\numberline {2.5}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{25}
-\contentsline {section}{\numberline {2.6}\IeC {\'A}rvore de Decis\IeC {\~a}o}{27}
-\contentsline {subsection}{\numberline {2.6.1}Tipos de \IeC {\'A}rvores de decis\IeC {\~a}o}{27}
-\contentsline {section}{\numberline {2.7}Regress\IeC {\~a}o}{27}
-\contentsline {subsection}{\numberline {2.7.1}Tipos de regress\IeC {\~a}o aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}{27}
-\contentsline {subsection}{\numberline {2.7.2}Regress\IeC {\~a}o Linear}{27}
-\contentsline {subsection}{\numberline {2.7.3}Regress\IeC {\~a}o Log\IeC {\'\i }stica}{27}
-\contentsline {section}{\numberline {2.8}Redes Neurais}{29}
-\contentsline {subsection}{\numberline {2.8.1}Introdu\IeC {\c c}\IeC {\~a}o}{29}
-\contentsline {subsection}{\numberline {2.8.2}Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{30}
-\contentsline {subsection}{\numberline {2.8.3}Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{32}
-\contentsline {subsection}{\numberline {2.8.4}Aprendizado em Redes Neurais}{34}
-\contentsline {subsection}{\numberline {2.8.5}Retropropaga\IeC {\c c}\IeC {\~a}o e o Erro m\IeC {\'e}dio quadr\IeC {\'a}tico}{36}
-\contentsline {section}{\numberline {2.9}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{36}
-\contentsline {subsection}{\numberline {2.9.1}Coeficiente de Gini para dados socio-econ\IeC {\^o}micos}{37}
+\contentsline {section}{\numberline {2.3}Minera\IeC {\c c}\IeC {\~a}o de dados}{24}
+\contentsline {section}{\numberline {2.4}Tipos de Aprendizagem}{26}
+\contentsline {subsection}{\numberline {2.4.1}Aprendizagem de M\IeC {\'a}quina}{26}
+\contentsline {subsection}{\numberline {2.4.2}Na\IeC {\"\i }ve Bayes}{26}
+\contentsline {subsection}{\numberline {2.4.3}Aprendizagem Bayesiana}{27}
+\contentsline {subsection}{\numberline {2.4.4}Onde e o que aprender}{27}
+\contentsline {section}{\numberline {2.5}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{27}
+\contentsline {section}{\numberline {2.6}\IeC {\'A}rvore de Decis\IeC {\~a}o}{29}
+\contentsline {subsection}{\numberline {2.6.1}Tipos de \IeC {\'A}rvores de decis\IeC {\~a}o}{29}
+\contentsline {section}{\numberline {2.7}Regress\IeC {\~a}o}{29}
+\contentsline {subsection}{\numberline {2.7.1}Tipos de regress\IeC {\~a}o aplicadas a minera\IeC {\c c}\IeC {\~a}o de dados}{29}
+\contentsline {subsection}{\numberline {2.7.2}Regress\IeC {\~a}o Linear}{29}
+\contentsline {section}{\numberline {2.8}Redes Neurais}{30}
+\contentsline {subsection}{\numberline {2.8.1}Introdu\IeC {\c c}\IeC {\~a}o}{30}
+\contentsline {subsection}{\numberline {2.8.2}Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{31}
+\contentsline {subsection}{\numberline {2.8.3}Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{33}
+\contentsline {subsection}{\numberline {2.8.4}Aprendizado em Redes Neurais}{35}
+\contentsline {subsection}{\numberline {2.8.5}Retropropaga\IeC {\c c}\IeC {\~a}o e o Erro m\IeC {\'e}dio quadr\IeC {\'a}tico}{37}
+\contentsline {section}{\numberline {2.9}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{37}
 \contentsline {section}{\numberline {2.10}Redes sociais}{38}
 \contentsline {subsection}{\numberline {2.10.1}O Twitter}{38}
 \contentsline {subsection}{\numberline {2.10.2}Data Mining - Text Data Mining}{45}

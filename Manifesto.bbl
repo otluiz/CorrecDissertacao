@@ -57,6 +57,19 @@ Dispon{\'\i}vel em:
 \emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
   1996.}
 
+\bibitem{NorvigRussel2004}
+\abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
+{RUSSEL, S.; NOVING, P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio
+  de Janeiro, 2004. 716--721~p.
+ISBN 8535211772.}
+
+\bibitem{DecisionTree}
+\abntrefinfo{{A. Srivastava} e Singh}{{A. Srivastava}; SINGH}{2015}
+{{A. Srivastava}, V.~K.; SINGH, N. {Review of Decision Tree Algorithm: Big Data
+  Analytics}.
+\emph{International Journal of Informative {\&} Futuristic Research}, v.~2,
+  n.~10, p. 3644--3654, 2015.}
+
 \bibitem{DataMining2}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
 {HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
@@ -185,17 +198,17 @@ Dispon{\'\i}vel em:
 \emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
 ISSN 00313203.}
 
+\bibitem{bigdataQualquerUm}
+\abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
+{JAGADISH H.~V., G. J. L.~A. P. Y. P.~J. M. R.~R.; SHAHABI, C. Exploring the
+  inherent technical challenges in realizing the potential of big data.
+\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+
 \bibitem{Twitter2015}
 \abntrefinfo{F E.~Williams e Glass}{F E.~WILLIAMS; GLASS}{2015}
 {F E.~WILLIAMS, B.~S. D.; GLASS, N. {Twitter}.
 July 2015.
 Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
-
-\bibitem{bigdataQualquerUm}
-\abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
-{JAGADISH H.~V., G. J.~L.~A. P. Y. P.~J. M. R.~R.; SHAHABI, C. Exploring the
-  inherent technical challenges in realizing the potential of big data.
-\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
 \bibitem{Maltez1991}
 \abntrefinfo{Maltez}{MALTEZ}{1991}
@@ -208,12 +221,6 @@ Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
 \emph{{A relev{\^{a}}ncia da cibern{\'{e}}tica}}.
 Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
   - USP, 2007.}
-
-\bibitem{NorvigRussel2004}
-\abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
-{RUSSEL, S.; NOVING, P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio
-  de Janeiro, 2004. 716--721~p.
-ISBN 8535211772.}
 
 \bibitem{DadosGoverno}
 \abntrefinfo{nada}{NADA}{2016}

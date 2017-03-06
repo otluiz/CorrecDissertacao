@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  5 MAR 2017 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  6 MAR 2017 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1593,14 +1593,14 @@ File: Figuras/BigData/RelacaoCrispKddDm.png Graphic file (type png)
 
 <use Figuras/BigData/RelacaoCrispKddDm.png>
 Package pdftex.def Info: Figuras/BigData/RelacaoCrispKddDm.png used on input li
-ne 83.
+ne 84.
 (pdftex.def)             Requested size: 256.0714pt x 113.80682pt.
  [18]
 <Figuras/BigData/CrispDM.png, id=94, 718.685pt x 531.9875pt>
 File: Figuras/BigData/CrispDM.png Graphic file (type png)
 
 <use Figuras/BigData/CrispDM.png>
-Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 100.
+Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 101.
 (pdftex.def)             Requested size: 284.52995pt x 213.39192pt.
 
 <Figuras/Cronograma/Entendimento.png, id=95, 714.67pt x 435.6275pt>
@@ -1608,7 +1608,7 @@ File: Figuras/Cronograma/Entendimento.png Graphic file (type png)
 
 <use Figuras/Cronograma/Entendimento.png>
 Package pdftex.def Info: Figuras/Cronograma/Entendimento.png used on input line
- 115.
+ 116.
 (pdftex.def)             Requested size: 341.43466pt x 213.39287pt.
  [19 <./Figuras/BigData/RelacaoCrispKddDm.png> <./Figuras/BigData/CrispDM.png>]
 
@@ -1617,7 +1617,7 @@ File: Figuras/Cronograma/EntendDados.png Graphic file (type png)
 
 <use Figuras/Cronograma/EntendDados.png>
 Package pdftex.def Info: Figuras/Cronograma/EntendDados.png used on input line 
-131.
+132.
 (pdftex.def)             Requested size: 341.44391pt x 213.39865pt.
  [20 <./Figuras/Cronograma/Entendimento.png> <./Figuras/Cronograma/EntendDados.
 png>]
@@ -1626,183 +1626,199 @@ File: Figuras/Cronograma/PreparaDados.png Graphic file (type png)
 
 <use Figuras/Cronograma/PreparaDados.png>
 Package pdftex.def Info: Figuras/Cronograma/PreparaDados.png used on input line
- 146.
+ 151.
 (pdftex.def)             Requested size: 341.44391pt x 256.07838pt.
 
 <Figuras/Cronograma/Model_IA.png, id=106, 665.48625pt x 404.51125pt>
 File: Figuras/Cronograma/Model_IA.png Graphic file (type png)
 
 <use Figuras/Cronograma/Model_IA.png>
-Package pdftex.def Info: Figuras/Cronograma/Model_IA.png used on input line 160
+Package pdftex.def Info: Figuras/Cronograma/Model_IA.png used on input line 165
 .
 (pdftex.def)             Requested size: 341.43454pt x 224.77797pt.
- [21 <./Figuras/Cronograma/PreparaDados.png> <./Figuras/Cronograma/Model_IA.png
->]
-<Figuras/Cronograma/Avaliacao.png, id=110, 665.48625pt x 314.17375pt>
+ [21 <./Figuras/Cronograma/PreparaDados.png>] <Figuras/Cronograma/Avaliacao.png
+, id=117, 665.48625pt x 314.17375pt>
 File: Figuras/Cronograma/Avaliacao.png Graphic file (type png)
 
 <use Figuras/Cronograma/Avaliacao.png>
-Package pdftex.def Info: Figuras/Cronograma/Avaliacao.png used on input line 17
-5.
+Package pdftex.def Info: Figuras/Cronograma/Avaliacao.png used on input line 18
+1.
 (pdftex.def)             Requested size: 341.43454pt x 184.93903pt.
-
-<Figuras/Cronograma/Inplantacao.png, id=111, 665.48625pt x 393.47pt>
+ [22 <./Figuras/Cronograma/Model_IA.png> <./Figuras/Cronograma/Avaliacao.png>]
+<Figuras/Cronograma/Inplantacao.png, id=121, 665.48625pt x 393.47pt>
 File: Figuras/Cronograma/Inplantacao.png Graphic file (type png)
 
 <use Figuras/Cronograma/Inplantacao.png>
 Package pdftex.def Info: Figuras/Cronograma/Inplantacao.png used on input line 
-189.
+195.
 (pdftex.def)             Requested size: 341.43454pt x 213.39522pt.
- [22 <./Figuras/Cronograma/Avaliacao.png> <./Figuras/Cronograma/Inplantacao.png
->]
-<Figuras/BigData/FayyadSemFundo.png, id=115, 798.985pt x 325.215pt>
+ [23 <./Figuras/Cronograma/Inplantacao.png>] <Figuras/BigData/FayyadSemFundo.pn
+g, id=125, 798.985pt x 325.215pt>
 File: Figuras/BigData/FayyadSemFundo.png Graphic file (type png)
 
 <use Figuras/BigData/FayyadSemFundo.png>
 Package pdftex.def Info: Figuras/BigData/FayyadSemFundo.png used on input line 
-228.
+230.
 (pdftex.def)             Requested size: 384.11801pt x 184.94771pt.
- [23 <./Figuras/BigData/FayyadSemFundo.png>]
+ [24 <./Figuras/BigData/FayyadSemFundo.png>] [25]
 
-LaTeX Warning: Citation `DecisionTree' on page 24 undefined on input line 248.
+LaTeX Warning: Citation `bibid' on page 26 undefined on input line 307.
 
-[24] [25]
-Overfull \hbox (327.20497pt too wide) detected at line 335
+
+LaTeX Warning: Command \c invalid in math mode on input line 316.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 316.
+
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ê in font cmr12!
+[26]
+Overfull \hbox (2.8992pt too wide) in paragraph at lines 322--323
+[]\T1/cmr/m/n/12 Baseado no te-o-rema de Bayes, dado um con-junto de va-riá-vei
+s ale-a-tó-rias $\OML/cmm/m/it/12 ! \OT1/cmr/m/n/12 = []$
+ []
+
+
+Overfull \hbox (5.02579pt too wide) in paragraph at lines 322--323
+\T1/cmr/m/n/12 a va-riá-vel ale-a-tó-ria \T1/cmr/m/it/12 H \T1/cmr/m/n/12 (hi-p
+ó-tese) de-nota o tipo de $\OML/cmm/m/it/12 !$\T1/cmr/m/n/12 , com va-lo-res po
+s-sí-veis para $\OML/cmm/m/it/12 h[]; h\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; :::;
+ h[]$\T1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (327.20497pt too wide) detected at line 357
 []
  []
 
 
-Overfull \hbox (321.51445pt too wide) detected at line 336
+Overfull \hbox (321.51445pt too wide) detected at line 358
 []
  []
 
 
-Overfull \hbox (241.84715pt too wide) detected at line 337
+Overfull \hbox (241.84715pt too wide) detected at line 359
 []
  []
 
 
-Overfull \hbox (199.16824pt too wide) detected at line 338
+Overfull \hbox (199.16824pt too wide) detected at line 360
 []
  []
 
-<Figuras/BigData/arvorejovem.png, id=134, 402.50375pt x 278.03876pt>
+<Figuras/BigData/arvorejovem.png, id=140, 402.50375pt x 278.03876pt>
 File: Figuras/BigData/arvorejovem.png Graphic file (type png)
 
 <use Figuras/BigData/arvorejovem.png>
-Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 349
+Package pdftex.def Info: Figuras/BigData/arvorejovem.png used on input line 371
 .
 (pdftex.def)             Requested size: 170.71481pt x 128.03937pt.
 
-<Figuras/BigData/redeneural.png, id=135, 448.67625pt x 255.95625pt>
+<Figuras/BigData/redeneural.png, id=141, 448.67625pt x 255.95625pt>
 File: Figuras/BigData/redeneural.png Graphic file (type png)
 
 <use Figuras/BigData/redeneural.png>
-Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 357.
+Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 379.
 
 (pdftex.def)             Requested size: 241.8434pt x 108.11797pt.
+ [27] [28 <./Figuras/BigData/arvorejovem.png> <./Figuras/BigData/redeneural.png
+ (PNG copy)>]
 
+LaTeX Warning: Citation `TeoriaInf' on page 29 undefined on input line 414.
 
-LaTeX Warning: Citation `DecisionTree' on page 26 undefined on input line 362.
-
-[26 <./Figuras/BigData/arvorejovem.png> <./Figuras/BigData/redeneural.png (PNG 
-copy)>]
-
-LaTeX Warning: Citation `TeoriaInf' on page 27 undefined on input line 392.
-
-[27] [28] <Figuras/Neural/Rosenblatt.png, id=151, 509.905pt x 198.7425pt>
+[29] <Figuras/Neural/Rosenblatt.png, id=154, 509.905pt x 198.7425pt>
 File: Figuras/Neural/Rosenblatt.png Graphic file (type png)
 
 <use Figuras/Neural/Rosenblatt.png>
-Package pdftex.def Info: Figuras/Neural/Rosenblatt.png used on input line 455.
+Package pdftex.def Info: Figuras/Neural/Rosenblatt.png used on input line 458.
 (pdftex.def)             Requested size: 256.08781pt x 85.36055pt.
 
-<Figuras/Neural/Adaline.png, id=152, 458.71375pt x 312.16624pt>
+<Figuras/Neural/Adaline.png, id=155, 458.71375pt x 312.16624pt>
 File: Figuras/Neural/Adaline.png Graphic file (type png)
 
 <use Figuras/Neural/Adaline.png>
-Package pdftex.def Info: Figuras/Neural/Adaline.png used on input line 468.
+Package pdftex.def Info: Figuras/Neural/Adaline.png used on input line 471.
 (pdftex.def)             Requested size: 241.85023pt x 113.80873pt.
- [29 <./Figuras/Neural/Rosenblatt.png>]
-[30 <./Figuras/Neural/Adaline.png>]
-<Figuras/Neural/camdasIntermediarias.png, id=162, 503.8825pt x 286.06876pt>
+ [30 <./Figuras/Neural/Rosenblatt.png>]
+[31 <./Figuras/Neural/Adaline.png>]
+<Figuras/Neural/camdasIntermediarias.png, id=165, 503.8825pt x 286.06876pt>
 File: Figuras/Neural/camdasIntermediarias.png Graphic file (type png)
 
 <use Figuras/Neural/camdasIntermediarias.png>
 Package pdftex.def Info: Figuras/Neural/camdasIntermediarias.png used on input 
-line 508.
+line 511.
 (pdftex.def)             Requested size: 256.0771pt x 142.26578pt.
 
-<Figuras/Neural/Perceptron.png, id=163, 513.92pt x 229.85875pt>
+<Figuras/Neural/Perceptron.png, id=166, 513.92pt x 229.85875pt>
 File: Figuras/Neural/Perceptron.png Graphic file (type png)
 
 <use Figuras/Neural/Perceptron.png>
-Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 527.
+Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 530.
 (pdftex.def)             Requested size: 256.07324pt x 113.81374pt.
- [31 <./Figuras/Neural/camdasIntermediarias.png> <./Figuras/Neural/Perceptron.p
-ng>] [32]
-<Figuras/Neural/pecepAdalin.png, id=172, 275.8305pt x 221.628pt>
+ [32 <./Figuras/Neural/camdasIntermediarias.png> <./Figuras/Neural/Perceptron.p
+ng>] [33]
+<Figuras/Neural/pecepAdalin.png, id=174, 275.8305pt x 221.628pt>
 File: Figuras/Neural/pecepAdalin.png Graphic file (type png)
 
 <use Figuras/Neural/pecepAdalin.png>
-Package pdftex.def Info: Figuras/Neural/pecepAdalin.png used on input line 596.
+Package pdftex.def Info: Figuras/Neural/pecepAdalin.png used on input line 599.
 
 (pdftex.def)             Requested size: 241.84773pt x 142.26414pt.
 
-<Figuras/Neural/MultiCamadas.png, id=173, 492.03825pt x 127.07475pt>
+<Figuras/Neural/MultiCamadas.png, id=175, 492.03825pt x 127.07475pt>
 File: Figuras/Neural/MultiCamadas.png Graphic file (type png)
 
 <use Figuras/Neural/MultiCamadas.png>
-Package pdftex.def Info: Figuras/Neural/MultiCamadas.png used on input line 605
+Package pdftex.def Info: Figuras/Neural/MultiCamadas.png used on input line 608
 .
 (pdftex.def)             Requested size: 312.98138pt x 199.18785pt.
 
-<Figuras/Neural/Recorrentes.png, id=174, 350.5095pt x 149.358pt>
+<Figuras/Neural/Recorrentes.png, id=176, 350.5095pt x 149.358pt>
 File: Figuras/Neural/Recorrentes.png Graphic file (type png)
 
 <use Figuras/Neural/Recorrentes.png>
-Package pdftex.def Info: Figuras/Neural/Recorrentes.png used on input line 620.
+Package pdftex.def Info: Figuras/Neural/Recorrentes.png used on input line 623.
 
 (pdftex.def)             Requested size: 284.53156pt x 184.95813pt.
 
-<Figuras/Neural/Kohone.png, id=175, 351.714pt x 180.07275pt>
+<Figuras/Neural/Kohone.png, id=177, 351.714pt x 180.07275pt>
 File: Figuras/Neural/Kohone.png Graphic file (type png)
 
 <use Figuras/Neural/Kohone.png>
-Package pdftex.def Info: Figuras/Neural/Kohone.png used on input line 630.
+Package pdftex.def Info: Figuras/Neural/Kohone.png used on input line 633.
 (pdftex.def)             Requested size: 284.54332pt x 184.9522pt.
- [33 <./Figuras/Neural/pecepAdalin.png (PNG copy)> <./Figuras/Neural/MultiCamad
-as.png (PNG copy)>] [34 <./Figuras/Neural/Recorrentes.png (PNG copy)> <./Figura
-s/Neural/Kohone.png (PNG copy)>] [35] [36]
-[37] [38]
-Overfull \hbox (3.98672pt too wide) in paragraph at lines 820--823
+ [34 <./Figuras/Neural/pecepAdalin.png (PNG copy)> <./Figuras/Neural/MultiCamad
+as.png (PNG copy)>] [35 <./Figuras/Neural/Recorrentes.png (PNG copy)> <./Figura
+s/Neural/Kohone.png (PNG copy)>] [36] [37]
+[38]
+Overfull \hbox (3.98672pt too wide) in paragraph at lines 825--828
 []\T1/cmr/m/n/12 ^^V^^V^^V^^V^^V^^V Ar-tigo ^^PLi-brary & In-for-ma-tion Sci-en
 ce Re-se-arch^^Q Ou-tro es-tudo (FONTE)
  []
 
 [39] [40] [41] [42]
-<Figuras/BigData/twittePRF.png, id=208, 581.17125pt x 485.815pt>
+<Figuras/BigData/twittePRF.png, id=207, 581.17125pt x 485.815pt>
 File: Figuras/BigData/twittePRF.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 889.
+Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 894.
 (pdftex.def)             Requested size: 170.71686pt x 136.5684pt.
 
-<Figuras/BigData/twittePRF2.png, id=209, 578.16pt x 497.86pt>
+<Figuras/BigData/twittePRF2.png, id=208, 578.16pt x 497.86pt>
 File: Figuras/BigData/twittePRF2.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF2.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 891.
+Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 896.
 
 (pdftex.def)             Requested size: 170.71451pt x 136.57387pt.
  [43] [44 <./Figuras/BigData/twittePRF.png (PNG copy)> <./Figuras/BigData/twitt
 ePRF2.png (PNG copy)>]
-<Figuras/BigData/Analise_Textos.png, id=216, 1301.86375pt x 1032.85875pt>
+<Figuras/BigData/Analise_Textos.png, id=215, 1301.86375pt x 1032.85875pt>
 File: Figuras/BigData/Analise_Textos.png Graphic file (type png)
 
 <use Figuras/BigData/Analise_Textos.png>
 Package pdftex.def Info: Figuras/BigData/Analise_Textos.png used on input line 
-928.
+933.
 (pdftex.def)             Requested size: 341.43645pt x 170.71378pt.
  [45 <./Figuras/BigData/Analise_Textos.png>]) [46]
 \openout2 = `Textual/3_metodologia.aux'.
@@ -1814,32 +1830,32 @@ Cap\'{\i }tulo 3.
 
 
 ] [48]
-<Figuras/Metodologia/metodologiaGeral.png, id=232, 870.25125pt x 459.7175pt>
+<Figuras/Metodologia/metodologiaGeral.png, id=231, 870.25125pt x 459.7175pt>
 File: Figuras/Metodologia/metodologiaGeral.png Graphic file (type png)
 
 <use Figuras/Metodologia/metodologiaGeral.png>
 Package pdftex.def Info: Figuras/Metodologia/metodologiaGeral.png used on input
- line 67.
+ line 62.
 (pdftex.def)             Requested size: 483.71223pt x 241.85333pt.
 
-Overfull \hbox (28.46812pt too wide) in paragraph at lines 67--67
+Overfull \hbox (28.46812pt too wide) in paragraph at lines 62--62
  [][] 
  []
 
 [49 <./Figuras/Metodologia/metodologiaGeral.png>] [50] [51] [52]
-<Figuras/Metodologia/ArcoCibernetico.png, id=246, 442.65375pt x 195.73125pt>
+<Figuras/Metodologia/ArcoCibernetico.png, id=245, 442.65375pt x 195.73125pt>
 File: Figuras/Metodologia/ArcoCibernetico.png Graphic file (type png)
 
 <use Figuras/Metodologia/ArcoCibernetico.png>
 Package pdftex.def Info: Figuras/Metodologia/ArcoCibernetico.png used on input 
-line 201.
+line 189.
 (pdftex.def)             Requested size: 256.08417pt x 128.0451pt.
 ) [53 <./Figuras/Metodologia/ArcoCibernetico.png>]
 \openout2 = `Textual/4_simulacao.aux'.
 
  (./Textual/4_simulacao.tex
 Cap\'{\i }tulo 4.
-<Figuras/Cronograma/metodologia.png, id=250, 1338.601pt x 466.543pt>
+<Figuras/Cronograma/metodologia.png, id=249, 1338.601pt x 466.543pt>
 File: Figuras/Cronograma/metodologia.png Graphic file (type png)
 
 <use Figuras/Cronograma/metodologia.png>
@@ -1867,7 +1883,7 @@ i-o-nado, Po-eira/Fumaça/neblina,
  []
 
 
-<Figuras/Preprocess/CondicaoPistaXNumAcidentes.png, id=259, 970.62625pt x 452.6
+<Figuras/Preprocess/CondicaoPistaXNumAcidentes.png, id=258, 970.62625pt x 452.6
 9125pt>
 File: Figuras/Preprocess/CondicaoPistaXNumAcidentes.png Graphic file (type png)
 
@@ -1876,7 +1892,7 @@ Package pdftex.def Info: Figuras/Preprocess/CondicaoPistaXNumAcidentes.png used
  on input line 72.
 (pdftex.def)             Requested size: 213.39032pt x 136.56824pt.
 
-<Figuras/Preprocess//RestricaoVisibilXBr.png, id=260, 971.63pt x 451.6875pt>
+<Figuras/Preprocess//RestricaoVisibilXBr.png, id=259, 971.63pt x 451.6875pt>
 File: Figuras/Preprocess//RestricaoVisibilXBr.png Graphic file (type png)
 
 <use Figuras/Preprocess//RestricaoVisibilXBr.png>
@@ -1885,14 +1901,14 @@ put line 75.
 (pdftex.def)             Requested size: 213.38861pt x 136.57558pt.
  [56 <./Figuras/Preprocess/CondicaoPistaXNumAcidentes.png (PNG copy)> <./Figura
 s/Preprocess//RestricaoVisibilXBr.png (PNG copy)>]
-<Figuras/Preprocess/TipoVeiculoXNumAciden.png, id=264, 973.6375pt x 483.8075pt>
+<Figuras/Preprocess/TipoVeiculoXNumAciden.png, id=263, 973.6375pt x 483.8075pt>
 File: Figuras/Preprocess/TipoVeiculoXNumAciden.png Graphic file (type png)
 <use Figuras/Preprocess/TipoVeiculoXNumAciden.png>
 Package pdftex.def Info: Figuras/Preprocess/TipoVeiculoXNumAciden.png used on i
 nput line 88.
 (pdftex.def)             Requested size: 426.78246pt x 227.6258pt.
 
-<Figuras/Preprocess/TracadoViaNumAcident.png, id=265, 751.80875pt x 452.69125pt
+<Figuras/Preprocess/TracadoViaNumAcident.png, id=264, 751.80875pt x 452.69125pt
 >
 File: Figuras/Preprocess/TracadoViaNumAcident.png Graphic file (type png)
  <use Figuras/Preprocess/TracadoViaNumAcident.png>
@@ -1901,7 +1917,7 @@ put line 100.
 (pdftex.def)             Requested size: 341.44257pt x 199.16403pt.
  [57 <./Figuras/Preprocess/TipoVeiculoXNumAciden.png (PNG copy)> <./Figuras/Pre
 process/TracadoViaNumAcident.png>] [58] <Figuras/Cronograma/GoogleMaps.png, id=
-273, 748.7975pt x 778.91pt>
+272, 748.7975pt x 778.91pt>
 File: Figuras/Cronograma/GoogleMaps.png Graphic file (type png)
 
 <use Figuras/Cronograma/GoogleMaps.png>
@@ -1927,7 +1943,7 @@ Ap\^endice A.
 
 
 ] [63]
-<Figuras/Cronograma/BasesHistoricas.png, id=290, 1518.473pt x 680.141pt>
+<Figuras/Cronograma/BasesHistoricas.png, id=289, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
@@ -1958,10 +1974,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17732 strings out of 494790
- 290543 string characters out of 6174858
- 536716 words of memory out of 5000000
- 20460 multiletter control sequences out of 15000+600000
+ 17737 strings out of 494790
+ 290633 string characters out of 6174858
+ 536776 words of memory out of 5000000
+ 20465 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  46i,12n,53p,1402b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1970,32 +1986,31 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/cm-super/sfrm0600.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
-per/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
-r/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
-sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sf
-ti1200.pfb>
-Output written on Manifesto.pdf (68 pages, 2278456 bytes).
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
+-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
+er/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
+/sfti1200.pfb>
+Output written on Manifesto.pdf (68 pages, 2278755 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
+ 383 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
