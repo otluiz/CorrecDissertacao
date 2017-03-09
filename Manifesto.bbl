@@ -10,17 +10,12 @@
 {WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
 p. 7--10, 2000.}
 
-\bibitem{Quadros2005}
-\abntrefinfo{Quadros}{QUADROS}{2005}
-{QUADROS, C. I.~d. {Dez Anos Depois do}.
-\emph{Intercom}, v.~1995, p. 65--69, 2005.}
-
-\bibitem{bigdataMedicina}
-\abntrefinfo{Dilsizian}{DILSIZIAN}{}
-{DILSIZIAN, L.~E. S.~E. Artificial intelligence in medicine and cardiac
-  imaging: Harnessing big data and advanced computing to provide personalized
-  mecial diagnosis and treatment.
-p.~1.}
+\bibitem{Salles2007}
+\abntrefinfo{Salles}{SALLES}{2007}
+{SALLES, F.~R.
+\emph{{A relev{\^{a}}ncia da cibern{\'{e}}tica}}.
+Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
+  - USP, 2007.}
 
 \bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
@@ -89,6 +84,12 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 v.~353, p. 215--225, 2015.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
+\bibitem{Monard}
+\abntrefinfo{Monard M.}{MONARD M.}{2003}
+{MONARD M., B.~J.~A. “conceitos sobre aprendizado de máquina -- sistemas
+  inteligentes fundamentos e aplicações.
+Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
+
 \bibitem{Ben-David2014}
 \abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
 {BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
@@ -128,17 +129,6 @@ ISSN 0885-6125, 1573-0565.}
 \emph{Expert systems in the micro electronic age. Edinburgh University Press},
   In D. Michie, 1979.}
 
-\bibitem{DecisaoCredito}
-\abntrefinfo{West}{WEST}{2000}
-{WEST, D. Neural network credit scoring models -- computers and operations
-  research.
-p. 1131 -- 1152, 2000.}
-
-\bibitem{RegrecaoLog}
-\abntrefinfo{HILBE}{HILBE}{2009}
-{HILBE, J.~M. Logistic regression models.
-Chapman and Hall -- CRC Press, 2009.}
-
 \bibitem{Heaton2008}
 \abntrefinfo{Heaton}{HEATON}{2008}
 {HEATON, J. \emph{{Introduction to Neural Networks for Java}}. [S.l.: s.n.],
@@ -159,7 +149,7 @@ Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
 
 \bibitem{AAP}
 \abntrefinfo{ZENG Q.}{ZENG Q.}{}
-{ZENG Q., H.~H. P. X.~W. S. C. G.~M. Rule extraction from an optimized neural
+{ZENG Q., H.~H.~P. X.~W. S. C. G.~M. Rule extraction from an optimized neural
   network for traffic crash frequency modeling.}
 
 \bibitem{Kriesel2007NeuralNetworks}
@@ -200,7 +190,7 @@ ISSN 00313203.}
 
 \bibitem{bigdataQualquerUm}
 \abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
-{JAGADISH H.~V., G. J. L.~A. P. Y. P.~J. M. R.~R.; SHAHABI, C. Exploring the
+{JAGADISH H.~V., G.~J. L.~A. P. Y. P.~J. M. R.~R.; SHAHABI, C. Exploring the
   inherent technical challenges in realizing the potential of big data.
 \emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
@@ -210,22 +200,11 @@ ISSN 00313203.}
 July 2015.
 Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
 
-\bibitem{Maltez1991}
-\abntrefinfo{Maltez}{MALTEZ}{1991}
-{MALTEZ. {Iener (1894-1963)}.
-\emph{ESPE}, p.~213, 1991.}
-
-\bibitem{Salles2007}
-\abntrefinfo{Salles}{SALLES}{2007}
-{SALLES, F.~R.
-\emph{{A relev{\^{a}}ncia da cibern{\'{e}}tica}}.
-Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
-  - USP, 2007.}
-
-\bibitem{DadosGoverno}
-\abntrefinfo{nada}{NADA}{2016}
-{2016.
-Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
+\bibitem{DecisaoCredito}
+\abntrefinfo{West}{WEST}{2000}
+{WEST, D. Neural network credit scoring models -- computers and operations
+  research.
+p. 1131 -- 1152, 2000.}
 
 \bibitem{Costa2015}
 \abntrefinfo{Costa, Bernardini e Filho}{COSTA; BERNARDINI; FILHO}{2015}
@@ -236,5 +215,42 @@ Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
   v.~2, n.~2014, p. 1--26, 2015.
 Dispon{\'\i}vel em:
   \url{http://ojs.c3sl.ufpr.br/ojs/index.php/atoz/rt/printerFriendly/41346/25356}.}
+
+\bibitem{Eaves}
+\abntrefinfo{Eaves}{EAVES}{Acessado em: 24.out.2016}
+{EAVES, D. The three laws of open government data.
+Acessado em: 24.out.2016.
+Dispon{\'\i}vel em:
+  \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
+
+\bibitem{Knime}
+\abntrefinfo{AG}{AG}{2017}
+{AG, K.
+2017.
+Dispon{\'\i}vel em: \url{https://www.knime.org/}.}
+
+\bibitem{R-cran}
+\abntrefinfo{R-cran}{R-CRAN}{2017}
+{R-CRAN.
+2017.
+Dispon{\'\i}vel em: \url{https://www.r-project.org/}.}
+
+\bibitem{Weka}
+\abntrefinfo{Zealand}{ZEALAND}{2017}
+{ZEALAND, U. of W.~N.
+2017.
+Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
+
+\bibitem{Bernardini}
+\abntrefinfo{Bernardini}{BERNARDINI}{2006}
+{BERNARDINI, F.~C. “combinação de classificadores simbólicos utlizando
+  medidas de regras de conhecimento e algoritmos genéticos” - tese de
+  doutorado.
+Instituto de Ciências e Matemática Computacional/USP, 2006.}
+
+\bibitem{DadosGoverno}
+\abntrefinfo{nada}{NADA}{2016}
+{2016.
+Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
 \end{thebibliography}

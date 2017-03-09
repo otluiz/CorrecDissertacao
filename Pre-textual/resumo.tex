@@ -1,48 +1,31 @@
 \vspace*{12pt}
 
 \lettrine {As} rodovias federais que atravessam a Região
-Metropolitana de algumas cidades estão constantemente
+Metropolitana e cidades do interior estão constantemente
 congestionadas, não apenas pela quantidade de veículos,
 mas por serem alvo de paralisações das mais diversas
 matizes, como protestos de trabalhadores, acidentes,
-buracos, intempéries naturais e outros tipos de fatores de
+danos na via, intempéries naturais e outros fatores de
 congestionamento. Em situações extremas esses problemas
 poderiam paralisar até a produção das fábricas no seu
 entorno, causando grandes prejuízos. Para dirimir alguns
-destes problemas propomos um modelo de classificação
-para o comportamento das rodovias federais que
+destes problemas, essa pesquisa teve por objetivo propor e testar conceitos 
+para uma plataforma autoadaptável que contemple um modelo preditivo de comportamento das rodovias federais que
 atravessam o estado de Pernambuco na região Nordeste do
-Brasil, de modo que seja possível antecipar eventos que
-possam vir causar constrangimentos de tráfego, como
-retenção, redução de fluxo de tráfego. A fonte de dados
-dessa pesquisa provém da base de dados da Polícia
-Rodoviária Federal de Pernambuco (PRF) a partir de 2007
-tendo considerado veículos, traçado da via e trechos da
-rodovia relacionados a acidentes, além das redes sociais, como Twitter, e informações do GoogleMaps. Com base
-nas informações obtidas, foi realizada uma Mineração de
-Dados utilizando a metodologia CRISP-DM para
-encontrar padrões comportamentais nas rodovias e em seu
-entorno. Foram empregados algoritmos de aprendizagem
-de máquina para classificação e regressão, sendo
-priorizadas, Árvores de Decisão e Redes Neurais. Os
-valores da área sob a curva ROC (AUC) obtidos foram
-acima de 0.7 que reflete um bom grau de confiabilidade.
+Brasil, de modo que seja possível, antecipar eventos que
+possam vir causar constrangimentos, como retenção, redução do fluxo de tráfego (gargálos) e paralisação. A fonte primária de dados
+dessa pesquisa provém da base de dados da Polícia 
+Rodoviária Federal de Pernambuco (PRF/PE) entre 2007 e 2015 tendo considerado veículos, traçado da via e trechos da
+rodovia relacionados a acidentes. Foram também utilizados dados da rede social Twitter dos últimos anos, tanto da PRF quanto de 
+pessoas que fizeram menção a acontecimentos nas BR's (acidentes, paralizações, etc) no estado de Pernambuco. 
+Com base nas informações obtidas, foi realizada uma Mineração de Dados utilizando a metodologia CRISP-DM, além de Mineração de Textos para encontrar padrões comportamentais nas rodovias e em seu
+entorno. As tecnologias empregados para a mineração foram: Árvores de Decisão, Naïve Bayes e Redes Neurais. 
+Os valores da área sob a curva ROC (AUC) obtidos foram
+acima de 0.8 que reflete um bom grau de confiabilidade. Com os dados do Twitter foram coletados todos os tweets referentes a cada palavra chave, até o limite imposto pelo aplicativo. As tecnologias utilizadas foram Naïve Bayes, TF-IDF e, para exibir a geolocalização, utitlizamos o software de georreferenciamento QGIS.
 Em comparação com abordagens usuais de navegação, o
 modelo de predição proposto representa um avanço em
-termos de mobilidade e gestão do transporte de cargas,
-uma vez que possibilita antecipar eventos e
-comportamentos. Assim possibilitando que sejam
-favorecidas rotas alternativas e ampliando o espaço
-temporal de escolha para determinadas rotas. 
-Partindo dessa preocupação, esse estudo teve por objetivo propor e testar conceitos para uma plataforma auto-adaptável que 
-contemple um modelo preditivo de comportamento das rodovias federais que atravessam o estado de Pernambuco, de modo que seja 
-possível antecipar eventos que poderão ocorrer em determinados trechos de rodovia, que possam causar constrangimentos, 
-como retenção, redução de tráfego (gargalos) e paralisação.
-
-Com base nas informações obtidas da PRF, foi realizada uma Mineração de Dados, utilizando a metodologia CRISP-DM para encontrar padrões comportamentais nas rodovias e em seu entorno. As tecnologias empregadas para a Mineração foram: Árvores de Decisão, Naïve Bayes e  Redes Neurais. 
-Com os dados do Twitter foram coletadas todos os tweets referentes à cada palavra-chave até o limite imposto pelo aplicativo, as tecnologias utilizadas foram Naïve Bayes e TF-IDF e, para exibir a geolocalização, utilizamos o software de georreferenciamento QGIS.
-O modelo de predição proposto significa um avanço em termos de mobilidade e gestão do transporte, uma vez que possibilita antecipar eventos e comportamentos, favorecendo a escolha de rotas alternativas e ampliando o espaço temporal de escolha para determinadas rotas.
-
+termos de mobilidade e gestão do transporte, tráfego em rodovias, uma vez que possibilita antecipar eventos e
+comportamentos. Favorecendo a escolha de rotas alternativas e ampliando o espaço temporal de escolha para determinadas rotas. 
 
 
 \par

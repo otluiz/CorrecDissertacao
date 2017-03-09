@@ -6,26 +6,26 @@
 Nesse capítulo, foi realizada uma revisão teórica e de pesquisas contemplando três campos, a saber: 
   \begin{itemize}
     \item O primeiro sobre o processo de aplicação da Mineração de Dados e Mineração em textos;
-    \item O segundo relacionado às tecnologias mineração de dados relacionados à pesquisa em lide;
+    \item O segundo relacionado às tecnologias mineração de dados com respeito à pesquisa em lide;
     \item Finalmente o último campo de pesquisa relacionado às tecnologias de mapeamento através de sistemas de posicionamento global 
     aplicados ao sistema rodoviário.
   \end{itemize}
 
 
   
-\section{CRISP-DM}
+\section{Mineração de Dados e CRISP-DM}
 
 O ``CRoss Indrustry Standard Process for Data Mining'' -- CRISP-DM é um processo para mineração de dados que descreve como especialistas 
 nesse campo aplicam as técnicas de mineração para obter os melhores resultados \cite{Crisp2000}.
 O CRISP-DM é um processo recursivo, onde cada etapa deve ser revista até quando o modelo apresentar os resultados satisfatórios, preliminarmente definidos.
 O Analista de Dados ou o Cientista de Dados é o profissional que acompanha e executa o processo.
 
-O CRISP-DM foi concebido, desenvolvido e refinado através de ``workshops'' entre 1996 e 1999 \cite{Crisp2000}, por três entidades empresariais europeias que 
-formavam um consórcio, tendo com parceiros a Daimler-Chrysler AG (Alemanha), que estava, à época, à frente da maioria das organizações empresariais e comerciais 
-na aplicação de mineração de dados em seus negócios; 
-a SPSS Inc.(EUA), que provê serviços baseados em mineração de dados desde 1990, tendo lançado o primeiro workbench de mineração 
-de dados comerciais o Clementine®; 
-e a NCR Systems Engineering Copenhagen (EUA e Dinamarca), com o Teradata®, uma Datawarehouse que estabelecia equipes de consultores especialistas em mineração 
+Esse processo foi concebido, desenvolvido e refinado através de ``workshops'' entre 1996 e 1999 \cite{Crisp2000}, por três entidades empresariais europeias que 
+formavam um consórcio. Um dos parceiros, a Daimler-Chrysler AG (Alemanha), estava, à época, à frente da maioria das organizações empresariais e comerciais 
+na aplicação de mineração de dados em seus negócios. A
+SPSS Inc.(EUA), era responsável serviços baseados em mineração de dados desde 1990, tendo lançado o primeiro workbench de mineração 
+de dados comerciais o Clementine®. 
+E a NCR Systems Engineering Copenhagen (EUA e Dinamarca), com o Teradata®, uma Datawarehouse que estabelecia equipes de consultores especialistas em mineração 
 de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para o modelo de processo CRISP-DM.
 
 \subsection{Contexto de aplicação do CRISP -- DM}
@@ -192,7 +192,7 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 \centering
 \caption{Implantação do modelo}
 \vspace{1mm}
-\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Inplantacao.png}\\
+\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Implantacao.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -227,25 +227,25 @@ Na figura a seguir temos a ilustração desse caminho:
 \begin{figure}[!ht]
 \centering
 \caption{Fases da mineração de dados até extração do conhecimento}
-\includegraphics[width=135mm, height=65mm]{Figuras/BigData/FayyadSemFundo.png}
+\includegraphics[width=135mm, height=65mm]{Figuras/BigData/Fayyad.png}
 \end{figure}
 
 
-A origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Data'' este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
+A origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Dados'' este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
 O balão onde se lê ``Selection'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
 Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais como, redes sociais, câmaras de trânsito, informações de satélites meteorológicos e outras fontes.
 
 Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
-com tecnologia apropriada, utilizando-se técnicas de ``Map'' e ``Reduce'' ou mineração de dados em textos para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). 
+com tecnologia apropriada, utilizando-se técnicas de ``Map'' e ``Reduce'' ou mineração de dados em textos \textit{Text Mining} para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). 
 Algumas técnicas de IA podem ser aplicadas nessa etapa como, [``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''. ]
 
-No balão ``Preprocessing'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
+No balão ``Pré-Processamento'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
 Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
 Esses dados normalmente são coletados por técnicas de Mineração de Textos, também conhecidas como Mineração de Dados em Textos, técnicas de IA como ``Machine Learning'' 
-têm sido muito utlizadas. Em ``Transformation'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive. 
+têm sido muito utlizadas. Em ``Transformação'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive. 
 
-O processo de Mineração dos dados começa no balão ``Data Mining'', onde são aplicadas as técnicas de IA conhecidas como classificadores, para extração de padrões, tais como: 
-``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística) e ``Deep Learning''.
+O processo de Mineração dos dados começa no balão ``Mineração de Dados'', onde são aplicadas as técnicas de IA conhecidas como classificadores, para extração de padrões, tais como: 
+``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística), ``Naïve Bayes'' e ``Deep Learning'', detre outros.
 Algumas técnicas de mineração de dados são fortemente influenciadas pelas informações na entrada (input), como as Árvores de decisão \cite{DecisionTree}. 
 As Redes Neurais, dependendo da quantidade de variáveis de entrada, paderão ter milhares de neurônios na camada intermediária, o que inviabilizaria essa metaheurística 
 \footnote{Metaheurística são heurísticas aplicadas em problemas onde os custos computacionais não são tratáveis em tempo polionomial, devido às explosões combinatórias geradas
@@ -263,16 +263,13 @@ O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 
 \section{Tipos de Aprendizagem}
 
-\color{blue} {Fulano classifica aprendizado supervisionado como .... }
+Quando se fala em algoritmos de IA, adentramos no campo de Aprendizagens e Máquinas. É o princípio da aprensizagem que faz com que o algoritmo estabeleça a decisão adequada para o problema proposto.
+No campo da aprendizagem de máquina, é possível apontar três tipos de aprendizagem: a aprendizagem supervisionada, aprendizagem não-supervisionada e aprendizagem por reforço \cite{NorvigRussel2004}. AS duas primeiras serão aqui descritas de maneira sucinta, e consideradas mais adiante, uma vez que interessam particularmente a essa pesquisa, sobretudo quando da utilização de redes neurais e árvores de decisão. 
 
-\color{red} {Beltrano classifica aprendizagem não supervisionada como ...}
-
-\color{black}
+A aprendizagem supervisionada \cite{Monard} se caracteriza pelo acesso ao conjunto de exemplos de treinamento pelo algoritmo de aprendizagem, também conhecido como indutor, de modo que haja especificação da saída desejada.
+No caso da aprendizagem não-supervisionada (RUSSEL; NORVIG, 2004), os valores de entrada são estabelecidos, mas não são definidos os valores de saída. O indutor terá o papel de estabelecer aproximações, propondo agrupamentos (clusters) em função de determinadas categorias como, por exemplo, similaridade \cite{Monard}.
 
 Para ``aprender'' sobre uma determinada função \textit{f} definimos uma amostra em um conjunto de treinamento $X = {x_{1}, x_{2}, ...x_{n}}$.
-
-
-
 
 As técnicas algorítmicas apresentadas nas seções subsequentes são parte da grande família de algorítimos que compõem 
 o aprendizado de máquina aplicado a mineração de dados.
@@ -347,9 +344,8 @@ Regras de classificação se distinguem de regras de indução da seguinte forma
  \item Uma regra de indução seria: $ if$ L $them$ R que por sua vez produz novas regras 
 \end{itemize}
 
-As árvores de decisão são estruturas como fluxogramas, possuem nós e ramificações, 
-cada nó é um teste no valor do atributo como:
-\singlespace
+%\singlespace
+\vspace{2cm}
 
 \begin{figure}[ht] \unitlength= 1mm \thicklines
  \centering{
@@ -362,15 +358,7 @@ cada nó é um teste no valor do atributo como:
    }
 \end{figure}
 
-\vspace{20mm}
-  
-A seguir, a árvore de decisão que explicita se um cliente, de acordo com sua idade terá determinada classe:
-\begin{figure}[!ht]
-\centering
-\caption{Árvore de decisão}
-\includegraphics[width=60mm, height=45mm]{Figuras/BigData/arvorejovem.png}\\
-\tiny Fonte: Han, J. and Kamber, M. 
-\end{figure}  
+ \vspace{3cm} 
 
 A figura a seguir representa uma rede neural com as mesmas características da árvore de decisão anterior:
 \begin{figure}[!ht]
@@ -396,9 +384,21 @@ como uma função linear, com um número muito menor de parâmetros.} o ``overfi
 
 \section{Árvore de Decisão}
 
+No âmbito da inteligência artificial, quando se trata de algoritmos de aprendizagem, as árvores de decisão têm aparecido como uma das ferramentas que possibilitam resultados satisfatórios e de fácil interpretação. Esse parece ser um dos motivos pelos quais tem sido frequente o uso desse algoritmo em pesquisas em IA. Particularmente, nessa pequisa, as árvores de decisão possibilitaram grandes avanços na proposição do modelo de predição, conforme pode ser observado no capítulo dedicado aos resultados.
+Uma árvore de decisão tem como entrada um conjunto de atributos e como saída, uma decisão. Os atributos podem, ainda, ser de dupla natureza: discretos ou contínuos. O mesmo acontece com as saídas, cujo resultado pode ser uma função de valores discretos - aprendizagem de classificação - ou de valores contínuos - aprendizagem de regressão (RUSSEL; NORVIG, 2004).
+A decisão gerada aparece em função de uma sequência de testes executados, estando cada um deles relacionados a um nó na árvore. As ramificações que decorrem dos testes são o resultado encontrado a partir da sua realização.
 Han e Kamber \cite{DataMining} definem indução por árvore de decisão como a aprendizagem de árvore de decisão a partir de classes rotuladas nas tuplas de treinamento. 
 A estrutura da árvore de decisão é semelhante a um fluxograma, onde cada nó interno (não-folha) indica um teste de atributo, cada ramo representa o resultado de um teste e 
 cada nó da folha possui um rótulo de classe. O nó de nível mais superior é chamado de nó-raiz.
+O exemplo a seguir ilustra uma árvore de decisão simples, onde se vê o nó-raiz e suas ramificações. Tomamos para esse exemplo os dados dessa pesquisa, a serem discutidos de forma mais detalhada posteriormente.
+
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Árvore de decisão}
+	\includegraphics[width=60mm, height=45mm]{Figuras/BigData/arvorejovem.png}\\
+	\tiny Fonte: Han, J. and Kamber, M. 
+\end{figure}  
 
 
 Para Ian e Frank \cite{MachineLearning}, as árvores de decisão podem ser representadas por uma abordagem ``dividir para conquistar'' para resolução de problemas de 
@@ -406,6 +406,8 @@ aprendizagem, a partir de um conjunto de instâncias independentes. Os nós em u
 No entanto, algumas árvores podem comparar dois atributos com outros ou utilizarem uma função para tal.
 As árvores de decisão podem ser classificadas em dois tipos: árvores de regressão (regression trees), que são utilizadas para estimar atributos numéricos, e árvores de 
 classificação (classification trees), usadas para análise de variáveis categóricas.
+Uma árvore de decisão obedece á regra básica ''se-então'', partindo do nós (SE) para as folhas (ENTÃO). O conhecimento é representado em cada nó, que apresenta pelo menos duas saídas ou ramificações possíveis, podendo ou não converter-se em um novo nó, relacionado a um novo nível.
+Embora seja um algoritmo simples e de fácil interpretação, uma das mais importantes questões a ser consideradas diz respeito a como propor as regras de forma adequada e relevante para a geração da árvore. É função do algoritmo identificar o melhor atributo, que será responsável por criar o nó de decisão. As ligações entre os nós representam valores possíveis do teste do nó superior e as folhas indicam a classe (categoria) a qual o registro pertence (CAMILO, SILVA, 2009).
 
 
 \subsection{Tipos de Árvores de decisão}
@@ -700,7 +702,7 @@ para aprender, ou atualizar e ajustar seus pesos. A unidade de processamento mai
 saída e terá a capacidade de inibir os ajustes sinápticos de seus concorrentes e excitar seus vizinhos, de maneira que apenas essa 
 unidade e seus vizinhos poderão realizar o ajuste dos pesos.
 
-\subsection{Retropropagação e o Erro médio quadrático}
+%\subsection{Retropropagação e o Erro médio quadrático}
 
 
 
@@ -806,13 +808,13 @@ O que discutimos até agora é amplamente sabido por aqueles que analisam o uso 
 
 
 \subsection{O Twitter}
-------------------
+
 A ideia inicial do Twitter, segundo seus fundadores, era que essa rede se comportasse como um ``SMS da Internet'' \cite{Twitter2015}. 
 As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las.
--------------------------------
+
 Twitter, Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
 dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam a sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
-O Twitter se caracteriza como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON. Os dados são capturados nesse formato. (A FONTE É BIG SOCIAL DATA: PRINCÍPIOS SOBRE COLETA, TRATAMENTO E ANÁLISE DE DADOS SOCIAIS). A cada dia centenas de terabytes são inseridos no Hadoop data warehouse.
+O Twitter se caracteriza como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON. Os dados são capturados nesse formato. (A FONTE -- BIG SOCIAL DATA: PRINCÍPIOS SOBRE COLETA, TRATAMENTO E ANÁLISE DE DADOS SOCIAIS). A cada dia centenas de terabytes são inseridos no Hadoop data warehouse.
 A ideia inicial do Twitter, segundo seus fundadores, era de que essa rede se comportasse como um “SMS da Internet” (30). As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinado para recebê-las. A conexão entre os usuários da rede social se deve à relação entre os seguidores e os seguidos. O comportamento do seguidor para retweetar os usuários seguido serve como principal mecanismo para espalhar informações nessas redes.
 
 Analisar o conteúdo e minerar textos é um procedimento frequentemente utilizado em pesquisas envolvendo redes sociais, para realização de análise de texto dos usuários em geral e como suporte para tomada de decisão (Abrahams, Fan, Wang, Zhang \& Jiao, 2015). É comum, ainda, aplicar mineração de textos em bibliotecas e outras instituições. Isso implica em rastrear tópicos, extrair informações, agrupar, categorizar (Fan, Wallace, Rich e Zhang, 2006). 
@@ -822,17 +824,13 @@ A abordagem da mineração de textos para os dados das mídias sociais tem sido 
 Estudos atuais têm mostrado o papel da análise sentimental e mineração de opinião nas redes sociais, em particular no Twitter, como forma de investigar padrões de comportamento Twitter as a Corpus for Sentiment Analysis and Opinion Mining Alexander, 2010 Sentiment Analysis on Twitter, Akshi Kumar and Teeja Mary Sebastian, 2012)
 
 
-—————— Artigo “Library \& Information Science Research” 
-Outro estudo (FONTE) aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia. (Duggan \& Smith, 2013). Um relatório publicado em 2014 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube (Another Pew). Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede (Mitchell \& Page, 2013). Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014) 
+(FONTE: Artigo “Library \& Information Science Research)
+Outro estudo (FONTE ??) aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia. (Duggan \& Smith, 2013). Um relatório publicado em 2014 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube (Another Pew). Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede (Mitchell \& Page, 2013). Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014) 
 Heneycutt e Hering (2009) identificaram 11 categorias de conteúdo propagados nos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (que traduzimos aqui como “auto-ajuda”), informações para outros, informações para si próprio, meta comentários, uso de mídia, opinião, outras experiências, auto experiência, e solicitação de informações. Naaman, Boase e Lai (2010), por sua vez, classificaram os conteúdos em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
 
 No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. Adkins \& Budd, 2006, Cronin \& Overflet, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles, foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o google) com o objetivo de identificar a relevância e acetiação de wrbsites (Brin \& Page, 1998), em decorrência do número de seguidores, da quantidade de menções feitas, de retweets, por exemplo.
 
-
-LENDO TODOS OS TWEETS PARA TRÁS OU MONITORAR OS CANAIS DO TWEETER, NO MÁXIMO 100 CANAIS. MAIS DO QUE ISSO A PESSOA É DESCONECTADA (ANÁLISE DE SENTIMENTO (SENTIMENTAL ANÁLISE). 
-COLOCA SE É POSITIVO OU NEGATIVO. (FONTE)
-
-SOBRE A “CARINHA” - É FÁCIL FAZER, MAS NÃO DÁ CONTA DO CONTRADITÓRIO OU SUBJETIVO. (FONTE)
+(FONTE: SE É POSITIVO OU NEGATIVO)
 
 Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter, analisando o número de retweets, menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). Em outro estudo, André et al. (2012) utilizaram a abordagem “crowdsourcing” para identificar que tipo de tweets chamam atenção e são os preferidos dos seguidores, como também, os que são mais rejeitados. Eles encontraram uma preferência dos usuários em fazer perguntas aos seguidores, bem como em partilhar informações e autopromoção (que acreditamos que diz respeito a algo como falar de si próprio, de seus sentimentos, percepções e ideias). Os usuários, por outro lado, demonstram não ter preferência por tweets categorizados como: manutenção de presença, conversações e atualizações do “status” corrente do usuário. 
 
@@ -843,22 +841,27 @@ Nesse tópico abordaremos, em maior detalhe, as escolhas metodológicas e ferram
 Do ponto de vista metodológico ……….
 
 Na pesquisa conduzida por Suh, Hong e Chi (2010), eles encontraram uma correlação positiva entre a existência de uma URL de um tweet e a probabilidade de que aconteça um retweet. 
-Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 tweets recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual NÃO ENTENDI ISSO, AMOR… É DO PERCENTUAL DE PROFESSORES??? da Academia. 
-Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os retweets foram retirados das amostras. Também foram removidos da amostra os tweets com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum tweet (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos tweets. Com isto, a amostra foi reduzida de 1200 para 752 tweets que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 tweets analisados, 271 apresentavam pelo menos um retweet, e 131 receberam um “favorito”.  Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres. REESCREVER
+Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 tweets recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual da Academia. 
+Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os retweets foram retirados das amostras. Também foram removidos da amostra os tweets com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum tweet (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos tweets. Com isto, a amostra foi reduzida de 1200 para 752 tweets que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 tweets analisados, 271 apresentavam pelo menos um retweet, e 131 receberam um “favorito”.  Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres. 
+
+(REESCREVER)
 
 Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) tweets, seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de tweets normalmente distribuídas. Consequentemente métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
 O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de retweets e o número de menções a usuários, sugerindo que tweets com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. 
 O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
-Em outro artigo que também se interessou por conteúdos de natureza mais acadêmica, conduzido por FULANO E CICRANO (ANO???), os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72 NÃO ESQUECER DE COLOCAR ESSA FONTE. ELA É DESSE ARTIGO QUE VOCÊ LEU?). Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes (Del Bosque, Leif e Skaf, 2012; Cavanagh, 2015), tendo sido utilizado frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários (Boaten \& Quan, 2014). 
+Em outro artigo que também se interessou por conteúdos de natureza mais acadêmica, 
+conduzido por (FONTE - ANO), 
+
+os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72).
+ Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes (Del Bosque, Leif e Skaf, 2012; Cavanagh, 2015), tendo sido utilizado frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários (Boaten \& Quan, 2014). 
 A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os tweets da biblioteca acadêmica. 
+(FONTE: Abraham et al., 2015)
 
 
-Abraham et al., 2015 
-
-Stieglitz \& Dang-Xuan, 2013 
+(Stieglitz \& Dang-Xuan, 2013)
 
 O corpus de dados desta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos Twittes desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com) em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, e a seleção restringiu-se às universidades de língua inglesa e a apenas uma biblioteca, para o caso de a universidade ter mais que uma (no artigo original é a tabela 1). As informações relevantes dos tweets, utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; 
-data que se “juntou” ao Twitter. NÃO ENTENDI O QUE ISSO QUER DIZER
+data que se “juntou” ao Twitter.
 Na etapa de preprocessamento -- ``dataset prepocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como Ralston, O'Neil, Wigmore e Harrison (2014) e Yoon, Elhadad e Bakken (2013). O processo contempla a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado),
  e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
 Para análise do conjunto de dados, utilizou-se a mineração em textos e para analisar os históricos de tweets da bibliotecas escolheu-se a análise de conteúdo. A frequência dos tweets, retweets e distribuição dos tweets e retweets foi identificado e contabilizado. Em seguida, os tweets marcados com o PamTaT, uma ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Poderia colocar essa observação numa nota de 
@@ -933,20 +936,8 @@ O mapa mental a seguir mostra um modelo de análise de texto feito por seres hum
 \includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
 \end{figure}
 
-\pagebreak
 
-\section{Cibernética: aspectos introdutórios}
 
-Cibernética é um termo proveniente do grego que significa timoneiro, piloto, ou ``quem está no comando do navio''.
-Atribui-se à Norbert Wiener (1894 -- 1963), matemático e professor do \textit{Massachusetts Institute of Technology} (MIT) o termo Cibernética, quando publicou o livro 
-\textit{Cybernetics, or Control and Communication in the Animal and the Machine} (Wiener, 1948).
-``A Cibernética é a ciência da comunicação e do controle nos animais e a nas máquina, salientando que o \textit{ser vivo é uma máquina entre 
-cujas funções, uma é a de montar a própria máquina}. E isto porque \textit{os organismos só atuam graças à aquisição, ao uso, à conservação 
-e à transmissão da informação}''  \cite{Maltez1991}.
-
-Wiener propôs que informação é tão importante quanto a energia e a matéria \cite{Salles2007}. Essa informação poderia ser utilizada para controlar um sistema baseado em 
-comportamento; biológico ou mecânico. Esse comportamento, quando responde à informação por meio de realimentação, é chamado de teleológico ou controlado por meio de 
-realimentação, tendo em vistas a atingir um objetivo, um propósito.
 
 
 

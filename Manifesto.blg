@@ -20,11 +20,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
-I was expecting a `,' or a `}'---line 484 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 485 of file Bibliografia/Bibliografia.bib
  :    
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "bibid"
 Warning--I didn't find a database entry for "TeoriaInf"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -38,7 +39,15 @@ Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2095 of file Bibliografia/abnt-num.bst
@@ -48,15 +57,7 @@ Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "HILBE, J. M.," has a comma at the end for entry RegrecaoLog
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "HILBE, J. M.," has a comma at the end for entry RegrecaoLog
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "HILBE, J. M.," has a comma at the end for entry RegrecaoLog
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "HILBE, J. M.," has a comma at the end for entry RegrecaoLog
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "HILBE, J. M.," has a comma at the end for entry RegrecaoLog
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "ZENG, Q., HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
 while executing---line 2095 of file Bibliografia/abnt-num.bst
@@ -234,9 +235,9 @@ Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2150 of file Bibliografia/abnt-num.bst
-Name 1 in "HILBE, J. M.," has a comma at the end for entry RegrecaoLog
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em Tatibana
 Too many commas in name 1 of "ZENG, Q., HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
@@ -275,6 +276,9 @@ Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papak
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "Dorsey F, E. Williams, B. Stone, and N. Glass" has a comma at the end for entry Twitter2015
 while executing---line 2150 of file Bibliografia/abnt-num.bst
+Warning--campo title vazio em Knime
+Warning--campo title vazio em R-cran
+Warning--campo title vazio em Weka
 `title' is a missing field, not a string, for entry DadosGoverno
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em DadosGoverno
@@ -283,45 +287,45 @@ Warning--campo title vazio em DadosGoverno
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 38 entries,
+You've used 40 entries,
             6480 wiz_defined-function locations,
-            1401 strings with 15105 characters,
-and the built_in function-call counts, 24827 in all, are:
-= -- 1902
-> -- 664
-< -- 45
-+ -- 291
-- -- 206
-* -- 1666
-:= -- 3372
-add.period$ -- 127
-call.type$ -- 38
-change.case$ -- 314
-chr.to.int$ -- 71
-cite$ -- 42
-duplicate$ -- 1350
-empty$ -- 1971
-format.name$ -- 1055
-if$ -- 5811
+            1408 strings with 15376 characters,
+and the built_in function-call counts, 26005 in all, are:
+= -- 1998
+> -- 688
+< -- 43
++ -- 300
+- -- 214
+* -- 1752
+:= -- 3546
+add.period$ -- 134
+call.type$ -- 40
+change.case$ -- 325
+chr.to.int$ -- 73
+cite$ -- 47
+duplicate$ -- 1397
+empty$ -- 2078
+format.name$ -- 1095
+if$ -- 6075
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 642
-newline$ -- 204
-num.names$ -- 144
-pop$ -- 896
+missing$ -- 672
+newline$ -- 218
+num.names$ -- 152
+pop$ -- 949
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 136
 quote$ -- 0
-skip$ -- 1382
+skip$ -- 1427
 stack$ -- 1
-substring$ -- 1194
-swap$ -- 560
-text.length$ -- 34
+substring$ -- 1308
+swap$ -- 557
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 3
-warning$ -- 5
-while$ -- 219
+warning$ -- 8
+while$ -- 228
 width$ -- 0
-write$ -- 487
+write$ -- 508
 (There were 122 error messages)

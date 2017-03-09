@@ -2,13 +2,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Minera\IeC {\c c}\IeC {\~a}o de dados -- contexto de aplica\IeC {\c c}\IeC {\~a}o \cite {Crisp2000}}}{18}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Matriz de Confus\IeC {\~a}o}}{37}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Matriz modelo de Confus\IeC {\~a}o}}{37}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Volume de dados no mundo}}{38}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Matriz de Confus\IeC {\~a}o}}{38}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Matriz modelo de Confus\IeC {\~a}o}}{38}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Volume de dados no mundo}}{39}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Vari\IeC {\'a}veis do modelo preditivo}}{58}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe Tipo Acidente}}{70}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel Tipo de acidente}}{70}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe Gravidade}}{71}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel Gravidade}}{71}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe BR}}{71}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel BRajustada}}{72}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Vari\IeC {\'a}veis originais da base de acidentes}}{63}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Vari\IeC {\'a}veis originais da base de interdi\IeC {\c c}\IeC {\~o}es}}{64}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Vari\IeC {\'a}veis originais da base de acidentes}}{77}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Vari\IeC {\'a}veis originais da base de interdi\IeC {\c c}\IeC {\~o}es}}{78}
