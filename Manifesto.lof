@@ -11,48 +11,49 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Implanta\IeC {\c c}\IeC {\~a}o do modelo}}{23}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Fases da minera\IeC {\c c}\IeC {\~a}o de dados at\IeC {\'e} extra\IeC {\c c}\IeC {\~a}o do conhecimento}}{24}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Rede Neural}}{28}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{29}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Percepton de Rosenblatt}}{31}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE e MADALINE}}{32}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Um arranjo de Perceptrons em camadas}}{33}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Perceptron de McCulloch e Pitts}}{33}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Perceptron e Adaline}}{35}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Perceptron Multicamadas}}{35}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Perceptron com Realimenta\IeC {\c c}\IeC {\~a}o}}{36}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Rede Kohone}}{36}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{46}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces \IeC {\'A}rvore de decis\IeC {\~a}o}}{31}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Percepton de Rosenblatt}}{34}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Rede ADALINE e MADALINE}}{35}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Um arranjo de Perceptrons em camadas}}{36}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Perceptron de McCulloch e Pitts}}{36}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Perceptron e Adaline}}{38}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Perceptron Multicamadas}}{38}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Perceptron com Realimenta\IeC {\c c}\IeC {\~a}o}}{39}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Rede Kohone}}{39}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Mapa mental da Minera\IeC {\c c}\IeC {\~a}o em textos}}{42}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Grafo Twitter}}{43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{49}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{53}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Etapas da metodologia}}{54}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{52}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{56}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Etapas da metodologia}}{57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{55}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{58}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Frequ\IeC {\^e}ncia}}{58}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{59}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Frequ\IeC {\^e}ncia}}{59}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{60}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Frequ\IeC {\^e}ncia}}{60}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{61}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequ\IeC {\^e}ncia}}{61}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{62}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Frequ\IeC {\^e}ncia}}{62}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{63}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Frequ\IeC {\^e}ncia}}{63}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{64}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Frequ\IeC {\^e}ncia}}{64}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{65}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Frequ\IeC {\^e}ncia}}{65}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{66}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Frequ\IeC {\^e}ncia}}{66}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{66}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Frequ\IeC {\^e}ncia}}{67}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{67}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Frequ\IeC {\^e}ncia}}{68}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{68}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{69}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o gerada pelo Knime}}{72}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces }}{72}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{58}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{61}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Frequ\IeC {\^e}ncia}}{61}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{62}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Frequ\IeC {\^e}ncia}}{62}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{63}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Frequ\IeC {\^e}ncia}}{63}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{64}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequ\IeC {\^e}ncia}}{64}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{65}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Frequ\IeC {\^e}ncia}}{65}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{66}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Frequ\IeC {\^e}ncia}}{66}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{67}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Frequ\IeC {\^e}ncia}}{67}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{68}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Frequ\IeC {\^e}ncia}}{68}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{69}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Frequ\IeC {\^e}ncia}}{69}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{69}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Frequ\IeC {\^e}ncia}}{70}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{70}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Frequ\IeC {\^e}ncia}}{71}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{71}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{72}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o gerada pelo Knime}}{75}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces }}{75}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{78}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{81}

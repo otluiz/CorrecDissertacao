@@ -104,11 +104,6 @@ ISBN 9781107057135. Dispon{\'\i}vel em:
 ISSN 10959572.
 Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
 
-\bibitem{DataMining}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
-Elsevier, San Francisco, v. 2 edition, 2006.}
-
 \bibitem{MachineLearning}
 \abntrefinfo{Witten e Frank}{WITTEN; FRANK}{2005}
 {WITTEN, I.~H.; FRANK, E. Data mining: Practical machine learning tools and
@@ -194,17 +189,23 @@ ISSN 00313203.}
   inherent technical challenges in realizing the potential of big data.
 \emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
-\bibitem{Twitter2015}
-\abntrefinfo{F E.~Williams e Glass}{F E.~WILLIAMS; GLASS}{2015}
-{F E.~WILLIAMS, B.~S. D.; GLASS, N. {Twitter}.
-July 2015.
-Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Twitter}.}
+\bibitem{ICWSM09154}
+\abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
+{BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
+  Exploring and Manipulating Networks}. 2009.
+Dispon{\'\i}vel em:
+  \url{http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154}.}
 
 \bibitem{DecisaoCredito}
 \abntrefinfo{West}{WEST}{2000}
 {WEST, D. Neural network credit scoring models -- computers and operations
   research.
 p. 1131 -- 1152, 2000.}
+
+\bibitem{DataMining}
+\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
+{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
+Elsevier, San Francisco, v. 2 edition, 2006.}
 
 \bibitem{Costa2015}
 \abntrefinfo{Costa, Bernardini e Filho}{COSTA; BERNARDINI; FILHO}{2015}
@@ -230,10 +231,9 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em: \url{https://www.knime.org/}.}
 
 \bibitem{R-cran}
-\abntrefinfo{R-cran}{R-CRAN}{2017}
-{R-CRAN.
-2017.
-Dispon{\'\i}vel em: \url{https://www.r-project.org/}.}
+\abntrefinfo{{R Core Team}}{{R Core Team}}{2015}
+{{R Core Team}. \emph{R: A Language and Environment for Statistical Computing}.
+Vienna, Austria, 2015. Dispon{\'\i}vel em: \url{https://www.R-project.org/}.}
 
 \bibitem{Weka}
 \abntrefinfo{Zealand}{ZEALAND}{2017}
