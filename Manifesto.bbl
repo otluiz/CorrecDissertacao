@@ -84,18 +84,24 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 v.~353, p. 215--225, 2015.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
+\bibitem{bigdataQualquerUm}
+\abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
+{JAGADISH H.~V., G. J. L.~A. P. Y. P. J. M. R.~R.; SHAHABI, C. Exploring the
+  inherent technical challenges in realizing the potential of big data.
+\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+
+\bibitem{ICWSM09154}
+\abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
+{BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
+  Exploring and Manipulating Networks}. 2009.
+Dispon{\'\i}vel em:
+  \url{http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154}.}
+
 \bibitem{Monard}
 \abntrefinfo{Monard M.}{MONARD M.}{2003}
-{MONARD M., B.~J.~A. “conceitos sobre aprendizado de máquina -- sistemas
+{MONARD M., B. J.~A. “conceitos sobre aprendizado de máquina -- sistemas
   inteligentes fundamentos e aplicações.
 Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
-
-\bibitem{Ben-David2014}
-\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
-{BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
-  Theory to Algorithms}}. [s.n.], 2014. 449~p.
-ISBN 9781107057135. Dispon{\'\i}vel em:
-  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
 
 \bibitem{Nilsson2005}
 \abntrefinfo{Nilsson}{NILSSON}{2005}
@@ -104,37 +110,66 @@ ISBN 9781107057135. Dispon{\'\i}vel em:
 ISSN 10959572.
 Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
 
+\bibitem{Ben-David2014}
+\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
+{BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
+  Theory to Algorithms}}. [s.n.], 2014. 449~p.
+ISBN 9781107057135. Dispon{\'\i}vel em:
+  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
+
+\bibitem{Camilo}
+\abntrefinfo{Camilo e Silva}{CAMILO; SILVA}{2009}
+{CAMILO, C.~O.; SILVA, J.~C. da. \emph{Mineração de dados: Conceitos,
+  tarefas, métodos e ferramentas.}
+[S.l.], 2009. 1--29~p.}
+
+\bibitem{Decision2014}
+\abntrefinfo{HSSINA Abdelkarim~MERBOUHA e ERRITALI}{HSSINA ABDELKARIM~MERBOUHA;
+  ERRITALI}{2014}
+{HSSINA ABDELKARIM~MERBOUHA, H.~E. B.; ERRITALI, M. \emph{{A comparative study
+  of decision tree ID3 and C4.5}}. 2014.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
+
+\bibitem{Quinlan86inductionof}
+\abntrefinfo{Quinlan}{QUINLAN}{1986}
+{QUINLAN, J.~R. Induction of decision trees.
+\emph{MACH. LEARN}, v.~1, p. 81--106, 1986.}
+
+\bibitem{Kohavi99decisiontree}
+\abntrefinfo{Kohavi e Quinlan}{KOHAVI; QUINLAN}{1999}
+{KOHAVI, R.; QUINLAN, R. Decision tree discovery. In:  \emph{IN HANDBOOK OF
+  DATA MINING AND KNOWLEDGE DISCOVERY}. [S.l.]: University Press, 1999. p.
+  267--276.}
+
+\bibitem{Simoes2008}
+\abntrefinfo{Sim{\~{o}}es}{SIM{\~{O}}ES}{2008}
+{SIM{\~{O}}ES, A. C. D.~A. {Minera{\c{c}}{\~{a}}o de Dados baseada em
+  {\'{A}}rvores de Decis{\~{a}}o para An{\'{a}}lise do Perfil de
+  Contribuintes}.
+\emph{Discovery}, p.~32, 2008.}
+
 \bibitem{MachineLearning}
 \abntrefinfo{Witten e Frank}{WITTEN; FRANK}{2005}
 {WITTEN, I.~H.; FRANK, E. Data mining: Practical machine learning tools and
   techniques.
 \emph{Elsevier, San Francisco}, v. 2 edition, 2005.}
 
-\bibitem{Learning2007}
-\abntrefinfo{Quinlan}{QUINLAN}{2007}
-{QUINLAN, J.~R. Induction of decision trees.
-\emph{Expert Systems}, Learning, Machine and Learning, Machine and Publishers,
-  p. 81--106, 2007.
-ISSN 0885-6125, 1573-0565.}
+\bibitem{breiman1984}
+\abntrefinfo{Breiman et al.}{BREIMAN et al.}{1984}
+{BREIMAN, L. et al. \emph{Classification and regression trees}. [S.l.]: CRC
+  press, 1984.}
 
-\bibitem{Learning1979}
-\abntrefinfo{Quinlan}{QUINLAN}{1979}
-{QUINLAN, J.~R. Discovering rules by induction from large collections of
-  examples.
-\emph{Expert systems in the micro electronic age. Edinburgh University Press},
-  In D. Michie, 1979.}
+\bibitem{Pineda2006}
+\abntrefinfo{Pineda}{PINEDA}{2006}
+{PINEDA, V. I. O. D. E.~C. {A Entropia Segundo Claude Shannon: o
+  desenvolvimento do conceito fundamental da teoria da informa{\c{c}}{\~{a}}o}.
+\emph{Disserta{\c{c}}{\~{a}}o Mestrado}, 2006.}
 
 \bibitem{Heaton2008}
-\abntrefinfo{Heaton}{HEATON}{2008}
+\abntrefinfo{HEATON}{HEATON}{2008}
 {HEATON, J. \emph{{Introduction to Neural Networks for Java}}. [S.l.: s.n.],
   2008. 440~p.
 ISBN 1604390085.}
-
-\bibitem{Castanheira}
-\abntrefinfo{Castanheira}{CASTANHEIRA}{}
-{CASTANHEIRA, L.~G. {Aplicação de técnicas de Mineração de Dados em
-  Problemas de Classificação de Padrões}.
-n.~5531.}
 
 \bibitem{Tatibana}
 \abntrefinfo{Tatibana e Kaetsy}{TATIBANA; KAETSY}{Acessado em: 01.out.2016}
@@ -143,17 +178,17 @@ Acessado em: 01.out.2016.
 Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
 
 \bibitem{AAP}
-\abntrefinfo{ZENG Q.}{ZENG Q.}{}
-{ZENG Q., H.~H.~P. X.~W. S. C. G.~M. Rule extraction from an optimized neural
-  network for traffic crash frequency modeling.}
+\abntrefinfo{R. ZENG}{R. ZENG}{}
+{R. ZENG, H. H. P.~X. W. S. C. G.~M. C. Rule extraction from an optimized
+  neural network for traffic crash frequency modeling.}
 
 \bibitem{Kriesel2007NeuralNetworks}
-\abntrefinfo{Kriesel}{KRIESEL}{2007}
+\abntrefinfo{KRIESEL}{KRIESEL}{2007}
 {KRIESEL, D. \emph{A Brief Introduction to Neural Networks}. [s.n.], 2007.
-  Dispon{\'\i}vel em: \url{available at http://www.dkriesel.com}.}
+  Dispon{\'\i}vel em: \url{Disponível em: http://www.dkriesel.com}.}
 
 \bibitem{Barreto2002}
-\abntrefinfo{Barreto}{BARRETO}{2002}
+\abntrefinfo{BARRETO}{BARRETO}{2002}
 {BARRETO, J.~M. {Jorge M. Barreto}.
 2002.}
 
@@ -170,8 +205,8 @@ Dispon{\'\i}vel em:
   \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
 
 \bibitem{Discriminativo}
-\abntrefinfo{Souza}{SOUZA}{Acessado em: 20.jan.2015}
-{SOUZA, C.~R.
+\abntrefinfo{R.}{R.}{Acessado em: 20.jan.2015}
+{R., S. C.
 Acessado em: 20.jan.2015.
 Dispon{\'\i}vel em:
   \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
@@ -182,19 +217,6 @@ Dispon{\'\i}vel em:
   machine learning algorithms}.
 \emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
 ISSN 00313203.}
-
-\bibitem{bigdataQualquerUm}
-\abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
-{JAGADISH H.~V., G.~J. L.~A. P. Y. P.~J. M. R.~R.; SHAHABI, C. Exploring the
-  inherent technical challenges in realizing the potential of big data.
-\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
-
-\bibitem{ICWSM09154}
-\abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
-{BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
-  Exploring and Manipulating Networks}. 2009.
-Dispon{\'\i}vel em:
-  \url{http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154}.}
 
 \bibitem{DecisaoCredito}
 \abntrefinfo{West}{WEST}{2000}
@@ -225,10 +247,12 @@ Dispon{\'\i}vel em:
   \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
 
 \bibitem{Knime}
-\abntrefinfo{AG}{AG}{2017}
-{AG, K.
-2017.
-Dispon{\'\i}vel em: \url{https://www.knime.org/}.}
+\abntrefinfo{Berthold et al.}{BERTHOLD et al.}{2007}
+{BERTHOLD, M.~R. et al. {KNIME}: The {K}onstanz {I}nformation {M}iner. In:
+  \emph{Studies in Classification, Data Analysis, and Knowledge Organization
+  (GfKL 2007)}. [S.l.]: Springer, 2007.
+ISBN 978-3-540-78239-1.
+ISSN 1431-8814.}
 
 \bibitem{R-cran}
 \abntrefinfo{{R Core Team}}{{R Core Team}}{2015}

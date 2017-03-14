@@ -141,7 +141,8 @@ A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção f
 Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
 Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
 Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. A entropia condicional, formalizada na equação seguinte, é a entropia restante dos atributos de $Y$ no valor $y$ quando o atributo $X$ é dado como $X$ \cite{DecisionTree}:
-$ H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y}P(y|x)log_{2}P(y|x) $.
+$ H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y}P(y|x)log_{2}P(y|x) $ \footnote{Mais adiante será abordado com mais profundidade o conceito de Entropia}.
+
 
 
 \begin{figure}[!ht]
@@ -205,11 +206,11 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 No processo de extração do conhecimento (KDD), um dos importantes passos a ser considerado é a mineração de dados, que se caracteriza pela aplicação de algoritmos 
 específicos para descoberta de padrões e/ou comportamentos em grandes bases de dados, também conhecido como repositórios de dados \cite{FayyadUeoutros}.
 
-A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões (CASTANHEIRA, 2008). 
+A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões \cite{CASTANHEIRA, 2008}. 
 
 FAYYAD (1996), destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que é um processo, a mineração é um passo no interior desse processo. 
 Todavia, esse passo é de considerável relevância para que se possa extrair conhecimento adequadamente. 
-A aplicação “cega” dos métodos de mineração de dados, ainda segundo Fayyad (1996), pode conduzir à descoberta de dados sem significado e padrões inválidos. 
+A aplicação “cega” dos métodos de mineração de dados, ainda segundo Fayyad \cite{FayyadUeoutros}, pode conduzir à descoberta de dados sem significado e padrões inválidos. 
 
 Existem vários tipos de dados e informações nesses repositórios que podem ser minerados, contudo esses dados, inicialmente são selecionados e agrupados, a seguir passam por 
 uma fase de preprocessamento, que consiste em tratá-los de forma a prepará-los para a mineração. Essa fase é de 
@@ -257,11 +258,190 @@ quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de 
 O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 
 
-
 \pagebreak
 
 
-\section{Tipos de Aprendizagem}
+\section{Mineração de Textos} %\label{arte:palavraChave:DataMiningBigData}
+
+Minerar dados em texto não é uma tarefa atômica, deve ser divido em várias etapas, minerar em redes sociais é exige ao menos mais uma etapa a escolha da rede social com sua tecnologia própria, então, com processos específicos em cada uma delas e utilizando-se de ferramentas específicas. Extrair conhecimento nos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. A Mineração em textos é inspirada em técnicas de ``Machine Learning'' \cite{Aranha2006}. Todavia, analisar textos é basicamente entender o significado do texto, baseado em regras de associação lógica, como mostrado nos estudos descritos anteriormente. O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
+
+\begin{figure}[htpb]
+	\centering
+	\caption{Mapa mental da Mineração em textos}
+	\includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
+\end{figure}
+
+
+\subsection{Mineração de Dados/Textos em Redes sociais}
+
+\subsubsection{Introdução ao estudo das Redes Sociais}
+
+As redes sociais têm assumido, nos dias atuais, um papel essencial na vida de seus usuários. Não apenas como espaço de descontração, mas, sobretudo, como lugar de troca de informações que permitam, dentre outras coisas, tomar conhecimento acerca dos acontecimentos, sejam eles locais ou globais, que influenciarão sua vida. De modo particular, nos grandes centros urbanos, as redes sociais têm servido de fonte de conhecimento acerca de segurança pública, mobilidade urbana e acontecimentos de toda sorte, que possam fazer com que, por exemplo, uma pessoa resolva seguir um ou outro caminho para chegar a um determinado lugar, quer seja ele próximo ou distante de onde se encontre.
+
+Além da troca de informações momentâneas, as redes sociais permitem uma atualização praticamente em tempo real, a partir da utilização de seus usuários e de instituições que também dela fazem uso (por exemplo, a Polícia Rodoviária Federal), de modo que possibilita que decisões sejam tomadas e reorientadas, em virtude da alimentação das informações nas redes.
+
+No que diz respeito às escolhas relacionadas ao trânsito, sejam essas escolhas relativas as áreas urbanas, bem como a centenas de quilômetros adiante, pelo interior de um estado, por exemplo, cada vez mais as pessoas não tomam qualquer decisão sem antes consultar aplicativos e redes sociais tais como o waze, twitter, facebook, ou até mesmo dispõem, em seus aparelhos celulares, de GPS, Google Maps e outras fontes que lhe orientem sobre melhores rotas, que levem com maior rapidez e segurança ao seu destino.
+
+Se pensarmos no transporte de cargas, como tanto já referimos nesse trabalho, a principal função das redes sociais não é de caráter lúdico, mas, sim, como uma ferramenta essencial para que não haja qualquer contratempo que possa causar prejuízo à empresa ou empresas envolvidas, afinal de contas, no que tange ao transporte de mercadorias, sempre há pelo menos duas empresa relacionadas: a de produção do bem e a de transporte do mesmo ao seu destino.
+
+O que discutimos até agora é amplamente sabido por aqueles que analisam o uso das redes sociais na atualidade. O que pretendemos, então, é trazer uma contribuição de natureza científica a essa compreensão e à utilização de forma cada vez mais eficaz dessas ferramentas, a partir do uso da IA, da mineração de dados e dos métodos de extração e produção de conhecimentos (KDD).
+
+
+"Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
+
+%tabela 5
+\begin{table}[!ht]
+	\centering
+	\caption{Volume de dados no mundo}
+	\vspace{1mm}
+	\begin{tabular}{l|c|c|c}
+		\hline
+		\textbf{Ano} & \textbf{Qtd} & \textbf{Unidade} & \textbf{Múltiplo}\\
+		\hline
+		2000 & 800 & terabytes – TB & $10^{12}$\\
+		2006 & 160 & petabytes – PB & $10^{15}$\\
+		2009 & 500 & exabytes – EB & $10^{18}$ \\
+		2012 & 2,7 & zettabytes – ZB & $10^{21}$\\
+		2020 & 35 & yottabytes – YB & $10^{24}$\\
+	\end{tabular}
+\end{table}
+
+Uma parte desses dados são as redes sociais. A rede social escolhida para esta pesquisa foi o Twitter por apresentar características como API aberta de fácil conexão para obtenção dos dados. Uma rede social é sobretudo uma de conexão entre pessoas, contudo, sob o ponto de vista tecnológico uma conexão entre nós e arestas, os nós simbolizam as pessoas e as arestas a ligação entre elas, essa ``arquitetura social'' é conhecido como grafo. A figura a seguir foi gerada pelo software Gephi \cite{ICWSM09154} representa um grafo da rede social Twitter.
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Grafo Twitter}
+	\vspace{1mm}
+	\includegraphics[width=100mm, height=65mm]{Figuras/BigData/grafoExemplo.png}\\
+	\tiny Fonte: https://github.com/gephi/gephi/wiki/Official-papers. Acessado em: 10/03/2017
+\end{figure}
+
+
+\pagebreak
+
+\subsubsection{O Twitter}
+
+O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
+dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam a sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
+
+O Twitter, rede social que interessa a essa pesquisa, caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato. (A FONTE -- BIG SOCIAL DATA: PRINCÍPIOS SOBRE COLETA, TRATAMENTO E ANÁLISE DE DADOS SOCIAIS). A cada dia centenas de terabytes são inseridos no Hadoop data warehouse.
+
+A ideia inicial do Twitter, segundo seus fundadores, era de que essa rede se comportasse como um “SMS da Internet” (30). As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinatura para recebê-las: os seguidores. A conexão entre os usuários da rede social se deve à relação entre os seguidores e os seguidos. O comportamento do seguidor para retweetar os usuários seguidos serve como principal mecanismo para compartilhar informações nessas redes.
+
+Nas pesquisas que envolvem as redes sociais, analisar o conteúdo utilizando ferramentas de mineração de textos é um procedimento frequentemente e que tem apontado resultados surpreendentes sobre o comportamento social e suporte à tomada de decisão (Abrahams, Fan, Wang, Zhang \& Jiao, 2015). É comum, ainda, aplicar mineração de textos em bibliotecas e outras instituições. Isso implica em rastrear tópicos, extrair informações, agrupar, categorizar (Fan, Wallace, Rich e Zhang, 2006).
+
+Em recente artigo, Sandhu (2015) indicou a importância do aprendizado sobre mineração de dados e ferramentas de Big Data para as bibliotecas acadêmicas, de forma a melhorar a eficiência da biblioteca e dos serviços de informação. Similarmente, Zhang e Gu (2011) alegaram que minerar conhecimento sobre os clientes é importante para as bibliotecas acadêmicas. Na mesma linha de investigação, Sarker et al., 2015 destacam que a abordagem da mineração de textos para os dados das mídias sociais tem sido utilizada em muitos campos, como negócios, ciência da saúde, dentre outros. 
+
+Estudos atuais têm mostrado o papel da análise sentimental e mineração de opinião nas redes sociais, em particular no Twitter, como forma de investigar padrões de comportamento Twitter as a Corpus for Sentiment Analysis and Opinion Mining Alexander, 2010 Sentiment Analysis on Twitter, Akshi Kumar and Teeja Mary Sebastian, 2012). A figura abaixo mostra como a análise sentimental e a mineração de opinião representam os conhecimentos produzidos nesse tipo de pesquisa.
+
+FIGURA..........
+
+(FONTE: Artigo “Library \& Information Science Research)
+
+Outro estudo (FONTE ??) aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia. (Duggan \& Smith, 2013). Um relatório publicado em 2014 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube (Another Pew). 
+
+Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede (Mitchell \& Page, 2013). Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014) 
+
+Heneycutt e Hering (2009) identificaram 11 categorias de conteúdo propagados nos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (que traduzimos aqui como “auto-ajuda”), informações para outros, informações para si próprio, meta comentários, uso de mídia, opinião, outras experiências, auto experiência, e solicitação de informações. Naaman, Boase e Lai (2010), por sua vez, classificaram os conteúdos em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
+
+No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. Adkins \& Budd, 2006, Cronin \& Overflet, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). 
+
+Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o google) com o objetivo de identificar a relevância e acetiação de wrbsites (Brin \& Page, 1998), em decorrência do número de seguidores, da quantidade de menções feitas, de retweets, por exemplo.
+
+(FONTE: SE É POSITIVO OU NEGATIVO)
+
+Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter na rede, como um todo, analisando o número de retweets, menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). 
+
+Em outro estudo, André et al. (2012) utilizaram a abordagem “crowdsourcing” para identificar que tipo de tweets chamam atenção e são os preferidos dos seguidores, como também, os que são mais rejeitados. Eles encontraram uma preferência dos usuários em fazer perguntas aos seguidores, bem como em partilhar informações e autopromoção (que diz respeito a algo como falar de si próprio, de seus sentimentos, percepções e ideias).
+
+Modalidades e ferramentas de análise do Twitter 
+
+Nesse tópico abordaremos, em maior detalhe, as escolhas metodológicas e ferramentas analíticas utilizadas em estudos que levam em conta dados do twitter, apresentando alguns dessas pesquisas.
+Do ponto de vista metodológico ……….
+
+Na pesquisa conduzida por Suh, Hong e Chi (2010), esses pesquisadores encontraram uma correlação positiva entre a existência de uma URL de um tweet e a probabilidade de que aconteça um retweet. Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 tweets recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual da Academia. 
+
+Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os retweets foram retirados das amostras. Também foram removidos da amostra os tweets com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum tweet (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos tweets. Com isto, a amostra foi reduzida de 1200 para 752 tweets que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 tweets analisados, 271 apresentavam pelo menos um retweet, e 131 receberam um “favorito”.  Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres. 
+
+(REES
+
+Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) tweets, seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de tweets normalmente distribuídas. Métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
+O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de retweets e o número de menções a usuários, sugerindo que tweets com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
+
+Em outro artigo, conduzido por (FONTE - ANO), os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72). Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes (Del Bosque, Leif e Skaf, 2012; Cavanagh, 2015), tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários (Boaten \& Quan, 2014). 
+A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os tweets da biblioteca acadêmica. 
+(FONTE: Abraham et al., 2015)
+
+
+(Stieglitz \& Dang-Xuan, 2013)
+
+O corpus de dados desta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos Twittes desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com), em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, tendo a seleção se restringido às universidades de língua inglesa e a apenas uma biblioteca por instituição, para o caso de a universidade ter mais de uma (no artigo original é a tabela 1). As informações relevantes dos tweets, utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; data que se “juntou” ao Twitter.
+
+Na etapa de preprocessamento -- ``dataset prepocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como o de Ralston, O'Neil, Wigmore e Harrison (2014) e de Yoon, Elhadad e Bakken (2013). O processo contemplou a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado) e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
+
+Para análise do conjunto de dados, utilizou-se a mineração em textos e para investigar os históricos de tweets da bibliotecas escolheu-se a análise de conteúdo. A frequência dos tweets, retweets e distribuição dos tweets e retweets foi identificada e contabilizada. Em seguida, os tweets marcados com o PamTaT, uma ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Poderia colocar essa observação numa nota de 
+rodapé). O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natural language processing framework'' (Bird, Loper \& Klien, 2009) e permite a análise de grande volume de textos pelos usuários finais, não necessitando de conhecimento de programação da linguagem Python. 
+A ferramenta serve, ainda, para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso, permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. Também foi utilizado o Harvard General Inquirer (Stone et al. 1966) para análise semântica e sentimental dos tweets. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificaram duas centenas de palavras incluindo, dentre elas, palavras que davam o sentido de algo positivo, negativo, ou ainda relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante. Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
+
+Imagem tabela 1 do twitter
+
+Observa-se que foi incluído o número de tweets; a quantidade de usuários seguidos pela biblioteca; a quantidade de seguidores e o número de tweets favoritos da biblioteca. A Universidade Johns Hopkins, como se pode observer na tabela, tem o maior número de
+tweets, seguida pela biblioteca da Stanford University e pela biblioteca da Cambrige University, respectivamente. A biblioteca da Universidade da Califórnia San Diego tem a conta do Twitter mais antiga (maio de 2008), mas apresenta um pequeno número de tweets,
+comparativamente à biblioteca da Stanford University, que começou no Twitter com uma conta em abril de 2012, mas possui o segundo
+maior número de tweets. 
+
+A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando a frequência de unigramas (palavras únicas) observou-se (FIGURA), que a palavra mais frequente foi “open”, utilizada em uma variedade de contextos pelos tweets da biblioteca. Por exemplo: foi usada em um anúncio sobre a mudança do horário de funcionamento, bem como EM UM anúncio para abertura do espaço para os estudantes, exposições, abertura da casa (biblioteca), etc. O segundo termo mais frequente foi “research” (pesquisa), que foi utilizado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos tweets sobre os recursos da biblioteca. Tais termos foram incluidos em tweets relacionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”. 
+
+Imagem tabela 2 do twitter
+
+Imagem tabela 3 do twitter
+
+A FIGURA, por sua vez, mostra a distribuição dos bigramas (sequência de duas palavras) no conjunto de tweets. Observa-se que o mais frequente bigrama foi “special collections”.
+O segundo mais popular bigrama foi “open access”, utilizado em diferentes contextos, tal como política de acesso, publicidade, recursos, trenamentos e workshops, dicas e orientação, serviços, eventos e notícias. O resultado mostrou a ênfase colocada na iniciativa de promover “open access” com as instituições acadêmicas.
+
+O terceiro maior bigrama foi “reading room”, relativo à atividade de suporte aos estudantes com as instituições acadêmicas. Essas salas são um dos mais importantes espaços da biblioteca, usadas para leitura e estudo. Os tweets eram, em sua maioria, relacionados a noticias de abertura e fechamento das salas de leitura: “reading rooms”.
+
+A fig-6 mostra os mais importantes trigramas (sequência de três palavras), dos quais destacou-se o trigrama “save the date”. Essa expressão era utilizada para requerer especial atenção dos seguidores para os eventos importantes que estavam para acontecer. Este trigrama é seguido, como o segundo mais frequente, por “pleased to announce”, outra expressão usada para enfatizar a importância de eventos especiais. O terceiro mais usado foi “open access week” (seguido muito próximo por “open access policy”), que novamente destaca os esforços na iniciativa de espaço aberto (open access) 
+
+Imagem tabela 4 do twitter
+
+
+No caso particular dessa pesquisa, o interesse voltou-se para os tweets da Polícia Rodoviária Federal do estado de Pernambuco, bem como de seus seguidores e de usuários que fizeram menção a eventos que afetam diretamente o tráfego nas principais rodovias do estado. A seguir, a título de exemplo, pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal do estado de Santa Catarina:
+
+\begin{figure}[ht]
+	\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF.png}}
+	\quad \quad \quad \quad
+	\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}
+\end{figure}
+
+A Polícia Rodoviária Federal disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
+num espaço temporal variado. Por exemplo: entre Itajaí e Balneário Camboriú foi informado que o trânsito estava intenso, sugerindo que a frota de caminhões deva ter uma rota alternativa, caso a situação persista por muito tempo. No primeiro twitte da segunda coluna, é informado em Via Expressa (BR 282) que o trânsito está lento com velocidade de 20km/h (praticamente congestionado). 
+
+\pagebreak
+
+Outra rede social conhecida pelos condutores de veículos é o Waze. O Waze é um aplicativo de navegação para o trânsito, e funciona em aparelhos celulares e tablets. Os utilizadores desse aplicativo são conhecidos como wazers e compartilham informações sobre o trânsito, em tempo real. Todavia, as informações somente estão disponíveis no momento em que são postadas pelos utilizadores, por um período de tempo pequeno. Caso não haja usuários trafegando pelas vias, ou caso os mesmos não tenham disponibilidade para compartilhar informações, não há o que se ver. Outro problema lidentificado em relação ao waze é que caso não haja conexão à Internet, não há como acessar os dados dos 'wazers', para navegação.
+
+Além dos dados que chegam ao \textit{Big Data} através das redes sociais, as grandes cidades têm disponíveis câmeras de monitoramento do trânsito nos semáforos ou próximas a eles. Algumas com cobertura por canais de televisão, bem como câmaras de segurança próximas às rodovias, coletando informações em tempo real. Os dados desses dispositivos são gravados, sendo conhecidos como \textit{stream} de dados. Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br (acessado em 10/10/2016) dentre outros.
+
+Os dados disponibilizados pelos diversos meios de comunicação não estão em formato que possam ser utilizados imediatamente, precisando antes serem processados. Tais dados não processados são conhecidos como ``dados frios''. O processo de tratar as informações, retirando-lhes o ``lixo'' e transformando dados ``frios'' em dados ``quentes'', é um processo que tem um custo temporal elevado, devido ao volume dos dados.
+
+
+\section{Aprendizagem de Máquina} \label{arte:palavraChave:Machine}
+
+Historicamente, a aprendizagem computacional está relacionada com ``o que'' há para ser aprendido \cite{Nilsson2005}. 
+Para escolher o que aprender é necessário definir de ``onde'' ou sobre quais dados aprender.
+Deve ser fornecido um conjunto de treinamento, para, em seguida, testar o conhecimento aprendido em um ``conjunto de teste''.
+
+Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dados de forma automatizada e interativa.
+Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014}, o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
+
+Para Nilsson \cite{Nilsson2005}, o aprendizado ocorre quando uma máquina modifica sua estrutura interna, programa ou dados 
+(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo, quando uma máquina de reconhecimento da fala melhora após ``ouvir'' várias amostras de fala humanas e que nós sentimos que pronta, neste caso podemos dizer que a máquina aprendeu. 
+
+Sistemas que executam tarefas de inteligência artificial, tais como Reconhecimento de Padrões, Diagnóstico, Controle de Robôs, Predição e outros, precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
+
+
+\subsection{Tipos de Aprendizagem}
 
 Quando se fala em algoritmos de IA, adentramos no campo de Aprendizagens e Máquinas. É o princípio da aprensizagem que faz com que o algoritmo estabeleça a decisão adequada para o problema proposto.
 No campo da aprendizagem de máquina, é possível apontar três tipos de aprendizagem: a aprendizagem supervisionada, aprendizagem não-supervisionada e aprendizagem por reforço \cite{NorvigRussel2004}. AS duas primeiras serão aqui descritas de maneira sucinta, e consideradas mais adiante, uma vez que interessam particularmente a essa pesquisa, sobretudo quando da utilização de redes neurais e árvores de decisão. 
@@ -282,22 +462,7 @@ predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas
 
 
 
-
-\subsection{Aprendizagem de Máquina}\label{arte:palavraChave:Machine}
-
-
-Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dados de forma automatizada e interativa.
-Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014} em seu livro ``Understandig Machine Learning: From Theory to Algorithms'' 
-o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
-
-Para Nilsson \cite{Nilsson2005} o aprendizado ocorre quando uma máquina modifica sua estrutura interna, programa ou dados 
-(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo quando uma 
-máquina de reconhecimento da fala \textbf{melhora} após ``ouvir'' várias amostras de fala humanas e que nós sentimos que pronta, neste caso
-podemos dizer que a máquina aprendeu. 
-
-Sistemas que executam tarefas de inteligência artificial tais como Reconhecimento de Padrões, Diagnóstico, Controle de Robôs, Predição e 
-outros precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
-
+\section{Algoritmos de Aprendizagem de Máquina}
 
 \subsection{Naïve Bayes}
 
@@ -314,7 +479,7 @@ p(posteriori) = \frac{p(priori) * verossimilhança}{evidência}
 \end{equation}
 
 
-\subsection{Aprendizagem Bayesiana}
+\subsubsection{Aprendizagem Bayesiana}
 
 Baseado no teorema de Bayes, dado um conjunto de variáveis aleatórias $\omega = {x_{1}, x_{2},..,x_{n}}$ a variável aleatória \textit{H} (hipótese) denota o tipo de $\omega$, com valores possíveis para $h_{1}, h{2},...,h_{n}$. A medida que são inspecionadas as variáveis, são revelados os dados $D_{1}, D_{2},...,D_{n}$, onde $D_{i}$ é uma variável aleatória com valores possíveis para cada variável do conjunto $\omega$ de variáveis. Sendo D a representação dos dados do espaço de variáveis para uma predição sobre a parte deconhecida de \textit{X}, temos:
 
@@ -324,187 +489,104 @@ P(h_{i}|d) = \sum_{i}P(X|d,h_{i})P(h_{i}|d) = \sum_{i}P(X|h_{i})P(h_{i}|d)
  onde cada hipótese $h_{i}$ determina uma distribuição de probabilidades sobre a variável \textit{X} \cite{NorvigRussel2004}.
 
 
-\subsection{Onde e o que aprender}
-
-Historicamente os tipos de aprendizagem computacional estão relacionados em ``o que'' há para ser aprendido \cite{Nilsson2005}. 
-Primeiramente para escolher o que aprender definiremos de ``onde'' ou sobre quais dados se aprender.
-Fornecemos um conjunto de treinamento para depois testar o conhecimento aprendido em um conjunto de teste.
-
-
-\section{Classificação e Regressão para análise preditivas}
-
-Classificação é um processo para encontrar um modelo que descreve e distingue classes de dados. 
-Esse modelo tem como base de análise um conjunto de treinamento (i.e. objetos de dados para os quais 
-serão encontrados rótulos que os classifiquem). 
-
-Esse modelo é usado para predizer quais rótulos de classes terão os objetos desconhecidos.
-O modelo pode ser representado por regras de classificação do tipo ``IF - THEN'', por árvores de decisão, redes neurais e outros. 
-Regras de classificação se distinguem de regras de indução da seguinte forma:
-\begin{itemize}
- \item Uma regra de classificação poderia ser: $if$ L $them$ class = $C_{1}$ ou $if$ L $them$  $C_{1}$
- \item Uma regra de indução seria: $ if$ L $them$ R que por sua vez produz novas regras 
-\end{itemize}
-
-%\singlespace
-\vspace{2cm}
-
-\begin{figure}[ht] \unitlength= 1mm \thicklines
- \centering{
-    \begin{picture}(100,6)
-      \put(0,0){\framebox(115,6)} \put(3,2){$age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$}
-      \put(0,-7){\framebox(113,6)} \put(3,-5){$age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$}
-      \put(0,-14){\framebox(85,6)} \put(3,-12){$age(X,``middle-aged")$  $\to classe (X,``B")$}
-      \put(0,-21){\framebox(70,6)} \put(3,-19){$age(X,``senior")$  $ \to classe (X,``B")$}
-      \end{picture}
-   }
-\end{figure}
-
- \vspace{3cm} 
-
-A figura a seguir representa uma rede neural com as mesmas características da árvore de decisão anterior:
-\begin{figure}[!ht]
-\centering
-\caption{Rede Neural}
-\includegraphics[width=85mm, height=38mm]{Figuras/BigData/redeneural.png}\\
-\tiny Fonte: Han, J. and Kamber, M. 
-\end{figure}  
-
-As árvores de decisão produzem regras de indução, são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. 
-A fase de extração dos dados do é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} 
-isso pode representar o desafio maior para implementar esta técnica. 
-
-Outro problema que pode ser encontrado em algoritmos de aprendizagem é o ``overfitting'' ou superadaptação aos modelos.
-Segundo RUSSEL E NORVIG (2004)  \footnote{Foi observado que redes neurais muito grandes \textit{generalizam} bem, 
-\textit{desde que os pesos sejam mantidos pequenos}. Essa restrição mantém os valores de ativação na região 
-\textit{linear} da função sigmóide g(x) onde x é próximo de zero. Por sua vez isso faz com que a rede se comporte 
-como uma função linear, com um número muito menor de parâmetros.} o ``overfitting'' ocorre quando o número atributos é grande.
-
 
 
 \pagebreak
 
-\section{Árvore de Decisão}
+\subsection{Árvores de Decisão}
 
-Aspectos introdutórios
+\subsubsection{Aspectos introdutórios}
 
-No âmbito da inteligência artificial, quando se trata de algoritmos de aprendizagem, uma classe de algoritmos que tem se revelado potente para problemas das mais diversas naturezas é a árvore de decisão. Além do universo das pesquisas no campo da informática engenharia e ciências da computação, as árvores de decisão têm sido utilizadas, sobremaneira, em pesquisas relacionadas à Medicina à Economia, nos mais diversos sistemas de suporte à decisão, como diagnósticos de doenças, investigação de fraudes, dentre outros (FONTE).
+No âmbito da inteligência artificial, quando se trata de algoritmos de aprendizagem, uma classe de algoritmos que tem se revelado potente para problemas das mais diversas naturezas é a árvore de decisão. Além do universo das pesquisas no campo da informática engenharia e ciências da computação, as árvores de decisão têm sido utilizadas, sobremaneira, em pesquisas relacionadas à Medicina, à Economia, nos mais diversos sistemas de suporte à decisão, como diagnósticos de doenças, investigação de fraudes, dentre outros \cite{Camilo}.
 
-A escolha desse algoritmo está relacionada, em larga medida, a uma relação que, cotidianamente chamamos de “custo benefício”. Uma árvore de decisão é gerada de maneira relativamente simples e os resultados produzidos são, em sua maioria - e a depender da área específica – de grande poder de abrangência, e de fácil interpretação. Todavia, para que se faça opção por essa ferramenta, o pesquisador precisa ter clareza sobre a que classe de problemas ela atende e sua aplicação pode ser útil, de bem como, como pode ser gerada e realimentada, e de que forma seus resultados possam ser adequadamente interpretados.
+A escolha desse algoritmo está relacionada, em larga medida, a uma relação que cotidianamente chamamos de “custo benefício”. Uma árvore de decisão é gerada de maneira relativamente simples e os resultados produzidos são, em sua maioria - e a depender da área específica – de grande poder de abrangência e de fácil interpretação. Todavia, para que se faça opção por essa ferramenta, o pesquisador precisa ter clareza sobre a que classe de problemas ela atende, bem como, de que maneira pode ser gerada e realimentada, e de que forma seus resultados devem ser adequadamente interpretados.
 
-Na pesquisa apresentada nessa dissertação, particularmente, as árvores de decisão possibilitaram grandes avanços na proposicão do modelo de predição, conforme pode ser observado no capítulo dedicado aos resultados. 
+Na pesquisa apresentada nessa dissertação, particularmente, as árvores de decisão possibilitaram grandes avanços na proposição do modelo de predição, conforme pode ser observado no capítulo dedicado aos resultados. 
 
-Conforme o nome sugere, o que se espera de uma árvore de decisão é que ao final do processo resulte a melhor decisão. Todavia, para que a decisão satisfatória apareça, é necessário que o pesquisador faça as escolhas adequadas, de modo a poder tirar o melhor proveito dessa ferramenta.  Para tal, é preciso compreender a natureza desse algoritmo e os processos a ele relacionados. 
+Conforme o nome sugere, o que se espera de uma árvore de decisão é que ao final do processo resulte a melhor decisão. Todavia, para que a decisão satisfatória apareça, é necessário que o pesquisador faça as escolhas adequadas, de modo a poder tirar o melhor proveito dessa ferramenta. Para tal, é preciso compreender a natureza desse algoritmo e os processos a ele relacionados. A seguir serão apresentados os principais elementos que precisam ser conhecidos pelo pesquisador que deseja se aventurar por esse campo.
 
-A seguir serão apresentados os principais elementos que precisam ser conhecidos pelo pesquisador que deseja se aventurar por esse campo.
+\subsubsection{Breve histórico e conceituação}
 
-De maneira sintética, uma árvore de decisão tem como entrada um conjunto de atributos e como saída uma decisão. Os atributos podem, ainda, ser classificados de duas maneiras: discretos ou contínuos. Em virtude dos atributos de entrada, tem-se, como resultado uma funccao de valores discretos – aprendizagem de classificação – ou de valores contínuos – aprendizagem de regressão (RUSSEL; NORVIG, 2004).
+De maneira sintética, uma árvore de decisão tem como entrada um conjunto de atributos e como saída uma decisão. Os atributos podem, ainda, ser classificados de duas maneiras: discretos ou contínuos. Em virtude dos atributos de entrada, tem-se, como resultado uma função de valores discretos – aprendizagem de classificação – ou de valores contínuos – aprendizagem de regressão \cite{NorvigRussel2004}.
 
-A decisão gerada aparece em funcção de uma sequência de testes executados, estando cada um deles relacionados a um nó da árvore. As ramificações que decorrem dos testes são o resultado encontrado a partir da realização do teste. 
+A decisão gerada aparece em função de uma sequência de testes executados, estando cada um deles relacionados a um nó da árvore. As ramificações que decorrem dos testes são o resultado encontrado a partir da realização do experimento. 
 O exemplo a seguir ilustra uma árvore de decisão simples, onde se vê seu nó-raiz e suas ramificações. 
-
-Contexto/FIGURA
-
-
-Uma árvore de decisão obedece à regra básica “se-então”, de maneira que, parte-se do nó (se) até as folhas (então). O conhecimento é representado em cada nó, que apresenta pelo menos duas saídas ou ramificações possíveis, que pode, ou não, converter-se em um novo nó, relacionado a um novo nível. 
-
-Embora seja um algoritmo simples e de fácil interpretação, uma das mais importantes questoes a ser considerada é como propor as regras de forma adequada e relevante para a geração da árvore. É função do algoritmo identificar o melhor atributo, que será o responsavel por criar o nó de decisão. As ligações entre os nós representam os valores possíveis do teste do nó superior, e as folhas indicam a classe (categoria) a qual o registro pertence (CAMILO; SILVA, 2009).
-
-
-Um pouco da história e conceituação das árvores de decisão
-
-A origem das árvores de decisão, como algoritmo no campo da inteligência artificial data da segunda metade do século XX. A literatura aponta que as árvores de decisão foram propostas por Ross Quinlan, pesquisador australiano, no final da década de 70 e início dos anos 80, sendo o ano de 1983 aquele em que foi apresentado o primeiro algoritmo para geração de árvores de decisão: o ID3 (Iterative Dichotomiser),  utilizado até hoje e considerado um dos mais importantes.  
-
-Todavia, \textbf{HSSINA; MERBOUHA; MOHAMMED, 2014}, sugerem que autores no campo da estatística descrevem que seu surgimento seu deu década de 60, com Sonquist e Morgan, que utilizaram árvores de decisão para predição e explicação, com o algorítmo AID (Automatic Interation Detection), sem tomar conhecimento das pesquisas de Quinlan. A partir desse modelo, houve uma expansão para problemas de classificação e discriminação, cuja abordagem teria culminado no CART (Classification and Regression Tree ), método desenvolvido por Breiman e seus colaboradores.
-
-Quinlan (1986) discute que desde que a inteligência artificial começou a se desenvolver como campo de teorização e investigação, em meados dos anos 50, as máquinas de aprendizagem (machine learning) ocuparam um lugar de particular interesse dos pesquisadores, sobretudo pelo interesse na compreensão e modelização de comportamentos inteligentes. Tal interesse, ainda segundo esse autor, instigou a busca pelo desenvolvimento de sistemas competentes baseados no conhecimento (knowledge-based) e tomou vulto nas pesquisas em inteligência artificial. Quinlan avança, pontuando o interesse de muitos pesquisadores, dos quais ele próprio, no que ele chamou de “microcosmo de máquinas de aprendizagem e de uma família de sistemas de aprendizagem que têm sido utilizadas para construir sistemas baseados em conhecimentos de um tipo simples” (livre tradução do autor). 
-
-O primeiro grupo de árvores de decisão, ainda conforme Quinlan (1986) era responsável por tarefas de classificação, desenvolvendo uma decisão do das raízes as folhas, sendo conhecido com top down. (Note-se que numa árvore de decisão, embora tenhamos, igualmente, seu desenvolvimento das raízes às folhas, a sua representação começa pelo nó-raiz, na parte superior, descendo em direção às folhas ISSO TAMBÉM PODERIA SER UMA NOTA DE RODAPÉ). 
-
-O modelo proposto comportaria – como o é até hoje – inúmeras análises e reanálises, em todos os estágios e durante todo o processo. Assim, esse primeiro modelo faria parte da família de algoritmos do tipo Top-Down Induction of Decision Tree – TDIDT, representada por Quinlan, em forma de árvore, na figura a seguir (p. 84).
-
-FIGURA
-
-Para Quinlan (1986), o pai da família TDIDT é o Sistema de Aprendizagem de Conceito (Concept Learning System – CLS) de Hunt, proposto em 1963, que constroi uma árvore de decisão que visa diminuir o custo de classificar um objeto. Para cada etapa o CLS explora o conjunto de decisões possíveis, seleciona uma ação que minimize o custo, para então mover a um nível abaixo na árvore. O ID3 configura-se, então, como um entre uma série de programas desenvolvidos em função desse Sistema (CLS).
-
-O ACLS (Quinlan, 1986), por sua vez, seria uma generalização do ID3. Enquanto que o CLS e o ID3 têm propriedades que possibilitam descrever objetos apenas com valores de um grupo especifico, o ACLS permite propriedades com valores não restritos, podendo ser aplicado para tarefas das mais conmplexas, tal como o reconhecimento de imagens.
-
-O “Assistant” (ver figura acima), por sua vez, generaliza atributos do ACLS, permitindo atributos com valores contíuos. E, embora não produza uma árvore de decisão iterative, como acontece com o ID3, tem o poder de escolher um grupo de bom treinamento para os objetos disponíveis. Essa classe de algoritmos tem sido bastante utilizada no campo médico, por exemplo.
-
-
-Ainda na figura, os três sistemas à esquerda são derivações comerciais do ACLS, que não estão relacionados a avanços teóricos consideráveis, mas incorporam inovações simples e de sucesso na geração e utilização de árvores de decisão.
-
-Conforme mencionado, a tarefa das árvores de decisão desse tipo é a de classificação.  Seu produto será, pois, uma classe. Para tal, Quinlan (1986) descreve que a estratégia subjacente a essa árvore é não-incremental. Ou seja, um grupo de casos relevantes é apresentado, os exemplos são dados, mas não há uma ordem específica de apresentação dos exemplos. 
-
-Possivelmente, em virtude dessa estratégia, muitos autores (COLOCAR AQUI UMA FONTE) relacionam a tarefa de classificação de uma árvore de decisão à aprendizagem não supervisionada. De maneira complementar a essa ideia, quando a árvore de decisão assume a função de predição, fala-se de aprendizagem supervisionada.
 
 \begin{figure}[!ht]
 	\centering
 	\caption{Árvore de decisão}
-	\includegraphics[width=60mm, height=45mm]{Figuras/BigData/arvorejovem.png}\\
+	\includegraphics[width=60mm, height=45mm]{Figuras/Arvore/arvorejovem.png}\\
 	\tiny Fonte: Han, J. and Kamber, M. 
-\end{figure}  
-
-Resumidamente, uma árvore de decisão tem como entrada um conjunto de atributos e como saída uma decisão. Os atributos podem, ainda, ser discretos ou continuos. Em virtude dos atributos de entrada, tem-se, como resultado uma função de valores discretos – aprendizagem de classificação – ou de valores contínuos – aprendizagem de regressão (RUSSEL; NORVIG, 2004).
-
-A decisão gerada aparece em funcção de uma sequência de testes executados, estando cada um deles relacionados a um nó da árvore. As ramificações que decorrem dos testes são o resultado encontrado a partir da realização do teste. 
+\end{figure} 
 
 
-O exemplo a seguir ilustra uma árvore de decisão simples, onde se vê seu nó-raiz e suas ramificações. 
+Uma árvore de decisão obedece à regra básica “se-então”, de maneira que, parte-se do nó (se) até as folhas (então). O conhecimento é representado em cada nó, que apresenta pelo menos duas saídas ou ramificações possíveis, que pode, ou não, converter-se em um novo nó, relacionado a um novo nível. 
 
-Contexto/FIGURA
+Embora seja um algoritmo simples e de fácil interpretação, uma das mais importantes questões a ser considerada é como propor as regras de forma adequada e relevante para a geração da árvore. É necessário identificar o melhor atributo, que será  responsável por criar o nó de decisão. As ligações entre os nós representam os valores possíveis do teste do nó superior e as folhas indicam à classe (categoria) a qual o registro pertence \cite{Camilo}.
 
-Ainda do ponto de vista histórico, no final da década de 80 e início da década de 90 (Quinlan, 1999) é desenvolvido o algoritmo C4.5, uma evolução significativa do ID3, que consegue lidar tanto com atributos categóricos, quanto contínuos. É também capaz de lidar com valores desconhecidos, representados por “?” e sendo tratados de forma especial no processo.
+A origem das árvores de decisão, como algoritmo no campo da inteligência artificial data da segunda metade do século XX. A literatura aponta que as árvores de decisão foram propostas por Ross Quinlan, pesquisador australiano, no final da década de 70 e início dos anos 80, sendo o ano de 1983 aquele em que foi apresentado o primeiro algoritmo para geração de árvores de decisão: o ID3 (Iterative Dichotomiser),  utilizado até hoje e considerado um dos mais importantes.  
 
-No W.E.C.A. Waikato Environment Knowledge Analysis) é disponibilizada sua implementação, passando a ser chamado J48, que é o algoritmo utilizado na pesquisa contemplada nessa dissertação.
+Todavia, HSSINA; MERBOUHA; MOHAMMED \cite{Decision2014}, sugerem que autores no campo da estatística descrevem que seu surgimento na deu década de 60, com Sonquist e Morgan, que utilizaram árvores de decisão para predição e explicação, com o algorítmo AID (Automatic Interation Detection), sem tomar conhecimento das pesquisas de Quinlan. A partir desse modelo, houve uma expansão para problemas de classificação e discriminação, cuja abordagem teria culminado no CART (Classification and Regression Tree), método desenvolvido por Breiman e seus colaboradores.
 
-O C4.5 é capaz de analisar a medida de ganho, introduzindo um conceito fundamental para o avanço desse algoritmo: a ideia de “poda”, que é realizada utilizando medidas estatísticas para identificar e, posteriormente, excluir ramos. Tal processo permite o recorte de ramos que não apresentam contribuição significativa e é um dos algoritmos mais utilizados na literatura que contempla árvores de decisão. 
+Quinlan \cite{Quinlan86inductionof} discute que desde que a inteligência artificial começou a se desenvolver como campo de teorização e investigação, em meados dos anos 50, as máquinas de aprendizagem (machine learning) ocuparam um lugar de particular interesse dos pesquisadores, sobretudo pela na compreensão e modelização de comportamentos inteligentes. 
 
-São identificadas dois momentos em que são realizadas podas. O primeiro é o de pré-poda, efetivado no treinamento e que se caracteriza pela interrupção do processo de divisão do nó “em função da avaliação de um conjunto de medidas, transformando o nó em folha rotulada com a classe majoritarian” (SIMÕES, 2008). A pós-poda, por sua vez, é executada findo o processo de construção da árvore, e é aplicado recursivamente, na direção de baixo para cima.
+Tal interesse, ainda segundo esse autor, instigou a busca pelo desenvolvimento de sistemas competentes baseados no conhecimento (knowledge-based) e tomou vulto nas pesquisas em inteligência artificial. Quinlan \cite{Quinlan86inductionof} avança, pontuando o interesse de muitos pesquisadores, dos quais ele próprio, no que ele chamou de “microcosmo de máquinas de aprendizagem e de uma família de sistemas de aprendizagem que têm sido utilizadas para construir sistemas baseados em conhecimentos de um tipo simples” ( p.82) (livre tradução do autor). \footnote{This paper focusses on one microcosm of machine learning and on a family of learning systems that have been used to build knowledge-based systems of a simple kind.}
 
-Segundo Quinlan (1999), a entrada do C4.5 é caracterizada por uma coleção de casos de treinamento, cada uma com uma tuple de valores para um grupo de atributos – variáveis independentes – e uma classe de atributos (variáveis dependentes). Um atributo pode ser contínuo ou discreto, dependendo do valor ser numérico (discreto) ou nominal (contínuo).
+O primeiro grupo de árvores de decisão, ainda conforme Quinlan \cite{Quinlan86inductionof} era responsável por tarefas de classificação, desenvolvendo uma decisão das raízes às folhas, sendo conhecido com \textit{Top -- Down}. 
+\footnote{ Em uma árvore de decisão, embora seu desenvolvimento se dê das raízes às folhas, a sua representação começa pelo nó-raiz, na parte superior, descendo em direção às folhas.} O modelo proposto comportaria – como o é até hoje – inúmeras análises e reanálises, em todos os estágios e durante todo o processo. Assim, esse primeiro modelo faria parte da família de algoritmos do tipo Top-Down Induction of Decision Tree – TDIDT, representada por Quinlan, em forma de árvore, na figura a seguir (p. 84).
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Árvore da família TDIDT}
+	\includegraphics[width=60mm, height=45mm]{Figuras/Arvore/TDIDT.png}\\
+	\tiny Fonte: J. R. Quinlan. 
+\end{figure} 
+
+Para Quinlan \cite{Quinlan86inductionof}, o pai da família TDIDT é o Sistema de Aprendizagem de Conceito (Concept Learning System – CLS) de Hunt, proposto em 1963, que constrói uma árvore de decisão que visa diminuir o custo de classificar um objeto. Para cada etapa o CLS explora o conjunto de decisões possíveis, seleciona uma ação que minimize o custo, para então mover a um nível abaixo na árvore. O ID3 configura-se, então, como um entre uma série de programas desenvolvidos em função desse Sistema (CLS).
+
+O ACLS \cite{Quinlan86inductionof}, por sua vez, seria uma generalização do ID3. Enquanto que o CLS e o ID3 têm propriedades que possibilitam descrever objetos apenas com valores de um grupo especifico, o ACLS permite propriedades com valores não restritos, podendo ser aplicado para tarefas das mais complexas, tal como o reconhecimento de imagens.
+
+O “Assistant” (ver figura anterior), por sua vez, generaliza atributos do ACLS, permitindo atributos valores contínuos. E, embora não produza uma árvore de decisão iterativa, como acontece com o ID3, tem o poder de escolher um conjunto de treinamento para os objetos disponíveis. Essa classe de algoritmos tem sido bastante utilizada no campo médico, por exemplo.
+
+
+Ainda na figura anterior, os três sistemas à esquerda são derivações comerciais do ACLS, que não estão relacionados a avanços teóricos consideráveis, mas incorporam inovações simples e de sucesso na geração e utilização de árvores de decisão.
+
+Conforme mencionado, a tarefa das árvores de decisão desse tipo é a de classificação.  Seu produto será, pois, uma classe. Para tal, \cite{Quinlan86inductionof} descreve que a estratégia subjacente a essa árvore é não-incremental, ou seja, um grupo de casos relevantes é apresentado, os exemplos são dados, mas não há uma ordem específica de apresentação dos mesmos. 
+
+Ainda do ponto de vista histórico, no final da década de 80 e início da década de 90 \cite{Kohavi99decisiontree} é desenvolvido o algoritmo C4.5, uma evolução significativa do ID3, que consegue lidar tanto com atributos categóricos, quanto contínuos. É também capaz de lidar com valores desconhecidos, representados por “?” e sendo tratados de forma especial no processo.
+
+No W.E.K.A. (Waikato Environment Knowledge Analysis) é disponibilizada sua implementação, passando a ser chamado J48, que é a implementação na linguagem Java do algoritmo utilizado na pesquisa contemplada nessa dissertação.
+
+O C4.5 é capaz de analisar a medida de ganho, introduzindo um conceito fundamental para o avanço desse algoritmo: a “poda”, que é realizada utilizando medidas estatísticas para identificar e, posteriormente, excluir ramos. Tal processo permite o recorte de ramos que não apresentam contribuição significativa, melhorando o desempenho do algoritmos, que se tornou um dos  mais utilizados na literatura que contempla árvores de decisão. 
+
+São identificadas dois momentos em que são realizadas as podas. O primeiro é o de pré-poda, efetivado no treinamento e que se caracteriza pela interrupção do processo de divisão do nó “em função da avaliação de um conjunto de medidas, transformando o nó em folha rotulada com a classe majoritária” \cite{Simoes2008}. A pós-poda, por sua vez, é executada findo o processo de construção da árvore, e é aplicada recursivamente, na direção de baixo para cima.
+
+Segundo Quinlan \cite{Kohavi99decisiontree}, os dados de entrada do C4.5 são caracterizados por uma coleção de casos de treinamento, cada uma com um tupla de valores para um grupo de atributos (variáveis independentes) e uma classe de atributos (variáveis dependentes). Um atributo, por sua vez, pode ser contínuo ou discreto.
 
 Para Ian e Frank \cite{MachineLearning}, as árvores de decisão geradas a partir do C4.5 podem ser representadas por uma abordagem ``dividir para conquistar'' para resolução de problemas de 
 aprendizagem, a partir de um conjunto de instâncias independentes. Os nós em uma árvore de decisão ``testam'' um atributo específico, comparando seu valor com uma constante. No entanto, algumas árvores podem comparar dois atributos com outros ou utilizarem uma função para tal.
 
-O último algoritmo de árvores de decisão que pretendemos contemplar nessa breve revisão histórica é o CART – Classification and Regression Trees (BREIMAN et. al., 1984). Esse algoritmo produz tanto árvores de classificação (para o caso de atributos discretos) quanto de regress (para atributos contínuos). 
+O último algoritmo de árvores de decisão que pretendemos contemplar nessa breve revisão histórica é o CART – Classification and Regression Trees \cite{breiman1984}. Esse algoritmo produz tanto árvores de classificação (para o caso de atributos discretos) quanto de regressão (para atributos contínuos). 
 
-O CART é conhecido, sobretudo, pela técnica de partição recursiva binária, tendo em vista que cada nó é dividido em dois outros nós, que podem ser divididos, cada um, em mais dois nós, sucessiva e recursivamente. É estabelecido um conjunto de regras que dão suporte à divisão de cada nó, até a decisão de que a árvore está completa, também chamada de árvore maximal (VON ZUBEN; ATTUX; ?????.)
+O CART é conhecido, sobretudo, pela técnica de partição recursiva binária, tendo em vista que cada nó é dividido em dois outros nós, que podem ser divididos, cada um, em mais dois nós, sucessiva e recursivamente. É estabelecido um conjunto de regras que dão suporte à divisão de cada nó, até a decisão de que a árvore está completa.
 
-Diferentemente do C4.5, o CART não realiza pré-poda. A poda acontece ao final – pós-poda - da árvore gerada, em seu tamanho máximo, e por meio do ator custo-complexidade (BREIMAN et. al., 1984), obtendo, muitas vezes, sub-árvores, que são analisadas e, via de regra, a melhor delas é escolhida (VON ZUBEN; ATTUX; ?????.).
-Ainda no que diz respeito ao CART, o critério de classificação utilizado é o índice de Gini. Esse índice tem como base o cálculo da entropia, e é utilizado frequentemente como paâmetro de pesquisa no campo sócio-econômico.
+Diferentemente do C4.5, o CART não realiza pré-poda. A poda acontece ao final – pós-poda - da árvore gerada, em seu tamanho máximo, e por meio da relação custo-complexidade \cite{breiman1984}, obtendo, muitas vezes, subárvores, que são analisadas e, via de regra, a melhor delas é escolhida.
+Ainda no que diz respeito ao CART, o critério de classificação utilizado é o índice de Gini. Esse índice tem como base o cálculo da entropia, e é utilizado frequentemente como parâmetro de pesquisa no campo sócio-econômico.
 
-O CONCEITO DE ENTROPIA
+\subsubsection{Conceito de Entropia}
 
-Dito de forma resumida, a entropia é um conceito da química, utilizado para medir a quantidade de desorganização da material. WINNER e SHANON (REFERÊNCIA) lançaram mão desse conceito, para analisar a desorganização da informação. Quando há alta entropia, pode-se dizer que a informação está com nível considerável de desorganização ou de medida de incerteza.
-No caso das árvores de decisão, aparece relacionada ao ganho de informação. Quando um atributo é identificado como aquele que está relacionado a um maior ganho de informação (ou maior redução de entropia), ele é escolhido como o atributo teste para o nó. Tal atributo teria, então, a função de diminuir a aleatoriedade ou impureza nas partições (SIMÕES, 2008). Com essa abordagem, é possível reduzir o número de testes necessaries para que uma árvore seja produzida.
+A entropia é um conceito, utilizado na química e na física, para medir a quantidade de desorganização da matéria. WIENER e SHANON \cite{Pineda2006} lançaram mão desse conceito para analisar a desorganização da informação. Quando há alta entropia, pode-se dizer que a informação está com nível considerável de desorganização ou de medida de incerteza.
+
+No caso das árvores de decisão, a entropia aparece relacionada ao ganho de informação. Quando um atributo é identificado como aquele que está relacionado a um maior ganho de informação (ou maior redução de entropia), ele é escolhido como o atributo teste para o nó. Tal atributo teria, então, a função de diminuir a aleatoriedade ou impureza nas partições \cite{Simoes2008}. Com essa abordagem é possível reduzir o número de testes necessários para que uma árvore seja produzida.
 
 (CONTINUA)
-
-\subsection{Tipos de Árvores de decisão}
-O algorítimo \textit{C4.5} é considerado um exemplo clássico de método de indução de árvores de decisão. O \textit{C4.5} \cite{Learning2007} foi inspirado no algoritmo 
-\textit{ID3} \cite{Learning1979}, que produz árvores de decisão a partir de uma abordagem recursiva de particionamento de um conjunto de dados, utilizando conceitos e medidas 
-da Teoria da Informação \cite{TeoriaInf}.
-
-Essa qualidade é utilizada para interpretar os resultados.
-
-
-\section{Regressão}
-
-\subsection{Tipos de regressão aplicadas a mineração de dados}
-
-\color{red} {incluir e explicar ao menos 2 tipos } 
-
-\subsection{Regressão Linear}
-\color{blue} {\large{falta fazer}}
-
-\color{black}
 
 
 \pagebreak
 
-\section{Redes Neurais}
+\subsection{Redes Neurais}
 
-\subsection{Introdução}
+\subsubsection{Introdução}
 
 O cérebro humano possui cerca de 10 bilhões de neurônios, que são responsáveis pelo funcionamento do organismo. 
 Esses neurônios se conectam entre si, através de sinapses, formando uma Rede Neural capaz de armazenar e processar grande quantidade de informações.
@@ -556,7 +638,7 @@ primeira conferência de redes neurais nos tempos modernos: a IEEE International
 a International Conference on Neural Networks Society (INNS). 
 Em 1989 foi fundado o INNS Journal, e em 1990 o Neural Computation e IEEE Transations on Neural Networks.
 
-\subsection{Definições e funcionamento de uma Rede Neural Artificial}
+\subsubsection{Definições e funcionamento de uma Rede Neural Artificial}
 
 São várias as definições que podem ser encontradas sobre o que vem a ser uma Rede Neural Artificial (RNA) \cite{Castanheira}, em função da complexidade de tal Rede. 
 Do ponto de vista computacional, uma RNA configura-se como uma técnica para solucionar problemas de Inteligência Artificial (IA) que estabelece um modelo matemático 
@@ -645,7 +727,7 @@ A Rede Neural, por sua vez, extrai regras básicas a partir de dados reais, ou s
 Uma vez ``treinada'' os pesos estão calibrados para solucionar a classe de problemas para o qual foi desenhada. Essa rede neural portanto pode ser 
 considerado um aproximador de funções, uma vez dada uma série de ``inputs'' ela poderá produzir um ``output'' baseada nas funções de internas.
 
-\subsection{Aplicações e Tipos de Redes Neurais}
+\subsubsection{Aplicações e Tipos de Redes Neurais}
 
 São várias as aplicações das redes neurais. Elas podem ser utilizadas para reconhecimento e classificação de padrões;
 processamento de sinais e de imagens; identificação e controle de sistemas; predição, dentre outras funções. 
@@ -719,7 +801,7 @@ classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
 \end{itemize}
 
 
-\subsection{Aprendizado em Redes Neurais}
+\subsubsection{Aprendizado em Redes Neurais}
 
 O aprendizado caracteriza-se pela capacidade que a RNA tem de resolver uma determinada classe de problemas para os quais foi destinado 
 seu desenvolvimento. 
@@ -774,7 +856,6 @@ saída e terá a capacidade de inibir os ajustes sinápticos de seus concorrente
 unidade e seus vizinhos poderão realizar o ajuste dos pesos.
 
 %\subsection{Retropropagação e o Erro médio quadrático}
-
 
 
 \section{Medida de desempenho e qualidade aplicadas à mineração}
@@ -840,172 +921,51 @@ A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr 
 
 \pagebreak
 
-%\subsection{Coeficiente de Gini para dados socio-econômicos}
+\subsection{Classificação e Regressão para análise preditivas}
 
-%\pagebreak
+Classificação é um processo para encontrar um modelo que descreve e distingue classes de dados. 
+Esse modelo tem como base de análise um conjunto de treinamento (i.e. objetos de dados para os quais 
+serão encontrados rótulos que os classifiquem). 
 
-\pagebreak
-\section{Text Data Mining}\label{arte:palavraChave:DataMiningBigData}
+Esse modelo é usado para predizer quais rótulos de classes terão os objetos desconhecidos.
+O modelo pode ser representado por regras de classificação do tipo ``IF - THEN'', por árvores de decisão, redes neurais e outros. 
+Regras de classificação se distinguem de regras de indução da seguinte forma:
+\begin{itemize}
+	\item Uma regra de classificação poderia ser: $if$ L $them$ class = $C_{1}$ ou $if$ L $them$  $C_{1}$
+	\item Uma regra de indução seria: $ if$ L $them$ R que por sua vez produz novas regras 
+\end{itemize}
 
-Minerar dados em texto não é uma tarefa atômica, deve ser divido em várias etapas, minerar em redes sociais é exige ao menos mais uma etapa a escolha da rede social com sua tecnologia própria, então, com processos específicos em cada uma delas e utilizando-se de ferramentas específicas. Extrair conhecimento nos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. A Mineração em textos é inspirada em técnicas de ``Machine Learning'' \cite{Aranha2006}. Todavia, analisar textos é basicamente entender o significado do texto, baseado em regras de associação lógica, como mostrado nos estudos descritos anteriormente. O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
+%\singlespace
+\vspace{2cm}
 
-\begin{figure}[htpb]
+\begin{figure}[ht] \unitlength= 1mm \thicklines
+	\centering{
+		\begin{picture}(100,6)
+		\put(0,0){\framebox(115,6)} \put(3,2){$age(X,``youth")$ AND $income(X,``high")  \to classe (X,``A")$}
+		\put(0,-7){\framebox(113,6)} \put(3,-5){$age(X,``youth")$ AND $income(X,``low") \to classe (X,``B")$}
+		\put(0,-14){\framebox(85,6)} \put(3,-12){$age(X,``middle-aged")$  $\to classe (X,``B")$}
+		\put(0,-21){\framebox(70,6)} \put(3,-19){$age(X,``senior")$  $ \to classe (X,``B")$}
+		\end{picture}
+	}
+\end{figure}
+
+\vspace{3cm} 
+
+A figura a seguir representa uma rede neural com as mesmas características da árvore de decisão anterior:
+\begin{figure}[!ht]
 	\centering
-	\caption{Mapa mental da Mineração em textos}
-	\includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
-\end{figure}
+	\caption{Rede Neural}
+	\includegraphics[width=85mm, height=38mm]{Figuras/BigData/redeneural.png}\\
+	\tiny Fonte: Han, J. and Kamber, M. 
+\end{figure}  
 
+As árvores de decisão produzem regras de indução, são algoritmos rápidos, contudo dados impuros podem comprometer o desempenho desse algoritmo. 
+A fase de extração dos dados do é fortemente influenciáveis pelas variáveis escolhidas, \cite{DecisionTree} 
+isso pode representar o desafio maior para implementar esta técnica. 
 
-\subsection{Mineração de Dados em Redes sociais}
-
-Introdução ao estudo das Redes Sociais
-
-As redes sociais têm assumido, nos dias atuais, um papel essencial na vida de seus usuários. Não apenas como espaço de descontração, mas, sobretudo, como lugar de troca de informações que permitam, dentre outras coisas, tomar conhecimento acerca dos acontecimentos, sejam eles locais ou globais, que influenciarão sua vida. De modo particular, nos grandes centros urbanos, as redes sociais têm servido de fonte de conhecimento acerca de segurança pública, mobilidade urbana e acontecimentos de toda sorte, que possam fazer com que, por exemplo, uma pessoa resolva seguir um ou outro caminho para chegar a um determinado lugar, quer seja ele próximo ou distante de onde se encontre.
-
-Além da troca de informações momentâneas, as redes sociais permitem uma atualização praticamente em tempo real, a partir da utilização de seus usuários e de instituições que também dela fazem uso (por exemplo, a Polícia Rodoviária Federal), de modo que possibilita que decisões sejam tomadas e reorientadas, em virtude da alimentação das informações nas redes.
-
-No que diz respeito às escolhas relacionadas ao trânsito, sejam essas escolhas relativas as áreas urbanas, bem como a centenas de quilômetros adiante, pelo interior de um estado, por exemplo, cada vez mais as pessoas não tomam qualquer decisão sem antes consultar aplicativos e redes sociais tais como o waze, twitter, facebook, ou até mesmo dispõem, em seus aparelhos celulares, de GPS, Google Maps e outras fontes que lhe orientem sobre melhores rotas, que levem com maior rapidez e segurança ao seu destino.
-
-Se pensarmos no transporte de cargas, como tanto já referimos nesse trabalho, a principal função das redes sociais não é de caráter lúdico, mas, sim, como uma ferramenta essencial para que não haja qualquer contratempo que possa causar prejuízo à empresa ou empresas envolvidas, afinal de contas, no que tange ao transporte de mercadorias, sempre há pelo menos duas empresa relacionadas: a de produção do bem e a de transporte do mesmo ao seu destino.
-
-O que discutimos até agora é amplamente sabido por aqueles que analisam o uso das redes sociais na atualidade. O que pretendemos, então, é trazer uma contribuição de natureza científica a essa compreensão e à utilização de forma cada vez mais eficaz dessas ferramentas, a partir do uso da IA, da mineração de dados e dos métodos de extração e produção de conhecimentos (KDD).
-
-
-"Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
-
-%tabela 5
-\begin{table}[!ht]
-\centering
-\caption{Volume de dados no mundo}
-\vspace{1mm}
-\begin{tabular}{l|c|c|c}
-\hline
-\textbf{Ano} & \textbf{Qtd} & \textbf{Unidade} & \textbf{Múltiplo}\\
-\hline
-2000 & 800 & terabytes – TB & $10^{12}$\\
-2006 & 160 & petabytes – PB & $10^{15}$\\
-2009 & 500 & exabytes – EB & $10^{18}$ \\
-2012 & 2,7 & zettabytes – ZB & $10^{21}$\\
-2020 & 35 & yottabytes – YB & $10^{24}$\\
-\end{tabular}
-\end{table}
-
-Uma parte desses dados são as redes sociais. A rede social escolhida para esta pesquisa foi o Twitter por apresentar características como API aberta de fácil conexão para obtenção dos dados. Uma rede social é sobretudo uma de conexão entre pessoas, contudo, sob o ponto de vista tecnológico uma conexão entre nós e arestas, os nós simbolizam as pessoas e as arestas a ligação entre elas, essa ``arquitetura social'' é conhecido como grafo. A figura a seguir foi gerada pelo software Gephi \cite{ICWSM09154} representa um grafo da rede social Twitter.
-
-	      \begin{figure}[!ht]
-	      	\centering
-	      	\caption{Grafo Twitter}
-	      	\vspace{1mm}
-	      	\includegraphics[width=100mm, height=65mm]{Figuras/BigData/grafoExemplo.png}\\
-	      	\tiny Fonte: https://github.com/gephi/gephi/wiki/Official-papers. Acessado em: 10/03/2017
-	      \end{figure}
-
-
-\pagebreak
-
-\subsection{O Twitter}
-
-O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
-dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam a sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
-
-O Twitter, rede social que interessa a essa pesquisa, caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato. (A FONTE -- BIG SOCIAL DATA: PRINCÍPIOS SOBRE COLETA, TRATAMENTO E ANÁLISE DE DADOS SOCIAIS). A cada dia centenas de terabytes são inseridos no Hadoop data warehouse.
-
-A ideia inicial do Twitter, segundo seus fundadores, era de que essa rede se comportasse como um “SMS da Internet” (30). As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinatura para recebê-las: os seguidores. A conexão entre os usuários da rede social se deve à relação entre os seguidores e os seguidos. O comportamento do seguidor para retweetar os usuários seguidos serve como principal mecanismo para compartilhar informações nessas redes.
-
-Nas pesquisas que envolvem as redes sociais, analisar o conteúdo utilizando ferramentas de mineração de textos é um procedimento frequentemente e que tem apontado resultados surpreendentes sobre o comportamento social e suporte à tomada de decisão (Abrahams, Fan, Wang, Zhang \& Jiao, 2015). É comum, ainda, aplicar mineração de textos em bibliotecas e outras instituições. Isso implica em rastrear tópicos, extrair informações, agrupar, categorizar (Fan, Wallace, Rich e Zhang, 2006).
-
-Em recente artigo, Sandhu (2015) indicou a importância do aprendizado sobre mineração de dados e ferramentas de Big Data para as bibliotecas acadêmicas, de forma a melhorar a eficiência da biblioteca e dos serviços de informação. Similarmente, Zhang e Gu (2011) alegaram que minerar conhecimento sobre os clientes é importante para as bibliotecas acadêmicas. Na mesma linha de investigação, Sarker et al., 2015 destacam que a abordagem da mineração de textos para os dados das mídias sociais tem sido utilizada em muitos campos, como negócios, ciência da saúde, dentre outros. 
-
-Estudos atuais têm mostrado o papel da análise sentimental e mineração de opinião nas redes sociais, em particular no Twitter, como forma de investigar padrões de comportamento Twitter as a Corpus for Sentiment Analysis and Opinion Mining Alexander, 2010 Sentiment Analysis on Twitter, Akshi Kumar and Teeja Mary Sebastian, 2012). A figura abaixo mostra como a análise sentimental e a mineração de opinião representam os conhecimentos produzidos nesse tipo de pesquisa.
-
-FIGURA..........
-
-(FONTE: Artigo “Library \& Information Science Research)
-
-Outro estudo (FONTE ??) aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia. (Duggan \& Smith, 2013). Um relatório publicado em 2014 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube (Another Pew). 
-
-Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede (Mitchell \& Page, 2013). Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014) 
-
-Heneycutt e Hering (2009) identificaram 11 categorias de conteúdo propagados nos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (que traduzimos aqui como “auto-ajuda”), informações para outros, informações para si próprio, meta comentários, uso de mídia, opinião, outras experiências, auto experiência, e solicitação de informações. Naaman, Boase e Lai (2010), por sua vez, classificaram os conteúdos em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
-
-No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. Adkins \& Budd, 2006, Cronin \& Overflet, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). 
-
-Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o google) com o objetivo de identificar a relevância e acetiação de wrbsites (Brin \& Page, 1998), em decorrência do número de seguidores, da quantidade de menções feitas, de retweets, por exemplo.
-
-(FONTE: SE É POSITIVO OU NEGATIVO)
-
-Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter na rede, como um todo, analisando o número de retweets, menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). 
-
-Em outro estudo, André et al. (2012) utilizaram a abordagem “crowdsourcing” para identificar que tipo de tweets chamam atenção e são os preferidos dos seguidores, como também, os que são mais rejeitados. Eles encontraram uma preferência dos usuários em fazer perguntas aos seguidores, bem como em partilhar informações e autopromoção (que diz respeito a algo como falar de si próprio, de seus sentimentos, percepções e ideias).
-
-Modalidades e ferramentas de análise do Twitter 
-
-Nesse tópico abordaremos, em maior detalhe, as escolhas metodológicas e ferramentas analíticas utilizadas em estudos que levam em conta dados do twitter, apresentando alguns dessas pesquisas.
-Do ponto de vista metodológico ……….
-
-Na pesquisa conduzida por Suh, Hong e Chi (2010), esses pesquisadores encontraram uma correlação positiva entre a existência de uma URL de um tweet e a probabilidade de que aconteça um retweet. Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 tweets recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual da Academia. 
-
-Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os retweets foram retirados das amostras. Também foram removidos da amostra os tweets com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum tweet (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos tweets. Com isto, a amostra foi reduzida de 1200 para 752 tweets que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 tweets analisados, 271 apresentavam pelo menos um retweet, e 131 receberam um “favorito”.  Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres. 
-
-(REES
-
-Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) tweets, seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de tweets normalmente distribuídas. Métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
-O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de retweets e o número de menções a usuários, sugerindo que tweets com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
-
-Em outro artigo, conduzido por (FONTE - ANO), os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72). Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes (Del Bosque, Leif e Skaf, 2012; Cavanagh, 2015), tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários (Boaten \& Quan, 2014). 
-A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os tweets da biblioteca acadêmica. 
-(FONTE: Abraham et al., 2015)
-
-
-(Stieglitz \& Dang-Xuan, 2013)
-
-O corpus de dados desta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos Twittes desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com), em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, tendo a seleção se restringido às universidades de língua inglesa e a apenas uma biblioteca por instituição, para o caso de a universidade ter mais de uma (no artigo original é a tabela 1). As informações relevantes dos tweets, utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; data que se “juntou” ao Twitter.
-
-Na etapa de preprocessamento -- ``dataset prepocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como o de Ralston, O'Neil, Wigmore e Harrison (2014) e de Yoon, Elhadad e Bakken (2013). O processo contemplou a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado) e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
-
-Para análise do conjunto de dados, utilizou-se a mineração em textos e para investigar os históricos de tweets da bibliotecas escolheu-se a análise de conteúdo. A frequência dos tweets, retweets e distribuição dos tweets e retweets foi identificada e contabilizada. Em seguida, os tweets marcados com o PamTaT, uma ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Poderia colocar essa observação numa nota de 
-rodapé). O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natural language processing framework'' (Bird, Loper \& Klien, 2009) e permite a análise de grande volume de textos pelos usuários finais, não necessitando de conhecimento de programação da linguagem Python. 
-A ferramenta serve, ainda, para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso, permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. Também foi utilizado o Harvard General Inquirer (Stone et al. 1966) para análise semântica e sentimental dos tweets. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificaram duas centenas de palavras incluindo, dentre elas, palavras que davam o sentido de algo positivo, negativo, ou ainda relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante. Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
-
- Imagem tabela 1 do twitter
- 
-Observa-se que foi incluído o número de tweets; a quantidade de usuários seguidos pela biblioteca; a quantidade de seguidores e o número de tweets favoritos da biblioteca. A Universidade Johns Hopkins, como se pode observer na tabela, tem o maior número de
-tweets, seguida pela biblioteca da Stanford University e pela biblioteca da Cambrige University, respectivamente. A biblioteca da Universidade da Califórnia San Diego tem a conta do Twitter mais antiga (maio de 2008), mas apresenta um pequeno número de tweets,
-comparativamente à biblioteca da Stanford University, que começou no Twitter com uma conta em abril de 2012, mas possui o segundo
- maior número de tweets. 
-
-A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando a frequência de unigramas (palavras únicas) observou-se (FIGURA), que a palavra mais frequente foi “open”, utilizada em uma variedade de contextos pelos tweets da biblioteca. Por exemplo: foi usada em um anúncio sobre a mudança do horário de funcionamento, bem como EM UM anúncio para abertura do espaço para os estudantes, exposições, abertura da casa (biblioteca), etc. O segundo termo mais frequente foi “research” (pesquisa), que foi utilizado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos tweets sobre os recursos da biblioteca. Tais termos foram incluidos em tweets relacionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”. 
-
- Imagem tabela 2 do twitter
- 
- Imagem tabela 3 do twitter
-
-A FIGURA, por sua vez, mostra a distribuição dos bigramas (sequência de duas palavras) no conjunto de tweets. Observa-se que o mais frequente bigrama foi “special collections”.
-O segundo mais popular bigrama foi “open access”, utilizado em diferentes contextos, tal como política de acesso, publicidade, recursos, trenamentos e workshops, dicas e orientação, serviços, eventos e notícias. O resultado mostrou a ênfase colocada na iniciativa de promover “open access” com as instituições acadêmicas.
-
-O terceiro maior bigrama foi “reading room”, relativo à atividade de suporte aos estudantes com as instituições acadêmicas. Essas salas são um dos mais importantes espaços da biblioteca, usadas para leitura e estudo. Os tweets eram, em sua maioria, relacionados a noticias de abertura e fechamento das salas de leitura: “reading rooms”.
-
-A fig-6 mostra os mais importantes trigramas (sequência de três palavras), dos quais destacou-se o trigrama “save the date”. Essa expressão era utilizada para requerer especial atenção dos seguidores para os eventos importantes que estavam para acontecer. Este trigrama é seguido, como o segundo mais frequente, por “pleased to announce”, outra expressão usada para enfatizar a importância de eventos especiais. O terceiro mais usado foi “open access week” (seguido muito próximo por “open access policy”), que novamente destaca os esforços na iniciativa de espaço aberto (open access) 
-
- Imagem tabela 4 do twitter
- 
-
-No caso particular dessa pesquisa, o interesse voltou-se para os tweets da Polícia Rodoviária Federal do estado de Pernambuco, bem como de seus seguidores e de usuários que fizeram menção a eventos que afetam diretamente o tráfego nas principais rodovias do estado. A seguir, a título de exemplo, pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal do estado de Santa Catarina:
-
-\begin{figure}[ht]
-\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF.png}}
-\quad \quad \quad \quad
-\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}
-\end{figure}
-
-A Polícia Rodoviária Federal disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
-num espaço temporal variado. Por exemplo: entre Itajaí e Balneário Camboriú foi informado que o trânsito estava intenso, sugerindo que a frota de caminhões deva ter uma rota alternativa, caso a situação persista por muito tempo. No primeiro twitte da segunda coluna, é informado em Via Expressa (BR 282) que o trânsito está lento com velocidade de 20km/h (praticamente congestionado). 
-
-Outra rede social conhecida pelos condutores de veículos é o Waze. O Waze é um aplicativo de navegação para o trânsito, e funciona em aparelhos celulares e tablets. Os utilizadores desse aplicativo são conhecidos como wazers e compartilham informações sobre o trânsito, em tempo real. Todavia, as informações somente estão disponíveis no momento em que são postadas pelos utilizadores, por um período de tempo pequeno. Caso não haja usuários trafegando pelas vias, ou caso os mesmos não tenham disponibilidade para compartilhar informações, não há o que se ver. Outro problema lidentificado em relação ao waze é que caso não haja conexão à Internet, não há como acessar os dados dos 'wazers', para navegação.
-
-Além dos dados que chegam ao \textit{Big Data} através das redes sociais, as grandes cidades têm disponíveis câmeras de monitoramento do trânsito nos semáforos ou próximas a eles. Algumas com cobertura por canais de televisão, bem como câmaras de segurança próximas às rodovias, coletando informações em tempo real. Os dados desses dispositivos são gravados, sendo conhecidos como \textit{stream} de dados. Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br (acessado em 10/10/2016) dentre outros.
-
-Os dados disponibilizados pelos diversos meios de comunicação não estão em formato que possam ser utilizados imediatamente, precisando antes serem processados. Tais dados não processados são conhecidos como ``dados frios''. O processo de tratar as informações, retirando-lhes o ``lixo'' e transformando dados ``frios'' em dados ``quentes'', é um processo que tem um custo temporal elevado, devido ao volume dos dados.
-
-
+Outro problema que pode ser encontrado em algoritmos de aprendizagem é o ``overfitting'' ou superadaptação aos modelos.
+Segundo RUSSEL E NORVIG (2004)  \footnote{Foi observado que redes neurais muito grandes \textit{generalizam} bem, 
+\textit{desde que os pesos sejam mantidos pequenos}. Essa restrição mantém os valores de ativação na região 
+\textit{linear} da função sigmóide g(x) onde x é próximo de zero. Por sua vez isso faz com que a rede se comporte 
+como uma função linear, com um número muito menor de parâmetros.} o ``overfitting'' ocorre quando o número atributos é grande.
 
