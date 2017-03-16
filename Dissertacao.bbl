@@ -1,0 +1,443 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.42.2.1 }
+
+\bibitem{Crisp2000}
+\abntrefinfo{Wirth}{WIRTH}{2000}
+{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
+p. 7--10, 2000.}
+
+\bibitem{Salles2007}
+\abntrefinfo{Salles}{SALLES}{2007}
+{SALLES, F.~R.
+\emph{{A relev{\^{a}}ncia da cibern{\'{e}}tica}}.
+Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
+  - USP, 2007.}
+
+\bibitem{BNDES2013}
+\abntrefinfo{BNDES}{BNDES}{2013}
+{BNDES. Perspectivas do investimento, n. 2, out. 2013.
+\emph{Perspectivas do Investimento 2014-2017}, p.~2, 2013.}
+
+\bibitem{Bitoun2012}
+\abntrefinfo{Bitoun et al.}{BITOUN et al.}{2012}
+{BITOUN, J. et al. Regi\~{a}o metropolitana do recife no contexto de pernambuco
+  no censo 2010.
+p.~25, 2012.
+Dispon{\'\i}vel em:
+  \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
+
+\bibitem{FrotaVeiculosIBGE}
+\abntrefinfo{IBGE}{IBGE}{2014}
+{IBGE, I.~B. de~Geografia~e E. Regi\~{a}o metropolitana do recife no contexto
+  de pernambuco no censo 2010.
+2014.
+Dispon{\'\i}vel em:
+  \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
+
+\bibitem{possas1998data}
+\abntrefinfo{POSSAS et al.}{POSSAS et al.}{1998}
+{POSSAS, B. et al. Data mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de
+  dados.
+\emph{Universidade Federal de Minas Gerais}, 1998.}
+
+\bibitem{FayyadUeoutros}
+\abntrefinfo{{FAYYAD, P., PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.}}{{FAYYAD, P.,
+  PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.}}{1996}
+{{FAYYAD, P., PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.} {From data mining to
+  knowledge discovery in databases}.
+\emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
+  1996.}
+
+\bibitem{NorvigRussel2004}
+\abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
+{RUSSEL, S.; NOVING, P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio
+  de Janeiro, 2004. 716--721~p.
+ISBN 8535211772.}
+
+\bibitem{DecisionTree}
+\abntrefinfo{{A. Srivastava} e Singh}{{A. Srivastava}; SINGH}{2015}
+{{A. Srivastava}, V.~K.; SINGH, N. {Review of Decision Tree Algorithm: Big Data
+  Analytics}.
+\emph{International Journal of Informative {\&} Futuristic Research}, v.~2,
+  n.~10, p. 3644--3654, 2015.}
+
+\bibitem{DataMining2}
+\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
+{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
+Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
+
+\bibitem{Aranha2006}
+\abntrefinfo{Aranha Christian e~Passos}{ARANHA CHRISTIAN E~PASSOS}{2006}
+{ARANHA CHRISTIAN E~PASSOS, E. \emph{A Tecnologia de Mineração de Textos}.
+  2006.
+1--8~p.}
+
+\bibitem{Amin2015a}
+\abntrefinfo{Amin et al.}{AMIN et al.}{2015}
+{AMIN, A. et al. A comparison of two oversampling techniques (smote vs mtdf)
+  for handling class imbalance problem: A case study of customer churn
+  prediction.
+v.~353, p. 215--225, 2015.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
+
+\bibitem{hotho2005brief}
+\abntrefinfo{Hotho, N{\"u}rnberger e Paa{\ss}}{HOTHO; N{\"U}RNBERGER;
+  PAA{SS}}{2005}
+{HOTHO, A.; N{\"U}RNBERGER, A.; PAA{SS}, G. A brief survey of text mining. In:
+  \emph{Ldv Forum}. [S.l.: s.n.], 2005. v.~20, n.~1, p. 19--62.}
+
+\bibitem{stone1968general}
+\abntrefinfo{Stone et al.}{STONE et al.}{1968}
+{STONE, P. et al. The general inquirer: A computer approach to content
+  analysis.
+\emph{Journal of Regional Science}, Wiley Online Library, v.~8, n.~1, p.
+  113--116, 1968.}
+
+\bibitem{liddy2001natural}
+\abntrefinfo{Liddy}{LIDDY}{2001}
+{LIDDY, E.~D. Natural language processing.
+2001.}
+
+\bibitem{Lima2012}
+\abntrefinfo{Lima e {De Castro}}{LIMA; {De Castro}}{2012}
+{LIMA, A. C. E.~S.; {De Castro}, L.~N. Automatic sentiment analysis of twitter
+  messages.
+\emph{Proceedings of the 2012 4th International Conference on Computational
+  Aspects of Social Networks, CASoN 2012}, n. March 2017, p. 52--57, 2012.}
+
+\bibitem{bigdataQualquerUm}
+\abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
+{JAGADISH H.~V., G.~J. L.~A. P. Y. P. J. M. R.~R.; SHAHABI, C. Exploring the
+  inherent technical challenges in realizing the potential of big data.
+\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+
+\bibitem{ICWSM09154}
+\abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
+{BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
+  Exploring and Manipulating Networks}. 2009.
+Dispon{\'\i}vel em:
+  \url{http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154}.}
+
+\bibitem{francca14big}
+\abntrefinfo{Fran{\c{c}}a et al.}{FRAN{\c{C}}A et al.}{}
+{FRAN{\c{C}}A, T.~C. et al. Big social data: Princ{\'\i}pios sobre coleta,
+  tratamento e an{\'a}lise de dados sociais.
+\emph{XXIX Simp{\'o}sio Brasileiro de Banco de Dados--SBBD}, v.~14.}
+
+\bibitem{abrahams2015integrated}
+\abntrefinfo{Abrahams et al.}{ABRAHAMS et al.}{2015}
+{ABRAHAMS, A.~S. et al. An integrated text analytic framework for product
+  defect discovery.
+\emph{Production and Operations Management}, Wiley Online Library, v.~24, n.~6,
+  p. 975--990, 2015.}
+
+\bibitem{fan2006tapping}
+\abntrefinfo{Fan et al.}{FAN et al.}{2006}
+{FAN, W. et al. Tapping the power of text mining.
+\emph{Communications of the ACM}, ACM, v.~49, n.~9, p. 76--82, 2006.}
+
+\bibitem{sandhu2015scheduling}
+\abntrefinfo{Sandhu e Sood}{SANDHU; SOOD}{2015}
+{SANDHU, R.; SOOD, S.~K. Scheduling of big data applications on distributed
+  cloud based on qos parameters.
+\emph{Cluster Computing}, Springer, v.~18, n.~2, p. 817--828, 2015.}
+
+\bibitem{zhang2011text}
+\abntrefinfo{Zhang e Gu}{ZHANG; GU}{2011}
+{ZHANG, Y.; GU, H. Text mining with application to academic libraries. In:
+  \emph{Computer Science for Environmental Engineering and EcoInformatics}.
+  [S.l.]: Springer, 2011. p. 200--205.}
+
+\bibitem{sarker2015utilizing}
+\abntrefinfo{Sarker et al.}{SARKER et al.}{2015}
+{SARKER, A. et al. Utilizing social media data for pharmacovigilance: A review.
+\emph{Journal of biomedical informatics}, Elsevier, v.~54, p. 202--212, 2015.}
+
+\bibitem{pak2010twitter}
+\abntrefinfo{Pak e Paroubek}{PAK; PAROUBEK}{2010}
+{PAK, A.; PAROUBEK, P. Twitter as a corpus for sentiment analysis and opinion
+  mining. In:  \emph{LREc}. [S.l.: s.n.], 2010. v.~10, n.~2010.}
+
+\bibitem{kumar2012sentiment}
+\abntrefinfo{Kumar e Sebastian}{KUMAR; SEBASTIAN}{2012}
+{KUMAR, A.; SEBASTIAN, T.~M. Sentiment analysis on twitter.
+\emph{IJCSI International Journal of Computer Science Issues}, Citeseer, v.~9,
+  n.~3, p. 372--378, 2012.}
+
+\bibitem{madden2013teens}
+\abntrefinfo{Madden et al.}{MADDEN et al.}{2013}
+{MADDEN, M. et al. Teens, social media, and privacy.
+\emph{Pew Research Center}, v.~21, p. 2--86, 2013.}
+
+\bibitem{mitchell2013news}
+\abntrefinfo{Mitchell, Holcomb e Page}{MITCHELL; HOLCOMB; PAGE}{2013}
+{MITCHELL, A.; HOLCOMB, J.; PAGE, D. News use across social media platforms.
+\emph{Washingtown, Pew Research Center}, 2013.}
+
+\bibitem{naaman2010really}
+\abntrefinfo{Naaman, Boase e Lai}{NAAMAN; BOASE; LAI}{2010}
+{NAAMAN, M.; BOASE, J.; LAI, C.-H. Is it really about me?: message content in
+  social awareness streams. In:  ACM. \emph{Proceedings of the 2010 ACM
+  conference on Computer supported cooperative work}. [S.l.], 2010. p.
+  189--192.}
+
+\bibitem{adkins2006scholarly}
+\abntrefinfo{Adkins e Budd}{ADKINS; BUDD}{2006}
+{ADKINS, D.; BUDD, J. Scholarly productivity of us lis faculty.
+\emph{Library \& Information Science Research}, Elsevier, v.~28, n.~3, p.
+  374--389, 2006.}
+
+\bibitem{cunningham1997authorship}
+\abntrefinfo{Cunningham e Dillon}{CUNNINGHAM; DILLON}{1997}
+{CUNNINGHAM, S.~J.; DILLON, S.~M. Authorship patterns in information systems.
+\emph{Scientometrics}, Springer, v.~39, n.~1, p.~19, 1997.}
+
+\bibitem{brin1998anatomy}
+\abntrefinfo{Brin e Page}{BRIN; PAGE}{1998}
+{BRIN, S.; PAGE, L. The anatomy of a large-scale hypertextual web search
+  engine.
+\emph{Computer networks and ISDN systems}, Elsevier, v.~30, n.~1, p. 107--117,
+  1998.}
+
+\bibitem{cha2010measuring}
+\abntrefinfo{Cha et al.}{CHA et al.}{2010}
+{CHA, M. et al. Measuring user influence in twitter: The million follower
+  fallacy.
+\emph{Icwsm}, v.~10, n. 10-17, p.~30, 2010.}
+
+\bibitem{suh2010want}
+\abntrefinfo{Suh et al.}{SUH et al.}{2010}
+{SUH, B. et al. Want to be retweeted? large scale analytics on factors
+  impacting retweet in twitter network. In:  IEEE. \emph{Social computing
+  (socialcom), 2010 ieee second international conference on}. [S.l.], 2010. p.
+  177--184.}
+
+\bibitem{Chu2012}
+\abntrefinfo{Chu e Du}{CHU; DU}{2012}
+{CHU, S.~K.; DU, H.~S. {Social networking tools for academic libraries}.
+\emph{Journal of Librarianship and Information Science}, v.~45, n.~1, p.
+  64--75, 2012.
+ISSN 0961-0006.}
+
+\bibitem{del2012libraries}
+\abntrefinfo{Bosque, Leif e Skarl}{BOSQUE; LEIF; SKARL}{2012}
+{BOSQUE, D. D.; LEIF, S.~A.; SKARL, S. Libraries atwitter: trends in academic
+  library tweeting.
+\emph{Reference Services Review}, Emerald Group Publishing Limited, v.~40,
+  n.~2, p. 199--213, 2012.}
+
+\bibitem{boateng2014web}
+\abntrefinfo{Boateng e Liu}{BOATENG; LIU}{2014}
+{BOATENG, F.; LIU, Y. Q. Web 2.0 applications' usage and trends in top us
+  academic libraries.
+\emph{Library Hi Tech}, Emerald Group Publishing Limited, v.~32, n.~1, p.
+  120--138, 2014.}
+
+\bibitem{Al-Daihani2016}
+\abntrefinfo{Al-Daihani e Abrahams}{AL-DAIHANI; ABRAHAMS}{2016}
+{AL-DAIHANI, S.~M.; ABRAHAMS, A. A text mining analysis of academic libraries'
+  tweets.
+\emph{Journal of Academic Librarianship}, Elsevier Inc., v.~42, n.~2, p.
+  135--143, 2016.
+ISSN 00991333.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.acalib.2015.12.014}.}
+
+\bibitem{ralston2014exploration}
+\abntrefinfo{Ralston et al.}{RALSTON et al.}{2014}
+{RALSTON, M.~R. et al. An exploration of the use of social media by surgical
+  colleges.
+\emph{International Journal of Surgery}, Elsevier, v.~12, n.~12, p. 1420--1427,
+  2014.}
+
+\bibitem{yoon2013practical}
+\abntrefinfo{Yoon, Elhadad e Bakken}{YOON; ELHADAD; BAKKEN}{2013}
+{YOON, S.; ELHADAD, N.; BAKKEN, S. A practical approach for content mining of
+  tweets.
+\emph{American journal of preventive medicine}, Elsevier, v.~45, n.~1, p.
+  122--129, 2013.}
+
+\bibitem{Nilsson2005}
+\abntrefinfo{Nilsson}{NILSSON}{2005}
+{NILSSON, N.~J. {Introduction to Machine Learning}.
+\emph{Machine Learning}, v.~56, n.~2, p. 387--99, 2005.
+ISSN 10959572.
+Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
+
+\bibitem{Ben-David2014}
+\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
+{BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
+  Theory to Algorithms}}. [s.n.], 2014. 449~p.
+ISBN 9781107057135. Dispon{\'\i}vel em:
+  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
+
+\bibitem{Monard}
+\abntrefinfo{Monard M.}{MONARD M.}{2003}
+{MONARD M., B.~J.~A. “conceitos sobre aprendizado de máquina -- sistemas
+  inteligentes fundamentos e aplicações.
+Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
+
+\bibitem{Camilo}
+\abntrefinfo{Camilo e Silva}{CAMILO; SILVA}{2009}
+{CAMILO, C.~O.; SILVA, J.~C. da. \emph{Mineração de dados: Conceitos,
+  tarefas, métodos e ferramentas.}
+[S.l.], 2009. 1--29~p.}
+
+\bibitem{Decision2014}
+\abntrefinfo{HSSINA Abdelkarim~MERBOUHA e ERRITALI}{HSSINA ABDELKARIM~MERBOUHA;
+  ERRITALI}{2014}
+{HSSINA ABDELKARIM~MERBOUHA, H.~E. B.; ERRITALI, M. \emph{{A comparative study
+  of decision tree ID3 and C4.5}}. 2014.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
+
+\bibitem{Quinlan86inductionof}
+\abntrefinfo{Quinlan}{QUINLAN}{1986}
+{QUINLAN, J.~R. Induction of decision trees.
+\emph{MACH. LEARN}, v.~1, p. 81--106, 1986.}
+
+\bibitem{Kohavi99decisiontree}
+\abntrefinfo{Kohavi e Quinlan}{KOHAVI; QUINLAN}{1999}
+{KOHAVI, R.; QUINLAN, R. Decision tree discovery. In:  \emph{IN HANDBOOK OF
+  DATA MINING AND KNOWLEDGE DISCOVERY}. [S.l.]: University Press, 1999. p.
+  267--276.}
+
+\bibitem{Simoes2008}
+\abntrefinfo{Sim{\~{o}}es}{SIM{\~{O}}ES}{2008}
+{SIM{\~{O}}ES, A. C. D.~A. {Minera{\c{c}}{\~{a}}o de Dados baseada em
+  {\'{A}}rvores de Decis{\~{a}}o para An{\'{a}}lise do Perfil de
+  Contribuintes}.
+\emph{Discovery}, p.~32, 2008.}
+
+\bibitem{MachineLearning}
+\abntrefinfo{Witten e Frank}{WITTEN; FRANK}{2005}
+{WITTEN, I.~H.; FRANK, E. Data mining: Practical machine learning tools and
+  techniques.
+\emph{Elsevier, San Francisco}, v. 2 edition, 2005.}
+
+\bibitem{breiman1984}
+\abntrefinfo{Breiman et al.}{BREIMAN et al.}{1984}
+{BREIMAN, L. et al. \emph{Classification and regression trees}. [S.l.]: CRC
+  press, 1984.}
+
+\bibitem{Pineda2006}
+\abntrefinfo{Pineda}{PINEDA}{2006}
+{PINEDA, V.~C. {A Entropia Segundo Claude Shannon: o desenvolvimento do
+  conceito fundamental da teoria da informa{\c{c}}{\~{a}}o}.
+\emph{Disserta{\c{c}}{\~{a}}o Mestrado}, 2006.}
+
+\bibitem{Heaton2008}
+\abntrefinfo{HEATON}{HEATON}{2008}
+{HEATON, J. \emph{{Introduction to Neural Networks for Java}}. [S.l.: s.n.],
+  2008. 440~p.
+ISBN 1604390085.}
+
+\bibitem{Tatibana}
+\abntrefinfo{Tatibana e Kaetsy}{TATIBANA; KAETSY}{Acessado em: 01.out.2016}
+{TATIBANA, C.~Y.; KAETSY, D.~Y.
+Acessado em: 01.out.2016.
+Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
+
+\bibitem{AAP}
+\abntrefinfo{R. ZENG}{R. ZENG}{}
+{R. ZENG, H.~H.~P.~X. W. S. C. G.~M. C. Rule extraction from an optimized
+  neural network for traffic crash frequency modeling.}
+
+\bibitem{Kriesel2007NeuralNetworks}
+\abntrefinfo{KRIESEL}{KRIESEL}{2007}
+{KRIESEL, D. \emph{A Brief Introduction to Neural Networks}. [s.n.], 2007.
+  Dispon{\'\i}vel em: \url{Disponível em: http://www.dkriesel.com}.}
+
+\bibitem{Barreto2002}
+\abntrefinfo{BARRETO}{BARRETO}{2002}
+{BARRETO, J.~M. {Jorge M. Barreto}.
+2002.}
+
+\bibitem{ROC}
+\abntrefinfo{Egan}{EGAN}{1975}
+{EGAN, J.~P. Signal detection theory and roc analysis.
+New York, USA: Academic Press, 1975.}
+
+\bibitem{MD_AM}
+\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20.jan.2015}
+{ANAESTHETIST, T.
+Acessado em: 20.jan.2015.
+Dispon{\'\i}vel em:
+  \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
+
+\bibitem{Discriminativo}
+\abntrefinfo{R.}{R.}{Acessado em: 20.jan.2015}
+{R., S. C.
+Acessado em: 20.jan.2015.
+Dispon{\'\i}vel em:
+  \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
+
+\bibitem{Bradley1997}
+\abntrefinfo{Bradley}{BRADLEY}{1997}
+{BRADLEY, A.~P. {The use of the area under the ROC curve in the evaluation of
+  machine learning algorithms}.
+\emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
+ISSN 00313203.}
+
+\bibitem{DecisaoCredito}
+\abntrefinfo{West}{WEST}{2000}
+{WEST, D. Neural network credit scoring models -- computers and operations
+  research.
+p. 1131 -- 1152, 2000.}
+
+\bibitem{DataMining}
+\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
+{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
+Elsevier, San Francisco, v. 2 edition, 2006.}
+
+\bibitem{Costa2015}
+\abntrefinfo{Costa, Bernardini e Filho}{COSTA; BERNARDINI; FILHO}{2015}
+{COSTA, J. D.~J.; BERNARDINI, F.~C.; FILHO, J.~V. {A minera{\c{c}}{\~{a}}o de
+  dados e a qualidade de conhecimentos extra{\'{i}}dos dos boletins de
+  ocorr{\^{e}}ncia das rodovias federais brasileiras}.
+\emph{AtoZ: novas pr{\'{a}}ticas em informa{\c{c}}{\~{a}}o e conhecimento},
+  v.~2, n.~2014, p. 1--26, 2015.
+Dispon{\'\i}vel em:
+  \url{http://ojs.c3sl.ufpr.br/ojs/index.php/atoz/rt/printerFriendly/41346/25356}.}
+
+\bibitem{Eaves}
+\abntrefinfo{Eaves}{EAVES}{Acessado em: 24.out.2016}
+{EAVES, D. The three laws of open government data.
+Acessado em: 24.out.2016.
+Dispon{\'\i}vel em:
+  \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
+
+\bibitem{Knime}
+\abntrefinfo{Berthold et al.}{BERTHOLD et al.}{2007}
+{BERTHOLD, M.~R. et al. {KNIME}: The {K}onstanz {I}nformation {M}iner. In:
+  \emph{Studies in Classification, Data Analysis, and Knowledge Organization
+  (GfKL 2007)}. [S.l.]: Springer, 2007.
+ISBN 978-3-540-78239-1.
+ISSN 1431-8814.}
+
+\bibitem{R-cran}
+\abntrefinfo{{R Core Team}}{{R Core Team}}{2015}
+{{R Core Team}. \emph{R: A Language and Environment for Statistical Computing}.
+Vienna, Austria, 2015. Dispon{\'\i}vel em: \url{https://www.R-project.org/}.}
+
+\bibitem{Weka}
+\abntrefinfo{Zealand}{ZEALAND}{2017}
+{ZEALAND, U. of W.~N.
+2017.
+Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
+
+\bibitem{Bernardini}
+\abntrefinfo{Bernardini}{BERNARDINI}{2006}
+{BERNARDINI, F.~C. “combinação de classificadores simbólicos utlizando
+  medidas de regras de conhecimento e algoritmos genéticos” - tese de
+  doutorado.
+Instituto de Ciências e Matemática Computacional/USP, 2006.}
+
+\bibitem{DadosGoverno}
+\abntrefinfo{nada}{NADA}{2016}
+{2016.
+Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
+
+\end{thebibliography}

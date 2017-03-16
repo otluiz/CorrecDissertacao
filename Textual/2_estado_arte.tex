@@ -139,10 +139,8 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 
 A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção final do conjunto de dados. 
 Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
-Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
-Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. A entropia condicional, formalizada na equação seguinte, é a entropia restante dos atributos de $Y$ no valor $y$ quando o atributo $X$ é dado como $X$ \cite{DecisionTree}:
-$ H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y}P(y|x)log_{2}P(y|x) $ \footnote{Mais adiante será abordado com mais profundidade o conceito de Entropia}.
-
+Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia \footnote{O conceito de entropia será discutido na seção 2.6.2, referente a Àrvores de Decisão}: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
+Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. 
 
 
 \begin{figure}[!ht]
@@ -263,12 +261,33 @@ O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 
 \section{Mineração de Textos} %\label{arte:palavraChave:DataMiningBigData}
 
-Minerar dados em texto não é uma tarefa atômica, deve ser divido em várias etapas, minerar em redes sociais é exige ao menos mais uma etapa a escolha da rede social com sua tecnologia própria, então, com processos específicos em cada uma delas e utilizando-se de ferramentas específicas. Extrair conhecimento nos dados não processados não faz sentido, tratá-los apenas ``per si'' exige muito trabalho de IA, como Mineração de dados em textos. A Mineração em textos é inspirada em técnicas de ``Machine Learning'' \cite{Aranha2006}. Todavia, analisar textos é basicamente entender o significado do texto, baseado em regras de associação lógica, como mostrado nos estudos descritos anteriormente. O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
+A mineração em textos, tal como acontece com a mineração de dados vai buscar os dados em arquivos digitalizados, contudo esses arquivos são transformados em documentos antes de serem analisados pelos algoritmos de IA.
+
+De acordo com Hotho, Nürnberger e Paass  \cite{hotho2005brief} a expressão \textit{Data Mining} ou descoberta de conhecimento em textos foi referenda em 1995. Entretanto o interesse por extrair conhecimento oriundo de textos remonta à década de 60' \cite{stone1968general}. Hotho, Nürnberger e Paass  \cite{hotho2005brief} discutem, ainda, que é frequente a confusão de termos. Esses mesmos autores \cite{hotho2005brief} na tentativa de definir \textit{Text Mining} afirmam que é preciso considerar a perspectiva específica da área, definindo três possibilidades:
+
+\begin{itemize}
+	\item A primeira perspectiva sugere que \textit{Text Mining} corresponde à extração de fatos do texto, ou seja, extração de informação;
+	\item Uma segunda abordagem assume que mineração em texto se configura como a aplicação de algorítimos e métodos do campo de \textit{Machine Learning}, cujo objetivo seria encontrar padrões usuais;
+	\item A terceira e última perspectiva prevê que a mineração em textos segue o modelo de processo de descoberta de conhecimento. É frequente na literatura a cerca da mineração em texto entendê-la como uma séria de passos para extração de informação bem como o uso de mineração de dados ou processos estatísticos.
+\end{itemize}
+
+Embora as pesquisas no campo da mineração em textos sejam relativamente recentes, os estudos envolvendo Processamento de Linguagem Natural (Natural Language Processing -- NLP) datam da década de 40' \cite{liddy2001natural}. 
+
+As primeiras aplicações computacionais relacionadas à linguagem natural aparecem em torno de 1946 \cite{liddy2001natural},  decorrente da expertise de Alan Turing para quebra de códigos inimigos durante a segunda guerra mundial. 
+
+Ainda segundo Liddy \cite{liddy2001natural} outro importante avanço é identificado no final da década de 50' quando Noam Chomsky introduziu a ideia de Gramática Gerativa. Neste mesmo período começaram a surgir pesquisas no campo do reconhecimento da fala. 
+
+Desde então, essa área de conhecimento tem experimentado grandes avanços, particularmente, nos tempos atuais, com a Mineração em Textos em Redes Sociais.
+
+Minerar dados em texto é um processo que deve ser divido em várias etapas \cite{Lima2012}. Minerar em redes sociais exige ao menos mais uma etapa: a escolha de uma rede social, cada uma delas com sua tecnologia própria.
+
+A Mineração em textos é inspirada em técnicas de \textit{Machine Learning} \cite{Aranha2006}. Todavia, analisar textos é basicamente entender o seu significado, baseado em regras de associação lógica. O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
 
 \begin{figure}[htpb]
 	\centering
 	\caption{Mapa mental da Mineração em textos}
 	\includegraphics[width=120mm, height=60mm]{Figuras/BigData/Analise_Textos.png}
+	\tiny Fonte: o autor
 \end{figure}
 
 
@@ -310,103 +329,119 @@ Uma parte desses dados são as redes sociais. A rede social escolhida para esta 
 
 \begin{figure}[!ht]
 	\centering
-	\caption{Grafo Twitter}
+	\caption{Grafo de uma rede do Twitter}
 	\vspace{1mm}
 	\includegraphics[width=100mm, height=65mm]{Figuras/BigData/grafoExemplo.png}\\
 	\tiny Fonte: https://github.com/gephi/gephi/wiki/Official-papers. Acessado em: 10/03/2017
 \end{figure}
 
 
-\pagebreak
+%\pagebreak
 
 \subsubsection{O Twitter}
 
-O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
-dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam a sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
+O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral (...REFERENCIAR...). Uma das características-chave
+dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
 
-O Twitter, rede social que interessa a essa pesquisa, caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato. (A FONTE -- BIG SOCIAL DATA: PRINCÍPIOS SOBRE COLETA, TRATAMENTO E ANÁLISE DE DADOS SOCIAIS). A cada dia centenas de terabytes são inseridos no Hadoop data warehouse.
+O Twitter, rede social que interessa a essa pesquisa, caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato \cite{francca14big}. A cada dia centenas de terabytes são inseridos nos seus bancos de dados, conhecidos como Hadoop data warehouse, tornado impossível capturar todas as informações produzidas em um largo espaço de tempo, portanto ou se analisa o Streaming de dados ou a API.
 
 A ideia inicial do Twitter, segundo seus fundadores, era de que essa rede se comportasse como um “SMS da Internet” (30). As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinatura para recebê-las: os seguidores. A conexão entre os usuários da rede social se deve à relação entre os seguidores e os seguidos. O comportamento do seguidor para retweetar os usuários seguidos serve como principal mecanismo para compartilhar informações nessas redes.
 
-Nas pesquisas que envolvem as redes sociais, analisar o conteúdo utilizando ferramentas de mineração de textos é um procedimento frequentemente e que tem apontado resultados surpreendentes sobre o comportamento social e suporte à tomada de decisão (Abrahams, Fan, Wang, Zhang \& Jiao, 2015). É comum, ainda, aplicar mineração de textos em bibliotecas e outras instituições. Isso implica em rastrear tópicos, extrair informações, agrupar, categorizar (Fan, Wallace, Rich e Zhang, 2006).
+Nas pesquisas que envolvem as redes sociais, analisar o conteúdo utilizando ferramentas de mineração de textos é um procedimento frequente e tem apontado resultados surpreendentes sobre o comportamento social e suporte à tomada de decisão \cite{abrahams2015integrated}. É comum, ainda, aplicar mineração de textos em bibliotecas e outras instituições. Isso implica em rastrear tópicos, extrair informações, agrupar, categorizar \cite{fan2006tapping}.
 
-Em recente artigo, Sandhu (2015) indicou a importância do aprendizado sobre mineração de dados e ferramentas de Big Data para as bibliotecas acadêmicas, de forma a melhorar a eficiência da biblioteca e dos serviços de informação. Similarmente, Zhang e Gu (2011) alegaram que minerar conhecimento sobre os clientes é importante para as bibliotecas acadêmicas. Na mesma linha de investigação, Sarker et al., 2015 destacam que a abordagem da mineração de textos para os dados das mídias sociais tem sido utilizada em muitos campos, como negócios, ciência da saúde, dentre outros. 
+Em recente artigo, Sandhu \cite{sandhu2015scheduling} indicou a importância do aprendizado sobre mineração de dados e ferramentas de Big Data para as bibliotecas acadêmicas, de forma a melhorar a eficiência da biblioteca e dos serviços de informação. Similarmente, Zhang e Gu \cite{zhang2011text} alegaram que minerar conhecimento sobre os clientes é importante para as bibliotecas acadêmicas. Na mesma linha de investigação, Sarker et al. \cite{sarker2015utilizing} destacam que a abordagem da mineração de textos para os dados das mídias sociais tem sido utilizada em muitos campos, como negócios, ciência da saúde, dentre outros. 
 
-Estudos atuais têm mostrado o papel da análise sentimental e mineração de opinião nas redes sociais, em particular no Twitter, como forma de investigar padrões de comportamento Twitter as a Corpus for Sentiment Analysis and Opinion Mining Alexander, 2010 Sentiment Analysis on Twitter, Akshi Kumar and Teeja Mary Sebastian, 2012). A figura abaixo mostra como a análise sentimental e a mineração de opinião representam os conhecimentos produzidos nesse tipo de pesquisa.
+Estudos atuais têm mostrado o papel da análise sentimental e mineração de opinião nas redes sociais, em particular no Twitter, como forma de investigar padrões de comportamento \cite{pak2010twitter} \cite{kumar2012sentiment}.
 
-FIGURA..........
+%(FONTE: Artigo “Library \& Information Science Research)
 
-(FONTE: Artigo “Library \& Information Science Research)
+Outro estudo aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia \cite{madden2013teens}. 
 
-Outro estudo (FONTE ??) aponta que em 2013 um número superior a 70\% dos indivíduos adultos que faziam uso da internet estavam conectados a redes sociais. Cerca de 20\% utilizavam o twitter, sendo que aproximadamente 46\% conectando-o diariamente e algo em torno de 29\% mais de uma vez ao dia. (Duggan \& Smith, 2013). Um relatório publicado em 2014 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube (Another Pew). 
+Um relatório publicado em 2013 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube. Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede \cite{mitchell2013news}. 
 
-Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede (Mitchell \& Page, 2013). Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de tweets (postagem tipo microblog) (Twitter, 2014) 
+Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de ``tweets'' (postagem tipo microblog) (Twitter, 2014) 
 
-Heneycutt e Hering (2009) identificaram 11 categorias de conteúdo propagados nos tweets: sobre destinatários, anúncio/propaganda, encorajamento “exhort” (que traduzimos aqui como “auto-ajuda”), informações para outros, informações para si próprio, meta comentários, uso de mídia, opinião, outras experiências, auto experiência, e solicitação de informações. Naaman, Boase e Lai (2010), por sua vez, classificaram os conteúdos em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, eu agora (me now), perguntas aos seguidores, manutenção de presença, e piadas. 
+Naaman, Boase e Lai \cite{naaman2010really}, classificaram os   conteúdos propagados nos tweets em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, ``eu agora'' (me now), perguntas aos seguidores, manutenção de presença e piadas. 
 
-No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. Adkins \& Budd, 2006, Cronin \& Overflet, 1994; Cunningham \& Dillon, 1997; Lee, 2003). Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). 
+No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. A \cite{adkins2006scholarly}, \cite{cunningham1997authorship}. Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). 
 
-Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o google) com o objetivo de identificar a relevância e acetiação de wrbsites (Brin \& Page, 1998), em decorrência do número de seguidores, da quantidade de menções feitas, de retweets, por exemplo.
+Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o Google) com o objetivo de identificar a relevância e aceitação de \textit{websites} \cite{brin1998anatomy}, em decorrência do número de seguidores, da quantidade de menções feitas, de ``retweets'', por exemplo.
 
-(FONTE: SE É POSITIVO OU NEGATIVO)
+Cha, Haddadi e Benevenuto \cite{cha2010measuring} avaliaram a influência dos usuários no Twitter na rede, como um todo, analisando o número de ``retweets'', menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de ``retweets'' pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). 
 
-Cha, Haddadi e Benevenuto (2010) avaliaram a influência dos usuários no Twitter na rede, como um todo, analisando o número de retweets, menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de retweets pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). 
 
-Em outro estudo, André et al. (2012) utilizaram a abordagem “crowdsourcing” para identificar que tipo de tweets chamam atenção e são os preferidos dos seguidores, como também, os que são mais rejeitados. Eles encontraram uma preferência dos usuários em fazer perguntas aos seguidores, bem como em partilhar informações e autopromoção (que diz respeito a algo como falar de si próprio, de seus sentimentos, percepções e ideias).
-
-Modalidades e ferramentas de análise do Twitter 
+\subsubsection{Modalidades e ferramentas de análise do Twitter} 
 
 Nesse tópico abordaremos, em maior detalhe, as escolhas metodológicas e ferramentas analíticas utilizadas em estudos que levam em conta dados do twitter, apresentando alguns dessas pesquisas.
-Do ponto de vista metodológico ……….
 
-Na pesquisa conduzida por Suh, Hong e Chi (2010), esses pesquisadores encontraram uma correlação positiva entre a existência de uma URL de um tweet e a probabilidade de que aconteça um retweet. Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 tweets recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual da Academia. 
+Na pesquisa conduzida por Suh, Hong e Chi \cite{suh2010want}, esses pesquisadores encontraram uma correlação positiva entre a existência de uma URL de um ``tweet'' e a probabilidade de que aconteça um ``retweet''. Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 ``tweets'' recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual da Academia. 
 
-Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os retweets foram retirados das amostras. Também foram removidos da amostra os tweets com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum tweet (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos tweets. Com isto, a amostra foi reduzida de 1200 para 752 tweets que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 tweets analisados, 271 apresentavam pelo menos um retweet, e 131 receberam um “favorito”.  Em média, tweets recebidos 0,67 (desvio padrão “SD” = 1,4) retweets e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, tweets incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos tweets foi 107 (SD=29,81) caracteres. 
+Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os ``retweets'' foram retirados das amostras. Também foram removidos da amostra os ``tweets'' com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum ``tweet'' (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos ``tweets''. Com isto, a amostra foi reduzida de 1200 para 752 ``tweets'' que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 ``tweets'' analisados, 271 apresentavam pelo menos um ``retweet'', e 131 receberam um “favorito”.  Em média, ``tweets'' recebidos 0,67 (desvio padrão “SD” = 1,4) ``retweets'' e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, ``tweets'' incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos ``tweets'' foi 107 (SD=29,81) caracteres. 
 
-(REES
+Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) ``tweets'', seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de ``tweets'' normalmente distribuídas. Métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
+O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de ``retweets'' e o número de menções a usuários, sugerindo que ``tweets'' com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
 
-Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) tweets, seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de tweets normalmente distribuídas. Métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
-O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de retweets e o número de menções a usuários, sugerindo que tweets com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
+Em outro artigo, conduzido por Chu \& Du \cite{Chu2012}, os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “facilitar informações e compartilhar conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (p. 72) (livre tradução do autor) \footnote{facilitate information and knowledge sharing, service enhancement and promotion, interaction with student library users, at minimal costs.}. Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes \cite{del2012libraries}; Cavanagh, 2015), tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários \cite{boateng2014web}. 
 
-Em outro artigo, conduzido por (FONTE - ANO), os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “compartilhar informações e conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (Chue \& Due, 2013, p. 72). Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes (Del Bosque, Leif e Skaf, 2012; Cavanagh, 2015), tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários (Boaten \& Quan, 2014). 
-A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os tweets da biblioteca acadêmica. 
-(FONTE: Abraham et al., 2015)
+A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os ``tweets'' da biblioteca acadêmica \cite{Al-Daihani2016}. Nesta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos ``tweets'' desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com), em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, tendo a seleção se restringido às universidades de língua inglesa e a apenas uma biblioteca por instituição, para o caso de a universidade ter mais de uma. 
+
+As informações relevantes dos ``tweets'', utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; data que se “juntou” ao Twitter.
+
+Na etapa de preprocessamento -- ``dataset preprocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como o de Ralston, O'Neil, Wigmore e Harrison \cite{ralston2014exploration} e de Yoon, Elhadad e Bakken \cite{yoon2013practical}. O processo contemplou a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado) e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
+
+Para análise do conjunto de dados, utilizou-se a mineração em textos e para investigar os históricos de ``tweets'' das bibliotecas escolheu-se a análise de conteúdo. A frequência dos ``tweets'', ``retweets'' e sua distribuição foi identificada e contabilizada. Em seguida, os ``tweets'' marcados com o PamTaT \footnote{ Ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Bird, Loper \& Klien, 2009)}. 
+
+O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natural language processing framework'' e permite a análise de grande volume de textos pelos usuários finais, não necessitando de conhecimento de programação da linguagem Python. A ferramenta serve, ainda, para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso, permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. 
+
+Foi utilizado o Harvard General Inquirer \cite{stone1968general} para análise semântica e sentimental dos ``tweets''. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificaram duas centenas de palavras incluindo, dentre elas, palavras que davam o sentido de algo positivo, negativo, ou ainda relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante. 
+
+Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
 
 
-(Stieglitz \& Dang-Xuan, 2013)
+\begin{figure}[ht]
+	\centering
+	\caption{Descrição da conta Twitter das bibliotecas acadêmicas}
+	\includegraphics[width=175mm, height=75mm]{Figuras/Twitter/contaTwitter.png}\\
+	\tiny Fonte: AL-DAIHANI, S. M. and ABRAHAMS, A. -- 2016
+\end{figure}
 
-O corpus de dados desta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos Twittes desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com), em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, tendo a seleção se restringido às universidades de língua inglesa e a apenas uma biblioteca por instituição, para o caso de a universidade ter mais de uma (no artigo original é a tabela 1). As informações relevantes dos tweets, utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; data que se “juntou” ao Twitter.
+Observa-se que foi incluído o número de ``tweets''; a quantidade de usuários seguidos pela biblioteca; a quantidade de seguidores e o número de ``tweets'' favoritos da biblioteca. A Universidade Johns Hopkins, como se pode observer na tabela, tem o maior número de
+``tweets'', seguida pela biblioteca da Stanford University e pela biblioteca da Cambrige University, respectivamente. A biblioteca da Universidade da Califórnia San Diego tem a conta do Twitter mais antiga (maio de 2008), mas apresenta um pequeno número de ``tweets'',
+comparativamente à biblioteca da Stanford University, que começou no Twitter com uma conta em abril de 2012, mas possui o segundo maior número de ``tweets''. 
 
-Na etapa de preprocessamento -- ``dataset prepocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como o de Ralston, O'Neil, Wigmore e Harrison (2014) e de Yoon, Elhadad e Bakken (2013). O processo contemplou a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado) e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
 
-Para análise do conjunto de dados, utilizou-se a mineração em textos e para investigar os históricos de tweets da bibliotecas escolheu-se a análise de conteúdo. A frequência dos tweets, retweets e distribuição dos tweets e retweets foi identificada e contabilizada. Em seguida, os tweets marcados com o PamTaT, uma ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Poderia colocar essa observação numa nota de 
-rodapé). O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natural language processing framework'' (Bird, Loper \& Klien, 2009) e permite a análise de grande volume de textos pelos usuários finais, não necessitando de conhecimento de programação da linguagem Python. 
-A ferramenta serve, ainda, para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso, permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. Também foi utilizado o Harvard General Inquirer (Stone et al. 1966) para análise semântica e sentimental dos tweets. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificaram duas centenas de palavras incluindo, dentre elas, palavras que davam o sentido de algo positivo, negativo, ou ainda relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante. Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{Figuras/Twitter/contaPalavras}
+\caption{}
+\label{fig:contaPalavras}
+\end{figure}
 
-Imagem tabela 1 do twitter
+\pagebreak
 
-Observa-se que foi incluído o número de tweets; a quantidade de usuários seguidos pela biblioteca; a quantidade de seguidores e o número de tweets favoritos da biblioteca. A Universidade Johns Hopkins, como se pode observer na tabela, tem o maior número de
-tweets, seguida pela biblioteca da Stanford University e pela biblioteca da Cambrige University, respectivamente. A biblioteca da Universidade da Califórnia San Diego tem a conta do Twitter mais antiga (maio de 2008), mas apresenta um pequeno número de tweets,
-comparativamente à biblioteca da Stanford University, que começou no Twitter com uma conta em abril de 2012, mas possui o segundo
-maior número de tweets. 
+A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando a frequência de unigramas (palavras únicas), observou-se que a palavra mais frequente foi “open”, utilizada em uma variedade de contextos pelos ``tweets'' da biblioteca. Por exemplo: foi usada em um anúncio sobre a mudança do horário de funcionamento, bem como em um anúncio para abertura do espaço para os estudantes, exposições, abertura da casa (biblioteca), etc. 
 
-A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando a frequência de unigramas (palavras únicas) observou-se (FIGURA), que a palavra mais frequente foi “open”, utilizada em uma variedade de contextos pelos tweets da biblioteca. Por exemplo: foi usada em um anúncio sobre a mudança do horário de funcionamento, bem como EM UM anúncio para abertura do espaço para os estudantes, exposições, abertura da casa (biblioteca), etc. O segundo termo mais frequente foi “research” (pesquisa), que foi utilizado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos tweets sobre os recursos da biblioteca. Tais termos foram incluidos em tweets relacionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”. 
+\begin{figure}[ht]
+	\centering
+	\caption{Frequência de palavras}
+	\includegraphics[width=0.6\linewidth]{Figuras/Twitter/ferqPalavras}\\
+	\tiny Fonte: AL-DAIHANI, S. M. and ABRAHAMS, A. -- 2016
+	\label{fig:ferqPalavras}
+\end{figure}
 
-Imagem tabela 2 do twitter
 
-Imagem tabela 3 do twitter
+O segundo termo mais frequente foi ``research'', que foi utilizado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos ``tweets'' sobre os recursos da biblioteca. Tais termos foram incluidos em ``tweets'' relacionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”. 
 
-A FIGURA, por sua vez, mostra a distribuição dos bigramas (sequência de duas palavras) no conjunto de tweets. Observa-se que o mais frequente bigrama foi “special collections”.
+Na distribuição dos bigramas (sequência de duas palavras) no conjunto de ``tweets'', observa-se que o mais frequente foi “special collections”.
 O segundo mais popular bigrama foi “open access”, utilizado em diferentes contextos, tal como política de acesso, publicidade, recursos, trenamentos e workshops, dicas e orientação, serviços, eventos e notícias. O resultado mostrou a ênfase colocada na iniciativa de promover “open access” com as instituições acadêmicas.
 
-O terceiro maior bigrama foi “reading room”, relativo à atividade de suporte aos estudantes com as instituições acadêmicas. Essas salas são um dos mais importantes espaços da biblioteca, usadas para leitura e estudo. Os tweets eram, em sua maioria, relacionados a noticias de abertura e fechamento das salas de leitura: “reading rooms”.
+O terceiro maior bigrama foi “reading room”, relativo à atividade de suporte aos estudantes com as instituições acadêmicas. Essas salas são um dos mais importantes espaços da biblioteca, usadas para leitura e estudo. Os ``tweets'' eram, em sua maioria, relacionados a noticias de abertura e fechamento das salas de leitura: “reading rooms”.
 
-A fig-6 mostra os mais importantes trigramas (sequência de três palavras), dos quais destacou-se o trigrama “save the date”. Essa expressão era utilizada para requerer especial atenção dos seguidores para os eventos importantes que estavam para acontecer. Este trigrama é seguido, como o segundo mais frequente, por “pleased to announce”, outra expressão usada para enfatizar a importância de eventos especiais. O terceiro mais usado foi “open access week” (seguido muito próximo por “open access policy”), que novamente destaca os esforços na iniciativa de espaço aberto (open access) 
+Dentre os mais importantes trigramas (sequência de três palavras), destacou-se o trigrama “save the date”. Essa expressão era utilizada para requerer especial atenção dos seguidores para os eventos importantes que estavam para acontecer. Este trigrama é seguido, como o segundo mais frequente, por “pleased to announce”, outra expressão usada para enfatizar a importância de eventos especiais. O terceiro mais usado foi “open access week” (seguido muito próximo por “open access policy”), que novamente destaca os esforços na iniciativa de espaço aberto (open access). 
 
-Imagem tabela 4 do twitter
+\pagebreak
 
-
-No caso particular dessa pesquisa, o interesse voltou-se para os tweets da Polícia Rodoviária Federal do estado de Pernambuco, bem como de seus seguidores e de usuários que fizeram menção a eventos que afetam diretamente o tráfego nas principais rodovias do estado. A seguir, a título de exemplo, pode-se verificar uma sequência de twittes da Polícia Rodoviária Federal do estado de Santa Catarina:
+No caso particular da pesquisa em lide, o interesse voltou-se para os ``tweets'' da Polícia Rodoviária Federal do estado de Pernambuco, bem como de seus seguidores e de usuários que fizeram menção a eventos que afetam diretamente o tráfego nas principais rodovias do estado. A seguir, a título de exemplo, pode-se verificar uma sequência de ``tweets'' da Polícia Rodoviária Federal do estado de Santa Catarina:
 
 \begin{figure}[ht]
 	\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF.png}}
@@ -417,9 +452,8 @@ No caso particular dessa pesquisa, o interesse voltou-se para os tweets da Polí
 A Polícia Rodoviária Federal disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
 num espaço temporal variado. Por exemplo: entre Itajaí e Balneário Camboriú foi informado que o trânsito estava intenso, sugerindo que a frota de caminhões deva ter uma rota alternativa, caso a situação persista por muito tempo. No primeiro twitte da segunda coluna, é informado em Via Expressa (BR 282) que o trânsito está lento com velocidade de 20km/h (praticamente congestionado). 
 
-\pagebreak
 
-Outra rede social conhecida pelos condutores de veículos é o Waze. O Waze é um aplicativo de navegação para o trânsito, e funciona em aparelhos celulares e tablets. Os utilizadores desse aplicativo são conhecidos como wazers e compartilham informações sobre o trânsito, em tempo real. Todavia, as informações somente estão disponíveis no momento em que são postadas pelos utilizadores, por um período de tempo pequeno. Caso não haja usuários trafegando pelas vias, ou caso os mesmos não tenham disponibilidade para compartilhar informações, não há o que se ver. Outro problema lidentificado em relação ao waze é que caso não haja conexão à Internet, não há como acessar os dados dos 'wazers', para navegação.
+Outra rede social conhecida pelos condutores de veículos é o Waze. O Waze é um aplicativo de navegação para o trânsito, e funciona em aparelhos celulares e tablets. Os utilizadores desse aplicativo são conhecidos como wazers e compartilham informações sobre o trânsito, em tempo real. Todavia, as informações somente estão disponíveis no momento em que são postadas pelos utilizadores, por um período de tempo pequeno. Caso não haja usuários trafegando pelas vias, ou caso os mesmos não tenham disponibilidade para compartilhar informações, não há o que se ver. Outro problema identificado em relação ao waze é que caso não haja conexão à Internet, não há como acessar os dados dos 'wazers', para navegação.
 
 Além dos dados que chegam ao \textit{Big Data} através das redes sociais, as grandes cidades têm disponíveis câmeras de monitoramento do trânsito nos semáforos ou próximas a eles. Algumas com cobertura por canais de televisão, bem como câmaras de segurança próximas às rodovias, coletando informações em tempo real. Os dados desses dispositivos são gravados, sendo conhecidos como \textit{stream} de dados. Esses \textit{streams} podem ser disponibilizados na Internet, em sítios eletrônicos especialmente construídos para isso, como o http://vejoaovivo.com.br (acessado em 10/10/2016) dentre outros.
 
@@ -436,7 +470,7 @@ Aprendizagem de Máquina ou ``Machine Learning'' são métodos para analisar dad
 Segundo Shalev-Shwartz \& Ben-David \cite{Ben-David2014}, o termo Aprendizagem de Máquina refere-se à detecção automatizada de Padrões de dados.
 
 Para Nilsson \cite{Nilsson2005}, o aprendizado ocorre quando uma máquina modifica sua estrutura interna, programa ou dados 
-(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo, quando uma máquina de reconhecimento da fala melhora após ``ouvir'' várias amostras de fala humanas e que nós sentimos que pronta, neste caso podemos dizer que a máquina aprendeu. 
+(baseados nos inputs ou em uma resposta para informação externa) de tal maneira que melhora o desempenho futuro. Por exemplo, quando uma máquina de reconhecimento da fala melhora após ``ouvir'' várias amostras de fala humanas e que nós percebemos que está pronta, neste caso podemos dizer que a máquina aprendeu.
 
 Sistemas que executam tarefas de inteligência artificial, tais como Reconhecimento de Padrões, Diagnóstico, Controle de Robôs, Predição e outros, precisam ser modificados para executarem ``Machine Learning'' \cite{Nilsson2005}.
 
@@ -447,7 +481,7 @@ Quando se fala em algoritmos de IA, adentramos no campo de Aprendizagens e Máqu
 No campo da aprendizagem de máquina, é possível apontar três tipos de aprendizagem: a aprendizagem supervisionada, aprendizagem não-supervisionada e aprendizagem por reforço \cite{NorvigRussel2004}. AS duas primeiras serão aqui descritas de maneira sucinta, e consideradas mais adiante, uma vez que interessam particularmente a essa pesquisa, sobretudo quando da utilização de redes neurais e árvores de decisão. 
 
 A aprendizagem supervisionada \cite{Monard} se caracteriza pelo acesso ao conjunto de exemplos de treinamento pelo algoritmo de aprendizagem, também conhecido como indutor, de modo que haja especificação da saída desejada.
-No caso da aprendizagem não-supervisionada (RUSSEL; NORVIG, 2004), os valores de entrada são estabelecidos, mas não são definidos os valores de saída. O indutor terá o papel de estabelecer aproximações, propondo agrupamentos (clusters) em função de determinadas categorias como, por exemplo, similaridade \cite{Monard}.
+No caso da aprendizagem não-supervisionada \cite{NorvigRussel2004}, os valores de entrada são estabelecidos, mas não são definidos os valores de saída. O indutor terá o papel de estabelecer aproximações, propondo agrupamentos (clusters) em função de determinadas categorias como, por exemplo, similaridade \cite{Monard}.
 
 Para ``aprender'' sobre uma determinada função \textit{f} definimos uma amostra em um conjunto de treinamento $X = {x_{1}, x_{2}, ...x_{n}}$.
 
@@ -462,9 +496,9 @@ predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas
 
 
 
-\section{Algoritmos de Aprendizagem de Máquina}
+\subsection{Algoritmos de Aprendizagem de Máquina}
 
-\subsection{Naïve Bayes}
+\subsubsection{Naïve Bayes}
 
 Naïve Bayes é uma classe de algoritmos baseado no teorema da probabilidade condicional de Bayes, serve para rotular classes de variáveis independentes. Em mineração de dados variáveis independentes explicam a variável dependente para fazer predição. Este classificador tem sido muito empregado para classificar documentos e detectar spam em mensagens \cite{bibid}. A probabilidade condicional pode ser explicada por um vetor $x = (x_{1}, x{2}, ..., x{n})$ que se representa \textit{n} características (variáveis independentes) que se atribui a estas instâncias de probabilidades $p(C_{k}|x_{i},...,x_[n])$ para cada \textit{K} possível ter vindo da classe $C_[k]$. Aplicando o teorema de Bayes da probabilidade condicional temos:
 
@@ -479,7 +513,7 @@ p(posteriori) = \frac{p(priori) * verossimilhança}{evidência}
 \end{equation}
 
 
-\subsubsection{Aprendizagem Bayesiana}
+\textbf{Aprendizagem Bayesiana}
 
 Baseado no teorema de Bayes, dado um conjunto de variáveis aleatórias $\omega = {x_{1}, x_{2},..,x_{n}}$ a variável aleatória \textit{H} (hipótese) denota o tipo de $\omega$, com valores possíveis para $h_{1}, h{2},...,h_{n}$. A medida que são inspecionadas as variáveis, são revelados os dados $D_{1}, D_{2},...,D_{n}$, onde $D_{i}$ é uma variável aleatória com valores possíveis para cada variável do conjunto $\omega$ de variáveis. Sendo D a representação dos dados do espaço de variáveis para uma predição sobre a parte deconhecida de \textit{X}, temos:
 
@@ -493,9 +527,9 @@ P(h_{i}|d) = \sum_{i}P(X|d,h_{i})P(h_{i}|d) = \sum_{i}P(X|h_{i})P(h_{i}|d)
 
 \pagebreak
 
-\subsection{Árvores de Decisão}
+\subsubsection{Árvores de Decisão}
 
-\subsubsection{Aspectos introdutórios}
+\textbf{Aspectos introdutórios}
 
 No âmbito da inteligência artificial, quando se trata de algoritmos de aprendizagem, uma classe de algoritmos que tem se revelado potente para problemas das mais diversas naturezas é a árvore de decisão. Além do universo das pesquisas no campo da informática engenharia e ciências da computação, as árvores de decisão têm sido utilizadas, sobremaneira, em pesquisas relacionadas à Medicina, à Economia, nos mais diversos sistemas de suporte à decisão, como diagnósticos de doenças, investigação de fraudes, dentre outros \cite{Camilo}.
 
@@ -505,7 +539,7 @@ Na pesquisa apresentada nessa dissertação, particularmente, as árvores de dec
 
 Conforme o nome sugere, o que se espera de uma árvore de decisão é que ao final do processo resulte a melhor decisão. Todavia, para que a decisão satisfatória apareça, é necessário que o pesquisador faça as escolhas adequadas, de modo a poder tirar o melhor proveito dessa ferramenta. Para tal, é preciso compreender a natureza desse algoritmo e os processos a ele relacionados. A seguir serão apresentados os principais elementos que precisam ser conhecidos pelo pesquisador que deseja se aventurar por esse campo.
 
-\subsubsection{Breve histórico e conceituação}
+\textbf{Breve histórico e conceituação}
 
 De maneira sintética, uma árvore de decisão tem como entrada um conjunto de atributos e como saída uma decisão. Os atributos podem, ainda, ser classificados de duas maneiras: discretos ou contínuos. Em virtude dos atributos de entrada, tem-se, como resultado uma função de valores discretos – aprendizagem de classificação – ou de valores contínuos – aprendizagem de regressão \cite{NorvigRussel2004}.
 
@@ -573,34 +607,41 @@ O CART é conhecido, sobretudo, pela técnica de partição recursiva binária, 
 Diferentemente do C4.5, o CART não realiza pré-poda. A poda acontece ao final – pós-poda - da árvore gerada, em seu tamanho máximo, e por meio da relação custo-complexidade \cite{breiman1984}, obtendo, muitas vezes, subárvores, que são analisadas e, via de regra, a melhor delas é escolhida.
 Ainda no que diz respeito ao CART, o critério de classificação utilizado é o índice de Gini. Esse índice tem como base o cálculo da entropia, e é utilizado frequentemente como parâmetro de pesquisa no campo sócio-econômico.
 
-\subsubsection{Conceito de Entropia}
-
 A entropia é um conceito, utilizado na química e na física, para medir a quantidade de desorganização da matéria. WIENER e SHANON \cite{Pineda2006} lançaram mão desse conceito para analisar a desorganização da informação. Quando há alta entropia, pode-se dizer que a informação está com nível considerável de desorganização ou de medida de incerteza.
 
-No caso das árvores de decisão, a entropia aparece relacionada ao ganho de informação. Quando um atributo é identificado como aquele que está relacionado a um maior ganho de informação (ou maior redução de entropia), ele é escolhido como o atributo teste para o nó. Tal atributo teria, então, a função de diminuir a aleatoriedade ou impureza nas partições \cite{Simoes2008}. Com essa abordagem é possível reduzir o número de testes necessários para que uma árvore seja produzida.
+No caso das árvores de decisão, a entropia é citada por RUSSEL \& NORVIG \cite{NorvigRussel2004} relacionada ao ganho de informação. Quando um atributo é identificado como aquele que está relacionado a um maior ganho de informação (ou maior redução de entropia), ele é escolhido como o atributo teste para o nó. Tal atributo teria, então, a função de diminuir a aleatoriedade ou impureza nas partições \cite{Simoes2008}. A seguir a equação que representa o cálculo padrão da entropia (já mencionada na seção 2.2.2)
+ 
+\begin{equation}
+H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x)
+\end{equation}
 
-(CONTINUA)
+$ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. 
 
+A entropia condicional, formalizada na equação seguinte, é a entropia restante dos atributos de $Y$ no valor $y$ quando o atributo $X$ é dado como $x$ \cite{DecisionTree}:
+
+\begin{equation}
+H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y}P(y|x)log_{2}P(y|x)
+\end{equation}
+
+Com essa abordagem é possível reduzir o número de testes necessários para que uma árvore seja produzida.
 
 \pagebreak
 
-\subsection{Redes Neurais}
+\subsubsection{Redes Neurais}
 
-\subsubsection{Introdução}
+\textbf{Introdução}
 
 O cérebro humano possui cerca de 10 bilhões de neurônios, que são responsáveis pelo funcionamento do organismo. 
-Esses neurônios se conectam entre si, através de sinapses, formando uma Rede Neural capaz de armazenar e processar grande quantidade de informações.
+Esses neurônios se conectam entre si, através de sinapses, formando uma Rede Neural capaz de armazenar e processar grande quantidade de informações \cite{NorvigRussel2004}.
 
 De forma semelhante ao funcionamento das Redes Neurais naturais, foram desenvolvidas as Redes Neurais Artificiais, que recebem esse nome por se caracterizarem como um 
 sistema cujo funcionamento é semelhante à arquitetura das redes neurais humanas.
 
 Nesse contexto, em que se pretende criar modelos computacionais com funcionamento semelhante ao modelo neurológico humano, surge a chamada neurocomputação. 
 No início da década de 40, precisamente em 1943, McCulloch e Pitts \cite{Heaton2008} propuseram um modelo simplificado de funcionamento do cérebro humano e, 
-a partir dai sugeriram a construção de uma máquina que fosse inspirada nesse funcionamento.
+a partir dai sugeriram a construção de uma máquina que fosse inspirada nesse funcionamento. A partir da proposição de McCulloch e Pitts, vários trabalhos começaram a ser desenvolvidos, tomando o funcionamento do cérebro humano como modelo. 
 
-A partir da proposição de McCulloch e Pitts, vários trabalhos começaram a ser desenvolvidos, tomando o funcionamento do cérebro humano como modelo. 
-
-Em 1949 Hebb explicitou matematicamente as sinapses dos neurônios humanos. Dois anos depois, em 1951, o primeiro neurocomputador, 
+Em 1949, Hebb explicitou matematicamente as sinapses dos neurônios humanos. Dois anos depois, em 1951, o primeiro neurocomputador, 
 chamado Snark, foi desenvolvido por Mavin Minsky. Todavia, o primeiro neurocomputador que obteve sucesso surgiu entre 1957 e 1958, 
 o Mark I Perceptron, criado por Rosenblatt, Wightman e colaboradores \cite{Heaton2008}. O interesse principal desses pesquisadores era o de desenvolver, com esse neurocomputador, a capacidade de reconhecimento de padrões. Nesse contexto, os estudos na área se aprofundaram de tal forma, que muitos consideram Rosenblatt como o fundador da neurocomputação, tal qual encontramos hoje. 
 
