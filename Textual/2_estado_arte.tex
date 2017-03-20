@@ -500,7 +500,17 @@ predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas
 
 \subsubsection{Naïve Bayes}
 
-Naïve Bayes é uma classe de algoritmos baseado no teorema da probabilidade condicional de Bayes, serve para rotular classes de variáveis independentes. Em mineração de dados variáveis independentes explicam a variável dependente para fazer predição. Este classificador tem sido muito empregado para classificar documentos e detectar spam em mensagens \cite{bibid}. A probabilidade condicional pode ser explicada por um vetor $x = (x_{1}, x{2}, ..., x{n})$ que se representa \textit{n} características (variáveis independentes) que se atribui a estas instâncias de probabilidades $p(C_{k}|x_{i},...,x_[n])$ para cada \textit{K} possível ter vindo da classe $C_[k]$. Aplicando o teorema de Bayes da probabilidade condicional temos:
+Dentre os algoritmos de machine learning que destacaremos nessa dissertação está o Naïve Bayes. 
+Essa classe de algoritmos é baseado no teorema da probabilidade condicional de Bayes \cite{montgomery2000estatistica}, serve 
+para rotular classes de variáveis independentes. O classificador Naïve Bayes é um modelo probabilístico relativamente simples, todavia, muito potente. Produz estimativas de probabilidade, em vez predições.
+
+Um classificador Naïve Bayes produz probabilidade como output \cite{policarpo2015semantic}. A probabilidade que é produzida pode ser utilizada para distinguir a que grupo classificado, uma amostra não classificada pertence, por exemplo, dependendo da da mais alta probabilidade obtida entre um grupo de probabilidades.
+
+Resumidamente, um classificador Naïve Bayes sugere que a presence ou ausência de um atributo particular de uma determinada classe não está relacionado à presença ou ausência de qualquer outro atributo. Ainda que esses atributos dependam entre si, ou da existência de outro atributo, esse tipo de classificador considera todas as propriedades como contributos independentes da probabilidade final \cite{policarpo2015semantic}.
+
+Em mineração de dados variáveis independentes explicam a variável dependente para fazer predição.
+Este classificador tem sido muito empregado para classificar documentos e detectar spam em mensagens \cite{bibid}. 
+A probabilidade condicional pode ser explicada por um vetor $x = (x_{1}, x{2}, ..., x{n})$ que se representa \textit{n} características (variáveis independentes) que se atribui a estas instâncias de probabilidades $p(C_{k}|x_{i},...,x_[n])$ para cada \textit{K} possível ter vindo da classe $C_[k]$. Aplicando o teorema de Bayes da probabilidade condicional temos:
 
 \begin{equation}
 p(C_{k}|x) = \frac{p(_{k})p(x|C_{k})}{p(x)}
@@ -515,14 +525,14 @@ p(posteriori) = \frac{p(priori) * verossimilhança}{evidência}
 
 \textbf{Aprendizagem Bayesiana}
 
-Baseado no teorema de Bayes, dado um conjunto de variáveis aleatórias $\omega = {x_{1}, x_{2},..,x_{n}}$ a variável aleatória \textit{H} (hipótese) denota o tipo de $\omega$, com valores possíveis para $h_{1}, h{2},...,h_{n}$. A medida que são inspecionadas as variáveis, são revelados os dados $D_{1}, D_{2},...,D_{n}$, onde $D_{i}$ é uma variável aleatória com valores possíveis para cada variável do conjunto $\omega$ de variáveis. Sendo D a representação dos dados do espaço de variáveis para uma predição sobre a parte deconhecida de \textit{X}, temos:
+Baseado no teorema de Bayes, dado um conjunto de variáveis aleatórias $\omega = {x_{1}, x_{2},..,x_{n}}$ a variável aleatória \textit{H} (hipótese) denota o tipo de $\omega$, com valores possíveis para $h_{1}, h{2},...,h_{n}$. A medida que são inspecionadas as variáveis, são revelados os dados $D_{1}, D_{2},...,D_{n}$, onde $D_{i}$ é uma variável aleatória com valores possíveis para cada variável do conjunto $\omega$ de variáveis. Sendo D a representação dos dados do espaço de variáveis para uma predição sobre a parte desconhecida de \textit{X}, temos:
 
 \begin{equation}
 P(h_{i}|d) = \sum_{i}P(X|d,h_{i})P(h_{i}|d) = \sum_{i}P(X|h_{i})P(h_{i}|d)
 \end{equation}
  onde cada hipótese $h_{i}$ determina uma distribuição de probabilidades sobre a variável \textit{X} \cite{NorvigRussel2004}.
 
-
+Um aspecto relevante e positivo que deve ser mencionado acerca do classificador Naïve Bayes é que este requer apenas um pequeno grupo de dados de treinamento para estimar os parâmetros que são necessários para que seja feita a classificação. Outro aspecto que merece destaque é que ele se mostra eficiente para aprendizagem supervisionada, trabalhando de forma rápida com dados complexos \cite{policarpo2015semantic}.
 
 
 \pagebreak

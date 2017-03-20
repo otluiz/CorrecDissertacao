@@ -58,13 +58,6 @@ Dispon{\'\i}vel em:
   de Janeiro, 2004. 716--721~p.
 ISBN 8535211772.}
 
-\bibitem{DecisionTree}
-\abntrefinfo{{A. Srivastava} e Singh}{{A. Srivastava}; SINGH}{2015}
-{{A. Srivastava}, V.~K.; SINGH, N. {Review of Decision Tree Algorithm: Big Data
-  Analytics}.
-\emph{International Journal of Informative {\&} Futuristic Research}, v.~2,
-  n.~10, p. 3644--3654, 2015.}
-
 \bibitem{DataMining2}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
 {HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
@@ -75,6 +68,13 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 {ARANHA CHRISTIAN E~PASSOS, E. \emph{A Tecnologia de Mineração de Textos}.
   2006.
 1--8~p.}
+
+\bibitem{DecisionTree}
+\abntrefinfo{{A. Srivastava} e Singh}{{A. Srivastava}; SINGH}{2015}
+{{A. Srivastava}, V.~K.; SINGH, N. {Review of Decision Tree Algorithm: Big Data
+  Analytics}.
+\emph{International Journal of Informative {\&} Futuristic Research}, v.~2,
+  n.~10, p. 3644--3654, 2015.}
 
 \bibitem{Amin2015a}
 \abntrefinfo{Amin et al.}{AMIN et al.}{2015}
@@ -279,6 +279,16 @@ ISBN 9781107057135. Dispon{\'\i}vel em:
 {MONARD M., B.~J.~A. “conceitos sobre aprendizado de máquina -- sistemas
   inteligentes fundamentos e aplicações.
 Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
+
+\bibitem{montgomery2000estatistica}
+\abntrefinfo{Montgomery, Runger e Calado}{MONTGOMERY; RUNGER; CALADO}{2000}
+{MONTGOMERY, D.~C.; RUNGER, G.~C.; CALADO, V. \emph{Estatística aplicada e
+  probabilidade para engenheiros}. [S.l.]: Grupo Gen-LTC, 2000.}
+
+\bibitem{policarpo2015semantic}
+\abntrefinfo{Policarpo}{POLICARPO}{2015}
+{POLICARPO, R. A. C. S.~A. Semantic classification of nouns.
+2015.}
 
 \bibitem{Camilo}
 \abntrefinfo{Camilo e Silva}{CAMILO; SILVA}{2009}

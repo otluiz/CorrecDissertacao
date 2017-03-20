@@ -6,7 +6,7 @@ A level-1 auxiliary file: Pre-textual/FolhaRosto.aux
 A level-1 auxiliary file: Textual/1_introducao.aux
 A level-1 auxiliary file: Textual/2_estado_arte.aux
 Case mismatch error between cite keys Castanheira and CASTANHEIRA
----line 131 of file Textual/2_estado_arte.aux
+---line 135 of file Textual/2_estado_arte.aux
  : \citation{Castanheira
  :                      }
 I'm skipping whatever remains of this command
@@ -23,7 +23,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10037 items from 5000.
+Reallocated field_info (elt_size=4) to 10175 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 497 of file Bibliografia/Bibliografia.bib
@@ -296,45 +296,45 @@ Warning--campo title vazio em DadosGoverno
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 70 entries,
+You've used 72 entries,
             6480 wiz_defined-function locations,
-            1598 strings with 21258 characters,
-and the built_in function-call counts, 52383 in all, are:
-= -- 4009
-> -- 1667
+            1605 strings with 21513 characters,
+and the built_in function-call counts, 53709 in all, are:
+= -- 4097
+> -- 1720
 < -- 126
-+ -- 687
-- -- 500
-* -- 3796
-:= -- 6820
-add.period$ -- 246
-call.type$ -- 70
-change.case$ -- 711
-chr.to.int$ -- 166
-cite$ -- 75
-duplicate$ -- 2724
-empty$ -- 3955
-format.name$ -- 2599
-if$ -- 12380
++ -- 707
+- -- 516
+* -- 3889
+:= -- 6997
+add.period$ -- 252
+call.type$ -- 72
+change.case$ -- 732
+chr.to.int$ -- 168
+cite$ -- 77
+duplicate$ -- 2794
+empty$ -- 4059
+format.name$ -- 2680
+if$ -- 12690
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1208
-newline$ -- 361
-num.names$ -- 272
-pop$ -- 1660
+missing$ -- 1245
+newline$ -- 370
+num.names$ -- 280
+pop$ -- 1717
 preamble$ -- 1
-purify$ -- 273
+purify$ -- 281
 quote$ -- 0
-skip$ -- 2783
+skip$ -- 2853
 stack$ -- 1
-substring$ -- 2498
-swap$ -- 1283
+substring$ -- 2532
+swap$ -- 1308
 text.length$ -- 94
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 6
-while$ -- 445
+while$ -- 455
 width$ -- 0
-write$ -- 959
+write$ -- 982
 (There were 123 error messages)

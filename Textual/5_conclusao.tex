@@ -1,33 +1,49 @@
-\chapter{Conclusão}\label{intro:resumen}
+\chapter{Considerações finais}\label{intro:resumen}
 
-Após a realização do estudo, os dados sugerem que o modelo de predição ora proposto dá conta das questões dessa pesquisa, ou seja, possibilita a gestão logística relativa a horários de utilização das rodovias.  Os resultados do apontam para a eficácia da aplicação da
+Após a realização desta pesquisa, os dados sugerem que é possível propor um modelo de predição que possibilite a gestão logística relativa a dias, horários de utilização das rodovias.  
+
+Os resultados do apontam para a eficácia da aplicação da
 I.A. para analisar questões relativas ao tráfego de veículos e
 problemas que atingem as rodovias, comprometendo o
 deslocamento daqueles que a utilizam, tanto para uso privado,
-quanto relacionados ao contexto profissional e logístico. Nesse
-sentido, órgãos federais de controle de estradas podem se
-beneficiar de estudos dessa natureza. 
-Os dados encontrados dessa pesquisa corroboram com os resultados encontrados em estudos semelhantes, seja no Brasil ou em outros países, sugerindo que há um padrão de
-comportamento em rodovias que pode ser analisado, de
+quanto relacionados ao contexto profissional e logístico. 
+
+Nesse sentido, órgãos federais de controle de estradas podem se beneficiar de estudos dessa natureza. 
+Os dados encontrados nessa pesquisa corroboram com os resultados encontrados em estudos semelhantes, seja no Brasil ou em outros países, sugerindo que há um padrão de comportamento em rodovias que pode ser analisado, de
 maneira a facilitar o transporte de cargas e tráfego de veículos em geral, em seu curso. 
+
 A pesquisa também contribuiu para a compreensão das causas de constrangimentos e acidentes nas vias. Os dados revelaram que a maioria dos acidentes ocorre em via reta, com pista seca e em boas condições, sugerindo como uma das principais causas de acidente, a falta de atenção do condutor, que resulta, na maioria das vezes, em colisões traseiras e/ou laterais.
-Os acidentes acontecem nos horários em que há mais veículos trafegando na via, independentemente da hora do dia. Quando a via exige maior atenção, por condições que lhes são peculiares (um cruzamento, por exemplo), uma pequena restrição para ser amplificada, aumentando consideravelmente a quantidade de acidentes.
-Outra contribuição da pesquisa a ser destacada é de
-cunho metodológico-prático. Do ponto de vista metodológico, pela contribuição da aplicação do processo CRISP-DM,
+
+Os acidentes acontecem nos horários em que há mais veículos trafegando na via, independentemente da hora do dia, portanto a quantidade de acidentes aumente assim que aumenta a quantidade de veículos. Quando a via exige maior atenção, por condições que lhes são peculiares (um cruzamento, por exemplo), uma pequena restrição para pode ser amplificada, aumentando consideravelmente a quantidade de acidentes.
+
+Outra contribuição da pesquisa a ser destacada é de cunho metodológico-prático. Destaca-se, inicialmente, a utilização e tentativa de articulação entre os resultados envolvendo diferentes algoritmos.
+A pesquisa utilizou Naïve Bayes, Tf-idf para os dados minerados do Twitter. 
+Foram utilizadas também Árvores de Decisão e  Naïve Bayes, para o trabalho com os dados da PRF no modelo de classificação e   Redes Neurais e Regressão Logística para o modelo de predição.  
+
+Ainda do ponto de vista metodológico, ressalta-se a contribuição da aplicação do processo CRISP-DM,
 usado para construir o modelo preditivo. 
 O algoritmo Árvores de Decisão mostrou-se robusto, quando aplicado a esse tipo de problema.
-Quanto á mineração de textos em redes sociais, no caso do Twitter, possibilita a identificação de comportamentos do condutor, antes mesmo de utilizar a via. Todavia, embora tenha sido uma ferramenta útil, para que pudesse haver uma influência maior nos resultados, seria necessário ampliar o escopo para outras redes sociais que tenham o perfil de troca de informações pontuais sobre comportamento de usuários de rodovias.
+Quanto à mineração de textos em redes sociais, no caso do Twitter, possibilita a identificação de comportamentos do condutor, antes mesmo de utilizar a via. Todavia, embora tenha sido uma ferramenta útil, para que pudesse haver uma influência maior nos resultados, seria necessário ampliar o escopo para outras redes sociais que tenham o perfil de troca de informações pontuais sobre comportamento de usuários de rodovias.
+
 Do ponto de vista prático, a contribuição da pesquisa se dá pela proposição de um modelo que integre predição à
-API de mapas de posicionamento global, fornecendo
-informação suficiente a um gestor para decidir quando enviar,
-por exemplo, uma frota de caminhões por determinada rodovia
-que apresente retenções crescentes de logística de cargas.
-Tal modelo se configura como um avanço em relação às funcionalidades das soluções disponíveis que existem até o momento, tais como: Google Maps, Waze e outros dessa natureza somente exibem informações
-momentâneas, produzidas e compartilhadas pelos utilizadores
-dos aplicativos ou por informações provindas de GPS, com a
-nossa abordagem dados históricos de rodovias podem auxiliar
-predições sobre seu comportamento.
-Pode-se destacar alguns aspectos que figuraram como elementos dificultadores na realização da pesquisa. As informações da base de dados da PRF ........................................................................................................................................
+API de mapas de posicionamento global, fornecendo informação suficiente a um gestor para decidir quando enviar,
+por exemplo, uma frota de caminhões por determinada rodovia que apresente retenções crescentes de logística de cargas.
+
+Tal modelo se configura como um avanço em relação às funcionalidades das soluções disponíveis que existem até o momento, tais como: Google Maps, Waze e outros dessa natureza somente exibem informações momentâneas, produzidas e compartilhadas pelos utilizadores dos aplicativos ou por informações provindas de GPS, com a nossa abordagem dados históricos de rodovias podem auxiliar predições sobre seu comportamento.
+
+Alguns aspectos merecem destaque, em relação às dificuldades enfrentada na proposição do modelo de predição.
+
+Em primeiro lugar, as informações da base de dados da PRF apresentavam muitas lacunas (missing values), devido ao tipo de registro feito na ocorrência. Por exemplo, um acidente que envolva dois veículos (ou mais) -- um motocicleta e um carro -- aparecia, muitas vezes, com dois registros: acidente envolvendo carro e acidente envolvendo moto. Como essa, várias situações de dados duplicados foram identificados, tornando mais complexo o trabalho de preprocessamento dos dados.
+
+A Ainda em relação o registro dos dados pela PRF, dados relativos à latitude e longitude estavam ausentes ou preenchidos, muitas vezes, de forma equivocada, o que comprometeu, por vezes, a localização exata do evento (colisão, atropelamento).
+
+Foi percebido também certa imprecisão em relação à quilometragem em que se dava o evento, com erros que variavam de alguns metros até quilômetros, sendo necessário o olhar atento do pesquisador e confronto cuidadoso de informações, de modo que essas falhas fossem dirimidas.
+
+Quanto aos dados do Twitter, uma primeira limitação que pode ser apontada diz respeito ao próprio aplicativo. Uma vez que a proposta do Twitter é de uma comunicação pontual e rápida, os dados não ficam disponibilizados para a coleta por um longo período. Isso comprometeu a captura de tweets que interessavam a essa pesquisa, uma vez que em relação aos dados da PRF, foram contabilizados dados dos últimos nove anos. Quanto aos dados do Twitter, por outro lado, tivemos acesso apenas aos últimos 45 dias.
+
+Outra questão que merece destaque é o complexo processo de limpeza de dados ``timeline'' do Twitter na etapa de preprocessamento. Atualmente a própria PRF, para dar mais destaque, tem utilizado imagens para informar as ocorrências nas BRs, ao invés de textos, o que tem contribuído para diminuir a quantidade de dados textuais. Com isso foi necessário procurar outras ``timelines'' para suprir a quantidade pequena de informações no canal da PRF no Twitter.
+
+\pagebreak
 
 \section{Trabalhos futuros}
 
