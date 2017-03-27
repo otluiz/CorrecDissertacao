@@ -5,11 +5,6 @@ A level-1 auxiliary file: Pre-textual/Capa.aux
 A level-1 auxiliary file: Pre-textual/FolhaRosto.aux
 A level-1 auxiliary file: Textual/1_introducao.aux
 A level-1 auxiliary file: Textual/2_estado_arte.aux
-Case mismatch error between cite keys Castanheira and CASTANHEIRA
----line 135 of file Textual/2_estado_arte.aux
- : \citation{Castanheira
- :                      }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Textual/3_metodologia.aux
 A level-1 auxiliary file: Textual/4_simulacao.aux
 A level-1 auxiliary file: Textual/5_conclusao.aux
@@ -23,7 +18,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10175 items from 5000.
+Reallocated field_info (elt_size=4) to 10106 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 497 of file Bibliografia/Bibliografia.bib
@@ -230,16 +225,6 @@ Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, 
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
 Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in DadosGoverno
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -285,8 +270,6 @@ Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, 
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em Weka
 `title' is a missing field, not a string, for entry DadosGoverno
 while executing---line 2150 of file Bibliografia/abnt-num.bst
@@ -296,45 +279,45 @@ Warning--campo title vazio em DadosGoverno
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 72 entries,
+You've used 71 entries,
             6480 wiz_defined-function locations,
-            1605 strings with 21513 characters,
-and the built_in function-call counts, 53709 in all, are:
-= -- 4097
-> -- 1720
-< -- 126
-+ -- 707
-- -- 516
-* -- 3889
-:= -- 6997
-add.period$ -- 252
-call.type$ -- 72
-change.case$ -- 732
-chr.to.int$ -- 168
-cite$ -- 77
-duplicate$ -- 2794
-empty$ -- 4059
-format.name$ -- 2680
-if$ -- 12690
+            1603 strings with 21527 characters,
+and the built_in function-call counts, 52761 in all, are:
+= -- 4018
+> -- 1693
+< -- 124
++ -- 697
+- -- 508
+* -- 3824
+:= -- 6884
+add.period$ -- 249
+call.type$ -- 71
+change.case$ -- 721
+chr.to.int$ -- 164
+cite$ -- 76
+duplicate$ -- 2744
+empty$ -- 3988
+format.name$ -- 2639
+if$ -- 12465
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1245
-newline$ -- 370
-num.names$ -- 280
-pop$ -- 1717
+missing$ -- 1227
+newline$ -- 365
+num.names$ -- 276
+pop$ -- 1693
 preamble$ -- 1
-purify$ -- 281
+purify$ -- 277
 quote$ -- 0
-skip$ -- 2853
+skip$ -- 2800
 stack$ -- 1
-substring$ -- 2532
-swap$ -- 1308
-text.length$ -- 94
+substring$ -- 2454
+swap$ -- 1281
+text.length$ -- 93
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 6
-while$ -- 455
+while$ -- 446
 width$ -- 0
-write$ -- 982
-(There were 123 error messages)
+write$ -- 968
+(There were 116 error messages)

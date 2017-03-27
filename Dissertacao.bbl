@@ -344,6 +344,12 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
   2008. 440~p.
 ISBN 1604390085.}
 
+\bibitem{Castanheira2008}
+\abntrefinfo{CASTANHEIRA}{CASTANHEIRA}{}
+{CASTANHEIRA, L.~G. {Aplicação de técnicas de Mineração de Dados em
+  Problemas de Classificação de Padrões}.
+n.~5531.}
+
 \bibitem{Tatibana}
 \abntrefinfo{Tatibana e Kaetsy}{TATIBANA; KAETSY}{Acessado em: 01.out.2016}
 {TATIBANA, C.~Y.; KAETSY, D.~Y.
@@ -390,17 +396,6 @@ Dispon{\'\i}vel em:
   machine learning algorithms}.
 \emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
 ISSN 00313203.}
-
-\bibitem{DecisaoCredito}
-\abntrefinfo{West}{WEST}{2000}
-{WEST, D. Neural network credit scoring models -- computers and operations
-  research.
-p. 1131 -- 1152, 2000.}
-
-\bibitem{DataMining}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
-Elsevier, San Francisco, v. 2 edition, 2006.}
 
 \bibitem{Costa2015}
 \abntrefinfo{Costa, Bernardini e Filho}{COSTA; BERNARDINI; FILHO}{2015}
