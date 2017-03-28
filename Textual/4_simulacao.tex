@@ -1,9 +1,11 @@
 \chapter{Simulação}\label{simula}
 
+Esse capítulo apresenta os resultados encontrados em cada etapa, no processo de desenvolvimento do modelo de predição de ocorrências nas principais BRs do estado de Pernambuco, para definição de melhores rotas e horários para os usuários dessas vias.
 
-\section{O modelo proposto}
 
-A figura a seguir ilustra essa metodologia descrita graficamente, onde as três etapas.
+\section{Execução do modelo}
+
+A figura a seguir resume as três etapas contempladas na proposição do modelo.
 
 \begin{figure}[ht]
 \centering
@@ -12,90 +14,66 @@ A figura a seguir ilustra essa metodologia descrita graficamente, onde as três 
 \tiny Fonte: autor
 \end{figure}
 
-A \textbf{etapa 1} contempla a fases da coleta das bases de dados históricas, preparação dos dados e construção das variáveis do modelo preditivo.
+A \textbf{etapa 1} contempla a fase da coleta das bases de dados históricos, preparação dos dados, construção das variáveis do modelo preditivo, descoberta dos pontos críticos das rodovias (que serão utilizados na etapa de georreferencaimento).
   \begin{enumerate}
-    \item O modelo preditivo integra bases de dados, tais como: Polícia Rodoviária Federal -- PRF, Batalhão de Polícia de Transito -- BPRv.
+    \item O modelo preditivo integra as bases de dados da Polícia Rodoviária Federal -- PRF.
  
-    \item Algumas dessas informações também estão disponíveis em base de dados abertas, como sugere o Portal da Transparência, nos servidores da PRF além de outras
-	  informações para complementar o sistema estão disponíveis na Internet sendo atualizadas pela PRF através de uma API aberta, esta pode 
-	  ser configurável para se ligar ao nosso sistema.
+    \item Algumas dessas informações também estão disponíveis em base de dados abertas, como sugere o Portal da Transparência, nos servidores da PRF, além de outras informações complementares.
     \item A conclusão dessa etapa ocorre com a Mineração dos dados e a extração de conhecimento.
-	  Os ''outputs`` dessa etapa consiste em transformar os dados provenientes da mineração em coordenadas geográficas. 
-	  As coordenadas geográficas são agrupadas a priori formando ''cluster`` de dados exibidos em mapas vetoriais.\\
+	  Os ''outputs`` dessa etapa consistem nos pontos críticos localizados nas rodovias, que permitem traçar uma rota. 
+	  As localizações geográficas, indicadas pelo Km, são agrupadas formando ''clusters`` de dados exibidos em mapas vetoriais. 
+	  A partir da definição dos pontos críticos foram geradas matrizes -- de mortos e de gravidade -- que serviram para localizar tais pontos no mapa e traçar rotas.
+	  As principais ferramentas de I.A. utilizadas nessa etapa foram Árvores de Decisão e Redes Neurais, com a finalidade classificar e predizer os pontos críticos em cada quilômetro das rodovias.\\
 \end{enumerate}
   
-A \textbf{segunda} etapa da metodologia contempla:
+A \textbf{segunda} etapa contempla:
  \begin{enumerate}
     \item Representação da malha viária em mapas de bases vetoriais;
-    \item Um ambiente de simulação interativa que utiliza uma plataforma baseada em API como QGIS e Google Maps.
+    \item Um ambiente de simulação interativa que utiliza uma plataforma baseada na API do Google Maps.
+    \item Quando houver informações vindas do twitter sobre ocorrências na rodovia, deverá ser feita a geolocalização. 
   \end{enumerate}
 
 A \textbf{terceira} e última etapa consiste em um módulo com as seguintes características:
   \begin{enumerate}
-     \item Um módulo dinâmico onde são capturados ``feeds'' de redes sociais, por exemplo pelo Twitter. 
-	Essa técnica faz um arco cibernético mantendo o sistema atualizado de informações.
+     \item Um módulo dinâmico onde são capturados ``feeds'' da rede social Twitter. 
+	Essa técnica faz um arco cibernético mantendo o utilizador atualizado com as informações recentes.
      %\item Através de um interligação a um banco de dados, esses ``feeds'' poderão ser usados para futuras predições.
   \end{enumerate}
 
 
-
-
 \section{A construção do Modelo preditivo}
 
-O modelo preditivo foi construído utilizando bases de dados históricas da PRF (de acidentes e de paralisações ex: protestos) entre Janeiro de 2007 a 
-Dezembro 2015. As bases de dados do Batalhão de Polícia de Rodoviária estadual -- BPRv vieram entre Janeiro/2010 a Julho/2016, cortes em ambas as bases foram feitos para adequar as datas até 2015. 
-Essas bases de dados são integradas gerando um único e complexo modelo preditivo acoplado a estrutura dinâmica.
+O modelo preditivo foi construído utilizando bases de dados históricos da PRF (de acidentes e de paralisações, por exemplo,  protestos) entre Janeiro de 2007 a Dezembro 2015. Cada ano correspondia a uma base de dados independentes, tendo sido integradas, formando uma base única com aproximadamente 85 mil registros. 
 
 
 \subsection{Aplicação do CRISP-DM}
-O CRISP-DM nesta pesquisa ajudou a guiar as
-escolhas nos momentos em que os resultados pareciam não
-fazer sentido algum, contudo por ser um processo recursivo, o
-retorno aos fundamentos dessa metodologia prevê que haja
-ajustes necessários a fim de se atingir os objetivos da proposta.
+O CRISP-DM nesta pesquisa ajudou a guiar as escolhas nos momentos em que os resultados pareciam não fazer sentido. Todavia, por ser um processo recursivo, o retorno aos fundamentos dessa metodologia prevê que haja ajustes necessários, a fim de se atingir os objetivos da proposta.
 
-A ideia metodológica proposta para esta pesquisa também
-contemplou todas as fases do KDD conforme descrito a seguir.
+A proposta metodológica delineada para esta pesquisa contemplou todas as fases do KDD, conforme descrito a seguir.
 
 \subsubsection{Fases da Mineração ao KDD}
 
-Seleção: Nesta etapa foram coletadas as informações
-provenientes das bases de dados da Policia Rodoviária Federal
-(PRF) de 2007 a 2015, uma vez que nosso interesse era o de
-analisar os últimos dez anos, no entanto, como a base de dados
-só dispunha de informações a partir de 2007, foram
-considerados os nove anos disponíveis. A PRF dispõe em
-banco de dados relacionais alguns desses dados na Internet,
-contudo no artigo “Uma análise da qualidade dos dados
-relativos aos boletins de ocorrências das rodovias federais para
-o processo de Mineração de Dados” COSTA, BERNARDINI,
-LIMA \cite{Costa2015} destacam a não padronização e não aceitação dos
-dados pela comunidade internacional EAVES, D. \cite{Eaves} sugere
-que os dados sejam disponibilizados na maneira como foram
-coletados. A primeira base de dados coletada diretamente dos
-servidores da PRF continha relatório de acidentes e a segunda a
-de interdições. A partir dos dados capturados na base da PRF
-utilizamos como variáveis de entrada:
+Seleção: Nesta etapa foram coletadas as informações provenientes das bases de dados da Policia Rodoviária Federal de Pernambuco entre 2007 e 2015. Segundo informações da própria PRF/PE, apenas a partir de 2007 esses dados passaram a ser armazenados eletronicamente. A PRF/PE dispõe em banco de dados relacionais alguns desses dados na Internet,
+contudo no artigo “Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias federais para
+o processo de Mineração de Dados”, COSTA, BERNARDINI, LIMA \cite{Costa2015} destacam a não padronização e não aceitação dos
+dados pela comunidade internacional. EAVES, D. \cite{Eaves} sugere que os dados sejam disponibilizados na maneira como foram
+coletados. 
+
+A primeira base de dados coletada diretamente dos servidores da PRF continha relatório de acidentes e a segunda a de interdições. A partir dos dados capturados na base da PRF utilizamos como variáveis de entrada:
 
 \begin{itemize}
- \item Condição da Pista: {Seca, Com burados, Molhada, Em obras, Com material granulado, Oleosa, Enlameada, Com gelo, Outras}
+ \item Condição da Pista: {Seca, Com buracos, Molhada, Em obras, Com material granulado, Oleosa, Enlameada, Com gelo, Outras}
  \item Restrição de visibilidade: {Inexistente, Veículo Estacionado, Poeira/Fumaça/neblina, Vegetação, Ofuscamento, Cartazes/faixas, Placas}
  \item Traçado da via: {Reta, Curva, Cruzamento, Defeito}
- \item Tipo de veículo: {Automóvel, Caminhoneta, Motocicletas, Caminhão, Caminhão-trator, Bicicleta, Caminhonete, Ônibus, Motoneta, Micro-ônibus, Trator
- de rodas, Carroça, Caminhão-Tanque, Semi-Reboque, Utilitário, Ciclomotor, Charrete, Carro-de-mão, Quadriciclo, Trator misto, Reboque, Trator de esteiras,
- Não informado, Não se aplica, Não identificado}
+ \item Tipo de veículo: {Automóvel, Caminhonete, Motocicletas, Caminhão, Caminhão-trator, Bicicleta, Ônibus, Motoneta, Micro-ônibus, Trator de rodas, Carroça, Caminhão-Tanque, Semi-Reboque, Utilitário, Ciclomotor, Charrete, Carro-de-mão, Quadriciclo, Trator misto, Reboque, Trator de esteiras, Não informado, Não se aplica, Não identificado}
 \end{itemize}
 
-Preprocessamento: Nesta fase foram retiradas as variáveis,
-sendo consideradas por conterem inconsistência e “missing
-data”, como, por exemplo, informações acerca de latitude e
-longitude. Cabe destacar que a base, como um todo,
-apresentava sérias inconsistências, uma vez que, por exemplo,
+Preprocessamento: Nesta fase foram retiradas as variáveis que continham inconsistência e “missing data”, como, por exemplo, informações acerca de latitude e longitude. Cabe destacar que a base de dados, como um todo, apresentava sérias inconsistências, uma vez que, por exemplo,
 um mesmo acidente, quando envolvia dois ou mais veículos,
 era lançado na base duas ou mais vezes, em função da
 quantidade de veículos envolvidos. Foram eliminadas variáveis
 em duplicidade (i.e. as variáveis Mês, Ano que apareciam
-separadamente, já aviam sido contempladas na variável Data.).
+separadamente, já haviam sido contempladas na variável Data.).
 
 Transformação: Foram criadas as variáveis “Tipo de
 paralisação”, contemplando acidentes sem mortos e com, no
@@ -103,36 +81,37 @@ máximo, dois veículos envolvidos; “Dias da semana”
 (domingo, segunda-feira,....sábado); “Ajuste de horas” (i.e. 17h58, 17h59, 18h, 18h01, 18h02, arredondadas para 18h);
 “Ajuste de Km” (seguiu a mesma lógica do ajuste de horas).
 
-Mineração de dados: O algoritmo escolhido para a pesquisa
-foi Árvore de decisão que possibilita uma interpretação
+Mineração de dados: O algoritmo escolhido para essa fase da pesquisa
+foi Árvore de Decisão, que possibilita uma interpretação
 imediata e de fácil compreensão. Como ferramentas, foram
-escolhidas o Knime \cite{Knime} e R \cite{R-cran} e o Weka \cite{Weka}, com objetivo
-de estabelecer uma comparação entre ambos, cuja intenção era
-produzir um classificador mais preciso. Nessa direção, a
+escolhidas o Knime \cite{Knime}, R \cite{R-cran} e Weka \cite{Weka}, com objetivo
+de estabelecer uma comparação entre eles, cuja intenção era
+produzir um classificador mais robusto. Nessa direção, a
 técnica Ensamble de classificadores \cite{Bernardini} estabelece que a
 combinação de um ou mais classificadores iguais, ou mais de
-um classificador diferente, aumenta a precisão. Tanto na
-ferramenta Knime com Weka o algoritmo é chamado de J48,
+um classificador diferente, aumenta a precisão. 
+
+Tanto na ferramenta Knime como Weka o algoritmo de árvore de decisão é chamado de J48,
 uma vez que se trata da implementação Java do algoritmo
-C4.5, no R a biblioteca “rparty” implementa esse algoritmo.
-Para escolha das variáveis de input foi calculado a correlação
-linear entre todas as variáveis, entre as variáveis BR e
-Delegacia (variável que agrega municípios) obteve correlação
-linear de 0,653, já entre Tipo de Acidente e Traçado via a
-correlação foi baixa, apenas 0,14, variáveis com correlação
-linear abaixo disso foram descartadas.
+C4.5 no R. A biblioteca “rparty” implementa esse algoritmo.
+
+Para escolha das variáveis de input foi calculada a correlação linear entre todas as variáveis. Entre as variáveis BR e
+Delegacia (variável que agrega municípios) obteve-se correlação linear de 0,653. Entre Tipo de Acidente e Traçado via a
+correlação foi baixa, apenas 0,14. Variáveis com correlação linear abaixo disso foram descartadas. 
+
+Outra métrica para a escolha de variáveis de input foi a entropia, que é um elemento considerado importante pela literatura \cite{NorvigRussel2004}. Nesse caso, variáveis que seriam desconsideradas em virtude da baixa correlação linear, foram reconsideradas por conta da entropia.
 
 Interpretação/Avaliação: Produção de árvores de decisão a
 partir do estabelecimento de diferentes nós-raízes, definidos em
-virtude da correlação linear encontrada.
+virtude da correlação linear e/ou da entropia.
 
 \pagebreak
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \subsection{Dados encontrados antes da Mineração}
 
-A grande maioria dos acidentes ocorre com pista seca, sem restrição de visibilidade. 
-A cor vermelha é referente a BR 101, a cor azul à BR 232, seguido das outras menos significativas.
+Os dados revelaram que a grande maioria dos acidentes ocorre com pista seca, sem restrição de visibilidade. 
+A cor vermelha remete aos trechos BR 101 em que ocorrem mais acidentes. A cor azul diz respeito à menor frequência de acidentes.
 
 \begin{figure}[h]
 	\caption{Hora do acidente (1) --- Concentração em torno da hora (2) }
@@ -148,13 +127,13 @@ A cor vermelha é referente a BR 101, a cor azul à BR 232, seguido das outras m
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br101_4.png}
 \end{figure}
 
-O gráfico 4.2(1), 4.2(2)  e 4.3 contém dados da BR 101 uma das mais importantes para o nordeste brasileiro pelo seu tráfego intenso. 
+O gráfico 4.2(1), 4.2(2)  e 4.3 contêm dados da BR 101, uma das mais importantes para o nordeste brasileiro, uma vez que atravessa a maioria dos estados dessa região, nas localidades mais densamente povoadas. Em virtude disso, seu tráfego intenso. 
 A gráfico 4.2(1) representa os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada) nos últimos nove anos. 
 O  gráfico 4.2(2) corresponde à frequência do local onde ocorreram esses acidentes. 
-É possível perceber que há determinados locais, na rodovia, onde se concentram os acidentes. 
+É possível perceber que há determinados locais na rodovia onde se concentram os acidentes. 
 O terceiro gráfico, tipo ‘boxplot’, exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
-Especulou-se a priori que a variável “traçado da rodovia” ou que as condições climáticas poderiam ter influência na causa dos acidentes, contudo mais adiante descobrimos outros condicionantes que influenciam mais fortemente essas ocorrências. 
-É possível perceber no gráfico i, que alguns padrões especialmente em determinados locais (Km), por exemplo na BR 101 entre os Km 40 e 100 ocorrem acidentes a partir da 05h da manhã até as 23h. 
+Especulou-se, a priori, que a variável “traçado da rodovia” ou que as condições climáticas poderiam ser de grande influência na ocorrência de acidentes, contudo mais adiante descobrimos outros condicionantes que influenciam mais fortemente esses acontecimentos. 
+É possível perceber no gráfico 4.2(1) e no 4.3 que especialmente em determinados locais (Km) -- por exemplo na BR 101, entre os Km 40 e 100 -- os acidentes ocorrem desde as 05h da manhã até as 23h. 
 
 
 
@@ -172,13 +151,12 @@ Especulou-se a priori que a variável “traçado da rodovia” ou que as condi�
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br104_3.png}
 \end{figure}
 
-O gráfico 4.4(1), 4.4(2)  e 4.5 contém dados da BR 104 que atravessa seia municípios de Pernambuco, detre ele Caruaru que apresenta uma das maiores frotas de veículos do interior. 
-A gráfico 4.4(1) representa os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada) nos últimos nove anos.
+O gráfico 4.4(1), 4.4(2) e 4.5 apresentam dados da BR 104, que atravessa seis municípios de Pernambuco, dentre eles Caruaru, que é responsável por uma das maiores frotas de veículos do interior e por onde passam cerca de 50 mil veículos por dia. 
+A gráfico 4.4(1) representa, nos últimos nove anos, os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada).
 O  gráfico 4.4(2) corresponde à frequência do local onde ocorreram esses acidentes. 
-É possível perceber que há determinados locais, em torno do Km 60 na rodovia, onde se concentram os acidentes. 
-O terceiro gráfico, tipo ‘boxplot’, exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
-É possível perceber no gráfico i, que alguns padrões especialmente em determinados locais (Km), por exemplo no Km 60 ocorrem acidentes a partir da 04h da manhã até as 23h. 
-Destaca-se que esta rodovia atravessa o trecho urbano de Caruaru por onde  passa por dia mais de 50.000 veículos.
+Percebe-se que em torno do Km 60 concentra-se o maior número de ocorrências. 
+O terceiro gráfico (boxplot) apresenta as ocorrências em torno da mediana dessa localidade (Km). 
+No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidentes que se estendem das 04h às 23h. 
 
 
 \pagebreak
@@ -215,13 +193,12 @@ Destaca-se que esta rodovia atravessa o trecho urbano de Caruaru por onde  passa
 	\caption{ Frequência}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br116_3.png}
 \end{figure}
-O gráfico 4.8(1), 4.8(2)  e 4.9 contém dados da BR 116 uma das mais importantes para o nordeste brasileiro e do paíspelo seu tráfego intenso, atravessa o país inteiro, desde o Rio Grande do Sul até o Ceará. 
-A gráfico 4.8(1) representa os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada) nos últimos nove anos. 
-O  gráfico 4.8(2) corresponde à frequência do local onde ocorreram esses acidentes. 
-É possível perceber que há determinados locais, na rodovia, onde se concentram os acidentes. 
-O terceiro gráfico, tipo ‘boxplot’, exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
-Especulou-se a priori que a variável “traçado da rodovia” ou que as condições climáticas poderiam ter influência na causa dos acidentes, contudo mais adiante descobrimos outros condicionantes que influenciam mais fortemente essas ocorrências. 
-É possível perceber no gráfico 4.9, que alguns padrões especialmente em determinados locais (Km), por exemplo, há um padrão nos acidentes nos Km 30 onde ocorrem acidentes a partir da 04h da manhã até as 22h. 
+
+O gráfico 4.8(1), 4.8(2)  e 4.9 apresentam dados da BR 116, que percorre os estados do Brasil que vão desde o Rio Grande do Sul até o Ceará. O gráfico 4.8(1) mostra os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada), também nos últimos nove anos. 
+O  gráfico 4.8(2) corresponde à frequência do local onde esses acidentes aconteceram. Há determinados locais na rodovia em que a maioria dos acidentes se concentram. 
+O gráfico tipo ‘boxplot’ exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
+Inicialmente acreditou-se que a variável “traçado da rodovia” ou que as condições climáticas poderiam ter grande influência na causa dos acidentes. Entretanto, mais adiante foram descobertos outros condicionantes dessas ocorrências. 
+É possível perceber no gráfico 4.9, que os acidentes em torno do Km 30 ocorrem com mais frequência a partir da 04h da manhã, estendendo-se até próximo às 22h. 
 
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -240,14 +217,9 @@ Especulou-se a priori que a variável “traçado da rodovia” ou que as condi�
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br232_3.png}
 \end{figure}
 
-O gráfico 4.10(1), 4.10(2)  e 4.11 contém dados da BR 101 uma das mais importantes para o nordeste brasileiro pelo seu tráfego intenso. 
-A gráfico 4.10(1) representa os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada) nos últimos nove anos. 
-O  gráfico 4.10(2) corresponde à frequência do local onde ocorreram esses acidentes. 
-É possível perceber que há determinados locais, na rodovia, onde se concentram os acidentes. 
-O terceiro gráfico, tipo ‘boxplot’, exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
-Especulou-se a priori que a variável “traçado da rodovia” ou que as condições climáticas poderiam ter influência na causa dos acidentes, contudo mais adiante descobrimos outros condicionantes que influenciam mais fortemente essas ocorrências. 
-É possível perceber no gráfico 4.11, que alguns padrões especialmente em determinados locais (Km), por exemplo, na BR 232 há um padrão nos acidentes nos Km 0, 90, 110, 260, 410 e
-500. ocorrem acidentes a partir da 00h da manhã até as 23h. 
+O gráfico 4.10(1), 4.10(2)  e 4.11 trazem dados da BR 232, cuja importância se destaca pelo fato de atravessar todo o estado de Pernambuco, de leste a oeste. O primeiro gráfico apresenta os acidentes dos últimos nove anos, em cada hora (abcissa) e Km (ordenada). O  gráfico 4.10(2) corresponde ao local onde aconteceram esses acidentes. É possível perceber no gráfico 4.11, que nessa BR há um número maior de acidentes nos Km 0, 90, 110, 260, 410 e 500, desde a 00h até as 23h. O terceiro gráfico (‘boxplot’) exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
+Especulou-se a priori que a variável “traçado da rodovia” ou que as condições climáticas eram as principais responsáveis pelo grande número de acidentes. Posteriormente foram identificadas outras causas que influenciam mais fortemente essas ocorrências. 
+
 
 
 \pagebreak
@@ -372,9 +344,8 @@ Na BR 407 os acidentes se concentram na altura do Km
 \end{center}
 \end{figure}
 
-O maior número de acidentes ocorre com Automóvel de passeio, provavelmente condutores comuns, não profissionalizados.
+O maior número de acidentes ocorre com automóvel de passeio, provavelmente condutores comuns, não profissionalizados.
 O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das motonetas. 
-Esses dados são referentes ao período entre 2007 à 2015.
 
 \begin{figure}[ht]
 \begin{center}
@@ -384,10 +355,7 @@ Esses dados são referentes ao período entre 2007 à 2015.
 \end{center}
 \end{figure}
 
-O tipo de traçado da via não influência nas estatísticos de acidenes, pois a grande maioria dos acidentes ocorre em linha reta.
-Esse comportamento do condutor nos faz crer o condutor é o responsável pelo maior número de ocorrências nas BRs.
-Isso direciona nossa pesquisa para analisar e antever o comportamento do condutor, as condições da rodovia e ambientais nessa base
-de dados não são fatores relevantes.
+Os dados revelam que o tipo de traçado da via não tem influência primordial nas estatísticos de acidentes, pois a maioria dos acidentes ocorre em pista retilínea. Os dados sugerem, ainda, que o condutor é o principal responsável pelo maior número de ocorrências nas BRs. Isso direciona essa pesquisa para analisar e antever o comportamento do condutor, além das condições da rodovia.
 
 \pagebreak
 
@@ -395,20 +363,15 @@ de dados não são fatores relevantes.
 
 \subsection{Dados encontrados após a Mineração}
 
-Os resultados da classificação encontrados estão contidos a
-seguir, dentre os classificadores disponíveis no Weka os que
-melhor apresentaram resultados foram: o Naive Bayes e a
-Árvore de Decisão
+Os resultados dos classificadores serão demonstrados a
+seguir.
+
 As variáveis “Tipo de Acidente”, “Gravidade” e
 “BRajustada” foram escolhidas pelas características de ganho
-de informação dado pelo cálculo da entropia. “BRajustada”
-significa ... A literatura aconselha que os nós da raiz dos
-classificadores, em especial Árvores de decisão, tenham maior
-entropia, como a variável “Tipo de Acidente”, no entanto o
-grande número de ramificações que esta variável gerou não foi
-interessante para o objetivo da pesquisa; explicar o porquê das
-causas dos acidentes (pontos fortemente destacados nos gráficos com rótulo (1)). 
-A seguir apresenta-se a nomenclatura da acurácia encontrada na classificação.
+de informação, dado pelo cálculo da entropia. A variável “BRajustada”
+significa que essa variável foi transformada de dado numérico para categórico. A literatura \cite{NorvigRussel2004} aconselha que os nós da raiz dos classificadores, em especial Árvores de Decisão, sejam aqueles que apresentam maior
+entropia, como a variável “Tipo de Acidente”.  
+A seguir apresenta-se a métrica para avaliar um classificador, também conhecida como acurácia.
 
 \begin{itemize}
 	\item TP: True Positive;
@@ -487,8 +450,8 @@ A seguir apresenta-se a nomenclatura da acurácia encontrada na classificação.
 			\end{tabular}
 		\end{table}
 		
-		Os valores restantes foram omitidos por não representar uma amostra
-		adequada, pois..... As variáveis de classe são as mesmas da tabela
+		Os valores restantes foram omitidos por não representarem uma amostra
+		adequada, pois a acurácia foi consideravelmente baixa. As variáveis de classe são as mesmas da tabela
 		anterior. \\
 					
 %	\pagebreak	
@@ -600,43 +563,45 @@ A seguir apresenta-se a nomenclatura da acurácia encontrada na classificação.
 
 \end{enumerate}
 
-A área sob a curva Roc, AUC (Area Under Curve) mede a
-relação de verdadeiros positivos contra os falsos positivos,
-quanto maior a área da curva ou tanto melhor será o
-classificador. Portanto um número de verdadeiros positivos
+A área sob a curva ROC, AUC (Area Under Curve) mede a
+relação de verdadeiros positivos contra os falsos positivos.
+Quanto maior a área da curva tanto melhor será o
+classificador. Portanto, um número de verdadeiros positivos
 acima de 80\% e o número de falsos positivos próximo a 0\%
-traduzem uma área da curva ROC (AUC) que dão maior confiabilidade
+traduzem uma área da curva ROC (AUC) que dá maior confiabilidade
 aos testes.
 
 A variável “BRajustada” não teve o maior coeficiente de
 entropia encontrado, contudo esta variável apresentou
-índices de classificação das instâncias correta acima dos 80\% e
-o menor índice de classificação incorreta dentre os dois
+índices de classificação das instâncias corretas acima dos 80\% e
+o menor índice de classificação incorreta dentre os três
 classificadores utilizados. Esta variável foi a escolhida para
 encabeçar os algoritmos para os resultados encontrados. 
 
-A árvore construída pelo Knime para a mesma variável “Causa do Acidente” => velocidade incompatível está na
+\pagebreak
+
+A árvore construída pelo Knime para a mesma variável “Causa do Acidente” => velocidade incompatível é apresentada na
 próxima figura.
-\begin{figure}
+
+\begin{figure}[!ht]
 \centering
 \caption{Árvore de Decisão gerada pelo Knime}
-\includegraphics[width=0.7\linewidth]{Figuras/Metodologia/arvoreKnime.png}
-\caption{}
+\includegraphics[width=150mm, height=145mm]{Figuras/Metodologia/arvoreKnime.png}
 \label{fig:arvoreKnime}
 \end{figure}
 
-
 \pagebreak
 
-Também para exemplificar, o nó folha classificou, que nas
-quartas-feiras a causa “ultrapassagem indevida”; sextas-feiras:
-“defeito na via”; e, caso seja um sábado, a causa é “dormindo”.
-Contudo os melhores resultados de acordo com mais alta
-precisão segundo a métrica dos classificadores foi a variável
-“BRajustada” com curva ROC acima dos 90% em quase todos
-as classes, inclusive o classificador Naive Bayes obteve um
-desempenho semelhante as Arvores de decisão com essa
-variável, somente na BR 408 e BR110 ficou abaixo, o que
+
+Também para exemplificar, o nó folha classificou como causas dos acidentes: nas
+quartas-feiras “ultrapassagem indevida”; nas sextas-feiras
+“defeito na via”; e no sábado, “dormindo ao volante”.
+Contudo, os melhores resultados, de acordo com mais alta
+precisão, segundo a métrica dos classificadores, foi a variável
+“BRajustada”, com curva ROC acima dos 90% em quase todas
+as classes. O classificador Naïve Bayes obteve um
+desempenho semelhante com essa
+variável. Somente na BR 408 e BR 110 ficou abaixo, o que
 confirma os valores encontrados pelo Weka.
 Os valores das regras encontradas pelo algoritmo para a
 variável “Delegacia” foram:
@@ -662,9 +627,9 @@ mortes) =
 [Causa Acidente: Ingestão de álcool]
 
 Essa variedade de causas explica que o condutor dessa
-região não respeita as leis de transito, pode se dizer que e
-indisciplinado, pois todos os tipos de causa foram encontrados.
-Caso se considere um raio de 50 Km no entorno da capital Recife pode-se dizer que os motoristas tem a mesma
+região não respeita a sinalização, os limites de velocidade, dentre outros regras de trânsito. Pode-se dizer que é um condutor
+indisciplinado, pois todas as causas de acidentes elencadas foram encontrados.
+Caso se considere um raio de 50 Km no entorno da capital Recife, acredita-se que os motoristas têm a mesma
 característica, pelo tipo de acidente que acomete nessa área.
 Os valores das regras encontradas pelo algoritmo para a
 variável “Tipo do Acidente” foram:
@@ -681,11 +646,28 @@ feira]:
 [Gravidade = S (com morte)] => [Km > 58] [Km <= 67] =>
 falta de atenção.
 
-A fata de atenção foi condição “sine qua non”
-ocorreram acidentes na região metropolitana do Recife. Para a região no entrono da BR 116 os acidentes com
-mortes [Gravidade = S] na quinta-feira o curioso foi que quase
-todos os tipos de veículos se envolveram nesse tipo
-ocorrências.
+\vspace{5mm}
+
+A falta de atenção foi condição ``sine qua non'' que determinou os acidentes na região metropolitana do Recife. Os dados revelam, ainda, que em torno do Km 67 encontra-se o maior número de acidentes com morte de todo estado de Pernambuco.
+
+\vspace{5mm}
+
+A figura a seguir, obtida a partir da API do Google Maps, demonstra o local aproximado (Km 70, Br 101 -- sul) destacado na Matriz de Mortos. Ao ser consultada a Árvore de Decisão (acima) para explicar as causas do alto índice de óbitos, constatou-se que eram, em sua maioria, mortes por atropelamento. A imagem do Google Maps define que o local é próximo à CEASA, que é principal Centro de Abastecimento de alimentos da região, com um grande fluxo de pessoas -- muitas delas das comunidades do entorno -- e de veículos que vêm de diversas regiões do país, para comercialização dos produtos em grosso e varejo. Esse exemplo aponta para a ideia de extrapolação das ferramentas utilizadas nessa pesquisa.  
+
+\pagebreak
+
+\begin{figure}[htbp!]
+	\centering
+	\caption{Km 70, BR 101 (Sul) Pernambuco}
+	\label{fig:Km70BR101}
+	\includegraphics[width=150mm, height=95mm]{Figuras/Metodologia/Km70BR101}\\
+	\tiny Fonte: Google Maps
+\end{figure}
+
+\vspace{7mm}
+
+Para a região no entorno da BR 116, os acidentes com
+mortes [Gravidade = S] ocorrem frequentemente às quinta-feira, envolvendo todos os tipos de veículos.
 Os valores das regras encontradas pelo algoritmo para a
 variável “Causa do Acidente” foram:
 [Ingestão de álcool], [Tipo de auto: não identificado], [Período:
@@ -700,31 +682,60 @@ via: Reta], [Condição da pista: molhada], [Dia da semana]:
 [Sábado]: [BR = 232] => colisão traseira
 	[BR > 232] => colisão frontal
 
+
+\vspace{7mm}
+
+Os dados gerados pelos outros classificadores -- Naïve Bayes e Redes Neurais -- permitiram confirmar que os resultados encontrados pelas Árvores de Decisão são os mais adequados para o modelo proposto.
+
+A seguir exemplificamos alguns dos resultados desses classificadores:
+
+
+\begin{figure}
+	\centering
+	\caption{Resultado da classificação feita pelo Naïve Bayes -- acurácia}
+	\includegraphics[width=90mm, height=70mm]{Figuras/Resultados/NaiveBayesCausaAcident}\\
+	\tiny Fonte: O Autor
+	\label{fig:NaiveBayesCausaAcident}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\caption{Resultado da classificação feita pela Rede Neural -- acurácia}
+	\includegraphics[width=90mm, height=115mm]{Figuras/Resultados/RNN}\\
+	\tiny Fonte: O Autor
+	\label{fig:RNN}
+\end{figure}
+
+
 \pagebreak
 
 \section{Acoplamento com a estrutura dinâmica}
 
-As predições feitas na primeira fase têm como ``output'' coordenadas geográficas do tipo latitude e longitude.
+As predições feitas na primeira fase têm como ``output'' georreferenciamento que localiza um ponto no mapa a partir do quilômetro (Km). O georreferenciamento mais preciso seria a latitude e longitude. Todavia, esses dados apresentaram grave inconsistência na base de dados da PFR/PE, tendo sido descartados.
 
-A estrutura dinâmica é composta por duas API's, uma disponibilizada pela Google, através do Google Maps que está atualmente na versão V3 e 
-outra uma API do Twitter. A API do Google Maps proporciona uma ``leitura'' atualizada em forma de mapa no momento em que a estrutura dinâmica ``roda''.
+A estrutura dinâmica é composta por duas API's, uma disponibilizada pelo Google, através do Google Maps, que está atualmente na versão V3, e a
+outra por uma API do Twitter. A API do Google Maps proporciona uma ``leitura'' atualizada e precisa, de forma que os dados do Km da rodovia podem ser localizados no mapa.
 
-A API do Twitter possibilita atualizar o utilizador de informações recentes, pois o modelo preditivo teve análise temporal fixada 
-pelas bases de dados até 2015, portanto o fluxo decisório da predição é baseado até esse período, contudo o objetivo desta API é fazer 
-um Arco Cibernético das informações, retroalimentando com dados recentes um banco de dados de redes sociais, isso permite um visualização 
+A API do Twitter, por sua vez, possibilita atualizar o utilizador com informações recentes. Contudo, o objetivo desta API é fazer 
+um Arco Cibernético das informações, retroalimentando, com dados recentes, um banco de dados de redes sociais. Isso permite um visualização 
 instantânea do ambiente como um todo.
 
 
 \subsection{Mineração em texto no Twitter}
 
-Gráficos produzidos até o momento, fazer novos gráficos considerando as paralisações de 15/Março/2017
-\\
+A mineração de dados textuais na rede social Twitter demonstrou ser uma ferramenta promissora, uma vez que oferece uma ampla gama de informações, atualizadas em tempo real. Entretanto, para o caso de pesquisas dessa natureza, o monitoramento precisa ser constante, tendo em vista que novas informações são produzidas a todo momento; e outros canais precisam ser monitorados, a fim de ampliar o universo de dados disponíveis, para produzir o efeito esperado no modelo.
 
-[ESCREVER...]
+Para localizar novos canais de informação, foram construídos subgrafos contemplando, além dos tweets da PFR, retweets dos seguidores desse canal. Esperava-se, com isso, encontrar novos Hubs na rede. No entanto, a busca em subgrafos é uma tecnologia que precisa ser investigada mais a fundo, dada a sua complexidade.
+
+Conceitos como betwenneess, centralidade, peso das arestas, precisam ser adequadamente compreendidos pelo pesquisador, para que a tecnologia seja explorada em todo seu potencial. Isso implica no estudo de novos algoritmos, próprios para mineração em grafos de redes sociais, o que, em princípio, fugia do escopo dessa pesquisa.
+
+Ainda que consideremos que a ferramenta não tenha sido adequadamente explorada, por todas as questões propostas acima, a mineração de dados textuais do twitter permitiu inferir que o utilizador dessa rede social faz referência ao que acontece nas rodovias, com especial atenção para fatos que possam ter implicação em seu cotidiano, tanto imediatamente (por exemplo, congestionamento numa via que ele utiliza para ir ao trabalho), quanto num universo temporal mais distante (por exemplo, condição da rodovia que dá acesso à cidade em que ele vai passar um feriado). Esse último aspecto é aquele que interessa particularmente ao modelo proposto nessa pesquisa.
+
+Os dados a seguir mostram a busca dos termos frequentes encontrado no documento textual, extraído a partir de 3.200 tweets. O primeiro gráfico apresenta unigramas -- termos frequentes que contém uma palavra -- e bigramas, termos com duas palavras. Foram encontradas palavras como: fiscalização, colisão, vítima fatal, acidentes, detre outros. 
 
 \pagebreak
 
-[Refazer estes gráficos]
 \begin{figure}
 \centering
 \caption{Gráfico de frequência de palavras -- unigramas}
@@ -733,6 +744,8 @@ Gráficos produzidos até o momento, fazer novos gráficos considerando as paral
 \end{figure}
 
 \quad
+
+A nuvem de palavras é um gráfico de frequência de palavras em que os termos mais frequentes aparecem em destaque -- com letras em tamanho maior -- seguidos pelos próximos termos mais frequentes -- em tamanho um pouco menor -- e assim sucessivamente, chegando a contemplar dezenas ou até centenas de palavras, a depender da escolha do pesquisador. No caso da nuvem de palavras a seguir, aparecem cerca de 50 termos, e destacam-se como mais frequentes (em virtude do tamanho): veículo, BR, acidente (acid), balanço, dentre outras. 
 
 \begin{figure}
 \centering
@@ -744,6 +757,8 @@ Gráficos produzidos até o momento, fazer novos gráficos considerando as paral
 
 \pagebreak
 
+O dendograma é um gráfico que agrupa palavras de acordo com o assunto. No dendograma a seguir foram identificados seis agrupamentos (clusters), como, por exemplo: ferido, balanço e morto; envolvidos, veículo (veic), fiscalização (fisc), multa, alcoolemia, pessoa, test; PRF; fatal, vítima, envolvido, óbito, prisão, condutor, colisão, moto, ano, h (hora). Os agrupamentos, quando analisados adequadamente, permitem identificar, com um número reduzido de palavras, o acontecimento ao qual está sendo feita referência. Por exemplo, no último agrupamento exemplificado acima é possível deduzir que houve uma colisão envolvendo uma moto, que resultou no óbito de um dos envolvidos e na prisão daquele que foi o responsável pela colisão.   
+
 \begin{figure}
 \centering
 \caption{Dendograma de Clusterização do resultado da mineração}
@@ -751,6 +766,7 @@ Gráficos produzidos até o momento, fazer novos gráficos considerando as paral
 \label{fig:Cluster}
 \end{figure}
 
+O próximo gráfico ilustra a utilização de outro algoritmo de agrupamento (clusterização), conhecido com K-means. 
 
 \begin{figure}
 \centering
@@ -759,6 +775,6 @@ Gráficos produzidos até o momento, fazer novos gráficos considerando as paral
 \label{fig:Cluster2}
 \end{figure}
 
-
+Uma análise mais minuciosa dos gráficos produzidos pela mineração de textos pode trazer contribuições de considerável relevância, que permitem refinar o modelo de predição.
 
 %\section{Casos de teste do modelo preditivo}

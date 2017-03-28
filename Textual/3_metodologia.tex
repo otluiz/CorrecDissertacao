@@ -16,13 +16,13 @@ daqui a alguns dias. A PRF de Pernambuco é outro contribuidor permanente. Com s
 além de dados estatísticos relativos a acidentes e retenção de tráfego, como aqueles decorrentes de protestos, que, quando feitos dentro da lei
 devem ser informados à PRF, com dia e hora marcados antecipadamente.
 
-A monitoração de redes sociais foi feita a partir de Mineração em Textos - Knowldge Database Text (KDT), tendo, a princípio, sido executada no Twitter, no canal PRF191PE e pela busca em outros canais, com as palavras: ''protesto´´, ''planejar paralização'', por exemplo. 
+A monitoração de redes sociais foi feita a partir de Mineração em Textos - Knowldge Database Text (KDT), tendo, a princípio, sido executada no Twitter, no canal @PRF191PE e pela busca em outros canais, com as palavras: ``protesto'', ``planejar paralização'', por exemplo. 
 
 Para ter-se acesso aos tweets da PRF, os usuários do canal, inclusive a própria PRF, postam comentários diretamente 
 na API do Twitter ou por um navegador. Para essa pesquisa as palavras-chave tais como: protestos, acidentes, paralisação, foram de suma importância.
 
 Uma vez capturados, esses tweets foram tratados por Mineração em Textos e analisados instantaneamente por algoritmos de I.A. 
-A técnica utilizada para análise dos textos foi a análise de palavras ou termos frequentes (TDF-IDF). O algoritmo de classificação escolhido foi Naïve Bayes, por ser um classificador rápido e eficiente, e por ter sido utilizado na primeira fase dessa pesquisa, servindo como comparativo à Árvore de Decisão. O algoritmo de agrupamento (clustering) foi o K-means.
+A técnica utilizada para análise dos textos foi a análise de palavras ou termos frequentes (TF-IDF). O algoritmo de classificação escolhido foi Naïve Bayes, por ser um classificador rápido e eficiente, e por ter sido utilizado na primeira fase dessa pesquisa, servindo como comparativo à Árvore de Decisão. O algoritmo de agrupamento (clustering) foi o K-means.
 
 
 
@@ -45,7 +45,7 @@ topologia Perceptron multicamadas com retroalimentação ``backpropagation'', se
 
 A extrapolação do modelo preditivo deverá ocorrer quando este se integrar a uma estrutura dinâmica, composta pela redes sociais e mapas vetoriais, dado um espaço temporal pré-determinado por um agente: o utilizador. 
 
-Através de API's, os mapas vetoriais permitem a geolocalização dos pontos classificados ou pontos onde haverá grande número de retenções, conhecido como \textbf{gargalo}.
+Através de API's, os mapas vetoriais permitem a geolocalização dos pontos classificados ou pontos onde haverá grande número de retenções, conhecidos como gargalo.
 
 Para a integração às redes sociais, foi escolhida a API do Twitter. Esta ``interface'' é simples de ser configurada. A quantidade de informações produzidas pelos utilizadores gera poucos dados em cada postagem, mas é eficaz. O utilizador tem que ser sucinto ao publicar suas postagem em um espaço de 140 caracteres. Isso facilita a forma como os dados são extraídos pela quantidade diminuta, bem como a quantidade de conexões à Internet. Contudo, esta rede social tem uma crescente quantidade de postagens no formato imagens, dificultando a mineração em textos. Esse aspecto foi particularmente relevante para essa pesquisa, quando foi constatado que a PRF também aumentou consideravelmente o número de tweets no formato de imagem. 
 
@@ -65,7 +65,7 @@ A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 Na fase de transformação de dados, da primeira etapa, onde são criadas novas variáveis, a proximidade entre as
 bases heterogêneas foi conseguida utilizando regras de indução da lógica proposicional \cite{NorvigRussel2004}.
 Nesta pesquisa, bases heterogêneas foram integralizadas em um único grande conjunto de dados, o ``data set''. As variáveis desse ``data set'' foram consideradas variáveis independentes, e preservadas aquelas com maior relevância ou as que continham a maior quantidade de conhecimento embutido, descoberto pelo cálculo da entropia e correlação linear. Foram também construídas novas variáveis, nas bases onde não havia correspondência, respeitando a lógica do negócio.\\
-A tabela a seguir descreve as variáveis originais na base de dados de acidentes da PRF.
+A tabela a seguir descreve as variáveis transformadas na base de dados de acidentes da PRF.
 
 \begin{table}[htbp!]
 	\centering
@@ -87,6 +87,7 @@ A tabela a seguir descreve as variáveis originais na base de dados de acidentes
 	\end{tabular}
 \end{table}
  
+\vspace{7mm}
 
 \pagebreak
 
@@ -94,7 +95,7 @@ A tabela a seguir descreve as variáveis originais na base de dados de acidentes
 
 O processo de descoberta do conhecimento iniciou-se com a coleta das bases de dados de acidentes da PRF. Optamos por coletar os dados dessa base diretamente na fonte,
 ou seja dos servidores da PRF. Tais dados nos foram cedidos após alguns procedimentos burocráticos de praxe (ver anexos). Essa escolha foi motivada para tentar
-mitigar o problema da qualidade dos dados. No artigo ``Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias federais para o processo de Mineração de Dados'' COSTA, BERNARDINI, LIMA et al \cite{Costa2015} destacam a não padronização e não aceitação dos dados pela comunidade internacional. EAVES, D. \cite{Eaves} sugere que os dados sejam disponibilizados da maneira como foram coletados.
+mitigar o problema da qualidade dos dados. No artigo ``Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias federais para o processo de Mineração de Dados'', COSTA, BERNARDINI, LIMA et al \cite{Costa2015} destacam a não padronização e não aceitação dos dados pela comunidade internacional. EAVES, D. \cite{Eaves} sugere que os dados sejam disponibilizados da maneira como foram coletados.
 
 A PRF tem ao menos duas bases \footnote{Somente mencionamos bases de dados que interessaram à essa pesquisa.} de dados referentes às ocorrências nas rodovias BRs. A base de acidentes rodoviários e a base de intervenções que guarda as ocorrências que paralisaram as rodovias, tais como: protestos ou paralisações dessa natureza, feitos pelas pessoas que vivem no entorno das rodovias.
 
@@ -104,7 +105,7 @@ Foram construídas matrizes dos resultados da classificação e predição, cham
 
 \pagebreak
 
-\begin{figure}
+\begin{figure}[!ht]
 \centering
 \caption{Matriz de Mortos 2D}
 \label{fig:MatrizMortos2D}
@@ -114,20 +115,8 @@ Foram construídas matrizes dos resultados da classificação e predição, cham
 
 O exemplo acima apresenta as ocorrências na BR 101, onde as linhas representam as 24 horas do dia (0-23 horas) e as colunas representam cada km da rodovia, no caso dessa matriz, 214 km (0-213) para a BR 101. 
 
+
 %\pagebreak
-
-\begin{figure}[htbp!]
-\centering
-\caption{Km 70, BR 101 (Sul) Pernambuco}
-\label{fig:Km70BR101}
-\includegraphics[width=110mm, height=65mm]{Figuras/Metodologia/Km70BR101}\\
-\tiny Fonte: Google Maps
-\end{figure}
-
-
-O local com maior número de óbitos é no Km 70, Br 101 (sul), próximo à Ceasa
-
-\pagebreak
 
 As matrizes de mortos foram propostas com o objetivo de estimar o tempo de paralização da rodovia. Todavia, nem sempre um acidente com mortos implica em maior tempo de paralisação. Por exemplo, uma colisão que envolva muitos veículos, ainda que não houvesse óbitos, pode criar um maior constrangimento na rodovia do que, por exemplo, um atropelamento que tenha projetado a vítima para fora da pista. Em virtude disso, foram criadas as matrizes de gravidade, que contemplaram a maioria das variáveis transformadas, descritas anteriormente, resultando numa equação que integrou todos os fatores relacionados a uma ocorrência na rodovia. O exemplo a seguir representa uma Matriz de Gravidade 3D da BR 101. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213); e a terceira dimensão (que não aparece nessa imagem), os dias da semana (1 - segunda-feira... 7 - domingo). 
 
@@ -178,10 +167,11 @@ As informações das redes sociais que comporão o arco cibernético não dever�
 
 Os pontos críticos das matrizes geradas (de morte ou de gravidade) constituem-se como marcadores no mapa, que deverão ser levados em conta pelos utilizadores quando estiverem passando pelo local referenciado, conforme imagem a seguir.
 
+
 \begin{figure}[ht]
 	\centering
 	\caption{Etapas da metodologia}
-	\includegraphics[width=150mm, height=130mm]{Figuras/Cronograma/GoogleMaps.png}\\
+	\includegraphics[width=150mm, height=110mm]{Figuras/Cronograma/GoogleMaps.png}\\
 	\tiny Fonte: Google Maps
 \end{figure}
 

@@ -52,11 +52,22 @@ Dispon{\'\i}vel em:
 \emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
   1996.}
 
+\bibitem{Chapman2000}
+\abntrefinfo{Chapman et al.}{CHAPMAN et al.}{2000}
+{CHAPMAN, P. et al. {Crisp-Dm 1.0}.
+\emph{CRISP-DM Consortium}, p.~76, 2000.}
+
 \bibitem{NorvigRussel2004}
 \abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
 {RUSSEL, S.; NOVING, P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio
   de Janeiro, 2004. 716--721~p.
 ISBN 8535211772.}
+
+\bibitem{Castanheira2008}
+\abntrefinfo{CASTANHEIRA}{CASTANHEIRA}{}
+{CASTANHEIRA, L.~G. {Aplicação de técnicas de Mineração de Dados em
+  Problemas de Classificação de Padrões}.
+n.~5531.}
 
 \bibitem{DataMining2}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
@@ -344,17 +355,18 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
   2008. 440~p.
 ISBN 1604390085.}
 
-\bibitem{Castanheira2008}
-\abntrefinfo{CASTANHEIRA}{CASTANHEIRA}{}
-{CASTANHEIRA, L.~G. {Aplicação de técnicas de Mineração de Dados em
-  Problemas de Classificação de Padrões}.
-n.~5531.}
-
 \bibitem{Tatibana}
 \abntrefinfo{Tatibana e Kaetsy}{TATIBANA; KAETSY}{Acessado em: 01.out.2016}
 {TATIBANA, C.~Y.; KAETSY, D.~Y.
 Acessado em: 01.out.2016.
 Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
+
+\bibitem{mcculloch1943logical}
+\abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
+{MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
+  nervous activity.
+\emph{The bulletin of mathematical biophysics}, Springer, v.~5, n.~4, p.
+  115--133, 1943.}
 
 \bibitem{AAP}
 \abntrefinfo{R. ZENG}{R. ZENG}{}
@@ -441,8 +453,9 @@ Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
 Instituto de Ciências e Matemática Computacional/USP, 2006.}
 
 \bibitem{DadosGoverno}
-\abntrefinfo{nada}{NADA}{2016}
-{2016.
+\abntrefinfo{Transportes}{TRANSPORTES}{2016}
+{TRANSPORTES, P. e.~A. Governo Federal Ministério~dos.
+2016.
 Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
 \end{thebibliography}

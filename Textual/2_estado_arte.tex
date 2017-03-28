@@ -103,7 +103,7 @@ A figura a seguir ilustra as fases do ciclo:
 \end{figure}
 
 A primeira fase, conhecida como \textbf{Entendimento do negócio}, ou ``fase de entendimento dos objetivos e dos requerimentos sob a 
-perspectiva do negócio'' (CHAPMAN; KERBER; WIRTH et al, 2000, p.{10}) é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
+perspectiva do negócio'' \cite{Chapman2000} p.{10} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
 O analista de dados e o analista do negócio traçam os objetivos da mineração sob a perspectiva do cliente. Questionamentos incorretos 
 ou negligência nesta fase podem acarretar esforços excessivos no processo como um todo a experiência de um profissional da área 
 é condição ``sine qua non'' nessa fase. Portanto avaliar o negócio, avaliar a situação sob o ponto de vista dos riscos de não conclusão 
@@ -139,7 +139,7 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 
 A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção final do conjunto de dados. 
 Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
-Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia \footnote{O conceito de entropia será discutido na seção 2.6.2, referente a Àrvores de Decisão}: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
+Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia \footnote{O conceito de entropia será discutido na seção 2.6.2, referente a Árvores de Decisão}: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
 Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. 
 
 
@@ -183,7 +183,7 @@ do modelo, os passos executados até então sejam avaliados e revistos.
 
 \pagebreak
 
-A sexta e última fase, caracteriza-se pela conclusão do modelo. No entanto a criação do modelo não é o fim do processo.
+A sexta e última fase caracteriza-se pela conclusão do modelo. No entanto, a criação do modelo não é o fim do processo.
 O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
 É importante ressaltar que este ciclo poderá ser retomado até que o modelo esteja adequado às necessidades e especifidades do cliente.
 
@@ -204,9 +204,9 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 No processo de extração do conhecimento (KDD), um dos importantes passos a ser considerado é a mineração de dados, que se caracteriza pela aplicação de algoritmos 
 específicos para descoberta de padrões e/ou comportamentos em grandes bases de dados, também conhecido como repositórios de dados \cite{FayyadUeoutros}.
 
-A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões \cite{CASTANHEIRA, 2008}. 
+A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões \cite{Castanheira2008}. 
 
-FAYYAD (1996), destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que é um processo, a mineração é um passo no interior desse processo. 
+FAYYAD \cite{FayyadUeoutros}, destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que é um processo, a mineração é um passo no interior desse processo. 
 Todavia, esse passo é de considerável relevância para que se possa extrair conhecimento adequadamente. 
 A aplicação “cega” dos métodos de mineração de dados, ainda segundo Fayyad \cite{FayyadUeoutros}, pode conduzir à descoberta de dados sem significado e padrões inválidos. 
 
@@ -236,7 +236,7 @@ Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais c
 
 Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
 com tecnologia apropriada, utilizando-se técnicas de ``Map'' e ``Reduce'' ou mineração de dados em textos \textit{Text Mining} para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). 
-Algumas técnicas de IA podem ser aplicadas nessa etapa como, [``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''. ]
+Algumas técnicas de IA podem ser aplicadas nessa etapa como, ``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''.
 
 No balão ``Pré-Processamento'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
 Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
@@ -340,7 +340,7 @@ Uma parte desses dados são as redes sociais. A rede social escolhida para esta 
 
 \subsubsection{O Twitter}
 
-O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral (...REFERENCIAR...). Uma das características-chave
+O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
 dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
 
 O Twitter, rede social que interessa a essa pesquisa, caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato \cite{francca14big}. A cada dia centenas de terabytes são inseridos nos seus bancos de dados, conhecidos como Hadoop data warehouse, tornado impossível capturar todas as informações produzidas em um largo espaço de tempo, portanto ou se analisa o Streaming de dados ou a API.
@@ -359,11 +359,11 @@ Outro estudo aponta que em 2013 um número superior a 70\% dos indivíduos adult
 
 Um relatório publicado em 2013 revelou que o Twitter aparecia entre as três maiores mídias sociais, em termos de adesão e utilização, perdendo apenas para o facebook e o youtube. Esse relatório revelou, ainda, que naquele ano, nos EUA 8\% dos adultos que tinham entre 18 e 29 anos de idade utilizavam o twitter como principal mídia social. Em outras idades, esse percentual subia para 45\% no mesmo país. As notícias são o principal interesse dos usuários dessa rede \cite{mitchell2013news}. 
 
-Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de ``tweets'' (postagem tipo microblog) (Twitter, 2014) 
+Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraordinário, essa rede era conectada por cerca de 230 milhões de usuários, responsáveis pela produção de aproximadamente 500 milhões de ``tweets'' (postagem tipo microblog) (Twitter, 2014).
 
 Naaman, Boase e Lai \cite{naaman2010really}, classificaram os   conteúdos propagados nos tweets em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, ``eu agora'' (me now), perguntas aos seguidores, manutenção de presença e piadas. 
 
-No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa (i.e. A \cite{adkins2006scholarly}, \cite{cunningham1997authorship}. Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas (Haslam et al., 2008; Hinnant et al. 2012; Stivilia et al., 2011). 
+No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa \cite{adkins2006scholarly}, \cite{cunningham1997authorship}. Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas. 
 
 Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o Google) com o objetivo de identificar a relevância e aceitação de \textit{websites} \cite{brin1998anatomy}, em decorrência do número de seguidores, da quantidade de menções feitas, de ``retweets'', por exemplo.
 
@@ -381,7 +381,7 @@ Procederam com o preprocessamento dos dados, de modo a preparar a análise. Ness
 Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) ``tweets'', seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de ``tweets'' normalmente distribuídas. Métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
 O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de ``retweets'' e o número de menções a usuários, sugerindo que ``tweets'' com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
 
-Em outro artigo, conduzido por Chu \& Du \cite{Chu2012}, os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “facilitar informações e compartilhar conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (p. 72) (livre tradução do autor) \footnote{facilitate information and knowledge sharing, service enhancement and promotion, interaction with student library users, at minimal costs.}. Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes \cite{del2012libraries}; Cavanagh, 2015), tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários \cite{boateng2014web}. 
+Em outro artigo, conduzido por Chu \& Du \cite{Chu2012}, os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “facilitar informações e compartilhar conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (p. 72) (livre tradução do autor) \footnote{Facilitate information and knowledge sharing, service enhancement and promotion, interaction with student library users, at minimal costs.}. Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes \cite{del2012libraries}, tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários \cite{boateng2014web}. 
 
 A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os ``tweets'' da biblioteca acadêmica \cite{Al-Daihani2016}. Nesta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos ``tweets'' desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com), em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, tendo a seleção se restringido às universidades de língua inglesa e a apenas uma biblioteca por instituição, para o caso de a universidade ter mais de uma. 
 
@@ -395,7 +395,7 @@ O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natura
 
 Foi utilizado o Harvard General Inquirer \cite{stone1968general} para análise semântica e sentimental dos ``tweets''. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificaram duas centenas de palavras incluindo, dentre elas, palavras que davam o sentido de algo positivo, negativo, ou ainda relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante. 
 
-Hurtwitz (2002) forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
+Hurwitz forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
 
 
 \begin{figure}[ht]
@@ -412,8 +412,8 @@ comparativamente à biblioteca da Stanford University, que começou no Twitter c
 
 \begin{figure}
 \centering
+\caption{Bibliotecas de Universidades e contas no Twitter}
 \includegraphics[width=0.7\linewidth]{Figuras/Twitter/contaPalavras}
-\caption{}
 \label{fig:contaPalavras}
 \end{figure}
 
@@ -506,10 +506,10 @@ para rotular classes de variáveis independentes. O classificador Naïve Bayes �
 
 Um classificador Naïve Bayes produz probabilidade como output \cite{policarpo2015semantic}. A probabilidade que é produzida pode ser utilizada para distinguir a que grupo classificado, uma amostra não classificada pertence, por exemplo, dependendo da da mais alta probabilidade obtida entre um grupo de probabilidades.
 
-Resumidamente, um classificador Naïve Bayes sugere que a presence ou ausência de um atributo particular de uma determinada classe não está relacionado à presença ou ausência de qualquer outro atributo. Ainda que esses atributos dependam entre si, ou da existência de outro atributo, esse tipo de classificador considera todas as propriedades como contributos independentes da probabilidade final \cite{policarpo2015semantic}.
+Resumidamente, um classificador Naïve Bayes sugere que a presença ou ausência de um atributo particular de uma determinada classe não está relacionado à presença ou ausência de qualquer outro atributo. Ainda que esses atributos dependam entre si, ou da existência de outro atributo, esse tipo de classificador considera todas as propriedades como contributos independentes da probabilidade final \cite{policarpo2015semantic}.
 
 Em mineração de dados variáveis independentes explicam a variável dependente para fazer predição.
-Este classificador tem sido muito empregado para classificar documentos e detectar spam em mensagens \cite{bibid}. 
+Este classificador tem sido muito empregado para classificar documentos e detectar spam em mensagens. 
 A probabilidade condicional pode ser explicada por um vetor $x = (x_{1}, x{2}, ..., x{n})$ que se representa \textit{n} características (variáveis independentes) que se atribui a estas instâncias de probabilidades $p(C_{k}|x_{i},...,x_[n])$ para cada \textit{K} possível ter vindo da classe $C_[k]$. Aplicando o teorema de Bayes da probabilidade condicional temos:
 
 \begin{equation}
@@ -519,11 +519,13 @@ p(C_{k}|x) = \frac{p(_{k})p(x|C_{k})}{p(x)}
 Em outras palavras, a medida que se conhece os resultados das probabilidades pode-se predizer os novos resultados porque o conjunto de testes torna-se menor. A probabilidade condicional também pode ser entendida como:
 
 \begin{equation}
-p(posteriori) = \frac{p(priori) * verossimilhança}{evidência}
+p(posteriori) = \frac{p(priori) * verossimilhança}{evidencia}
 \end{equation}
 
+\vspace{5mm}
 
 \textbf{Aprendizagem Bayesiana}
+\vspace{5mm}
 
 Baseado no teorema de Bayes, dado um conjunto de variáveis aleatórias $\omega = {x_{1}, x_{2},..,x_{n}}$ a variável aleatória \textit{H} (hipótese) denota o tipo de $\omega$, com valores possíveis para $h_{1}, h{2},...,h_{n}$. A medida que são inspecionadas as variáveis, são revelados os dados $D_{1}, D_{2},...,D_{n}$, onde $D_{i}$ é uma variável aleatória com valores possíveis para cada variável do conjunto $\omega$ de variáveis. Sendo D a representação dos dados do espaço de variáveis para uma predição sobre a parte desconhecida de \textit{X}, temos:
 
@@ -535,11 +537,10 @@ P(h_{i}|d) = \sum_{i}P(X|d,h_{i})P(h_{i}|d) = \sum_{i}P(X|h_{i})P(h_{i}|d)
 Um aspecto relevante e positivo que deve ser mencionado acerca do classificador Naïve Bayes é que este requer apenas um pequeno grupo de dados de treinamento para estimar os parâmetros que são necessários para que seja feita a classificação. Outro aspecto que merece destaque é que ele se mostra eficiente para aprendizagem supervisionada, trabalhando de forma rápida com dados complexos \cite{policarpo2015semantic}.
 
 
-\pagebreak
-
 \subsubsection{Árvores de Decisão}
 
 \textbf{Aspectos introdutórios}
+\vspace{5mm}
 
 No âmbito da inteligência artificial, quando se trata de algoritmos de aprendizagem, uma classe de algoritmos que tem se revelado potente para problemas das mais diversas naturezas é a árvore de decisão. Além do universo das pesquisas no campo da informática engenharia e ciências da computação, as árvores de decisão têm sido utilizadas, sobremaneira, em pesquisas relacionadas à Medicina, à Economia, nos mais diversos sistemas de suporte à decisão, como diagnósticos de doenças, investigação de fraudes, dentre outros \cite{Camilo}.
 
@@ -549,12 +550,16 @@ Na pesquisa apresentada nessa dissertação, particularmente, as árvores de dec
 
 Conforme o nome sugere, o que se espera de uma árvore de decisão é que ao final do processo resulte a melhor decisão. Todavia, para que a decisão satisfatória apareça, é necessário que o pesquisador faça as escolhas adequadas, de modo a poder tirar o melhor proveito dessa ferramenta. Para tal, é preciso compreender a natureza desse algoritmo e os processos a ele relacionados. A seguir serão apresentados os principais elementos que precisam ser conhecidos pelo pesquisador que deseja se aventurar por esse campo.
 
+\vspace{5mm}
 \textbf{Breve histórico e conceituação}
+\vspace{5mm}
 
 De maneira sintética, uma árvore de decisão tem como entrada um conjunto de atributos e como saída uma decisão. Os atributos podem, ainda, ser classificados de duas maneiras: discretos ou contínuos. Em virtude dos atributos de entrada, tem-se, como resultado uma função de valores discretos – aprendizagem de classificação – ou de valores contínuos – aprendizagem de regressão \cite{NorvigRussel2004}.
 
 A decisão gerada aparece em função de uma sequência de testes executados, estando cada um deles relacionados a um nó da árvore. As ramificações que decorrem dos testes são o resultado encontrado a partir da realização do experimento. 
 O exemplo a seguir ilustra uma árvore de decisão simples, onde se vê seu nó-raiz e suas ramificações. 
+
+\pagebreak
 
 \begin{figure}[!ht]
 	\centering
@@ -635,11 +640,11 @@ H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y
 
 Com essa abordagem é possível reduzir o número de testes necessários para que uma árvore seja produzida.
 
-\pagebreak
 
 \subsubsection{Redes Neurais}
 
 \textbf{Introdução}
+\vspace{5mm}
 
 O cérebro humano possui cerca de 10 bilhões de neurônios, que são responsáveis pelo funcionamento do organismo. 
 Esses neurônios se conectam entre si, através de sinapses, formando uma Rede Neural capaz de armazenar e processar grande quantidade de informações \cite{NorvigRussel2004}.
@@ -655,6 +660,7 @@ Em 1949, Hebb explicitou matematicamente as sinapses dos neurônios humanos. Doi
 chamado Snark, foi desenvolvido por Mavin Minsky. Todavia, o primeiro neurocomputador que obteve sucesso surgiu entre 1957 e 1958, 
 o Mark I Perceptron, criado por Rosenblatt, Wightman e colaboradores \cite{Heaton2008}. O interesse principal desses pesquisadores era o de desenvolver, com esse neurocomputador, a capacidade de reconhecimento de padrões. Nesse contexto, os estudos na área se aprofundaram de tal forma, que muitos consideram Rosenblatt como o fundador da neurocomputação, tal qual encontramos hoje. 
 
+\vspace{5mm}
 A figura a seguir ilustra, de maneira simplificada, a Rede de Perceptrons, conforme proposta de Rosenblatt.
 
 \begin{figure}[!ht]
@@ -665,10 +671,11 @@ A figura a seguir ilustra, de maneira simplificada, a Rede de Perceptrons, confo
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
 \end{figure}
 
+\pagebreak
 
 Dando continuidade e indo mais além dos trabalhos de Rosenblatt e seus colaboradores, Widrow desenvolveu, em conjunto com alguns 
 alunos, o Adaline, um tipo de processamento de redes neurais dotado de uma potente lei de aprendizado, em uso ainda nos dias atuais, 
-que pode ser representado pela figura abaixo:
+que pode ser representado pela figura a seguir:
 
 \begin{figure}[!ht]
 \centering
@@ -678,7 +685,6 @@ que pode ser representado pela figura abaixo:
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
 \end{figure}
 
-\pagebreak
 
 Muitos estudos foram realizados nas décadas seguintes, mas o que marcou esse período foram as elucubrações sobre o 
 desenvolvimento de máquinas tão potentes quanto o cérebro humano, muito mais do que a publicação de pesquisas realmente 
@@ -707,8 +713,9 @@ O \textit{multilayer perceptron} é responsável pela resolução de problemas m
 de neurônio básico. Para aprender os perceptrons tem que estar dispostos em camadas, um único perceptron pode realizar algumas operações do 
 tipo XOR, contudo seria incapaz de aprendê-la.
 
+
 A figura a seguir apresenta o arranjo dos perceptrons em camadas, conforme discutido anteriormente.
-\pagebreak
+
 
 \begin{figure}[!ht]
 \centering
@@ -727,7 +734,7 @@ São três as camadas usualmente identificadas em uma rede de perceptrons:
 \end{itemize}
 
 O comportamento inteligente de uma Rede Neural Artificial vem das múltiplas interações existentes entre as unidades de processamento dessa rede. 
-As unidades de processamento são conectadas por canais de comunicação, associados a determinado peso, como mostra a figura a seguir, proposta por McCulloch e Pitts (1943)
+As unidades de processamento são conectadas por canais de comunicação, associados a determinado peso, como mostra a figura a seguir, proposta por McCulloch e Pitts \cite{mcculloch1943logical}
 
 \begin{figure}[!ht]
 \centering
@@ -763,7 +770,7 @@ Da figura acima podemos extrair duas coisas:
 
 \vspace{2mm}
 
-O modelo McCulloch e Pitts (1943) leva em conta cinco hipóteses fundamentais, a saber:
+O modelo McCulloch e Pitts \cite{mcculloch1943logical} leva em conta cinco hipóteses fundamentais, a saber:
 
 \begin{enumerate}
  \item A atividade de um neurônio é binária. Isso quer dizer que os neurônios respondem a valores \textbf{verdadeiro} ou \textbf{falso} ou 0 ou 1;
