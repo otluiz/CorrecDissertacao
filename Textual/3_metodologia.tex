@@ -56,7 +56,7 @@ A figura a seguir ilustra (um overview) essa metodologia descrita graficamente.
 \begin{figure}[ht]
 \centering
 \caption{Etapas da modelo proposto}
-\includegraphics[width=135mm, height=75	mm]{Figuras/Metodologia/metodologiaGeral.png}\\
+\includegraphics[width=135mm, height=75	mm]{Figuras/Metodologia/metodologiaGeral2.png}\\
 \tiny Fonte: autor
 \end{figure}
 
@@ -94,7 +94,7 @@ A tabela a seguir descreve as variáveis originais na base de dados de acidentes
 
 O processo de descoberta do conhecimento iniciou-se com a coleta das bases de dados de acidentes da PRF. Optamos por coletar os dados dessa base diretamente na fonte,
 ou seja dos servidores da PRF. Tais dados nos foram cedidos após alguns procedimentos burocráticos de praxe (ver anexos). Essa escolha foi motivada para tentar
-mitigar o problema da qualidade dos dados. No artigo ``Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias federais para o processo de Mineração de Dados'' COSTA, BERNARDINI, LIMA et al (2012) destacam a não padronização e não aceitação dos dados pela comunidade internacional. EAVES, D. (2009) sugere que os dados sejam disponibilizados da maneira como foram coletados.
+mitigar o problema da qualidade dos dados. No artigo ``Uma análise da qualidade dos dados relativos aos boletins de ocorrências das rodovias federais para o processo de Mineração de Dados'' COSTA, BERNARDINI, LIMA et al \cite{Costa2015} destacam a não padronização e não aceitação dos dados pela comunidade internacional. EAVES, D. \cite{Eaves} sugere que os dados sejam disponibilizados da maneira como foram coletados.
 
 A PRF tem ao menos duas bases \footnote{Somente mencionamos bases de dados que interessaram à essa pesquisa.} de dados referentes às ocorrências nas rodovias BRs. A base de acidentes rodoviários e a base de intervenções que guarda as ocorrências que paralisaram as rodovias, tais como: protestos ou paralisações dessa natureza, feitos pelas pessoas que vivem no entorno das rodovias.
 
@@ -102,14 +102,32 @@ Para traçar um painel da diversidade das rodovias pernambucanas, foi efetuado a
 
 Foram construídas matrizes dos resultados da classificação e predição, chamadas ``Matriz de Mortos'' e ``Matriz de Gravidade''. As matrizes de mortos refletem a quantidade de óbitos ocorridos em cada hora do dia, em determinado quilômetro da rodovia, contemplando, assim, duas dimensões (ver imagem a seguir). Foi estabelecida uma terceira dimensão para detalhar os dias da semana, uma vez que a utilização da rodovia tem características diferentes nos dias de semana e fins de semana. 
 
+\pagebreak
+
 \begin{figure}
 \centering
 \caption{Matriz de Mortos 2D}
 \label{fig:MatrizMortos2D}
-\includegraphics[width=0.7\linewidth]{Figuras/Metodologia/MatrizMortos2D}
+\includegraphics[width=110mm, height=65mm]{Figuras/Metodologia/MatrizMortos2D}\\
+\tiny Fonte: Autor
 \end{figure}
 
 O exemplo acima apresenta as ocorrências na BR 101, onde as linhas representam as 24 horas do dia (0-23 horas) e as colunas representam cada km da rodovia, no caso dessa matriz, 214 km (0-213) para a BR 101. 
+
+%\pagebreak
+
+\begin{figure}[htbp!]
+\centering
+\caption{Km 70, BR 101 (Sul) Pernambuco}
+\label{fig:Km70BR101}
+\includegraphics[width=110mm, height=65mm]{Figuras/Metodologia/Km70BR101}\\
+\tiny Fonte: Google Maps
+\end{figure}
+
+
+O local com maior número de óbitos é no Km 70, Br 101 (sul), próximo à Ceasa
+
+\pagebreak
 
 As matrizes de mortos foram propostas com o objetivo de estimar o tempo de paralização da rodovia. Todavia, nem sempre um acidente com mortos implica em maior tempo de paralisação. Por exemplo, uma colisão que envolva muitos veículos, ainda que não houvesse óbitos, pode criar um maior constrangimento na rodovia do que, por exemplo, um atropelamento que tenha projetado a vítima para fora da pista. Em virtude disso, foram criadas as matrizes de gravidade, que contemplaram a maioria das variáveis transformadas, descritas anteriormente, resultando numa equação que integrou todos os fatores relacionados a uma ocorrência na rodovia. O exemplo a seguir representa uma Matriz de Gravidade 3D da BR 101. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213); e a terceira dimensão (que não aparece nessa imagem), os dias da semana (1 - segunda-feira... 7 - domingo). 
 
@@ -118,7 +136,8 @@ As matrizes de mortos foram propostas com o objetivo de estimar o tempo de paral
 \caption{Matriz de Gravidade 3D}
 \caption{}
 \label{fig:MatrizGravidade3D2}
-\includegraphics[width=0.7\linewidth]{Figuras/Metodologia/MatrizGravidade3D2}
+\includegraphics[width=0.7\linewidth]{Figuras/Metodologia/MatrizGravidade3D2}\\
+\tiny Fonte: autor
 \end{figure}
 
 A equação que gera a Matriz de Gravidade foi proposta da seguinte forma: 
@@ -128,6 +147,8 @@ ProbAcid_{101} = (RestVisibi + CondPista + TracadoVia) *  Erro_{101} + Gravidade
 \end{equation} 
 
 Ainda sobre as matrizes - Mortos e Gravidade - a primeira contempla o número absoluto de óbitos que ocorreu em cada local da rodovia em todo o período contemplado na base de dados da PRF. A matriz de gravidade, por sua vez, apresenta cada uma das variáveis como uma probabilidade de ocorrência (ver equação). A variável ``gravidade'' é binária, sendo o valor 1 para ocorrência de óbito em determinado local e 0 para ausência de óbito. O ``Erro'' descrito na equação configura-se como um ajuste aos termos que aparecem entre parênteses, e foi utilizado com base na técnica ensemble, que afirma que o produto de dois classificadores resulta em um valor mais preciso.    
+
+
 
 \pagebreak
 
@@ -160,7 +181,8 @@ Os pontos críticos das matrizes geradas (de morte ou de gravidade) constituem-s
 \begin{figure}[ht]
 	\centering
 	\caption{Etapas da metodologia}
-	\includegraphics[width=150mm, height=130mm]{Figuras/Cronograma/GoogleMaps.png}
+	\includegraphics[width=150mm, height=130mm]{Figuras/Cronograma/GoogleMaps.png}\\
+	\tiny Fonte: Google Maps
 \end{figure}
 
 O capítulo a seguir contemplará os resultados encontrados após a execução de todas as fases aqui apresentadas.

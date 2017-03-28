@@ -30,8 +30,8 @@
 \contentsline {section}{\numberline {3.1}Modelo Proposto}{52}
 \contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{53}
 \contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{54}
-\contentsline {section}{\numberline {3.4}Arco cibern\IeC {\'e}tico com dados do Twitter}{56}
-\contentsline {section}{\numberline {3.5}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{57}
+\contentsline {section}{\numberline {3.4}Arco cibern\IeC {\'e}tico com dados do Twitter}{57}
+\contentsline {section}{\numberline {3.5}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{58}
 \contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{59}
 \contentsline {section}{\numberline {4.1}O modelo proposto}{59}
 \contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{60}
