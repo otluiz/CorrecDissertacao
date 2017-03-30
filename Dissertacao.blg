@@ -225,6 +225,7 @@ while executing---line 2095 of file Bibliografia/abnt-num.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo title vazio em DadosGoverno
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
@@ -267,7 +268,6 @@ while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
 Warning--campo title vazio em Weka
-Warning--campo title vazio em DadosGoverno
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |

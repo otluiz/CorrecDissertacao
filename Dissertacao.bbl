@@ -17,6 +17,12 @@ p. 7--10, 2000.}
 Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
   - USP, 2007.}
 
+\bibitem{DadosGoverno}
+\abntrefinfo{Transportes}{TRANSPORTES}{2016}
+{TRANSPORTES, P. e.~A. Governo Federal Ministério~dos.
+2016.
+Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
+
 \bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
 {BNDES. Perspectivas do investimento, n. 2, out. 2013.
@@ -122,7 +128,7 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
 \bibitem{bigdataQualquerUm}
 \abntrefinfo{Jagadish H.~V. e Shahabi}{JAGADISH H.~V.; SHAHABI}{2014}
-{JAGADISH H.~V., G.~J. L.~A. P. Y. P. J. M. R.~R.; SHAHABI, C. Exploring the
+{JAGADISH H.~V., G.~J. L.~A.~P. Y. P. J. M. R.~R.; SHAHABI, C. Exploring the
   inherent technical challenges in realizing the potential of big data.
 \emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
@@ -370,7 +376,7 @@ Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
 
 \bibitem{AAP}
 \abntrefinfo{R. ZENG}{R. ZENG}{}
-{R. ZENG, H.~H.~P.~X. W. S. C. G.~M. C. Rule extraction from an optimized
+{R. ZENG, H.~H.~P.~X.~W. S. C. G.~M. C. Rule extraction from an optimized
   neural network for traffic crash frequency modeling.}
 
 \bibitem{Kriesel2007NeuralNetworks}
@@ -451,11 +457,5 @@ Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
   medidas de regras de conhecimento e algoritmos genéticos” - tese de
   doutorado.
 Instituto de Ciências e Matemática Computacional/USP, 2006.}
-
-\bibitem{DadosGoverno}
-\abntrefinfo{Transportes}{TRANSPORTES}{2016}
-{TRANSPORTES, P. e.~A. Governo Federal Ministério~dos.
-2016.
-Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
 \end{thebibliography}
