@@ -45,8 +45,8 @@
 \contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{83}
 \contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{83}
 \contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{86}
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{88}
-\contentsline {chapter}{\numberline {A}Preprocessamento}{89}
-\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{89}
-\contentsline {section}{\numberline {A.2}Preprocessamento dos dados do Twitter}{92}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{93}
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{89}
+\contentsline {chapter}{\numberline {A}Preprocessamento}{91}
+\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{91}
+\contentsline {section}{\numberline {A.2}Preprocessamento dos dados do Twitter}{94}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{95}

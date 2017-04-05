@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  2 APR 2017 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  5 APR 2017 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2317,17 +2317,17 @@ Cap\'{\i }tulo 5.
 
 
 
-] [87]) [88]
+] [87] [88] [89]) [90]
 \openout2 = `Textual/Anexo1.aux'.
 
  (./Textual/Anexo1.tex
 Ap\^endice A.
-[89
+[91
 
 
 
-] [90]
-<Figuras/Cronograma/BasesHistoricas.png, id=440, 1518.473pt x 680.141pt>
+] [92]
+<Figuras/Cronograma/BasesHistoricas.png, id=446, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
@@ -2339,21 +2339,21 @@ Overfull \hbox (14.22649pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-[91 <./Figuras/Cronograma/BasesHistoricas.png>]
-<Figuras/Twitter/workflow.png, id=445, 619.113pt x 183.887pt>
+[93 <./Figuras/Cronograma/BasesHistoricas.png>]
+<Figuras/Twitter/workflow.png, id=451, 619.113pt x 183.887pt>
 File: Figuras/Twitter/workflow.png Graphic file (type png)
 
 <use Figuras/Twitter/workflow.png>
 Package pdftex.def Info: Figuras/Twitter/workflow.png used on input line 77.
 (pdftex.def)             Requested size: 318.66948pt x 94.65094pt.
-) [92 <./Figuras/Twitter/workflow.png>]
-(./Dissertacao.bbl [93
+) [94 <./Figuras/Twitter/workflow.png>]
+(./Dissertacao.bbl [95
 
 
-] [94] [95] [96] [97]) 
+] [96] [97] [98] [99]) 
 AED: lastpage setting LastPage
-[98] (./Dissertacao.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux)
-(./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
+[100] (./Dissertacao.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux
+) (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_simulacao.aux)
 (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux))
 
@@ -2394,10 +2394,10 @@ cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
 -super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
 uper/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb>
-Output written on Dissertacao.pdf (99 pages, 5268173 bytes).
+Output written on Dissertacao.pdf (101 pages, 5275287 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
+ 552 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
