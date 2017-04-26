@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  6 APR 2017 02:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  26 APR 2017 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2320,29 +2320,30 @@ Package pdftex.def Info: Figuras/Resultados/RNN.png used on input line 773.
 (pdftex.def)             Requested size: 256.0694pt x 327.20406pt.
  [86 <./Figuras/Resultados/NaiveBayesCausaAcident.png>] [87 <./Figuras/Resultad
 os/RNN.png>] [88]
-<Figuras/Twitter/freqPalavras.png, id=434, 430.60875pt x 255.20343pt>
-File: Figuras/Twitter/freqPalavras.png Graphic file (type png)
+<Figuras/Twitter/freqPalavr.png, id=434, 258.21469pt x 194.22563pt>
+File: Figuras/Twitter/freqPalavr.png Graphic file (type png)
 
-<use Figuras/Twitter/freqPalavras.png>
-Package pdftex.def Info: Figuras/Twitter/freqPalavras.png used on input line 81
-0.
-(pdftex.def)             Requested size: 409.71692pt x 242.8274pt.
+<use Figuras/Twitter/freqPalavr.png>
+Package pdftex.def Info: Figuras/Twitter/freqPalavr.png used on input line 810.
 
-<Figuras/Twitter//Nuvem2.png, id=435, 430.60875pt x 255.20343pt>
-File: Figuras/Twitter//Nuvem2.png Graphic file (type png)
+(pdftex.def)             Requested size: 318.66948pt x 239.72295pt.
 
-<use Figuras/Twitter//Nuvem2.png>
-Package pdftex.def Info: Figuras/Twitter//Nuvem2.png used on input line 821.
-(pdftex.def)             Requested size: 318.66948pt x 188.86705pt.
- [89 <./Figuras/Twitter/freqPalavras.png> <./Figuras/Twitter//Nuvem2.png>]
-<Figuras/Twitter//Cluster.png, id=441, 430.60875pt x 255.20343pt>
+<Figuras/Twitter/nuvem2.png, id=435, 258.9675pt x 210.7875pt>
+File: Figuras/Twitter/nuvem2.png Graphic file (type png)
+
+<use Figuras/Twitter/nuvem2.png>
+Package pdftex.def Info: Figuras/Twitter/nuvem2.png used on input line 821.
+(pdftex.def)             Requested size: 227.62206pt x 185.2813pt.
+ [89 <./Figuras/Twitter/freqPalavr.png> <./Figuras/Twitter/nuvem2.png (PNG copy
+)>]
+<Figuras/Twitter//Cluster.png, id=440, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter//Cluster.png Graphic file (type png)
 
 <use Figuras/Twitter//Cluster.png>
 Package pdftex.def Info: Figuras/Twitter//Cluster.png used on input line 833.
 (pdftex.def)             Requested size: 318.66948pt x 188.86705pt.
 
-<Figuras/Twitter/Cluster2.png, id=442, 430.60875pt x 255.20343pt>
+<Figuras/Twitter/Cluster2.png, id=441, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter/Cluster2.png Graphic file (type png)
 
 <use Figuras/Twitter/Cluster2.png>
@@ -2363,7 +2364,7 @@ Cap\'{\i }tulo 5.
 
  (./Textual/Anexo1.tex
 Ap\^endice A.
-<Figuras/Anexos/Mapa-pe.pdf, id=462, 2817.80733pt x 1971.52563pt>
+<Figuras/Anexos/Mapa-pe.pdf, id=461, 2817.80733pt x 1971.52563pt>
 File: Figuras/Anexos/Mapa-pe.pdf Graphic file (type pdf)
 
 <use Figuras/Anexos/Mapa-pe.pdf>
@@ -2374,7 +2375,7 @@ Package pdftex.def Info: Figuras/Anexos/Mapa-pe.pdf used on input line 9.
 
 
  <./Figuras/Anexos/Mapa-pe.pdf>] [97]
-<Figuras/Cronograma/BasesHistoricas.png, id=478, 1518.473pt x 680.141pt>
+<Figuras/Cronograma/BasesHistoricas.png, id=477, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
@@ -2387,7 +2388,7 @@ Overfull \hbox (14.22649pt too wide) in paragraph at lines 79--80
  []
 
 [98 <./Figuras/Cronograma/BasesHistoricas.png>]
-<Figuras/Twitter/workflow.png, id=483, 619.113pt x 183.887pt>
+<Figuras/Twitter/workflow.png, id=482, 619.113pt x 183.887pt>
 File: Figuras/Twitter/workflow.png Graphic file (type png)
 
 <use Figuras/Twitter/workflow.png>
@@ -2414,8 +2415,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  18263 strings out of 494790
- 304614 string characters out of 6174858
- 541620 words of memory out of 5000000
+ 304600 string characters out of 6174858
+ 541622 words of memory out of 5000000
  20936 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
@@ -2445,9 +2446,9 @@ cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
 -super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
 uper/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb>
-Output written on Dissertacao.pdf (106 pages, 9256795 bytes).
+Output written on Dissertacao.pdf (106 pages, 9262550 bytes).
 PDF statistics:
- 584 PDF objects out of 1000 (max. 8388607)
+ 583 PDF objects out of 1000 (max. 8388607)
  316 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  456 words of extra memory for PDF output out of 10000 (max. 10000000)
