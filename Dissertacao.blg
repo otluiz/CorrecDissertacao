@@ -18,7 +18,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11210 items from 5000.
+Reallocated field_info (elt_size=4) to 11279 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 498 of file Bibliografia/Bibliografia.bib
@@ -36,6 +36,16 @@ I was expecting an "="---line 1072 of file Bibliografia/Bibliografia.bib
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
@@ -230,6 +240,8 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo title vazio em DadosGoverno
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
@@ -278,45 +290,45 @@ Warning--campo title vazio em Weka
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 90 entries,
+You've used 91 entries,
             6480 wiz_defined-function locations,
-            1690 strings with 25372 characters,
-and the built_in function-call counts, 67012 in all, are:
-= -- 4991
-> -- 2243
-< -- 160
-+ -- 908
-- -- 672
-* -- 4905
-:= -- 8727
-add.period$ -- 310
-call.type$ -- 90
-change.case$ -- 942
-chr.to.int$ -- 210
-cite$ -- 95
-duplicate$ -- 3498
-empty$ -- 5001
-format.name$ -- 3482
-if$ -- 15776
+            1692 strings with 25392 characters,
+and the built_in function-call counts, 67662 in all, are:
+= -- 5032
+> -- 2270
+< -- 162
++ -- 918
+- -- 680
+* -- 4952
+:= -- 8813
+add.period$ -- 313
+call.type$ -- 91
+change.case$ -- 953
+chr.to.int$ -- 214
+cite$ -- 96
+duplicate$ -- 3533
+empty$ -- 5046
+format.name$ -- 3523
+if$ -- 15925
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1562
-newline$ -- 457
-num.names$ -- 356
-pop$ -- 2167
+missing$ -- 1579
+newline$ -- 462
+num.names$ -- 360
+pop$ -- 2192
 preamble$ -- 1
-purify$ -- 357
+purify$ -- 361
 quote$ -- 0
-skip$ -- 3535
+skip$ -- 3569
 stack$ -- 1
-substring$ -- 3000
-swap$ -- 1633
-text.length$ -- 120
+substring$ -- 3018
+swap$ -- 1646
+text.length$ -- 121
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
 warning$ -- 6
-while$ -- 569
+while$ -- 574
 width$ -- 0
-write$ -- 1228
-(There were 116 error messages)
+write$ -- 1241
+(There were 122 error messages)

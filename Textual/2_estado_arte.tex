@@ -30,17 +30,17 @@ de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para
 
 \subsection{Contexto de aplicação do CRISP -- DM}
 
-O contexto da aplicação do CRISP-DM \cite{Crisp2000} é guiado desde o nível mais genérico até o nível mais 
+A aplicação do CRISP-DM \cite{Crisp2000} é guiada desde o nível mais genérico até o nível mais 
 especializado, sendo normalmente explicado em quatro dimensões:
 
 \begin{itemize}
- \item O domínio da aplicação -- a área específica que o projeto de mineração de dados acontece;
+ \item O domínio da aplicação -- a área específica onde o projeto de mineração de dados acontece;
  \item O tipo de problema -- descreve as classes específicas do objetivo do projeto de mineração de dados;
- \item Os aspectos técnicos -- cobrem as questões específicas como os desafios usualmente encontrados durante o processo de mineração de dados; 
+ \item Os aspectos técnicos -- cobrem as questões específicas acerca dos desafios usualmente encontrados durante o processo de mineração de dados; 
  \item As ferramentas e técnicas -- dimensão específica que cada ferramenta/técnica de mineração de dados é aplicada durante o projeto.
 \end{itemize}
 
-A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicação do CRISP-DM.
+A tabela 2.1 sumariza e exemplifica essas dimensões no contexto de aplicação do CRISP-DM.
 
 \begin{table}[!ht]
 
@@ -69,11 +69,10 @@ A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicaç�
 
 A aplicação das técnicas de mineração de dados identifica padrões ocultos nos dados, inacessíveis pelas técnicas tradicionais,
 como por exemplo, consultas em banco de dados, técnicas estatísticas, dentre outras. Além disso, possibilita analisar um grande número de 
-variáveis simultaneamente, o que não acontece com o cérebro humano \cite{possas1998data}, bem como, com outras técnicas. 
+variáveis simultaneamente, o que não acontece com o cérebro humano \cite{possas1998data}. 
 A análise desse processo permite extrair novos conhecimentos a partir dos dados, que é tratado na literatura como 
-KDD -- Knowledge Discovery Database \cite{FayyadUeoutros}. Fayyad destaca a natureza interdisciplinar do KDD que contempla a intersecção 
-de campos de pesquisa tais como Aprendizagem de Máquina (Machine Learning), Reconhecimento de Padrões, I.A., estatística, computação de alto 
-desempenho e outros, propõe que o objetivo principal é extrair um conhecimento de alto nível a partir de dados de baixo nível num contexto de 
+KDD -- Knowledge Discovery Database \cite{FayyadUeoutros}. Fayyad \cite{FayyadUeoutros} destaca a natureza interdisciplinar do KDD que contempla a intersecção 
+de campos de pesquisa tais como Aprendizagem de Máquina (Machine Learning), Reconhecimento de Padrões, I.A., Estatística, Computação de Alto Desempenho e outros, propõe que o objetivo principal é extrair um conhecimento de alto nível a partir de dados de baixo nível num contexto de 
 grandes bases de dados.
 O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na figura a seguir:
 
@@ -92,7 +91,7 @@ O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na fi
 O modelo de processo CRISP--DM provê seis fases para um projeto de mineração de dados, sendo assim determina-se um ciclo de vida 
 compreendido para cada uma dessas fases:
 
-A figura a seguir ilustra as fases do ciclo:
+A figura 2.2 ilustra as fases do ciclo:
 
 \begin{figure}[!ht]
 \centering
@@ -103,11 +102,11 @@ A figura a seguir ilustra as fases do ciclo:
 \end{figure}
 
 A primeira fase, conhecida como \textbf{Entendimento do negócio}, ou ``fase de entendimento dos objetivos e dos requerimentos sob a 
-perspectiva do negócio'' \cite{Chapman2000} p.{10} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
+perspectiva do negócio'' \cite{Chapman2000} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
 O analista de dados e o analista do negócio traçam os objetivos da mineração sob a perspectiva do cliente. Questionamentos incorretos 
 ou negligência nesta fase podem acarretar esforços excessivos no processo como um todo a experiência de um profissional da área 
 é condição ``sine qua non'' nessa fase. Portanto avaliar o negócio, avaliar a situação sob o ponto de vista dos riscos de não conclusão 
-do processo, determinar os objetivos e traçar um plano para execução. Essas etapas são delineadas nas figuras que se seguem.
+do processo, determinar os objetivos e traçar um plano para execução. Essas etapas são delineadas nas figuras que se seguem. A figura 2.3 é sobre o Entendimento do negócio já descrito anteriormente.
 
 \begin{figure}[!ht]
 \centering
@@ -121,9 +120,9 @@ do processo, determinar os objetivos e traçar um plano para execução. Essas e
 
 \vspace{0.5cm}
 
-Em seguida, o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
+Em seguida, na figura 2.4 o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
 Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
-um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados, estima-se cerca de 80\% do tempo total. 
+um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados, estima-se cerca de 80\% do tempo total \cite{DataMining}. 
 
 \begin{figure}[!ht]
 \centering
@@ -137,8 +136,8 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 \pagebreak
 
 
-A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção final do conjunto de dados. 
-Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
+A terceira fase, \textbf{Preparação dos dados}, figura 2.5, diz respeito à construção final do conjunto de dados. 
+Preparar os dados significa, criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
 Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia \footnote{O conceito de entropia será discutido na seção 2.6.2, referente a Árvores de Decisão}: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
 Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. 
 
@@ -153,7 +152,7 @@ Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis 
 
 \vspace{0.9cm}
 
-Na quarta fase, \textbf{Modelagem de I.A.}, a tecnologia deve ser escolhida de forma criteriosa, baseada na experiência do analista de dados. 
+Na quarta fase, \textbf{Modelagem de I.A.}, figura 2.6, a tecnologia deve ser escolhida de forma criteriosa, baseada também na experiência do analista de dados. 
 Em sistemas de suporte à decisão, uma tecnologia inadequada pode levar a decisões imprecisas. É comum retornar às fases anteriores para adequar a técnica aos dados. 
 Um modelo de regressão logística para problemas binários, redes neurais para problemas de classificação, e assim por diante.
 
@@ -168,7 +167,7 @@ Um modelo de regressão logística para problemas binários, redes neurais para 
 %\vspace{0.5cm}
 \pagebreak
 
-Na fase cinco, \textbf{Avaliação de desempenho}, um ou muitos modelos devem ter sido construídos e testados, 
+Na fase cinco, \textbf{Avaliação de desempenho}, figura 2.7, um ou muitos modelos devem ter sido construídos e testados, 
 de forma que seja possível atingir uma alta qualidade do ponto de vista da análise dos dados, ou seja, que o 
 modelo proposto esteja de adequado aos objetivos do negócio. Para tal é preciso que antes do desenvolvimento final 
 do modelo, os passos executados até então sejam avaliados e revistos.
@@ -183,7 +182,7 @@ do modelo, os passos executados até então sejam avaliados e revistos.
 
 \pagebreak
 
-A sexta e última fase caracteriza-se pela conclusão do modelo. No entanto, a criação do modelo não é o fim do processo.
+A sexta e última fase caracteriza-se pela conclusão do modelo, figura 2.8. No entanto, a criação do modelo não é o fim do processo.
 O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
 É importante ressaltar que este ciclo poderá ser retomado até que o modelo esteja adequado às necessidades e especifidades do cliente.
 
