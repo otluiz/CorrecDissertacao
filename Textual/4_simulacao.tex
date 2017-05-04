@@ -340,7 +340,7 @@ Na BR 407 os acidentes se concentram na altura do Km
 \begin{center}
 \caption{Tipo de Veículo X Num. Acidentes}
 \includegraphics[width=150mm, height=80mm]{Figuras/Preprocess/TipoVeiculoXNumAciden.png}\\
-\tiny Fonte: autor
+\tiny Fonte: o Autor
 \end{center}
 \end{figure}
 
@@ -351,7 +351,7 @@ O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das 
 \begin{center}
 \caption{Traçado da via X Num. Acidentes}
 \includegraphics[width=120mm, height=70mm]{Figuras/Preprocess/TracadoViaNumAcident.png}\\
-\tiny Fonte: autor
+\tiny Fonte: o Autor
 \end{center}
 \end{figure}
 
@@ -399,6 +399,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 				Erro médio absoluto & 0.0786 & ---  \\
 				Erro médio quadratico & 0.2083 & --- \\
 			\end{tabular}
+			\\
+			\tiny Fonte: o Autor
 		\end{table}
 		
 		\pagebreak
@@ -428,6 +430,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 				0.041 & 0.000 & 0.400 & 0.041 & 0.074 & 0.627 & Danos Eventuais \\
 				0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.733 & Incêndio \\	
 			\end{tabular}
+			\\
+			\tiny Fonte: o Autor
 		\end{table}
 		
 		\begin{table}[!ht]
@@ -448,10 +452,12 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 				28 & 34 & 5 & 85 & 236 & 1 & 2 & 120 & Capotamento \\
 				-- & -- & -- & -- & -- & -- & -- & -- & -- \\	
 			\end{tabular}
+			\\
+			\tiny Fonte: o Autor
 		\end{table}
 		
 		Os valores restantes foram omitidos por não representarem uma amostra
-		adequada, pois a acurácia foi consideravelmente baixa. As variáveis de classe são as mesmas da tabela
+		adequada, pois a acurácia foi consideravelmente baixa, por exemplo o classificado não acerta na maioria das vezes qual a classe deve ser escolhida para todas os atributos. As variáveis de classe são as mesmas da tabela
 		anterior. \\
 					
 %	\pagebreak	
@@ -469,6 +475,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			Erro médio absoluto & 0.3816 & ---  \\
 			Erro médio quadratico & 0.4368 & --- \\
 		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
 	\end{table}
 	
 \pagebreak	
@@ -485,6 +493,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			0.392 & 0.093 & 0.703 & 0.392 & 0.504 & 0.721 & N \\
 				
 		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
 	\end{table}
 	
 	\begin{table}[!ht]
@@ -498,6 +508,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			9747 & 996 & a = S \\
 			3662 & 2363 & b = N \\
 		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
 	\end{table}
 	
 	
@@ -515,6 +527,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			Erro médio absoluto & 0.0469 & ---  \\
 			Erro médio quadratico & 0.1656 & --- \\
 		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
 	\end{table}
 	
 	\begin{table}[!ht]
@@ -537,6 +551,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			0.814 & 0.001 & 0.961 & 0.814 & 0.881 & 0.999 & BR407 \\
 			0.158 & 0.010 & 0.460 & 0.158 & 0.235 & 0.781 & BR408 \\
 		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
 	\end{table}
 	
 	\begin{table}[!ht]
@@ -559,6 +575,8 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			0 & 0 & 0 & 625 & 0 & 0 & 172 & 154  & BR424 \\
 			0 & 0 & 15 & 0 & 3 & 675 & 0 & 0  & BR428 \\			
 		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
 	\end{table}	
 
 \end{enumerate}
@@ -656,15 +674,54 @@ A figura a seguir, obtida a partir da API do Google Maps, demonstra o local apro
 
 \pagebreak
 
+%% BR 101
+
 \begin{figure}[htbp!]
 	\centering
 	\caption{Km 70, BR 101 (Sul) Pernambuco}
 	\label{fig:Km70BR101}
-	\includegraphics[width=150mm, height=95mm]{Figuras/Metodologia/Km70BR101}\\
+	\includegraphics[width=150mm, height=95mm]{Figuras/Resultados/Km70BR101}\\
 	\tiny Fonte: Google Maps
 \end{figure}
 
 \vspace{7mm}
+
+Em seguida a Matriz de Mortos e a Árvore de Decisão correspondente a esse trecho. Chamamos a atenção para o km 68 desta rodovia o número de óbitos somente neste local é o dobro dos outros. Provavelmente o local mais perigoso para se atravessar em todo Estado de Pernambuco.
+
+\begin{figure}[htbp!]
+	\centering
+	\caption{Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}
+	\label{fig:MatrizMortos2d-101}
+	\includegraphics[width=120mm, height=90mm]{Figuras/Resultados/MM2d101}\\
+	\tiny Fonte: o Autor
+\end{figure}
+
+\pagebreak
+
+
+%% BR 104
+\begin{figure}[htbp!]
+	\centering
+	\caption{Km 64 e 67, BR 104 Pernambuco}
+	\label{fig:Km70BR101}
+	\includegraphics[width=150mm, height=95mm]{Figuras/Resultados/CaruaruRegiao}\\
+	\tiny Fonte: Google Maps
+\end{figure}
+
+\vspace{7mm}
+
+Em seguida a Matriz de Mortos correspondente a esse trecho. Chamamos a atenção para o km 64 e km 67 desta rodovia o número de óbitos nestes locais é quase o dobro dos outros. Provavelmente este é o local mais perigoso desta rodovia.
+
+\begin{figure}[htbp!]
+	\centering
+	\caption{Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}
+	\label{fig:MatrizMortos2d-101}
+	\includegraphics[width=120mm, height=90mm]{Figuras/Resultados/MM2d104}\\
+	\tiny Fonte: o Autor
+\end{figure}
+
+\pagebreak
+
 
 Para a região no entorno da BR 116, os acidentes com
 mortes [Gravidade = S] ocorrem frequentemente às quinta-feira, envolvendo todos os tipos de veículos.
@@ -683,7 +740,18 @@ via: Reta], [Condição da pista: molhada], [Dia da semana]:
 	[BR > 232] => colisão frontal
 
 
-\vspace{7mm}
+\begin{figure}[htbp!]
+	\centering
+	\caption{Matriz de Gravidade 3D: Br 116 predição para quinta-feira}
+	\label{fig:MatrizMortos2d-101}
+	\includegraphics[width=120mm, height=100mm]{Figuras/Resultados/MGrav3D116}\\
+	\tiny Fonte: o Autor
+\end{figure}
+
+
+\pagebreak
+
+\subsection{Resultado dos outros classificadores utlizados nesta pesquisa}
 
 Os dados gerados pelos outros classificadores -- Naïve Bayes e Redes Neurais -- permitiram confirmar que os resultados encontrados pelas Árvores de Decisão são os mais adequados para o modelo proposto.
 
@@ -712,7 +780,7 @@ A seguir exemplificamos alguns dos resultados desses classificadores:
 
 \section{Acoplamento com a estrutura dinâmica}
 
-As predições feitas na primeira fase têm como ``output'' georreferenciamento que localiza um ponto no mapa a partir do quilômetro (Km). O georreferenciamento mais preciso seria a latitude e longitude. Todavia, esses dados apresentaram grave inconsistência na base de dados da PFR/PE, tendo sido descartados.
+As predições feitas na primeira fase têm como ``output'' georreferenciamento que localiza um ponto no mapa a partir do quilômetro (Km). O georreferenciamento mais preciso seria a latitude e longitude. Todavia, esses dados apresentaram grave inconsistência na base de dados da PFR/PE, tendo sido descartados. Sentimos necessidade de informações sobre a teoria do fluxo de tráfego, que consiste de leis matemáticas, físicas aplicadas ao tráfego de automóvel, tais como o fluxo (veículos/hora), a velocidade (km/hora) e a densidade de tráfego (veículos/km).
 
 A estrutura dinâmica é composta por duas API's, uma disponibilizada pelo Google, através do Google Maps, que está atualmente na versão V3, e a
 outra por uma API do Twitter. A API do Google Maps proporciona uma ``leitura'' atualizada e precisa, de forma que os dados do Km da rodovia podem ser localizados no mapa.
@@ -739,7 +807,7 @@ Os dados a seguir mostram a busca dos termos frequentes encontrado no documento 
 \begin{figure}
 \centering
 \caption{Gráfico de frequência de palavras -- unigramas}
-\includegraphics[width=0.9\linewidth]{Figuras/Twitter/freqPalavras}
+\includegraphics[width=0.7\linewidth]{Figuras/Twitter/freqPalavr}
 \label{fig:freqPalavras}
 \end{figure}
 
@@ -750,7 +818,7 @@ A nuvem de palavras é um gráfico de frequência de palavras em que os termos m
 \begin{figure}
 \centering
 \caption{Nuvem de palavras da Mineração em textos}
-\includegraphics[width=0.7\linewidth]{Figuras/Twitter//Nuvem1}
+\includegraphics[width=0.5\linewidth]{Figuras/Twitter/nuvem2}
 \label{fig:Nuvem1}
 \end{figure}
 

@@ -30,17 +30,17 @@ de dados para atender a seus clientes. Hoje mais de 300 empresas contribuem para
 
 \subsection{Contexto de aplicação do CRISP -- DM}
 
-O contexto da aplicação do CRISP-DM \cite{Crisp2000} é guiado desde o nível mais genérico até o nível mais 
+A aplicação do CRISP-DM \cite{Crisp2000} é guiada desde o nível mais genérico até o nível mais 
 especializado, sendo normalmente explicado em quatro dimensões:
 
 \begin{itemize}
- \item O domínio da aplicação -- a área específica que o projeto de mineração de dados acontece;
+ \item O domínio da aplicação -- a área específica onde o projeto de mineração de dados acontece;
  \item O tipo de problema -- descreve as classes específicas do objetivo do projeto de mineração de dados;
- \item Os aspectos técnicos -- cobrem as questões específicas como os desafios usualmente encontrados durante o processo de mineração de dados; 
+ \item Os aspectos técnicos -- cobrem as questões específicas acerca dos desafios usualmente encontrados durante o processo de mineração de dados; 
  \item As ferramentas e técnicas -- dimensão específica que cada ferramenta/técnica de mineração de dados é aplicada durante o projeto.
 \end{itemize}
 
-A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicação do CRISP-DM.
+A tabela 2.1 sumariza e exemplifica essas dimensões no contexto de aplicação do CRISP-DM.
 
 \begin{table}[!ht]
 
@@ -69,11 +69,10 @@ A tabela abaixo sumariza e exemplifica essas dimensões no contexto de aplicaç�
 
 A aplicação das técnicas de mineração de dados identifica padrões ocultos nos dados, inacessíveis pelas técnicas tradicionais,
 como por exemplo, consultas em banco de dados, técnicas estatísticas, dentre outras. Além disso, possibilita analisar um grande número de 
-variáveis simultaneamente, o que não acontece com o cérebro humano \cite{possas1998data}, bem como, com outras técnicas. 
+variáveis simultaneamente, o que não acontece com o cérebro humano \cite{possas1998data}. 
 A análise desse processo permite extrair novos conhecimentos a partir dos dados, que é tratado na literatura como 
-KDD -- Knowledge Discovery Database \cite{FayyadUeoutros}. Fayyad destaca a natureza interdisciplinar do KDD que contempla a intersecção 
-de campos de pesquisa tais como Aprendizagem de Máquina (Machine Learning), Reconhecimento de Padrões, I.A., estatística, computação de alto 
-desempenho e outros, propõe que o objetivo principal é extrair um conhecimento de alto nível a partir de dados de baixo nível num contexto de 
+KDD -- Knowledge Discovery Database \cite{FayyadUeoutros}. Fayyad \cite{FayyadUeoutros} destaca a natureza interdisciplinar do KDD que contempla a intersecção 
+de campos de pesquisa tais como Aprendizagem de Máquina (Machine Learning), Reconhecimento de Padrões, I.A., Estatística, Computação de Alto Desempenho e outros, propõe que o objetivo principal é extrair um conhecimento de alto nível a partir de dados de baixo nível num contexto de 
 grandes bases de dados.
 O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na figura a seguir:
 
@@ -92,7 +91,7 @@ O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na fi
 O modelo de processo CRISP--DM provê seis fases para um projeto de mineração de dados, sendo assim determina-se um ciclo de vida 
 compreendido para cada uma dessas fases:
 
-A figura a seguir ilustra as fases do ciclo:
+A figura 2.2 ilustra as fases do ciclo:
 
 \begin{figure}[!ht]
 \centering
@@ -103,11 +102,11 @@ A figura a seguir ilustra as fases do ciclo:
 \end{figure}
 
 A primeira fase, conhecida como \textbf{Entendimento do negócio}, ou ``fase de entendimento dos objetivos e dos requerimentos sob a 
-perspectiva do negócio'' \cite{Chapman2000} p.{10} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
+perspectiva do negócio'' \cite{Chapman2000} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
 O analista de dados e o analista do negócio traçam os objetivos da mineração sob a perspectiva do cliente. Questionamentos incorretos 
 ou negligência nesta fase podem acarretar esforços excessivos no processo como um todo a experiência de um profissional da área 
 é condição ``sine qua non'' nessa fase. Portanto avaliar o negócio, avaliar a situação sob o ponto de vista dos riscos de não conclusão 
-do processo, determinar os objetivos e traçar um plano para execução. Essas etapas são delineadas nas figuras que se seguem.
+do processo, determinar os objetivos e traçar um plano para execução. Essas etapas são delineadas nas figuras que se seguem. A figura 2.3 é sobre o Entendimento do negócio já descrito anteriormente.
 
 \begin{figure}[!ht]
 \centering
@@ -121,9 +120,9 @@ do processo, determinar os objetivos e traçar um plano para execução. Essas e
 
 \vspace{0.5cm}
 
-Em seguida, o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
+Em seguida, na figura 2.4 o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
 Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
-um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados, estima-se cerca de 80\% do tempo total. 
+um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados, estima-se cerca de 80\% do tempo total \cite{DataMining}. 
 
 \begin{figure}[!ht]
 \centering
@@ -137,8 +136,8 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 \pagebreak
 
 
-A terceira fase, \textbf{Preparação dos dados}, diz respeito à construção final do conjunto de dados. 
-Preparar os dados significa criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
+A terceira fase, \textbf{Preparação dos dados}, figura 2.5, diz respeito à construção final do conjunto de dados. 
+Preparar os dados significa, criar e selecionar atributos, criar tabelas ou planilhas e registros dos dados.
 Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia \footnote{O conceito de entropia será discutido na seção 2.6.2, referente a Árvores de Decisão}: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
 Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. 
 
@@ -153,7 +152,7 @@ Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis 
 
 \vspace{0.9cm}
 
-Na quarta fase, \textbf{Modelagem de I.A.}, a tecnologia deve ser escolhida de forma criteriosa, baseada na experiência do analista de dados. 
+Na quarta fase, \textbf{Modelagem de I.A.}, figura 2.6, a tecnologia deve ser escolhida de forma criteriosa, baseada também na experiência do analista de dados. 
 Em sistemas de suporte à decisão, uma tecnologia inadequada pode levar a decisões imprecisas. É comum retornar às fases anteriores para adequar a técnica aos dados. 
 Um modelo de regressão logística para problemas binários, redes neurais para problemas de classificação, e assim por diante.
 
@@ -168,7 +167,7 @@ Um modelo de regressão logística para problemas binários, redes neurais para 
 %\vspace{0.5cm}
 \pagebreak
 
-Na fase cinco, \textbf{Avaliação de desempenho}, um ou muitos modelos devem ter sido construídos e testados, 
+Na fase cinco, \textbf{Avaliação de desempenho}, figura 2.7, um ou muitos modelos devem ter sido construídos e testados, 
 de forma que seja possível atingir uma alta qualidade do ponto de vista da análise dos dados, ou seja, que o 
 modelo proposto esteja de adequado aos objetivos do negócio. Para tal é preciso que antes do desenvolvimento final 
 do modelo, os passos executados até então sejam avaliados e revistos.
@@ -183,7 +182,7 @@ do modelo, os passos executados até então sejam avaliados e revistos.
 
 \pagebreak
 
-A sexta e última fase caracteriza-se pela conclusão do modelo. No entanto, a criação do modelo não é o fim do processo.
+A sexta e última fase caracteriza-se pela conclusão do modelo, figura 2.8. No entanto, a criação do modelo não é o fim do processo.
 O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
 É importante ressaltar que este ciclo poderá ser retomado até que o modelo esteja adequado às necessidades e especifidades do cliente.
 
@@ -977,7 +976,6 @@ Então, a taxa de verdadeiros positivos será $P(Y|X)$ e a probabilidade de fals
 (ou $\bar{Y}$) representa negação. \\
 A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr = P(Y|X)) com a taxa dos falsos positivos (fpr = P(Y,$\bar{X}$)).
 
-\pagebreak
 
 \subsection{Classificação e Regressão para análise preditivas}
 
@@ -1026,4 +1024,43 @@ Segundo RUSSEL E NORVIG \cite{NorvigRussel2004}  \footnote{Foi observado que red
 \textit{desde que os pesos sejam mantidos pequenos}. Essa restrição mantém os valores de ativação na região 
 \textit{linear} da função sigmóide g(x) onde x é próximo de zero. Por sua vez isso faz com que a rede se comporte 
 como uma função linear, com um número muito menor de parâmetros.} o ``overfitting'' ocorre quando o número atributos é grande.
+
+
+\subsection{Pesquisas envolvendo inteligência artificial e tráfego em rodovias}
+
+Nessa sessão apresentaremos algumas pesquisas realizadas no Brasil e em outras partes do mundo, que contemplam elementos de interesse para nossa pesquisa: tráfego em rodovias e o uso de técnicas de inteligência artificial, como árvores de decisão e redes neurais, dentre outras.
+
+Para tal, tomamos como referência a última década de produção, priorizando artigos a partir de 2010, embora tenham sido identificadas pesquisas desde meados dos anos 90, já contemplando tráfego urbano ou em rodovias e inteligência artificial.
+
+No Brasil, sobretudo no eixo sul-sudeste, algumas pesquisas têm sido conduzidas nesse campo. Corrêa \cite{correa2008aplicaccao} desenvolveu um estudo exploratório, em que buscou identificar pesquisas no Brasil que tratassem da utilização de redes neurais aplicadas ao setor de transporte, comparando com aquelas produzidas sob a mesma temática, em países desenvolvidos. Essa autora identifica a produção de pesquisas nesse cenário desde os anos 90, corroborando a análise que fizemos sobre pesquisas que foram produzidas nesse campo, com auxílio da ferramenta de busca google acadêmico.
+
+Identificamos campos de interesse que podemos resumir da seguinte forma: pesquisas interessadas em utilizar técnicas de IA para identificar comportamento de tráfego ou causas de acidentes graves, notadamente os acidentes fatais, podendo, ou não preocupar-se com a predição de acidentes futuros, mas sem propor algum tipo de solução prática ou desenvolvimento de ferramentas auxiliares do tráfego. Outro grupo de pesquisas que se interessa pela utilização da IA para proposição de soluções práticas, aplicativos, ferramentas, para lidar com os constrangimentos de tráfego, sem preocupação específica com, por exemplo, causas de acidentes fatais. Outro grupo que mobiliza técnicas de IA e que além da identificação de problemas relativos ao tráfego em vias urbanas e rodovias, preocupa-se com a modelização e predição de rotas alternativas, nas quais essa pesquisa se insere, embora seja importante destacar que há aspectos dos outros dois grupos que também nos interessam, como, por exemplo, as causas de acidentes, sobretudo que culminam com óbito. 
+
+A seguir, destacamos alguns estudos, mesmo oriundos de contextos tão diversos, apontam para interesses semelhantes. Optamos por destacar pesquisas relacionadas às mais diversas regiões, no sentido de destacar o quanto esse campo é vasto e de interesse mundial.
+
+Em uma pesquisa conduzida nos Estados Unidos, com dados obtidos a partir do do Sistema de Relatório de Análise de Fatalidades (FARS), no Alabama, Shanthi e Ramani \cite{shanthi2012feature} buscou analisar em que medida os algoritmos de classificação de mineração de dados são eficazes para previsão dos fatores que influenciam acidentes de trânsito, levando em conta a gravidade da lesão decorrente do acidente. Nessa pesquisa foi comparado o desempenho de algoritmos como C4.5, CR-T, ID3, CS-CRT, CS-MC4, Naïve Bayes e Árvore de randomização, para modelar a gravidade da lesão ocorrida no acidente. A acurácia foi avaliada com base na precisão e valores de recall e os resultados apontaram para a eficácia desses algoritmos, com destaque para as árvores de randomização.
+
+Boa parte das pesquisas desenvolvidas no Brasil têm focado na identificação de problemas relacionados a congestionamento de vias urbanas ou rodovias no interior do estado, propondo, a partir da utilização de técnicas de IA, como redes neurais, árvores de decisão, lógica fuzzy, identificar o comportamento dos veículos nas vias, como a pesquisa de Ferreira \cite{ferreira2011combinaccao}, que buscou utilizar combinação de técnicas de IA para previsão do comportamento do tráfego na cidade de São Paulo.
+
+Pertencente a outro campo de interesse - aquele voltado para a proposição de soluções práticas - Braga et al \cite{braga2014planejamento} utilizaram o algoritmo de IA Anytime e executaram os testes na Plataforma Raspberry, com o objetivo de estabelecer um planejamento de rotas nas malhas viárias das cidades de Manaus e do Rio de Janeiro. A plataforma utilizada na pesquisa mostrou-se eficaz para a proposição de um protótipo de planejamento de rota, para uso veicular e abre caminho para o desenvolvimento de um aplicativo para smartphones.  
+
+Outra pesquisa, também em língua portuguesa, conduzida em Portugal \cite{dos2016previsao}, propôs o desenvolvimento de soluções inteligentes, a partir do uso de data mining e técnicas de simulação, para estabelecer predições das condições de tráfego em tempo real, de modo a conter o aumento dos congestionamentos em rodovias e região metropolitana. Essa recente pesquisa aproxima-se, em certo sentido, do nosso interesse, uma vez que tem como foco uma abordagem de predição, tal qual propomos nessa pesquisa. No caso da pesquisa desenvolvida por Reis, os dados históricos utilizados foram capturados a partir dos sensores localizados nas estradas, diferentemente de nossa proposta, que contempla dados históricos da Polícia Rodoviária Federal de Pernambuco (mineração de dados) e da rede social Twitter (mineração em textos).
+
+A preocupação com acidentes graves, muitos deles implicando em mortes, também se revela em pesquisas em países desenvolvidos ou países em que é sabido haver problemas ligados ao tráfego nas capitais e nas importantes cidades do interior, como é o caso de alguns países do Oriente Médio. Essas pesquisas estariam relacioandas ao primeiro campo que destacamos acima: as que buscam identificar e alertar as autoridades sobre o impacto de acidentes fatais relacionados ao tráfego.
+
+Uma pesquisa conduzida nos Estados Unidos por Chong, Abraham, Paprzycki \cite{chong2004traffic}, destaca o grande impacto social que esse tipo de fatalidade promove. Esses pequisadores utilizaram as redes neurais e árvores de decisão para modelizar os acidentes graves e fatais, identificando três causas fundamentais que promovem acidentes dessa natureza: a não utilização de cinto de segurança, a condição de luminosidade na rodovia (que em nossa pesquisa está incluída na variável condições de visibilidade) e consumo de álcool pelo condutor.
+
+Pesquisa semelhante foi desenvolvida por Akgüngör e Dogan \cite{akgungor2009artificial}, que utilizaram redes neurais e algoritmos genéticos para apropor um modelo para estimar o número de acidentes (A), com vítimas fatais (F) e prejuízos (I), em Ankara (Turquia), utilizando dados de um espaço temporal de 20 anos (1986 a 2006), de modo a oferecer um retrato fiel dos impactos sociais causados pelas condições precárias do tráfego nas grandes cidades turcas.
+
+Kashani, Shariat-Mohaymany, Ranjbari \cite{tavakoli2011data}, em pesquisa desenvolvida no Irã, utilizaram a árvore de regressão e classificação (CART) para analisar os acidentes fatais de trânsito que acontecem no Irã. Segundo os dados da pesquisa, setenta por cento dos acidentes com vítimas fatais no Irã acontecem nas áreas rurais. A pesquisa identificou que as principais causas de morte relacionadas ao tráfego são: a ausência do uso de cinto de segurança, as ultrapassagens indevidas e o consume de álcool por parte do condutor. Tomando como referência a nossa pesquisa, destacamos que as causas consideradas como mais relevantes dizem respeito ao condutor do veículo, mais do que às condições da via.
+
+Em uma pesquisa conduzida na Jordânia, Jadaan, Al-Fayyad e Gammoh \cite{jadaan2014prediction}, tiveram como objetivo propor um modelo de predição de futuros acidentes de tráfego, utilizando-se de Redes Neurais. A pesquisa considerou o espaço temporal entre 1990 e 2011, e tomou como dados de entrada das Redes Neurais: número de veículos registrados, população, comprimento de estradas pavimentadas, produto interno bruto. Foram propostos quarto modelos alternativos, e um deles (4o.) mostrou-se o mais adequado, com coeficiente de determinação (R2 =0.992), a partir do qual propuseram o modelo de predição, considerando os dados atuais e o número previsto de acidentes.
+
+Beshah e Hill \cite{beshah2010mining} desenvolveram uma pesquisa na Etiópia, utlizando algoritmos de IA, para identificar as principais causas de acidentes graves, principalmente aqueles com mortes, que vitimizam aproximadamente 1 milhão e 200 mil pessoas, além de deixar cerca de 50 milhões de feridos. Os pesquisadores utilizaram árvores de decisão, Naïve Bayes e outros classificadores, para identificar as principais causas dos acidentes. Consideraram algumas variáveis que também interessaram particularmente à nossa pesquisa, como condições de visibilidade da via, sentido da via, gravidade do acidente. Também conforme o interesse de nossa pesquisa, o estudo em questão interessou-se pelo estabelecimento de um modelo preditivo, a partir das tecnologias de IA utilizadas.
+
+Interessados pela mesma temática, Olutayo e Eludire \cite{olutayo2014traffic} desenvolveram pesquisa na Nigéria, utilizando técnicas de Árvores de Decisão e Redes Neurais para analisar o tráfego em rodovias de tráfego intenso, com o objetivo de, segundo eles, reduzir a carnificina nas grandes rodovias do país. Coletaram dados históricos da instituição de segurança rodoviária daquele país, referentes a 40 km de rodovia, entre as cidades de Ibadan e Lagos, classificando-os como contínuos ou como categóricos. Para os dados contínuos foram utilizadas a técnica de Redes Neurais Artificiais, e os dados categóricos foram tratados com Árvores de Decisão. Os resultados apontaram que as principais causas de acidentes fatais são rupture de pneu, perda de controle e alta velocidade. Assim como outros estudos, as causas relacionadas aos condutores aparecem como aquelas mais fortemente associadas a acidentes fatais. Os autores propuseram, ainda, estabelecer uma comparação entre RNA e AD, como técnicas de IA associadas à resolução do problema de pesquisa, e identificaram que as RNA um relatório de erro mais baixo, bem como maior número de instâncias corretamente classificadas e taxa de precisão mais elevada.
+
+Também com o objetivo de comparar os resultado obtidos utilizando Redes Neurais e Árvores de Decisão, pesquisa conduzida na Tailândia \cite{thianniwet2010classification} propôs uma técnica para identificar níveis de congestionamento em rodovias, com base nos dados de sensores de velocidade de alta acurácia; e utilizaram GPS, webcam e uma pesquisa de opinião, essa última para detector percepções humanas/dos condutores sobre os níveis de congestionamento. Essa pesquisa identificou o J48 como o algoritmo de aprendizagem que mostrou o melhor resultado, com acurácia de 91,29\%. Um aspecto que diferenciou essa pesquisa das demais, foi o fato de que considerou as percepções humanas para sua análise. Em nossa pesquisa, os dados obtidos a partir do Twitter e a mineração de textos e análise sentimental, permitiu-nos, igualmente, contemplar a dimensão humana, para além da utilização de dados históricos.
+
+Outros estudos poderiam ainda ser considerados, contemplando ainda a comparação entre algoritmos para gestão segurança rodoviária no sul da Itália \cite{de2015comparison} análise de acidentes em áreas rurais da Espanha \cite{de2011analysis};  utilização da Plataforma GIS para o desenvolvimento de um sistema de reconhecimento automático de acidentes de trânsito na rodovia Konya-Afyonkarahisar, na Turquia \cite{durduran2010decision}, mas acreditamos ter feito o levantamento dos principais pesquisas desenvolvidas nesse campo, na atualidade, o que corrobora com o que discutimos sobre a importância de desenvolvermos um estudo dessa naturea, sobretudo contemplando aspectoas ainda não encontrados na literature, como a integração das redes socias a essas pesquisas, propondo um trabalho de mineração de texto e análise sentimental, em articulação com os dados produzidos pelos algoritmos de IA.
 

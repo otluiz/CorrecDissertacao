@@ -10,6 +10,19 @@
 {WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
 p. 7--10, 2000.}
 
+\bibitem{xavier2011relaccoes}
+\abntrefinfo{Xavier e Costa}{XAVIER; COSTA}{2011}
+{XAVIER, R. C.~M.; COSTA, R.~O. da. Rela{\c{c}}{\~o}es m{\'u}tuas entre
+  informa{\c{c}}{\~a}o e conhecimento: o mesmo conceito?
+\emph{Ci{\^e}ncia da Informa{\c{c}}{\~a}o}, v.~39, n.~2, 2011.}
+
+\bibitem{da1996coadic}
+\abntrefinfo{Fleisher}{FLEISHER}{1996}
+{FLEISHER, R. M.~M. da C. Le coadic, yves fran{\c{c}}ois. a ci{\^e}ncia da
+  informa{\c{c}}{\~a}o. tradu{\c{c}}{\~a}o de maria y{\^e}da fs de filgueiras
+  gomes. bras{\'\i}lia: Briquet de lemos, 1996.
+\emph{Perspectivas em Ci{\^e}ncia da Informa{\c{c}}{\~a}o}, v.~1, n.~2, 1996.}
+
 \bibitem{Salles2007}
 \abntrefinfo{Salles}{SALLES}{2007}
 {SALLES, F.~R.
@@ -62,6 +75,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Chapman et al.}{CHAPMAN et al.}{2000}
 {CHAPMAN, P. et al. {Crisp-Dm 1.0}.
 \emph{CRISP-DM Consortium}, p.~76, 2000.}
+
+\bibitem{DataMining}
+\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
+{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
+Elsevier, San Francisco, v. 2 edition, 2006.}
 
 \bibitem{NorvigRussel2004}
 \abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
@@ -414,6 +432,106 @@ Dispon{\'\i}vel em:
   machine learning algorithms}.
 \emph{Pattern Recognition}, v.~30, n.~7, p. 1145--1159, 1997.
 ISSN 00313203.}
+
+\bibitem{correa2008aplicaccao}
+\abntrefinfo{Corr{\^e}a et al.}{CORR{\^E}A et al.}{2008}
+{CORR{\^E}A, F. et al. Aplica{\c{c}}{\~a}o de redes neurais artificiais no
+  setor de transportes no brasil.
+Universidade Federal de S{\~a}o Carlos, 2008.}
+
+\bibitem{shanthi2012feature}
+\abntrefinfo{Shanthi e Ramani}{SHANTHI; RAMANI}{2012}
+{SHANTHI, S.; RAMANI, R.~G. Feature relevance analysis and classification of
+  road traffic accident data through data mining techniques. In:
+  \emph{Proceedings of the World Congress on Engineering and Computer Science}.
+  [S.l.: s.n.], 2012. v.~1, p. 24--26.}
+
+\bibitem{ferreira2011combinaccao}
+\abntrefinfo{Ferreira et al.}{FERREIRA et al.}{2011}
+{FERREIRA, R.~P. et al. Combina{\c{c}}{\~a}o de t{\'e}cnicas da
+  intelig{\^e}ncia artificial para previs{\~a}o do comportamento do tr{\'a}fego
+  veicular urbano na cidade de s{\~a}o paulo.
+Universidade Nove de Julho, 2011.}
+
+\bibitem{braga2014planejamento}
+\abntrefinfo{Braga et al.}{BRAGA et al.}{2014}
+{BRAGA, M. d.~L. et al. Planejamento de rotas com algoritmos anytime em redes
+  veiculares na plataforma raspberry pi.
+\emph{IV Simp{\'o}sio Brasileiro de Engenharia de Sistemas Computacionais},
+  p.~1--6, 2014.}
+
+\bibitem{dos2016previsao}
+\abntrefinfo{Reis}{REIS}{2016}
+{REIS, J. M.~M. dos. Previs{\~a}o em tempo real de condi{\c{c}}{\~o}es de
+  tr{\'a}fego em redes veiculares.
+2016.}
+
+\bibitem{chong2004traffic}
+\abntrefinfo{Chong, Abraham e Paprzycki}{CHONG; ABRAHAM; PAPRZYCKI}{2004}
+{CHONG, M.~M.; ABRAHAM, A.; PAPRZYCKI, M. Traffic accident analysis using
+  decision trees and neural networks.
+\emph{arXiv preprint cs/0405050}, 2004.}
+
+\bibitem{akgungor2009artificial}
+\abntrefinfo{Akg{\"u}ng{\"o}r e Do{\u{g}}an}{AKG{\"U}NG{\"O}R; DO{\u{G}}AN}{}
+{AKG{\"U}NG{\"O}R, A.~P.; DO{\u{G}}AN, E.}
+
+\bibitem{tavakoli2011data}
+\abntrefinfo{Kashani, Shariat-Mohaymany e Ranjbari}{KASHANI; SHARIAT-MOHAYMANY;
+  RANJBARI}{2011}
+{KASHANI, A. T.; SHARIAT-MOHAYMANY, A.; RANJBARI, A. A data mining approach to
+  identify key factors of traffic injury severity.
+\emph{PROMET-Traffic\&Transportation}, Fakultet prometnih znanosti
+  Sveu{\v{c}}ili{\v{s}}ta u Zagrebu, v.~23, n.~1, p. 11--17, 2011.}
+
+\bibitem{jadaan2014prediction}
+\abntrefinfo{Jadaan, Al-Fayyad e Gammoh}{JADAAN; AL-FAYYAD; GAMMOH}{2014}
+{JADAAN, K.~S.; AL-FAYYAD, M.; GAMMOH, H.~F. Prediction of road traffic
+  accidents in jordan using artificial neural network (ann).
+\emph{Journal of Traffic and Logistics Engineering}, v.~2, n.~2, 2014.}
+
+\bibitem{beshah2010mining}
+\abntrefinfo{Beshah e Hill}{BESHAH; HILL}{2010}
+{BESHAH, T.; HILL, S. Mining road traffic accident data to improve safety: Role
+  of road-related factors on accident severity in ethiopia. In:  \emph{AAAI
+  Spring Symposium: Artificial Intelligence for Development}. [S.l.: s.n.],
+  2010.}
+
+\bibitem{olutayo2014traffic}
+\abntrefinfo{Olutayo e Eludire}{OLUTAYO; ELUDIRE}{2014}
+{OLUTAYO, V.; ELUDIRE, A. Traffic accident analysis using decision trees and
+  neural networks.
+\emph{International Journal of Information Technology and Computer Science
+  (IJITCS)}, v.~6, n.~2, p.~22, 2014.}
+
+\bibitem{thianniwet2010classification}
+\abntrefinfo{Thianniwet, Phosaard e Pattara-Atikom}{THIANNIWET; PHOSAARD;
+  PATTARA-ATIKOM}{2010}
+{THIANNIWET, T.; PHOSAARD, S.; PATTARA-ATIKOM, W. Classification of road
+  traffic congestion levels from vehicle’s moving patterns: A comparison
+  between artificial neural network and decision tree algorithm. In:
+  \emph{Electronic Engineering and Computing Technology}. [S.l.]: Springer,
+  2010. p. 261--271.}
+
+\bibitem{de2015comparison}
+\abntrefinfo{Luca}{LUCA}{2015}
+{LUCA, M. D. A comparison between prediction power of artificial neural
+  networks and multivariate analysis in road safety management.
+\emph{Transport}, Taylor \& Francis, p.~1--7, 2015.}
+
+\bibitem{de2011analysis}
+\abntrefinfo{O{\~n}a, Mujalli e Calvo}{O{\~N}A; MUJALLI; CALVO}{2011}
+{O{\~N}A, J. de; MUJALLI, R.~O.; CALVO, F.~J. Analysis of traffic accident
+  injury severity on spanish rural highways using bayesian networks.
+\emph{Accident Analysis \& Prevention}, Elsevier, v.~43, n.~1, p. 402--411,
+  2011.}
+
+\bibitem{durduran2010decision}
+\abntrefinfo{Durduran}{DURDURAN}{2010}
+{DURDURAN, S.~S. A decision making system to automatic recognize of traffic
+  accidents on the basis of a gis platform.
+\emph{Expert Systems with Applications}, Elsevier, v.~37, n.~12, p. 7729--7736,
+  2010.}
 
 \bibitem{Costa2015}
 \abntrefinfo{Costa, Bernardini e Filho}{COSTA; BERNARDINI; FILHO}{2015}

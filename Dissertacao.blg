@@ -18,20 +18,34 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10037 items from 5000.
+Reallocated field_info (elt_size=4) to 11279 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
-I was expecting a `,' or a `}'---line 499 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 498 of file Bibliografia/Bibliografia.bib
  :    
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "ICWSM09154" isn't style-file defined
---line 638 of file Bibliografia/Bibliografia.bib
+--line 637 of file Bibliografia/Bibliografia.bib
 Warning--entry type for "Decision2014" isn't style-file defined
---line 655 of file Bibliografia/Bibliografia.bib
+--line 654 of file Bibliografia/Bibliografia.bib
+I was expecting an "="---line 1072 of file Bibliografia/Bibliografia.bib
+ : â€¨ 
+ :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
@@ -226,6 +240,8 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo title vazio em DadosGoverno
+Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
+while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
@@ -267,51 +283,52 @@ Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, 
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
+Warning--campo title vazio em akgungor2009artificial
 Warning--campo title vazio em Weka
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 73 entries,
+You've used 91 entries,
             6480 wiz_defined-function locations,
-            1613 strings with 21920 characters,
-and the built_in function-call counts, 54481 in all, are:
-= -- 4134
-> -- 1766
-< -- 129
-+ -- 725
-- -- 530
-* -- 3958
-:= -- 7121
-add.period$ -- 256
-call.type$ -- 73
-change.case$ -- 749
-chr.to.int$ -- 169
-cite$ -- 77
-duplicate$ -- 2836
-empty$ -- 4091
-format.name$ -- 2755
-if$ -- 12849
+            1692 strings with 25392 characters,
+and the built_in function-call counts, 67662 in all, are:
+= -- 5032
+> -- 2270
+< -- 162
++ -- 918
+- -- 680
+* -- 4952
+:= -- 8813
+add.period$ -- 313
+call.type$ -- 91
+change.case$ -- 953
+chr.to.int$ -- 214
+cite$ -- 96
+duplicate$ -- 3533
+empty$ -- 5046
+format.name$ -- 3523
+if$ -- 15925
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1264
-newline$ -- 376
-num.names$ -- 288
-pop$ -- 1742
+missing$ -- 1579
+newline$ -- 462
+num.names$ -- 360
+pop$ -- 2192
 preamble$ -- 1
-purify$ -- 287
+purify$ -- 361
 quote$ -- 0
-skip$ -- 2881
+skip$ -- 3569
 stack$ -- 1
-substring$ -- 2524
-swap$ -- 1329
-text.length$ -- 97
+substring$ -- 3018
+swap$ -- 1646
+text.length$ -- 121
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 7
-warning$ -- 5
-while$ -- 463
+type$ -- 10
+warning$ -- 6
+while$ -- 574
 width$ -- 0
-write$ -- 998
-(There were 115 error messages)
+write$ -- 1241
+(There were 122 error messages)

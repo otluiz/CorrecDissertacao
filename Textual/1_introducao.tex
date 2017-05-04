@@ -1,39 +1,38 @@
 \chapter{Introdução}\label{intro}
 
-\section{Justificativa do problema}\label{intro:problem}
+\section{Contextualização}\label{intro:problem}
 
-O século XXI caracteriza-se como sendo a Era do crescimento exponencial da informação. Essas informações são produzidas tanto por seres humanos, quanto por máquinas. Segundo Nobert Wiener \cite{Salles2007}, a informação tem tanta importância quanto a energia e a matéria. Essa informação pode ser utilizada para controlar sistemas baseados em comportamento biológico ou mecânico. Esse comportamento, quando controlado por meio de realimentação, tem como alvo atingir um objetivo, um propósito, como compreender, controlar, predizer.
+O século XXI caracteriza-se como sendo a Era do crescimento exponencial da informação. Essas informações são disponibilizadas das mais diversas formas, promovendo uma explosão de fatos e eventos aos quais as pessoas têm acesso. Todavia, justamente por haver essa infinidade de informações, é necessário que elas sejam agrupadas, tratadas, contextualizas, sob pena de, na ausência de uma organização, as informações se perderem e não oferecerem às pessoas a possibilidade de extrair delas o que é necessário, para uso adequado em sociedade.
+
+Uma questão relevante, que merece destaque é a distinção de Informação e Conhecimento. Xavier Costa \cite{xavier2011relaccoes} discutem sobre essa questão no âmbito da Ciência da Informação. Inicialmente, esses autores defendem que a Ciência da Informação surge como campo de investigação a partir da explosão de informações no contexto tecnológico, em meados do século XX, e ampliada com o advento da chamada "sociedade da informação".
+
+Le Coadic \cite{da1996coadic} discute que a Ciência da Informação é um fenômeno sociocognitivo e, por isso, mesmo, faz com que a CI necessite de uma abordagem interdisciplinar. Outra abordagem trata a informação como ``coisa'' (information-as-thing) ou como estrutura \cite{xavier2011relaccoes}. Essa abordagem estaria relacionada a um paradigma fisicista, em contraposição ao paradigma sociocognitivo. 
+
+Embora alguns pesquisadores utilizem os dois conceitos -- informação e conhecimento -- quase como sinônimos, outros recorrem à Epistemologia para diferenciar ambos \cite{xavier2011relaccoes}. A primeira perspectiva entende que quanto mais conhecimento, mais informação; e que novos conhecimentos possibilitam a produção de novas informações, numa movimento cíclico. A segunda perspectiva, embora não desconsidere a lógica existente na afirmação acima, entende que o conhecimento é produzido quando as informações são articuladas, em forma de teia, de rede, produzindo algo novo, que não estava contido em cada informação individualmente, mas que se caracteriza pela extrapolação delas.
+
+Essa segunda visão é que acatamos para essa pesquisa. A nossa proposta é de articular as informações produzidas pelas instituições ligadas ao trânsito em Pernambuco (PRF/PE), as que são produzidas pela rede social Twitter, e, com as tecnologias de IA -- Árvores de Decisão, Redes Neurais, dentre outras -- promover uma extrapolação, produzindo conhecimentos que serão disponibilizados em um modelo de predição.
+
+\section{Justificativa}
+
+As informações produzidas tanto por seres humanos, quanto por máquinas. Segundo Nobert Wiener \cite{Salles2007}, a informação tem tanta importância quanto a energia e a matéria. Essa informação pode ser utilizada para controlar sistemas baseados em comportamento biológico ou mecânico. Esse comportamento, quando controlado por meio de realimentação, tem como alvo atingir um objetivo, um propósito, como compreender, controlar, predizer.
 
 Os dados produzidos pelo ser humano atualmente dobram a cada cinco anos. As redes sociais, muito mais do que um ambiente lúdico, se configuram como um espaço onde as pessoas vão buscar informações para a gestão dos seus problemas cotidianos, bem como um lugar de coleta de informações para sistemas inteligentes proporem soluções mais adequadas á problemática humana e, ao mesmo tempo, com rapidez.
 
 Dados governamentais têm sido disponibilizados pelo governo brasileiro desde que este aderiu em 2009 ao movimento mundial para incentivar as autoridades dos países a maior transparência e participação popular conhecido, este movimento foi conhecido como ``Open Data'' \cite{DadosGoverno}. Desde então o Brasil vem se esforçando para disponibilizar informações governamentais para todos os cidadãos. Os dados utilizados nesta pesquisa também podem ser encontrados pelo Sistema BR-Brasil, da Polícia Rodoviária Federal. A Polícia Rodoviária Federal regista diariamente boletins de ocorrência, contudo, dados produzidos eletronicamente só estão disponíveis a partir de 2007.
 
-A inteligência artificial é uma área vai buscar essas informações e, com algoritmos eficientes, propor soluções inteligentes para dar conta das mais diversas necessidades humanas, sobretudo aquelas relacionadas ao contexto social, como logística de transporte, locomoção de pessoas, gestão de tempo, dentre outros. A Mineração de Dados (MD) vai buscar a Inteligência Artificial algoritmos para descoberta de padrões e automatizar tarefas na investigação dos dados, essa automatização também conhecida como ``Machine Learning'' aplica-se a quase todos os caminhos na descoberta do conhecimento oferecida pela MD.
+A inteligência artificial é uma área que pode, com algoritmos eficientes, propor soluções adaptativas para dar conta das mais diversas necessidades humanas, sobretudo aquelas relacionadas ao contexto social, como logística de transporte, locomoção de pessoas, gestão de tempo, dentre outros. A Mineração de Dados (MD) vai buscar na Inteligência Artificial algoritmos para descoberta de padrões e automatizar tarefas de investigação dos dados. Essa automatização também conhecida como ``Machine Learning'' aplica-se a quase todos os caminhos na descoberta do conhecimento oferecida pela MD.
  
-Uma instância do problemática descrita acima será tratada nesta pesquisa: o tráfego de veículos, transporte de mercadorias e locomoção nas rodovias.  Para isso será necessária a integração de bases de dados heterogêneas disponíveis em computadores de órgãos públicos 
+Uma instância da problemática descrita acima será central nesta pesquisa: o tráfego de veículos, transporte de mercadorias e locomoção nas rodovias.  Para isso foi necessária a integração de bases de dados heterogêneas disponíveis em computadores de órgãos públicos 
 que contenham informações de qualidade para gerar um modelo preditivo de roteamento logístico de transporte. Para isso serão considerados dados históricos de cada rodovia, com os trechos onde há mais 
 retenções que causam constrangimento nessas vias em determinados períodos do dia, que se repetem em meses e ao longo dos anos, tais como acidentes, protestos, intempéries ambientais.
 De forma complementar, serão utilizados informações de redes sociais, como o Twitter. A escolha dessa rede social se deu pelo fato de que um dos seus principais objetivos é o de compartilhar informações sucintas e pontuais entre os seus usuários, boa parte delas sobre eventos que influenciam o cotidiano das pessoas.
 
-Esta dissertação está organizada da seguinte forma:
-
-No Capítulo 1 a Introdução ...
-
-No Capítulo 2 é a Revisão da Literatura ...
-
-No Capítulo 3 está nossa Contribuição ...
-
-No Capítulo 4 a Simulação e execução do modelo proposto ...
-
-No Capítulo 5 nossas Considerações Finais ...
-
-Os anexos trazem os dados originais e ....
 
 %\pagebreak
 
 \section{ Motivação}\label{intro:motivacao}
 
-As rodovias federais que atravessam a região metropolitana e interior do estado de Pernambuco estão constantemente congestionadas, não apenas pela 
+As rodovias federais que atravessam a região metropolitana do Recife (RMR) e interior do Estado de Pernambuco estão constantemente congestionadas, não apenas pela 
 quantidade de veículos, mas por serem alvo de paralisações das mais diversas matizes, como protestos de trabalhadores, acidentes, danos na via, intempéries naturais e outros tipos de constrangimentos que interferem no fluxo de veículos. 
 Em situações extremas poderiam paralisar até a produção das fábricas no seu entorno \cite{BNDES2013}. 
 
@@ -42,7 +41,7 @@ Zona da Mata Norte (ZMN) com 577.191 habitantes e a Zona da Mata Sul (ZMS) com 7
 Nessas regiões (RMR, ZMN e ZMS) a frota (automóveis particulares, ônibus, caminhões, motocicletas, tratores e outros veículos) 
 foi contabilizada, em 2015, com mais de 1.270.000 veículos \cite{FrotaVeiculosIBGE}. Se considerarmos o interior do estado, essa frota aumenta para mais de 2.700.000 veículos, distribuídos nas regiões do Agreste e Sertão. Algumas cidades se destacam por concentrarem uma frota maior, como Caruaru, no agreste pernambucano, com mais de 150.000 veículos, e Petrolina, no sertão, com quase 130.000. 
 																			
-O que acontece nas grandes cidades do estado de Pernambuco e no seu entorno é frequentemente visto nas grandes cidades brasileiras.
+O que acontece nas grandes cidades do Estado de Pernambuco e no seu entorno é frequentemente visto nas grandes cidades brasileiras.
 Por outro lado, câmeras de monitoramento de trânsito, redes sociais, aplicativos de celular e outros dispositivos, fornecem informações diárias sobre o que acontece nessas 
 rodovias e no entorno delas, atualizando e alimentando bases de dados históricas, em repositórios espalhados pelos centros de 
 monitoramento de trânsito, isso é conhecido como \textit{Big data}.
@@ -51,16 +50,29 @@ Fora do perímetro urbano as rodovias atravessam outras localidades com problem�
 traçados inapropriados e outras intempéries têm causado frequentemente acidentes.
 A Polícia Rodoviária Federal ou outros órgãos de controle público atendem e registram esses acontecimentos em boletins diários.
 
-A proposição de uma solução para absorver parte dessas informações requer várias etapas, que engloba algumas técnicas de mineração de dados.
-Propomos, nessa pesquisa, uma solução peculiar para utilização das rotas existentes, definida por critérios cientificamente estudados, que seja materializado num modelo de predição.
-Isso poderá ser de suma importância para solucionar a problemática do tráfego em rodovias, fornecendo toda informação que se faz necessária para que o veículo até seu destino de maneira segura e no menor tempo possível.
+A proposição de uma solução para considerar parte dessas informações requer várias etapas, que engloba algumas técnicas de mineração de dados.
+Propomos, nessa pesquisa, uma solução para utilização e integração das rotas existentes, definida por critérios cientificamente estudados, que seja materializado em informações para um modelo de predição.
+Isso poderá ser de suma importância para solucionar a problemática do tráfego em rodovias, fornecendo apoio para que o veículo siga até seu destino de maneira segura e no menor tempo possível.
 
 %\pagebreak
+\vspace{5mm}
+
+Os próximos capítulos dessa dissertação estão organizados da seguinte forma:
+\vspace{2mm}
+
+No Capítulo 2, a Revisão da Literatura inicia-se com a apresentação do CRISP-DM  e todas as suas fases, o contexto da aplicação, ciclo de vida; a Mineração de Dados e suas técnicas empregues nesta pesquisa; mineração de textos e a rede social Twitter; Levantamento de pesquisas envolvendo IA aplicada ao problemas de tráfego em rodovias.  
+
+No Capítulo 3, apresentamos nossa Contribuição e a abordagem metodológica.
+
+O Capítulo 4 trata da simulação e execução do modelo proposto, bem como a articulação entre as diversas tecnologias e a discussão dos resultados encontrados.
+
+No Capítulo 5 são apresentadas as considerações finais e propostas de futuras pesquisas.
+
 
 \section{ Objetivo Geral}\label{intro:objetivo}
 
 Essa pesquisa teve como objetivo principal desenvolver um modelo preditivo de suporte à decisão para a problemática das retenções crescentes nas rodovias pernambucanas. 
-Para isso, propomos uma solução multidisciplinar através da integração de diversas tecnologias disponíveis,que vão desde a análise dos dados históricos das 
+Para isso, propomos uma solução multiperpectiva através da integração de fontes de dados via diversas tecnologias disponíveis que vão desde a análise dos dados históricos das 
 rodovias à utilização informações de redes sociais e dados governamentais.
 
 \subsection{ Objetivos Específicos}\label{intro:especificos}
@@ -68,8 +80,8 @@ rodovias à utilização informações de redes sociais e dados governamentais.
 \begin{itemize}
  \item Caracterizar a problemática de cada rodovia; 
  \item Desenvolver um modelo preditivo dos fenômenos que envolvem as rodovias;
- \item Desenvolver um ambiente de simulações interativas da estrutura com a dinâmica.
- \item Propor soluções para melhor experiência dos usuários que utilizam as rodovias pernambucanas.
+ \item Desenvolver um ambiente de simulações interativas da estrutura viária e sua dinâmica.
+ \item Propor soluções para melhor experiência dos usuários que utilizam as rodovias federais pernambucanas.
 \end{itemize}
 
 
