@@ -28,51 +28,50 @@
 \contentsline {figure}{\numberline {2.25}{\ignorespaces Rede Neural}}{51}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{57}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Matriz de Mortos 2D}}{59}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Matriz de Gravidade 3D}}{60}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces }}{60}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{61}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Etapas da metodologia}}{61}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Matriz de Mortos 2D - BR 101, Per\IeC {\'\i }odo: 2007 \IeC {\`a} 2015}}{59}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Matriz de Gravidade 3D3\IeC {\textordfeminine }feira - BR 101, Per\IeC {\'\i }odo: 2007 \IeC {\`a} 2015}}{60}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces O arco cibern\IeC {\'e}tico com o Twitter}}{61}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Etapas da metodologia}}{62}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{63}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{66}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Frequ\IeC {\^e}ncia}}{66}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{67}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Frequ\IeC {\^e}ncia}}{67}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{68}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Frequ\IeC {\^e}ncia}}{68}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{69}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequ\IeC {\^e}ncia}}{69}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{70}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Frequ\IeC {\^e}ncia}}{70}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{71}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Frequ\IeC {\^e}ncia}}{71}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{72}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Frequ\IeC {\^e}ncia}}{72}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{73}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Frequ\IeC {\^e}ncia}}{73}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{74}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Frequ\IeC {\^e}ncia}}{74}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{74}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Frequ\IeC {\^e}ncia}}{75}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{75}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Frequ\IeC {\^e}ncia}}{76}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{76}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{77}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o gerada pelo Knime}}{81}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Km 70, BR 101 (Sul) Pernambuco}}{83}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}}{83}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Km 64 e 67, BR 104 Pernambuco}}{84}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}}{84}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de Gravidade 3D: Br 116 predi\IeC {\c c}\IeC {\~a}o para quinta-feira}}{85}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Resultado da classifica\IeC {\c c}\IeC {\~a}o feita pelo Na\IeC {\"\i }ve Bayes -- acur\IeC {\'a}cia}}{86}
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Resultado da classifica\IeC {\c c}\IeC {\~a}o feita pela Rede Neural -- acur\IeC {\'a}cia}}{87}
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Gr\IeC {\'a}fico de frequ\IeC {\^e}ncia de palavras -- unigramas}}{89}
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Nuvem de palavras da Minera\IeC {\c c}\IeC {\~a}o em textos}}{89}
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Dendograma de Clusteriza\IeC {\c c}\IeC {\~a}o do resultado da minera\IeC {\c c}\IeC {\~a}o}}{90}
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Gr\IeC {\'a}fico da clusteriza\IeC {\c c}\IeC {\~a}o do resultado da minera\IeC {\c c}\IeC {\~a}o}}{90}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas da modelo proposto}}{64}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{67}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Frequ\IeC {\^e}ncia}}{67}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{68}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Frequ\IeC {\^e}ncia}}{68}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{69}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Frequ\IeC {\^e}ncia}}{69}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2) }}{70}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Frequ\IeC {\^e}ncia}}{70}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{71}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Frequ\IeC {\^e}ncia}}{71}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{72}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Frequ\IeC {\^e}ncia}}{72}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{73}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Frequ\IeC {\^e}ncia}}{73}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{74}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Frequ\IeC {\^e}ncia}}{74}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{75}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Frequ\IeC {\^e}ncia}}{75}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{75}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Frequ\IeC {\^e}ncia}}{76}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Hora do acidente (1) --- Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{76}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Frequ\IeC {\^e}ncia}}{77}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{77}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{78}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o gerada pelo Knime}}{82}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Km 70, BR 101 (Sul) Pernambuco}}{84}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}}{84}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Km 64 e 67, BR 104 Pernambuco}}{85}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}}{85}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de Gravidade 3D: Br 116 predi\IeC {\c c}\IeC {\~a}o para quinta-feira}}{86}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Resultado da classifica\IeC {\c c}\IeC {\~a}o feita pelo Na\IeC {\"\i }ve Bayes -- acur\IeC {\'a}cia}}{87}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Resultado da classifica\IeC {\c c}\IeC {\~a}o feita pela Rede Neural -- acur\IeC {\'a}cia}}{88}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Gr\IeC {\'a}fico de frequ\IeC {\^e}ncia de palavras -- unigramas}}{90}
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Nuvem de palavras da Minera\IeC {\c c}\IeC {\~a}o em textos}}{90}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Dendograma de Clusteriza\IeC {\c c}\IeC {\~a}o do resultado da minera\IeC {\c c}\IeC {\~a}o}}{91}
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Gr\IeC {\'a}fico da clusteriza\IeC {\c c}\IeC {\~a}o do resultado da minera\IeC {\c c}\IeC {\~a}o}}{91}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Mapa rodovi\IeC {\'a}rio de Pernambuco}}{96}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{98}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces }}{99}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Mapa rodovi\IeC {\'a}rio de Pernambuco}}{97}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Etapas 1 -- Coleta e uni\IeC {\~a}o das bases hist\IeC {\'o}ricas de acidentes e interdi\IeC {\c c}\IeC {\~o}es}}{99}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces }}{100}
