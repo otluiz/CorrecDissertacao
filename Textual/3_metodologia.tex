@@ -138,7 +138,7 @@ Onde:
  A figura 3.3 seguir representa a Matriz de Gravidade 3D da BR 101 para um terça-feira. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213 km); e a terceira dimensão (que não aparece nessa imagem),  contempla os dias da semana (1 - segunda-feira,..., 7 - domingo). 
  
  
- \begin{figure}
+ \begin{figure}[!ht]
  	\centering
  	\caption{Matriz de Gravidade 3D3ªfeira - BR 101, Período: 2007 à 2015}
  	\label{fig:MatrizGravidade3D2}
@@ -153,7 +153,7 @@ Ainda sobre as matrizes - Mortos e Gravidade - a primeira contempla o número ab
 \section{Arco cibernético com dados do Twitter}
 
 Os dados do Twitter permitem uma busca imediata por novas informações que poderão ser confrontadas com o 
-modelo preditivo, aumentando o nível de confiança deste. Com isso, as informações construirão um arco cibernético para reforçar ou não infere... ??(vide Figura 3.5). Segundo Wiener (1948), novas informações permitem realimentação aos sistemas, dotando-os de maior potencial adaptativo, como pode ser visto nos exemplos de tweets identificados nessa pesquisa: no trecho da Br 101, na altura do km 5, no 
+modelo preditivo, aumentando o nível de confiança deste. Com isso, as informações construirão um arco cibernético para reforçar ou não inferências anteriores(vide Figura 3.5). Segundo Wiener (1948), novas informações permitem realimentação aos sistemas, dotando-os de maior potencial adaptativo, como pode ser visto nos exemplos de tweets identificados nessa pesquisa: no trecho da Br 101, na altura do km 5, no 
 Município de Goiana, um utilizador do twitter publicou que a comunidade que mora no entorno dessa localidade fará um protesto nas primeiras horas do dia seguinte, devido a um  
 atropelamento ocorrido na BR; ou a PRF publicou que o km 80 da Br 232, na altura do Município de Gravatá, será interditada no dia seguinte, por 2h, para 
 remoção/explosão de rochas.
@@ -161,35 +161,35 @@ remoção/explosão de rochas.
 No entanto, quando as informações provenientes do modelo de predição entrarem em conflito com as informações 
 provenientes das redes sociais \footnote{O sistema de predição é baseado em cálculos probabilísticos}, para estes casos a decisão de qual ação será tomada estará ``nas mãos'' do agente, do observador ou do utilizador.
 
-As informações das redes sociais que comporão o arco cibernético não deverão retroalimentar o modelo de predição já construído, pois o fluxo decisório já foi tomado pelo observador. Os dados a posteriori geralmente não servem para um modelo de predição, uma vez que podem enviesar o sistema preditivo. Mas a depender de sua qualidade podem ser considerados.
+As informações das redes sociais que comporão o arco cibernético não deverão retroalimentar o modelo de predição já construído, pois o fluxo decisório já foi tomado pelo observador. Os dados a posteriori geralmente não servem para um modelo de predição, uma vez que podem enviesar o sistema preditivo {, mas a depender de sua qualidade podem ser considerados}.
 
 \begin{figure}[ht]
 	\centering
-	\caption{O arco cibernético com o Twitter}
-	\includegraphics[width=90mm, height=45mm]{Figuras/Metodologia/ArcoCibernetico.png}\\
+	\caption{Arco cibernético com dados do Twitter}
+	\includegraphics[width=100mm, height=45mm]{Figuras/Metodologia/ArcoCibernetico.png}\\
 	\tiny Fonte: autor
 \end{figure}
 
-\pagebreak
+\vspace{10mm}
 
 \section{Extrapolação para georreferenciamento}
 
-Os pontos críticos das matrizes geradas (de morte ou de gravidade) constituem-se como marcadores no mapa, que deverão ser levados em conta pelos utilizadores quando estiverem passando pelo local referenciado, conforme a Figura 3.6.
-
+As matrizes apresentadas anteriormente (Figura 3.2 e Figura 3.3) representam pontos críticos, aqueles relacionados com a ocorrência de acidentes graves. Quando a entrada é 0 (zero) nas matrizes, significa que não houve ocorrência naquele local da BR, portanto, quanto maior o valor do ponto crítico, maior gravidade ou maior probabilidade de ocorrência de acidentes na rodovia. 
+Estes pontos podem ser extrapolados para um mapa, a fim de auxiliar os condutores que estejam usando essa tecnologia, quando trafegarem por um determinado trecho da rodovia. Tais pontos são conhecidos nessa pesquisa como extrapolação para georreferenciamento, conforme a Figura 3.5.
 
 \begin{figure}[ht]
 	\centering
 	\caption{Etapas da metodologia}
-	\includegraphics[width=150mm, height=110mm]{Figuras/Cronograma/GoogleMaps.png}\\
+	\includegraphics[width=150mm, height=110mm]{Figuras/Metodologia/georreferenciamento.png}\\
 	\tiny Fonte: Google Maps
 \end{figure}
 
 
 \pagebreak
 
-Os locais nos Mapas, com os pontos críticos estão situados sob as rodovias. 
+Os locais nos Mapas em que aparecem pontos críticos (representados pelas cruzes: cruzes grandes - grande concentração de acidentes graves; cruzes pequenas - demais acidentes) são utilizados para traçar o roteiro de uma viagem, por exemplo, partindo do ponto A para o ponto B, indicado na rodovia. 
 A seguir, Tabela 3.2, uma relação de todas as BRs que cruzam o Estado de Pernambuco que contém esses pontos. 
-O georreferenciamento, para esta pesquisa se dará pelo indicador do Km em cada BR.
+O georreferenciamento para esta pesquisa se dará pelo indicador do Km em cada BR.
 
 \begin{table}[!ht]
 	\centering
@@ -217,6 +217,27 @@ O georreferenciamento, para esta pesquisa se dará pelo indicador do Km em cada 
 
 \vspace{7mm}
 
-O capítulo a seguir contemplará os resultados encontrados após a execução de todas as fases aqui apresentadas.
+Para exemplificar a utilização dessas matrizes, foi escolhido o roteamento entre dois pontos, partindo da cidade de Goiana (km 0 da BR 101) à cidade do Recife (km 60 da BR 101). Este trecho é conhecido por ter um tráfego intenso, com velocidade  baixa, devido ao número de veículos que trafegam em determinados horários, bem como, pela inúmera quantidade de acidentes graves, limitadores de velocidade (lombadas eletrônicas e físicas) e elevada quantidade de buracos. Estipularemos portanto, 20km/h em média, com fluxo de trânsito descontinuo. Normalmente, o fluxo contínuo ocorre quando não estão presentes os limitadores elencados anteriormente.
 
+\begin{figure}[ht]
+	\centering
+	\caption{Rota: Goiana - Recife, a partir da Matriz de Gravidade 3D para 2ª-feira}
+	\includegraphics[width=160mm, height=70mm]{Figuras/Metodologia/RotaExemplo.png}\\
+	\tiny Fonte: o Autor
+\end{figure}
 
+A Figura 3.6 pode ser analisada da seguinte forma:
+ Três veículos partiram em uma segunda-feira de Goiana com destino ao Recife em horários diferentes. O Veículo-X partiu às 5h da manhã, Veículo-y às 6h e o Veículo-z partiu às 7h. 
+ Os primeiros, segundos e terceiros trechos de 20 km (km 0 - 20; km 21 a 40; km 41 a 60) foram obtidos a partir da Matriz de Gravidade 3D, calculada para uma segunda-feira. Os valores de preenchimento dessa matriz são fornecido pela aplicação da Equação 3.1. Na primeira linha do primeiro trecho (km 0 a 20) o Veículo-x obteve somatório 10.656, o Veículo-y 18,394 e o terceiro, Veículo-z, 29,922.
+ 
+ No cômputo geral, para cada veículo, em cada trecho, foram obtidos os valores abaixo:
+ 
+ \begin{itemize}
+ 	\item Veículo-x: 10,656 +  7,442 + 119,725 = 137,823
+ 	\item Veículo-y: 18,394 +  5,644 + 175,894 = 199,932
+ 	\item Veículo-z: 29,922 + 37,374 + 120,247 = 187.543
+ \end{itemize} 
+ 
+ Segundo a aplicação da Equação 3.1, o Veículo-x chegará primeiro ao Recife, seguido pelo Veículo-z e, por último, o Veículo-y. Portanto, no exemplo acima, um condutor que parta de Goiana às 5h da manhã poderá chegar ao Recife em torno de três horas (velocidade média: 20km/h). Todavia, se por algum motivo esse condutor não conseguir partir às 5h da manhã, deverá fazê-lo às 7h, e não às 6h. 
+ 
+ 

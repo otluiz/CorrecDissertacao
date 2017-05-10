@@ -33,22 +33,22 @@
 \contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{57}
 \contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{58}
 \contentsline {section}{\numberline {3.4}Arco cibern\IeC {\'e}tico com dados do Twitter}{60}
-\contentsline {section}{\numberline {3.5}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{62}
+\contentsline {section}{\numberline {3.5}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{61}
 \contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{64}
 \contentsline {section}{\numberline {4.1}Execu\IeC {\c c}\IeC {\~a}o do modelo}{64}
 \contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{65}
 \contentsline {subsection}{\numberline {4.2.1}Aplica\IeC {\c c}\IeC {\~a}o do CRISP-DM}{65}
 \contentsline {subsubsection}{Fases da Minera\IeC {\c c}\IeC {\~a}o ao KDD}{65}
 \contentsline {subsection}{\numberline {4.2.2}Dados encontrados antes da Minera\IeC {\c c}\IeC {\~a}o}{67}
-\contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{78}
-\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{78}
-\contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utlizados nesta pesquisa}{87}
-\contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{89}
-\contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{89}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{92}
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{95}
-\contentsline {chapter}{\numberline {A}Preprocessamento}{97}
-\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{97}
-\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{98}
-\contentsline {section}{\numberline {A.2}Preprocessamento dos dados do Twitter}{100}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{101}
+\contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{80}
+\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{80}
+\contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utlizados nesta pesquisa}{89}
+\contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{91}
+\contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{91}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{94}
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{97}
+\contentsline {chapter}{\numberline {A}Preprocessamento}{99}
+\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{99}
+\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{100}
+\contentsline {section}{\numberline {A.2}Preprocessamento dos dados do Twitter}{102}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{103}

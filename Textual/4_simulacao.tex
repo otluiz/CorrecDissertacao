@@ -1,9 +1,10 @@
 \chapter{Simulação}\label{simula}
 
+\section{Execução do modelo}
+
 Esse capítulo apresenta os resultados encontrados em cada etapa, no processo de desenvolvimento do modelo de predição de ocorrências nas principais BRs do estado de Pernambuco, para definição de melhores rotas e horários para os usuários dessas vias.
 
-
-\section{Execução do modelo}
+\vspace{5mm}
 
 A figura a seguir resume as três etapas contempladas na proposição do modelo.
 
@@ -28,16 +29,15 @@ A \textbf{etapa 1} contempla a fase da coleta das bases de dados históricos, pr
   
 A \textbf{segunda} etapa contempla:
  \begin{enumerate}
-    \item Representação da malha viária em mapas de bases vetoriais;
-    \item Um ambiente de simulação interativa que utiliza uma plataforma baseada na API do Google Maps.
-    \item Quando houver informações vindas do twitter sobre ocorrências na rodovia, deverá ser feita a geolocalização. 
+ 	\item Um módulo dinâmico onde são capturados ``feeds'' da rede social Twitter. 
+ 	     Essa técnica faz um arco cibernético mantendo o utilizador atualizado com as informações recentes. 
   \end{enumerate}
 
 A \textbf{terceira} e última etapa consiste em um módulo com as seguintes características:
   \begin{enumerate}
-     \item Um módulo dinâmico onde são capturados ``feeds'' da rede social Twitter. 
-	Essa técnica faz um arco cibernético mantendo o utilizador atualizado com as informações recentes.
-     %\item Através de um interligação a um banco de dados, esses ``feeds'' poderão ser usados para futuras predições.
+    \item Representação da malha viária em mapas de bases vetoriais;
+    \item Um ambiente de simulação interativa que utiliza uma plataforma baseada na API do Google Maps.
+    \item Quando houver informações vindas do twitter sobre ocorrências na rodovia, deverá ser feita a geolocalização
   \end{enumerate}
 
 
@@ -95,11 +95,11 @@ Tanto na ferramenta Knime como Weka o algoritmo de árvore de decisão é chamad
 uma vez que se trata da implementação Java do algoritmo
 C4.5 no R. A biblioteca “rparty” implementa esse algoritmo.
 
-Para escolha das variáveis de input foi calculada a correlação linear entre todas as variáveis. Entre as variáveis BR e
+Para escolha das variáveis de entrada foi calculada a correlação linear entre todas as variáveis. Entre as variáveis BR e
 Delegacia (variável que agrega municípios) obteve-se correlação linear de 0,653. Entre Tipo de Acidente e Traçado via a
 correlação foi baixa, apenas 0,14. Variáveis com correlação linear abaixo disso foram descartadas. 
 
-Outra métrica para a escolha de variáveis de input foi a entropia, que é um elemento considerado importante pela literatura \cite{NorvigRussel2004}. Nesse caso, variáveis que seriam desconsideradas em virtude da baixa correlação linear, foram reconsideradas por conta da entropia.
+Outra métrica para a escolha de variáveis de entrada foi a entropia, que é um elemento considerado importante pela literatura \cite{NorvigRussel2004}. Nesse caso, variáveis que seriam desconsideradas em virtude da baixa correlação linear, foram reconsideradas por conta da entropia.
 
 Interpretação/Avaliação: Produção de árvores de decisão a
 partir do estabelecimento de diferentes nós-raízes, definidos em
@@ -114,7 +114,7 @@ Os dados revelaram que a grande maioria dos acidentes ocorre com pista seca, sem
 A cor vermelha remete aos trechos BR 101 em que ocorrem mais acidentes. A cor azul diz respeito à menor frequência de acidentes.
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2) }
+	\caption{BR 101: Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br101.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br101_2.png}
 	
@@ -138,8 +138,8 @@ Especulou-se, a priori, que a variável “traçado da rodovia” ou que as cond
 
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2) }
-	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br104_1.png}
+	\caption{BR 104: Hora do acidente (1) Concentração em torno da hora (2)}
+	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br104_12.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br104_2.png}
 
 \end{figure}
@@ -163,7 +163,7 @@ No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidente
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2) }
+	\caption{BR 110: Hora do acidente (1)  Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br110_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br110_2.png}
 
@@ -181,7 +181,7 @@ No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidente
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2) }
+	\caption{BR: 116 Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br116_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br116_2.png}
 
@@ -204,9 +204,9 @@ Inicialmente acreditou-se que a variável “traçado da rodovia” ou que as co
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 232: Hora do acidente (1)  Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br232_1.png}
-	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br232_2.png}
+	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br232_32.png}
 
 \end{figure}
 
@@ -218,7 +218,7 @@ Inicialmente acreditou-se que a variável “traçado da rodovia” ou que as co
 \end{figure}
 
 O gráfico 4.10(1), 4.10(2)  e 4.11 trazem dados da BR 232, cuja importância se destaca pelo fato de atravessar todo o estado de Pernambuco, de leste a oeste. O primeiro gráfico apresenta os acidentes dos últimos nove anos, em cada hora (abcissa) e Km (ordenada). O  gráfico 4.10(2) corresponde ao local onde aconteceram esses acidentes. É possível perceber no gráfico 4.11, que nessa BR há um número maior de acidentes nos Km 0, 90, 110, 260, 410 e 500, desde a 00h até as 23h. O terceiro gráfico (‘boxplot’) exibe a concentração das ocorrências em torno da mediana dessa localidade (Km). 
-Especulou-se a priori que a variável “traçado da rodovia” ou que as condições climáticas eram as principais responsáveis pelo grande número de acidentes. Posteriormente foram identificadas outras causas que influenciam mais fortemente essas ocorrências. 
+Especulou-se a priori que a variável “traçado da rodovia” ou que as condições climáticas eram as principais responsáveis pelo grande número de acidentes.
 
 
 
@@ -226,7 +226,7 @@ Especulou-se a priori que a variável “traçado da rodovia” ou que as condi�
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 316: Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br316_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br316_2.png}
 
@@ -239,12 +239,13 @@ Especulou-se a priori que a variável “traçado da rodovia” ou que as condi�
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br316_3.png}
 \end{figure}
 
+O gráfico 4.12(1), 4.12(2)  e 4.13 trazem dados da BR 316. Esta BR é uma das menores do Estado de Pernambuco, de oeste a leste. O primeiro gráfico apresenta uma área em branco no centro, os acidentes se concentram nas extremidades, no entorno do km 90 e 300 (da abcissa) e acontecem com maior frequência em torno das 17h00 (ordenada).
 
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 407: Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br407_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br407_3.png}
 
@@ -257,14 +258,14 @@ Especulou-se a priori que a variável “traçado da rodovia” ou que as condi�
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br407_2.png}
 \end{figure}
 
-Na BR 407 os acidentes se concentram na altura do Km
-130.
+Na BR 407 os acidentes se concentram na altura do Km 130, representados nos gráficos 4.14 (1) e 4.14 (2).
+Esta BR situa-se no extremo oeste do Estado, ligando a cidade de Afrânio a Petrolina. A peculiaridade desse trecho (km 130) é verificada na descida da ponte que atravessa o rio São Francisco.
 
-
+\pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 408: Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br408_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br408_2.png}
 
@@ -277,12 +278,12 @@ Na BR 407 os acidentes se concentram na altura do Km
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br408_3.png}
 \end{figure}
 
-
+O gráfico 4.16 (1), 4.16 (2)  e 4.17 representam a BR 408. Em Pernambuco esta BR liga a cidade de Timbaúba a Jaboatão dos Guararapes. Esta BR tem importância a medida integra o setor industrial de autopeças no norte de Pernambuco proporcionado pela fábrica da Fiat (FCA) ligando-se ao polo industrial do sul do Estado. 
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 423: Hora do acidente (1)  Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br423_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br423_2.png}
 	
@@ -292,15 +293,15 @@ Na BR 407 os acidentes se concentram na altura do Km
 \begin{figure}[h]
 	\centering
 	\caption{ Frequência}
-%	\includegraphics[width=5cm,height=6cm]{Figuras/Preprocess/br423_3.png}
+	\includegraphics[width=5cm,height=6cm]{Figuras/Preprocess/br423_3.png}
 \end{figure}
 
-
+A BR 423 4.18 (1), 4.18 (2)  e 4.19, esta BR é a mais estratégica rodovia do Nordeste por ser o elo entre a BR 232 (a mais extensa BR do Estado de Pernambuco) à principal hidroelétrica da região; Paulo Afonso. Esta rodovia inicia-se no município de São Caetano indo até a fronteira com o estado de Alagoas no município de Itaíba, com 196,2 km é a 4ª mais extensão do Estado.
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 424: Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br424_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br424_2.png}
 	
@@ -313,13 +314,13 @@ Na BR 407 os acidentes se concentram na altura do Km
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br424_3.png}
 \end{figure}
 
-
+A rodovia BR 424 inicia em Arcoverde e termina em Correntes. Com extensão de 133,9 km tem características semelhantes à BR 423 (vide gráficos 4.20 (1 e 2) e 4.21), contudo esta rodovia tem importância secundária interligando o importante município do Agreste, Garanhuns, à BR 424.
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 \begin{figure}[h]
-	\caption{Hora do acidente (1) --- Concentração em torno da hora (2)}
+	\caption{BR 428: Hora do acidente (1) Concentração em torno da hora (2)}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br428_1.png}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br428_2.png}
 	
@@ -332,30 +333,33 @@ Na BR 407 os acidentes se concentram na altura do Km
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br428_3.png}
 \end{figure}
 
-
+A BR 428 é a 11ª rodovia federal estudada nesta pesquisa, ela conecta os municípios de Belém do São Francisco ao município de Petrolina, o maior do Sertão pernambucano. Esta rodovia contorna o Rio São Francisco pela margem norte. Nesta rodovia o ponto crítico situa-se no entorno do km 180 sendo que, cerca das 19h00 o horário que ocorrem o maior número de acidentes (vide gfáfico 4.22).  
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[ht]
 \begin{center}
 \caption{Tipo de Veículo X Num. Acidentes}
-\includegraphics[width=150mm, height=80mm]{Figuras/Preprocess/TipoVeiculoXNumAciden.png}\\
+\includegraphics[width=150mm, height=90mm]{Figuras/Preprocess/TipoVeiculoXNumAciden.png}\\
 \tiny Fonte: o Autor
 \end{center}
 \end{figure}
 
-O maior número de acidentes ocorre com automóvel de passeio, provavelmente condutores comuns, não profissionalizados.
-O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das motonetas. 
+O número elevado de acidentes que tem por causa o automóvel de passeio que trafega por via retilínea, provavelmente condutores comuns, não profissionalizados.
+O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das motonetas (motocicletas com portência limnitada). 
+
+\pagebreak
 
 \begin{figure}[ht]
 \begin{center}
 \caption{Traçado da via X Num. Acidentes}
-\includegraphics[width=120mm, height=70mm]{Figuras/Preprocess/TracadoViaNumAcident.png}\\
+\includegraphics[width=150mm, height=50mm]{Figuras/Preprocess/TracadoViaNumAcident.png}\\
 \tiny Fonte: o Autor
 \end{center}
 \end{figure}
 
-Os dados revelam que o tipo de traçado da via não tem influência primordial nas estatísticos de acidentes, pois a maioria dos acidentes ocorre em pista retilínea. Os dados sugerem, ainda, que o condutor é o principal responsável pelo maior número de ocorrências nas BRs. Isso direciona essa pesquisa para analisar e antever o comportamento do condutor, além das condições da rodovia.
+
+Os dados do gráfico 4.25 revelam que o tipo de traçado da via (em linha reta) aparenta não influenciar a causa do elevado número de acidentes, pois a maioria dos acidentes ocorre em pista retilínea sugerindo assim que o condutor é o principal responsável pelo maior número de ocorrências nas BRs. Isso direciona essa pesquisa para analisar e antever o comportamento do condutor, perante às condições externa, além das condições da rodovia.
 
 \pagebreak
 

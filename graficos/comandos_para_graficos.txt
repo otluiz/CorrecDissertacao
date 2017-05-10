@@ -1,3 +1,0 @@
-## cria um gráfico comum com duas cores
-plot(xx,KM,col=ifelse(KM<100,"blue","red"), xlab="hora acidente", ylab="Km ocorrência")
-
