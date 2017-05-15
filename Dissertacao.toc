@@ -15,40 +15,37 @@
 \contentsline {subsection}{\numberline {2.4.1}Minera\IeC {\c c}\IeC {\~a}o de Dados/Textos em Redes sociais}{27}
 \contentsline {subsubsection}{Introdu\IeC {\c c}\IeC {\~a}o ao estudo das Redes Sociais}{27}
 \contentsline {subsubsection}{O Twitter}{29}
-\contentsline {subsubsection}{Modalidades e ferramentas de an\IeC {\'a}lise do Twitter}{31}
-\contentsline {section}{\numberline {2.5}Aprendizagem de M\IeC {\'a}quina}{36}
-\contentsline {subsection}{\numberline {2.5.1}Tipos de Aprendizagem}{36}
-\contentsline {subsection}{\numberline {2.5.2}Algoritmos de Aprendizagem de M\IeC {\'a}quina}{37}
-\contentsline {subsubsection}{Na\IeC {\"\i }ve Bayes}{37}
-\contentsline {subsubsection}{\IeC {\'A}rvores de Decis\IeC {\~a}o}{38}
-\contentsline {subsubsection}{Redes Neurais}{42}
-\contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~o}es e funcionamento de uma Rede Neural Artificial}{43}
-\contentsline {subsubsection}{Aplica\IeC {\c c}\IeC {\~o}es e Tipos de Redes Neurais}{45}
-\contentsline {subsubsection}{Aprendizado em Redes Neurais}{47}
-\contentsline {section}{\numberline {2.6}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{49}
-\contentsline {subsection}{\numberline {2.6.1}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{50}
-\contentsline {subsection}{\numberline {2.6.2}Pesquisas envolvendo intelig\IeC {\^e}ncia artificial e tr\IeC {\'a}fego em rodovias}{51}
-\contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{55}
-\contentsline {section}{\numberline {3.1}Modelo Proposto}{56}
-\contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{57}
-\contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{58}
-\contentsline {section}{\numberline {3.4}Arco cibern\IeC {\'e}tico com dados do Twitter}{60}
-\contentsline {section}{\numberline {3.5}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{61}
-\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{64}
-\contentsline {section}{\numberline {4.1}Execu\IeC {\c c}\IeC {\~a}o do modelo}{64}
-\contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{65}
-\contentsline {subsection}{\numberline {4.2.1}Aplica\IeC {\c c}\IeC {\~a}o do CRISP-DM}{65}
-\contentsline {subsubsection}{Fases da Minera\IeC {\c c}\IeC {\~a}o ao KDD}{65}
-\contentsline {subsection}{\numberline {4.2.2}Dados encontrados antes da Minera\IeC {\c c}\IeC {\~a}o}{67}
-\contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{80}
-\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{80}
-\contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utlizados nesta pesquisa}{89}
-\contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{91}
-\contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{91}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{94}
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{97}
-\contentsline {chapter}{\numberline {A}Preprocessamento}{99}
-\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{99}
-\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{100}
-\contentsline {section}{\numberline {A.2}Preprocessamento dos dados do Twitter}{102}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{103}
+\contentsline {subsubsection}{Modalidades e ferramentas de an\IeC {\'a}lise do Twitter}{30}
+\contentsline {section}{\numberline {2.5}Aprendizagem de M\IeC {\'a}quina}{35}
+\contentsline {subsection}{\numberline {2.5.1}Tipos de Aprendizagem}{35}
+\contentsline {subsection}{\numberline {2.5.2}Algoritmos de Aprendizagem de M\IeC {\'a}quina}{36}
+\contentsline {subsubsection}{Na\IeC {\"\i }ve Bayes}{36}
+\contentsline {subsubsection}{\IeC {\'A}rvores de Decis\IeC {\~a}o}{37}
+\contentsline {subsubsection}{Redes Neurais}{41}
+\contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~o}es e aprendizado em Redes Neurais Artificiais}{41}
+\contentsline {section}{\numberline {2.6}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{42}
+\contentsline {subsection}{\numberline {2.6.1}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{43}
+\contentsline {subsection}{\numberline {2.6.2}Pesquisas envolvendo intelig\IeC {\^e}ncia artificial e tr\IeC {\'a}fego em rodovias}{44}
+\contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{48}
+\contentsline {section}{\numberline {3.1}Modelo Proposto}{49}
+\contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{50}
+\contentsline {section}{\numberline {3.3}Extra\IeC {\c c}\IeC {\~a}o do conhecimento - KDD}{51}
+\contentsline {section}{\numberline {3.4}Arco cibern\IeC {\'e}tico com dados do Twitter}{53}
+\contentsline {section}{\numberline {3.5}Extrapola\IeC {\c c}\IeC {\~a}o para georreferenciamento}{54}
+\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~a}o}{57}
+\contentsline {section}{\numberline {4.1}Execu\IeC {\c c}\IeC {\~a}o do modelo}{57}
+\contentsline {section}{\numberline {4.2}A constru\IeC {\c c}\IeC {\~a}o do Modelo preditivo}{59}
+\contentsline {subsection}{\numberline {4.2.1}Aplica\IeC {\c c}\IeC {\~a}o do CRISP-DM}{59}
+\contentsline {subsubsection}{Fases da Minera\IeC {\c c}\IeC {\~a}o ao KDD}{59}
+\contentsline {subsection}{\numberline {4.2.2}Dados encontrados antes da Minera\IeC {\c c}\IeC {\~a}o}{60}
+\contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{72}
+\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{72}
+\contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utilizados nesta pesquisa}{81}
+\contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{84}
+\contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{85}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{88}
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{91}
+\contentsline {chapter}{\numberline {A}Preprocessamento}{93}
+\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{93}
+\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{94}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{96}

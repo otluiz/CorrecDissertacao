@@ -3,19 +3,27 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Minera\IeC {\c c}\IeC {\~a}o de dados -- contexto de aplica\IeC {\c c}\IeC {\~a}o \cite {Crisp2000}}}{19}
 \contentsline {table}{\numberline {2.2}{\ignorespaces Volume de dados no mundo}}{28}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Matriz de Confus\IeC {\~a}o}}{49}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Matriz modelo de Confus\IeC {\~a}o}}{50}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Matriz de Confus\IeC {\~a}o}}{43}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Matriz modelo de Confus\IeC {\~a}o}}{43}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Vari\IeC {\'a}veis transformadas}}{58}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Rodovias BRs que atravessam Pernambuco}}{62}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Vari\IeC {\'a}veis transformadas}}{51}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Rodovias BRs que atravessam Pernambuco}}{55}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe Tipo Acidente}}{81}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel Tipo de acidente}}{81}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe Gravidade}}{82}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel Gravidade}}{82}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe BR}}{82}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel BRajustada}}{83}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe Tipo Acidente}}{73}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel Tipo de acidente}}{73}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe Gravidade}}{73}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel Gravidade}}{74}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe BR}}{74}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel BRajustada}}{74}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Linhda da Matriz de confus\IeC {\~a}o correspondente a BR 101}}{75}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel BRajustada}}{75}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Matriz de confus\IeC {\~a}o para a vari\IeC {\'a}vel BRajustada}}{75}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Inst\IeC {\^a}ncias classificadas e Erro m\IeC {\'e}dio}}{81}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Detalhe da acur\IeC {\'a}cia para classe BRajusta}}{81}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Matriz de confus\IeC {\~a}o -- BRajustada -- Na\IeC {\"\i }ve Bayes}}{82}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Matriz de confus\IeC {\~a}o -- BRajustada -- Na\IeC {\"\i }ve Bayes}}{82}
+\contentsline {table}{\numberline {4.14}{\ignorespaces Matriz de confus\IeC {\~a}o -- BRajustada -- Na\IeC {\"\i }ve Bayes}}{82}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Vari\IeC {\'a}veis originais da base de acidentes}}{100}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Vari\IeC {\'a}veis originais da base de interdi\IeC {\c c}\IeC {\~o}es}}{101}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Vari\IeC {\'a}veis originais da base de acidentes}}{94}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Vari\IeC {\'a}veis originais da base de interdi\IeC {\c c}\IeC {\~o}es}}{95}

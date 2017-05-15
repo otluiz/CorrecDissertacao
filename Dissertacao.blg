@@ -18,7 +18,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11279 items from 5000.
+Reallocated field_info (elt_size=4) to 11348 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 498 of file Bibliografia/Bibliografia.bib
@@ -27,10 +27,10 @@ I was expecting a `,' or a `}'---line 498 of file Bibliografia/Bibliografia.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "ICWSM09154" isn't style-file defined
---line 637 of file Bibliografia/Bibliografia.bib
+--line 638 of file Bibliografia/Bibliografia.bib
 Warning--entry type for "Decision2014" isn't style-file defined
---line 654 of file Bibliografia/Bibliografia.bib
-I was expecting an "="---line 1072 of file Bibliografia/Bibliografia.bib
+--line 655 of file Bibliografia/Bibliografia.bib
+I was expecting an "="---line 1073 of file Bibliografia/Bibliografia.bib
  : â€¨ 
  :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
 I'm skipping whatever remains of this entry
@@ -56,95 +56,15 @@ Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
+Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
+Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
+Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
+Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
+Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2095 of file Bibliografia/abnt-num.bst
@@ -244,23 +164,7 @@ Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "Jagadish, H. V., Gehrke, J., Labrinidis, A., Papakontantinou, Y., Patel, J. M., Ramakrishnan, R. and C. Shahabi" for entry bigdataQualquerUm
+Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2150 of file Bibliografia/abnt-num.bst
@@ -284,51 +188,50 @@ while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
 Warning--campo title vazio em akgungor2009artificial
-Warning--campo title vazio em Weka
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 91 entries,
+You've used 92 entries,
             6480 wiz_defined-function locations,
-            1692 strings with 25392 characters,
-and the built_in function-call counts, 67662 in all, are:
-= -- 5032
-> -- 2270
-< -- 162
-+ -- 918
-- -- 680
-* -- 4952
-:= -- 8813
-add.period$ -- 313
-call.type$ -- 91
-change.case$ -- 953
-chr.to.int$ -- 214
+            1699 strings with 25579 characters,
+and the built_in function-call counts, 68164 in all, are:
+= -- 5065
+> -- 2283
+< -- 166
++ -- 923
+- -- 684
+* -- 4972
+:= -- 8875
+add.period$ -- 317
+call.type$ -- 92
+change.case$ -- 963
+chr.to.int$ -- 218
 cite$ -- 96
-duplicate$ -- 3533
-empty$ -- 5046
-format.name$ -- 3523
-if$ -- 15925
+duplicate$ -- 3584
+empty$ -- 5077
+format.name$ -- 3543
+if$ -- 16050
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1579
-newline$ -- 462
-num.names$ -- 360
-pop$ -- 2192
+missing$ -- 1598
+newline$ -- 466
+num.names$ -- 364
+pop$ -- 2210
 preamble$ -- 1
-purify$ -- 361
+purify$ -- 364
 quote$ -- 0
-skip$ -- 3569
+skip$ -- 3610
 stack$ -- 1
-substring$ -- 3018
-swap$ -- 1646
-text.length$ -- 121
+substring$ -- 2989
+swap$ -- 1676
+text.length$ -- 124
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
-warning$ -- 6
-while$ -- 574
+warning$ -- 5
+while$ -- 580
 width$ -- 0
-write$ -- 1241
-(There were 122 error messages)
+write$ -- 1258
+(There were 74 error messages)

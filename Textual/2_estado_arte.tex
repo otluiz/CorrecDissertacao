@@ -339,10 +339,7 @@ Uma parte desses dados são as redes sociais. A rede social escolhida para esta 
 
 \subsubsection{O Twitter}
 
-O Twitter e o Facebook estão entre as mais populares ferramentas de mídias sociais do público em geral. Uma das características-chave
-dessas ferramentas é que elas habilitam uma comunicação em dois sentidos e interação entre usuários. A natureza do diálogo tipicamente envolve um tópico específico, muitas vezes relacionados a acontecimentos que têm influência direta na vida das pessoas ou que chamam sua atenção, como eventos de cunho politico, catástrofes naturais, acidentes com vítimas graves, atentados, dentre outros.
-
-O Twitter, rede social que interessa a essa pesquisa, caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato \cite{francca14big}. A cada dia centenas de terabytes são inseridos nos seus bancos de dados, conhecidos como Hadoop data warehouse, tornado impossível capturar todas as informações produzidas em um largo espaço de tempo, portanto ou se analisa o Streaming de dados ou a API.
+O Twitter caracteriza-se como um microblog onde os usuários escrevem em um espaço delimitado (cerca de 140 caracteres) sobre os mais diversos assuntos. Tais usuários conectam o aplicativo por meio de uma multiplicidade de dispositivos: computadores, tablets e celulares, formando uma grande rede social mundial. Essa rede possui duas diferentes APIs, responsáveis pela captura dos dados: Rest API e Streaming API. O Twitter funciona com o padrão de arquivos JSON e os dados são capturados nesse formato \cite{francca14big}. A cada dia centenas de terabytes são inseridos nos seus bancos de dados, conhecidos como Hadoop data warehouse, tornado impossível capturar todas as informações produzidas em um largo espaço de tempo, portanto ou se analisa o Streaming de dados ou a API.
 
 A ideia inicial do Twitter, segundo seus fundadores, era de que essa rede se comportasse como um “SMS da Internet” (30). As informações são enviadas aos usuários, conhecidas como twittes, em tempo real e também enviadas aos usuários seguidores que tenham assinatura para recebê-las: os seguidores. A conexão entre os usuários da rede social se deve à relação entre os seguidores e os seguidos. O comportamento do seguidor para retweetar os usuários seguidos serve como principal mecanismo para compartilhar informações nessas redes.
 
@@ -362,8 +359,6 @@ Em 2014, os dados revelavam que, em um dia típico, sem qualquer evento extraord
 
 Naaman, Boase e Lai \cite{naaman2010really}, classificaram os   conteúdos propagados nos tweets em oito categorias: Informações compartilhadas, auto promoção, opinião/queixas, declarações e pensamentos aleatórios, ``eu agora'' (me now), perguntas aos seguidores, manutenção de presença e piadas. 
 
-No contexto da Bibliometria e da Cientometria, alguns estudos destacam a utilização da contagem de citações no twitter como o objetivo  de avaliar qual o impacto que uma publicação alcança no público leitor, bem como em centros e instituições de pesquisa \cite{adkins2006scholarly}, \cite{cunningham1997authorship}. Nos estudos em questão, pesquisadores examinaram a relação entre características dos autores e grupo de autores e o impacto da produtividade deles. Foi medido o número de publicações produzidas e o número de citações recebidas. 
-
 Na Web, por sua vez, a quantidade de citações (i.e. links de URL) e estrutura dos links são utilizadas pelos motores de busca (ex: o Google) com o objetivo de identificar a relevância e aceitação de \textit{websites} \cite{brin1998anatomy}, em decorrência do número de seguidores, da quantidade de menções feitas, de ``retweets'', por exemplo.
 
 Cha, Haddadi e Benevenuto \cite{cha2010measuring} avaliaram a influência dos usuários no Twitter na rede, como um todo, analisando o número de ``retweets'', menções e seguidores. Esses pesquisadores identificaram uma correlação positiva entre o número de seguidores e o número de ``retweets'' pelo top 10 (do Twitter) e o primeiro percentil dos mais conectados, com base no grau do link (i.e. número de seguidores). 
@@ -373,31 +368,25 @@ Cha, Haddadi e Benevenuto \cite{cha2010measuring} avaliaram a influência dos us
 
 Nesse tópico abordaremos, em maior detalhe, as escolhas metodológicas e ferramentas analíticas utilizadas em estudos que levam em conta dados do twitter, apresentando alguns dessas pesquisas.
 
-Na pesquisa conduzida por Suh, Hong e Chi \cite{suh2010want}, esses pesquisadores encontraram uma correlação positiva entre a existência de uma URL de um ``tweet'' e a probabilidade de que aconteça um ``retweet''. Os autores optaram por uma abordagem indutiva, utilizando-a da seguinte maneira: coletaram 1200 ``tweets'' recentes, a partir da conta de uma Universidade, considerando todos os membros da Association of American Universities (AAU). A coleta e processamento dos dados deu-se com a utilização do Twitter API com o twitter4j (biblioteca Java), tendo sido adicionados a um código java desenvolvido pelo autor da pesquisa. Tomou-se uma amostra do percentual da Academia. 
-
-Procederam com o preprocessamento dos dados, de modo a preparar a análise. Nessa etapa, os ``retweets'' foram retirados das amostras. Também foram removidos da amostra os ``tweets'' com conteúdo pouco significativo para a pesquisa como, por exemplo, breves agradecimentos (e.g. “welcome”), pequenos comentários ou “gírias” de algum ``tweet'' (e.g. “lol”), encorajamentos pontuais (e.g. “keep going”) e conversas pessoais, sem relação com o conteúdo dos ``tweets''. Com isto, a amostra foi reduzida de 1200 para 752 ``tweets'' que, em seguida, foram distribuídos em nove categorias. Os resultados apontaram que, dos 752 ``tweets'' analisados, 271 apresentavam pelo menos um ``retweet'', e 131 receberam um “favorito”.  Em média, ``tweets'' recebidos 0,67 (desvio padrão “SD” = 1,4) ``retweets'' e 0,23 (SD=0,6) favoritos. Adicionalmente, em média, ``tweets'' incluídos 0,47 (SD=0,51) URLs, 0,61 (SD=0,91) menções de usuários e 0,04 (SD=0,2) media de entidades. Em média o tamanho dos ``tweets'' foi 107 (SD=29,81) caracteres. 
-
-Na média, foram enviados, nas seis contas de Twitter das bibliotecas analisadas, cerca de 1817 (SD=1126) ``tweets'', seguido 1062 (SD=641) usuários, estes seguidos por 2006 (SD=788) usuários, e estes 1503 (SD=450) dias (duração). O teste Shapiro-Wilk mostrou que nove característica de ``tweets'' normalmente distribuídas. Métodos não paramétricos foram usados para examinar a relação entre um tweet as características da conta. 
-O texte Krusal-Walls apresentou uma diferença significativa entre o conteúdo da categoria do tweet para o númro de favoritos $X=15.11, df=8, p<0,057$. O teste Sperman, por sua vez, demonstrou haver uma correlação negativa entre o número de ``retweets'' e o número de menções a usuários, sugerindo que ``tweets'' com conexões pessoais podem ter pouco valor de ‘uso geral’, de maneira que os usuários demonstram certa relutância em retweetar conteúdos advindos desses seguidores. O teste Spearman encontrou, ainda, uma pequena correlação positiva entre o número de favoritos e o número de usuários seguidos, bem como uma baixa correlação negativa entre o número de favoritos e tempo de uso da conta (desde o cadastro). 
-
-Em outro artigo, conduzido por Chu \& Du \cite{Chu2012}, os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “facilitar informações e compartilhar conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (p. 72) (livre tradução do autor) \footnote{Facilitate information and knowledge sharing, service enhancement and promotion, interaction with student library users, at minimal costs.}. Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes \cite{del2012libraries}, tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários \cite{boateng2014web}. 
+Em artigo conduzido por Chu \& Du \cite{Chu2012}, os autores justificaram que as mídias sociais têm sido utilizadas cada vez mais para promoção das bibliotecas, com o objetivo de incrementar a relação com os clientes, permitindo “facilitar informações e compartilhar conhecimentos, incrementar serviços e promoções, interação com estudantes usuários das bibliotecas, a um custo mínimo” (p. 72) (livre tradução do autor) \footnote{Facilitate information and knowledge sharing, service enhancement and promotion, interaction with student library users, at minimal costs.}. Tal prática têm promovido considerável mudança na interação com usuários e relacionamento com os clientes \cite{del2012libraries}, tendo sido utilizada frequentemente como alternativa para estabelecer uma conexão personalizada com os seus usuários \cite{boateng2014web}. 
 
 A pesquisa em questão interessou-se em investigar quantas vezes a biblioteca acadêmica usa o Twitter; tipo de conteúdo compartilhado pela biblioteca acadêmica no twitter; temas associados com os ``tweets'' da biblioteca acadêmica \cite{Al-Daihani2016}. Nesta pesquisa foi obtido a partir da ``timeline'' de dez bibliotecas acadêmicas (i.e. todos ``tweets'' desde a adesão à plataforma), através de um serviço de arquivamento (twimemachine.com), em dezembro de 2014. Foram selecionadas as 10 maiores bibliotecas ranqueadas pelo Shanghai Ranking, tendo a seleção se restringido às universidades de língua inglesa e a apenas uma biblioteca por instituição, para o caso de a universidade ter mais de uma. 
-
-As informações relevantes dos ``tweets'', utilizadas para a pesquisa eram: data do tweet; número de vezes em que o tweet foi marcado como favorito por outro usuário; número de vezes em que houve um re-tweet, ou seja, em que ele foi passado para frente; data que se “juntou” ao Twitter.
 
 Na etapa de preprocessamento -- ``dataset preprocessing'' -- o grupo de dados recuperado foi tratado, para reduzir os ``ruídos'', seguindo uma abordagem consistente com outros estudos de mineração em textos, tal como o de Ralston, O'Neil, Wigmore e Harrison \cite{ralston2014exploration} e de Yoon, Elhadad e Bakken \cite{yoon2013practical}. O processo contemplou a aplicação de certo número de filtros. Por exemplo, foram removidas as ``stopwords'', pontuação e numeração, todos os nomes de usuários seguido por um símbolo ``\@'', ``hashtags'' após o símbolo ``\#'' e ``hyperlinks'' após o ``http''. Também foi removido a abreviação do Twitter tal como ``RT'' (retweetes), e ``MT'' (tweet modificado) e palavras tal como ``via''. O nome do usuário do Twitter para cada biblioteca acadêmica também foi excluído. 
 
 Para análise do conjunto de dados, utilizou-se a mineração em textos e para investigar os históricos de ``tweets'' das bibliotecas escolheu-se a análise de conteúdo. A frequência dos ``tweets'', ``retweets'' e sua distribuição foi identificada e contabilizada. Em seguida, os ``tweets'' marcados com o PamTaT \footnote{ Ferramenta ``text mining'' desenvolvida por Pamplin Collage do Instituto Politécnico de Negócios de Virgínia da Universidade Estadual de Virgínia (Bird, Loper \& Klien, 2009)}. 
 
-O PamTaT é baseado na interface do Microsoft Excel para Python nltk -- ``natural language processing framework'' e permite a análise de grande volume de textos pelos usuários finais, não necessitando de conhecimento de programação da linguagem Python. A ferramenta serve, ainda, para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso, permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. 
+Quando se tem um \textit{corpus linguístico} ou, em outras palavras, um documento que está sendo analisado, baseado nas informações linguísticas que ele contém, uma ferramenta estatística frequentemente utilizada em mineração de textos é a TF-IDF. Esta sigla é a abreviação, em língua inglesa, de \textit{Term Frequency}, isto é, \textit{frequência do termo}, e \textit{Inverse Document Frequence} \cite{hiemstra2000probabilistic}, que significa frequência inversa do documento. Em termos gerais, o TF considera que o peso de uma palavra em um documento está relacionado à frequência com que essa palavra aparece no mesmo. Em nossa pesquisa, a palavra ``acidente'', quando temos o trigrama \textit{ocorrência de acidente}, as palavras \textit{ocorrência} e \textit{acidente} têm um importante peso relacionado a frequência, enquanto que o \textit{de}, sem estar acompanhado dos outros dois, não tem significado relevante para os dados minerados, pois o mesmo deverá aparecer inúmeras vezes, sem estar relacionado ao que é investigado. Nesse caso, o IDF aponta exatamente para a \textit{frequência inversa}, ou seja a palavra \textit{acidente} é provável que apareça no texto em menor frequência que \textit{ocorrência}, portanto a ordem inversa  deverá ser: ``acidente'' < ``ocorrência'' < ``de'', como pretendíamos. 
+A equação 2.1 demonstra como se encontra o \textit{idf}.
+\begin{equation}
+idf(term) = \ln(\frac{n_{documents}}{n_{documents\  containing \ term}})
+\end{equation}
 
-Foi utilizado o Harvard General Inquirer \cite{stone1968general} para análise semântica e sentimental dos ``tweets''. Essa ferramenta de análise de textos permite ao usuário final repostar a frequência de categorias de palavras diferentes usadas no texto fonte. Aplicações reportadas no ``General Inquirer'' para diferentes textos-fontes identificaram duas centenas de palavras incluindo, dentre elas, palavras que davam o sentido de algo positivo, negativo, ou ainda relacionadas a vontade (prazer), relacionadas a dor, relacionadas a localização, relacionadas a hora (tempo), relacionadas à Academia, relacionadas a exagero (overstatement) ou subavaliação (understatement), e assim por diante. 
-
-Hurwitz forneceu uma lista abrangente de categorias de palavras reconhecidas pela Harvard General Inquirer e apresentou uma lista completa de palavras específicas que pertenciam a cada categoria de palavras. 
+ A técnica serve, para determinar a frequência de palavras simples (unigrams), de duas palavras (bigrams) e sequência de três palavras (trigrams) que aparecem no texto fonte. Com isso, permite desenvolver uma matriz de frequência de termos-tweet, mostrando como sequências de palavras simples e múltiplas palavras (n-grams) são usadas pela biblioteca acadêmica selecionada. 
 
 
-\begin{figure}[ht]
+
+\begin{figure}[htbp!]
 	\centering
 	\caption{Descrição da conta Twitter das bibliotecas acadêmicas}
 	\includegraphics[width=175mm, height=75mm]{Figuras/Twitter/contaTwitter.png}\\
@@ -429,7 +418,7 @@ A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando
 \end{figure}
 
 
-O segundo termo mais frequente foi ``research'', que foi utilizado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos ``tweets'' sobre os recursos da biblioteca. Tais termos foram incluidos em ``tweets'' relacionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”. 
+O segundo termo mais frequente foi ``research'', que foi utilizado também em diferentes contextos, relacionados frequentemente a apoio, a investigação, por exemplo: workshop research, ferramentas de pesquisa e software, abertura ao acesso para pesquisar, dados e laboratório de pesquisas, guia de pesquisa e ajuda e campos de pesquisa. Outros termos tais como “livros”, “coleções” (acervos) e “on-line” foram utilizados no contexto dos ``tweets'' sobre os recursos da biblioteca. Tais termos foram incluídos em ``tweets'' relacionados a “e-books”, “textbooks”, “livros raros”, “solicitando e renovando livros”, “comentários de livros”, “novos livros”, “livros de coleções especiais”, “livros recomendados”, “política de circulação de livros”.
 
 Na distribuição dos bigramas (sequência de duas palavras) no conjunto de ``tweets'', observa-se que o mais frequente foi “special collections”.
 O segundo mais popular bigrama foi “open access”, utilizado em diferentes contextos, tal como política de acesso, publicidade, recursos, trenamentos e workshops, dicas e orientação, serviços, eventos e notícias. O resultado mostrou a ênfase colocada na iniciativa de promover “open access” com as instituições acadêmicas.
@@ -438,14 +427,13 @@ O terceiro maior bigrama foi “reading room”, relativo à atividade de suport
 
 Dentre os mais importantes trigramas (sequência de três palavras), destacou-se o trigrama “save the date”. Essa expressão era utilizada para requerer especial atenção dos seguidores para os eventos importantes que estavam para acontecer. Este trigrama é seguido, como o segundo mais frequente, por “pleased to announce”, outra expressão usada para enfatizar a importância de eventos especiais. O terceiro mais usado foi “open access week” (seguido muito próximo por “open access policy”), que novamente destaca os esforços na iniciativa de espaço aberto (open access). 
 
-\pagebreak
-
 No caso particular da pesquisa em lide, o interesse voltou-se para os ``tweets'' da Polícia Rodoviária Federal do estado de Pernambuco, bem como de seus seguidores e de usuários que fizeram menção a eventos que afetam diretamente o tráfego nas principais rodovias do estado. A seguir, a título de exemplo, pode-se verificar uma sequência de ``tweets'' da Polícia Rodoviária Federal do estado de Santa Catarina:
 
-\begin{figure}[ht]
+\begin{figure}[htbp!]
 	\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF.png}}
 	\quad \quad \quad \quad
-	\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}
+	\subfigure{\includegraphics[width=60mm, height=48mm]{Figuras/BigData/twittePRF2.png}}\\
+	\centering \tiny Fonte: https://twitter.com/PRF191SC Acessado em: 10/10/2016
 \end{figure}
 
 A Polícia Rodoviária Federal disponibilizou às 13h através do canal @PRF191SC, informações relevantes sobre o trânsito naquela localidade, 
@@ -558,7 +546,6 @@ De maneira sintética, uma árvore de decisão tem como entrada um conjunto de a
 A decisão gerada aparece em função de uma sequência de testes executados, estando cada um deles relacionados a um nó da árvore. As ramificações que decorrem dos testes são o resultado encontrado a partir da realização do experimento. 
 O exemplo a seguir ilustra uma árvore de decisão simples, onde se vê seu nó-raiz e suas ramificações. 
 
-\pagebreak
 
 \begin{figure}[!ht]
 	\centering
@@ -648,81 +635,20 @@ Com essa abordagem é possível reduzir o número de testes necessários para qu
 O cérebro humano possui cerca de 10 bilhões de neurônios, que são responsáveis pelo funcionamento do organismo. 
 Esses neurônios se conectam entre si, através de sinapses, formando uma Rede Neural capaz de armazenar e processar grande quantidade de informações \cite{NorvigRussel2004}.
 
-De forma semelhante ao funcionamento das Redes Neurais naturais, foram desenvolvidas as Redes Neurais Artificiais, que recebem esse nome por se caracterizarem como um 
-sistema cujo funcionamento é semelhante à arquitetura das redes neurais humanas.
-
-Nesse contexto, em que se pretende criar modelos computacionais com funcionamento semelhante ao modelo neurológico humano, surge a chamada neurocomputação. 
+De forma semelhante às Redes Neurais naturais, foram desenvolvidas as Redes Neurais Artificiais, que recebem esse nome por se caracterizarem como um sistema cujo funcionamento é semelhante à arquitetura das redes neurais humanas.
+ 
 No início da década de 40, precisamente em 1943, McCulloch e Pitts \cite{Heaton2008} propuseram um modelo simplificado de funcionamento do cérebro humano e, 
-a partir dai sugeriram a construção de uma máquina que fosse inspirada nesse funcionamento. A partir da proposição de McCulloch e Pitts, vários trabalhos começaram a ser desenvolvidos, tomando o funcionamento do cérebro humano como modelo. 
-
-Em 1949, Hebb explicitou matematicamente as sinapses dos neurônios humanos. Dois anos depois, em 1951, o primeiro neurocomputador, 
-chamado Snark, foi desenvolvido por Mavin Minsky. Todavia, o primeiro neurocomputador que obteve sucesso surgiu entre 1957 e 1958, 
-o Mark I Perceptron, criado por Rosenblatt, Wightman e colaboradores \cite{Heaton2008}. O interesse principal desses pesquisadores era o de desenvolver, com esse neurocomputador, a capacidade de reconhecimento de padrões. Nesse contexto, os estudos na área se aprofundaram de tal forma, que muitos consideram Rosenblatt como o fundador da neurocomputação, tal qual encontramos hoje. 
-
-\vspace{5mm}
-A figura a seguir ilustra, de maneira simplificada, a Rede de Perceptrons, conforme proposta de Rosenblatt.
-
-\begin{figure}[!ht]
-\centering
-\caption{Percepton de Rosenblatt}
-\vspace{1mm}
-\includegraphics[width=90mm, height=30mm]{Figuras/Neural/Rosenblatt.png}\\
-\tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
-\end{figure}
-
-\pagebreak
-
-Dando continuidade e indo mais além dos trabalhos de Rosenblatt e seus colaboradores, Widrow desenvolveu, em conjunto com alguns 
-alunos, o Adaline, um tipo de processamento de redes neurais dotado de uma potente lei de aprendizado, em uso ainda nos dias atuais, 
-que pode ser representado pela figura a seguir:
-
-\begin{figure}[!ht]
-\centering
-\caption{Rede ADALINE e MADALINE}
-\vspace{1mm}
-\includegraphics[width=85mm, height=40mm]{Figuras/Neural/Adaline.png}\\
-\tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
-\end{figure}
+a partir dai sugeriram a construção de uma máquina que fosse inspirada nesse funcionamento.
 
 
-Muitos estudos foram realizados nas décadas seguintes, mas o que marcou esse período foram as elucubrações sobre o 
-desenvolvimento de máquinas tão potentes quanto o cérebro humano, muito mais do que a publicação de pesquisas realmente 
-contundentes na área.
-
-A partir dos anos 80, a pesquisa em neurocomputação deu outro grande salto qualitativo e em 1987 teve lugar, em São Francisco a 
-primeira conferência de redes neurais nos tempos modernos: a IEEE International Conference on Neural Networks, sendo também formada 
-a International Conference on Neural Networks Society (INNS). 
-Em 1989 foi fundado o INNS Journal, e em 1990 o Neural Computation e IEEE Transations on Neural Networks.
-
-\subsubsection{Definições e funcionamento de uma Rede Neural Artificial}
+\subsubsection{Definições e aprendizado em Redes Neurais Artificiais}
 
 São várias as definições que podem ser encontradas sobre o que vem a ser uma Rede Neural Artificial (RNA) \cite{Castanheira2008}, em função da complexidade de tal Rede. 
 Do ponto de vista computacional, uma RNA configura-se como uma técnica para solucionar problemas de Inteligência Artificial (IA) que estabelece um modelo matemático 
-baseado em funções de um modelo neural biológico simplificado, com capacidade de aprendizado, generalização, associação e abstração.
+baseado em funções de um modelo neural biológico simplificado, com capacidade de estabelecer concexões sinápticas, bem como, de aprendizado, generalização, associação e abstração.
 
-Uma grande rede neural artificial pode ter centenas ou milhares de unidades de processamento, enquanto que o cérebro de um mamífero pode ter muitos bilhões de neurônios. 
-Uma Rede Neural Artificial (RNA) é um sistema que de neurônios que estabelecem conexões sinápticas, que possuem neurônios de entrada, que recebem os estímulos provenientes 
-do meio exterior, os neurônios internos ou hidden (neurônios ocultos) e os neurônios de saída, que se comunicam com o mundo externo \cite{Tatibana}.
-
-Cabe destacar que, de acordo com esse modelo, os neurônios internos têm considerável importância nesse processo, uma vez que são responsáveis pela resolução de problemas linearmente inseparáveis. 
-O comportamento inteligente de uma Rede Neural Artificial vem das interações entre as unidades de processamento da rede.
-
-Os neurônios, nessas redes são conhecidos como Perceptrons. O arranjo em camadas desses perceptrons é chamado \textit{Multilayer Perceptron}.
-O \textit{multilayer perceptron} é responsável pela resolução de problemas mais complexos que não seriam passíveis de resolução pelo modelo 
-de neurônio básico. Para aprender os perceptrons tem que estar dispostos em camadas, um único perceptron pode realizar algumas operações do 
-tipo XOR, contudo seria incapaz de aprendê-la.
-
-
-A figura a seguir apresenta o arranjo dos perceptrons em camadas, conforme discutido anteriormente.
-
-
-\begin{figure}[!ht]
-\centering
-\caption{Um arranjo de Perceptrons em camadas}
-\vspace{1mm}
-\includegraphics[width=90mm, height=50mm]{Figuras/Neural/camdasIntermediarias.png}\\
-\tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
-\end{figure}
+Os neurônios, nessas redes são conhecidos como Perceptrons. O arranjo em camadas desses perceptrons é chamado \textit{Multilayer Perceptron}, que é responsável pela resolução de problemas mais complexos que não seriam passíveis de resolução pelo modelo 
+de neurônio básico. 
 
 São três as camadas usualmente identificadas em uma rede de perceptrons:
 \begin{itemize}
@@ -732,148 +658,22 @@ São três as camadas usualmente identificadas em uma rede de perceptrons:
  \item Camada de saída: responsável pela conclusão e apresentação do resultado.
 \end{itemize}
 
-O comportamento inteligente de uma Rede Neural Artificial vem das múltiplas interações existentes entre as unidades de processamento dessa rede. 
-As unidades de processamento são conectadas por canais de comunicação, associados a determinado peso, como mostra a figura a seguir, proposta por McCulloch e Pitts \cite{mcculloch1943logical}
+As unidades de processamento são conectadas por canais de comunicação, associados a determinado peso, como mostra a Figura 2.17, proposta por McCulloch e Pitts \cite{mcculloch1943logical}.
+Esses canais são os  \textit{inputs}, $ I_{1}, I_{2}, I_{3},...,I_{n}$, e cada um tem um peso associado, que serão calibrados de acordo 
+com a aproximação do resultado esperado pela rede neural, produzido na saída (fase de ``forward''). Essa aproximação é conhecida como erro ou erro padrão.  Esse erro será propagado de volta à entrada, retroalimentando a rede neural (fase de ``backward''), caso o modelo de rede de aproximação seja o ``backpropagation''. Dessa forma a rede neural se aproxima cada vez mais do resultado que foi previamente estimado na fase de treinamento.
 
-\begin{figure}[!ht]
+\begin{figure}[htbp!]
 \centering
 \caption{Perceptron de McCulloch e Pitts}
 \vspace{1mm}
-\includegraphics[width=90mm, height=40mm]{Figuras/Neural/Perceptron.png}\\
+\includegraphics[width=95mm, height=50mm]{Figuras/Neural/Perceptron.png}\\
 \tiny Fonte: http://www.din.uem.br/ia/neurais/neural. Acessado em: 01/10/2016
 \end{figure}
 
-Esses canais são os  \textit{inputs}, $ I_{1}, I_{2}, I_{3},...,I_{n}$, e cada um tem um peso associado, que serão calibrados de acordo 
-com a aproximação do resultado esperado pela rede neural, produzido na saída (fase de ``forward''). 
-Essa aproximação é conhecida como erro ou erro padrão. Esse erro será propagado de volta à entrada, retroalimentando a rede neural (fase de ``backward''), 
-caso o modelo de rede de aproximação seja o ``backpropagation''. Dessa forma a rede neural se aproxima cada vez mais do resultado que foi previamente estimado; fase de treinamento.
-Uma vez que o erro tornar-se infinitamente pequeno dizemos que a rede neural ``não aprende mais'' há uma degradação do sistema, o ``overfitting''.
 
+Uma rede neural passa por um processo aprendizado, resultante de uma fase de treinamento, estabelecido a partir de casos reais, que a faz adquirir, a partir de então, a sistemática que é necessária para executar o processo desejado satisfatoriamente. 
+Uma vez ``treinada'' os pesos estão calibrados para solucionar a classe de problemas para o qual foi desenhada. 
 
-Da figura acima podemos extrair duas coisas:
-\begin{itemize}
- \item A função calculada \textit{y} é uma função \textbf{discriminativa} (classificação) com $y=0$ e $y=1$.
-    \begin{itemize}
-     \item $net = x_1w_1 + x_2w_2 + ... + x_iw_i + x_dw_d = \sum x_i.w_i = W.X = W^T X$
-     \item $onde\ w = \{+1, -1\}$
-     \item $saida = y = f(net)$
-     \item $f(net)= \left \{ \begin{matrix} 1, & se\ net \ge \mu \\ 0, & se\ net < \mu \end{matrix} \right. $
-    \end{itemize}
-\vspace{1mm}
- \item Fronteira de Decisão:
-    \begin{itemize}
-     \item [--] Determina o ponto que separa os dados que vêm de -$\infty$ e +$\infty$
-     \item [--] Argumento de $f(net)$ é igual a zero: $\sum w_ix_i - \mu \Rightarrow w.x = 0$
-    \end{itemize}
-\end{itemize}
-
-\vspace{2mm}
-
-O modelo McCulloch e Pitts \cite{mcculloch1943logical} leva em conta cinco hipóteses fundamentais, a saber:
-
-\begin{enumerate}
- \item A atividade de um neurônio é binária. Isso quer dizer que os neurônios respondem a valores \textbf{verdadeiro} ou \textbf{falso} ou 0 ou 1;
- \item As RNA são formadas por linhas direcionadas, que são inspiradas em sinapses, e que ligam os neurônios. Tais linhas podem ser positivas (excitatórias) ou negativas (inibitórias);
- \item Os neurônios, numa RNA, têm um limiar fixo, nomeado como L. Isso posto, o processo só é disparado se a entrada for igual ou maior que esse limiar;
- \item Uma única sinapse inibitória evita, por completo, o disparo do neurônio, ainda que venham, ao mesmo tempo, várias sinapses excitatórias;
- \item A quinta e última hipótese propõe que cada sinal leva determinada unidade de tempo para ``passear'' de um neurônio a outro.
-\end{enumerate}
-
-Uma rede neural passa por um processo de treinamento, estabelecido a partir de casos reais, que a faz adquirir, a partir de então, a sistemática que é necessária para executar o processo desejado satisfatoriamente. Isso faz com que as RNA tenham uma característica diferente da computação programada, que exige um conjunto de regras pré-fixadas e algoritmos. 
-A Rede Neural, por sua vez, extrai regras básicas a partir de dados reais, ou seja, aprendem através de exemplos.
-Uma vez ``treinada'' os pesos estão calibrados para solucionar a classe de problemas para o qual foi desenhada. Essa rede neural portanto pode ser 
-considerado um aproximador de funções, uma vez dada uma série de ``inputs'' ela poderá produzir um ``output'' baseada nas funções de internas.
-
-\subsubsection{Aplicações e Tipos de Redes Neurais}
-
-São várias as aplicações das redes neurais. Elas podem ser utilizadas para reconhecimento e classificação de padrões;
-processamento de sinais e de imagens; identificação e controle de sistemas; predição, dentre outras funções. 
-No caso específico desse estudo, nosso interesse está centrado, fundamentalmente, na predição.
-
-Para o desenvolvimento de uma rede neural algumas importantes fases precisam ser consideradas. 
-Em primeiro lugar, é necessário um estudo detalhado do problema, para que possam ser feitas as escolhas adequadas à sua resolução. 
-Em seguida, passa-se à fase de desenvolvimento do modelo neural, a partir de neurônios biológicos, e das estruturas e conexões sinápticas. 
-A etapa seguinte implica na escolha de um algoritmo de aprendizado de regras, com ajuste de pesos ou forças de conexões intermodais, e de um conjunto de treinamento. 
-Passa-se, então, à fase de treinamento, propriamente dita, aos testes e, por fim, utilização da rede neural.
-
-Uma vez que existem distintas possibilidades de aplicação e desenvolvimento de uma RNA, existem, igualmente, diversas maneiras de 
-classificá-las \cite{AAP}. Trataremos de algumas dessas nesse tópico.
-
-\begin{itemize}
- \item [(a)] Quanto à sua arquitetura: estática, dinâmica ou fuzzy; de única camada/camadas simples ou de múltiplas camadas.
-	   Exemplos de RNA de uma (i) ou múltiplas (ii) camadas:
-	    \begin{enumerate}
-	      \item [(i)] São exemplos de redes Percepton e Adaline
-	      \begin{figure}[!ht]
-		\centering
-		\caption{Perceptron e Adaline}
-		\vspace{1mm}
-		  \includegraphics[width=85mm, height=50mm]{Figuras/Neural/pecepAdalin.png}\\
-		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
-	      \end{figure}
-	 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
-	      \item [(ii)] São exemplo dessas redes as de Perceptron multicamadas (PMC/MLP) e redes de base radial (RBF)
-	      \begin{figure}[!ht]
-		\centering
-		\caption{Perceptron Multicamadas}
-		\vspace{1mm}
-		  \includegraphics[width=110mm, height=70mm]{Figuras/Neural/MultiCamadas.png}\\
-		\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
-	      \end{figure}
-
-	      Alguns autores ainda fazem referência às redes recorrentes ou realimentadas (iii), 
-	      como a rede de Hopfield e a Perceptron multicamadas \cite{Kriesel2007NeuralNetworks}. 
-	      Tais redes, segundo esses autores, são ideais para processamento dinâmico, como previsão de 
-	      séries temporais, controle de processos, etc.
-	      Referem também a existência das redes com estrutura reticulada (iv), como a rede de Kohone.
-	%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	      \item [(iii)] Exemplo de rede recorrente ou realimentada: ``backpropagation''
-	      \begin{figure}[!ht]
-			\centering
-			\caption{Perceptron com Realimentação}
-			\vspace{1mm}
-			  \includegraphics[width=100mm, height=65mm]{Figuras/Neural/Recorrentes.png}\\
-			\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
-	      \end{figure}  
-	 
-	 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
-	      \item [(iv)] Exemplo de redes de estrutura reticulada
-	      \begin{figure}[!ht]
-			\centering
-			\caption{Rede Kohone}
-			\vspace{1mm}
-			  \includegraphics[width=100mm, height=65mm]{Figuras/Neural/Kohone.png}\\
-			\tiny Fonte: http://www.dkriesel.com. Acessado em: 10/10/2016
-	      \end{figure}
-	
-	\end{enumerate}
-
-\pagebreak
-	
-  \item [(b)] Quanto às conexões, os tipos de RNA são: no sentido de ida; no sentido de ida e volta; 
-	      lateralmente conectadas; topologicamente ordenadas; híbridas.
-  
-  \item [(c)] Quanto à aplicação: reconhecimento de padrões e classificação; processamento de imagem e visão; 
-	      identificação de sistema e controle; processamento de sinais.
-\end{itemize}
-
-
-\subsubsection{Aprendizado em Redes Neurais}
-
-O aprendizado caracteriza-se pela capacidade que a RNA tem de resolver uma determinada classe de problemas para os quais foi destinado 
-seu desenvolvimento. 
-Nesse processo, é proposto um algoritmo de aprendizado, que se caracteriza como um conjunto de regras bem delineadas que permitirão a 
-resolução do problema. 
-
-O aprendizado das RNA resulta da fase de treinamento, através de um processo iterativo de ajuste dos pesos. 
-O conhecimento é armazenado nas sinapses, ou seja, nos pesos que são atribuídos às conexões que existem entre os neurônios da rede.
-
-\begin{itemize}
- \item Por independência de quem aprende: o aprendizado pode ser por memorização, por contato, por exemplos, por analogias, por 
-	exploração, por descoberta, sobretudo por uma mistura entre os últimos três \cite{Barreto2002}.
- \item Por retroação do mundo: quando há uma realimentação específica vinda do mundo exterior, podendo ser supervisionado ou 
-	não-supervisionado. 
-\end{itemize}
 
 O treinamento supervisionado tem sido o mais comumente utilizado em redes neurais \cite{Barreto2002}. 
 Em linhas gerais, como o nome indica, no treinamento supervisionado há um agente externo que indica explicitamente à rede um 
@@ -888,32 +688,7 @@ O aprendizado não supervisionado, por sua vez, não depende de um agente extern
 mecanismos que analisam as regularidades ou tendências dos padrões de entrada, possuindo a capacidade de se adaptar automaticamente às 
 necessidades da rede. 
 
-O aprendizado de uma rede se dá em um determinado tempo e a partir de determinado padrão. 
-A velocidade de aprendizado depende de variáveis que precisam ser consideradas como, por exemplo, a complexidade da rede proposta, 
-a quantidade de camadas que ela possui, a arquitetura adotada, o algoritmo que foi utilizado, a precisão esperada. 
-É preciso que se esteja atento a todos esses elementos, uma vez que dependendo de como essas variáveis forem consideradas, 
-o treinamento pode se estender por um período bastante longo e, nem sempre apresentando um resultado satisfatório.
-
-Quanto aos algoritmos de aprendizagem, são muitos os que podem ser utilizados, mas boa parte deles são variações do princípio de Hebb, 
-que é a regra mais utilizada \cite{Barreto2002}. A descrição dessa regra foi apresentada pelo seu propositor, Donald Hebb, em 1949. 
-A ideia básica dessa regra é a de que quando um neurônio recebe um entrada a partir de outro neurônio, isso significa que ambos 
-estão ativos e que os pesos entre os neurônios precisam ser excitados.
-
-Uma segunda lei utilizada é a de Hopfield. Ela se inspira no princípio de Hebb, mas acrescenta a ideia de definição da magnitude da 
-excitação ou inibição. Uma terceira regra, que é a mais comumente utilizada hoje em dia, é a regra Delta de Widrow. 
-Essa regra propõe a alteração dos pesos sinápticos, minimizando o erro quadrático da rede, reduzindo a diferença entre o valor de saída 
-desejado e o atual valor de saída da unidade de processamento. 
-Assim, o erro da saída é transformado pela derivação da função de transferência e utilizado pra regular os pesos de entrada da camada 
-prévia da rede, realizando assim um processo de retropropagação dos erros. 
-Para a utilização desse tipo de regra deve-se observar que o conjunto dos dados de entrada esteja organizado de forma aleatória. 
-
-Há ainda a lei de aprendizado de Teuvo Kohonen, que foi inspirada em sistemas biológicos, em que há uma competição entre os elementos 
-para aprender, ou atualizar e ajustar seus pesos. A unidade de processamento mais apta será aquela que possuir o melhor sinal de 
-saída e terá a capacidade de inibir os ajustes sinápticos de seus concorrentes e excitar seus vizinhos, de maneira que apenas essa 
-unidade e seus vizinhos poderão realizar o ajuste dos pesos.
-
-%\subsection{Retropropagação e o Erro médio quadrático}
-
+%\pagebreak
 
 \section{Medida de desempenho e qualidade aplicadas à mineração}
 
@@ -992,7 +767,7 @@ Regras de classificação se distinguem de regras de indução da seguinte forma
 \end{itemize}
 
 %\singlespace
-\vspace{2cm}
+%\vspace{2cm}
 
 \begin{figure}[ht] \unitlength= 1mm \thicklines
 	\centering{
@@ -1007,7 +782,7 @@ Regras de classificação se distinguem de regras de indução da seguinte forma
 
 \vspace{3cm} 
 
-A figura a seguir representa uma rede neural com as mesmas características da árvore de decisão anterior:
+A Figura 2.25 representa uma rede neural com as mesmas características da árvore de decisão anterior:
 \begin{figure}[!ht]
 	\centering
 	\caption{Rede Neural}

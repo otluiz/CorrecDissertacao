@@ -16,7 +16,7 @@ daqui a alguns dias. A PRF de Pernambuco é outro contribuidor permanente. Com s
 além de dados estatísticos relativos a acidentes e retenção de tráfego, como aqueles decorrentes de protestos, que, quando feitos dentro da lei
 devem ser informados à PRF, com dia e hora marcados antecipadamente.
 
-A monitoração de redes sociais foi feita a partir de Mineração em Textos - Knowledge Database Text (KDT) ou simplesmente Text Mining (TM), tendo, a princípio, sido executada no Twitter, no canal @PRF191PE ( posteriomente @PRF191PB, PRF191ALAGOAS, PRF191RN, PRF191CEARA, @PRFBAHIA, 191SAOPAULO, PRF191MG, , @PRFRJ191, PRF191PR, PRFGOIAS) e pela busca em outros canais, com as palavras: ``protesto'', ``planejar paralização'', por exemplo. 
+A monitoração de redes sociais foi feita a partir de Mineração em Textos - Knowledge Database Text (KDT) ou simplesmente Text Mining (TM), tendo, a princípio, sido executada no Twitter, no canal @PRF191PE e pela busca em outros canais, com as palavras: ``protesto'', ``planejar paralização''. Posteriomente pesquisou-se em: @PRF191PB, @PRF191ALAGOAS, @PRF191RN, @PRF191CEARA, @PRFBAHIA, 191SAOPAULO, @PRF191MG, @PRFRJ191, @PRF191PR, @PRFGOIAS. 
 
 Para ter-se acesso aos tweets da PRF, os usuários do canal, inclusive a própria PRF, postam comentários diretamente 
 na API do Twitter ou por um navegador. Para essa pesquisa as palavras-chave tais como: protestos, acidentes, paralisação, foram de suma importância.
@@ -106,7 +106,7 @@ Foram construídas matrizes dos resultados da classificação e predição, cham
 \caption{Matriz de Mortos 2D - BR 101, Período: 2007 à 2015}
 \label{fig:MatrizMortos2D}
 \includegraphics[width=110mm, height=65mm]{Figuras/Metodologia/MatrizMortos2D}\\
-\tiny Fonte: Autor
+\tiny Fonte: o Autor
 \end{figure}
 
 O exemplo acima apresenta as ocorrências na BR 101 (período 2007 à 2015), onde as linhas representam as 24 horas do dia (0-23 horas) e as colunas representam cada km da rodovia, no caso dessa matriz 214 km (ou 214 colunas - omitida as restantes), início no km-0 até o fim no km-213.
@@ -114,7 +114,7 @@ O exemplo acima apresenta as ocorrências na BR 101 (período 2007 à 2015), ond
 
 %\pagebreak
 
-As matrizes de mortos foram propostas com dois objetivos principais o de demarcar os pontos mais críticos em cada quilômetro e o de estimar o tempo de paralização da rodovia devido à gravidade deste tipo de acidente. Todavia, nem sempre um acidente com óbito implica em maior tempo de paralisação. Por exemplo, uma colisão que envolva muitos veículos, ainda que não produza óbitos, pode criar um maior constrangimento na rodovia do que, por exemplo, um atropelamento que tenha projetado a vítima para fora da pista. Em virtude disso, foram criadas as matrizes de gravidade, que contemplaram a maioria das variáveis transformadas, descritas anteriormente, resultando numa equação que relacionou os fatores mais relevantes e que estejam relacionados a uma ocorrência na rodovia. 
+As matrizes de mortos foram propostas com dois objetivos principais o de demarcar os pontos  críticos em cada quilômetro, devido a esse tipo de sinistro e, o de estimar o tempo de paralização da rodovia devido à gravidade deste tipo de acidente. Todavia, nem sempre um acidente com óbito implica em maior tempo de paralisação. Por exemplo, uma colisão que envolva muitos veículos, ainda que não produza óbitos, pode criar um maior constrangimento na rodovia do que, por exemplo, um atropelamento que tenha projetado a vítima para fora da pista. Em virtude disso, foram criadas as matrizes de gravidade, que contemplaram a maioria das variáveis transformadas, descritas anteriormente, resultando numa equação que relacionou os fatores mais relevantes nos quesitos: importância da variável medida pela correlação linear entre elas e o valor da entropia associada à variável e que estejam relacionados a uma ocorrência na rodovia, não somente ao sinistro da representado pela Matriz de Mortos. 
 
 \vspace{5mm}
 
@@ -135,7 +135,7 @@ Onde:
  
  \pagebreak
  
- A figura 3.3 seguir representa a Matriz de Gravidade 3D da BR 101 para um terça-feira. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213 km); e a terceira dimensão (que não aparece nessa imagem),  contempla os dias da semana (1 - segunda-feira,..., 7 - domingo). 
+ A figura 3.3 seguir representa a Matriz de Gravidade 3D da BR 101 para um terça-feira. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213 km); e a terceira dimensão (que não aparece nessa imagem),  contempla os dias da semana (1 - segunda-feira, 2 - terça-feira, 3 - quarta-feira,..., 7 - domingo). 
  
  
  \begin{figure}[!ht]
@@ -143,7 +143,7 @@ Onde:
  	\caption{Matriz de Gravidade 3D3ªfeira - BR 101, Período: 2007 à 2015}
  	\label{fig:MatrizGravidade3D2}
  	\includegraphics[width=0.7\linewidth]{Figuras/Metodologia/MatrizGravidade3D2.png}\\
- 	\tiny Fonte: autor
+ 	\tiny Fonte: o Autor
  \end{figure}
 
 
@@ -212,7 +212,7 @@ O georreferenciamento para esta pesquisa se dará pelo indicador do Km em cada B
 		BR428 & km 0.0 & Belém do S. Francisco & 193.4 & Petrolina\\
 	\end{tabular}
 	\\
-	\tiny Fonte: o Autor
+	\tiny Fonte: autor
 \end{table}
 
 \vspace{7mm}
@@ -223,14 +223,14 @@ Para exemplificar a utilização dessas matrizes, foi escolhido o roteamento ent
 	\centering
 	\caption{Rota: Goiana - Recife, a partir da Matriz de Gravidade 3D para 2ª-feira}
 	\includegraphics[width=160mm, height=70mm]{Figuras/Metodologia/RotaExemplo.png}\\
-	\tiny Fonte: o Autor
+	\tiny Fonte: autor
 \end{figure}
 
 A Figura 3.6 pode ser analisada da seguinte forma:
  Três veículos partiram em uma segunda-feira de Goiana com destino ao Recife em horários diferentes. O Veículo-X partiu às 5h da manhã, Veículo-y às 6h e o Veículo-z partiu às 7h. 
  Os primeiros, segundos e terceiros trechos de 20 km (km 0 - 20; km 21 a 40; km 41 a 60) foram obtidos a partir da Matriz de Gravidade 3D, calculada para uma segunda-feira. Os valores de preenchimento dessa matriz são fornecido pela aplicação da Equação 3.1. Na primeira linha do primeiro trecho (km 0 a 20) o Veículo-x obteve somatório 10.656, o Veículo-y 18,394 e o terceiro, Veículo-z, 29,922.
  
- No cômputo geral, para cada veículo, em cada trecho, foram obtidos os valores abaixo:
+ No cômputo geral, para cada veículo, em cada trecho de uma hora, foram obtidos os valores abaixo:
  
  \begin{itemize}
  	\item Veículo-x: 10,656 +  7,442 + 119,725 = 137,823
@@ -238,6 +238,7 @@ A Figura 3.6 pode ser analisada da seguinte forma:
  	\item Veículo-z: 29,922 + 37,374 + 120,247 = 187.543
  \end{itemize} 
  
- Segundo a aplicação da Equação 3.1, o Veículo-x chegará primeiro ao Recife, seguido pelo Veículo-z e, por último, o Veículo-y. Portanto, no exemplo acima, um condutor que parta de Goiana às 5h da manhã poderá chegar ao Recife em torno de três horas (velocidade média: 20km/h). Todavia, se por algum motivo esse condutor não conseguir partir às 5h da manhã, deverá fazê-lo às 7h, e não às 6h. 
+ 
+ Segundo a aplicação da Equação 3.1, o Veículo-x chegará primeiro ao Recife, seguido pelo Veículo-z e, por último, o Veículo-y. Portanto, no exemplo acima, um condutor que parta de Goiana às 5h da manhã (2ª-feira) poderá chegar ao Recife em torno de três horas (velocidade média: 20km/h). Todavia, se por algum motivo esse condutor não conseguir partir às 5h da manhã, deverá fazê-lo às 7h, e não às 6h. 
  
  

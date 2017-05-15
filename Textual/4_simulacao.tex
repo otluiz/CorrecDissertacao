@@ -11,35 +11,47 @@ A figura a seguir resume as três etapas contempladas na proposição do modelo.
 \begin{figure}[ht]
 \centering
 \caption{Etapas da modelo proposto}
-\includegraphics[width=175mm, height=75mm]{Figuras/Cronograma/metodologia.png}\\
-\tiny Fonte: autor
+\includegraphics[width=175mm, height=85mm]{Figuras/Cronograma/metodologia.png}\\
+\tiny Fonte: o Autor
 \end{figure}
 
-A \textbf{etapa 1} contempla a fase da coleta das bases de dados históricos, preparação dos dados, construção das variáveis do modelo preditivo, descoberta dos pontos críticos das rodovias (que serão utilizados na etapa de georreferencaimento).
+A \textbf{Etapa 1} - KDD contempla a fase da coleta das bases de dados históricos, preparação dos dados, construção das variáveis do modelo preditivo, descoberta dos pontos críticos das rodovias (que serão utilizados na etapa de georreferencimento);
   \begin{enumerate}
     \item O modelo preditivo integra as bases de dados da Polícia Rodoviária Federal -- PRF.
- 
-    \item Algumas dessas informações também estão disponíveis em base de dados abertas, como sugere o Portal da Transparência, nos servidores da PRF, além de outras informações complementares.
-    \item A conclusão dessa etapa ocorre com a Mineração dos dados e a extração de conhecimento.
-	  Os ''outputs`` dessa etapa consistem nos pontos críticos localizados nas rodovias, que permitem traçar uma rota. 
-	  As localizações geográficas, indicadas pelo Km, são agrupadas formando ''clusters`` de dados exibidos em mapas vetoriais. 
-	  A partir da definição dos pontos críticos foram geradas matrizes -- de mortos e de gravidade -- que serviram para localizar tais pontos no mapa e traçar rotas.
-	  As principais ferramentas de I.A. utilizadas nessa etapa foram Árvores de Decisão e Redes Neurais, com a finalidade classificar e predizer os pontos críticos em cada quilômetro das rodovias.\\
+     Algumas dessas informações também estão disponíveis em base de dados abertas, como sugere o Portal da Transparência, nos servidores da PRF, além de outras informações complementares;
+    
+    \item Em seguida as bases heterogêneas são concatenados de acordo com a lógica do negócio que se propôs, como por exemplo algumas variáveis podem ser construídas a fim de permitir a concatenação dos dados;
+    
+    \item Uma vez concatenados e limpos, dados tratamento, retirados os ``missing data'', os dados serão dividos em conjunto de treinamento e de testes;
+   
+    \item Uma parte do conjunto de dados, o conjunto de trenamento serve para treinar os diversos algoritmos de IA já previamente escolhidos;
+    
+    \item Nesta fase os algoritmos de IA são utilizados a fim de produzirem resultados esperados pelas técnicas escolhidas. Pode haver recorrência nesta fase caso os algoritmos não tenham produzidos os resultados esperados. A conclusão dessa etapa ocorre com a Mineração dos dados e a extração de conhecimento.
+    
+    \item A fase de avaliação dos resultados ocorre pela análise das diversas métricas definidas como: Instâncias corretamente classificadas, Áreas sob a curva ROC (AUC) e Matriz de Confusão.
+     
+	\item A escolha do melhor resultado se dá pelo maior valor da área encontrada sob a curva ROC concomitantemente com o maior número de instâncias classificadas corretamente e o menor número de instâncias classificadas incorretamente com o menor erro médio absoluto. 
 \end{enumerate}
   
-A \textbf{segunda} etapa contempla:
+  
+A \textbf{Etapa 2} - Redes Sociais contempla:
  \begin{enumerate}
  	\item Um módulo dinâmico onde são capturados ``feeds'' da rede social Twitter. 
- 	     Essa técnica faz um arco cibernético mantendo o utilizador atualizado com as informações recentes. 
+ 	     Essa técnica faz um arco cibernético mantendo o utilizador atualizado com as informações recentes.
+
+ 	\item Após a captação dos dados do Twitter é feita a Mineração nos textos para localizar informações que permitam antever alguma paralização futura nas rodovias. 
   \end{enumerate}
 
-A \textbf{terceira} e última etapa consiste em um módulo com as seguintes características:
+A \textbf{Etapa 3} - Mapas é última etapa, consiste em um módulo com as seguintes características:
   \begin{enumerate}
-    \item Representação da malha viária em mapas de bases vetoriais;
+    \item Conversão dos resultados encontrados na Etapa 1, localizações geográficas dos pontos críticos da malha viária, indicadas pelo Km, são agrupadas formando ''clusters`` de dados exibidos em mapas vetoriais;
+    
     \item Um ambiente de simulação interativa que utiliza uma plataforma baseada na API do Google Maps.
-    \item Quando houver informações vindas do twitter sobre ocorrências na rodovia, deverá ser feita a geolocalização
+    
+    \item Exibe informações vindas do twitter sobre ocorrências na rodovia, encontrando sua geolocalização a ser transformado em marcos ``milestone'' para representação sobre mapas de bases vetoriais.
   \end{enumerate}
-
+ 
+\pagebreak 
 
 \section{A construção do Modelo preditivo}
 
@@ -105,7 +117,6 @@ Interpretação/Avaliação: Produção de árvores de decisão a
 partir do estabelecimento de diferentes nós-raízes, definidos em
 virtude da correlação linear e/ou da entropia.
 
-\pagebreak
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \subsection{Dados encontrados antes da Mineração}
@@ -159,7 +170,6 @@ O terceiro gráfico (boxplot) apresenta as ocorrências em torno da mediana dess
 No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidentes que se estendem das 04h às 23h. 
 
 
-\pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{figure}[h]
@@ -176,6 +186,8 @@ No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidente
 	\caption{ Frequência}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br110_3.png}
 \end{figure}
+
+O gráfico da Figura 4.6 (1) e 4.6 (2) representa a BR 110. Está é a menor rodovia federal de Pernambuco. Esta rodovia inicia-se e termina em Ibimirim. Esta rodovia também pode ser considerada como a que possui o menor número de sinistro, consequentemente a mais segura. O local com maior frequência de acidentes se encontra no entorno do quilômetro 110, seguido pelos quilômetros 130 a 150.
 
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -337,7 +349,7 @@ A BR 428 é a 11ª rodovia federal estudada nesta pesquisa, ela conecta os munic
 \pagebreak
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
 \begin{center}
 \caption{Tipo de Veículo X Num. Acidentes}
 \includegraphics[width=150mm, height=90mm]{Figuras/Preprocess/TipoVeiculoXNumAciden.png}\\
@@ -346,9 +358,8 @@ A BR 428 é a 11ª rodovia federal estudada nesta pesquisa, ela conecta os munic
 \end{figure}
 
 O número elevado de acidentes que tem por causa o automóvel de passeio que trafega por via retilínea, provavelmente condutores comuns, não profissionalizados.
-O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das motonetas (motocicletas com portência limnitada). 
+O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das motonetas (motocicletas com potência limitada). 
 
-\pagebreak
 
 \begin{figure}[ht]
 \begin{center}
@@ -359,7 +370,7 @@ O Caminhão é o segundo veículo que mais se envolve em acidentes, seguido das 
 \end{figure}
 
 
-Os dados do gráfico 4.25 revelam que o tipo de traçado da via (em linha reta) aparenta não influenciar a causa do elevado número de acidentes, pois a maioria dos acidentes ocorre em pista retilínea sugerindo assim que o condutor é o principal responsável pelo maior número de ocorrências nas BRs. Isso direciona essa pesquisa para analisar e antever o comportamento do condutor, perante às condições externa, além das condições da rodovia.
+Os dados do gráfico 4.25 demonstram que o traçado da via (em linha reta) não parece influenciar a causa  elevada no número de acidentes, pois, a maioria dos acidentes ocorre em pista retilínea sugerindo assim que o condutor é o principal responsável pelas ocorrências nas BRs desse tipo de sinistro, com isso nosso foco se direciona para analisar e tentar antever o comportamento do condutor, perante às condições externa, para além das condições da rodovia.
 
 \pagebreak
 
@@ -407,7 +418,7 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			\tiny Fonte: o Autor
 		\end{table}
 		
-		\pagebreak
+	%	\pagebreak
 		
 		\begin{table}[!ht]
 			\centering
@@ -444,7 +455,7 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 			\vspace{1mm}
 			\begin{tabular}{l|c|c|c|c|c|c|c|l}
 				\hline
-				\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadores}\\
+				\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadas}\\
 				\hline
 				527 & 7 & 2 & 385 & 483 & 46 & 2 & 24 & Colisão transversal \\
 				16 & 14 & 0 & 69 & 154 & 15 & 0 & 47 & Colisão com objeto fixo \\
@@ -483,7 +494,7 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 		\tiny Fonte: o Autor
 	\end{table}
 	
-\pagebreak	
+%\pagebreak	
 	
 	\begin{table}[!ht]
 		\centering
@@ -507,7 +518,7 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 		\vspace{1mm}
 		\begin{tabular}{l|c|l}
 			\hline
-			\textbf{a} & \textbf{b} & \textbf{Classificadores}\\
+			\textbf{a} & \textbf{b} & \textbf{Classificadas}\\
 			\hline
 			9747 & 996 & a = S \\
 			3662 & 2363 & b = N \\
@@ -516,6 +527,7 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 		\tiny Fonte: o Autor
 	\end{table}
 	
+\pagebreak
 	
 	\item[(iii)] Variável: BRajustada (Entropia: 2,4128)
 	\begin{table}[!ht]
@@ -565,7 +577,7 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 		\vspace{1mm}
 		\begin{tabular}{l|c|c|c|c|c|c|c|l}
 			\hline
-			\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadores}\\
+			\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadas}\\
 			\hline
 			6960 & 0 & 0 & 625 & 0 & 0 & 0 & 0 & BR101 \\
 			0 & 1071 & 0 & 156 & 0 & 0 & 0 & 0  & BR104 \\
@@ -585,48 +597,105 @@ A seguir apresenta-se a métrica para avaliar um classificador, também conhecid
 
 \end{enumerate}
 
+
 A área sob a curva ROC, AUC (Area Under Curve) mede a
 relação de verdadeiros positivos contra os falsos positivos.
 Quanto maior a área da curva tanto melhor será o
 classificador. Portanto, um número de verdadeiros positivos
-acima de 80\% e o número de falsos positivos próximo a 0\%
-traduzem uma área da curva ROC (AUC) que dá maior confiabilidade
+acima de 80\% (vide coluna AUC da Tabela 4.5), o número de falsos positivos próximo a 0\% (vide Tabela 4.5 coluna FP (Falsos Positivos))
+traduzem uma área sob a curva ROC (AUC) que dá maior confiabilidade
 aos testes.
-
-A variável “BRajustada” não teve o maior coeficiente de
-entropia encontrado, contudo esta variável apresentou
-índices de classificação das instâncias corretas acima dos 80\% e
-o menor índice de classificação incorreta dentre os três
-classificadores utilizados. Esta variável foi a escolhida para
-encabeçar os algoritmos para os resultados encontrados. 
 
 \pagebreak
 
-A árvore construída pelo Knime para a mesma variável “Causa do Acidente” => velocidade incompatível é apresentada na
-próxima figura.
+A variável “BRajustada” não teve o maior coeficiente de
+entropia encontrado, contudo esta variável apresentou
+índices de classificação das instâncias corretas acima dos 90\%, somente em dois casos ficou abaixo desse patamar que foram para a BR 110 (área = 0,816) e para a BR 408 (área = 0,781) e,
+o menor índice de classificação incorreta dentre os três
+classificadores utilizados, podemos constatar isso da seguinte forma, na primeira linha da Matriz de Confusão demonstrada na Tabela 4.6 temos:
+
+
+\begin{table}[!ht]
+	\centering
+	\caption{Linhda da Matriz de confusão correspondente a BR 101}
+	\vspace{1mm}
+	\begin{tabular}{l|c|c|c|c|c|c|c|l}
+		\hline
+		\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadores}\\
+		\hline
+		6960 & 0 & 0 & 625 & 0 & 0 & 0 & 0 & BR101 \\
+	\end{tabular}
+	\\
+	\tiny Fonte: o Autor
+\end{table}
+
+A Tabela 4.7 foi retirada da Tabela 4.6 correspondente à linha da BR 101. O classificador Árvore de Decisão encontrou 6960 (classe a) de instâncias corretamente e 625 (classe d) de instâncias erradas, as entradas restantes estão em zero, significa que o classificador não "errou" em outras classes. A área sob a curva ROC correspondente a BR 101 foi de 0,917 ou 91,7\%. \\
+
+A segunda linha da Matriz de Confusão da Tabela 4.6 está demonstrada na Tabela 4.8.
+ 
+\begin{table}[!ht]
+	\centering
+	\caption{Matriz de confusão para a variável BRajustada}
+	\vspace{1mm}
+	\begin{tabular}{l|c|c|c|c|c|c|c|l}
+		\hline
+		\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadores}\\
+		\hline
+		0 & 1071 & 0 & 156 & 0 & 0 & 0 & 0  & BR104 \\
+	\end{tabular}
+	\\
+	\tiny Fonte: o Autor
+\end{table} 
+ 
+Como se pode constatar na Tabela 4.8 (BR 104) o classificador encontrou 1071 instâncias corretas (classe b)  e 156 erradas (classe d), com área sob a curva ROC de 0,992 ou 99,2\%.\\
+
+A 4ª linha (de baixo para cima) da Tabela 4.5 correspondente à BR 408 é demonstrada na Tabela 4.9 
+
+\begin{table}[!ht]
+	\centering
+	\caption{Matriz de confusão para a variável BRajustada}
+	\vspace{1mm}
+	\begin{tabular}{l|c|c|c|c|c|c|c|l}
+		\hline
+		\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & \textbf{Classificadores}\\
+		\hline
+		643 & 0 & 0 & 66 & 0 & 0 & 0 & 0  & BR408 \\
+	\end{tabular}
+	\\
+	\tiny Fonte: o Autor
+\end{table} 
+
+O classificador Árvore de Decisão encontrou a menor área sob a curva ROC para essa BR, (vide última linha da Tabela 4.5) na coluna AUC (AUC = 0,781) e o número de falsos positivos (FP) foi 0,10 (10\%), acreditamos que devido ao baixo número ocorrências (acidentes e paralisações) dessa rodovia o classificador obteve este desempenho, contudo considerado razoável \cite{ROC}.
+
+Com os resultados encontrados e demonstrados acima pelo algoritmo Árvore de Decisão, a variável BRajustada foi escolhida para explicar o comportamento das rodovias. 
+\\
+Foram construídas Árvores de Decisão com as ferramentas R-cran, Weka e Knime. O Weka construiu uma árvore ininteligível, o R-cran será discutida a seguir e uma parte da Árvore de Decisão que o Knime construiu é demonstrada na Figura 4.26.
+
 
 \begin{figure}[!ht]
 \centering
 \caption{Árvore de Decisão gerada pelo Knime}
 \includegraphics[width=150mm, height=145mm]{Figuras/Metodologia/arvoreKnime.png}
+\\
+\tiny Ffonte: o Autor
 \label{fig:arvoreKnime}
 \end{figure}
 
+A árvore construída pelo Knime para a mesma variável “Causa do Acidente” => velocidade incompatível.
+Devido a grande quantidade de nós folha foi escolhida parte da Árvore onde foram classificadas os acidentes em dias-da-semana, com índices que chegaram a 100\%. O valor ``p-value'' abaixo de 0,05 é destacado na Figura 4.6, também para exemplificar, o nó folha classificou como causas dos acidentes: nas
+quartas-feiras: “ultrapassagem indevida”; nas sextas-feiras:
+“defeito na via”; e no sábado: “dormindo ao volante”.
+
 \pagebreak
 
-
-Também para exemplificar, o nó folha classificou como causas dos acidentes: nas
-quartas-feiras “ultrapassagem indevida”; nas sextas-feiras
-“defeito na via”; e no sábado, “dormindo ao volante”.
 Contudo, os melhores resultados, de acordo com mais alta
 precisão, segundo a métrica dos classificadores, foi a variável
-“BRajustada”, com curva ROC acima dos 90% em quase todas
+“BRajustada” com nó raiz, com curva ROC acima dos 90\% em quase todas 
 as classes. O classificador Naïve Bayes obteve um
-desempenho semelhante com essa
+desempenho semelhante, com essa
 variável. Somente na BR 408 e BR 110 ficou abaixo, o que
 confirma os valores encontrados pelo Weka.
-Os valores das regras encontradas pelo algoritmo para a
-variável “Delegacia” foram:
+Os valores das regras encontradas pelo algoritmo Árvore de Decisão com a variável “Delegacia”, (abaixo do nó raiz BRajustada) foram:
 
 (a) “Delegacia” [1101(Região Metropolitana)], [BR 101],
 [KM: 4], [Traçado da via: Reta], [Gravidade = S (acidente com
@@ -674,7 +743,9 @@ A falta de atenção foi condição ``sine qua non'' que determinou os acidentes
 
 \vspace{5mm}
 
-A figura a seguir, obtida a partir da API do Google Maps, demonstra o local aproximado (Km 70, Br 101 -- sul) destacado na Matriz de Mortos. Ao ser consultada a Árvore de Decisão (acima) para explicar as causas do alto índice de óbitos, constatou-se que eram, em sua maioria, mortes por atropelamento. A imagem do Google Maps define que o local é próximo à CEASA, que é principal Centro de Abastecimento de alimentos da região, com um grande fluxo de pessoas -- muitas delas das comunidades do entorno -- e de veículos que vêm de diversas regiões do país, para comercialização dos produtos em grosso e varejo. Esse exemplo aponta para a ideia de extrapolação das ferramentas utilizadas nessa pesquisa.  
+As Figura 4.27 e 4.28 correspondem ao mesmo ponto na BR 101, a Figura 4.27 foi obtida a partir da API do Google Maps, ela demonstra o local (aproximadamente o Km 70, Br 101 -- sul) destacado na Matriz de Mortos, Figura 4.28, logo abaixo. Ao ser consultado, este ponto nas Árvores de Decisão, para explicar as causas do alto índice de óbitos, constatou-se que eram, em sua maioria, mortes por atropelamento. 
+
+A imagem do Google Maps, Figura 4.27, define que o local é próximo à CEASA, que é principal Centro de Abastecimento de alimentos da região, com um grande fluxo de pessoas -- muitas delas das comunidades do entorno -- e de veículos que vêm de diversas regiões do país, para comercialização dos produtos em grosso e varejo. Esse exemplo aponta para a ideia de extrapolação das ferramentas utilizadas nessa pesquisa.  
 
 \pagebreak
 
@@ -704,6 +775,7 @@ Em seguida a Matriz de Mortos e a Árvore de Decisão correspondente a esse trec
 
 
 %% BR 104
+Outro trecho, agora na BR 104 (rota da Sulanca) é demonstrado na Figura 4.29.
 \begin{figure}[htbp!]
 	\centering
 	\caption{Km 64 e 67, BR 104 Pernambuco}
@@ -714,11 +786,11 @@ Em seguida a Matriz de Mortos e a Árvore de Decisão correspondente a esse trec
 
 \vspace{7mm}
 
-Em seguida a Matriz de Mortos correspondente a esse trecho. Chamamos a atenção para o km 64 e km 67 desta rodovia o número de óbitos nestes locais é quase o dobro dos outros. Provavelmente este é o local mais perigoso desta rodovia.
+A Matriz de Mortos correspondente a esse trecho é a Figura 4.30, Destacamos os pontos: km 64 e km 67 desta rodovia o número de óbitos nestes locais é grande.
 
 \begin{figure}[htbp!]
 	\centering
-	\caption{Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}
+	\caption{Matriz de Mortos: Km 64 e 67, BR 104 - Rota da Sulanca - Pernambuco}
 	\label{fig:MatrizMortos2d-101}
 	\includegraphics[width=120mm, height=90mm]{Figuras/Resultados/MM2d104}\\
 	\tiny Fonte: o Autor
@@ -727,7 +799,7 @@ Em seguida a Matriz de Mortos correspondente a esse trecho. Chamamos a atenção
 \pagebreak
 
 
-Para a região no entorno da BR 116, os acidentes com
+A região no entorno da BR 116, os acidentes com
 mortes [Gravidade = S] ocorrem frequentemente às quinta-feira, envolvendo todos os tipos de veículos.
 Os valores das regras encontradas pelo algoritmo para a
 variável “Causa do Acidente” foram:
@@ -755,23 +827,164 @@ via: Reta], [Condição da pista: molhada], [Dia da semana]:
 
 \pagebreak
 
-\subsection{Resultado dos outros classificadores utlizados nesta pesquisa}
+\subsection{Resultado dos outros classificadores utilizados nesta pesquisa}
 
-Os dados gerados pelos outros classificadores -- Naïve Bayes e Redes Neurais -- permitiram confirmar que os resultados encontrados pelas Árvores de Decisão são os mais adequados para o modelo proposto.
+Os dados gerados pelos classificadores -- Naïve Bayes e Redes Neurais no software Weka permitiram confirmar que os resultados encontrados pelas Árvores de Decisão são os mais adequados para o modelo proposto.
 
-A seguir exemplificamos alguns dos resultados desses classificadores:
+O resultado do algoritmo Naïve Bayes é demonstrado na Tabela 4.10 (Instâncias classificadas corretamente e incorretamente), pela Tabela 4.11 (Acurácia) e pela Tabela 4.12 (Matriz de Confusão).
+
+	\begin{table}[!ht]
+		\centering
+		\caption{Instâncias classificadas e Erro médio}
+		\vspace{1mm}
+		\begin{tabular}{l|c|c}
+			\hline
+			\textbf{Descrição} & \textbf{Valores} & \textbf{Percentual} \\
+			\hline
+			Instâncias Corretamente Classificadas & 9232 & 73,3339\% \\
+			Instâncias Incorretamente Classificadas & 3357 & 26,6661\% \\
+			Erro médio absoluto & 0.0588 & ---  \\
+			Erro médio quadrático & 0.1908 & --- \\
+		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
+	\end{table}
 
 
-\begin{figure}
+	\begin{table}[!ht]
+		\centering
+		\caption{Detalhe da acurácia para classe BRajusta}
+		\vspace{1mm}
+		\begin{tabular}{l|c|c|c|c|c|l}
+			\hline
+			\textbf{TP} & \textbf{FP} & \textbf{Prec.} & \textbf{Recall} & \textbf{F-Me.} & \textbf{AUC} & \textbf{Classe} \\
+			\hline
+		0,947 &  0,277  & 0,734  &   0,947  & 0,827  & 0,914 & BR101\\
+		0,895 &  0,008  & 0,893  &   0,895  & 0,894  & 0,997 & BR104\\
+		0,159 &  0,000  & 0,538  &   0,159  & 0,246  & 0,996 & BR110\\
+		0,833 &  0,010  & 0,510  &   0,833  & 0,633  & 0,995 & BR116\\
+		0,429 &  0,052  & 0,748  &   0,429  & 0,546  & 0,834 & BR232\\
+		0,589 &  0,016  & 0,510  &   0,589  & 0,546  & 0,983 & BR316\\
+		0,772 &  0,003  & 0,901  &   0,772  & 0,832  & 0,996 & BR407\\
+		0,165 &  0,013  & 0,284  &   0,165  & 0,209  & 0,890 & BR408\\
+		0,607 &  0,013  & 0,650  &   0,607  & 0,628  & 0,983 & BR423\\
+		0,377 &  0,006  & 0,594  &   0,377  & 0,461  & 0,988 & BR424\\
+		0,875 &  0,009  & 0,849  &   0,875  & 0,862  & 0,994 & BR428\\
+		
+		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
+	\end{table}
+
+O algoritmo Naïve Bayes encontrou o percentual de instâncias corretamente classificadas um pouco abaixo do percentual da   
+Árvore de Decisão.
+A área sob a curva ROC (AUC) para a variável BRajustada, o Naïve Bayes (NB) obteve valores próximos aos da Árvore de Decisão (AD) para quase todas as classes, com exceção para a área da classe BR 408:\\
+-- para NB foi 0,890 \\ 
+-- para AD foi 0,781 \\
+diferença portanto de 10,9\% acima para o NB.
+
+\pagebreak
+
+A Tabela 4.12 corresponde à Matriz de Confusão do NB para a variável BRajustada.
+
+	\begin{table}[!ht]
+		\centering
+		\caption{Matriz de confusão -- BRajustada -- Naïve Bayes}
+		\vspace{1mm}
+		\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|l}
+			\hline
+			\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & 
+			\textbf{i} & \textbf{j} & \textbf{k} & 		\textbf{Classificadas}\\
+			\hline
+			 5317 &  0  &  0 &  0 & 198 & 0  & 0 & 102 &   0  &  0  &  0 &   a = BR101\\
+			 0 & 761 &  0 &  0 & 88 &  0  & 0 &   0 &   1  &  0  &  0 &   b = BR104\\
+			 0 &  0  &  7 &  0 & 12 &  0  & 0 &   0 &  20  &  5  &  0 &   c = BR110\\
+			 0 &   0 &  0 & 130 & 1 & 24  & 0 &   0 &   0  &  0  &  1 &   d = BR116\\
+			 1605 &  69 &  0 &  0 & 1424 & 159 &   59  &  0   &  0  &  0 & 0 &  e = BR232\\
+			 0 &   0 &  0 & 94 & 47 & 206 & 0 &   0 &   0  &  0  &  3 &   f = BR316\\
+			 0 &   0 &  0 &  0 &  1 &  1 & 346 &  0 &   0  &  0 & 100 &   g = BR407\\
+			 323 &   0 &  0 &  0 &  1 &  0 &  0 &  64 &   0  &  0  &  0 &   h = BR408\\
+			 0 &  22 &  5 &  0 &  95 & 0 &  0 &   0 & 290  & 66  &  0 &   i = BR423\\
+			 0 &   0 &  1 &  0 &  36 & 0 &  0 &   0 & 135  & 104 &  0 &   j = BR424\\
+			 0 &   0 &  0 & 31 &  0  & 14 & 38 &  0 &   0  & 0 & 583 &    k = BR428\\			
+		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
+	\end{table}	
+
+As classes a, b, c,...,k correspondem à coluna ``Classificadas'' (BR 101, BR 104,...,BR 428). 
+Podemos contatar que há um maior número de entradas diferentes de zero em cada linha dessa tabela, portanto o classificador NB "errou" mais vezes ao tentar encontrar determinadas classes corretas, por exemplo:
+
+	\begin{table}[!ht]
+		\centering
+		\caption{Matriz de confusão -- BRajustada -- Naïve Bayes}
+		\vspace{1mm}
+		\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|l}
+			\hline
+			\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & 
+			\textbf{i} & \textbf{j} & \textbf{k} & 		\textbf{Classificadas}\\
+			\hline
+			5317 &  0  &  0 &  0 & 198 & 0  & 0 & 102 &   0  &  0  &  0 &   a = BR101			
+		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
+	\end{table}	
+
+Nas classes ``e'' e ``h'' da linha a = BR101, o classificador ``errou'', respectivamente em 198 e 102, portanto deveria ter entradas a zero caso tivesse classificado corretamente todas as instâncias.
+
+	\begin{table}[!ht]
+		\centering
+		\caption{Matriz de confusão -- BRajustada -- Naïve Bayes}
+		\vspace{1mm}
+		\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|l}
+			\hline
+			\textbf{a} & \textbf{b} & \textbf{c} & \textbf{d} & \textbf{e} & \textbf{f} & \textbf{g} & \textbf{h} & 
+			\textbf{i} & \textbf{j} & \textbf{k} & 		\textbf{Classificadas}\\
+			\hline
+			 1605 &  69 &  0 &  0 & 1424 & 159 &   59  &  0   &  0  &  0 & 0 &  e = BR232			
+		\end{tabular}
+		\\
+		\tiny Fonte: o Autor
+	\end{table}
+
+Nas classes ``a'', ``b'', ``f'' e ``g'' da linha e = BR232, o classificador ``errou'', respectivamente, em 1605, 69, 159 e 59. Podemos constatar que na classe ``a'', o NB obteve mais erros (1605) do que acertos (1424), portanto ele não foi capaz de encontrar um quantidade adequada de classes corretas para e = BR232. Concluímos, assim, que o algoritmo Árvore de Decisão supera o Naïve Bayes.
+
+\pagebreak
+
+A Rede Neural utilizada na classificação dos pontos críticos das rodovias está descrita na Figura 4.32. As variáveis de entrada são descritas segundo a equação a seguir: 
+
+\begin{equation}
+ProbAcid = (RestVisibi * CondPista * TracadoVia * TipoAcident * CausaAcident) + Gravidade
+\end{equation}
+ 
+ 
+
+\begin{figure}[!ht]
 	\centering
-	\caption{Resultado da classificação feita pelo Naïve Bayes -- acurácia}
-	\includegraphics[width=90mm, height=70mm]{Figuras/Resultados/NaiveBayesCausaAcident}\\
+	\caption{Rede Neural utilizada na classificação}
+	\includegraphics[width=110mm, height=85mm]{Figuras/Resultados/rnn101.png}\\
 	\tiny Fonte: O Autor
-	\label{fig:NaiveBayesCausaAcident}
+	\label{fig:RNN2}
 \end{figure}
 
+As variáveis da equação 4.1 contemplam as variáveis da equação 3.1 mais as seguintes variáveis:
 
-\begin{figure}
+\begin{itemize}
+	\item RestVisibi   - Restrição de Visibilidade;
+	\item CondPista    - Condição da Pista;
+	\item TraçadoVia   - Traçado da Via;
+	\item TipoAcident  - Tipo de Acidente;
+	\item CausaAcident - Causa do Acidente;
+	\item Gravidade    - Gravidade do acidente.
+\end{itemize}
+
+A Equação 4.1 foi baseada nos parâmetros escolhidos para a Equação 3.1 que por sua vez foram baseados no entropia e correlação linear forte entre as variáveis. Ao acrescentar mais parâmetros à Equação 4.2 procurou-se chegar mais próximo dos resultados encontrados pelos outros classificadores utilizados nesta pesquisa, contudo os resultados foram irrelevantes. A Figura 4.33 demonstra os resultados da Rede Neural como classificador
+
+A Figura 4.32 é um esboço da rede neural utilizada em um dos experimentos. Algumas variáveis como CausaAciden e TipoAcident não se encontram contempladas neste modelo, contudo nos experimentos elas não alteraram o comportamento do classificador.
+
+A partir desse resultado podemos concluir que a Árvore de Decisão encontrou resultados mais promissores, apesar da taxa de erro médio absoluto (vide Figura 4.33) da Rede Neural ser o menor dos classificadores utilizados nesta pesquisa.
+
+\begin{figure}[!ht]
 	\centering
 	\caption{Resultado da classificação feita pela Rede Neural -- acurácia}
 	\includegraphics[width=90mm, height=115mm]{Figuras/Resultados/RNN}\\
@@ -793,6 +1006,7 @@ A API do Twitter, por sua vez, possibilita atualizar o utilizador com informaç�
 um Arco Cibernético das informações, retroalimentando, com dados recentes, um banco de dados de redes sociais. Isso permite um visualização 
 instantânea do ambiente como um todo.
 
+\pagebreak
 
 \subsection{Mineração em texto no Twitter}
 
@@ -800,53 +1014,58 @@ A mineração de dados textuais na rede social Twitter demonstrou ser uma ferram
 
 Para localizar novos canais de informação, foram construídos subgrafos contemplando, além dos tweets da PFR, retweets dos seguidores desse canal. Esperava-se, com isso, encontrar novos Hubs na rede. No entanto, a busca em subgrafos é uma tecnologia que precisa ser investigada mais a fundo, dada a sua complexidade.
 
-Conceitos como betwenneess, centralidade, peso das arestas, precisam ser adequadamente compreendidos pelo pesquisador, para que a tecnologia seja explorada em todo seu potencial. Isso implica no estudo de novos algoritmos, próprios para mineração em grafos de redes sociais, o que, em princípio, fugia do escopo dessa pesquisa.
+Conceitos como intermediação, centralidade, peso das arestas, precisam ser adequadamente compreendidos pelo pesquisador, para que a tecnologia seja explorada em todo seu potencial. Isso implica no estudo de novos algoritmos, próprios para mineração em grafos de redes sociais, o que, em princípio, fugia do escopo dessa pesquisa.
 
-Ainda que consideremos que a ferramenta não tenha sido adequadamente explorada, por todas as questões propostas acima, a mineração de dados textuais do twitter permitiu inferir que o utilizador dessa rede social faz referência ao que acontece nas rodovias, com especial atenção para fatos que possam ter implicação em seu cotidiano, tanto imediatamente (por exemplo, congestionamento numa via que ele utiliza para ir ao trabalho), quanto num universo temporal mais distante (por exemplo, condição da rodovia que dá acesso à cidade em que ele vai passar um feriado). Esse último aspecto é aquele que interessa particularmente ao modelo proposto nessa pesquisa.
+Ainda que consideremos a ferramenta não tenha sido adequadamente explorada, por todas as questões propostas acima, a mineração de dados textuais do twitter permitiu inferir que o utilizador dessa rede social faz referência ao que acontece nas rodovias, com especial atenção para fatos que possam ter implicação em seu cotidiano, tanto imediatamente (por exemplo, congestionamento numa via que ele utiliza para ir ao trabalho), quanto num universo temporal mais distante (por exemplo, condição da rodovia que dá acesso à cidade em que ele vai passar um feriado). Esse último aspecto é aquele que interessa particularmente ao modelo proposto nessa pesquisa.
 
-Os dados a seguir mostram a busca dos termos frequentes encontrado no documento textual, extraído a partir de 3.200 tweets. O primeiro gráfico apresenta unigramas -- termos frequentes que contém uma palavra -- e bigramas, termos com duas palavras. Foram encontradas palavras como: fiscalização, colisão, vítima fatal, acidentes, detre outros. 
+%\vspace{5mm} -- e bigramas, termos com duas palavras
 
-\pagebreak
+Os dados da Figura 3.34 mostram a busca dos termos frequentes encontrado no documento textual, extraído a partir de 3.200 tweets. O primeiro gráfico apresenta unigramas -- termos frequentes que contém uma palavra. Foram encontradas palavras como: fiscalização, colisão, vítima fatal, acidentes, detre outros. 
 
-\begin{figure}
+
+%\pagebreak
+
+\begin{figure}[!ht]
 \centering
 \caption{Gráfico de frequência de palavras -- unigramas}
 \includegraphics[width=0.7\linewidth]{Figuras/Twitter/freqPalavr}
 \label{fig:freqPalavras}
 \end{figure}
 
-\quad
+\qquad
 
-A nuvem de palavras é um gráfico de frequência de palavras em que os termos mais frequentes aparecem em destaque -- com letras em tamanho maior -- seguidos pelos próximos termos mais frequentes -- em tamanho um pouco menor -- e assim sucessivamente, chegando a contemplar dezenas ou até centenas de palavras, a depender da escolha do pesquisador. No caso da nuvem de palavras a seguir, aparecem cerca de 50 termos, e destacam-se como mais frequentes (em virtude do tamanho): veículo, BR, acidente (acid), balanço, dentre outras. 
+A nuvem de palavras da Figura 4.35 é um gráfico de frequência de palavras em que os termos mais frequentes aparecem em destaque -- com letras em tamanho maior -- seguidos pelos próximos termos mais frequentes -- em tamanho um pouco menor -- e assim sucessivamente, chegando a contemplar dezenas ou até centenas de palavras, a depender da escolha do pesquisador. No caso da nuvem de palavras a seguir, aparecem cerca de 50 termos, e destacam-se como mais frequentes (em virtude do tamanho): veículo, BR, acidente, balanço, dentre outras. 
 
-\begin{figure}
+\begin{figure}[!ht]
 \centering
-\caption{Nuvem de palavras da Mineração em textos}
-\includegraphics[width=0.5\linewidth]{Figuras/Twitter/nuvem2}
+\caption{Gráfico tipo Nuvem de Palavras referente aos unigramas}
+\includegraphics[width=0.6\linewidth]{Figuras/Twitter/nuvem2.png}
 \label{fig:Nuvem1}
 \end{figure}
 
+%\vspace{5mm}
 
-\pagebreak
 
-O dendograma é um gráfico que agrupa palavras de acordo com o assunto. No dendograma a seguir foram identificados seis agrupamentos (clusters), como, por exemplo: ferido, balanço e morto; envolvidos, veículo (veic), fiscalização (fisc), multa, alcoolemia, pessoa, test; PRF; fatal, vítima, envolvido, óbito, prisão, condutor, colisão, moto, ano, h (hora). Os agrupamentos, quando analisados adequadamente, permitem identificar, com um número reduzido de palavras, o acontecimento ao qual está sendo feita referência. Por exemplo, no último agrupamento exemplificado acima é possível deduzir que houve uma colisão envolvendo uma moto, que resultou no óbito de um dos envolvidos e na prisão daquele que foi o responsável pela colisão.   
 
-\begin{figure}
+O dendograma da Figura 4.36 é um gráfico que agrupa palavras de acordo com o assunto. 
+No dendograma a seguir foram identificados seis agrupamentos (clusters), como, por exemplo: ferido, balanço e morto; envolvidos, veículo (veic), fiscalização (fisc), multa, alcoolemia, pessoa, test; PRF; fatal, vítima, envolvido, óbito, prisão, condutor, colisão, moto, ano, h (hora). Os agrupamentos, quando analisados adequadamente, permitem identificar, com um número reduzido de palavras, o acontecimento ao qual está sendo feita referência. Por exemplo, no último agrupamento exemplificado acima é possível deduzir que houve uma colisão envolvendo uma moto, que resultou no óbito de um dos envolvidos e na prisão daquele que foi o responsável pela colisão.   
+
+\begin{figure}[!ht]
 \centering
-\caption{Dendograma de Clusterização do resultado da mineração}
+\caption{Dendograma de Agrupamento (clustering) do resultado da mineração}
 \includegraphics[width=0.7\linewidth]{Figuras/Twitter//Cluster}
 \label{fig:Cluster}
 \end{figure}
 
-O próximo gráfico ilustra a utilização de outro algoritmo de agrupamento (clusterização), conhecido com K-means. 
+O Gráfico 4.37 ilustra a utilização de outro algoritmo de agrupamento, conhecido com K-means. 
 
 \begin{figure}
 \centering
-\caption{Gráfico da clusterização do resultado da mineração}
+\caption{Gráfico da Agrupamento (clustering) do resultado a mineração}
 \includegraphics[width=0.7\linewidth]{Figuras/Twitter/Cluster2}
 \label{fig:Cluster2}
 \end{figure}
 
-Uma análise mais minuciosa dos gráficos produzidos pela mineração de textos pode trazer contribuições de considerável relevância, que permitem refinar o modelo de predição.
+Uma análise mais minuciosa dos gráficos produzidos pela mineração em textos pode trazer contribuições de considerável relevância, que permitem refinar o modelo de predição da Etapa 1, descrita na Figura 4.1 do modelo proposto.
 
 %\section{Casos de teste do modelo preditivo}
