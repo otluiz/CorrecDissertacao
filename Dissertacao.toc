@@ -40,12 +40,12 @@
 \contentsline {subsection}{\numberline {4.2.2}Dados encontrados antes da Minera\IeC {\c c}\IeC {\~a}o}{60}
 \contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{72}
 \contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{72}
-\contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utilizados nesta pesquisa}{81}
-\contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{84}
-\contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{85}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{88}
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{91}
-\contentsline {chapter}{\numberline {A}Preprocessamento}{93}
-\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{93}
-\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{94}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{96}
+\contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utilizados nesta pesquisa}{82}
+\contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{85}
+\contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{86}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{89}
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{92}
+\contentsline {chapter}{\numberline {A}Preprocessamento}{94}
+\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{94}
+\contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{95}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{97}

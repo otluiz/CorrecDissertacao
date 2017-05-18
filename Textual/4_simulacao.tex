@@ -11,7 +11,7 @@ A figura a seguir resume as três etapas contempladas na proposição do modelo.
 \begin{figure}[ht]
 \centering
 \caption{Etapas da modelo proposto}
-\includegraphics[width=175mm, height=85mm]{Figuras/Cronograma/metodologia.png}\\
+\includegraphics[width=165mm, height=100mm]{Figuras/Cronograma/metodologia.png}\\
 \tiny Fonte: o Autor
 \end{figure}
 
@@ -63,6 +63,8 @@ O CRISP-DM nesta pesquisa ajudou a guiar as escolhas nos momentos em que os resu
 
 A proposta metodológica delineada para esta pesquisa contemplou todas as fases do KDD, conforme descrito a seguir.
 
+\vspace{5mm}
+
 \subsubsection{Fases da Mineração ao KDD}
 
 Seleção: Nesta etapa foram coletadas as informações provenientes das bases de dados da Policia Rodoviária Federal de Pernambuco entre 2007 e 2015. Segundo informações da própria PRF/PE, apenas a partir de 2007 esses dados passaram a ser armazenados eletronicamente. A PRF/PE dispõe em banco de dados relacionais alguns desses dados na Internet,
@@ -70,6 +72,8 @@ contudo no artigo “Uma análise da qualidade dos dados relativos aos boletins 
 o processo de Mineração de Dados”, COSTA, BERNARDINI, LIMA \cite{Costa2015} destacam a não padronização e não aceitação dos
 dados pela comunidade internacional. EAVES, D. \cite{Eaves} sugere que os dados sejam disponibilizados na maneira como foram
 coletados. 
+
+\vspace{5mm}
 
 A primeira base de dados coletada diretamente dos servidores da PRF continha relatório de acidentes e a segunda a de interdições. A partir dos dados capturados na base da PRF utilizamos como variáveis de entrada:
 
@@ -79,6 +83,8 @@ A primeira base de dados coletada diretamente dos servidores da PRF continha rel
  \item Traçado da via: {Reta, Curva, Cruzamento, Defeito}
  \item Tipo de veículo: {Automóvel, Caminhonete, Motocicletas, Caminhão, Caminhão-trator, Bicicleta, Ônibus, Motoneta, Micro-ônibus, Trator de rodas, Carroça, Caminhão-Tanque, Semi-Reboque, Utilitário, Ciclomotor, Charrete, Carro-de-mão, Quadriciclo, Trator misto, Reboque, Trator de esteiras, Não informado, Não se aplica, Não identificado}
 \end{itemize}
+
+\vspace{5mm}
 
 Preprocessamento: Nesta fase foram retiradas as variáveis que continham inconsistência e “missing data”, como, por exemplo, informações acerca de latitude e longitude. Cabe destacar que a base de dados, como um todo, apresentava sérias inconsistências, uma vez que, por exemplo,
 um mesmo acidente, quando envolvia dois ou mais veículos,
@@ -92,6 +98,8 @@ paralisação”, contemplando acidentes sem mortos e com, no
 máximo, dois veículos envolvidos; “Dias da semana”
 (domingo, segunda-feira,....sábado); “Ajuste de horas” (i.e. 17h58, 17h59, 18h, 18h01, 18h02, arredondadas para 18h);
 “Ajuste de Km” (seguiu a mesma lógica do ajuste de horas).
+
+\vspace{5mm}
 
 Mineração de dados: O algoritmo escolhido para essa fase da pesquisa
 foi Árvore de Decisão, que possibilita uma interpretação
@@ -113,12 +121,17 @@ correlação foi baixa, apenas 0,14. Variáveis com correlação linear abaixo d
 
 Outra métrica para a escolha de variáveis de entrada foi a entropia, que é um elemento considerado importante pela literatura \cite{NorvigRussel2004}. Nesse caso, variáveis que seriam desconsideradas em virtude da baixa correlação linear, foram reconsideradas por conta da entropia.
 
+\vspace{5mm}
+
 Interpretação/Avaliação: Produção de árvores de decisão a
 partir do estabelecimento de diferentes nós-raízes, definidos em
 virtude da correlação linear e/ou da entropia.
 
+\vspace{5mm}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 \subsection{Dados encontrados antes da Mineração}
 
 Os dados revelaram que a grande maioria dos acidentes ocorre com pista seca, sem restrição de visibilidade. 
@@ -164,9 +177,9 @@ Especulou-se, a priori, que a variável “traçado da rodovia” ou que as cond
 
 O gráfico 4.4(1), 4.4(2) e 4.5 apresentam dados da BR 104, que atravessa seis municípios de Pernambuco, dentre eles Caruaru, que é responsável por uma das maiores frotas de veículos do interior e por onde passam cerca de 50 mil veículos por dia. 
 A gráfico 4.4(1) representa, nos últimos nove anos, os acidentes que ocorreram a cada hora (abcissa) em cada Km (ordenada).
-O  gráfico 4.4(2) corresponde à frequência do local onde ocorreram esses acidentes. 
+O  gráfico 4.4(2) (boxplot) apresenta as ocorrências em torno da mediana dessa localidade (Km).
+O terceiro gráfico (4.5) corresponde à frequência do local onde ocorreram esses acidentes. 
 Percebe-se que em torno do Km 60 concentra-se o maior número de ocorrências. 
-O terceiro gráfico (boxplot) apresenta as ocorrências em torno da mediana dessa localidade (Km). 
 No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidentes que se estendem das 04h às 23h. 
 
 
@@ -186,6 +199,8 @@ No gráfico 1 são identificados padrões, por exemplo no Km 60 ocorrem acidente
 	\caption{ Frequência}
 	\includegraphics[width=7cm,height=7cm]{Figuras/Preprocess/br110_3.png}
 \end{figure}
+
+\pagebreak
 
 O gráfico da Figura 4.6 (1) e 4.6 (2) representa a BR 110. Está é a menor rodovia federal de Pernambuco. Esta rodovia inicia-se e termina em Ibimirim. Esta rodovia também pode ser considerada como a que possui o menor número de sinistro, consequentemente a mais segura. O local com maior frequência de acidentes se encontra no entorno do quilômetro 110, seguido pelos quilômetros 130 a 150.
 

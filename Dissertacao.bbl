@@ -34,31 +34,28 @@ Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
 \abntrefinfo{Transportes}{TRANSPORTES}{2016}
 {TRANSPORTES, P. e.~A. Governo Federal Ministério~dos.
 2016.
-\newblock Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
-\newblock Acessado em: 15 de Agosto de 2015
+Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
-\bibitem[1]{BNDES2013}
+\bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
 {BNDES. Perspectivas do investimento, n. 2, out. 2013.
 \emph{Perspectivas do Investimento 2014-2017}, p.~2, 2013.}
 
-\bibitem[1]{Bitoun2012}
+\bibitem{Bitoun2012}
 \abntrefinfo{Bitoun et al.}{BITOUN et al.}{2012}
 {BITOUN, J. et al. Regi\~{a}o metropolitana do recife no contexto de pernambuco
   no censo 2010.
 p.~25, 2012.
-\newblock Dispon{\'\i}vel em:
+Dispon{\'\i}vel em:
   \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
-\newblock Acessado em: 20 de Fevereiro de 2016.
 
-\bibitem[1]{FrotaVeiculosIBGE}
+\bibitem{FrotaVeiculosIBGE}
 \abntrefinfo{IBGE}{IBGE}{2014}
 {IBGE, I.~B. de~Geografia~e E. Regi\~{a}o metropolitana do recife no contexto
   de pernambuco no censo 2010.
 2014.
-\newblock  Dispon{\'\i}vel em:
- \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
-\newblock Acessado em: 20 de Fevereiro de 2016.
+Dispon{\'\i}vel em:
+  \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
 \bibitem{possas1998data}
 \abntrefinfo{POSSAS et al.}{POSSAS et al.}{1998}
@@ -120,8 +117,7 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
   for handling class imbalance problem: A case study of customer churn
   prediction.
 v.~353, p. 215--225, 2015.
-\newblock Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
-\newblock Acessado em: 11 de Outubro de 2015.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
 \bibitem{hotho2005brief}
 \abntrefinfo{Hotho, N{\"u}rnberger e Paa{\ss}}{HOTHO; N{\"U}RNBERGER;
@@ -158,9 +154,8 @@ v.~353, p. 215--225, 2015.
 \abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
 {BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
   Exploring and Manipulating Networks}. 2009.
-\newblock Dispon{\'\i}vel em:
+Dispon{\'\i}vel em:
   \url{http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154}.}
-\newblock Acessado em: 10 de Outubro de 2016.
 
 \bibitem{francca14big}
 \abntrefinfo{Fran{\c{c}}a et al.}{FRAN{\c{C}}A et al.}{}
@@ -225,17 +220,6 @@ v.~353, p. 215--225, 2015.
   conference on Computer supported cooperative work}. [S.l.], 2010. p.
   189--192.}
 
-\bibitem{adkins2006scholarly}
-\abntrefinfo{Adkins e Budd}{ADKINS; BUDD}{2006}
-{ADKINS, D.; BUDD, J. Scholarly productivity of us lis faculty.
-\emph{Library \& Information Science Research}, Elsevier, v.~28, n.~3, p.
-  374--389, 2006.}
-
-\bibitem{cunningham1997authorship}
-\abntrefinfo{Cunningham e Dillon}{CUNNINGHAM; DILLON}{1997}
-{CUNNINGHAM, S.~J.; DILLON, S.~M. Authorship patterns in information systems.
-\emph{Scientometrics}, Springer, v.~39, n.~1, p.~19, 1997.}
-
 \bibitem{brin1998anatomy}
 \abntrefinfo{Brin e Page}{BRIN; PAGE}{1998}
 {BRIN, S.; PAGE, L. The anatomy of a large-scale hypertextual web search
@@ -248,13 +232,6 @@ v.~353, p. 215--225, 2015.
 {CHA, M. et al. Measuring user influence in twitter: The million follower
   fallacy.
 \emph{Icwsm}, v.~10, n. 10-17, p.~30, 2010.}
-
-\bibitem{suh2010want}
-\abntrefinfo{Suh et al.}{SUH et al.}{2010}
-{SUH, B. et al. Want to be retweeted? large scale analytics on factors
-  impacting retweet in twitter network. In:  IEEE. \emph{Social computing
-  (socialcom), 2010 ieee second international conference on}. [S.l.], 2010. p.
-  177--184.}
 
 \bibitem{Chu2012}
 \abntrefinfo{Chu e Du}{CHU; DU}{2012}
@@ -318,10 +295,8 @@ Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
 \abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
 {BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
   Theory to Algorithms}}. [s.n.], 2014. 449~p.
-ISBN 9781107057135.
-\newblock Dispon{\'\i}vel em:
+ISBN 9781107057135. Dispon{\'\i}vel em:
   \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
-\newblock Acessado em: 01 de Novembro de 2016
 
 \bibitem{Monard}
 \abntrefinfo{Monard M.}{MONARD M.}{2003}
@@ -351,7 +326,6 @@ Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
 {HSSINA ABDELKARIM~MERBOUHA, H.~E. B.; ERRITALI, M. \emph{{A comparative study
   of decision tree ID3 and C4.5}}. 2014.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
-\newblock Acessado em: 10 de Fevereiro de 2016.
 
 \bibitem{Quinlan86inductionof}
 \abntrefinfo{Quinlan}{QUINLAN}{1986}
@@ -394,29 +368,12 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
   2008. 440~p.
 ISBN 1604390085.}
 
-\bibitem{Tatibana}
-\abntrefinfo{Tatibana e Kaetsy}{TATIBANA; KAETSY}{Acessado em: 01.out.2016}
-{TATIBANA, C.~Y.; KAETSY, D.~Y.
-\newblock Dispon{\'\i}vel em: \url{http://www.din.uem.br/ia/neurais/#neural}.}
-\newblock Acessado em: 01 de Outubro de 2016.
-
 \bibitem{mcculloch1943logical}
 \abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
 {MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
   nervous activity.
 \emph{The bulletin of mathematical biophysics}, Springer, v.~5, n.~4, p.
   115--133, 1943.}
-
-\bibitem{AAP}
-\abntrefinfo{R. ZENG}{R. ZENG}{}
-{R. ZENG, H.~H.~P.~X.~W. S. C. G.~M. C. Rule extraction from an optimized
-  neural network for traffic crash frequency modeling.}
-
-\bibitem{Kriesel2007NeuralNetworks}
-\abntrefinfo{KRIESEL}{KRIESEL}{2007}
-{KRIESEL, D. \emph{A Brief Introduction to Neural Networks}. [s.n.], 2007.
-\newblock Dispon{\'\i}vel em: \url{Disponível em: http://www.dkriesel.com}.}
-\newblock Acessado em: 10 de Fevereiro de 2016.
 
 \bibitem{Barreto2002}
 \abntrefinfo{BARRETO}{BARRETO}{2002}
@@ -431,16 +388,15 @@ New York, USA: Academic Press, 1975.}
 \bibitem{MD_AM}
 \abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20.jan.2015}
 {ANAESTHETIST, T.
-\newblock Dispon{\'\i}vel em:
+Acessado em: 20.jan.2015.
+Dispon{\'\i}vel em:
   \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
-\newblock Acessado em: 20 de Outubro de 2015.
 
 \bibitem{Discriminativo}
 \abntrefinfo{R.}{R.}{}
 {R., S. C.
-\newblock Dispon{\'\i}vel em:
+Dispon{\'\i}vel em:
   \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
-\newblock Acessado em: 20 de Outubro de 2015.
 
 \bibitem{Bradley1997}
 \abntrefinfo{Bradley}{BRADLEY}{1997}
@@ -556,16 +512,15 @@ Universidade Nove de Julho, 2011.}
   ocorr{\^{e}}ncia das rodovias federais brasileiras}.
 \emph{AtoZ: novas pr{\'{a}}ticas em informa{\c{c}}{\~{a}}o e conhecimento},
   v.~2, n.~2014, p. 1--26, 2015.
-\newblock Dispon{\'\i}vel em:
+Dispon{\'\i}vel em:
   \url{http://ojs.c3sl.ufpr.br/ojs/index.php/atoz/rt/printerFriendly/41346/25356}.}
-\newblock Acessado em 13 Julho de 2016.
 
 \bibitem{Eaves}
 \abntrefinfo{Eaves}{EAVES}{Acessado em: 24.out.2016}
 {EAVES, D. The three laws of open government data.
-\newblock Dispon{\'\i}vel em:
+Acessado em: 24.out.2016.
+Dispon{\'\i}vel em:
   \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
-\newblock Acessado em 24 de Outubro de 2016.
 
 \bibitem{Knime}
 \abntrefinfo{Berthold et al.}{BERTHOLD et al.}{2007}
@@ -578,15 +533,14 @@ ISSN 1431-8814.}
 \bibitem{R-cran}
 \abntrefinfo{{R Core Team}}{{R Core Team}}{2016}
 {{R Core Team}. \emph{R: A Language and Environment for Statistical Computing}.
-Vienna, Austria, 2016. 
-\newblock \url{https://www.R-project.org/}.}
-\newblock Acessado em 02 de Feveveiro de 2016.
+Vienna, Austria, 2016. Acessado em: 02.Fev.2016. Dispon{\'\i}vel em:
+  \url{https://www.R-project.org/}.}
 
 \bibitem{Weka}
 \abntrefinfo{Zealand}{ZEALAND}{}
 {ZEALAND, U. of W.~N. Weka - university of waikato.
-\newblock Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
-\newblock Acessado em 10 de Fevereiro de 2016.
+Acessado em: 10.Fev.2016.
+Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
 
 \bibitem{Bernardini}
 \abntrefinfo{Bernardini}{BERNARDINI}{2006}

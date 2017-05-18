@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Dissertacao.aux
 A level-1 auxiliary file: Pre-textual/Capa.aux
@@ -18,7 +18,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11348 items from 5000.
+Reallocated field_info (elt_size=4) to 10934 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 498 of file Bibliografia/Bibliografia.bib
@@ -86,76 +86,6 @@ Name 1 in "Camilo, Cássio Oliveira, and João Carlos da Silva" has a comma at t
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "Camilo, Cássio Oliveira, and João Carlos da Silva" has a comma at the end for entry Camilo
 while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2095 of file Bibliografia/abnt-num.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -170,21 +100,6 @@ Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "Camilo, Cássio Oliveira, and João Carlos da Silva" has a comma at the end for entry Camilo
 while executing---line 2150 of file Bibliografia/abnt-num.bst
-Warning--campo title vazio em Tatibana
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
-Too many commas in name 1 of "C. R.,ZENG, HUANG, H., PEI, X., WONG, S. C., GAO, M." for entry AAP
-while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
 Warning--campo title vazio em Discriminativo
 Warning--campo title vazio em akgungor2009artificial
@@ -193,45 +108,45 @@ Warning--campo title vazio em akgungor2009artificial
 | Em caso de d�vidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 92 entries,
+You've used 86 entries,
             6480 wiz_defined-function locations,
-            1699 strings with 25579 characters,
-and the built_in function-call counts, 68164 in all, are:
-= -- 5065
-> -- 2283
-< -- 166
-+ -- 923
-- -- 684
-* -- 4972
-:= -- 8875
-add.period$ -- 317
-call.type$ -- 92
-change.case$ -- 963
-chr.to.int$ -- 218
-cite$ -- 96
-duplicate$ -- 3584
-empty$ -- 5077
-format.name$ -- 3543
-if$ -- 16050
+            1668 strings with 24673 characters,
+and the built_in function-call counts, 63656 in all, are:
+= -- 4720
+> -- 2145
+< -- 157
++ -- 870
+- -- 642
+* -- 4649
+:= -- 8297
+add.period$ -- 296
+call.type$ -- 86
+change.case$ -- 903
+chr.to.int$ -- 206
+cite$ -- 89
+duplicate$ -- 3347
+empty$ -- 4720
+format.name$ -- 3325
+if$ -- 14975
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1598
-newline$ -- 466
-num.names$ -- 364
-pop$ -- 2210
+missing$ -- 1492
+newline$ -- 438
+num.names$ -- 340
+pop$ -- 2056
 preamble$ -- 1
-purify$ -- 364
+purify$ -- 341
 quote$ -- 0
-skip$ -- 3610
+skip$ -- 3376
 stack$ -- 1
-substring$ -- 2989
-swap$ -- 1676
-text.length$ -- 124
+substring$ -- 2762
+swap$ -- 1570
+text.length$ -- 117
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
-warning$ -- 5
-while$ -- 580
+warning$ -- 4
+while$ -- 544
 width$ -- 0
-write$ -- 1258
-(There were 74 error messages)
+write$ -- 1177
+(There were 32 error messages)
