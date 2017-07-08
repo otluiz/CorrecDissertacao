@@ -30,11 +30,37 @@ p. 7--10, 2000.}
 Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
   - USP, 2007.}
 
+\bibitem{bigdataQualquerUm}
+\abntrefinfo{Jagadish e Shahabi}{JAGADISH; SHAHABI}{2014}
+{JAGADISH, J.~G. H.~V.; SHAHABI, C. Exploring the inherent technical challenges
+  in realizing the potential of big data.
+\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+
 \bibitem{DadosGoverno}
 \abntrefinfo{Transportes}{TRANSPORTES}{2016}
 {TRANSPORTES, P. e.~A. Governo Federal Ministério~dos.
 2016.
 Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
+
+\bibitem{Br-Brasil}
+\abntrefinfo{Justica}{JUSTICA}{Acessado em: 01 de Julho de 2016}
+{JUSTICA, P. e~Ministério~da.
+Acessado em: 01 de Julho de 2016.
+Dispon{\'\i}vel em:
+  \url{http://dados.gov.br/dataset/acidentes-rodovias-federais}.}
+
+\bibitem{Dados-BR}
+\abntrefinfo{cidadania}{CIDADANIA}{Acessado em: 20.jan.2015}
+{CIDADANIA, P.~M. da~Justica~e.
+Acessado em: 20.jan.2015.
+Dispon{\'\i}vel em: \url{https://www.prf.gov.br/portal/dados-abertos/}.}
+
+\bibitem{Ben-David2014}
+\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
+{BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
+  Theory to Algorithms}}. [s.n.], 2014. 449~p.
+ISBN 9781107057135. Dispon{\'\i}vel em:
+  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
 
 \bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
@@ -70,11 +96,6 @@ Dispon{\'\i}vel em:
   knowledge discovery in databases}.
 \emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
   1996.}
-
-\bibitem{Chapman2000}
-\abntrefinfo{Chapman et al.}{CHAPMAN et al.}{2000}
-{CHAPMAN, P. et al. {Crisp-Dm 1.0}.
-\emph{CRISP-DM Consortium}, p.~76, 2000.}
 
 \bibitem{DataMining}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
@@ -143,12 +164,6 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
   messages.
 \emph{Proceedings of the 2012 4th International Conference on Computational
   Aspects of Social Networks, CASoN 2012}, n. March 2017, p. 52--57, 2012.}
-
-\bibitem{bigdataQualquerUm}
-\abntrefinfo{Jagadish e Shahabi}{JAGADISH; SHAHABI}{2014}
-{JAGADISH, J.~G. H.~V.; SHAHABI, C. Exploring the inherent technical challenges
-  in realizing the potential of big data.
-\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
 \bibitem{ICWSM09154}
 \abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
@@ -291,13 +306,6 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.acalib.2015.12.014}.}
 ISSN 10959572.
 Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
 
-\bibitem{Ben-David2014}
-\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
-{BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
-  Theory to Algorithms}}. [s.n.], 2014. 449~p.
-ISBN 9781107057135. Dispon{\'\i}vel em:
-  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
-
 \bibitem{Monard}
 \abntrefinfo{Monard M.}{MONARD M.}{2003}
 {MONARD M., B.~J.~A. “conceitos sobre aprendizado de máquina -- sistemas
@@ -386,9 +394,9 @@ ISBN 1604390085.}
 New York, USA: Academic Press, 1975.}
 
 \bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20.jan.2015}
+\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20 de janeiro de 2015}
 {ANAESTHETIST, T.
-Acessado em: 20.jan.2015.
+Acessado em: 20 de janeiro de 2015.
 Dispon{\'\i}vel em:
   \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
 
