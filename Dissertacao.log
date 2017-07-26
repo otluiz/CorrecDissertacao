@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  21 JUN 2017 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  21 JUL 2017 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,35 +1677,35 @@ File: Figuras/BigData/Fayyad.png Graphic file (type png)
 Package pdftex.def Info: Figuras/BigData/Fayyad.png used on input line 228.
 (pdftex.def)             Requested size: 384.11649pt x 184.94781pt.
  [25 <./Figuras/BigData/Fayyad.png>] [26]
-<Figuras/BigData/Analise_Textos.png, id=140, 1301.86375pt x 1032.85875pt>
-File: Figuras/BigData/Analise_Textos.png Graphic file (type png)
+<Figuras/BigData/Analise_Textos2.png, id=140, 1355.0625pt x 1032.85875pt>
+File: Figuras/BigData/Analise_Textos2.png Graphic file (type png)
 
-<use Figuras/BigData/Analise_Textos.png>
-Package pdftex.def Info: Figuras/BigData/Analise_Textos.png used on input line 
-288.
-(pdftex.def)             Requested size: 341.43645pt x 170.71378pt.
- [27] [28 <./Figuras/BigData/Analise_Textos.png>] <Figuras/BigData/grafoExemplo
-.png, id=148, 411.2163pt x 463.2507pt>
+<use Figuras/BigData/Analise_Textos2.png>
+Package pdftex.def Info: Figuras/BigData/Analise_Textos2.png used on input line
+ 288.
+(pdftex.def)             Requested size: 395.50128pt x 213.39223pt.
+ [27] [28 <./Figuras/BigData/Analise_Textos2.png>]
+<Figuras/BigData/grafoExemplo.png, id=147, 411.2163pt x 463.2507pt>
 File: Figuras/BigData/grafoExemplo.png Graphic file (type png)
 
 <use Figuras/BigData/grafoExemplo.png>
 Package pdftex.def Info: Figuras/BigData/grafoExemplo.png used on input line 33
 3.
-(pdftex.def)             Requested size: 284.5427pt x 184.94356pt.
+(pdftex.def)             Requested size: 341.45375pt x 184.94356pt.
  [29 <./Figuras/BigData/grafoExemplo.png>] [30] [31]
-<Figuras/Twitter/contaTwitter.png, id=160, 937.5025pt x 213.79875pt>
+<Figuras/Twitter/contaTwitter.png, id=159, 937.5025pt x 213.79875pt>
 File: Figuras/Twitter/contaTwitter.png Graphic file (type png)
 
 <use Figuras/Twitter/contaTwitter.png>
 Package pdftex.def Info: Figuras/Twitter/contaTwitter.png used on input line 39
 2.
-(pdftex.def)             Requested size: 497.91823pt x 213.39694pt.
+(pdftex.def)             Requested size: 497.91823pt x 199.17004pt.
 
 Overfull \hbox (42.67412pt too wide) in paragraph at lines 392--392
  [][] 
  []
 
-<Figuras/Twitter/contaPalavras.png, id=161, 456.70625pt x 211.79124pt>
+<Figuras/Twitter/contaPalavras.png, id=160, 456.70625pt x 211.79124pt>
 File: Figuras/Twitter/contaPalavras.png Graphic file (type png)
 
 <use Figuras/Twitter/contaPalavras.png>
@@ -1714,7 +1714,7 @@ Package pdftex.def Info: Figuras/Twitter/contaPalavras.png used on input line 4
 (pdftex.def)             Requested size: 318.66948pt x 147.78426pt.
  [32 <./Figuras/Twitter/contaTwitter.png> <./Figuras/Twitter/contaPalavras.png>
 ]
-<Figuras/Twitter/ferqPalavras.png, id=167, 679.53876pt x 422.57875pt>
+<Figuras/Twitter/ferqPalavras.png, id=166, 679.53876pt x 422.57875pt>
 File: Figuras/Twitter/ferqPalavras.png Graphic file (type png)
 
 <use Figuras/Twitter/ferqPalavras.png>
@@ -1722,14 +1722,14 @@ Package pdftex.def Info: Figuras/Twitter/ferqPalavras.png used on input line 41
 5.
 (pdftex.def)             Requested size: 273.14923pt x 169.86029pt.
  [33 <./Figuras/Twitter/ferqPalavras.png>] <Figuras/BigData/twittePRF.png, id=1
-72, 581.17125pt x 485.815pt>
+71, 581.17125pt x 485.815pt>
 File: Figuras/BigData/twittePRF.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF.png>
 Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 433.
 (pdftex.def)             Requested size: 170.71686pt x 136.5684pt.
 
-<Figuras/BigData/twittePRF2.png, id=173, 578.16pt x 497.86pt>
+<Figuras/BigData/twittePRF2.png, id=172, 578.16pt x 497.86pt>
 File: Figuras/BigData/twittePRF2.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF2.png>
@@ -1739,70 +1739,69 @@ Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 435.
  [34 <./Figuras/BigData/twittePRF.png> <./Figuras/BigData/twittePRF2.png>] [35]
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 509.
+LaTeX Warning: Command \c invalid in math mode on input line 513.
 
 Missing character: There is no ç in font cmr12!
 
-Overfull \hbox (2.8992pt too wide) in paragraph at lines 517--518
+Overfull \hbox (2.8992pt too wide) in paragraph at lines 521--522
 []\T1/cmr/m/n/12 Baseado no te-o-rema de Bayes, dado um con-junto de va-riá-vei
 s ale-a-tó-rias $\OML/cmm/m/it/12 ! \OT1/cmr/m/n/12 = []$
  []
 
 
-Overfull \hbox (5.02579pt too wide) in paragraph at lines 517--518
+Overfull \hbox (5.02579pt too wide) in paragraph at lines 521--522
 \T1/cmr/m/n/12 a va-riá-vel ale-a-tó-ria \T1/cmr/m/it/12 H \T1/cmr/m/n/12 (hi-p
 ó-tese) de-nota o tipo de $\OML/cmm/m/it/12 !$\T1/cmr/m/n/12 , com va-lo-res po
 s-sí-veis para $\OML/cmm/m/it/12 h[]; h\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; :::;
  h[]$\T1/cmr/m/n/12 .
  []
 
-[36] <Figuras/Arvore/arvorejovem.png, id=184, 402.50375pt x 278.03876pt>
+[36] <Figuras/Arvore/arvorejovem.png, id=183, 402.50375pt x 278.03876pt>
 File: Figuras/Arvore/arvorejovem.png Graphic file (type png)
 
 <use Figuras/Arvore/arvorejovem.png>
-Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 553.
+Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 557.
 
 (pdftex.def)             Requested size: 170.71481pt x 128.03937pt.
- [37]
-<Figuras/Arvore/TDIDT.png, id=188, 378.41376pt x 328.22626pt>
+ [37] [38 <./Figuras/Arvore/arvorejovem.png>] <Figuras/Arvore/TDIDT.png, id=191
+, 378.41376pt x 328.22626pt>
 File: Figuras/Arvore/TDIDT.png Graphic file (type png)
 
 <use Figuras/Arvore/TDIDT.png>
-Package pdftex.def Info: Figuras/Arvore/TDIDT.png used on input line 576.
+Package pdftex.def Info: Figuras/Arvore/TDIDT.png used on input line 580.
 (pdftex.def)             Requested size: 170.71767pt x 128.03777pt.
- [38 <./Figuras/Arvore/arvorejovem.png>] [39 <./Figuras/Arvore/TDIDT.png>] [40]
-
-<Figuras/Neural/Perceptron.png, id=199, 513.92pt x 229.85875pt>
+ [39 <./Figuras/Arvore/TDIDT.png>] [40]
+<Figuras/Neural/Perceptron.png, id=198, 513.92pt x 229.85875pt>
 File: Figuras/Neural/Perceptron.png Graphic file (type png)
 
 <use Figuras/Neural/Perceptron.png>
-Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 669.
+Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 673.
 (pdftex.def)             Requested size: 270.30606pt x 142.27243pt.
  [41] [42 <./Figuras/Neural/Perceptron.png>]
-Overfull \hbox (327.20497pt too wide) detected at line 775
+Overfull \hbox (327.20497pt too wide) detected at line 779
 []
  []
 
 
-Overfull \hbox (321.51445pt too wide) detected at line 776
+Overfull \hbox (321.51445pt too wide) detected at line 780
 []
  []
 
 
-Overfull \hbox (241.84715pt too wide) detected at line 777
+Overfull \hbox (241.84715pt too wide) detected at line 781
 []
  []
 
 
-Overfull \hbox (199.16824pt too wide) detected at line 778
+Overfull \hbox (199.16824pt too wide) detected at line 782
 []
  []
 
-<Figuras/BigData/redeneural.png, id=208, 448.67625pt x 255.95625pt>
+<Figuras/BigData/redeneural.png, id=207, 448.67625pt x 255.95625pt>
 File: Figuras/BigData/redeneural.png Graphic file (type png)
 
 <use Figuras/BigData/redeneural.png>
-Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 789.
+Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 793.
 
 (pdftex.def)             Requested size: 241.8434pt x 108.11797pt.
  [43] [44 <./Figuras/BigData/redeneural.png (PNG copy)>] [45] [46]) [47]
@@ -1815,7 +1814,7 @@ Cap\'{\i }tulo 3.
 
 
 ] [49]
-<Figuras/Metodologia/metodologiaGeral3.png, id=233, 803.0pt x 437.635pt>
+<Figuras/Metodologia/metodologiaGeral3.png, id=232, 803.0pt x 437.635pt>
 File: Figuras/Metodologia/metodologiaGeral3.png Graphic file (type png)
 
 <use Figuras/Metodologia/metodologiaGeral3.png>
@@ -1823,7 +1822,7 @@ Package pdftex.def Info: Figuras/Metodologia/metodologiaGeral3.png used on inpu
 t line 56.
 (pdftex.def)             Requested size: 384.12457pt x 213.3946pt.
  [50 <./Figuras/Metodologia/metodologiaGeral3.png>] [51]
-<Figuras/Metodologia/MatrizMortos2D.png, id=240, 686.565pt x 488.82625pt>
+<Figuras/Metodologia/MatrizMortos2D.png, id=239, 686.565pt x 488.82625pt>
 File: Figuras/Metodologia/MatrizMortos2D.png Graphic file (type png)
 
 <use Figuras/Metodologia/MatrizMortos2D.png>
@@ -1831,7 +1830,7 @@ Package pdftex.def Info: Figuras/Metodologia/MatrizMortos2D.png used on input l
 ine 108.
 (pdftex.def)             Requested size: 312.97423pt x 184.94287pt.
  [52 <./Figuras/Metodologia/MatrizMortos2D.png>]
-<Figuras/Metodologia/MatrizGravidade3D2.png, id=245, 547.8066pt x 413.3844pt>
+<Figuras/Metodologia/MatrizGravidade3D2.png, id=244, 547.8066pt x 413.3844pt>
 File: Figuras/Metodologia/MatrizGravidade3D2.png Graphic file (type png)
 
 <use Figuras/Metodologia/MatrizGravidade3D2.png>
@@ -1839,7 +1838,7 @@ Package pdftex.def Info: Figuras/Metodologia/MatrizGravidade3D2.png used on inp
 ut line 145.
 (pdftex.def)             Requested size: 318.66948pt x 240.4822pt.
  [53 <./Figuras/Metodologia/MatrizGravidade3D2.png>]
-<Figuras/Metodologia/ArcoCibernetico.png, id=250, 442.65375pt x 195.73125pt>
+<Figuras/Metodologia/ArcoCibernetico.png, id=249, 442.65375pt x 195.73125pt>
 File: Figuras/Metodologia/ArcoCibernetico.png Graphic file (type png)
 
 <use Figuras/Metodologia/ArcoCibernetico.png>
@@ -1847,7 +1846,7 @@ Package pdftex.def Info: Figuras/Metodologia/ArcoCibernetico.png used on input
 line 169.
 (pdftex.def)             Requested size: 284.54022pt x 128.0451pt.
 
-<Figuras/Metodologia/georreferenciamento.png, id=251, 642.4pt x 603.25375pt>
+<Figuras/Metodologia/georreferenciamento.png, id=250, 642.4pt x 603.25375pt>
 File: Figuras/Metodologia/georreferenciamento.png Graphic file (type png)
 
 <use Figuras/Metodologia/georreferenciamento.png>
@@ -1855,7 +1854,7 @@ Package pdftex.def Info: Figuras/Metodologia/georreferenciamento.png used on in
 put line 183.
 (pdftex.def)             Requested size: 426.79855pt x 312.97577pt.
  [54 <./Figuras/Metodologia/ArcoCibernetico.png>] [55 <./Figuras/Metodologia/ge
-orreferenciamento.png (PNG copy)>] <Figuras/Metodologia/RotaExemplo.png, id=259
+orreferenciamento.png (PNG copy)>] <Figuras/Metodologia/RotaExemplo.png, id=258
 , 948.54375pt x 343.2825pt>
 File: Figuras/Metodologia/RotaExemplo.png Graphic file (type png)
 
@@ -1868,7 +1867,7 @@ Package pdftex.def Info: Figuras/Metodologia/RotaExemplo.png used on input line
 
  (./Textual/4_simulacao.tex
 Cap\'{\i }tulo 4.
-<Figuras/Cronograma/metodologia.png, id=264, 1292.83pt x 435.226pt>
+<Figuras/Cronograma/metodologia.png, id=263, 1292.83pt x 435.226pt>
 File: Figuras/Cronograma/metodologia.png Graphic file (type png)
 
 <use Figuras/Cronograma/metodologia.png>
@@ -1896,14 +1895,14 @@ Overfull \hbox (19.95357pt too wide) in paragraph at lines 84--85
 de ro-das, Car-roça, Caminhão-
  []
 
-[59] <Figuras/Preprocess/br101.png, id=275, 481.8pt x 481.8pt>
+[59] <Figuras/Preprocess/br101.png, id=274, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br101.png Graphic file (type png)
 
 <use Figuras/Preprocess/br101.png>
 Package pdftex.def Info: Figuras/Preprocess/br101.png used on input line 142.
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br101_2.png, id=276, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br101_2.png, id=275, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br101_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br101_2.png>
@@ -1914,7 +1913,7 @@ Package pdftex.def Info: Figuras/Preprocess/br101_2.png used on input line 143.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br101_4.png, id=277, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br101_4.png, id=276, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br101_4.png Graphic file (type png)
 
 <use Figuras/Preprocess/br101_4.png>
@@ -1925,7 +1924,7 @@ Package pdftex.def Info: Figuras/Preprocess/br101_4.png used on input line 151.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br104_12.png, id=278, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br104_12.png, id=277, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br104_12.png Graphic file (type png)
 
 <use Figuras/Preprocess/br104_12.png>
@@ -1933,7 +1932,7 @@ Package pdftex.def Info: Figuras/Preprocess/br104_12.png used on input line 166
 .
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br104_2.png, id=279, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br104_2.png, id=278, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br104_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br104_2.png>
@@ -1944,7 +1943,7 @@ Package pdftex.def Info: Figuras/Preprocess/br104_2.png used on input line 167.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br104_3.png, id=280, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br104_3.png, id=279, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br104_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br104_3.png>
@@ -1955,7 +1954,7 @@ Package pdftex.def Info: Figuras/Preprocess/br104_3.png used on input line 175.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br110_1.png, id=285, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br110_1.png, id=284, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br110_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br110_1.png>
@@ -1963,7 +1962,7 @@ Package pdftex.def Info: Figuras/Preprocess/br110_1.png used on input line 190.
 
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br110_2.png, id=286, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br110_2.png, id=285, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br110_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br110_2.png>
@@ -1974,7 +1973,7 @@ Package pdftex.def Info: Figuras/Preprocess/br110_2.png used on input line 191.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br110_3.png, id=287, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br110_3.png, id=286, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br110_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br110_3.png>
@@ -1988,7 +1987,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [61 <./Figuras/Preprocess/br101.png> <./Figuras/Preprocess/br101_2.png> <./Figu
 ras/Preprocess/br101_4.png>] [62 <./Figuras/Preprocess/br104_12.png> <./Figuras
 /Preprocess/br104_2.png (PNG copy)> <./Figuras/Preprocess/br104_3.png>]
-<Figuras/Preprocess/br116_1.png, id=298, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br116_1.png, id=297, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br116_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br116_1.png>
@@ -1996,7 +1995,7 @@ Package pdftex.def Info: Figuras/Preprocess/br116_1.png used on input line 212.
 
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br116_2.png, id=299, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br116_2.png, id=298, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br116_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br116_2.png>
@@ -2007,7 +2006,7 @@ Package pdftex.def Info: Figuras/Preprocess/br116_2.png used on input line 213.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br116_3.png, id=300, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br116_3.png, id=299, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br116_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br116_3.png>
@@ -2020,7 +2019,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [63 <./Figuras/Preprocess/br110_1.png> <./Figuras/Preprocess/br110_2.png (PNG c
 opy)> <./Figuras/Preprocess/br110_3.png>]
-<Figuras/Preprocess/br232_1.png, id=305, 451.6875pt x 414.54875pt>
+<Figuras/Preprocess/br232_1.png, id=304, 451.6875pt x 414.54875pt>
 File: Figuras/Preprocess/br232_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br232_1.png>
@@ -2028,7 +2027,7 @@ Package pdftex.def Info: Figuras/Preprocess/br232_1.png used on input line 235.
 
 (pdftex.def)             Requested size: 199.17043pt x 199.16457pt.
 
-<Figuras/Preprocess/br232_32.png, id=306, 450.68375pt x 413.545pt>
+<Figuras/Preprocess/br232_32.png, id=305, 450.68375pt x 413.545pt>
 File: Figuras/Preprocess/br232_32.png Graphic file (type png)
 
 <use Figuras/Preprocess/br232_32.png>
@@ -2039,7 +2038,7 @@ Package pdftex.def Info: Figuras/Preprocess/br232_32.png used on input line 236
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br232_3.png, id=307, 435.6275pt x 424.58624pt>
+<Figuras/Preprocess/br232_3.png, id=306, 435.6275pt x 424.58624pt>
 File: Figuras/Preprocess/br232_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br232_3.png>
@@ -2052,7 +2051,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [64 <./Figuras/Preprocess/br116_1.png> <./Figuras/Preprocess/br116_2.png> <./Fi
 guras/Preprocess/br116_3.png>]
-<Figuras/Preprocess/br316_1.png, id=312, 452.69125pt x 416.55624pt>
+<Figuras/Preprocess/br316_1.png, id=311, 452.69125pt x 416.55624pt>
 File: Figuras/Preprocess/br316_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br316_1.png>
@@ -2060,7 +2059,7 @@ Package pdftex.def Info: Figuras/Preprocess/br316_1.png used on input line 257.
 
 (pdftex.def)             Requested size: 199.16403pt x 199.16927pt.
 
-<Figuras/Preprocess/br316_2.png, id=313, 454.69875pt x 421.575pt>
+<Figuras/Preprocess/br316_2.png, id=312, 454.69875pt x 421.575pt>
 File: Figuras/Preprocess/br316_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br316_2.png>
@@ -2071,7 +2070,7 @@ Package pdftex.def Info: Figuras/Preprocess/br316_2.png used on input line 258.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br316_3.png, id=314, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br316_3.png, id=313, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br316_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br316_3.png>
@@ -2084,7 +2083,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [65 <./Figuras/Preprocess/br232_1.png> <./Figuras/Preprocess/br232_32.png> <./F
 iguras/Preprocess/br232_3.png>]
-<Figuras/Preprocess/br407_1.png, id=321, 466.74374pt x 417.56pt>
+<Figuras/Preprocess/br407_1.png, id=320, 466.74374pt x 417.56pt>
 File: Figuras/Preprocess/br407_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br407_1.png>
@@ -2092,7 +2091,7 @@ Package pdftex.def Info: Figuras/Preprocess/br407_1.png used on input line 276.
 
 (pdftex.def)             Requested size: 199.1718pt x 199.17134pt.
 
-<Figuras/Preprocess/br407_3.png, id=322, 453.695pt x 413.545pt>
+<Figuras/Preprocess/br407_3.png, id=321, 453.695pt x 413.545pt>
 File: Figuras/Preprocess/br407_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br407_3.png>
@@ -2103,7 +2102,7 @@ Package pdftex.def Info: Figuras/Preprocess/br407_3.png used on input line 277.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br407_2.png, id=323, 427.5975pt x 417.56pt>
+<Figuras/Preprocess/br407_2.png, id=322, 427.5975pt x 417.56pt>
 File: Figuras/Preprocess/br407_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br407_2.png>
@@ -2116,7 +2115,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [66 <./Figuras/Preprocess/br316_1.png> <./Figuras/Preprocess/br316_2.png> <./Fi
 guras/Preprocess/br316_3.png>]
-<Figuras/Preprocess/br408_1.png, id=329, 470.75874pt x 439.6425pt>
+<Figuras/Preprocess/br408_1.png, id=328, 470.75874pt x 439.6425pt>
 File: Figuras/Preprocess/br408_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br408_1.png>
@@ -2124,7 +2123,7 @@ Package pdftex.def Info: Figuras/Preprocess/br408_1.png used on input line 296.
 
 (pdftex.def)             Requested size: 199.16832pt x 199.16556pt.
 
-<Figuras/Preprocess/br408_2.png, id=330, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br408_2.png, id=329, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br408_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br408_2.png>
@@ -2135,7 +2134,7 @@ Package pdftex.def Info: Figuras/Preprocess/br408_2.png used on input line 297.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br408_3.png, id=331, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br408_3.png, id=330, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br408_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br408_3.png>
@@ -2148,7 +2147,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [67 <./Figuras/Preprocess/br407_1.png> <./Figuras/Preprocess/br407_3.png> <./Fi
 guras/Preprocess/br407_2.png>]
-<Figuras/Preprocess/br423_1.png, id=338, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br423_1.png, id=337, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br423_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br423_1.png>
@@ -2156,7 +2155,7 @@ Package pdftex.def Info: Figuras/Preprocess/br423_1.png used on input line 314.
 
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br423_2.png, id=339, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br423_2.png, id=338, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br423_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br423_2.png>
@@ -2167,7 +2166,7 @@ Package pdftex.def Info: Figuras/Preprocess/br423_2.png used on input line 315.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br423_3.png, id=340, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br423_3.png, id=339, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br423_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br423_3.png>
@@ -2180,7 +2179,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [68 <./Figuras/Preprocess/br408_1.png> <./Figuras/Preprocess/br408_2.png (PNG c
 opy)> <./Figuras/Preprocess/br408_3.png>]
-<Figuras/Preprocess/br424_1.png, id=345, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br424_1.png, id=344, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br424_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br424_1.png>
@@ -2188,7 +2187,7 @@ Package pdftex.def Info: Figuras/Preprocess/br424_1.png used on input line 332.
 
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br424_2.png, id=346, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br424_2.png, id=345, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br424_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br424_2.png>
@@ -2199,7 +2198,7 @@ Package pdftex.def Info: Figuras/Preprocess/br424_2.png used on input line 333.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br424_3.png, id=347, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br424_3.png, id=346, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br424_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br424_3.png>
@@ -2212,7 +2211,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [69 <./Figuras/Preprocess/br423_1.png> <./Figuras/Preprocess/br423_2.png> <./Fi
 guras/Preprocess/br423_3.png (PNG copy)>]
-<Figuras/Preprocess/br428_1.png, id=352, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br428_1.png, id=351, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br428_1.png Graphic file (type png)
 
 <use Figuras/Preprocess/br428_1.png>
@@ -2220,7 +2219,7 @@ Package pdftex.def Info: Figuras/Preprocess/br428_1.png used on input line 351.
 
 (pdftex.def)             Requested size: 199.16399pt x 199.16399pt.
 
-<Figuras/Preprocess/br428_2.png, id=353, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br428_2.png, id=352, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br428_2.png Graphic file (type png)
 
 <use Figuras/Preprocess/br428_2.png>
@@ -2231,7 +2230,7 @@ Package pdftex.def Info: Figuras/Preprocess/br428_2.png used on input line 352.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/Preprocess/br428_3.png, id=354, 481.8pt x 481.8pt>
+<Figuras/Preprocess/br428_3.png, id=353, 481.8pt x 481.8pt>
 File: Figuras/Preprocess/br428_3.png Graphic file (type png)
 
 <use Figuras/Preprocess/br428_3.png>
@@ -2244,14 +2243,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [70 <./Figuras/Preprocess/br424_1.png> <./Figuras/Preprocess/br424_2.png (PNG c
 opy)> <./Figuras/Preprocess/br424_3.png>]
-<Figuras/Preprocess/TipoVeiculoXNumAciden.png, id=358, 973.6375pt x 483.8075pt>
+<Figuras/Preprocess/TipoVeiculoXNumAciden.png, id=357, 973.6375pt x 483.8075pt>
 File: Figuras/Preprocess/TipoVeiculoXNumAciden.png Graphic file (type png)
 <use Figuras/Preprocess/TipoVeiculoXNumAciden.png>
 Package pdftex.def Info: Figuras/Preprocess/TipoVeiculoXNumAciden.png used on i
 nput line 370.
 (pdftex.def)             Requested size: 426.78246pt x 256.08455pt.
 
-<Figuras/Preprocess/TracadoViaNumAcident.png, id=359, 751.80875pt x 452.69125pt
+<Figuras/Preprocess/TracadoViaNumAcident.png, id=358, 751.80875pt x 452.69125pt
 >
 File: Figuras/Preprocess/TracadoViaNumAcident.png Graphic file (type png)
  <use Figuras/Preprocess/TracadoViaNumAcident.png>
@@ -2275,7 +2274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 665--666
 
  []
 
-<Figuras/Metodologia/arvoreKnime.png, id=377, 1266.7325pt x 740.7675pt>
+<Figuras/Metodologia/arvoreKnime.png, id=376, 1266.7325pt x 740.7675pt>
 File: Figuras/Metodologia/arvoreKnime.png Graphic file (type png)
 
 <use Figuras/Metodologia/arvoreKnime.png>
@@ -2283,7 +2282,7 @@ Package pdftex.def Info: Figuras/Metodologia/arvoreKnime.png used on input line
  693.
 (pdftex.def)             Requested size: 426.77895pt x 412.56633pt.
  [76] [77 <./Figuras/Metodologia/arvoreKnime.png>] [78]
-<Figuras/Resultados/Km70BR101.png, id=388, 837.1275pt x 516.93124pt>
+<Figuras/Resultados/Km70BR101.png, id=387, 837.1275pt x 516.93124pt>
 File: Figuras/Resultados/Km70BR101.png Graphic file (type png)
 
 <use Figuras/Resultados/Km70BR101.png>
@@ -2291,7 +2290,7 @@ Package pdftex.def Info: Figuras/Resultados/Km70BR101.png used on input line 77
 3.
 (pdftex.def)             Requested size: 426.78886pt x 270.31235pt.
 
-<Figuras/Resultados/MM2d101.png, id=389, 686.565pt x 499.8675pt>
+<Figuras/Resultados/MM2d101.png, id=388, 686.565pt x 499.8675pt>
 File: Figuras/Resultados/MM2d101.png Graphic file (type png)
 
 <use Figuras/Resultados/MM2d101.png>
@@ -2299,7 +2298,7 @@ Package pdftex.def Info: Figuras/Resultados/MM2d101.png used on input line 785.
 
 (pdftex.def)             Requested size: 341.42738pt x 256.08078pt.
  [79 <./Figuras/Resultados/Km70BR101.png> <./Figuras/Resultados/MM2d101.png>]
-<Figuras/Resultados/CaruaruRegiao.png, id=395, 581.17125pt x 381.425pt>
+<Figuras/Resultados/CaruaruRegiao.png, id=394, 581.17125pt x 381.425pt>
 File: Figuras/Resultados/CaruaruRegiao.png Graphic file (type png)
 
 <use Figuras/Resultados/CaruaruRegiao.png>
@@ -2307,7 +2306,7 @@ Package pdftex.def Info: Figuras/Resultados/CaruaruRegiao.png used on input lin
 e 798.
 (pdftex.def)             Requested size: 426.79659pt x 270.31311pt.
 
-<Figuras/Resultados/MM2d104.png, id=396, 580.1675pt x 508.90125pt>
+<Figuras/Resultados/MM2d104.png, id=395, 580.1675pt x 508.90125pt>
 File: Figuras/Resultados/MM2d104.png Graphic file (type png)
 
 <use Figuras/Resultados/MM2d104.png>
@@ -2316,7 +2315,7 @@ Package pdftex.def Info: Figuras/Resultados/MM2d104.png used on input line 810.
 (pdftex.def)             Requested size: 341.43713pt x 256.08069pt.
  [80 <./Figuras/Resultados/CaruaruRegiao.png (PNG copy)> <./Figuras/Resultados/
 MM2d104.png>]
-<Figuras/Resultados/MGrav3D116.png, id=401, 657.45625pt x 551.05875pt>
+<Figuras/Resultados/MGrav3D116.png, id=400, 657.45625pt x 551.05875pt>
 File: Figuras/Resultados/MGrav3D116.png Graphic file (type png)
 
 <use Figuras/Resultados/MGrav3D116.png>
@@ -2332,14 +2331,14 @@ msy/m/n/12 ^^C \OML/cmm/m/it/12 CondPista \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12
 
  []
 
-<Figuras/Resultados/rnn101.png, id=412, 522.45187pt x 364.36125pt>
+<Figuras/Resultados/rnn101.png, id=411, 522.45187pt x 364.36125pt>
 File: Figuras/Resultados/rnn101.png Graphic file (type png)
 
 <use Figuras/Resultados/rnn101.png>
 Package pdftex.def Info: Figuras/Resultados/rnn101.png used on input line 980.
 (pdftex.def)             Requested size: 312.98724pt x 241.84685pt.
 
-<Figuras/Resultados/RNN.png, id=413, 494.84875pt x 706.64pt>
+<Figuras/Resultados/RNN.png, id=412, 494.84875pt x 706.64pt>
 File: Figuras/Resultados/RNN.png Graphic file (type png)
 
 <use Figuras/Resultados/RNN.png>
@@ -2347,7 +2346,7 @@ Package pdftex.def Info: Figuras/Resultados/RNN.png used on input line 1005.
 (pdftex.def)             Requested size: 256.0694pt x 327.20406pt.
  [84 <./Figuras/Resultados/rnn101.png (PNG copy)>] [85 <./Figuras/Resultados/RN
 N.png>]
-<Figuras/Twitter/freqPalavr.png, id=422, 258.21469pt x 194.22563pt>
+<Figuras/Twitter/freqPalavr.png, id=421, 258.21469pt x 194.22563pt>
 File: Figuras/Twitter/freqPalavr.png Graphic file (type png)
 
 <use Figuras/Twitter/freqPalavr.png>
@@ -2355,14 +2354,14 @@ Package pdftex.def Info: Figuras/Twitter/freqPalavr.png used on input line 1046
 .
 (pdftex.def)             Requested size: 318.66948pt x 239.72295pt.
  [86 <./Figuras/Twitter/freqPalavr.png>]
-<Figuras/Twitter/nuvem2.png, id=427, 522.45187pt x 364.36125pt>
+<Figuras/Twitter/nuvem2.png, id=426, 522.45187pt x 364.36125pt>
 File: Figuras/Twitter/nuvem2.png Graphic file (type png)
 
 <use Figuras/Twitter/nuvem2.png>
 Package pdftex.def Info: Figuras/Twitter/nuvem2.png used on input line 1057.
 (pdftex.def)             Requested size: 273.14923pt x 190.49748pt.
 
-<Figuras/Twitter//Cluster.png, id=428, 430.60875pt x 255.20343pt>
+<Figuras/Twitter//Cluster.png, id=427, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter//Cluster.png Graphic file (type png)
 
 <use Figuras/Twitter//Cluster.png>
@@ -2370,7 +2369,7 @@ Package pdftex.def Info: Figuras/Twitter//Cluster.png used on input line 1071.
 (pdftex.def)             Requested size: 318.66948pt x 188.86705pt.
  [87 <./Figuras/Twitter/nuvem2.png (PNG copy)> <./Figuras/Twitter//Cluster.png 
 (PNG copy)>]
-<Figuras/Twitter/Cluster2.png, id=432, 430.60875pt x 255.20343pt>
+<Figuras/Twitter/Cluster2.png, id=431, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter/Cluster2.png Graphic file (type png)
 
 <use Figuras/Twitter/Cluster2.png>
@@ -2390,7 +2389,7 @@ Cap\'{\i }tulo 5.
 
  (./Textual/Anexo1.tex
 Ap\^endice A.
-<Figuras/Anexos/Mapa-pe.pdf, id=452, 2817.80733pt x 1971.52563pt>
+<Figuras/Anexos/Mapa-pe.pdf, id=451, 2817.80733pt x 1971.52563pt>
 File: Figuras/Anexos/Mapa-pe.pdf Graphic file (type pdf)
 
 <use Figuras/Anexos/Mapa-pe.pdf>
@@ -2401,7 +2400,7 @@ Package pdftex.def Info: Figuras/Anexos/Mapa-pe.pdf used on input line 9.
 
 
  <./Figuras/Anexos/Mapa-pe.pdf>] [95]
-<Figuras/Cronograma/BasesHistoricas.png, id=467, 1518.473pt x 680.141pt>
+<Figuras/Cronograma/BasesHistoricas.png, id=466, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
@@ -2436,8 +2435,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  18221 strings out of 494790
- 303356 string characters out of 6174858
- 543471 words of memory out of 5000000
+ 303361 string characters out of 6174858
+ 543469 words of memory out of 5000000
  20900 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
@@ -2467,9 +2466,9 @@ cm-super/sfrm2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
 -super/sfrm2986.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
 uper/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb>
-Output written on Dissertacao.pdf (103 pages, 9005607 bytes).
+Output written on Dissertacao.pdf (103 pages, 8941171 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
+ 568 PDF objects out of 1000 (max. 8388607)
  310 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  426 words of extra memory for PDF output out of 10000 (max. 10000000)
