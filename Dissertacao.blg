@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Dissertacao.aux
 A level-1 auxiliary file: Pre-textual/Capa.aux
@@ -18,7 +18,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11072 items from 5000.
+Reallocated field_info (elt_size=4) to 11141 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 511 of file Bibliografia/Bibliografia.bib
@@ -111,45 +111,45 @@ Warning--campo title vazio em akgungor2009artificial
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 87 entries,
+You've used 88 entries,
             6480 wiz_defined-function locations,
-            1674 strings with 24781 characters,
-and the built_in function-call counts, 64418 in all, are:
-= -- 4794
-> -- 2135
-< -- 156
-+ -- 864
-- -- 640
-* -- 4710
-:= -- 8399
-add.period$ -- 299
-call.type$ -- 87
-change.case$ -- 901
-chr.to.int$ -- 207
-cite$ -- 92
-duplicate$ -- 3367
-empty$ -- 4817
-format.name$ -- 3310
-if$ -- 15142
+            1678 strings with 24990 characters,
+and the built_in function-call counts, 64900 in all, are:
+= -- 4818
+> -- 2147
+< -- 157
++ -- 868
+- -- 644
+* -- 4734
+:= -- 8467
+add.period$ -- 302
+call.type$ -- 88
+change.case$ -- 908
+chr.to.int$ -- 208
+cite$ -- 93
+duplicate$ -- 3402
+empty$ -- 4859
+format.name$ -- 3330
+if$ -- 15254
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1506
-newline$ -- 445
-num.names$ -- 344
-pop$ -- 2082
+missing$ -- 1523
+newline$ -- 450
+num.names$ -- 348
+pop$ -- 2108
 preamble$ -- 1
-purify$ -- 342
+purify$ -- 345
 quote$ -- 0
-skip$ -- 3390
+skip$ -- 3421
 stack$ -- 1
-substring$ -- 2955
-swap$ -- 1566
-text.length$ -- 116
+substring$ -- 2962
+swap$ -- 1579
+text.length$ -- 117
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
 warning$ -- 6
-while$ -- 548
+while$ -- 553
 width$ -- 0
-write$ -- 1186
+write$ -- 1197
 (There were 32 error messages)

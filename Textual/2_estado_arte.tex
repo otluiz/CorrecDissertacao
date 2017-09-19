@@ -3,12 +3,25 @@
 
 \section{Introdução}\label{arte:intro}
 
-Nesse capítulo, foi realizada uma revisão teórica e de pesquisas contemplando três campos, a saber: 
+Neste capítulo, apresenta uma revisão teórica e de pesquisas contemplando três campos, a saber: 
   \begin{itemize}
-    \item O primeiro sobre o processo de aplicação da Mineração de Dados e Mineração em textos;
-    \item O segundo relacionado às tecnologias mineração de dados com respeito à pesquisa em lide;
-    \item Finalmente o último campo de pesquisa relacionado às tecnologias de mapeamento através de sistemas de posicionamento global 
-    aplicados ao sistema rodoviário.
+    \item Processo de mineração de dados com respeito à pesquisa em lide;
+      \begin{itemize}
+      	\item Contextualização do CRISP-DM.
+      	\item Ciclo de vida do CRISP-DM.
+      \end{itemize}
+       
+    \item Processo de aplicação da Mineração de Dados e Mineração em textos; 
+	    \begin{itemize}
+	    	\item Mineração de dados e o Processamento de Linguagem Natural.
+	    	\item Mineração de texto em Redes sociais; o Twitter.
+	    \end{itemize}
+    \item Aprendizagem de máquina em processos de mineração de dados;
+	    \begin{itemize}
+	    	\item Naive Bayes
+	    	\item Árvore de Decisãos.
+	    	\item Medição de desempenho e classificação de algoritmos de mineração de dados.
+	    \end{itemize}
   \end{itemize}
 
 
@@ -63,10 +76,11 @@ A tabela 2.1 sumariza e exemplifica essas dimensões no contexto de aplicação 
 \\
 \end{tabular}
 \\
-\tiny Fonte: CRISP-DM -- 1.0
+\tiny Fonte: CRISP-DM -- 1.0 (adapatado)
 \end{table}
 
-
+A tabela 2.1 descreveu que um projeto de Mineração de Dados a ser desenvolvido deverá estar contextualizado nestas quatro dimensões. 
+Mais adiante o ciclo de vida do CRISP-DM (figura 2.2) descreve as fases onde estas dimensões da tabela 2.1 se encaixam.
 A aplicação das técnicas de mineração de dados identifica padrões ocultos nos dados, inacessíveis pelas técnicas tradicionais,
 como por exemplo, consultas em banco de dados, técnicas estatísticas, dentre outras. Além disso, possibilita analisar um grande número de 
 variáveis simultaneamente, o que não acontece com o cérebro humano \cite{possas1998data}. 
@@ -74,7 +88,7 @@ A análise desse processo permite extrair novos conhecimentos a partir dos dados
 KDD -- Knowledge Discovery Database \cite{FayyadUeoutros}. Fayyad \cite{FayyadUeoutros} destaca a natureza interdisciplinar do KDD que contempla a intersecção 
 de campos de pesquisa tais como Aprendizagem de Máquina (Machine Learning), Reconhecimento de Padrões, I.A., Estatística, Computação de Alto Desempenho e outros, propõe que o objetivo principal é extrair um conhecimento de alto nível a partir de dados de baixo nível num contexto de 
 grandes bases de dados.
-O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na figura a seguir:
+O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na figura 2.1:
 
 \begin{figure}[!ht]
 \centering
@@ -113,7 +127,7 @@ do processo, determinar os objetivos e traçar um plano para execução. Essas e
 \caption{Entendimento do negócio}
 \vspace{1mm}
 \includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Entendimento.png}\\
-\tiny Fonte: CRISP-DM 1.0
+\tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 \pagebreak
@@ -129,7 +143,7 @@ um problema a ser considerado, pois seu tratamento pode consumir muito tempo do 
 \caption{Entendimento dos dados}
 \vspace{1mm}
 \includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/EntendDados.png}\\
-\tiny Fonte: CRISP-DM 1.0
+\tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 %\vspace{0.5cm}
@@ -147,7 +161,7 @@ Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis 
 \caption{Preparação dos dados}
 \vspace{1mm}
 \includegraphics[width=120mm, height=90mm]{Figuras/Cronograma/PreparaDados.png}\\
-\tiny Fonte: CRISP-DM 1.0
+\tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 \vspace{0.9cm}
@@ -161,7 +175,7 @@ Um modelo de regressão logística para problemas binários, redes neurais para 
 \caption{Modelagem IA}
 \vspace{1mm}
 \includegraphics[width=120mm, height=79mm]{Figuras/Cronograma/Model_IA.png}\\
-\tiny Fonte: CRISP-DM 1.0
+\tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 %\vspace{0.5cm}
@@ -177,7 +191,7 @@ do modelo, os passos executados até então sejam avaliados e revistos.
 \caption{Avaliação do modelo}
 \vspace{1mm}
 \includegraphics[width=120mm, height=65mm]{Figuras/Cronograma/Avaliacao.png}\\
-\tiny Fonte: CRISP-DM 1.0
+\tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 \pagebreak
@@ -191,7 +205,7 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 \caption{Implantação do modelo}
 \vspace{1mm}
 \includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Implantacao.png}\\
-\tiny Fonte: CRISP-DM 1.0
+\tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 %\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
