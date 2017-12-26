@@ -26,11 +26,36 @@ I was expecting a `,' or a `}'---line 538 of file Bibliografia/Bibliografia.bib
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 550 of file Bibliografia/Bibliografia.bib
+ :        
+ :        year = {2007}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 570 of file Bibliografia/Bibliografia.bib
+ :  
+ :  volume = {SS-10-01},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 595 of file Bibliografia/Bibliografia.bib
+ :     
+ :     year={2016}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 607 of file Bibliografia/Bibliografia.bib
+ :  
+ :  year = {2014}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 623 of file Bibliografia/Bibliografia.bib
+ :  
+ :  volume = {56},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "ICWSM09154" isn't style-file defined
---line 678 of file Bibliografia/Bibliografia.bib
+--line 684 of file Bibliografia/Bibliografia.bib
 Warning--entry type for "Decision2014" isn't style-file defined
---line 695 of file Bibliografia/Bibliografia.bib
-I was expecting an "="---line 1113 of file Bibliografia/Bibliografia.bib
+--line 701 of file Bibliografia/Bibliografia.bib
+I was expecting an "="---line 1119 of file Bibliografia/Bibliografia.bib
  :   
  :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
 I'm skipping whatever remains of this entry
@@ -84,6 +109,7 @@ Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em DadosGoverno
 Warning--campo title vazio em Br-Brasil
+Warning--campo year vazio ou faltando em Ben-David2014
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
@@ -99,43 +125,43 @@ Warning--campo title vazio em akgungor2009artificial
 +---------------------------------------------------------+
 You've used 89 entries,
             6480 wiz_defined-function locations,
-            1684 strings with 25148 characters,
-and the built_in function-call counts, 64152 in all, are:
-= -- 4722
-> -- 2124
-< -- 159
+            1690 strings with 25314 characters,
+and the built_in function-call counts, 64249 in all, are:
+= -- 4744
+> -- 2123
+< -- 157
 + -- 856
 - -- 638
-* -- 4624
-:= -- 8396
-add.period$ -- 305
+* -- 4620
+:= -- 8399
+add.period$ -- 313
 call.type$ -- 89
-change.case$ -- 906
-chr.to.int$ -- 212
-cite$ -- 92
-duplicate$ -- 3435
-empty$ -- 4797
+change.case$ -- 914
+chr.to.int$ -- 209
+cite$ -- 93
+duplicate$ -- 3455
+empty$ -- 4794
 format.name$ -- 3294
-if$ -- 15092
+if$ -- 15116
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1538
-newline$ -- 453
+missing$ -- 1545
+newline$ -- 460
 num.names$ -- 352
-pop$ -- 2112
+pop$ -- 2116
 preamble$ -- 1
 purify$ -- 345
 quote$ -- 0
-skip$ -- 3446
+skip$ -- 3447
 stack$ -- 1
-substring$ -- 2666
-swap$ -- 1594
-text.length$ -- 118
+substring$ -- 2657
+swap$ -- 1605
+text.length$ -- 117
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
-warning$ -- 4
-while$ -- 558
+warning$ -- 5
+while$ -- 556
 width$ -- 0
-write$ -- 1213
-(There were 26 error messages)
+write$ -- 1218
+(There were 31 error messages)

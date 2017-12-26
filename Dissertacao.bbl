@@ -57,12 +57,13 @@ Dispon{\'\i}vel em:
 \bibitem{Dados-BR}
 \abntrefinfo{cidadania}{CIDADANIA}{}
 {CIDADANIA, P.~M. da~Justica~e. Dados abertos.
+Acessado em: 20.Out.2015.
 Dispon{\'\i}vel em: \url{https://www.prf.gov.br/portal/dados-abertos/}.}
 
 \bibitem{Ben-David2014}
-\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
+\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{}
 {BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
-  Theory to Algorithms}}. [s.n.], 2014. 449~p.
+  Theory to Algorithms}}. [s.n.]. 449~p. Acessado em: 02.Fev.2016.
 ISBN 9781107057135. Dispon{\'\i}vel em:
   \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
 
@@ -80,11 +81,12 @@ Dispon{\'\i}vel em:
   \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
 
 \bibitem{FrotaVeiculosIBGE}
-\abntrefinfo{{Instituto Brasileiro de Geografia e Estatística -
-  IBGE}}{{Instituto Brasileiro de Geografia e Estatística - IBGE}}{2014}
-{{Instituto Brasileiro de Geografia e Estatística - IBGE}. Regi\~{a}o
+\abntrefinfo{{IBGE -- Instituto Brasileiro de Geografia e Estatística}}{{IBGE
+  -- Instituto Brasileiro de Geografia e Estatística}}{2014}
+{{IBGE -- Instituto Brasileiro de Geografia e Estatística}. Regi\~{a}o
   metropolitana do recife no contexto de pernambuco no censo 2010.
 2014.
+Acessado em: 01.Set.2015.
 Dispon{\'\i}vel em:
   \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
@@ -159,6 +161,7 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
   for handling class imbalance problem: A case study of customer churn
   prediction.
 v.~353, p. 215--225, 2015.
+Acessado em: 20.Jan.2016.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
 \bibitem{hotho2005brief}
@@ -321,10 +324,11 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.acalib.2015.12.014}.}
   131--139, 2000.}
 
 \bibitem{Nilsson2005}
-\abntrefinfo{Nilsson}{NILSSON}{2005}
+\abntrefinfo{Nilsson}{NILSSON}{}
 {NILSSON, N.~J. {Introduction to Machine Learning}.
-\emph{Machine Learning}, v.~56, n.~2, p. 387--99, 2005.
+\emph{Machine Learning}, n.~2, p. 387--99.
 ISSN 10959572.
+Acessado em: 03.Fev.2016.
 Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
 
 \bibitem{Monard}
@@ -418,6 +422,7 @@ New York, USA: Academic Press, 1975.}
 \abntrefinfo{Anaesthetist}{ANAESTHETIST}{2001}
 {ANAESTHETIST, T.
 September 2001.
+Acessado em: 20.Jan.2015.
 Dispon{\'\i}vel em:
   \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
 
@@ -425,6 +430,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Souza}{SOUZA}{2009}
 {SOUZA, C.~R. Análise de poder discriminativo atraés de curvas roc.
 July 2009.
+Acessado em 01.Set.2016.
 Dispon{\'\i}vel em:
   \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
 
@@ -548,6 +554,7 @@ Dispon{\'\i}vel em:
 \bibitem{Eaves}
 \abntrefinfo{Eaves}{EAVES}{}
 {EAVES, D. The three laws of open government data.
+Acessado em: 24.Out.2016.
 Dispon{\'\i}vel em:
   \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
 
