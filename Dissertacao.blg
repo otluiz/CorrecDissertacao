@@ -18,19 +18,19 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11141 items from 5000.
+Reallocated field_info (elt_size=4) to 11210 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
-I was expecting a `,' or a `}'---line 511 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 538 of file Bibliografia/Bibliografia.bib
  :    
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "ICWSM09154" isn't style-file defined
---line 651 of file Bibliografia/Bibliografia.bib
+--line 678 of file Bibliografia/Bibliografia.bib
 Warning--entry type for "Decision2014" isn't style-file defined
---line 668 of file Bibliografia/Bibliografia.bib
-I was expecting an "="---line 1086 of file Bibliografia/Bibliografia.bib
+--line 695 of file Bibliografia/Bibliografia.bib
+I was expecting an "="---line 1113 of file Bibliografia/Bibliografia.bib
  : â€¨ 
  :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
 I'm skipping whatever remains of this entry
@@ -46,16 +46,6 @@ while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2095 of file Bibliografia/abnt-num.bst
@@ -94,9 +84,6 @@ Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em DadosGoverno
 Warning--campo title vazio em Br-Brasil
-Warning--campo title vazio em Dados-BR
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining
-while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
@@ -104,52 +91,51 @@ while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "Camilo, CÃ¡ssio Oliveira, and JoÃ£o Carlos da Silva" has a comma at the end for entry Camilo
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
-Warning--campo title vazio em Discriminativo
 Warning--campo title vazio em akgungor2009artificial
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 88 entries,
+You've used 89 entries,
             6480 wiz_defined-function locations,
-            1678 strings with 24990 characters,
-and the built_in function-call counts, 64900 in all, are:
-= -- 4818
-> -- 2147
-< -- 157
-+ -- 868
-- -- 644
-* -- 4734
-:= -- 8467
-add.period$ -- 302
-call.type$ -- 88
-change.case$ -- 908
-chr.to.int$ -- 208
-cite$ -- 93
-duplicate$ -- 3402
-empty$ -- 4859
-format.name$ -- 3330
-if$ -- 15254
+            1684 strings with 25148 characters,
+and the built_in function-call counts, 64152 in all, are:
+= -- 4722
+> -- 2124
+< -- 159
++ -- 856
+- -- 638
+* -- 4624
+:= -- 8396
+add.period$ -- 305
+call.type$ -- 89
+change.case$ -- 906
+chr.to.int$ -- 212
+cite$ -- 92
+duplicate$ -- 3435
+empty$ -- 4797
+format.name$ -- 3294
+if$ -- 15092
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1523
-newline$ -- 450
-num.names$ -- 348
-pop$ -- 2108
+missing$ -- 1538
+newline$ -- 453
+num.names$ -- 352
+pop$ -- 2112
 preamble$ -- 1
 purify$ -- 345
 quote$ -- 0
-skip$ -- 3421
+skip$ -- 3446
 stack$ -- 1
-substring$ -- 2962
-swap$ -- 1579
-text.length$ -- 117
+substring$ -- 2666
+swap$ -- 1594
+text.length$ -- 118
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
-warning$ -- 6
-while$ -- 553
+warning$ -- 4
+while$ -- 558
 width$ -- 0
-write$ -- 1197
-(There were 32 error messages)
+write$ -- 1213
+(There were 26 error messages)

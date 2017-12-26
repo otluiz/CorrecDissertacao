@@ -6,21 +6,24 @@
 \abntbstabout{1.42.2.1 }
 
 \bibitem{Crisp2000}
-\abntrefinfo{Wirth}{WIRTH}{2000}
-{WIRTH, R. Crisp-dm 1.0 – step-by-step data mining guide.
-p. 7--10, 2000.}
+\abntrefinfo{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.; REINAERTZ, T.;
+  SHEARER, C.; and WIRTH, R.}}{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA,
+  T.; REINAERTZ, T.; SHEARER, C.; and WIRTH, R.}}{2000}
+{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.; REINAERTZ, T.; SHEARER,
+  C.; and WIRTH, R.} Crisp-dm 1.0 – step-by-step data mining guide.
+\emph{CRISP-DM Consortium}, CRISP-DM consortium, p. 7--10, 2000.}
 
 \bibitem{xavier2011relaccoes}
 \abntrefinfo{Xavier e Costa}{XAVIER; COSTA}{2011}
-{XAVIER, R. C.~M.; COSTA, R.~O. da. Rela{\c{c}}{\~o}es m{\'u}tuas entre
-  informa{\c{c}}{\~a}o e conhecimento: o mesmo conceito?
+{XAVIER, R. C.~M.; COSTA, R.~O. da. {Rela{\c{c}}{\~o}es m{\'u}tuas entre
+  informa{\c{c}}{\~a}o e conhecimento: o mesmo conceito?}
 \emph{Ci{\^e}ncia da Informa{\c{c}}{\~a}o}, v.~39, n.~2, 2011.}
 
 \bibitem{da1996coadic}
-\abntrefinfo{Fleisher}{FLEISHER}{1996}
-{FLEISHER, R. M.~M. da C. Le coadic, yves fran{\c{c}}ois. a ci{\^e}ncia da
-  informa{\c{c}}{\~a}o. tradu{\c{c}}{\~a}o de maria y{\^e}da fs de filgueiras
-  gomes. bras{\'\i}lia: Briquet de lemos, 1996.
+\abntrefinfo{Fleisher C. \&~Marin{\'e}}{FLEISHER C. \&~MARIN{\'E}}{1996}
+{FLEISHER C. \&~MARIN{\'E}, R.~M. {LE COADIC, Yves Fran{\c{c}}ois. A
+  Ci{\^e}ncia da Informa{\c{c}}{\~a}o. tradu{\c{c}}{\~a}o de Maria Y{\^e}da FS
+  de Filgueiras Gomes. Bras{\'\i}lia: Briquet de Lemos}.
 \emph{Perspectivas em Ci{\^e}ncia da Informa{\c{c}}{\~a}o}, v.~1, n.~2, 1996.}
 
 \bibitem{Salles2007}
@@ -37,22 +40,23 @@ Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
 \emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
 
 \bibitem{DadosGoverno}
-\abntrefinfo{Transportes}{TRANSPORTES}{2016}
-{TRANSPORTES, P. e.~A. Governo Federal Ministério~dos.
+\abntrefinfo{{Ministério dos Transportes, Portos e Aviação -- Governo
+  Federal}}{{Ministério dos Transportes, Portos e Aviação -- Governo
+  Federal}}{2016}
+{{Ministério dos Transportes, Portos e Aviação -- Governo Federal}.
 2016.
 Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
 \bibitem{Br-Brasil}
-\abntrefinfo{Justica}{JUSTICA}{Acessado em: 01 de Julho de 2016}
+\abntrefinfo{Justica}{JUSTICA}{2014}
 {JUSTICA, P. e~Ministério~da.
-Acessado em: 01 de Julho de 2016.
+2014.
 Dispon{\'\i}vel em:
   \url{http://dados.gov.br/dataset/acidentes-rodovias-federais}.}
 
 \bibitem{Dados-BR}
-\abntrefinfo{cidadania}{CIDADANIA}{Acessado em: 20.jan.2015}
-{CIDADANIA, P.~M. da~Justica~e.
-Acessado em: 20.jan.2015.
+\abntrefinfo{cidadania}{CIDADANIA}{}
+{CIDADANIA, P.~M. da~Justica~e. Dados abertos.
 Dispon{\'\i}vel em: \url{https://www.prf.gov.br/portal/dados-abertos/}.}
 
 \bibitem{Ben-David2014}
@@ -76,9 +80,10 @@ Dispon{\'\i}vel em:
   \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
 
 \bibitem{FrotaVeiculosIBGE}
-\abntrefinfo{IBGE}{IBGE}{2014}
-{IBGE, I.~B. de~Geografia~e E. Regi\~{a}o metropolitana do recife no contexto
-  de pernambuco no censo 2010.
+\abntrefinfo{{Instituto Brasileiro de Geografia e Estatística -
+  IBGE}}{{Instituto Brasileiro de Geografia e Estatística - IBGE}}{2014}
+{{Instituto Brasileiro de Geografia e Estatística - IBGE}. Regi\~{a}o
+  metropolitana do recife no contexto de pernambuco no censo 2010.
 2014.
 Dispon{\'\i}vel em:
   \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
@@ -90,23 +95,33 @@ Dispon{\'\i}vel em:
   mecial diagnosis and treatment.
 p.~1.}
 
+\bibitem{chapman2000crisp}
+\abntrefinfo{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.; REINAERTZ, T.;
+  SHEARER, C.; and WIRTH, R.}}{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA,
+  T.; REINAERTZ, T.; SHEARER, C.; and WIRTH, R.}}{2000}
+{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.; REINAERTZ, T.; SHEARER,
+  C.; and WIRTH, R.} Crisp-dm 1.0.
+\emph{CRISP-DM Consortium}, v.~76, p.~1--2, 2000.}
+
 \bibitem{possas1998data}
-\abntrefinfo{POSSAS et al.}{POSSAS et al.}{1998}
-{POSSAS, B. et al. Data mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de
-  dados.
+\abntrefinfo{{POSSAS, B.; CARVALHO, M.L.B.; REZENDE, R.S.F.; {\&} MEIRA JR,
+  W.}}{{POSSAS, B.; CARVALHO, M.L.B.; REZENDE, R.S.F.; {\&} MEIRA JR,
+  W.}}{1998}
+{{POSSAS, B.; CARVALHO, M.L.B.; REZENDE, R.S.F.; {\&} MEIRA JR, W.} Data
+  mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de dados.
 \emph{Universidade Federal de Minas Gerais}, 1998.}
 
 \bibitem{FayyadUeoutros}
-\abntrefinfo{{FAYYAD, P., PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.}}{{FAYYAD, P.,
-  PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.}}{1996}
-{{FAYYAD, P., PIATETSKY-SHAPIRO, U., {\&} SMYTH, G.} {From data mining to
-  knowledge discovery in databases}.
+\abntrefinfo{{FAYYAD, P.; PIATETSKY-SHAPIRO, U. {\&} SMYTH, G.}}{{FAYYAD, P.;
+  PIATETSKY-SHAPIRO, U. {\&} SMYTH, G.}}{1996}
+{{FAYYAD, P.; PIATETSKY-SHAPIRO, U. {\&} SMYTH, G.} From data mining to
+  knowledge discovery in databases.
 \emph{Advances in Knowledge Discovery and Data Mining}, v.~17, n.~3, p. 1--36,
   1996.}
 
 \bibitem{DataMining}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
+\abntrefinfo{{HAN, J. \& KAMBER, M}}{{HAN, J. \& KAMBER, M}}{2006}
+{{HAN, J. \& KAMBER, M}. Data mining: Concepts and techniques.
 Elsevier, San Francisco, v. 2 edition, 2006.}
 
 \bibitem{NorvigRussel2004}
@@ -117,9 +132,8 @@ ISBN 8535211772.}
 
 \bibitem{Castanheira2008}
 \abntrefinfo{CASTANHEIRA}{CASTANHEIRA}{}
-{CASTANHEIRA, L.~G. {Aplicação de técnicas de Mineração de Dados em
-  Problemas de Classificação de Padrões}.
-n.~5531.}
+{CASTANHEIRA, L.~G. Aplicação de técnicas de mineração de dados em
+  problemas de classificação de padrões.}
 
 \bibitem{DataMining2}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
@@ -127,15 +141,15 @@ n.~5531.}
 Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 
 \bibitem{Aranha2006}
-\abntrefinfo{Aranha Christian e~Passos}{ARANHA CHRISTIAN E~PASSOS}{2006}
-{ARANHA CHRISTIAN E~PASSOS, E. \emph{A Tecnologia de Mineração de Textos}.
-  2006.
+\abntrefinfo{{ARANHA, C.; PASSOS, E.}}{{ARANHA, C.; PASSOS, E.}}{2006}
+{{ARANHA, C.; PASSOS, E.} \emph{A Tecnologia de Mineração de Textos}. 2006.
 1--8~p.}
 
 \bibitem{DecisionTree}
-\abntrefinfo{{A. Srivastava} e Singh}{{A. Srivastava}; SINGH}{2015}
-{{A. Srivastava}, V.~K.; SINGH, N. {Review of Decision Tree Algorithm: Big Data
-  Analytics}.
+\abntrefinfo{Srivastava A.;~Katiyar e Singh}{SRIVASTAVA A.;~KATIYAR;
+  SINGH}{2015}
+{SRIVASTAVA A.;~KATIYAR, V.; SINGH, N. {Review of Decision Tree Algorithm: Big
+  Data Analytics}.
 \emph{International Journal of Informative {\&} Futuristic Research}, v.~2,
   n.~10, p. 3644--3654, 2015.}
 
@@ -401,15 +415,16 @@ ISBN 1604390085.}
 New York, USA: Academic Press, 1975.}
 
 \bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{Acessado em: 20 de janeiro de 2015}
+\abntrefinfo{Anaesthetist}{ANAESTHETIST}{2001}
 {ANAESTHETIST, T.
-Acessado em: 20 de janeiro de 2015.
+September 2001.
 Dispon{\'\i}vel em:
   \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
 
 \bibitem{Discriminativo}
-\abntrefinfo{R.}{R.}{}
-{R., S. C.
+\abntrefinfo{Souza}{SOUZA}{2009}
+{SOUZA, C.~R. Análise de poder discriminativo atraés de curvas roc.
+July 2009.
 Dispon{\'\i}vel em:
   \url{http://crsouza.com/2009/07/analise-de-poder-discriminativo-atraves-de-curvas-roc}.}
 
@@ -531,9 +546,8 @@ Dispon{\'\i}vel em:
   \url{http://ojs.c3sl.ufpr.br/ojs/index.php/atoz/rt/printerFriendly/41346/25356}.}
 
 \bibitem{Eaves}
-\abntrefinfo{Eaves}{EAVES}{Acessado em: 24.out.2016}
+\abntrefinfo{Eaves}{EAVES}{}
 {EAVES, D. The three laws of open government data.
-Acessado em: 24.out.2016.
 Dispon{\'\i}vel em:
   \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
 
