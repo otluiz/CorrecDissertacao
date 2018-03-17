@@ -98,7 +98,7 @@ O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na fi
 \tiny Fonte: Neurotech -- 2012
 \end{figure}
 
-\pagebreak
+%\pagebreak
 
 \subsection{Ciclo de vida do CRISP--DM}
 
@@ -111,7 +111,7 @@ A figura 2.2 ilustra as fases do ciclo:
 \centering
 \caption{O padrão CRISP-DM \cite{Crisp2000}}
 \vspace{1mm}
-\includegraphics[width=100mm, height=75mm]{Figuras/BigData/CrispDM.png}\\
+\includegraphics[width=100mm, height=75mm]{Figuras/BigData/CrispDM2.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
@@ -130,7 +130,7 @@ do processo, determinar os objetivos e traçar um plano para execução. Essas e
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
-\pagebreak
+%\pagebreak
 
 \vspace{0.5cm}
 
@@ -210,7 +210,7 @@ O conhecimento adquirido precisa ser incrementado, organizado e apresentado de m
 
 %\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
 
-\pagebreak
+%\pagebreak
 
 \section{Mineração de dados}
 
@@ -219,22 +219,20 @@ específicos para descoberta de padrões e/ou comportamentos em grandes bases de
 
 A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões \cite{Castanheira2008}. 
 
-FAYYAD \cite{FayyadUeoutros}, destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que é um processo, a mineração é um passo no interior desse processo. 
+FAYYAD \cite{FayyadUeoutros}, destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que a descoberta de conhecimento em bases de dados (Knowledge Discovery Databases -- KDD) é um processo dividido em etapas bem distintas (Figura 2.9), a Mineração de Dados (MD) é um passo no interior desse processo. 
 Todavia, esse passo é de considerável relevância para que se possa extrair conhecimento adequadamente. 
-A aplicação “cega” dos métodos de mineração de dados, ainda segundo Fayyad \cite{FayyadUeoutros}, pode conduzir à descoberta de dados sem significado e padrões inválidos. 
+A aplicação “cega” dos métodos de mineração de dados, ainda segundo Fayyad \cite{FayyadUeoutros}, pode conduzir à descoberta de dados sem significado e a padrões inválidos. 
 
-Existem vários tipos de dados e informações nesses repositórios que podem ser minerados, contudo esses dados, inicialmente são selecionados e agrupados, a seguir passam por 
-uma fase de preprocessamento, que consiste em tratá-los de forma a prepará-los para a mineração. Essa fase é de 
-fundamental importância na estruturação dos dados, uma vez que em grandes volumes de dados, também conhecido ``Datawarehouse'', podem existir inconsistências, faltas (missing data) ou 
+Nos repositórios dos dados abertos do governo federal \cite{DadosGoverno} existem vários tipos de dados e informações, nesses repositórios que podem ser minerados, contudo esses dados, inicialmente são selecionados e agrupados, a seguir passam por uma fase de preprocessamento, que consiste em tratá-los de forma a prepará-los para a mineração. Essa fase é de fundamental importância na estruturação dos dados, uma vez que em grandes volumes de dados, também conhecido ``Datawarehouse'' \footnote{Em Datawarehouse os dados também são estruturados, mas de uma maneira específica, que permitam aplicar técnicas conhecidas como Business Intelligence } \cite{RalphKimball2013}, podem existir inconsistências, faltas (missing data) ou 
 duplicidade e erros de informações.
 
-Nesse sentido, as técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade sem \textit{missing data}, para poder extrair informações relevantes.
+As técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade sem \textit{missing data}, para poder extrair informações relevantes.
 Existem várias maneiras de se contornar os dados ausentes, como o preenchimento dos dados através de técnicas de inteligência artificial, da média dos valores; quando dados numéricos 
 ou com a moda; quando os dados forem categóricos. Para cada tipo de dados existem técnicas apropriadas para serem aplicadas sobre eles, algumas mais sensíveis às problemáticas elencadas anteriormente
 e outras mais robustas \cite{DataMining2}, que por sua vez estão associadas a classes de problemas que a mineração trata, a tabela 2.1 delineou o domínio.
 Isso será tratado na seção Aprendizagem de Máquina (Machine Learning).
 O caminho da extração dos dados até sua mineração e extração de conhecimento é longo.
-Na figura a seguir temos a ilustração desse caminho:
+Na figura 2.9 temos a ilustração desse caminho:
 
 \begin{figure}[!ht]
 \centering
@@ -243,11 +241,11 @@ Na figura a seguir temos a ilustração desse caminho:
 \end{figure}
 
 
-Na origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Dados''. Observa-se que este está repleto de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
-O balão onde se lê ``Selection'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
+Na origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Dados''. Estes geralmente estão repletos de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
+O balão onde se lê ``Seleção'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
 Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais como, redes sociais, câmaras de trânsito, informações de satélites meteorológicos e outras fontes.
 
-Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Target Data'' 
+Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Dados Escolhidos'' 
 com tecnologia apropriada, utilizando-se técnicas de ``Map'' e ``Reduce'' ou mineração de dados em textos \textit{Text Mining} para criar \textit{cluster} de informações e ler os fluxos de dados (stream data). 
 Algumas técnicas de IA podem ser aplicadas nessa etapa como, ``Data Mininng Swarm Robotics'' através de Botnets \footnote{Botnet é citado no sentido da coleta de informações} ou ``Swarm Intelligence''.
 
@@ -260,7 +258,7 @@ O processo de Mineração dos dados começa no balão ``Mineração de Dados'', 
 ``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística), ``Naïve Bayes'' e ``Deep Learning'', detre outros.
 Algumas técnicas de mineração de dados são fortemente influenciadas pelas informações na entrada (input), como as Árvores de decisão \cite{DecisionTree}. 
 As Redes Neurais, dependendo da quantidade de variáveis de entrada, paderão ter milhares de neurônios na camada intermediária, o que inviabilizaria essa metaheurística 
-\footnote{Metaheurística são heurísticas aplicadas em problemas onde os custos computacionais não são tratáveis em tempo polionomial, devido às explosões combinatórias geradas
+\footnote{Metaheurística são heurísticas aplicadas a problemas em que os custos computacionais não são tratáveis em tempo polionomial, devido às explosões combinatórias geradas
 pelo grande número de tentativas. Metaheurísticas bioinspiradas metaforizam o comportamento de animais sociais, tais como formigas, pássaros, peixes e outros}.
 
 Todas essas etapas descritas na figura são recorrentes, como indicam as setas pontilhadas que retornam aos passos anteriores.
@@ -269,7 +267,7 @@ quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de 
 O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 
 
-\pagebreak
+%\pagebreak
 
 
 \section{Mineração de Textos} %\label{arte:palavraChave:DataMiningBigData}
@@ -419,7 +417,7 @@ comparativamente à biblioteca da Stanford University, que começou no Twitter c
 \label{fig:contaPalavras}
 \end{figure}
 
-\pagebreak
+%\pagebreak
 
 A análise do conteúdo dos Tweets foi desenvolvida da seguinte maneira: tomando a frequência de unigramas (palavras únicas), observou-se que a palavra mais frequente foi “open”, utilizada em uma variedade de contextos pelos ``tweets'' da biblioteca. Por exemplo: foi usada em um anúncio sobre a mudança do horário de funcionamento, bem como em um anúncio para abertura do espaço para os estudantes, exposições, abertura da casa (biblioteca), etc. 
 

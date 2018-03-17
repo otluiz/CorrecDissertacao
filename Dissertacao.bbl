@@ -137,6 +137,13 @@ ISBN 8535211772.}
 {CASTANHEIRA, L.~G. Aplicação de técnicas de mineração de dados em
   problemas de classificação de padrões.}
 
+\bibitem{RalphKimball2013}
+\abntrefinfo{{Ralph Kimball}}{{Ralph Kimball}}{2013}
+{{Ralph Kimball}. \emph{{The Data Warehouse Toolkit}}. [S.l.: s.n.], 2013.
+  1689--1699~p.
+ISSN 1098-6596.
+ISBN 9788578110796.}
+
 \bibitem{DataMining2}
 \abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
 {HAN, J.; KAMBER, M. Data mining: Concepts and techniques.

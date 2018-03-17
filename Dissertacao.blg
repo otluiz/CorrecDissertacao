@@ -18,44 +18,44 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11210 items from 5000.
+Reallocated field_info (elt_size=4) to 11279 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
-I was expecting a `,' or a `}'---line 538 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 558 of file Bibliografia/Bibliografia.bib
  :    
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 550 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 570 of file Bibliografia/Bibliografia.bib
  :        
  :        year = {2007}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 570 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 590 of file Bibliografia/Bibliografia.bib
  :  
  :  volume = {SS-10-01},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 595 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 615 of file Bibliografia/Bibliografia.bib
  :     
  :     year={2016}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 607 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 627 of file Bibliografia/Bibliografia.bib
  :  
  :  year = {2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 623 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 643 of file Bibliografia/Bibliografia.bib
  :  
  :  volume = {56},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "ICWSM09154" isn't style-file defined
---line 684 of file Bibliografia/Bibliografia.bib
+--line 704 of file Bibliografia/Bibliografia.bib
 Warning--entry type for "Decision2014" isn't style-file defined
---line 701 of file Bibliografia/Bibliografia.bib
-I was expecting an "="---line 1119 of file Bibliografia/Bibliografia.bib
+--line 721 of file Bibliografia/Bibliografia.bib
+I was expecting an "="---line 1139 of file Bibliografia/Bibliografia.bib
  : â€¨ 
  :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
 I'm skipping whatever remains of this entry
@@ -123,45 +123,45 @@ Warning--campo title vazio em akgungor2009artificial
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 89 entries,
+You've used 90 entries,
             6480 wiz_defined-function locations,
-            1690 strings with 25314 characters,
-and the built_in function-call counts, 64249 in all, are:
-= -- 4744
-> -- 2123
+            1699 strings with 25467 characters,
+and the built_in function-call counts, 64865 in all, are:
+= -- 4796
+> -- 2135
 < -- 157
-+ -- 856
-- -- 638
-* -- 4620
-:= -- 8399
-add.period$ -- 313
-call.type$ -- 89
-change.case$ -- 914
-chr.to.int$ -- 209
-cite$ -- 93
-duplicate$ -- 3455
-empty$ -- 4794
-format.name$ -- 3294
-if$ -- 15116
++ -- 860
+- -- 642
+* -- 4656
+:= -- 8486
+add.period$ -- 319
+call.type$ -- 90
+change.case$ -- 920
+chr.to.int$ -- 210
+cite$ -- 94
+duplicate$ -- 3493
+empty$ -- 4853
+format.name$ -- 3314
+if$ -- 15267
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1545
-newline$ -- 460
-num.names$ -- 352
-pop$ -- 2116
+missing$ -- 1564
+newline$ -- 466
+num.names$ -- 356
+pop$ -- 2136
 preamble$ -- 1
-purify$ -- 345
+purify$ -- 348
 quote$ -- 0
-skip$ -- 3447
+skip$ -- 3478
 stack$ -- 1
-substring$ -- 2657
-swap$ -- 1605
+substring$ -- 2674
+swap$ -- 1623
 text.length$ -- 117
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
 warning$ -- 5
-while$ -- 556
+while$ -- 561
 width$ -- 0
-write$ -- 1218
+write$ -- 1233
 (There were 31 error messages)
