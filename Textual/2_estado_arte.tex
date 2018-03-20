@@ -94,7 +94,7 @@ O CRISP-DM, por sua vez, engloba todos esses elementos como pode ser visto na fi
 \centering
 \caption{Domínio das técnicas aplicadas a mineração de dados}
 \vspace{1mm}
-\includegraphics[width=90mm, height=40mm]{Figuras/BigData/RelacaoCrispKddDm.png}\\
+\includegraphics[width=100mm, height=60mm]{Figuras/BigData/RelacaoCrispKddDm.png}\\
 \tiny Fonte: Neurotech -- 2012
 \end{figure}
 
@@ -111,38 +111,44 @@ A figura 2.2 ilustra as fases do ciclo:
 \centering
 \caption{O padrão CRISP-DM \cite{Crisp2000}}
 \vspace{1mm}
-\includegraphics[width=100mm, height=75mm]{Figuras/BigData/CrispDM2.png}\\
+\includegraphics[width=120mm, height=90mm]{Figuras/BigData/CrispDM2.png}\\
 \tiny Fonte: CRISP-DM 1.0
 \end{figure}
 
+\vspace{0.5cm}
+
 A primeira fase, conhecida como \textbf{Entendimento do negócio}, ou ``fase de entendimento dos objetivos e dos requerimentos sob a 
-perspectiva do negócio'' \cite{Chapman2000} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
+perspectiva do negócio'' \cite{Crisp2000} é uma fase crucial da mineração,  um especialista (ou muitos) deve ser consultado. 
 O analista de dados e o analista do negócio traçam os objetivos da mineração sob a perspectiva do cliente. Questionamentos incorretos 
 ou negligência nesta fase podem acarretar esforços excessivos no processo como um todo a experiência de um profissional da área 
 é condição ``sine qua non'' nessa fase. Portanto avaliar o negócio, avaliar a situação sob o ponto de vista dos riscos de não conclusão 
 do processo, determinar os objetivos e traçar um plano para execução. Essas etapas são delineadas nas figuras que se seguem. A figura 2.3 é sobre o Entendimento do negócio já descrito anteriormente.
 
+\vspace{0.5cm}
+
 \begin{figure}[!ht]
 \centering
 \caption{Entendimento do negócio}
 \vspace{1mm}
-\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Entendimento.png}\\
+\includegraphics[width=160mm, height=120mm]{Figuras/Cronograma/Entendimento.png}\\
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
-%\pagebreak
+\pagebreak
 
-\vspace{0.5cm}
+\vspace{1.5cm}
 
-Em seguida, na figura 2.4 o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
+Em seguida, o analista de dados passa à segunda fase, \textbf{Entendimento dos dados}, na figura 2.4. Essa fase caracteriza-se pelo exame acurado dos dados, procurando identificar sua qualidade. 
 Dados ausentes -- ``missing data'' -- são comuns em bases de dados não estruturadas, configurando-se como
 um problema a ser considerado, pois seu tratamento pode consumir muito tempo do analista de dados, estima-se cerca de 80\% do tempo total \cite{DataMining}. 
+
+\vspace{0.5cm}
 
 \begin{figure}[!ht]
 \centering
 \caption{Entendimento dos dados}
 \vspace{1mm}
-\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/EntendDados.png}\\
+\includegraphics[width=160mm, height=120mm]{Figuras/Cronograma/EntendDados.png}\\
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
@@ -155,26 +161,31 @@ Preparar os dados significa, criar e selecionar atributos, criar tabelas ou plan
 Para selecionar quais dados serão mais relevantes, calcula-se, por exemplo, o coeficiente de correlação linear entre os atributos (variáveis), quando as variáveis são numéricas. Outra forma de qualificar os dados é calculando a quantidade de informação que cada atributo possui. A máxima entropia de cada atributo pode fornecer informações sobre a qualidade da variável quando esta estabelece ganho de informação \cite{NorvigRussel2004}, vide equação da Entropia \footnote{O conceito de entropia será discutido na seção 2.6.2, referente a Árvores de Decisão}: $ H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x) $
 Onde $ H_{x} $ é a medida de entropia, x um atributo do conjunto de variáveis $X$ de variáveis. 
 
+\vspace{0.5cm}
 
 \begin{figure}[!ht]
 \centering
 \caption{Preparação dos dados}
 \vspace{1mm}
-\includegraphics[width=120mm, height=90mm]{Figuras/Cronograma/PreparaDados.png}\\
+\includegraphics[width=160mm, height=120mm]{Figuras/Cronograma/PreparaDados.png}\\
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
-\vspace{0.9cm}
+\pagebreak
+
+
 
 Na quarta fase, \textbf{Modelagem de I.A.}, figura 2.6, a tecnologia deve ser escolhida de forma criteriosa, baseada também na experiência do analista de dados. 
 Em sistemas de suporte à decisão, uma tecnologia inadequada pode levar a decisões imprecisas. É comum retornar às fases anteriores para adequar a técnica aos dados. 
 Um modelo de regressão logística para problemas binários, redes neurais para problemas de classificação, e assim por diante.
 
+\vspace{0.5cm}
+
 \begin{figure}[!ht]
 \centering
 \caption{Modelagem IA}
 \vspace{1mm}
-\includegraphics[width=120mm, height=79mm]{Figuras/Cronograma/Model_IA.png}\\
+\includegraphics[width=160mm, height=120mm]{Figuras/Cronograma/Model_IA.png}\\
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
@@ -186,11 +197,13 @@ de forma que seja possível atingir uma alta qualidade do ponto de vista da aná
 modelo proposto esteja de adequado aos objetivos do negócio. Para tal é preciso que antes do desenvolvimento final 
 do modelo, os passos executados até então sejam avaliados e revistos.
 
+\vspace{0.5cm}
+
 \begin{figure}[!ht]
 \centering
 \caption{Avaliação do modelo}
 \vspace{1mm}
-\includegraphics[width=120mm, height=65mm]{Figuras/Cronograma/Avaliacao.png}\\
+\includegraphics[width=160mm, height=120mm]{Figuras/Cronograma/Avaliacao.png}\\
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
@@ -200,26 +213,28 @@ A sexta e última fase caracteriza-se pela conclusão do modelo, figura 2.8. No 
 O conhecimento adquirido precisa ser incrementado, organizado e apresentado de maneira que o cliente possa usá-lo.
 É importante ressaltar que este ciclo poderá ser retomado até que o modelo esteja adequado às necessidades e especifidades do cliente.
 
+\vspace{0.5cm}
+
 \begin{figure}[!ht]
 \centering
 \caption{Implantação do modelo}
 \vspace{1mm}
-\includegraphics[width=120mm, height=75mm]{Figuras/Cronograma/Implantacao.png}\\
+\includegraphics[width=160mm, height=120mm]{Figuras/Cronograma/Implantacao.png}\\
 \tiny Fonte: CRISP-DM 1.0 (adapatado)
 \end{figure}
 
 %\section{Além do KDD -- \textit{Domain-Driven for Data Mining}}
 
-%\pagebreak
+\pagebreak
 
 \section{Mineração de dados}
 
-No processo de extração do conhecimento (KDD), um dos importantes passos a ser considerado é a mineração de dados, que se caracteriza pela aplicação de algoritmos 
+No processo de extração do conhecimento, também conhecido como \textit{Knowledge Discovery Databases} (KDD), um dos importantes passos a ser considerado é a mineração de dados, que se caracteriza pela aplicação de algoritmos 
 específicos para descoberta de padrões e/ou comportamentos em grandes bases de dados, também conhecido como repositórios de dados \cite{FayyadUeoutros}.
 
 A mineração se distingue das técnicas estatísticas pelo fato de que  não trabalha com dados hipotéticos, mas se apoia nos próprios dados para extrair os padrões \cite{Castanheira2008}. 
 
-FAYYAD \cite{FayyadUeoutros}, destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que a descoberta de conhecimento em bases de dados (Knowledge Discovery Databases -- KDD) é um processo dividido em etapas bem distintas (Figura 2.9), a Mineração de Dados (MD) é um passo no interior desse processo. 
+FAYYAD \cite{FayyadUeoutros}, destaca que é necessário distinguir claramente KDD e mineração de dados. Enquanto que a descoberta de conhecimento em bases de dados (KDD) é um processo dividido em etapas bem distintas (Figura 2.9), a Mineração de Dados (MD) é um passo no interior desse processo. 
 Todavia, esse passo é de considerável relevância para que se possa extrair conhecimento adequadamente. 
 A aplicação “cega” dos métodos de mineração de dados, ainda segundo Fayyad \cite{FayyadUeoutros}, pode conduzir à descoberta de dados sem significado e a padrões inválidos. 
 
@@ -227,22 +242,27 @@ Nos repositórios dos dados abertos do governo federal \cite{DadosGoverno} exist
 duplicidade e erros de informações.
 
 As técnicas de mineração de dados trabalham com dados estruturados, preenchidos em sua totalidade sem \textit{missing data}, para poder extrair informações relevantes.
-Existem várias maneiras de se contornar os dados ausentes, como o preenchimento dos dados através de técnicas de inteligência artificial, da média dos valores; quando dados numéricos 
-ou com a moda; quando os dados forem categóricos. Para cada tipo de dados existem técnicas apropriadas para serem aplicadas sobre eles, algumas mais sensíveis às problemáticas elencadas anteriormente
-e outras mais robustas \cite{DataMining2}, que por sua vez estão associadas a classes de problemas que a mineração trata, a tabela 2.1 delineou o domínio.
-Isso será tratado na seção Aprendizagem de Máquina (Machine Learning).
-O caminho da extração dos dados até sua mineração e extração de conhecimento é longo.
-Na figura 2.9 temos a ilustração desse caminho:
+Existem várias maneiras de se contornar os dados ausentes, como o preenchimento dos dados através de técnicas de inteligência artificial, da média dos valores; em dados numéricos 
+ou com a moda; quando os dados forem categóricos \footnote{Dados categóricos são dados textuais que identificam uma categoria de dados}. Os dados são apresentados como uma tabela onde a primeira coluna ficam as variáveis (qualitativas ou quantitavis), em seguida vém os dados que seguem segundo a primeira linha a correspondência de que tipo eles são. 
+
+Normalmente são criadas variáveis a partir dos dados numéricos para ampliar o conhecimento sobre esses dados. Para cada tipo de dado (numéricos, categóricos) existem técnicas apropriadas para serem aplicadas sobre eles, algumas mais sensíveis às problemáticas elencadas anteriormente
+e outras mais robustas \cite{DataMining2}, que por sua vez estão associadas a classes de problemas que a mineração trata, a tabela 2.1 (página 19) delineou o domínio.
+
+O caminho desde a coleta dos dados até sua mineração e extração de conhecimento é longo, a figura 2.9 tem a ilustração desse caminho:
 
 \begin{figure}[!ht]
-\centering
-\caption{Fases da mineração de dados até extração do conhecimento}
-\includegraphics[width=135mm, height=65mm]{Figuras/BigData/Fayyad.png}
+	\centering
+	\caption{Fases da mineração de dados até extração do conhecimento}
+	\includegraphics[width=130mm, height=65mm]{Figuras/BigData/Fayyad.png}
 \end{figure}
+
+\pagebreak
 
 
 Na origem dos dados, os ``inputs'' estão representados na figura onde se lê ``Dados''. Estes geralmente estão repletos de \textit{missing data} e/ou dados inconsistentes, conhecidos como dados não estruturados. 
-O balão onde se lê ``Seleção'' representa a coleta das informações ou a seleção dos dados no \textit{Big Data}.
+O balão onde se lê ``Seleção'' representa a coleta das informações ou a seleção dos dados em grandes repositórios de dados como Datawarehouse ou \textit{Big Data}. \footnote{A definição de Big data se encontra na página 16}.
+
+
 Em nossa pesquisa esses dados são provenientes das mais diversas fontes, tais como, redes sociais, câmaras de trânsito, informações de satélites meteorológicos e outras fontes.
 
 Armazenar dados provenientes de redes sociais nessa etapa pode ser um grande problema, devido à sua extensão, porém os dados relevantes podem ser armazenados em ``Dados Escolhidos'' 
@@ -252,7 +272,7 @@ Algumas técnicas de IA podem ser aplicadas nessa etapa como, ``Data Mininng Swa
 No balão ``Pré-Processamento'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
 Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
 Esses dados normalmente são coletados por técnicas de Mineração de Textos, também conhecidas como Mineração de Dados em Textos, técnicas de IA como ``Machine Learning'' 
-têm sido muito utlizadas. Em ``Transformação'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive. 
+têm sido muito utlizadas. Em ``Transformação'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive \cite{DecisionTree} \cite{BigdataQualquerUm}. \footnote{O Hive é um tipo de Datawarehouse que armazena dados não estruturados, outros exemplos semenhantes muito utilizados para armazenar dados provenientes do \textit{Big Data} são HBase, Pig}. 
 
 O processo de Mineração dos dados começa no balão ``Mineração de Dados'', onde são aplicadas as técnicas de IA conhecidas como classificadores, para extração de padrões, tais como: 
 ``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística), ``Naïve Bayes'' e ``Deep Learning'', detre outros.
@@ -261,9 +281,9 @@ As Redes Neurais, dependendo da quantidade de variáveis de entrada, paderão te
 \footnote{Metaheurística são heurísticas aplicadas a problemas em que os custos computacionais não são tratáveis em tempo polionomial, devido às explosões combinatórias geradas
 pelo grande número de tentativas. Metaheurísticas bioinspiradas metaforizam o comportamento de animais sociais, tais como formigas, pássaros, peixes e outros}.
 
-Todas essas etapas descritas na figura são recorrentes, como indicam as setas pontilhadas que retornam aos passos anteriores.
-Utilizar técnicas de mineração de dados, além de extrair dados, extrai conhecimento, com isso pode-se predizer os resultados futuros na saída do modelo, 
-quando determinados dados ocorrem na entrada \cite{Amin2015a}, essa técnica de extração de conhecimento chama-se \textit{Knowledge Discovery Databases} (KDD).
+Todas essas etapas descritas na figura 2.9 são recorrentes, como indicam as setas pontilhadas que retornam aos passos anteriores.
+Utilizar técnicas de mineração de dados, extrair dados e conhecimentos, com isso pode-se predizer os resultados futuros na saída do modelo, 
+quando determinados dados ocorrem na entrada \cite{Amin2015a}; essa técnica é o \textit{Knowledge Discovery Databases}.
 O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 
 

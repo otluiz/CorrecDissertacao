@@ -5,6 +5,11 @@ A level-1 auxiliary file: Pre-textual/Capa.aux
 A level-1 auxiliary file: Pre-textual/FolhaRosto.aux
 A level-1 auxiliary file: Textual/1_introducao.aux
 A level-1 auxiliary file: Textual/2_estado_arte.aux
+Case mismatch error between cite keys BigdataQualquerUm and bigdataQualquerUm
+---line 43 of file Textual/2_estado_arte.aux
+ : \citation{BigdataQualquerUm
+ :                            }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Textual/3_metodologia.aux
 A level-1 auxiliary file: Textual/4_simulacao.aux
 A level-1 auxiliary file: Textual/5_conclusao.aux
@@ -18,7 +23,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11279 items from 5000.
+Reallocated field_info (elt_size=4) to 11210 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
 I was expecting a `,' or a `}'---line 558 of file Bibliografia/Bibliografia.bib
@@ -59,7 +64,6 @@ I was expecting an "="---line 1139 of file Bibliografia/Bibliografia.bib
  :   
  :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Chapman2000"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
@@ -125,7 +129,7 @@ Warning--campo title vazio em akgungor2009artificial
 +---------------------------------------------------------+
 You've used 90 entries,
             6480 wiz_defined-function locations,
-            1699 strings with 25467 characters,
+            1697 strings with 25445 characters,
 and the built_in function-call counts, 64865 in all, are:
 = -- 4796
 > -- 2135
@@ -164,4 +168,4 @@ warning$ -- 5
 while$ -- 561
 width$ -- 0
 write$ -- 1233
-(There were 31 error messages)
+(There were 32 error messages)
