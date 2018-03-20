@@ -35,9 +35,9 @@ Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
 
 \bibitem{bigdataQualquerUm}
 \abntrefinfo{Jagadish e Shahabi}{JAGADISH; SHAHABI}{2014}
-{JAGADISH, J.~G. H.~V.; SHAHABI, C. Exploring the inherent technical challenges
-  in realizing the potential of big data.
-\emph{Comunication of the ACM}, v.~57, n.~7, p. 86--96, July 2014.}
+{JAGADISH, J.~G. H.~V.; SHAHABI, C. \emph{Exploring the inherent technical
+  challenges in realizing the potential of Big Data}. [S.l.: s.n.], 2014.
+  86--96~p.}
 
 \bibitem{DadosGoverno}
 \abntrefinfo{{Ministério dos Transportes, Portos e Aviação -- Governo
@@ -154,6 +154,12 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 {{ARANHA, C.; PASSOS, E.} \emph{A Tecnologia de Mineração de Textos}. 2006.
 1--8~p.}
 
+\bibitem{NoSQL2015}
+\abntrefinfo{Burtica et al.}{BURTICA et al.}{2012}
+{BURTICA, R. et al. Practical application and evaluation of no-sql databases in
+  cloud computing. In:  \emph{2012 IEEE International Systems Conference SysCon
+  2012}. [S.l.: s.n.], 2012. p.~1--6.}
+
 \bibitem{DecisionTree}
 \abntrefinfo{Srivastava A.;~Katiyar e Singh}{SRIVASTAVA A.;~KATIYAR;
   SINGH}{2015}
@@ -172,10 +178,10 @@ Acessado em: 20.Jan.2016.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 
 \bibitem{hotho2005brief}
-\abntrefinfo{Hotho, N{\"u}rnberger e Paa{\ss}}{HOTHO; N{\"U}RNBERGER;
+\abntrefinfo{Hotho, N{\"{u}}rnberger e Paa{\ss}}{HOTHO; N{\"{U}}RNBERGER;
   PAA{SS}}{2005}
-{HOTHO, A.; N{\"U}RNBERGER, A.; PAA{SS}, G. A brief survey of text mining. In:
-  \emph{Ldv Forum}. [S.l.: s.n.], 2005. v.~20, n.~1, p. 19--62.}
+{HOTHO, A.; N{\"{U}}RNBERGER, A.; PAA{SS}, G. {A brief survey of text mining.}
+  In:  \emph{Ldv Forum}. [S.l.: s.n.], 2005. v.~20, n.~1, p. 19--62.}
 
 \bibitem{stone1968general}
 \abntrefinfo{Stone et al.}{STONE et al.}{1968}

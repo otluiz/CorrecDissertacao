@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  19 MAR 2018 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  20 MAR 2018 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1665,27 +1665,22 @@ File: Figuras/BigData/Fayyad.png Graphic file (type png)
 
 <use Figuras/BigData/Fayyad.png>
 Package pdftex.def Info: Figuras/BigData/Fayyad.png used on input line 256.
-(pdftex.def)             Requested size: 369.89984pt x 184.94781pt.
- [27]
-
-LaTeX Warning: Citation `BigdataQualquerUm' on page 28 undefined on input line 
-275.
-
-[28 <./Figuras/BigData/Fayyad.png>]
+(pdftex.def)             Requested size: 398.34528pt x 170.72357pt.
+ [27] [28 <./Figuras/BigData/Fayyad.png>]
 <Figuras/BigData/Analise_Textos2.png, id=147, 1355.0625pt x 1032.85875pt>
 File: Figuras/BigData/Analise_Textos2.png Graphic file (type png)
 
 <use Figuras/BigData/Analise_Textos2.png>
 Package pdftex.def Info: Figuras/BigData/Analise_Textos2.png used on input line
- 320.
-(pdftex.def)             Requested size: 395.50128pt x 213.39223pt.
+ 318.
+(pdftex.def)             Requested size: 455.23587pt x 256.07068pt.
  [29] [30 <./Figuras/BigData/Analise_Textos2.png>]
 <Figuras/BigData/grafoExemplo.png, id=155, 411.2163pt x 463.2507pt>
 File: Figuras/BigData/grafoExemplo.png Graphic file (type png)
 
 <use Figuras/BigData/grafoExemplo.png>
 Package pdftex.def Info: Figuras/BigData/grafoExemplo.png used on input line 36
-5.
+8.
 (pdftex.def)             Requested size: 341.45375pt x 184.94356pt.
  [31 <./Figuras/BigData/grafoExemplo.png>] [32] [33]
 <Figuras/Twitter/contaTwitter.png, id=166, 937.5025pt x 213.79875pt>
@@ -1693,69 +1688,70 @@ File: Figuras/Twitter/contaTwitter.png Graphic file (type png)
 
 <use Figuras/Twitter/contaTwitter.png>
 Package pdftex.def Info: Figuras/Twitter/contaTwitter.png used on input line 42
-4.
+7.
 (pdftex.def)             Requested size: 497.91823pt x 199.17004pt.
 
-Overfull \hbox (42.67412pt too wide) in paragraph at lines 424--424
+Overfull \hbox (42.67412pt too wide) in paragraph at lines 427--427
  [][] 
  []
 
-<Figuras/Twitter/contaPalavras.png, id=167, 456.70625pt x 211.79124pt>
+[34 <./Figuras/Twitter/contaTwitter.png>]
+<Figuras/Twitter/contaPalavras.png, id=171, 456.70625pt x 211.79124pt>
 File: Figuras/Twitter/contaPalavras.png Graphic file (type png)
 
 <use Figuras/Twitter/contaPalavras.png>
 Package pdftex.def Info: Figuras/Twitter/contaPalavras.png used on input line 4
-36.
+39.
 (pdftex.def)             Requested size: 318.66948pt x 147.78426pt.
 
-<Figuras/Twitter/ferqPalavras.png, id=168, 679.53876pt x 422.57875pt>
+<Figuras/Twitter/ferqPalavras.png, id=172, 679.53876pt x 422.57875pt>
 File: Figuras/Twitter/ferqPalavras.png Graphic file (type png)
 
 <use Figuras/Twitter/ferqPalavras.png>
-Package pdftex.def Info: Figuras/Twitter/ferqPalavras.png used on input line 44
-7.
+Package pdftex.def Info: Figuras/Twitter/ferqPalavras.png used on input line 45
+0.
 (pdftex.def)             Requested size: 273.14923pt x 169.86029pt.
- [34 <./Figuras/Twitter/contaTwitter.png>] [35 <./Figuras/Twitter/contaPalavras
-.png> <./Figuras/Twitter/ferqPalavras.png>] <Figuras/BigData/twittePRF.png, id=
-178, 581.17125pt x 485.815pt>
+ [35 <./Figuras/Twitter/contaPalavras.png> <./Figuras/Twitter/ferqPalavras.png>
+]
+<Figuras/BigData/twittePRF.png, id=178, 581.17125pt x 485.815pt>
 File: Figuras/BigData/twittePRF.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 465.
+Package pdftex.def Info: Figuras/BigData/twittePRF.png used on input line 468.
 (pdftex.def)             Requested size: 170.71686pt x 136.5684pt.
 
 <Figuras/BigData/twittePRF2.png, id=179, 578.16pt x 497.86pt>
 File: Figuras/BigData/twittePRF2.png Graphic file (type png)
 
 <use Figuras/BigData/twittePRF2.png>
-Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 467.
+Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 470.
 
 (pdftex.def)             Requested size: 170.71451pt x 136.57387pt.
  [36 <./Figuras/BigData/twittePRF.png> <./Figuras/BigData/twittePRF2.png>] [37]
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 545.
+LaTeX Warning: Command \c invalid in math mode on input line 548.
 
 Missing character: There is no ç in font cmr12!
-
-Overfull \hbox (2.8992pt too wide) in paragraph at lines 553--554
+[38]
+Overfull \hbox (2.8992pt too wide) in paragraph at lines 556--557
 []\T1/cmr/m/n/12 Baseado no te-o-rema de Bayes, dado um con-junto de va-riá-vei
 s ale-a-tó-rias $\OML/cmm/m/it/12 ! \OT1/cmr/m/n/12 = []$
  []
 
 
-Overfull \hbox (5.02579pt too wide) in paragraph at lines 553--554
+Overfull \hbox (5.02579pt too wide) in paragraph at lines 556--557
 \T1/cmr/m/n/12 a va-riá-vel ale-a-tó-ria \T1/cmr/m/it/12 H \T1/cmr/m/n/12 (hi-p
 ó-tese) de-nota o tipo de $\OML/cmm/m/it/12 !$\T1/cmr/m/n/12 , com va-lo-res po
 s-sí-veis para $\OML/cmm/m/it/12 h[]; h\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; :::;
  h[]$\T1/cmr/m/n/12 .
  []
 
-[38] [39] <Figuras/Arvore/arvorejovem.png, id=193, 402.50375pt x 278.03876pt>
+[39] <Figuras/Arvore/arvorejovem.png, id=193, 402.50375pt x 278.03876pt>
 File: Figuras/Arvore/arvorejovem.png Graphic file (type png)
 
 <use Figuras/Arvore/arvorejovem.png>
-Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 589.
+Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 592.
 
 (pdftex.def)             Requested size: 170.71481pt x 128.03937pt.
  [40 <./Figuras/Arvore/arvorejovem.png>]
@@ -1763,33 +1759,33 @@ Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 589.
 File: Figuras/Arvore/TDIDT.png Graphic file (type png)
 
 <use Figuras/Arvore/TDIDT.png>
-Package pdftex.def Info: Figuras/Arvore/TDIDT.png used on input line 612.
+Package pdftex.def Info: Figuras/Arvore/TDIDT.png used on input line 615.
 (pdftex.def)             Requested size: 170.71767pt x 128.03777pt.
  [41 <./Figuras/Arvore/TDIDT.png>] [42] [43]
 <Figuras/Neural/Perceptron.png, id=209, 513.92pt x 229.85875pt>
 File: Figuras/Neural/Perceptron.png Graphic file (type png)
 
 <use Figuras/Neural/Perceptron.png>
-Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 705.
+Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 708.
 (pdftex.def)             Requested size: 270.30606pt x 142.27243pt.
  [44 <./Figuras/Neural/Perceptron.png>]
 [45]
-Overfull \hbox (327.20497pt too wide) detected at line 811
+Overfull \hbox (327.20497pt too wide) detected at line 814
 []
  []
 
 
-Overfull \hbox (321.51445pt too wide) detected at line 812
+Overfull \hbox (321.51445pt too wide) detected at line 815
 []
  []
 
 
-Overfull \hbox (241.84715pt too wide) detected at line 813
+Overfull \hbox (241.84715pt too wide) detected at line 816
 []
  []
 
 
-Overfull \hbox (199.16824pt too wide) detected at line 814
+Overfull \hbox (199.16824pt too wide) detected at line 817
 []
  []
 
@@ -1797,7 +1793,7 @@ Overfull \hbox (199.16824pt too wide) detected at line 814
 File: Figuras/BigData/redeneural.png Graphic file (type png)
 
 <use Figuras/BigData/redeneural.png>
-Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 825.
+Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 828.
 
 (pdftex.def)             Requested size: 241.8434pt x 108.11797pt.
  [46 <./Figuras/BigData/redeneural.png (PNG copy)>] [47] [48]) [49]
@@ -2423,20 +2419,17 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.42938pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18244 strings out of 493029
- 302179 string characters out of 6136234
- 548560 words of memory out of 5000000
- 21137 multiletter control sequences out of 15000+600000
+ 18248 strings out of 493029
+ 302242 string characters out of 6136234
+ 548610 words of memory out of 5000000
+ 21141 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,53p,1433b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,53p,1433b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-s
 uper/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
@@ -2457,7 +2450,7 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm2986.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Dissertacao.pdf (105 pages, 9005698 bytes).
+Output written on Dissertacao.pdf (105 pages, 9039929 bytes).
 PDF statistics:
  574 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

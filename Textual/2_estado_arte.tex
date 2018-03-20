@@ -253,7 +253,7 @@ O caminho desde a coleta dos dados até sua mineração e extração de conhecim
 \begin{figure}[!ht]
 	\centering
 	\caption{Fases da mineração de dados até extração do conhecimento}
-	\includegraphics[width=130mm, height=65mm]{Figuras/BigData/Fayyad.png}
+	\includegraphics[width=140mm, height=60mm]{Figuras/BigData/Fayyad.png}
 \end{figure}
 
 \pagebreak
@@ -272,7 +272,7 @@ Algumas técnicas de IA podem ser aplicadas nessa etapa como, ``Data Mininng Swa
 No balão ``Pré-Processamento'' os dados não-estruturados são tratados, por exemplo, retirando os \textit{missing data}. 
 Para estruturar as informações é preciso utilizar técnicas linguísticas, uma vez que existe lógica entre eles \cite{Aranha2006}.
 Esses dados normalmente são coletados por técnicas de Mineração de Textos, também conhecidas como Mineração de Dados em Textos, técnicas de IA como ``Machine Learning'' 
-têm sido muito utlizadas. Em ``Transformação'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive \cite{DecisionTree} \cite{BigdataQualquerUm}. \footnote{O Hive é um tipo de Datawarehouse que armazena dados não estruturados, outros exemplos semenhantes muito utilizados para armazenar dados provenientes do \textit{Big Data} são HBase, Pig}. 
+têm sido muito utlizadas. Em ``Transformação'' os dados foram em estruturados, podendo ser armazenados em Bancos de Dados, conhecidos como Datawarehouse, por exemplo o Hive \cite{NoSQL2015}. \footnote{Hive é um de Datawarehouse que armazena dados não estruturados: \textit{Not Only SQL ou também Not structured SQL} NoSQL. Ferramentas NoSQL servem para trabalhar com o \textit{Big Data}, outros exemplos: HBase, MongoDB e Pig}.
 
 O processo de Mineração dos dados começa no balão ``Mineração de Dados'', onde são aplicadas as técnicas de IA conhecidas como classificadores, para extração de padrões, tais como: 
 ``Decision Tree'' (Árvore de decisão), ``Artificial Neural Network'' (Redes neurais artificiais), ``Logistic Regression'' (Regressão Logística), ``Naïve Bayes'' e ``Deep Learning'', detre outros.
@@ -290,17 +290,17 @@ O KDD utiliza métodos de Aprendizagem de Máquina para efetuar essa extração.
 %\pagebreak
 
 
-\section{Mineração de Textos} %\label{arte:palavraChave:DataMiningBigData}
+\section{Mineração em Dados Textuais} %\label{arte:palavraChave:DataMiningBigData}
 
-A mineração em textos, tal como acontece com a mineração de dados vai buscar os dados em arquivos digitalizados, contudo esses arquivos são transformados em documentos antes de serem analisados pelos algoritmos de IA.
+A mineração em dodos textuais ou Mineração em Textos, tal como acontece com a mineração de dados vai buscar os dados em arquivos tipo textos digitalizados, contudo esses arquivos são transformados em documentos antes de serem analisados pelos algoritmos de IA.
 
-De acordo com Hotho, Nürnberger e Paass  \cite{hotho2005brief} a expressão \textit{Data Mining} ou descoberta de conhecimento em textos foi referenda em 1995. Entretanto o interesse por extrair conhecimento oriundo de textos remonta à década de 60' \cite{stone1968general}. Hotho, Nürnberger e Paass  \cite{hotho2005brief} discutem, ainda, que é frequente a confusão de termos. Esses mesmos autores \cite{hotho2005brief} na tentativa de definir \textit{Text Mining} afirmam que é preciso considerar a perspectiva específica da área, definindo três possibilidades:
+De acordo com Hotho, Nürnberger e Paass  \cite{hotho2005brief} a expressão \textit{Text Mining} ou descoberta de conhecimento em textos foi referendada em 1995. Entretanto o interesse por extrair conhecimento oriundo de textos remonta à década de 60' \cite{stone1968general}. Hotho, Nürnberger e Paass  \cite{hotho2005brief} discutem, ainda, que é frequente a confusão de termos. Esses mesmos autores \cite{hotho2005brief} na tentativa de definir \textit{Text Mining} afirmam que é preciso considerar a perspectiva específica da área, definindo três possibilidades:
 
-\begin{itemize}
-	\item A primeira perspectiva sugere que \textit{Text Mining} corresponde à extração de fatos do texto, ou seja, extração de informação;
-	\item Uma segunda abordagem assume que mineração em texto se configura como a aplicação de algorítimos e métodos do campo de \textit{Machine Learning}, cujo objetivo seria encontrar padrões usuais;
-	\item A terceira e última perspectiva prevê que a mineração em textos segue o modelo de processo de descoberta de conhecimento. É frequente na literatura a cerca da mineração em texto entendê-la como uma séria de passos para extração de informação bem como o uso de mineração de dados ou processos estatísticos.
-\end{itemize}
+\begin{enumerate}
+	\item A perspectiva sugere que \textit{Text Mining} corresponde à extração de fatos do texto, ou seja, extração de informação;
+	\item A abordagem assume que mineração em texto se configura como a aplicação de algorítimos e métodos do campo de \textit{Machine Learning}, cujo objetivo seria encontrar padrões usuais;
+	\item A perspectiva prevê que a mineração em textos segue o modelo de processo de descoberta de conhecimento. É frequente na literatura, a cerca da mineração em texto, entendê-la como uma séria de passos para extração de informação bem como o uso de mineração de dados ou processos estatísticos.
+\end{enumerate}
 
 Embora as pesquisas no campo da mineração em textos sejam relativamente recentes, os estudos envolvendo Processamento de Linguagem Natural (Natural Language Processing -- NLP) datam da década de 40' \cite{liddy2001natural}. 
 
@@ -308,36 +308,39 @@ As primeiras aplicações computacionais relacionadas à linguagem natural apare
 
 Ainda segundo Liddy \cite{liddy2001natural} outro importante avanço é identificado no final da década de 50' quando Noam Chomsky introduziu a ideia de Gramática Gerativa. Neste mesmo período começaram a surgir pesquisas no campo do reconhecimento da fala. 
 
-Desde então, essa área de conhecimento tem experimentado grandes avanços, particularmente, nos tempos atuais, com a Mineração em Textos em Redes Sociais.
+Desde então, essa área de conhecimento tem experimentado grandes avanços, particularmente, nos tempos atuais, com a Mineração em Textos nas Redes Sociais.
 
-Minerar dados em texto é um processo que deve ser divido em várias etapas \cite{Lima2012}. Minerar em redes sociais exige ao menos mais uma etapa: a escolha de uma rede social, cada uma delas com sua tecnologia própria.
-
-A Mineração em textos é inspirada em técnicas de \textit{Machine Learning} \cite{Aranha2006}. Todavia, analisar textos é basicamente entender o seu significado, baseado em regras de associação lógica. O mapa mental a seguir mostra um modelo de análise de texto feito por seres humanos.
+A Mineração em textos é inspirada em técnicas de \textit{Machine Learning} \cite{Aranha2006}. Todavia, analisar textos é basicamente entender o seu significado, baseado em regras de associação lógica. O mapa mental na Figura 2.10 mostra um modelo de análise de texto feito por seres humanos.
 
 \begin{figure}[htpb]
 	\centering
 	\caption{Mapa mental da Mineração em textos}
-	\includegraphics[width=139mm, height=75mm]{Figuras/BigData/Analise_Textos2.png}
+	\includegraphics[width=160mm, height=90mm]{Figuras/BigData/Analise_Textos2.png}\\
 	\tiny Fonte: o autor
 \end{figure}
 
 
-\subsection{Mineração de Dados/Textos em Redes sociais}
+Minerar dados em texto é um processo que deve ser divido em várias etapas \cite{Lima2012}. Minerar em redes sociais exige ao menos mais uma etapa: a escolha de uma rede social, cada uma delas com sua tecnologia própria.
 
-\subsubsection{Introdução ao estudo das Redes Sociais}
+\subsection{Mineração em Textos nas Redes sociais}
 
-As redes sociais têm assumido, nos dias atuais, um papel essencial na vida de seus usuários. Não apenas como espaço de descontração, mas, sobretudo, como lugar de troca de informações que permitam, dentre outras coisas, tomar conhecimento acerca dos acontecimentos, sejam eles locais ou globais, que influenciarão sua vida. De modo particular, nos grandes centros urbanos, as redes sociais têm servido de fonte de conhecimento acerca de segurança pública, mobilidade urbana e acontecimentos de toda sorte, que possam fazer com que, por exemplo, uma pessoa resolva seguir um ou outro caminho para chegar a um determinado lugar, quer seja ele próximo ou distante de onde se encontre.
+%\subsubsection{Introdução ao estudo das Redes Sociais}
+
+As redes sociais têm assumido, nos dias atuais, um papel essencial na vida de seus usuários. Não apenas como espaço de descontração, mas, sobretudo, como lugar de troca de informações que permitam, dentre outras coisas, tomar conhecimento acerca dos acontecimentos, sejam eles locais ou globais, que influenciarão sua vida. De modo particular, nos grandes centros urbanos, as redes sociais têm servido de fonte de conhecimento acerca de segurança pública, mobilidade urbana e acontecimentos de toda sorte, que possam fazer com que, por exemplo, uma pessoa resolva seguir um ou outro caminho para chegar a um determinado lugar, quer seja ele próximo ou distante de onde se encontre \cite{sarker2015utilizing} \cite{madden2013teens} \cite{naaman2010really}.
 
 Além da troca de informações momentâneas, as redes sociais permitem uma atualização praticamente em tempo real, a partir da utilização de seus usuários e de instituições que também dela fazem uso (por exemplo, a Polícia Rodoviária Federal), de modo que possibilita que decisões sejam tomadas e reorientadas, em virtude da alimentação das informações nas redes.
 
-No que diz respeito às escolhas relacionadas ao trânsito, sejam relativas as áreas urbanas, bem como a centenas de quilômetros adiante, pelo interior de um estado, cada vez mais as pessoas não tomam qualquer decisão sem antes consultar aplicativos e redes sociais tais como o waze, twitter, facebook, ou até mesmo dispõem, em seus aparelhos celulares, de GPS, Google Maps e outras fontes que lhe orientem sobre melhores rotas, que levem com maior rapidez e segurança ao seu destino.
+No que diz respeito às escolhas relacionadas ao trânsito, sejam relativas as áreas urbanas, bem como a centenas de quilômetros adiante, pelo interior de um estado, cada vez mais as pessoas não tomam decisão sem antes consultar aplicativos e redes sociais tais como o waze, twitter, facebook, etc.
 
-Se pensarmos no transporte de cargas, a principal função das redes sociais não é de caráter lúdico, mas, sim, como uma ferramenta essencial para que não haja qualquer contratempo que possa causar prejuízo à empresa ou empresas envolvidas. Afinal de contas, no que tange ao transporte de mercadorias, sempre há pelo menos duas empresa relacionadas: a de produção do bem e a de transporte do mesmo ao seu destino.
+Aplicativos para celulres até dispõem de GPS, Google Maps e outras fontes que lhe orientem sobre melhores rotas, que levem com maior rapidez e segurança ao seu destino.
+
+Se pensarmos no transporte de cargas, a principal função das redes sociais não é de caráter lúdico, mas, sim, como uma ferramenta essencial para que não haja qualquer contratempo que possa causar prejuízo à empresa ou empresas envolvidas. 
+Afinal de contas, no que tange ao transporte de mercadorias, sempre há pelo menos duas empresa relacionadas: a de produção do bem e a de transporte do mesmo ao seu destino.
 
 O que discutimos até agora é amplamente sabido por aqueles que analisam o uso das redes sociais na atualidade. O que pretendemos, então, é trazer uma contribuição de natureza científica a essa compreensão e à utilização de forma cada vez mais eficaz dessas ferramentas, a partir do uso da IA, da mineração de dados e dos métodos de extração e produção de conhecimentos (KDD).
 
 
-A tabela 2.2 demonstra o volume de dados e informações produzidas no mundo entre 2000 à 2020. "Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
+O crescimento dos dados eletrônicos, nos últimos anos, até 2020, pode ser acompanhado na tabela 2.2. Esta demonstra o volume de dados e informações produzidas no mundo entre 2000 à 2020. "Em 2010 empresas e usuários armazenaram mais de 13 exabytes de novos dados" \cite{bigdataQualquerUm}.
 
 %tabela 5
 \begin{table}[!ht]

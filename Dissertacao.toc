@@ -12,10 +12,9 @@
 \contentsline {subsection}{\numberline {2.2.1}Contexto de aplica\IeC {\c c}\IeC {\~a}o do CRISP -- DM}{19}
 \contentsline {subsection}{\numberline {2.2.2}Ciclo de vida do CRISP--DM}{20}
 \contentsline {section}{\numberline {2.3}Minera\IeC {\c c}\IeC {\~a}o de dados}{27}
-\contentsline {section}{\numberline {2.4}Minera\IeC {\c c}\IeC {\~a}o de Textos}{29}
-\contentsline {subsection}{\numberline {2.4.1}Minera\IeC {\c c}\IeC {\~a}o de Dados/Textos em Redes sociais}{30}
-\contentsline {subsubsection}{Introdu\IeC {\c c}\IeC {\~a}o ao estudo das Redes Sociais}{30}
-\contentsline {subsubsection}{O Twitter}{31}
+\contentsline {section}{\numberline {2.4}Minera\IeC {\c c}\IeC {\~a}o em Dados Textuais}{29}
+\contentsline {subsection}{\numberline {2.4.1}Minera\IeC {\c c}\IeC {\~a}o em Textos nas Redes sociais}{30}
+\contentsline {subsubsection}{O Twitter}{32}
 \contentsline {subsubsection}{Modalidades e ferramentas de an\IeC {\'a}lise do Twitter}{33}
 \contentsline {section}{\numberline {2.5}Aprendizagem de M\IeC {\'a}quina}{37}
 \contentsline {subsection}{\numberline {2.5.1}Tipos de Aprendizagem}{37}
@@ -24,7 +23,7 @@
 \contentsline {subsubsection}{\IeC {\'A}rvores de Decis\IeC {\~a}o}{39}
 \contentsline {subsubsection}{Redes Neurais}{43}
 \contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~o}es e aprendizado em Redes Neurais Artificiais}{43}
-\contentsline {section}{\numberline {2.6}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{44}
+\contentsline {section}{\numberline {2.6}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{45}
 \contentsline {subsection}{\numberline {2.6.1}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{45}
 \contentsline {subsection}{\numberline {2.6.2}Pesquisas envolvendo intelig\IeC {\^e}ncia artificial e tr\IeC {\'a}fego em rodovias}{46}
 \contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{50}
