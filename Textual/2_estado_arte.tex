@@ -520,15 +520,21 @@ predições \cite{DataMining2}. A seção seguinte analisa as tarefas preditivas
 
 \subsection{Algoritmos de Aprendizagem de Máquina}
 
-\textbf{Introdução}
+\vspace{5mm}
+
+Os algoritmos de Aprendizagem de Máquina selecionados para esta pesquisa contemplaram robutez, devido a grande quantidade de dados (cerca de 55 000 registros) a qualidade no tratamentos desses dados como e tolerância a falhas.
+%\textbf{Introdução}
 
 
-Dentre os algoritmos de machine learning que destacaremos nessa dissertação está o Naïve Bayes. 
-Essa classe de algoritmos é baseado no teorema da probabilidade condicional de Bayes \cite{montgomery2000estatistica}, serve 
-para rotular classes de variáveis independentes. O classificador Naïve Bayes é um modelo probabilístico relativamente simples, todavia, muito potente. Produz estimativas de probabilidade, em vez predições.
-
+%
 \subsubsection{Naïve Bayes}
 \vspace{5mm}
+
+
+Dentre os algoritmos de machine learning que destamos nessa dissertação está o Naïve Bayes. 
+Essa classe de algoritmos é baseado no teorema da probabilidade condicional de Bayes \cite{montgomery2000estatistica}, que serve 
+para rotular classes de variáveis independentes. O classificador Naïve Bayes é um modelo probabilístico relativamente simples, todavia, muito potente. Produz estimativas de probabilidade, em vez predições.
+
 
 Um classificador Naïve Bayes produz probabilidade como output \cite{policarpo2015semantic}. A probabilidade que é produzida pode ser utilizada para distinguir a que grupo classificado, uma amostra não classificada pertence, por exemplo, dependendo da da mais alta probabilidade obtida entre um grupo de probabilidades.
 
@@ -565,7 +571,7 @@ Um aspecto relevante e positivo que deve ser mencionado acerca do classificador 
 
 \subsubsection{Árvores de Decisão}
 
-\textbf{Introdução}
+%\textbf{Introdução}
 \vspace{5mm}
 
 No âmbito da inteligência artificial, quando se trata de algoritmos de aprendizagem, uma classe de algoritmos que tem se revelado potente para problemas das mais diversas naturezas é a árvore de decisão. Além do universo das pesquisas no campo da informática engenharia e ciências da computação, as árvores de decisão têm sido utilizadas, sobremaneira, em pesquisas relacionadas à Medicina, à Economia, nos mais diversos sistemas de suporte à decisão, como diagnósticos de doenças, investigação de fraudes, dentre outros \cite{Camilo}.
@@ -729,7 +735,7 @@ necessidades da rede.
 
 %\pagebreak
 
-\section{Medida de desempenho e qualidade aplicadas à mineração}
+\section{Métricas aplicadas à mineração}
 
 Quando são desenvolvidos sistemas de predição e análise de diagnóstico, avalia-se o desempenho e a qualidade dos resultados encontrados.
 Um método gráfico eficiente para detecção e avaliação da qualidade de sinais, conhecido como \textit{Receiver Operating Characteristic} -- ROC, ou curva ROC \cite{ROC},
@@ -791,7 +797,9 @@ Então, a taxa de verdadeiros positivos será $P(Y|X)$ e a probabilidade de fals
 A curva ROC será construída cruzando-se a taxa dos verdadeiros positivos (tpr = P(Y|X)) com a taxa dos falsos positivos (fpr = P(Y,$\bar{X}$)).
 
 
-\subsection{Classificação e Regressão para análise preditivas}
+\pagebreak
+
+\subsection{Classificação para análise preditiva}
 
 Classificação é um processo para encontrar um modelo que descreve e distingue classes de dados. 
 Esse modelo tem como base de análise um conjunto de treinamento (i.e. objetos de dados para os quais 
@@ -801,8 +809,8 @@ Esse modelo é usado para predizer quais rótulos de classes terão os objetos d
 O modelo pode ser representado por regras de classificação do tipo ``IF - THEN'', por árvores de decisão, redes neurais e outros. 
 Regras de classificação se distinguem de regras de indução da seguinte forma:
 \begin{itemize}
-	\item Uma regra de classificação poderia ser: $if$ L $them$ class = $C_{1}$ ou $if$ L $them$  $C_{1}$
-	\item Uma regra de indução seria: $ if$ L $them$ R que por sua vez produz novas regras 
+	\item Uma regra de classificação poderia ser: $if$ L $then$ class = $C_{1}$ ou $if$ L $then$  $C_{1}$
+	\item Uma regra de indução seria: $ if$ L $then$ R que por sua vez produz novas regras 
 \end{itemize}
 
 %\singlespace
@@ -821,7 +829,7 @@ Regras de classificação se distinguem de regras de indução da seguinte forma
 
 \vspace{3cm} 
 
-A Figura 2.25 representa uma rede neural com as mesmas características da árvore de decisão anterior:
+A Figura 2.18 representa uma rede neural com as mesmas características da árvore de decisão anterior:
 \begin{figure}[!ht]
 	\centering
 	\caption{Rede Neural}
@@ -842,7 +850,7 @@ como uma função linear, com um número muito menor de parâmetros.} o ``overfi
 
 \subsection{Pesquisas envolvendo inteligência artificial e tráfego em rodovias}
 
-Nessa sessão apresentaremos algumas pesquisas realizadas no Brasil e em outras partes do mundo, que contemplam elementos de interesse para nossa pesquisa: tráfego em rodovias e o uso de técnicas de inteligência artificial, como árvores de decisão e redes neurais, dentre outras.
+Nesta sessão apresentaremos algumas pesquisas realizadas no Brasil e em outras partes do mundo, que contemplam elementos de interesse para nossa pesquisa: tráfego em rodovias e o uso de técnicas de inteligência artificial, como árvores de decisão e redes neurais, dentre outras.
 
 Para tal, tomamos como referência a última década de produção, priorizando artigos a partir de 2010, embora tenham sido identificadas pesquisas desde meados dos anos 90, já contemplando tráfego urbano ou em rodovias e inteligência artificial.
 

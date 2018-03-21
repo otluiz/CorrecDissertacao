@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  20 MAR 2018 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  21 MAR 2018 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,11 +1400,11 @@ LaTeX Info: Redefining \selectfont on input line 8.
 
  (./Pre-textual/Capa.tex
 Package epstopdf Info: Source file: <Figuras/Capa/upelogo.eps>
-(epstopdf)                    date: 2017-09-14 18:04:52
+(epstopdf)                    date: 2018-03-21 00:05:17
 (epstopdf)                    size: 45051 bytes
 (epstopdf)             Output file: <Figuras/Capa/upelogo-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-09-14 18:04:52
+(epstopdf)                    date: 2018-03-21 00:05:17
 (epstopdf)                    size: 13855 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figuras/Capa/upelogo-eps-c
 onverted-to.pdf Figuras/Capa/upelogo.eps>
@@ -1463,11 +1463,11 @@ Non-PDF special ignored!
 
 (./Pre-textual/FolhaRosto.tex
 Package epstopdf Info: Source file: <Figuras/Capa/brasao_upe.eps>
-(epstopdf)                    date: 2017-09-14 18:04:52
+(epstopdf)                    date: 2018-03-21 00:05:17
 (epstopdf)                    size: 197068 bytes
 (epstopdf)             Output file: <Figuras/Capa/brasao_upe-eps-converted-to.p
 df>
-(epstopdf)                    date: 2017-09-14 18:04:52
+(epstopdf)                    date: 2018-03-21 00:05:17
 (epstopdf)                    size: 53968 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figuras/Capa/brasao_upe-ep
 s-converted-to.pdf Figuras/Capa/brasao_upe.eps>
@@ -1730,17 +1730,17 @@ Package pdftex.def Info: Figuras/BigData/twittePRF2.png used on input line 470.
  [36 <./Figuras/BigData/twittePRF.png> <./Figuras/BigData/twittePRF2.png>] [37]
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 548.
+LaTeX Warning: Command \c invalid in math mode on input line 554.
 
 Missing character: There is no ç in font cmr12!
 [38]
-Overfull \hbox (2.8992pt too wide) in paragraph at lines 556--557
+Overfull \hbox (2.8992pt too wide) in paragraph at lines 562--563
 []\T1/cmr/m/n/12 Baseado no te-o-rema de Bayes, dado um con-junto de va-riá-vei
 s ale-a-tó-rias $\OML/cmm/m/it/12 ! \OT1/cmr/m/n/12 = []$
  []
 
 
-Overfull \hbox (5.02579pt too wide) in paragraph at lines 556--557
+Overfull \hbox (5.02579pt too wide) in paragraph at lines 562--563
 \T1/cmr/m/n/12 a va-riá-vel ale-a-tó-ria \T1/cmr/m/it/12 H \T1/cmr/m/n/12 (hi-p
 ó-tese) de-nota o tipo de $\OML/cmm/m/it/12 !$\T1/cmr/m/n/12 , com va-lo-res po
 s-sí-veis para $\OML/cmm/m/it/12 h[]; h\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; :::;
@@ -1751,7 +1751,7 @@ s-sí-veis para $\OML/cmm/m/it/12 h[]; h\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; :::;
 File: Figuras/Arvore/arvorejovem.png Graphic file (type png)
 
 <use Figuras/Arvore/arvorejovem.png>
-Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 592.
+Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 598.
 
 (pdftex.def)             Requested size: 170.71481pt x 128.03937pt.
  [40 <./Figuras/Arvore/arvorejovem.png>]
@@ -1759,33 +1759,33 @@ Package pdftex.def Info: Figuras/Arvore/arvorejovem.png used on input line 592.
 File: Figuras/Arvore/TDIDT.png Graphic file (type png)
 
 <use Figuras/Arvore/TDIDT.png>
-Package pdftex.def Info: Figuras/Arvore/TDIDT.png used on input line 615.
+Package pdftex.def Info: Figuras/Arvore/TDIDT.png used on input line 621.
 (pdftex.def)             Requested size: 170.71767pt x 128.03777pt.
  [41 <./Figuras/Arvore/TDIDT.png>] [42] [43]
 <Figuras/Neural/Perceptron.png, id=209, 513.92pt x 229.85875pt>
 File: Figuras/Neural/Perceptron.png Graphic file (type png)
 
 <use Figuras/Neural/Perceptron.png>
-Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 708.
+Package pdftex.def Info: Figuras/Neural/Perceptron.png used on input line 714.
 (pdftex.def)             Requested size: 270.30606pt x 142.27243pt.
  [44 <./Figuras/Neural/Perceptron.png>]
 [45]
-Overfull \hbox (327.20497pt too wide) detected at line 814
+Overfull \hbox (327.20497pt too wide) detected at line 822
 []
  []
 
 
-Overfull \hbox (321.51445pt too wide) detected at line 815
+Overfull \hbox (321.51445pt too wide) detected at line 823
 []
  []
 
 
-Overfull \hbox (241.84715pt too wide) detected at line 816
+Overfull \hbox (241.84715pt too wide) detected at line 824
 []
  []
 
 
-Overfull \hbox (199.16824pt too wide) detected at line 817
+Overfull \hbox (199.16824pt too wide) detected at line 825
 []
  []
 
@@ -1793,7 +1793,7 @@ Overfull \hbox (199.16824pt too wide) detected at line 817
 File: Figuras/BigData/redeneural.png Graphic file (type png)
 
 <use Figuras/BigData/redeneural.png>
-Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 828.
+Package pdftex.def Info: Figuras/BigData/redeneural.png used on input line 836.
 
 (pdftex.def)             Requested size: 241.8434pt x 108.11797pt.
  [46 <./Figuras/BigData/redeneural.png (PNG copy)>] [47] [48]) [49]
@@ -2425,7 +2425,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  18248 strings out of 493029
  302242 string characters out of 6136234
- 548610 words of memory out of 5000000
+ 548608 words of memory out of 5000000
  21141 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2450,7 +2450,7 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm2986.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Dissertacao.pdf (105 pages, 9039929 bytes).
+Output written on Dissertacao.pdf (105 pages, 9039979 bytes).
 PDF statistics:
  574 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

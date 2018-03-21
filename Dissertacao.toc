@@ -23,9 +23,9 @@
 \contentsline {subsubsection}{\IeC {\'A}rvores de Decis\IeC {\~a}o}{39}
 \contentsline {subsubsection}{Redes Neurais}{43}
 \contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~o}es e aprendizado em Redes Neurais Artificiais}{43}
-\contentsline {section}{\numberline {2.6}Medida de desempenho e qualidade aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{45}
-\contentsline {subsection}{\numberline {2.6.1}Classifica\IeC {\c c}\IeC {\~a}o e Regress\IeC {\~a}o para an\IeC {\'a}lise preditivas}{45}
-\contentsline {subsection}{\numberline {2.6.2}Pesquisas envolvendo intelig\IeC {\^e}ncia artificial e tr\IeC {\'a}fego em rodovias}{46}
+\contentsline {section}{\numberline {2.6}M\IeC {\'e}tricas aplicadas \IeC {\`a} minera\IeC {\c c}\IeC {\~a}o}{45}
+\contentsline {subsection}{\numberline {2.6.1}Classifica\IeC {\c c}\IeC {\~a}o para an\IeC {\'a}lise preditiva}{46}
+\contentsline {subsection}{\numberline {2.6.2}Pesquisas envolvendo intelig\IeC {\^e}ncia artificial e tr\IeC {\'a}fego em rodovias}{47}
 \contentsline {chapter}{\numberline {3}Contribui\IeC {\c c}\IeC {\~a}o}{50}
 \contentsline {section}{\numberline {3.1}Modelo Proposto}{51}
 \contentsline {section}{\numberline {3.2}Reflex\IeC {\~a}o sobre as tecnologias utilizadas no modelo preditivo}{52}

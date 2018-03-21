@@ -202,6 +202,23 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 \emph{Proceedings of the 2012 4th International Conference on Computational
   Aspects of Social Networks, CASoN 2012}, n. March 2017, p. 52--57, 2012.}
 
+\bibitem{sarker2015utilizing}
+\abntrefinfo{Sarker et al.}{SARKER et al.}{2015}
+{SARKER, A. et al. Utilizing social media data for pharmacovigilance: A review.
+\emph{Journal of biomedical informatics}, Elsevier, v.~54, p. 202--212, 2015.}
+
+\bibitem{madden2013teens}
+\abntrefinfo{Madden et al.}{MADDEN et al.}{2013}
+{MADDEN, M. et al. Teens, social media, and privacy.
+\emph{Pew Research Center}, v.~21, p. 2--86, 2013.}
+
+\bibitem{naaman2010really}
+\abntrefinfo{Naaman, Boase e Lai}{NAAMAN; BOASE; LAI}{2010}
+{NAAMAN, M.; BOASE, J.; LAI, C.-H. Is it really about me?: message content in
+  social awareness streams. In:  ACM. \emph{Proceedings of the 2010 ACM
+  conference on Computer supported cooperative work}. [S.l.], 2010. p.
+  189--192.}
+
 \bibitem{ICWSM09154}
 \abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
 {BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
@@ -239,11 +256,6 @@ Dispon{\'\i}vel em:
   \emph{Computer Science for Environmental Engineering and EcoInformatics}.
   [S.l.]: Springer, 2011. p. 200--205.}
 
-\bibitem{sarker2015utilizing}
-\abntrefinfo{Sarker et al.}{SARKER et al.}{2015}
-{SARKER, A. et al. Utilizing social media data for pharmacovigilance: A review.
-\emph{Journal of biomedical informatics}, Elsevier, v.~54, p. 202--212, 2015.}
-
 \bibitem{pak2010twitter}
 \abntrefinfo{Pak e Paroubek}{PAK; PAROUBEK}{2010}
 {PAK, A.; PAROUBEK, P. Twitter as a corpus for sentiment analysis and opinion
@@ -255,22 +267,10 @@ Dispon{\'\i}vel em:
 \emph{IJCSI International Journal of Computer Science Issues}, Citeseer, v.~9,
   n.~3, p. 372--378, 2012.}
 
-\bibitem{madden2013teens}
-\abntrefinfo{Madden et al.}{MADDEN et al.}{2013}
-{MADDEN, M. et al. Teens, social media, and privacy.
-\emph{Pew Research Center}, v.~21, p. 2--86, 2013.}
-
 \bibitem{mitchell2013news}
 \abntrefinfo{Mitchell, Holcomb e Page}{MITCHELL; HOLCOMB; PAGE}{2013}
 {MITCHELL, A.; HOLCOMB, J.; PAGE, D. News use across social media platforms.
 \emph{Washingtown, Pew Research Center}, 2013.}
-
-\bibitem{naaman2010really}
-\abntrefinfo{Naaman, Boase e Lai}{NAAMAN; BOASE; LAI}{2010}
-{NAAMAN, M.; BOASE, J.; LAI, C.-H. Is it really about me?: message content in
-  social awareness streams. In:  ACM. \emph{Proceedings of the 2010 ACM
-  conference on Computer supported cooperative work}. [S.l.], 2010. p.
-  189--192.}
 
 \bibitem{brin1998anatomy}
 \abntrefinfo{Brin e Page}{BRIN; PAGE}{1998}
