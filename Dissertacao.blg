@@ -57,7 +57,7 @@ Warning--entry type for "Decision2014" isn't style-file defined
 --line 721 of file Bibliografia/Bibliografia.bib
 I was expecting an "="---line 1142 of file Bibliografia/Bibliografia.bib
  :   
- :     title={An artificial intelligent approach to traffic accident estimation: model development and application},
+ :     title={{An artificial intelligent approach to traffic accident estimation: model development and application}},
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -124,7 +124,7 @@ Warning--campo title vazio em akgungor2009artificial
 +---------------------------------------------------------+
 You've used 91 entries,
             6480 wiz_defined-function locations,
-            1704 strings with 25666 characters,
+            1704 strings with 25659 characters,
 and the built_in function-call counts, 65721 in all, are:
 = -- 4868
 > -- 2168
