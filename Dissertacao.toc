@@ -38,8 +38,8 @@
 \contentsline {subsection}{\numberline {4.2.1}Aplica\IeC {\c c}\IeC {\~a}o do CRISP-DM}{62}
 \contentsline {subsubsection}{Fases da Minera\IeC {\c c}\IeC {\~a}o ao KDD}{62}
 \contentsline {subsection}{\numberline {4.2.2}Dados encontrados antes da Minera\IeC {\c c}\IeC {\~a}o}{63}
-\contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{75}
-\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{75}
+\contentsline {subsection}{\numberline {4.2.3}Dados encontrados ap\IeC {\'o}s a Minera\IeC {\c c}\IeC {\~a}o}{76}
+\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'e}trica dos classificadores}{76}
 \contentsline {subsection}{\numberline {4.2.5}Resultado dos outros classificadores utilizados nesta pesquisa}{85}
 \contentsline {section}{\numberline {4.3}Acoplamento com a estrutura din\IeC {\^a}mica}{88}
 \contentsline {subsection}{\numberline {4.3.1}Minera\IeC {\c c}\IeC {\~a}o em texto no Twitter}{89}

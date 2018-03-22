@@ -1,15 +1,15 @@
 \chapter{Contribuição}\label{meto}
 
-A contribuição dessa pesquisa é de cunho metodológico-prático.
+A contribuição desta pesquisa é de cunho metodológico-prático.
 Do ponto de vista metodológico, pela aplicação do processo CRISP-DM, usado para construir o modelo preditivo e classificativo, em termos práticos pela integração entre mineração de dados históricos e mineração em textos; pela utilização de algoritmos de classificação e de predição. 
 
 No que diz respeito à mineração de dados, as técnicas de classificação utilizadas foram Árvores de Decisão e Naïve Bayes. Quanto às técnicas de predição, utilizou-se Redes Neurais (regressão logística, como caso particular). Para mineração de textos foi utilizado o Text frequency - Inverse Document Frequency (TF-IDF).
 
 Ainda do ponto de vista prático, propomos um modelo que integre predição à API de mapas de posicionamento global, fornecendo informação suficiente para um utilizador tomar uma decisão acerca dos dias e horários que ofereçam menor risco de acidentes ou qualquer evento que implique na retenção do fluxo de veículos. 
 
-As soluções disponíveis que existem, tais como; Google Maps, Waze e outras ferramentas dessa natureza somente exibem, informações momentâneas, produzidas e compartilhadas pelos utilizadores dos aplicativos, ou por informações provindas de GPS. Contudo, não analisam dados históricos dessas rodovias, nem fazem predições sobre o seu comportamento.
+As soluções disponíveis que existem (tais como Google Maps, Waze e outras ferramentas dessa natureza) somente exibem, informações momentâneas, produzidas e compartilhadas pelos utilizadores dos aplicativos, ou por informações provindas de GPS. Contudo, não analisam dados históricos dessas rodovias, nem fazem predições sobre o seu comportamento.
 
-Outra contribuição dessa pesquisa é a proposição de um arco cibernético construído com a API de redes sociais.
+Outra contribuição desta pesquisa é a proposição de um arco cibernético construído com a API de redes sociais.
 Os ``feeds'' de notícias das redes sociais como o Twitter permitem analisar o contexto das rodovias com defasagem temporal muito pequena.
 Os utilizadores dessas redes sociais contribuem com informações relevantes como, por exemplo, o anúncio de uma paralisação que ocorrerá 
 daqui a alguns dias. A PRF de Pernambuco é outro contribuidor permanente. Com seu canal no Twitter: @PRF191PE, fornece diariamente informação das rodovias, 
@@ -28,39 +28,40 @@ A técnica utilizada para análise dos textos foi a análise de palavras ou term
 
 \section{Modelo Proposto}
 
-A metodologia utilizada nessa pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes.
-A primeira etapa da nossa metodologia contempla todas as fases do CRISP-DM, onde está o modelo classificativo, o preditivo e 
+A metodologia utilizada nesta pesquisa contempla um plano em três etapas, cada uma dividida em fases atinentes (ver Figura 3.1): Etapa 1 -- Dados Oficiais; Etapa 2 -- Redes Sociais e Etapa 3 -- Extrapolação.
+
+Figura 3.1, ilustra essa metodologia.
+
+\begin{figure}[ht]
+	\centering
+	\caption{Etapas da modelo proposto}
+	\includegraphics[width=135mm, height=75	mm]{Figuras/Metodologia/metodologiaGeral3.png}\\
+	\tiny Fonte: autor
+\end{figure}
+
+A Etapa 1 da nossa metodologia contempla todas as fases do CRISP-DM, onde está o modelo classificativo, o preditivo e 
 a descoberta de conhecimento sobre o comportamento das rodovias estudadas. A descoberta de conhecimento sobre esse comportamento 
  tem a ver com o ``modus operandi'' dos seus utilizadores. A priori, especulou-se sobre possíveis erros de traçados e outros que pudessem
 ser identificados pelos algoritmos de mineração empregados no processo.
-
-Os algoritmos escolhidos contemplaram algumas características especiais, tais como, robustez, tolerância à faltas de daddos (missing data), aprendizagem e facilidade de interpretação dos dados processados. 
+Os algoritmos escolhidos contemplaram algumas características especiais, tais como, robustez, tolerância à faltas de dados (missing data), aprendizagem e facilidade de interpretação dos dados processados. 
 
 No quesito tolerância à faltas e facilidade de interpretação dos dados, a Árvore de Decisão e o Naïve Bayes se destacaram por não necessitar de qualquer requisito extra interpretar os resultados.
 
 No quesito robustez, tolerância à faltas e capacidade de aprendizagem relativamente alta, as redes neurais artificiais (RNA), com a topologia Perceptron multicamadas com retroalimentação ``backpropagation'', se destacaram por terem adequada capacidade de generalização e especificidade em modelos de predição. 
 
-A extrapolação do modelo preditivo deverá ocorrer quando este se integrar a uma estrutura dinâmica, composta pela redes sociais e mapas vetoriais, dado um espaço temporal pré-determinado por um agente: o utilizador. 
-
-Através de API's, os mapas vetoriais permitem a geolocalização dos pontos classificados ou pontos onde haverá grande número de retenções, conhecidos como gargalo.
-
-Para a integração às redes sociais, foi escolhida a API do Twitter. Esta ``interface'' é simples de ser configurada. A quantidade de informações produzidas pelos utilizadores gera poucos dados em cada postagem, mas é eficaz. O utilizador tem que ser sucinto ao publicar suas postagem em um espaço de 140 caracteres. Isso facilita a forma como os dados são extraídos pela quantidade diminuta, bem como a quantidade de conexões à Internet. Contudo, esta rede social tem uma crescente quantidade de postagens no formato imagens, dificultando a mineração em textos. Esse aspecto foi particularmente relevante para essa pesquisa, quando foi constatado que a PRF também aumentou consideravelmente o número de tweets no formato de imagem. 
+A Etapa 2 -- Redes Sociais, para a integração às redes sociais, foi escolhida a API do Twitter. Esta ``interface'' é simples de ser configurada. A quantidade de informações produzidas pelos utilizadores gera poucos dados em cada postagem, mas é eficaz. O utilizador tem que ser sucinto ao publicar suas postagem em um espaço de 140 caracteres. Isso facilita a forma como os dados são extraídos pela quantidade diminuta, bem como a quantidade de conexões à Internet. Contudo, esta rede social tem uma crescente quantidade de postagens no formato imagens, dificultando a mineração em textos. Esse aspecto foi particularmente relevante para essa pesquisa, quando foi constatado que a PRF também aumentou consideravelmente o número de tweets no formato de imagem. 
 
 A alternativa escolhida para tratar essa dificuldade foi buscar conexões dos outros utilizadores do canal da PRF, uma vez que as redes sociais, do ponto de vista tecnológico, se caracterizam como grafos e subgrafos interconectados, permitindo descobrir outras sub-redes que possivelmente conterão as informações desejadas. 
 
-A figura a seguir, Figura 3.1, ilustra essa metodologia descrita.
 
-\begin{figure}[ht]
-\centering
-\caption{Etapas da modelo proposto}
-\includegraphics[width=135mm, height=75	mm]{Figuras/Metodologia/metodologiaGeral3.png}\\
-\tiny Fonte: autor
-\end{figure}
+A Etapa 3 -- Extrapolação do modelo preditivo deverá ocorrer quando este se integrar a uma estrutura dinâmica, composta pela redes sociais e mapas vetoriais, dado um espaço temporal pré-determinado por um agente: o utilizador. 
+Através de API's, os mapas vetoriais permitem a geolocalização dos pontos classificados ou pontos onde haverá grande número de retenções, conhecidos como gargalo.
+
 
 \section{Reflexão sobre as tecnologias utilizadas no modelo preditivo}\label{result}
 
-Na fase de transformação de dados, da primeira etapa, onde são relacionadas as variáveis, o acoplamento  entre as bases heterogêneas foi conseguida utilizando regras de indução da lógica proposicional \cite{NorvigRussel2004}.
-Nesta pesquisa, bases heterogêneas foram integralizadas em um único grande conjunto de dados, o ``data set''. As variáveis desse ``data set'' foram consideradas variáveis independentes, e preservadas aquelas com maior relevância ou as que continham a maior quantidade de conhecimento embutido, descoberto pelo cálculo da entropia e correlação linear. Foram também construídas novas variáveis, nas bases onde não havia correspondência, respeitando a lógica do negócio.\\
+Na fase de transformação de dados, da primeira etapa, onde são relacionadas as variáveis, o acoplamento  entre as bases heterogêneas foi conseguido utilizando regras de indução da lógica proposicional \cite{NorvigRussel2004}.
+Nesta pesquisa, bases heterogêneas foram integralizadas em um único grande conjunto de dados, o ``data set''. As variáveis desse ``data set'' foram consideradas variáveis independentes, e foram  preservadas aquelas com maior relevância ou as que continham a maior quantidade de conhecimento embutido, descoberto pelo cálculo da entropia e correlação linear. Foram também construídas novas variáveis, nas bases onde não havia correspondência, respeitando a lógica do negócio.\\
 A tabela 3.1 descreve as variáveis transformadas na base de dados de acidentes da PRF.
 
 \begin{table}[htbp!]
@@ -75,11 +76,11 @@ A tabela 3.1 descreve as variáveis transformadas na base de dados de acidentes 
 		Causa Acidente & A possível causa do acidente: Falta de atenção, ... \\
 		Traçado Via & Tipo de traçado da via: reta, curva, cruzamento, ... \\
 		Tipo veículo & Tipo de veículo envolvido no acidente \\
-		Dia da Semana & dia em que ocorreu o acidente\\
-		Hora & que ocorreu o acidente/ocorrência no formato hh/mm/ss \\
+		Dia da Semana & Dia em que ocorreu o acidente\\
+		Hora & Horário da ocorrência do acidente, formato hh/mm \\
 		Qtd Mortos & Quantidade de mortos envolvidos \\
 		Gravidade & Quantidade de acidentes graves \\
-		Período & turno do dia em que se deu a ocorrência \\
+		Período & Turno do dia em que se deu a ocorrência \\
 	\end{tabular}
 \end{table}
  
@@ -101,6 +102,8 @@ Foram construídas matrizes dos resultados da classificação e predição, cham
 
 \pagebreak
 
+O exemplo apresentado na Figura 3.2, ocorrências na BR 101 (período 2007 à 2015), onde as linhas representam as 24 horas do dia (0-23 horas) e as colunas representam cada km da rodovia, no caso dessa matriz 214 km (ou 214 colunas - omitida as restantes), início no km-0 até o fim no km-213.
+
 \begin{figure}[!ht]
 \centering
 \caption{Matriz de Mortos 2D - BR 101, Período: 2007 à 2015}
@@ -109,7 +112,7 @@ Foram construídas matrizes dos resultados da classificação e predição, cham
 \tiny Fonte: o Autor
 \end{figure}
 
-O exemplo acima apresenta as ocorrências na BR 101 (período 2007 à 2015), onde as linhas representam as 24 horas do dia (0-23 horas) e as colunas representam cada km da rodovia, no caso dessa matriz 214 km (ou 214 colunas - omitida as restantes), início no km-0 até o fim no km-213.
+
 
 
 %\pagebreak
@@ -135,7 +138,7 @@ Onde:
  
  \pagebreak
  
- A figura 3.3 seguir representa a Matriz de Gravidade 3D da BR 101 para um terça-feira. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213 km); e a terceira dimensão (que não aparece nessa imagem),  contempla os dias da semana (1 - segunda-feira, 2 - terça-feira, 3 - quarta-feira,..., 7 - domingo). 
+ A Figura 3.3 representa a Matriz de Gravidade 3D da BR 101 para um terça-feira. As linhas contemplam as 24 horas (0-23 horas); as colunas referem-se aos quilômetros da rodovia (0-213 km); e a terceira dimensão (que não aparece nessa imagem),  contempla os dias da semana (1 - segunda-feira, 2 - terça-feira, 3 - quarta-feira,..., 7 - domingo). 
  
  
  \begin{figure}[!ht]
@@ -161,7 +164,7 @@ remoção/explosão de rochas.
 No entanto, quando as informações provenientes do modelo de predição entrarem em conflito com as informações 
 provenientes das redes sociais \footnote{O sistema de predição é baseado em cálculos probabilísticos}, para estes casos a decisão de qual ação será tomada estará ``nas mãos'' do agente, do observador ou do utilizador.
 
-As informações das redes sociais que comporão o arco cibernético não deverão retroalimentar o modelo de predição já construído, pois o fluxo decisório já foi tomado pelo observador. Os dados a posteriori geralmente não servem para um modelo de predição, uma vez que podem enviesar o sistema preditivo {, mas a depender de sua qualidade podem ser considerados}.
+As informações das redes sociais que comporão o arco cibernético não deverão retroalimentar o modelo de predição já construído, pois o fluxo decisório já foi tomado pelo observador. Os dados a posteriori geralmente não servem para um modelo de predição, uma vez que podem enviesar o sistema preditivo, mas a depender de sua qualidade podem ser considerados.
 
 \begin{figure}[ht]
 	\centering
@@ -175,7 +178,7 @@ As informações das redes sociais que comporão o arco cibernético não dever�
 \section{Extrapolação para georreferenciamento}
 
 As matrizes apresentadas anteriormente (Figura 3.2 e Figura 3.3) representam pontos críticos, aqueles relacionados com a ocorrência de acidentes graves. Quando a entrada é 0 (zero) nas matrizes, significa que não houve ocorrência naquele local da BR, portanto, quanto maior o valor do ponto crítico, maior gravidade ou maior probabilidade de ocorrência de acidentes na rodovia. 
-Estes pontos podem ser extrapolados para um mapa, a fim de auxiliar os condutores que estejam usando essa tecnologia, quando trafegarem por um determinado trecho da rodovia. Tais pontos são conhecidos nessa pesquisa como extrapolação para georreferenciamento, conforme a Figura 3.5.
+Estes pontos podem ser extrapolados para um mapa, a fim de auxiliar os condutores que estejam usando essa tecnologia, quando trafegarem por um determinado trecho da rodovia. Tais pontos são conhecidos nesta pesquisa como extrapolação para georreferenciamento, conforme a Figura 3.5.
 
 \begin{figure}[ht]
 	\centering

@@ -20,7 +20,7 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Perceptron de McCulloch e Pitts}}{44}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Rede Neural}}{46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{53}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Etapas da modelo proposto}}{52}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Matriz de Mortos 2D - BR 101, Per\IeC {\'\i }odo: 2007 \IeC {\`a} 2015}}{55}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Matriz de Gravidade 3D3\IeC {\textordfeminine }feira - BR 101, Per\IeC {\'\i }odo: 2007 \IeC {\`a} 2015}}{56}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Arco cibern\IeC {\'e}tico com dados do Twitter}}{57}
@@ -51,7 +51,7 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces BR 428: Hora do acidente (1) Concentra\IeC {\c c}\IeC {\~a}o em torno da hora (2)}}{74}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Frequ\IeC {\^e}ncia}}{74}
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Tipo de Ve\IeC {\'\i }culo X Num. Acidentes}}{75}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{76}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Tra\IeC {\c c}ado da via X Num. Acidentes}}{75}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces \IeC {\'A}rvore de Decis\IeC {\~a}o gerada pelo Knime}}{80}
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Km 70, BR 101 (Sul) Pernambuco}}{82}
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Matriz de Mortos: Km 56 -- 78, BR 101 (Sul) Pernambuco}}{82}
