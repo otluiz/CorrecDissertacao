@@ -46,6 +46,6 @@
 \contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es finais}{92}
 \contentsline {section}{\numberline {5.1}Trabalhos futuros}{95}
 \contentsline {chapter}{\numberline {A}Preprocessamento}{97}
-\contentsline {subsection}{\numberline {A.0.1}Mapa das de Pernambuco com as rodovias}{97}
+\contentsline {subsection}{\numberline {A.0.1}Mapa de Pernambuco com as Rodovias Federais em destaque}{97}
 \contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{98}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{100}

@@ -1054,11 +1054,11 @@ Para localizar novos canais de informação, foram construídos subgrafos contem
 
 Conceitos como intermediação, centralidade, peso das arestas, precisam ser adequadamente compreendidos pelo pesquisador, para que a tecnologia seja explorada em todo seu potencial. Isso implica no estudo de novos algoritmos, próprios para mineração em grafos de redes sociais, o que, em princípio, fugia do escopo dessa pesquisa.
 
-Ainda que consideremos a ferramenta não tenha sido adequadamente explorada, por todas as questões propostas acima, a mineração de dados textuais do twitter permitiu inferir que o utilizador dessa rede social faz referência ao que acontece nas rodovias, com especial atenção para fatos que possam ter implicação em seu cotidiano, tanto imediatamente (por exemplo, congestionamento numa via que ele utiliza para ir ao trabalho), quanto num universo temporal mais distante (por exemplo, condição da rodovia que dá acesso à cidade em que ele vai passar um feriado). Esse último aspecto é aquele que interessa particularmente ao modelo proposto nessa pesquisa.
+Ainda que consideremos que a ferramenta não tenha sido adequadamente explorada, por todas as questões propostas acima, a mineração de dados textuais do twitter permitiu inferir que o utilizador dessa rede social faz referência ao que acontece nas rodovias, com especial atenção para fatos que possam ter implicação em seu cotidiano, tanto imediatamente (por exemplo, congestionamento numa via que ele utiliza para ir ao trabalho), quanto num universo temporal mais distante (por exemplo, condição da rodovia que dá acesso à cidade em que ele vai passar um feriado). Esse último aspecto é aquele que interessa particularmente ao modelo proposto nessa pesquisa.
 
 %\vspace{5mm} -- e bigramas, termos com duas palavras
 
-Os dados da Figura 3.34 mostram a busca dos termos frequentes encontrado no documento textual, extraído a partir de 3.200 tweets. O primeiro gráfico apresenta unigramas -- termos frequentes que contém uma palavra. Foram encontradas palavras como: fiscalização, colisão, vítima fatal, acidentes, detre outros. 
+Os dados da Figura 3.34 mostram a busca dos termos frequentes encontrados no documento textual, extraído a partir de 3.200 tweets. O primeiro gráfico apresenta unigramas -- termos frequentes que contém uma palavra. Foram encontradas palavras como: fiscalização, colisão, vítima fatal, acidentes, detre outras. 
 
 
 %\pagebreak
@@ -1088,6 +1088,7 @@ A nuvem de palavras da Figura 4.35 é um gráfico de frequência de palavras em 
 O dendograma da Figura 4.36 é um gráfico que agrupa palavras de acordo com o assunto. 
 No dendograma a seguir foram identificados seis agrupamentos (clusters), como, por exemplo: ferido, balanço e morto; envolvidos, veículo (veic), fiscalização (fisc), multa, alcoolemia, pessoa, test; PRF; fatal, vítima, envolvido, óbito, prisão, condutor, colisão, moto, ano, h (hora). Os agrupamentos, quando analisados adequadamente, permitem identificar, com um número reduzido de palavras, o acontecimento ao qual está sendo feita referência. Por exemplo, no último agrupamento exemplificado acima é possível deduzir que houve uma colisão envolvendo uma moto, que resultou no óbito de um dos envolvidos e na prisão daquele que foi o responsável pela colisão.   
 
+
 \begin{figure}[!ht]
 \centering
 \caption{Dendograma de Agrupamento (clustering) do resultado da mineração}
@@ -1095,14 +1096,19 @@ No dendograma a seguir foram identificados seis agrupamentos (clusters), como, p
 \label{fig:Cluster}
 \end{figure}
 
+\pagebreak
+\vspace{15mm}
+
+
 O Gráfico 4.37 ilustra a utilização de outro algoritmo de agrupamento, conhecido com K-means. 
 
-\begin{figure}
-\centering
-\caption{Gráfico da Agrupamento (clustering) do resultado a mineração}
-\includegraphics[width=0.7\linewidth]{Figuras/Twitter/Cluster2}
-\label{fig:Cluster2}
+\begin{figure}[!ht]
+	\centering
+	\caption{Gráfico da Agrupamento (clustering) do resultado a mineração}
+	\includegraphics[width=0.9\linewidth]{Figuras/Twitter/Cluster2}
+	\label{fig:Cluster2}
 \end{figure}
+
 
 Uma análise mais minuciosa dos gráficos produzidos pela mineração em textos pode trazer contribuições de considerável relevância, que permitem refinar o modelo de predição da Etapa 1, descrita na Figura 4.1 do modelo proposto.
 
