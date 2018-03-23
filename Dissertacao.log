@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  22 MAR 2018 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  23 MAR 2018 18:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,7 +1316,14 @@ LaTeX Warning: Label `fig:MatrizMortos2d-101' multiply defined.
 
 LaTeX Warning: Label `fig:MatrizMortos2d-101' multiply defined.
 
-) (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux))
+) (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux
+
+LaTeX Warning: Label `intro:Anexo' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflow Twitter' multiply defined.
+
+))
 \openout1 = `Dissertacao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1337,8 +1344,7 @@ LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -2267,32 +2273,33 @@ N.png>]
 File: Figuras/Twitter/freqPalavr.png Graphic file (type png)
 
 <use Figuras/Twitter/freqPalavr.png>
-Package pdftex.def Info: Figuras/Twitter/freqPalavr.png used on input line 1069
+Package pdftex.def Info: Figuras/Twitter/freqPalavr.png used on input line 1071
 .
 (pdftex.def)             Requested size: 318.66948pt x 239.72295pt.
- [89 <./Figuras/Twitter/freqPalavr.png>]
-<Figuras/Twitter/nuvem2.png, id=435, 522.45187pt x 364.36125pt>
+
+<Figuras/Twitter/nuvem2.png, id=431, 522.45187pt x 364.36125pt>
 File: Figuras/Twitter/nuvem2.png Graphic file (type png)
 
 <use Figuras/Twitter/nuvem2.png>
-Package pdftex.def Info: Figuras/Twitter/nuvem2.png used on input line 1080.
+Package pdftex.def Info: Figuras/Twitter/nuvem2.png used on input line 1082.
 (pdftex.def)             Requested size: 273.14923pt x 190.49748pt.
 
-<Figuras/Twitter//Cluster.png, id=436, 430.60875pt x 255.20343pt>
+<Figuras/Twitter//Cluster.png, id=432, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter//Cluster.png Graphic file (type png)
 
 <use Figuras/Twitter//Cluster.png>
-Package pdftex.def Info: Figuras/Twitter//Cluster.png used on input line 1095.
+Package pdftex.def Info: Figuras/Twitter//Cluster.png used on input line 1097.
 (pdftex.def)             Requested size: 318.66948pt x 188.86705pt.
- [90 <./Figuras/Twitter/nuvem2.png (PNG copy)> <./Figuras/Twitter//Cluster.png 
-(PNG copy)>]
+ [89] [90 <./Figuras/Twitter/freqPalavr.png> <./Figuras/Twitter/nuvem2.png (PNG
+ copy)>]
 <Figuras/Twitter/Cluster2.png, id=441, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter/Cluster2.png Graphic file (type png)
 
 <use Figuras/Twitter/Cluster2.png>
-Package pdftex.def Info: Figuras/Twitter/Cluster2.png used on input line 1108.
+Package pdftex.def Info: Figuras/Twitter/Cluster2.png used on input line 1110.
 (pdftex.def)             Requested size: 409.71692pt x 242.8274pt.
-) [91 <./Figuras/Twitter/Cluster2.png (PNG copy)>]
+) [91 <./Figuras/Twitter//Cluster.png (PNG copy)> <./Figuras/Twitter/Cluster2.p
+ng (PNG copy)>]
 \openout2 = `Textual/5_conclusao.aux'.
 
  (./Textual/5_conclusao.tex
@@ -2316,26 +2323,84 @@ Package pdftex.def Info: Figuras/Anexos/Mapa-pe.pdf used on input line 9.
 
 
 
- <./Figuras/Anexos/Mapa-pe.pdf>] [98]
-<Figuras/Cronograma/BasesHistoricas.png, id=476, 1518.473pt x 680.141pt>
+ <./Figuras/Anexos/Mapa-pe.pdf>]
+
+! Package inputenc Error: Unicode char ẽ (U+1EBD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ... eles: Km, Latitude, Longitude, Condiçẽ
+                                                  os da Pista, Causa do Acid...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Figuras/Anexos/PlanilhaPRF.png, id=473, 884.30376pt x 529.98pt>
+File: Figuras/Anexos/PlanilhaPRF.png Graphic file (type png)
+
+<use Figuras/Anexos/PlanilhaPRF.png>
+Package pdftex.def Info: Figuras/Anexos/PlanilhaPRF.png used on input line 40.
+(pdftex.def)             Requested size: 409.71692pt x 245.55667pt.
+ [98 <./Figuras/Anexos/PlanilhaPRF.png (PNG copy)>] [99]
+<Figuras/Cronograma/BasesHistoricas.png, id=480, 1518.473pt x 680.141pt>
 File: Figuras/Cronograma/BasesHistoricas.png Graphic file (type png)
 
 <use Figuras/Cronograma/BasesHistoricas.png>
 Package pdftex.def Info: Figuras/Cronograma/BasesHistoricas.png used on input l
-ine 79.
+ine 112.
 (pdftex.def)             Requested size: 469.4706pt x 284.52606pt.
 
-Overfull \hbox (14.22649pt too wide) in paragraph at lines 79--80
+Overfull \hbox (14.22649pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
-) [99 <./Figuras/Cronograma/BasesHistoricas.png>] (./Dissertacao.bbl [100
+[100 <./Figuras/Cronograma/BasesHistoricas.png>]
+<Figuras/Twitter/prepocesTextos.png, id=485, 408.52625pt x 101.37875pt>
+File: Figuras/Twitter/prepocesTextos.png Graphic file (type png)
+
+<use Figuras/Twitter/prepocesTextos.png>
+Package pdftex.def Info: Figuras/Twitter/prepocesTextos.png used on input line 
+142.
+(pdftex.def)             Requested size: 318.66948pt x 79.08438pt.
+
+<Figuras/Twitter/workflow.png, id=486, 619.113pt x 183.887pt>
+File: Figuras/Twitter/workflow.png Graphic file (type png)
+
+<use Figuras/Twitter/workflow.png>
+Package pdftex.def Info: Figuras/Twitter/workflow.png used on input line 152.
+(pdftex.def)             Requested size: 318.66948pt x 94.65094pt.
+ [101 <./Figuras/Twitter/prepocesTextos.png> <./Figuras/Twitter/workflow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
+ []
 
 
-]
-[101] [102] [103] [104]) 
+Underfull \hbox (badness 10000) in paragraph at lines 165--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+<Figuras/Anexos/tweetPRF.png, id=492, 1258.7025pt x 497.86pt>
+File: Figuras/Anexos/tweetPRF.png Graphic file (type png)
+
+<use Figuras/Anexos/tweetPRF.png>
+Package pdftex.def Info: Figuras/Anexos/tweetPRF.png used on input line 180.
+(pdftex.def)             Requested size: 409.71692pt x 162.05327pt.
+) [102 <./Figuras/Anexos/tweetPRF.png (PNG copy)>] (./Dissertacao.bbl [103
+
+
+] [104] [105] [106] [107] [108])
+
 AED: lastpage setting LastPage
-[105] (./Dissertacao.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux
+[109] (./Dissertacao.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux
 ) (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_simulacao.aux)
 (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux))
@@ -2348,10 +2413,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18248 strings out of 493029
- 302242 string characters out of 6136234
- 547613 words of memory out of 5000000
- 21141 multiletter control sequences out of 15000+600000
+ 18283 strings out of 493029
+ 303090 string characters out of 6136234
+ 549537 words of memory out of 5000000
+ 21172 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,53p,1433b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2375,10 +2440,10 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm2986.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Dissertacao.pdf (106 pages, 8909428 bytes).
+Output written on Dissertacao.pdf (110 pages, 9203875 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
+ 597 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 words of extra memory for PDF output out of 10000 (max. 10000000)
 

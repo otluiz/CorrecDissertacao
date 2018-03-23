@@ -48,4 +48,5 @@
 \contentsline {chapter}{\numberline {A}Preprocessamento}{97}
 \contentsline {subsection}{\numberline {A.0.1}Mapa de Pernambuco com as Rodovias Federais em destaque}{97}
 \contentsline {section}{\numberline {A.1}Coleta e Preprocessamento dos dados da PRF}{98}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{100}
+\contentsline {section}{\numberline {A.2}Preprocessamento das Bases Hist\IeC {\'o}ricas}{100}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{103}

@@ -34,38 +34,42 @@ Tese (Disserta{\c{c}}{\~{a}}o de Mestrado) --- Universidade de S{\~{a}}o Paulo
   - USP, 2007.}
 
 \bibitem{bigdataQualquerUm}
-\abntrefinfo{Jagadish e Shahabi}{JAGADISH; SHAHABI}{2014}
-{JAGADISH, J.~G. H.~V.; SHAHABI, C. \emph{Exploring the inherent technical
-  challenges in realizing the potential of Big Data}. [S.l.: s.n.], 2014.
-  86--96~p.}
+\abntrefinfo{{JAGADISH, H. V.; GEHRKE, J.; SHAHABI, C.}}{{JAGADISH, H. V.;
+  GEHRKE, J.; SHAHABI, C.}}{2014}
+{{JAGADISH, H. V.; GEHRKE, J.; SHAHABI, C.} \emph{Exploring the inherent
+  technical challenges in realizing the potential of Big Data}. [S.l.: s.n.],
+  2014. 86--96~p.}
 
 \bibitem{DadosGoverno}
-\abntrefinfo{{Ministério dos Transportes, Portos e Aviação -- Governo
-  Federal}}{{Ministério dos Transportes, Portos e Aviação -- Governo
+\abntrefinfo{{MINISTÉRIO DOS TRANSPORTES, PORTOS \& AVIAÇÃO -- Governo
+  Federal}}{{MINISTÉRIO DOS TRANSPORTES, PORTOS \& AVIAÇÃO -- Governo
   Federal}}{2016}
-{{Ministério dos Transportes, Portos e Aviação -- Governo Federal}.
+{{MINISTÉRIO DOS TRANSPORTES, PORTOS \& AVIAÇÃO -- Governo Federal}.
 2016.
+{Acessado em 13.set.2016}.
 Dispon{\'\i}vel em: \url{http://dados.gov.br/dados-abertos/}.}
 
 \bibitem{Br-Brasil}
-\abntrefinfo{Justica}{JUSTICA}{2014}
-{JUSTICA, P. e~Ministério~da.
+\abntrefinfo{{P.R.F. - MINISTÉRIO DA JUSTIÇA}}{{P.R.F. - MINISTÉRIO DA
+  JUSTIÇA}}{2014}
+{{P.R.F. - MINISTÉRIO DA JUSTIÇA}.
 2014.
+Acessado em: 01.Jul.2016.
 Dispon{\'\i}vel em:
   \url{http://dados.gov.br/dataset/acidentes-rodovias-federais}.}
 
 \bibitem{Dados-BR}
-\abntrefinfo{cidadania}{CIDADANIA}{}
-{CIDADANIA, P.~M. da~Justica~e. Dados abertos.
+\abntrefinfo{{P.R.F. - MINISTÉRIO DA JUSTIÇA \& CIDADANIA}}{{P.R.F. -
+  MINISTÉRIO DA JUSTIÇA \& CIDADANIA}}{}
+{{P.R.F. - MINISTÉRIO DA JUSTIÇA \& CIDADANIA}. Dados abertos.
 Acessado em: 20.Out.2015.
 Dispon{\'\i}vel em: \url{https://www.prf.gov.br/portal/dados-abertos/}.}
 
 \bibitem{Ben-David2014}
-\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{}
+\abntrefinfo{Ben-David e Shalev-Shwartz}{BEN-DAVID; SHALEV-SHWARTZ}{2014}
 {BEN-DAVID, S.; SHALEV-SHWARTZ, S. \emph{{Understanding Machine Learning: From
-  Theory to Algorithms}}. [s.n.]. 449~p. Acessado em: 02.Fev.2016.
-ISBN 9781107057135. Dispon{\'\i}vel em:
-  \url{http://www.cs.huji.ac.il/{~}shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf}.}
+  Theory to Algorithms}}. [S.l.: s.n.], 2014. 449~p.
+ISBN 9781107057135.}
 
 \bibitem{BNDES2013}
 \abntrefinfo{BNDES}{BNDES}{2013}
@@ -73,10 +77,12 @@ ISBN 9781107057135. Dispon{\'\i}vel em:
 \emph{Perspectivas do Investimento 2014-2017}, p.~2, 2013.}
 
 \bibitem{Bitoun2012}
-\abntrefinfo{Bitoun et al.}{BITOUN et al.}{2012}
-{BITOUN, J. et al. Regi\~{a}o metropolitana do recife no contexto de pernambuco
-  no censo 2010.
+\abntrefinfo{{BITOUN, J.; MIRANDA, L.; SOUZA, M. S. A.; BRITTO, M. R.
+  S.}}{{BITOUN, J.; MIRANDA, L.; SOUZA, M. S. A.; BRITTO, M. R. S.}}{2012}
+{{BITOUN, J.; MIRANDA, L.; SOUZA, M. S. A.; BRITTO, M. R. S.} Regi\~{a}o
+  metropolitana do recife no contexto de pernambuco no censo 2010.
 p.~25, 2012.
+{Acessado em 13.set.2016}.
 Dispon{\'\i}vel em:
   \url{http://www.observatoriodasmetropoles.net/download/Texto\_BOLETIM\_RECIFE\_FINAL.pdf}.}
 
@@ -91,18 +97,18 @@ Dispon{\'\i}vel em:
   \url{http://www.cidades.ibge.gov.br/painel/frota.php?codmun=261160&search=pernambuco/recife/infograficos:frota-municipal-de-veiculos/&lang=_ES}.}
 
 \bibitem{bigdataMedicina}
-\abntrefinfo{Dilsizian}{DILSIZIAN}{}
-{DILSIZIAN, L.~E. S.~E. Artificial intelligence in medicine and cardiac
+\abntrefinfo{{DILSIZIAN, S. E.; ELIOT, L.}}{{DILSIZIAN, S. E.; ELIOT, L.}}{}
+{{DILSIZIAN, S. E.; ELIOT, L.} Artificial intelligence in medicine and cardiac
   imaging: Harnessing big data and advanced computing to provide personalized
   mecial diagnosis and treatment.
 p.~1.}
 
 \bibitem{chapman2000crisp}
 \abntrefinfo{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.; REINAERTZ, T.;
-  SHEARER, C.; and WIRTH, R.}}{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA,
-  T.; REINAERTZ, T.; SHEARER, C.; and WIRTH, R.}}{2000}
+  SHEARER, C.; WIRTH, R.}}{{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.;
+  REINAERTZ, T.; SHEARER, C.; WIRTH, R.}}{2000}
 {{CHAPMAN, P.; CLINTON, J.; KERBER, R.; KHABAZA, T.; REINAERTZ, T.; SHEARER,
-  C.; and WIRTH, R.} Crisp-dm 1.0.
+  C.; WIRTH, R.} Crisp-dm 1.0.
 \emph{CRISP-DM Consortium}, v.~76, p.~1--2, 2000.}
 
 \bibitem{possas1998data}
@@ -110,7 +116,7 @@ p.~1.}
   W.}}{{POSSAS, B.; CARVALHO, M.L.B.; REZENDE, R.S.F.; {\&} MEIRA JR,
   W.}}{1998}
 {{POSSAS, B.; CARVALHO, M.L.B.; REZENDE, R.S.F.; {\&} MEIRA JR, W.} Data
-  mining: t{\'e}cnicas para explora{\c{c}}{\~a}o de dados.
+  mining: T{\'e}cnicas para explora{\c{c}}{\~a}o de dados.
 \emph{Universidade Federal de Minas Gerais}, 1998.}
 
 \bibitem{FayyadUeoutros}
@@ -127,32 +133,34 @@ p.~1.}
 Elsevier, San Francisco, v. 2 edition, 2006.}
 
 \bibitem{NorvigRussel2004}
-\abntrefinfo{RUSSEL e NOVING}{RUSSEL; NOVING}{2004}
-{RUSSEL, S.; NOVING, P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio
-  de Janeiro, 2004. 716--721~p.
+\abntrefinfo{NOVIG}{NOVIG}{2004}
+{NOVIG, S. R. .~P. \emph{{Integência Artificial}}. [S.l.]: Elsevier, Rio de
+  Janeiro, 2004. 716--721~p.
 ISBN 8535211772.}
 
 \bibitem{Castanheira2008}
-\abntrefinfo{CASTANHEIRA}{CASTANHEIRA}{}
+\abntrefinfo{CASTANHEIRA}{CASTANHEIRA}{2008}
 {CASTANHEIRA, L.~G. Aplicação de técnicas de mineração de dados em
-  problemas de classificação de padrões.}
+  problemas de classificação de padrões.
+n.~5531, 2008.}
 
 \bibitem{RalphKimball2013}
-\abntrefinfo{{Ralph Kimball}}{{Ralph Kimball}}{2013}
-{{Ralph Kimball}. \emph{{The Data Warehouse Toolkit}}. [S.l.: s.n.], 2013.
+\abntrefinfo{{KIMBALL, R.}}{{KIMBALL, R.}}{2013}
+{{KIMBALL, R.} \emph{{The Data Warehouse Toolkit}}. [S.l.: s.n.], 2013.
   1689--1699~p.
 ISSN 1098-6596.
 ISBN 9788578110796.}
 
 \bibitem{DataMining2}
-\abntrefinfo{Han e Kamber}{HAN; KAMBER}{2006}
-{HAN, J.; KAMBER, M. Data mining: Concepts and techniques.
+\abntrefinfo{{HAN, J. \& KAMBER, M}}{{HAN, J. \& KAMBER, M}}{2006}
+{{HAN, J. \& KAMBER, M}. Data mining: Concepts and techniques.
 Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
 
 \bibitem{Aranha2006}
 \abntrefinfo{{ARANHA, C.; PASSOS, E.}}{{ARANHA, C.; PASSOS, E.}}{2006}
-{{ARANHA, C.; PASSOS, E.} \emph{A Tecnologia de Mineração de Textos}. 2006.
-1--8~p.}
+{{ARANHA, C.; PASSOS, E.} A tecnologia de mineração de textos.
+v.~2, n.~2, p.~1--8, 2006.
+ISSN 1677-3071.}
 
 \bibitem{NoSQL2015}
 \abntrefinfo{Burtica et al.}{BURTICA et al.}{2012}
@@ -169,10 +177,12 @@ Elsevier, San Francisco, v. 2 edition, p. 15--16, 2006.}
   n.~10, p. 3644--3654, 2015.}
 
 \bibitem{Amin2015a}
-\abntrefinfo{Amin et al.}{AMIN et al.}{2015}
-{AMIN, A. et al. A comparison of two oversampling techniques (smote vs mtdf)
-  for handling class imbalance problem: A case study of customer churn
-  prediction.
+\abntrefinfo{{AMIN, A.; FAISAL, A.; RAHIM, I.; CHANGEZ, A.; KHAN,S.; ANWAR,
+  S.}}{{AMIN, A.; FAISAL, A.; RAHIM, I.; CHANGEZ, A.; KHAN,S.; ANWAR,
+  S.}}{2015}
+{{AMIN, A.; FAISAL, A.; RAHIM, I.; CHANGEZ, A.; KHAN,S.; ANWAR, S.} A
+  comparison of two oversampling techniques (smote vs mtdf) for handling class
+  imbalance problem: A case study of customer churn prediction.
 v.~353, p. 215--225, 2015.
 Acessado em: 20.Jan.2016.
 Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
@@ -184,32 +194,42 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
   In:  \emph{Ldv Forum}. [S.l.: s.n.], 2005. v.~20, n.~1, p. 19--62.}
 
 \bibitem{stone1968general}
-\abntrefinfo{Stone et al.}{STONE et al.}{1968}
-{STONE, P. et al. The general inquirer: A computer approach to content
-  analysis.
+\abntrefinfo{{STONE, P.; DUNPHY, D. C.; SMITH, M. S.; OGILVIE, D. M.}}{{STONE,
+  P.; DUNPHY, D. C.; SMITH, M. S.; OGILVIE, D. M.}}{1968}
+{{STONE, P.; DUNPHY, D. C.; SMITH, M. S.; OGILVIE, D. M.} The general inquirer:
+  A computer approach to content analysis.
 \emph{Journal of Regional Science}, Wiley Online Library, v.~8, n.~1, p.
   113--116, 1968.}
 
 \bibitem{liddy2001natural}
 \abntrefinfo{Liddy}{LIDDY}{2001}
-{LIDDY, E.~D. Natural language processing.
-2001.}
+{LIDDY, E.~D. {Natural language processing}.
+\emph{School of Information Studies -- iSchool}, Syracuse University, 2001.}
 
 \bibitem{Lima2012}
-\abntrefinfo{Lima e {De Castro}}{LIMA; {De Castro}}{2012}
-{LIMA, A. C. E.~S.; {De Castro}, L.~N. Automatic sentiment analysis of twitter
-  messages.
+\abntrefinfo{{LIMA, A.; CASTRO, E. S. de; LEANDRO, N.}}{{LIMA, A.; CASTRO, E.
+  S. de; LEANDRO, N.}}{2012}
+{{LIMA, A.; CASTRO, E. S. de; LEANDRO, N.} Automatic sentiment analysis of
+  twitter messages.
 \emph{Proceedings of the 2012 4th International Conference on Computational
   Aspects of Social Networks, CASoN 2012}, n. March 2017, p. 52--57, 2012.}
 
 \bibitem{sarker2015utilizing}
-\abntrefinfo{Sarker et al.}{SARKER et al.}{2015}
-{SARKER, A. et al. Utilizing social media data for pharmacovigilance: A review.
+\abntrefinfo{{SARKER, A.; GINN, R.; NIKFARJAM, A.; O’CONNOR, K.; SMITH, K.;
+  JAYARAMAN, S.; UPADHAYA, T.; GONZALES, G.}}{{SARKER, A.; GINN, R.; NIKFARJAM,
+  A.; O’CONNOR, K.; SMITH, K.; JAYARAMAN, S.; UPADHAYA, T.; GONZALES,
+  G.}}{2015}
+{{SARKER, A.; GINN, R.; NIKFARJAM, A.; O’CONNOR, K.; SMITH, K.; JAYARAMAN,
+  S.; UPADHAYA, T.; GONZALES, G.} Utilizing social media data for
+  pharmacovigilance: A review.
 \emph{Journal of biomedical informatics}, Elsevier, v.~54, p. 202--212, 2015.}
 
 \bibitem{madden2013teens}
-\abntrefinfo{Madden et al.}{MADDEN et al.}{2013}
-{MADDEN, M. et al. Teens, social media, and privacy.
+\abntrefinfo{{MADDEN, M.; LENHART, A.; CORTESI, S.; GASSER, U.; DUGGAN, M.;
+  SMITH, A.; BEATON, M.}}{{MADDEN, M.; LENHART, A.; CORTESI, S.; GASSER, U.;
+  DUGGAN, M.; SMITH, A.; BEATON, M.}}{2013}
+{{MADDEN, M.; LENHART, A.; CORTESI, S.; GASSER, U.; DUGGAN, M.; SMITH, A.;
+  BEATON, M.} Teens, social media, and privacy.
 \emph{Pew Research Center}, v.~21, p. 2--86, 2013.}
 
 \bibitem{naaman2010really}
@@ -222,14 +242,15 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/978-3-319-16486-1}.}
 \bibitem{ICWSM09154}
 \abntrefinfo{Bastian, Heymann e Jacomy}{BASTIAN; HEYMANN; JACOMY}{2009}
 {BASTIAN, M.; HEYMANN, S.; JACOMY, M. \emph{Gephi: An Open Source Software for
-  Exploring and Manipulating Networks}. 2009.
-Dispon{\'\i}vel em:
-  \url{http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154}.}
+  Exploring and Manipulating Networks}. 2009.}
 
 \bibitem{francca14big}
-\abntrefinfo{Fran{\c{c}}a et al.}{FRAN{\c{C}}A et al.}{}
-{FRAN{\c{C}}A, T.~C. et al. Big social data: Princ{\'\i}pios sobre coleta,
-  tratamento e an{\'a}lise de dados sociais.
+\abntrefinfo{{FRANÇA, T. C.; FARIA, F. F.; RANGEL, F. M.; FARIAS, C. M.;
+  OLIVEIRA, J.}}{{FRANÇA, T. C.; FARIA, F. F.; RANGEL, F. M.; FARIAS, C. M.;
+  OLIVEIRA, J.}}{}
+{{FRANÇA, T. C.; FARIA, F. F.; RANGEL, F. M.; FARIAS, C. M.; OLIVEIRA, J.} Big
+  social data: Princípios sobre coleta, tratamento e análise de dados
+  sociais.
 \emph{XXIX Simp{\'o}sio Brasileiro de Banco de Dados--SBBD}, v.~14.}
 
 \bibitem{abrahams2015integrated}
@@ -240,8 +261,10 @@ Dispon{\'\i}vel em:
   p. 975--990, 2015.}
 
 \bibitem{fan2006tapping}
-\abntrefinfo{Fan et al.}{FAN et al.}{2006}
-{FAN, W. et al. Tapping the power of text mining.
+\abntrefinfo{{FAN, W.; WALLACE, L.; STEPHANIE, R.; ZHANG, Z.}}{{FAN, W.;
+  WALLACE, L.; STEPHANIE, R.; ZHANG, Z.}}{2006}
+{{FAN, W.; WALLACE, L.; STEPHANIE, R.; ZHANG, Z.} Tapping the power of text
+  mining.
 \emph{Communications of the ACM}, ACM, v.~49, n.~9, p. 76--82, 2006.}
 
 \bibitem{sandhu2015scheduling}
@@ -280,9 +303,10 @@ Dispon{\'\i}vel em:
   1998.}
 
 \bibitem{cha2010measuring}
-\abntrefinfo{Cha et al.}{CHA et al.}{2010}
-{CHA, M. et al. Measuring user influence in twitter: The million follower
-  fallacy.
+\abntrefinfo{{CHA, M.; HADDADI, H.; BENEVENUTO, F.; GUMMADI, P. K.}}{{CHA, M.;
+  HADDADI, H.; BENEVENUTO, F.; GUMMADI, P. K.}}{2010}
+{{CHA, M.; HADDADI, H.; BENEVENUTO, F.; GUMMADI, P. K.} Measuring user
+  influence in twitter: The million follower fallacy.
 \emph{Icwsm}, v.~10, n. 10-17, p.~30, 2010.}
 
 \bibitem{Chu2012}
@@ -337,16 +361,16 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.acalib.2015.12.014}.}
   131--139, 2000.}
 
 \bibitem{Nilsson2005}
-\abntrefinfo{Nilsson}{NILSSON}{}
+\abntrefinfo{Nilsson}{NILSSON}{2005}
 {NILSSON, N.~J. {Introduction to Machine Learning}.
-\emph{Machine Learning}, n.~2, p. 387--99.
+\emph{Machine Learning}, v.~56, n.~2, p. 387--99, 2005.
 ISSN 10959572.
 Acessado em: 03.Fev.2016.
 Dispon{\'\i}vel em: \url{http://www.ncbi.nlm.nih.gov/pubmed/21172442}.}
 
 \bibitem{Monard}
 \abntrefinfo{Monard M.}{MONARD M.}{2003}
-{MONARD M., B.~J.~A. “conceitos sobre aprendizado de máquina -- sistemas
+{MONARD M., B.~J.~A. Conceitos sobre aprendizado de máquina -- sistemas
   inteligentes fundamentos e aplicações.
 Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
 
@@ -398,9 +422,10 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
 \emph{Elsevier, San Francisco}, v. 2 edition, 2005.}
 
 \bibitem{breiman1984}
-\abntrefinfo{Breiman et al.}{BREIMAN et al.}{1984}
-{BREIMAN, L. et al. \emph{Classification and regression trees}. [S.l.]: CRC
-  press, 1984.}
+\abntrefinfo{{BREIMAN, L.; FRIEDMAN, J.; STONE, C. J.; OLSHEN, R.
+  A.}}{{BREIMAN, L.; FRIEDMAN, J.; STONE, C. J.; OLSHEN, R. A.}}{1984}
+{{BREIMAN, L.; FRIEDMAN, J.; STONE, C. J.; OLSHEN, R. A.} \emph{{Classification
+  and regression trees}}. [S.l.]: CRC press, 1984.}
 
 \bibitem{Pineda2006}
 \abntrefinfo{Pineda}{PINEDA}{2006}
@@ -423,8 +448,8 @@ ISBN 1604390085.}
 
 \bibitem{Barreto2002}
 \abntrefinfo{BARRETO}{BARRETO}{2002}
-{BARRETO, J.~M. {Jorge M. Barreto}.
-2002.}
+{BARRETO, J.~M. {Introdução às Redes Neurais Artificiais}.
+\emph{Laboratório de Conexionismo e Ciências Conectivas}, p. 1--50, 2002.}
 
 \bibitem{ROC}
 \abntrefinfo{Egan}{EGAN}{1975}
@@ -432,16 +457,16 @@ ISBN 1604390085.}
 New York, USA: Academic Press, 1975.}
 
 \bibitem{MD_AM}
-\abntrefinfo{Anaesthetist}{ANAESTHETIST}{2001}
-{ANAESTHETIST, T.
+\abntrefinfo{{THE ANAESTHETIST}}{{THE ANAESTHETIST}}{2001}
+{{THE ANAESTHETIST}.
 September 2001.
 Acessado em: 20.Jan.2015.
 Dispon{\'\i}vel em:
   \url{http://www.anaesthetist.com/mnm/stats/roc/Findex.htm}.}
 
 \bibitem{Discriminativo}
-\abntrefinfo{Souza}{SOUZA}{2009}
-{SOUZA, C.~R. Análise de poder discriminativo atraés de curvas roc.
+\abntrefinfo{{SOUZA, R. C.}}{{SOUZA, R. C.}}{2009}
+{{SOUZA, R. C.} {Análise de Poder Discriminativo Atraés de Curvas ROC}.
 July 2009.
 Acessado em 01.Set.2016.
 Dispon{\'\i}vel em:
@@ -455,9 +480,9 @@ Dispon{\'\i}vel em:
 ISSN 00313203.}
 
 \bibitem{correa2008aplicaccao}
-\abntrefinfo{Corr{\^e}a et al.}{CORR{\^E}A et al.}{2008}
-{CORR{\^E}A, F. et al. Aplica{\c{c}}{\~a}o de redes neurais artificiais no
-  setor de transportes no brasil.
+\abntrefinfo{{CORRÊA, F.}}{{CORRÊA, F.}}{2008}
+{{CORRÊA, F.} Aplica{\c{c}}{\~a}o de redes neurais artificiais no setor de
+  transportes no brasil.
 Universidade Federal de S{\~a}o Carlos, 2008.}
 
 \bibitem{shanthi2012feature}
@@ -468,16 +493,22 @@ Universidade Federal de S{\~a}o Carlos, 2008.}
   [S.l.: s.n.], 2012. v.~1, p. 24--26.}
 
 \bibitem{ferreira2011combinaccao}
-\abntrefinfo{Ferreira et al.}{FERREIRA et al.}{2011}
-{FERREIRA, R.~P. et al. Combina{\c{c}}{\~a}o de t{\'e}cnicas da
-  intelig{\^e}ncia artificial para previs{\~a}o do comportamento do tr{\'a}fego
-  veicular urbano na cidade de s{\~a}o paulo.
+\abntrefinfo{{FERREIRA, R. P.; MELO, A. C.; SILVA, A. L.; MARTE, C.L.;
+  FERREIRA, M. R.; SASSAI, R. J.}}{{FERREIRA, R. P.; MELO, A. C.; SILVA, A. L.;
+  MARTE, C.L.; FERREIRA, M. R.; SASSAI, R. J.}}{2011}
+{{FERREIRA, R. P.; MELO, A. C.; SILVA, A. L.; MARTE, C.L.; FERREIRA, M. R.;
+  SASSAI, R. J.} Combina{\c{c}}{\~a}o de t{\'e}cnicas da intelig{\^e}ncia
+  artificial para previs{\~a}o do comportamento do tr{\'a}fego veicular urbano
+  na cidade de s{\~a}o paulo.
 Universidade Nove de Julho, 2011.}
 
 \bibitem{braga2014planejamento}
-\abntrefinfo{Braga et al.}{BRAGA et al.}{2014}
-{BRAGA, M. d.~L. et al. Planejamento de rotas com algoritmos anytime em redes
-  veiculares na plataforma raspberry pi.
+\abntrefinfo{{BRAGA, M. L.; SANTOS,A. J.;PEDROZA, A. C. P.; COSTA, L. H. M.
+  K.}}{{BRAGA, M. L.; SANTOS,A. J.;PEDROZA, A. C. P.; COSTA, L. H. M.
+  K.}}{2014}
+{{BRAGA, M. L.; SANTOS,A. J.;PEDROZA, A. C. P.; COSTA, L. H. M. K.}
+  Planejamento de rotas com algoritmos anytime em redes veiculares na
+  plataforma raspberry pi.
 \emph{IV Simp{\'o}sio Brasileiro de Engenharia de Sistemas Computacionais},
   p.~1--6, 2014.}
 
@@ -485,7 +516,7 @@ Universidade Nove de Julho, 2011.}
 \abntrefinfo{Reis}{REIS}{2016}
 {REIS, J. M.~M. dos. Previs{\~a}o em tempo real de condi{\c{c}}{\~o}es de
   tr{\'a}fego em redes veiculares.
-2016.}
+Universidade do Porto, 2016.}
 
 \bibitem{chong2004traffic}
 \abntrefinfo{Chong, Abraham e Paprzycki}{CHONG; ABRAHAM; PAPRZYCKI}{2004}
@@ -494,8 +525,11 @@ Universidade Nove de Julho, 2011.}
 \emph{arXiv preprint cs/0405050}, 2004.}
 
 \bibitem{akgungor2009artificial}
-\abntrefinfo{AKGÜNÖR e Do{\u{g}}an}{AKGÜNÖR; DO{\u{G}}AN}{}
-{AKGÜNÖR, A.~P.; DO{\u{G}}AN, E.}
+\abntrefinfo{Akg{\"u}ng{\"o}r e Do{\u{g}}an}{AKG{\"U}NG{\"O}R;
+  DO{\u{G}}AN}{2009}
+{AKG{\"U}NG{\"O}R, A.~P.; DO{\u{G}}AN, E. An artificial intelligent approach to
+  traffic accident estimation: model development and application.
+\emph{Transport}, Taylor \& Francis, v.~24, n.~2, p. 135--142, 2009.}
 
 \bibitem{tavakoli2011data}
 \abntrefinfo{Kashani, Shariat-Mohaymany e Ranjbari}{KASHANI; SHARIAT-MOHAYMANY;
@@ -561,6 +595,7 @@ Universidade Nove de Julho, 2011.}
   ocorr{\^{e}}ncia das rodovias federais brasileiras}.
 \emph{AtoZ: novas pr{\'{a}}ticas em informa{\c{c}}{\~{a}}o e conhecimento},
   v.~2, n.~2014, p. 1--26, 2015.
+Acessado em: 13.Set.2016.
 Dispon{\'\i}vel em:
   \url{http://ojs.c3sl.ufpr.br/ojs/index.php/atoz/rt/printerFriendly/41346/25356}.}
 
@@ -571,31 +606,42 @@ Acessado em: 24.Out.2016.
 Dispon{\'\i}vel em:
   \url{http://eaves.ca/2009/09/30/three-law-of-open-government-data/}.}
 
-\bibitem{Knime}
-\abntrefinfo{Berthold et al.}{BERTHOLD et al.}{2007}
-{BERTHOLD, M.~R. et al. {KNIME}: The {K}onstanz {I}nformation {M}iner. In:
-  \emph{Studies in Classification, Data Analysis, and Knowledge Organization
-  (GfKL 2007)}. [S.l.]: Springer, 2007.
-ISBN 978-3-540-78239-1.
-ISSN 1431-8814.}
+\bibitem{Knime2}
+\abntrefinfo{{KNIME CORE TEAM}}{{KNIME CORE TEAM}}{2016}
+{{KNIME CORE TEAM}. \emph{{Knime Analytics Plataform}}.
+Zurich, Berlin and Austin, 2016. Acessado em: 02.Out.2015. Dispon{\'\i}vel em:
+  \url{https://www.knime.com/knime-analytics-platform}.}
 
 \bibitem{R-cran}
-\abntrefinfo{{R Core Team}}{{R Core Team}}{2016}
-{{R Core Team}. \emph{R: A Language and Environment for Statistical Computing}.
+\abntrefinfo{{R CORE TEAM}}{{R CORE TEAM}}{2016}
+{{R CORE TEAM}. \emph{R: A Language and Environment for Statistical Computing}.
 Vienna, Austria, 2016. Acessado em: 02.Fev.2016. Dispon{\'\i}vel em:
   \url{https://www.R-project.org/}.}
 
 \bibitem{Weka}
-\abntrefinfo{Zealand}{ZEALAND}{}
-{ZEALAND, U. of W.~N. Weka - university of waikato.
+\abntrefinfo{{WAIKATO, University of - New Zealand}}{{WAIKATO, University of -
+  New Zealand}}{}
+{{WAIKATO, University of - New Zealand}. {WEKA - University of Waikato}.
 Acessado em: 10.Fev.2016.
 Dispon{\'\i}vel em: \url{http://www.cs.waikato.ac.nz/}.}
 
 \bibitem{Bernardini}
 \abntrefinfo{Bernardini}{BERNARDINI}{2006}
-{BERNARDINI, F.~C. “combinação de classificadores simbólicos utlizando
-  medidas de regras de conhecimento e algoritmos genéticos” - tese de
+{BERNARDINI, F.~C. Combinação de classificadores simbólicos utlizando
+  medidas de regras de conhecimento e algoritmos genéticos - tese de
   doutorado.
 Instituto de Ciências e Matemática Computacional/USP, 2006.}
+
+\bibitem{Knime}
+\abntrefinfo{{BERTHOLD R. M.; CEBRON N.; DILL, F.; GABRIEL T. R.; KÖTTER, T.;
+  MEINL T.; OHL, P,; SIEB C.; THIEL K.;WISWEDEL S.}}{{BERTHOLD R. M.; CEBRON
+  N.; DILL, F.; GABRIEL T. R.; KÖTTER, T.; MEINL T.; OHL, P,; SIEB C.; THIEL
+  K.;WISWEDEL S.}}{2007}
+{{BERTHOLD R. M.; CEBRON N.; DILL, F.; GABRIEL T. R.; KÖTTER, T.; MEINL T.;
+  OHL, P,; SIEB C.; THIEL K.;WISWEDEL S.} The {K}onstanz {I}nformation {M}iner.
+  In:  \emph{Studies in Classification, Data Analysis, and Knowledge
+  Organization (GfKL 2007)}. [S.l.]: Springer, 2007.
+ISBN 978-3-540-78239-1.
+ISSN 1431-8814.}
 
 \end{thebibliography}

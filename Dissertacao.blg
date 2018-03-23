@@ -18,69 +18,35 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11279 items from 5000.
+Reallocated field_info (elt_size=4) to 11348 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: Bibliografia/Bibliografia.bib
-I was expecting a `,' or a `}'---line 558 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 559 of file Bibliografia/Bibliografia.bib
  :    
  :    journal= {Elsevier, Acident Analysis and Prevention - AAP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 570 of file Bibliografia/Bibliografia.bib
- :        
- :        year = {2007}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 590 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 594 of file Bibliografia/Bibliografia.bib
  :  
- :  volume = {SS-10-01},
+ :  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77957956575{\&}partnerID=40{\&}md5=a06a85740a7d21166dadbb737ccfd110}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 615 of file Bibliografia/Bibliografia.bib
- :     
- :     year={2016}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 627 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 629 of file Bibliografia/Bibliografia.bib
  :  
- :  year = {2014}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 643 of file Bibliografia/Bibliografia.bib
- :  
- :  volume = {56},
+ :  note = {Acessado em: 02.Fev.2016},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "ICWSM09154" isn't style-file defined
---line 704 of file Bibliografia/Bibliografia.bib
-Warning--entry type for "Decision2014" isn't style-file defined
---line 721 of file Bibliografia/Bibliografia.bib
-I was expecting an "="---line 1142 of file Bibliografia/Bibliografia.bib
- : â€¨ 
- :     title={{An artificial intelligent approach to traffic accident estimation: model development and application}},
+--line 718 of file Bibliografia/Bibliografia.bib
+I was expecting a `,' or a `}'---line 723 of file Bibliografia/Bibliografia.bib
+ :  
+ :  note = {Acessado em: 20.Out.2015},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "Decision2014" isn't style-file defined
+--line 736 of file Bibliografia/Bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
-while executing---line 2095 of file Bibliografia/abnt-num.bst
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
-while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2095 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
@@ -104,63 +70,57 @@ while executing---line 2095 of file Bibliografia/abnt-num.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Name 1 in "H. V. Jagadish, J. Gehrke, and C. Shahabi" has a comma at the end for entry bigdataQualquerUm
-while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em DadosGoverno
 Warning--campo title vazio em Br-Brasil
-Warning--campo year vazio ou faltando em Ben-David2014
-Name 1 in "J. Han, and M. Kamber" has a comma at the end for entry DataMining2
-while executing---line 2150 of file Bibliografia/abnt-num.bst
 Too many commas in name 1 of "Monard, M., Baranauskas, J. A." for entry Monard
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Name 1 in "Camilo, CÃ¡ssio Oliveira, and JoÃ£o Carlos da Silva" has a comma at the end for entry Camilo
 while executing---line 2150 of file Bibliografia/abnt-num.bst
 Warning--campo title vazio em MD_AM
-Warning--campo title vazio em akgungor2009artificial
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-num.bst versão 1.42.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 91 entries,
+You've used 92 entries,
             6480 wiz_defined-function locations,
-            1704 strings with 25659 characters,
-and the built_in function-call counts, 65721 in all, are:
-= -- 4868
-> -- 2168
-< -- 154
-+ -- 873
-- -- 652
-* -- 4714
-:= -- 8601
-add.period$ -- 325
-call.type$ -- 91
-change.case$ -- 933
-chr.to.int$ -- 208
-cite$ -- 95
-duplicate$ -- 3529
-empty$ -- 4932
-format.name$ -- 3369
-if$ -- 15487
+            1725 strings with 25833 characters,
+and the built_in function-call counts, 63649 in all, are:
+= -- 4724
+> -- 1857
+< -- 166
++ -- 733
+- -- 566
+* -- 4423
+:= -- 8358
+add.period$ -- 334
+call.type$ -- 92
+change.case$ -- 842
+chr.to.int$ -- 218
+cite$ -- 94
+duplicate$ -- 3559
+empty$ -- 5006
+format.name$ -- 2878
+if$ -- 14996
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1584
-newline$ -- 469
-num.names$ -- 360
-pop$ -- 2165
+missing$ -- 1589
+newline$ -- 480
+num.names$ -- 364
+pop$ -- 2079
 preamble$ -- 1
-purify$ -- 353
+purify$ -- 328
 quote$ -- 0
-skip$ -- 3523
+skip$ -- 3455
 stack$ -- 1
-substring$ -- 2689
-swap$ -- 1635
-text.length$ -- 115
+substring$ -- 2837
+swap$ -- 1667
+text.length$ -- 124
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 11
-warning$ -- 5
-while$ -- 566
+warning$ -- 3
+while$ -- 584
 width$ -- 0
-write$ -- 1245
-(There were 31 error messages)
+write$ -- 1280
+(There were 16 error messages)
