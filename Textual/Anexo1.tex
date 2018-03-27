@@ -31,7 +31,7 @@ Isso possibilitou ganho qualitativo nos dados evitando
 passar pelos transtornos como descreve Costa (2015) quando coletou os dados diretamente da Internet.\cite{Costa2015} 
 As bases de dados do INPE e do base de dados do IBGE apresentaram boa qualidade, ou seja: poucos dados ausentes ``missing data'' e consistência (banco de dados relacionais) o que justificou serem serem coletados diretamente da Internet.
 
-Originalmente os dados provenientes da PRF continham 85.209 instâncias, com 27 atributos, dentre eles: Km, Latitude, Longitude, Condiçẽos da Pista, Causa do Acidente, Município, Data, Hora, Tipo de Veículo, Quantidade de Mortos, Quantidade de Feridos Graves, e outros que estão descritos na Tabela A.1.
+Originalmente os dados provenientes da PRF continham 85.209 instâncias, 27 atributos, dentre eles: Km, Latitude, Longitude, Condições da Pista, Causa do Acidente, Município, Data, Hora, Tipo de Veículo, Quantidade de Mortos, Quantidade de Feridos Graves, dentre outros descritos na Tabela A.1
 
 
 \begin{figure}[ht!]
@@ -190,3 +190,57 @@ Curiosidades sobre os dados do Twitter utilizados nesta pesquisa:
 \end{itemize}
 
 A mineração sobre dados textuais foi feira a partir da variável ``text''. As variáveis ``favorited'', ``retweeted'' dentre outras foram utilizadas para gerar os grafos, ver Figura 2.11.
+
+As Figuras A.7 a A.8 são referentes aos documentos de autorização para liberação dos dados provenientes da PRF e do BPRv.
+Os dados do BPRv foram descartados a priori, pois, o modelo proposto, com a solução incluindo somente as BRs atendia. Um trabalho continuado poderia incluir esses novos dados para otimizar o modelo preditivo. A Figura A.9 contém dados da evolução da frota de veículos em Pernambuco. Os dados de 2007 a 2015 serviram para normalizar as Martrizes de Acidentes.
+
+
+\pagebreak
+
+\begin{figure}[ht!]
+	\centering
+		\caption{Documento liberação dos dados PRF}
+		\includegraphics[scale=0.30]{Figuras/Anexos/A1-PRFDadospg_001.pdf}
+		\qquad \quad \quad
+		\includegraphics[scale=0.30]{Figuras/Anexos/A1-PRFDadospg_002.pdf}
+		\qquad \quad \quad
+		\includegraphics[scale=0.30]{Figuras/Anexos/A1-PRFDadospg_003.pdf}
+		\qquad \quad \quad
+		\includegraphics[scale=0.30]{Figuras/Anexos/A1-PRFDadospg_004.pdf}
+		\qquad \quad \quad
+		\includegraphics[scale=0.30]{Figuras/Anexos/A1-PRFDadospg_005.pdf}
+		\label{fig:Documento liberação dos dados PRF}
+\end{figure}
+
+\pagebreak
+
+
+\begin{figure}[ht!]
+	\centering
+	\caption{Documento liberação dos dados BPRv}
+	\includegraphics[scale=0.35]{Figuras/Anexos/A1-BPRvpg001.pdf}
+	%\qquad \quad \quad
+	%\includegraphics[scale=0.30]{Figuras/Anexos/A1-BPRvpg002.pdf}
+	%\label{fig:Documento liberação dos dados PRF}
+\end{figure}
+
+\begin{figure}[ht!]
+	\centering
+	\caption{Frota de veículos de Pernambuco - por cidade}
+	\includegraphics[scale=0.35]{Figuras/Anexos/A1-FrotaPE.pdf}
+	%\qquad \quad \quad
+	%\includegraphics[scale=0.30]{Figuras/Anexos/A1-BPRvpg002.pdf}
+	%\label{fig:Documento liberação dos dados PRF}
+\end{figure}
+	
+%\pagebreak
+
+%	\begin{figure}[ht!]
+%		\centering
+%		%\caption{Dados originais do Twitter}
+%		\includepdf[pages=2,pagecommand={}, offset=-1.0cm -0.01cm]{Figuras/Anexos/A1-PRFDados.pdf}
+%		\label{fig:Documento liberação dos dados PRF}
+%	\end{figure}
+
+		
+

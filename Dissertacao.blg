@@ -84,37 +84,37 @@ Warning--campo title vazio em MD_AM
 +---------------------------------------------------------+
 You've used 92 entries,
             6480 wiz_defined-function locations,
-            1725 strings with 25833 characters,
-and the built_in function-call counts, 63649 in all, are:
-= -- 4724
-> -- 1857
+            1725 strings with 25832 characters,
+and the built_in function-call counts, 63423 in all, are:
+= -- 4707
+> -- 1835
 < -- 166
-+ -- 733
-- -- 566
-* -- 4423
-:= -- 8358
++ -- 723
+- -- 560
+* -- 4396
+:= -- 8330
 add.period$ -- 334
 call.type$ -- 92
-change.case$ -- 842
+change.case$ -- 835
 chr.to.int$ -- 218
 cite$ -- 94
-duplicate$ -- 3559
-empty$ -- 5006
-format.name$ -- 2878
-if$ -- 14996
+duplicate$ -- 3556
+empty$ -- 5005
+format.name$ -- 2843
+if$ -- 14943
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1589
+missing$ -- 1588
 newline$ -- 480
 num.names$ -- 364
-pop$ -- 2079
+pop$ -- 2075
 preamble$ -- 1
-purify$ -- 328
+purify$ -- 326
 quote$ -- 0
-skip$ -- 3455
+skip$ -- 3447
 stack$ -- 1
 substring$ -- 2837
-swap$ -- 1667
+swap$ -- 1665
 text.length$ -- 124
 text.prefix$ -- 0
 top$ -- 0

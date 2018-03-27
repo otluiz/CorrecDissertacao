@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  23 MAR 2018 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  27 MAR 2018 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,8 +1193,8 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
-Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -1209,6 +1209,26 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count179
 \calc@Cskip=\skip82
 )
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen309
+\AM@pageheight=\dimen310
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box47
+\AM@toc@title=\toks45
+\c@AM@survey=\count180
+\AM@templatesizebox=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
+
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -1216,12 +1236,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \minimumbiblabelwidth=\skip83
 \ABCIauxlen=\skip84
-\c@ABCIaux=\count180
-\c@ABCImax=\count181
+\c@ABCIaux=\count181
+\c@ABCImax=\count182
 \biblabelsep=\skip85
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
-\ABCItoken=\toks45
+\ABCItoken=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
@@ -1253,7 +1273,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count182
+\c@lips@count=\count183
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -1385,22 +1405,27 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count183
-\scratchdimen=\dimen309
-\scratchbox=\box47
-\nofMPsegments=\count184
-\nofMParguments=\count185
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count186
-\MPscratchDim=\dimen310
-\MPnumerator=\count187
-\makeMPintoPDFobject=\count188
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count184
+\scratchdimen=\dimen311
+\scratchbox=\box49
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen312
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks48
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 8.
- ABD: EverySelectfont initializing macros
+\AtBeginShipoutBox=\box50
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 8.
 \openout2 = `Pre-textual/Capa.aux'.
 
@@ -2275,31 +2300,30 @@ File: Figuras/Twitter/freqPalavr.png Graphic file (type png)
 <use Figuras/Twitter/freqPalavr.png>
 Package pdftex.def Info: Figuras/Twitter/freqPalavr.png used on input line 1071
 .
-(pdftex.def)             Requested size: 318.66948pt x 239.72295pt.
-
-<Figuras/Twitter/nuvem2.png, id=431, 522.45187pt x 364.36125pt>
+(pdftex.def)             Requested size: 284.55316pt x 184.94894pt.
+ [89 <./Figuras/Twitter/freqPalavr.png>]
+<Figuras/Twitter/nuvem2.png, id=435, 522.45187pt x 364.36125pt>
 File: Figuras/Twitter/nuvem2.png Graphic file (type png)
 
 <use Figuras/Twitter/nuvem2.png>
 Package pdftex.def Info: Figuras/Twitter/nuvem2.png used on input line 1082.
 (pdftex.def)             Requested size: 273.14923pt x 190.49748pt.
 
-<Figuras/Twitter//Cluster.png, id=432, 430.60875pt x 255.20343pt>
+<Figuras/Twitter//Cluster.png, id=436, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter//Cluster.png Graphic file (type png)
 
 <use Figuras/Twitter//Cluster.png>
 Package pdftex.def Info: Figuras/Twitter//Cluster.png used on input line 1097.
 (pdftex.def)             Requested size: 318.66948pt x 188.86705pt.
- [89] [90 <./Figuras/Twitter/freqPalavr.png> <./Figuras/Twitter/nuvem2.png (PNG
- copy)>]
+ [90 <./Figuras/Twitter/nuvem2.png (PNG copy)> <./Figuras/Twitter//Cluster.png 
+(PNG copy)>]
 <Figuras/Twitter/Cluster2.png, id=441, 430.60875pt x 255.20343pt>
 File: Figuras/Twitter/Cluster2.png Graphic file (type png)
 
 <use Figuras/Twitter/Cluster2.png>
 Package pdftex.def Info: Figuras/Twitter/Cluster2.png used on input line 1110.
 (pdftex.def)             Requested size: 409.71692pt x 242.8274pt.
-) [91 <./Figuras/Twitter//Cluster.png (PNG copy)> <./Figuras/Twitter/Cluster2.p
-ng (PNG copy)>]
+) [91 <./Figuras/Twitter/Cluster2.png (PNG copy)>]
 \openout2 = `Textual/5_conclusao.aux'.
 
  (./Textual/5_conclusao.tex
@@ -2324,21 +2348,6 @@ Package pdftex.def Info: Figuras/Anexos/Mapa-pe.pdf used on input line 9.
 
 
  <./Figuras/Anexos/Mapa-pe.pdf>]
-
-! Package inputenc Error: Unicode char ẽ (U+1EBD)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ... eles: Km, Latitude, Longitude, Condiçẽ
-                                                  os da Pista, Causa do Acid...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 <Figuras/Anexos/PlanilhaPRF.png, id=473, 884.30376pt x 529.98pt>
 File: Figuras/Anexos/PlanilhaPRF.png Graphic file (type png)
 
@@ -2394,13 +2403,74 @@ File: Figuras/Anexos/tweetPRF.png Graphic file (type png)
 <use Figuras/Anexos/tweetPRF.png>
 Package pdftex.def Info: Figuras/Anexos/tweetPRF.png used on input line 180.
 (pdftex.def)             Requested size: 409.71692pt x 162.05327pt.
-) [102 <./Figuras/Anexos/tweetPRF.png (PNG copy)>] (./Dissertacao.bbl [103
+ [102 <./Figuras/Anexos/tweetPRF.png (PNG copy)>] <Figuras/Anexos/A1-PRFDadospg
+_001.pdf, id=497, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-PRFDadospg_001.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-PRFDadospg_001.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-PRFDadospg_001.pdf used on input lin
+e 203.
+(pdftex.def)             Requested size: 184.28992pt x 253.5251pt.
+
+<Figuras/Anexos/A1-PRFDadospg_002.pdf, id=498, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-PRFDadospg_002.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-PRFDadospg_002.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-PRFDadospg_002.pdf used on input lin
+e 205.
+(pdftex.def)             Requested size: 184.28992pt x 253.5251pt.
+
+<Figuras/Anexos/A1-PRFDadospg_003.pdf, id=499, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-PRFDadospg_003.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-PRFDadospg_003.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-PRFDadospg_003.pdf used on input lin
+e 207.
+(pdftex.def)             Requested size: 184.28992pt x 253.5251pt.
+
+<Figuras/Anexos/A1-PRFDadospg_004.pdf, id=500, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-PRFDadospg_004.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-PRFDadospg_004.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-PRFDadospg_004.pdf used on input lin
+e 209.
+(pdftex.def)             Requested size: 184.28992pt x 253.5251pt.
+
+<Figuras/Anexos/A1-PRFDadospg_005.pdf, id=501, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-PRFDadospg_005.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-PRFDadospg_005.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-PRFDadospg_005.pdf used on input lin
+e 211.
+(pdftex.def)             Requested size: 184.28992pt x 253.5251pt.
 
 
-] [104] [105] [106] [107] [108])
+LaTeX Warning: Float too large for page by 81.38963pt on input line 213.
+
+<Figuras/Anexos/A1-BPRvpg001.pdf, id=502, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-BPRvpg001.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-BPRvpg001.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-BPRvpg001.pdf used on input line 221
+.
+(pdftex.def)             Requested size: 215.00647pt x 295.78145pt.
+
+<Figuras/Anexos/A1-FrotaPE.pdf, id=503, 614.295pt x 845.07718pt>
+File: Figuras/Anexos/A1-FrotaPE.pdf Graphic file (type pdf)
+
+<use Figuras/Anexos/A1-FrotaPE.pdf>
+Package pdftex.def Info: Figuras/Anexos/A1-FrotaPE.pdf used on input line 230.
+(pdftex.def)             Requested size: 215.00647pt x 295.78145pt.
+) [103 <./Figuras/Anexos/A1-PRFDadospg_001.pdf> <./Figuras/Anexos/A1-PRFDadospg
+_002.pdf> <./Figuras/Anexos/A1-PRFDadospg_003.pdf> <./Figuras/Anexos/A1-PRFDado
+spg_004.pdf> <./Figuras/Anexos/A1-PRFDadospg_005.pdf>] [104 <./Figuras/Anexos/A
+1-BPRvpg001.pdf> <./Figuras/Anexos/A1-FrotaPE.pdf>] (./Dissertacao.bbl [105
+
+
+] [106] [107] [108] [109] [110])
 
 AED: lastpage setting LastPage
-[109] (./Dissertacao.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux
+[111] (./Dissertacao.aux (./Pre-textual/Capa.aux) (./Pre-textual/FolhaRosto.aux
 ) (./Textual/1_introducao.aux) (./Textual/2_estado_arte.aux)
 (./Textual/3_metodologia.aux) (./Textual/4_simulacao.aux)
 (./Textual/5_conclusao.aux) (./Textual/Anexo1.aux))
@@ -2413,10 +2483,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18283 strings out of 493029
- 303090 string characters out of 6136234
- 549537 words of memory out of 5000000
- 21172 multiletter control sequences out of 15000+600000
+ 18987 strings out of 493029
+ 315477 string characters out of 6136234
+ 564588 words of memory out of 5000000
+ 21851 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,53p,1433b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2440,10 +2510,10 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm2986.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Dissertacao.pdf (110 pages, 9203875 bytes).
+Output written on Dissertacao.pdf (112 pages, 15871064 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
+ 624 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 446 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 481 words of extra memory for PDF output out of 10000 (max. 10000000)
 

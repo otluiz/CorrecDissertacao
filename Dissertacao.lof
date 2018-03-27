@@ -60,9 +60,9 @@
 \contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de Gravidade 3D: Br 116 predi\IeC {\c c}\IeC {\~a}o para quinta-feira}}{84}
 \contentsline {figure}{\numberline {4.32}{\ignorespaces Rede Neural utilizada na classifica\IeC {\c c}\IeC {\~a}o}}{87}
 \contentsline {figure}{\numberline {4.33}{\ignorespaces Resultado da classifica\IeC {\c c}\IeC {\~a}o feita pela Rede Neural -- acur\IeC {\'a}cia}}{88}
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Gr\IeC {\'a}fico de frequ\IeC {\^e}ncia de palavras -- unigramas}}{90}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Gr\IeC {\'a}fico de frequ\IeC {\^e}ncia de palavras -- unigramas}}{89}
 \contentsline {figure}{\numberline {4.35}{\ignorespaces Gr\IeC {\'a}fico tipo Nuvem de Palavras referente aos unigramas}}{90}
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Dendograma de Agrupamento (clustering) do resultado da minera\IeC {\c c}\IeC {\~a}o}}{91}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Dendograma de Agrupamento (clustering) do resultado da minera\IeC {\c c}\IeC {\~a}o}}{90}
 \contentsline {figure}{\numberline {4.37}{\ignorespaces Gr\IeC {\'a}fico da Agrupamento (clustering) do resultado a minera\IeC {\c c}\IeC {\~a}o}}{91}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -72,3 +72,6 @@
 \contentsline {figure}{\numberline {A.4}{\ignorespaces Sequ\IeC {\^e}ncia para tratamento dos dados das Redes Sociais}}{101}
 \contentsline {figure}{\numberline {A.5}{\ignorespaces WorkFlow do Twitter}}{101}
 \contentsline {figure}{\numberline {A.6}{\ignorespaces Dados originais do Twitter}}{102}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Documento libera\IeC {\c c}\IeC {\~a}o dos dados PRF}}{103}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Documento libera\IeC {\c c}\IeC {\~a}o dos dados BPRv}}{104}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Frota de ve\IeC {\'\i }culos de Pernambuco - por cidade}}{104}
