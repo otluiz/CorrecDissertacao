@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  27 MAR 2018 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  6 APR 2018 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1499,24 +1499,25 @@ Non-PDF special ignored!
 
 
 (./Pre-textual/FolhaRosto.tex
-Package epstopdf Info: Source file: <Figuras/Capa/brasao_upe.eps>
-(epstopdf)                    date: 2018-03-21 00:05:17
-(epstopdf)                    size: 197068 bytes
-(epstopdf)             Output file: <Figuras/Capa/brasao_upe-eps-converted-to.p
-df>
-(epstopdf)                    date: 2018-03-21 00:05:17
-(epstopdf)                    size: 53968 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figuras/Capa/brasao_upe-ep
-s-converted-to.pdf Figuras/Capa/brasao_upe.eps>
+Package epstopdf Info: Source file: <Figuras/Capa/brasao_upe2.eps>
+(epstopdf)                    date: 2018-04-06 17:03:06
+(epstopdf)                    size: 648056 bytes
+(epstopdf)             Output file: <Figuras/Capa/brasao_upe2-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2018-04-06 17:04:22
+(epstopdf)                    size: 191151 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figuras/Capa/brasao_upe2-e
+ps-converted-to.pdf Figuras/Capa/brasao_upe2.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figuras/Capa/brasao_upe-eps-converted-to.pdf, id=19, 367.3725pt x 458.71375pt>
-File: Figuras/Capa/brasao_upe-eps-converted-to.pdf Graphic file (type pdf)
-<use Figuras/Capa/brasao_upe-eps-converted-to.pdf>
-Package pdftex.def Info: Figuras/Capa/brasao_upe-eps-converted-to.pdf used on i
-nput line 9.
-(pdftex.def)             Requested size: 45.57388pt x 56.9055pt.
+<Figuras/Capa/brasao_upe2-eps-converted-to.pdf, id=19, 465.74pt x 581.17125pt>
+File: Figuras/Capa/brasao_upe2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figuras/Capa/brasao_upe2-eps-converted-to.pdf>
+Package pdftex.def Info: Figuras/Capa/brasao_upe2-eps-converted-to.pdf used on 
+input line 9.
+(pdftex.def)             Requested size: 91.20624pt x 113.81102pt.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1524,7 +1525,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )) [1
 
 
- <./Figuras/Capa/brasao_upe-eps-converted-to.pdf>]
+ <./Figuras/Capa/brasao_upe2-eps-converted-to.pdf>]
 (./Pre-textual/Epigrafe.tex) [2
 
 ]
@@ -2487,8 +2488,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  18987 strings out of 493029
- 315477 string characters out of 6136234
- 564588 words of memory out of 5000000
+ 315482 string characters out of 6136234
+ 564625 words of memory out of 5000000
  21851 multiletter control sequences out of 15000+600000
  34030 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2513,7 +2514,7 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm2986.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Dissertacao.pdf (112 pages, 15869161 bytes).
+Output written on Dissertacao.pdf (112 pages, 16005890 bytes).
 PDF statistics:
  624 PDF objects out of 1000 (max. 8388607)
  337 compressed objects within 4 object streams

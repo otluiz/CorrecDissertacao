@@ -393,10 +393,10 @@ Manole Ltda, Barueri - SP, v.~1, p. 89--114, 2003.}
 [S.l.], 2009. 1--29~p.}
 
 \bibitem{Decision2014}
-\abntrefinfo{HSSINA Abdelkarim~MERBOUHA e ERRITALI}{HSSINA ABDELKARIM~MERBOUHA;
-  ERRITALI}{2014}
-{HSSINA ABDELKARIM~MERBOUHA, H.~E. B.; ERRITALI, M. \emph{{A comparative study
-  of decision tree ID3 and C4.5}}. 2014.
+\abntrefinfo{{HSSINA, B.; MERBOUHA, A.; EZZIKOURI, H.; ERRITALI, M.}}{{HSSINA,
+  B.; MERBOUHA, A.; EZZIKOURI, H.; ERRITALI, M.}}{2014}
+{{HSSINA, B.; MERBOUHA, A.; EZZIKOURI, H.; ERRITALI, M.} \emph{{A comparative
+  study of decision tree ID3 and C4.5}}. 2014.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
 
 \bibitem{Quinlan86inductionof}
@@ -406,8 +406,8 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.14569/SpecialIssue.2014.040203}.}
 
 \bibitem{Kohavi99decisiontree}
 \abntrefinfo{Kohavi e Quinlan}{KOHAVI; QUINLAN}{1999}
-{KOHAVI, R.; QUINLAN, R. Decision tree discovery. In:  \emph{IN HANDBOOK OF
-  DATA MINING AND KNOWLEDGE DISCOVERY}. [S.l.]: University Press, 1999. p.
+{KOHAVI, R.; QUINLAN, R. Decision tree discovery. In:  \emph{In Handbook of
+  Data Mining and Knowledge Discovery}. [S.l.]: University Press, 1999. p.
   267--276.}
 
 \bibitem{Simoes2008}
